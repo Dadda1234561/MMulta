@@ -43,13 +43,20 @@
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
         <ai_params>
-            <set name="ParalizeOnAttack" value="-1000" />
+            <set name="ParalizeOnAttack" value="1000" />
             <set name="flagAttacker" value="true" />
         </ai_params>
         <rewardlist type="EVENT_RATED_NOT_GROUPED">
-            <reward item_id="57" min="1" max="1" chance="100"/>
-            <reward item_id="4037" min="1" max="1" chance="100"/>
+		<group>
+            <reward item_id="106415" min="100" max="100" chance="100"/>
+		</group>
         </rewardlist>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="70018" min="10" max="10" chance="100"/>
+            </group>
+        </rewardlist>
+
     </npc>
     <npc id="50001" name="Королева Муравьев [PVE] / Queen Ant [PVE]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -93,7 +100,7 @@
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
         <ai_params>
-            <set name="ParalizeOnAttack" value="-1000" />
+            <set name="ParalizeOnAttack" value="1000" />
         </ai_params>
     </npc>
     <npc id="50002" name="Ядро [PVP] /  Core [PVP]" title="Страж MultImperia">
@@ -364,7 +371,7 @@
         <set name="ai_type" value="Fighter"/>
         <set name="collision_height" value="148.5"/>
         <set name="collision_radius" value="150"/>
-        <set name="level" value="70"/>
+        <set name="level" value="85"/>
         <set name="rewardExp" value="0"/>
         <set name="rewardRp" value="0"/>
         <set name="rewardSp" value="0"/>
@@ -400,6 +407,13 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
+		<ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+            <set name="flagAttacker" value="true" />
+        </ai_params>
+		<rewardlist type="EVENT_RATED_NOT_GROUPED">
+            <reward item_id="106415" min="100" max="100" chance="100"/>
+        </rewardlist>
     </npc>
     <npc id="50009" name="Антарас [PVE] / Antharas [PVE]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>

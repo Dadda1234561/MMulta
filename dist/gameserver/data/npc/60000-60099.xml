@@ -120,7 +120,7 @@
 		</rewardlist>
     </npc>
     <npc id="60001" name="Ученица Айгис" title="">
-        <set name="type" value="Monster"/>
+        <set name="type" value="RaidBoss"/>
         <set name="ai_type" value="Fighter"/>
         <set name="collision_height" value="67"/>
         <set name="collision_radius" value="20"/>
@@ -161,12 +161,12 @@
         <set name="shots" value="SOUL"/>
 		<rewardlist type="RATE_COUNT_GROUPED">
             <group chance="100">
-                <reward item_id="106414" min="400" max="530" chance="80"/>
+                <reward item_id="106414" min="280" max="350" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="RATE_COUNT_GROUPED">
             <group chance="100">
-                <reward item_id="106415" min="310" max="350" chance="80"/>
+                <reward item_id="106415" min="280" max="350" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="RATE_COUNT_GROUPED">
@@ -181,12 +181,12 @@
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="105250" min="1" max="1" chance="60"/>
+                <reward item_id="105250" min="1" max="2" chance="100"/>
             </group>
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="105252" min="1" max="1" chance="80"/>
+                <reward item_id="105252" min="1" max="2" chance="100"/>
             </group>
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
@@ -204,7 +204,7 @@
         </rewardlist>
 	    <rewardlist type="NOT_RATED_GROUPED">
 			<group>
-				<reward item_id="70038" min="4" max="4" chance="90"/>    <!--кастом итем-->
+				<reward item_id="70038" min="1" max="2" chance="80"/>    <!--кастом итем-->
 			</group>
 		</rewardlist>	
 		<rewardlist type="NOT_RATED_GROUPED">
@@ -224,12 +224,12 @@
 		</rewardlist>	
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="106539" min="25" max="30" chance="70"/>
+                <reward item_id="106539" min="30" max="40" chance="80"/>
             </group>
         </rewardlist>	
 		<rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="70007" min="3" max="3" chance="100"/>
+                <reward item_id="110615" min="3" max="3" chance="100"/>
             </group>
 			<group>
                 <reward item_id="110627" min="1" max="1" chance="80"/>

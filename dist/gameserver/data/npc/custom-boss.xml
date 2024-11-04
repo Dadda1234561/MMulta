@@ -88,7 +88,7 @@
     </npc>
 
     <npc id="40020" name="Demon Venoma" title="Raid Boss">
-        <set name="type" value="Monster"/>
+        <set name="type" value="RaidBoss"/>
         <set name="ai_type" value="Fighter"/>
         <set name="collision_height" value="56"/>
         <set name="collision_radius" value="20"/>
@@ -129,12 +129,12 @@
         <set name="shots" value="NONE"/>
         <rewardlist type="RATE_COUNT_GROUPED">
             <group chance="100">
-                <reward item_id="106414" min="190" max="240" chance="80"/>
+                <reward item_id="106414" min="170" max="220" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="RATE_COUNT_GROUPED">
             <group chance="100">
-                <reward item_id="106415" min="210" max="250" chance="80"/>
+                <reward item_id="106415" min="170" max="220" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="RATE_COUNT_GROUPED">
@@ -149,12 +149,12 @@
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="105250" min="1" max="1" chance="20"/>
+                <reward item_id="105250" min="1" max="1" chance="40"/>
             </group>
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="105252" min="1" max="1" chance="30"/>
+                <reward item_id="105252" min="1" max="1" chance="40"/>
             </group>
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
@@ -172,7 +172,7 @@
         </rewardlist>
 	    <rewardlist type="NOT_RATED_GROUPED">
 			<group>
-				<reward item_id="70038" min="2" max="2" chance="90"/>    <!--кастом итем-->
+				<reward item_id="70038" min="1" max="1" chance="50"/>    <!--кастом итем-->
 			</group>
 		</rewardlist>	
 		<rewardlist type="NOT_RATED_GROUPED">
@@ -197,7 +197,7 @@
 		</rewardlist>	
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="106539" min="15" max="20" chance="70"/>
+                <reward item_id="106539" min="20" max="30" chance="80"/>
             </group>
         </rewardlist>	
         <rewardlist type="NOT_RATED_GROUPED">
@@ -207,12 +207,12 @@
         </rewardlist>
 		<rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="70007" min="1" max="1" chance="80"/>
+                <reward item_id="110615" min="1" max="2" chance="90"/>
             </group>
         </rewardlist>
     </npc>
     <npc id="40021" name="Akrikhin Charon" title="Raid Boss">
-        <set name="type" value="Monster"/>
+        <set name="type" value="RaidBoss"/>
         <set name="ai_type" value="Fighter"/>
         <set name="collision_height" value="104.5"/>
         <set name="collision_radius" value="30"/>
@@ -253,12 +253,12 @@
         <set name="shots" value="NONE"/>
         <rewardlist type="RATE_COUNT_GROUPED">
             <group chance="100">
-                <reward item_id="106414" min="170" max="220" chance="80"/>
+                <reward item_id="106414" min="160" max="210" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="RATE_COUNT_GROUPED">
             <group chance="100">
-                <reward item_id="106415" min="190" max="230" chance="80"/>
+                <reward item_id="106415" min="160" max="210" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="RATE_COUNT_GROUPED">
@@ -273,12 +273,12 @@
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="105250" min="1" max="1" chance="20"/>
+                <reward item_id="105250" min="1" max="1" chance="35"/>
             </group>
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="105252" min="1" max="1" chance="30"/>
+                <reward item_id="105252" min="1" max="1" chance="35"/>
             </group>
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
@@ -296,7 +296,7 @@
         </rewardlist>
 	    <rewardlist type="NOT_RATED_GROUPED">
 			<group>
-				<reward item_id="70038" min="1" max="2" chance="90"/>    <!--кастом итем-->
+				<reward item_id="70038" min="1" max="1" chance="40"/>    <!--кастом итем-->
 			</group>
 		</rewardlist>	
 		<rewardlist type="NOT_RATED_GROUPED">
@@ -321,7 +321,7 @@
 		</rewardlist>	
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="106539" min="15" max="20" chance="70"/>
+                <reward item_id="106539" min="20" max="30" chance="80"/>
             </group>
         </rewardlist>	
         <rewardlist type="NOT_RATED_GROUPED">
@@ -331,12 +331,12 @@
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="70007" min="1" max="1" chance="80"/>
+                <reward item_id="110615" min="1" max="2" chance="90"/>
             </group>
         </rewardlist>			
     </npc>
     <npc id="40022" name="Octavis" title="">
-        <set name="type" value="Monster"/>
+        <set name="type" value="RaidBoss"/>
         <set name="ai_type" value="Fighter"/>
         <set name="collision_height" value="81"/>
         <set name="collision_radius" value="30"/>
@@ -377,12 +377,12 @@
         <set name="shots" value="NONE"/>
         <rewardlist type="RATE_COUNT_GROUPED">
             <group chance="100">
-                <reward item_id="106414" min="230" max="280" chance="80"/>
+                <reward item_id="106414" min="190" max="240" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="RATE_COUNT_GROUPED">
             <group chance="100">
-                <reward item_id="106415" min="250" max="290" chance="80"/>
+                <reward item_id="106415" min="190" max="240" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="RATE_COUNT_GROUPED">
@@ -397,12 +397,12 @@
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="105250" min="1" max="1" chance="40"/>
+                <reward item_id="105250" min="1" max="1" chance="75"/>
             </group>
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="105252" min="1" max="1" chance="50"/>
+                <reward item_id="105252" min="1" max="1" chance="75"/>
             </group>
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
@@ -420,7 +420,7 @@
         </rewardlist>
 	    <rewardlist type="NOT_RATED_GROUPED">
 			<group>
-				<reward item_id="70038" min="2" max="2" chance="90"/>    <!--кастом итем-->
+				<reward item_id="70038" min="1" max="1" chance="70"/>    <!--кастом итем-->
 			</group>
 		</rewardlist>	
 		<rewardlist type="NOT_RATED_GROUPED">
@@ -445,7 +445,7 @@
 		</rewardlist>	
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="106539" min="15" max="20" chance="70"/>
+                <reward item_id="106539" min="20" max="30" chance="80"/>
             </group>
         </rewardlist>	
         <rewardlist type="NOT_RATED_GROUPED">
@@ -455,7 +455,7 @@
         </rewardlist>
 		<rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="70007" min="1" max="1" chance="80"/>
+                <reward item_id="110615" min="1" max="2" chance="90"/>
             </group>
 			<group>
 				<reward item_id="110620" min="1" max="1" chance="5"/>    <!--кастом итем-->
@@ -463,7 +463,7 @@
         </rewardlist>
     </npc>
     <npc id="40023" name="Helios" title="Emperor of the Beginning">
-        <set name="type" value="Monster"/>
+        <set name="type" value="RaidBoss"/>
         <set name="ai_type" value="Mystic"/>
         <set name="collision_height" value="180"/>
         <set name="collision_radius" value="105"/>
@@ -504,12 +504,12 @@
         <set name="shots" value="NONE"/>
         <rewardlist type="RATE_COUNT_GROUPED">
             <group chance="100">
-                <reward item_id="106414" min="350" max="500" chance="80"/>
+                <reward item_id="106414" min="220" max="270" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="RATE_COUNT_GROUPED">
             <group chance="100">
-                <reward item_id="106415" min="270" max="310" chance="80"/>
+                <reward item_id="106415" min="220" max="270" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="RATE_COUNT_GROUPED">
@@ -524,12 +524,12 @@
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="105250" min="1" max="1" chance="50"/>
+                <reward item_id="105250" min="1" max="1" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="105252" min="1" max="1" chance="60"/>
+                <reward item_id="105252" min="1" max="1" chance="80"/>
             </group>
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
@@ -547,7 +547,7 @@
         </rewardlist>
 	    <rewardlist type="NOT_RATED_GROUPED">
 			<group>
-				<reward item_id="70038" min="2" max="3" chance="90"/>    <!--кастом итем-->
+				<reward item_id="70038" min="1" max="1" chance="80"/>    <!--кастом итем-->
 			</group>
 		</rewardlist>	
 		<rewardlist type="NOT_RATED_GROUPED">
@@ -572,7 +572,7 @@
 		</rewardlist>	
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="106539" min="15" max="20" chance="70"/>
+                <reward item_id="106539" min="20" max="30" chance="80"/>
             </group>
         </rewardlist>	
         <rewardlist type="NOT_RATED_GROUPED">
@@ -582,7 +582,7 @@
         </rewardlist>
 		<rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="70007" min="1" max="1" chance="80"/>
+                <reward item_id="110615" min="1" max="2" chance="90"/>
             </group>
 			<group>
 				<reward item_id="110620" min="1" max="1" chance="5"/>    <!--кастом итем-->

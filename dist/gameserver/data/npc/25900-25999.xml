@@ -2492,7 +2492,7 @@
 		</client_skills>
 	</npc>
 	<npc id="25937" name="Spicula Negative" title="Raid Boss">
-		<set name="type" value="Monster"/>
+		<set name="type" value="RaidBoss"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_height" value="40"/>
 		<set name="collision_radius" value="20"/>
@@ -2536,7 +2536,7 @@
 		</client_skills>
 		<rewardlist type="RATE_COUNT_GROUPED">
 			<group chance="100">
-				<reward item_id="106415" min="90" max="140" chance="80"/>
+				<reward item_id="106415" min="70" max="120" chance="80"/>
 			</group>
 			<group chance="100">
 				<reward item_id="48603" min="40" max="100" chance="70"/>
@@ -2552,12 +2552,12 @@
 				<reward item_id="37586" min="1" max="1" chance="25"/>
 			</group>
 			<group>
-				<reward item_id="105248" min="1" max="1" chance="50"/>
+				<reward item_id="105248" min="1" max="1" chance="75"/>
 			</group>
 		</rewardlist>
 		<rewardlist type="NOT_RATED_GROUPED">
 			<group>
-				<reward item_id="105263" min="1" max="1" chance="50"/>
+				<reward item_id="105263" min="1" max="1" chance="75"/>
 			</group>
 		</rewardlist>
 		<rewardlist type="NOT_RATED_GROUPED">
@@ -2580,7 +2580,7 @@
 		</rewardlist>
 		<rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="70007" min="1" max="1" chance="60"/>
+                <reward item_id="110615" min="1" max="1" chance="80"/>
             </group>
         </rewardlist>
 	</npc>

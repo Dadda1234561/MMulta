@@ -7199,11 +7199,11 @@
 		<set name="ai_type" value="custom.LabyrinthLostWatcher"/>
 		<set name="collision_height" value="31"/>
 		<set name="collision_radius" value="20"/>
-		<set name="level" value="49"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
-		<set name="baseHpMax" value="16605.6873020657"/>
+		<set name="baseHpMax" value="30684.918183978"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="70.2986762215597"/>
 		<set name="baseMpMax" value="720"/>
@@ -7215,11 +7215,11 @@
 		<set name="baseMEN" value="20"/>
 		<set name="baseWIT" value="20"/>
 		<set name="basePCritRate" value="40"/>
-		<set name="basePAtk" value="1565.167145235"/>
-		<set name="basePDef" value="313.060832"/>
+		<set name="basePAtk" value="2500.621067445"/>
+		<set name="basePDef" value="1000.060832"/>
 		<set name="basePAtkSpd" value="253"/>
 		<set name="baseMAtk" value="1068.80623772118"/>
-		<set name="baseMDef" value="343.626504"/>
+		<set name="baseMDef" value="305.492104"/>
 		<set name="baseWalkSpd" value="23"/>
 		<set name="baseRunSpd" value="440"/>
 		<set name="baseShldDef" value="0"/>
@@ -7243,17 +7243,26 @@
 			<set name="noRandomWalk" value="true" />
 		</ai_params>
 		<skills>
-			<skill id="4416" level="2"/>	<!--Magic Creatures-->
-			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="5462" level="1"/>	<!--Fire Attacks-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
 			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
-			<skill id="4410" level="3"/>	<!--Extremely Weak P. Atk.-->
-			<skill id="4411" level="3"/>	<!--Extremely Weak M. Atk.-->
-			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="18"/>	<!--Strong P. Def.-->
 			<skill id="4413" level="11"/>	<!--Average M. Def.-->
-			<skill id="4414" level="1"/>	<!--Heavy Armor Type-->
-			<skill id="4415" level="3"/>	<!--One-handed Sword-->
-			<skill id="4032" level="4" use_type="Skill01_ID"/>	<!--NPC Strike-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
 		</skills>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="951" min="3" max="6" chance="90"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="952" min="6" max="12" chance="90"/>  
+			</group>
+		</rewardlist>
 	</npc>
 	<npc id="22492" name="Lost Watcher" title="">
 		<set name="type" value="Monster"/>
@@ -7321,11 +7330,11 @@
 		<set name="ai_type" value="custom.LabyrinthLostBeholder"/>
 		<set name="collision_height" value="52"/>
 		<set name="collision_radius" value="27"/>
-		<set name="level" value="49"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
-		<set name="baseHpMax" value="33211.3746041314"/>
+		<set name="baseHpMax" value="50684.918183978"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="70.2986762215597"/>
 		<set name="baseMpMax" value="720"/>
@@ -7337,11 +7346,11 @@
 		<set name="baseMEN" value="20"/>
 		<set name="baseWIT" value="20"/>
 		<set name="basePCritRate" value="10"/>
-		<set name="basePAtk" value="1315.39400605676"/>
-		<set name="basePDef" value="313.060832"/>
+		<set name="basePAtk" value="3500.621067445"/>
+		<set name="basePDef" value="1000.060832"/>
 		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtk" value="898.243566519169"/>
-		<set name="baseMDef" value="343.626504"/>
+		<set name="baseMAtk" value="1068.80623772118"/>
+		<set name="baseMDef" value="305.492104"/>
 		<set name="baseWalkSpd" value="20"/>
 		<set name="baseRunSpd" value="440"/>
 		<set name="baseShldDef" value="0"/>
@@ -7365,29 +7374,47 @@
 			<set name="noRandomWalk" value="true" />
 		</ai_params>
 		<skills>
-			<skill id="4416" level="2"/>	<!--Magic Creatures-->
-			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="5462" level="1"/>	<!--Fire Attacks-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
 			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
-			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
 			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
-			<skill id="4412" level="7"/>	<!--Weak P. Def.-->
-			<skill id="4413" level="8"/>	<!--Weak M. Def.-->
-			<skill id="4414" level="1"/>	<!--Heavy Armor Type-->
-			<skill id="4415" level="5"/>	<!--Blunt Weapons-->
-			<skill id="4032" level="4" use_type="Skill01_ID"/>	<!--NPC Strike-->
-			<skill id="4613" level="4" use_type="Skill02_ID"/>	<!--NPC Clan Heal-->
+			<skill id="4412" level="18"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
 		</skills>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="951" min="3" max="6" chance="90"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="952" min="6" max="12" chance="90"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6573" min="1" max="1" chance="20"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6574" min="2" max="2" chance="20"/>  
+			</group>
+		</rewardlist>
 	</npc>
 	<npc id="22494" name="Lost Watcher" title="">
 		<set name="type" value="Monster"/>
 		<set name="ai_type" value="custom.LabyrinthLostWatcher"/>
 		<set name="collision_height" value="28.5"/>
 		<set name="collision_radius" value="11"/>
-		<set name="level" value="59"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
-		<set name="baseHpMax" value="29968.5829990193"/>
+		<set name="baseHpMax" value="100684.918183978"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="118.297038154024"/>
 		<set name="baseMpMax" value="1007"/>
@@ -7399,11 +7426,11 @@
 		<set name="baseMEN" value="20"/>
 		<set name="baseWIT" value="20"/>
 		<set name="basePCritRate" value="40"/>
-		<set name="basePAtk" value="3540.84563545436"/>
-		<set name="basePDef" value="388.505488"/>
+		<set name="basePAtk" value="4000.621067445"/>
+		<set name="basePDef" value="1000.060832"/>
 		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtk" value="2417.93855826416"/>
-		<set name="baseMDef" value="426.437184"/>
+		<set name="baseMAtk" value="1068.80623772118"/>
+		<set name="baseMDef" value="305.492104"/>
 		<set name="baseWalkSpd" value="80"/>
 		<set name="baseRunSpd" value="440"/>
 		<set name="baseShldDef" value="0"/>
@@ -7431,17 +7458,26 @@
 			<set name="noRandomWalk" value="true" />
 		</ai_params>
 		<skills>
-			<skill id="4416" level="1"/>	<!--Undead-->
-			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="5462" level="1"/>	<!--Fire Attacks-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
 			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
-			<skill id="4410" level="3"/>	<!--Extremely Weak P. Atk.-->
-			<skill id="4411" level="3"/>	<!--Extremely Weak M. Atk.-->
-			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="18"/>	<!--Strong P. Def.-->
 			<skill id="4413" level="11"/>	<!--Average M. Def.-->
 			<skill id="4414" level="2"/>	<!--Standard Type-->
-			<skill id="4415" level="3"/>	<!--One-handed Sword-->
-			<skill id="4032" level="5" use_type="Skill01_ID"/>	<!--NPC Strike-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
 		</skills>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="947" min="3" max="6" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="948" min="6" max="12" chance="80"/>  
+			</group>
+		</rewardlist>		
 	</npc>
 	<npc id="22495" name="Lost Watcher" title="">
 		<set name="type" value="Monster"/>
@@ -7513,11 +7549,11 @@
 		<set name="ai_type" value="custom.LabyrinthLostBeholder"/>
 		<set name="collision_height" value="42"/>
 		<set name="collision_radius" value="20"/>
-		<set name="level" value="59"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
-		<set name="baseHpMax" value="59874.1811258681"/>
+		<set name="baseHpMax" value="140684.918183978"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="118.172725906319"/>
 		<set name="baseMpMax" value="1007"/>
@@ -7529,11 +7565,11 @@
 		<set name="baseMEN" value="20"/>
 		<set name="baseWIT" value="20"/>
 		<set name="basePCritRate" value="40"/>
-		<set name="basePAtk" value="3210.45135498254"/>
-		<set name="basePDef" value="388.505488"/>
+		<set name="basePAtk" value="4500.621067445"/>
+		<set name="basePDef" value="1000.060832"/>
 		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtk" value="2192.32209473249"/>
-		<set name="baseMDef" value="426.437184"/>
+		<set name="baseMAtk" value="1068.80623772118"/>
+		<set name="baseMDef" value="305.492104"/>
 		<set name="baseWalkSpd" value="80"/>
 		<set name="baseRunSpd" value="440"/>
 		<set name="baseShldDef" value="0"/>
@@ -7557,29 +7593,47 @@
 			<set name="noRandomWalk" value="true" />
 		</ai_params>
 		<skills>
-			<skill id="4416" level="1"/>	<!--Undead-->
-			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="5462" level="1"/>	<!--Fire Attacks-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
 			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
-			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
 			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
-			<skill id="4412" level="7"/>	<!--Weak P. Def.-->
-			<skill id="4413" level="8"/>	<!--Weak M. Def.-->
-			<skill id="4414" level="3"/>	<!--Light Armor Type-->
-			<skill id="4415" level="3"/>	<!--One-handed Sword-->
-			<skill id="4032" level="5" use_type="Skill01_ID"/>	<!--NPC Strike-->
-			<skill id="4613" level="5" use_type="Skill02_ID"/>	<!--NPC Clan Heal-->
+			<skill id="4412" level="18"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
 		</skills>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="947" min="3" max="6" chance="90"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="948" min="6" max="12" chance="90"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6571" min="1" max="1" chance="20"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6572" min="2" max="2" chance="20"/>  
+			</group>
+		</rewardlist>
 	</npc>
 	<npc id="22497" name="Lost Watcher" title="">
 		<set name="type" value="Monster"/>
 		<set name="ai_type" value="custom.LabyrinthLostWatcher"/>
 		<set name="collision_height" value="25"/>
 		<set name="collision_radius" value="18"/>
-		<set name="level" value="69"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
-		<set name="baseHpMax" value="34683.5592837889"/>
+		<set name="baseHpMax" value="200684.918183978"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="128.24367356764"/>
 		<set name="baseMpMax" value="1314"/>
@@ -7591,11 +7645,11 @@
 		<set name="baseMEN" value="20"/>
 		<set name="baseWIT" value="20"/>
 		<set name="basePCritRate" value="40"/>
-		<set name="basePAtk" value="5371.9113064698"/>
-		<set name="basePDef" value="465.841008"/>
+		<set name="basePAtk" value="6500.621067445"/>
+		<set name="basePDef" value="1000.060832"/>
 		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtk" value="3668.31908449667"/>
-		<set name="baseMDef" value="511.323336"/>
+		<set name="baseMAtk" value="1068.80623772118"/>
+		<set name="baseMDef" value="455.492104"/>
 		<set name="baseWalkSpd" value="30"/>
 		<set name="baseRunSpd" value="440"/>
 		<set name="baseShldDef" value="0"/>
@@ -7619,17 +7673,26 @@
 			<set name="noRandomWalk" value="true" />
 		</ai_params>
 		<skills>
-			<skill id="4416" level="3"/>	<!--Beasts-->
-			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="5462" level="1"/>	<!--Fire Attacks-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
 			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
-			<skill id="4410" level="3"/>	<!--Extremely Weak P. Atk.-->
-			<skill id="4411" level="3"/>	<!--Extremely Weak M. Atk.-->
-			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="18"/>	<!--Strong P. Def.-->
 			<skill id="4413" level="11"/>	<!--Average M. Def.-->
 			<skill id="4414" level="2"/>	<!--Standard Type-->
-			<skill id="4415" level="4"/>	<!--One-handed Sword-->
-			<skill id="4032" level="6" use_type="Skill01_ID"/>	<!--NPC Strike-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
 		</skills>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="729" min="3" max="6" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="730" min="6" max="12" chance="80"/>  
+			</group>
+		</rewardlist>
 	</npc>
 	<npc id="22498" name="Lost Watcher" title="">
 		<set name="type" value="Monster"/>
@@ -7697,11 +7760,11 @@
 		<set name="ai_type" value="custom.LabyrinthLostBeholder"/>
 		<set name="collision_height" value="23.5"/>
 		<set name="collision_radius" value="20"/>
-		<set name="level" value="69"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
-		<set name="baseHpMax" value="69294.2944949816"/>
+		<set name="baseHpMax" value="240684.918183978"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="128.109038789856"/>
 		<set name="baseMpMax" value="1314"/>
@@ -7713,11 +7776,11 @@
 		<set name="baseMEN" value="20"/>
 		<set name="baseWIT" value="20"/>
 		<set name="basePCritRate" value="10"/>
-		<set name="basePAtk" value="5265.71070694305"/>
-		<set name="basePDef" value="465.841008"/>
+		<set name="basePAtk" value="7500.621067445"/>
+		<set name="basePDef" value="1000.060832"/>
 		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtk" value="3595.79784134812"/>
-		<set name="baseMDef" value="511.323336"/>
+		<set name="baseMAtk" value="1068.80623772118"/>
+		<set name="baseMDef" value="455.492104"/>
 		<set name="baseWalkSpd" value="30"/>
 		<set name="baseRunSpd" value="440"/>
 		<set name="baseShldDef" value="0"/>
@@ -7741,17 +7804,35 @@
 			<set name="noRandomWalk" value="true" />
 		</ai_params>
 		<skills>
-			<skill id="4416" level="3"/>	<!--Beasts-->
-			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="5462" level="1"/>	<!--Fire Attacks-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
 			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
-			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
 			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
-			<skill id="4412" level="7"/>	<!--Weak P. Def.-->
-			<skill id="4413" level="8"/>	<!--Weak M. Def.-->
+			<skill id="4412" level="18"/>	<!--Strong P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
 			<skill id="4414" level="2"/>	<!--Standard Type-->
-			<skill id="4415" level="6"/>	<!--Blunt Weapons-->
-			<skill id="4032" level="6" use_type="Skill01_ID"/>	<!--NPC Strike-->
-			<skill id="4613" level="6" use_type="Skill02_ID"/>	<!--NPC Clan Heal-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
 		</skills>
+	    <rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="729" min="3" max="6" chance="90"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="730" min="6" max="12" chance="90"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6569" min="1" max="1" chance="20"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6570" min="2" max="2" chance="20"/>  
+			</group>
+		</rewardlist>
 	</npc>
 </list>

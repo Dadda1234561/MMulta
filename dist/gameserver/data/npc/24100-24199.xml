@@ -5100,7 +5100,7 @@
 		</client_skills>
 	</npc>
 	<npc id="24195" name="Kain van Halter" title="Void Apostle">
-		<set name="type" value="Monster"/>
+		<set name="type" value="RaidBoss"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_height" value="87"/>
 		<set name="collision_radius" value="36"/>
@@ -5144,7 +5144,7 @@
 		</client_skills>
 		<rewardlist type="RATE_COUNT_GROUPED">
 			<group chance="100">
-				<reward item_id="106415" min="70" max="120" chance="80"/>
+				<reward item_id="106415" min="50" max="100" chance="80"/>
 			</group>
 			<group chance="100">
 				<reward item_id="48603" min="30" max="90" chance="80"/>
@@ -5165,10 +5165,10 @@
 		</rewardlist>
 		<rewardlist type="NOT_RATED_GROUPED">
 			<group>
-				<reward item_id="105247" min="1" max="1" chance="50"/>
+				<reward item_id="105247" min="1" max="1" chance="70"/>
 			</group>
 			<group>
-				<reward item_id="105262" min="1" max="1" chance="50"/>
+				<reward item_id="105262" min="1" max="1" chance="70"/>
 			</group>
 		</rewardlist>
 		<rewardlist type="NOT_RATED_GROUPED">
@@ -5178,7 +5178,7 @@
 		</rewardlist>
 		<rewardlist type="NOT_RATED_GROUPED">
             <group>
-                <reward item_id="70007" min="1" max="1" chance="60"/>
+                <reward item_id="110615" min="1" max="1" chance="75"/>
             </group>
         </rewardlist>
 		<rewardlist type="NOT_RATED_GROUPED">

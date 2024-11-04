@@ -2020,11 +2020,11 @@
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_height" value="56"/>
 		<set name="collision_radius" value="45"/>
-		<set name="level" value="49"/>
-		<set name="rewardExp" value="3019381"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="75513"/>
-		<set name="baseHpMax" value="110715.537953028"/>
+		<set name="baseHpMax" value="180056.918183978"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="16.9003565842148"/>
 		<set name="baseMpMax" value="720"/>
@@ -2037,11 +2037,11 @@
 		<set name="baseWIT" value="78"/>
 		<set name="basePCritRate" value="40"/>
 		<set name="baseMCritRate" value="50"/>
-		<set name="basePAtk" value="1673.40387913648"/>
-		<set name="basePDef" value="1760.96718"/>
+		<set name="basePAtk" value="3500.621067445"/>
+		<set name="basePDef" value="5000.060832"/>
 		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtk" value="380.905964727779"/>
-		<set name="baseMDef" value="859.08"/>
+		<set name="baseMAtk" value="1068.80623772118"/>
+		<set name="baseMDef" value="1505.492104"/>
 		<set name="baseWalkSpd" value="60"/>
 		<set name="baseRunSpd" value="440"/>
 		<set name="baseShldDef" value="0"/>
@@ -2060,33 +2060,54 @@
 			<minion npc_id="29136" count="2"/>	<!--Lost Guard-->
 			<minion npc_id="29137" count="2"/>	<!--Lost Assistant Guard-->
 		</minions>
-		<client_skills>
-			<skill id="4494" level="1"/>	<!--Raid Boss-->
-			<skill id="14773" level="1"/>	<!--Raid Boss (Lv. 49)-->
-			<skill id="4416" level="2"/>	<!--Magical Creatures-->
-			<skill id="4414" level="1"/>	<!--Heavy Armor Type-->
-		</client_skills>
 		<skills>
-			<skill id="14765" level="4"/>	<!--Blood Siphon Resistance-->
-			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="5462" level="1"/>	<!--Fire Attacks-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
 			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
-			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
 			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
-			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4412" level="18"/>	<!--Strong P. Def.-->
 			<skill id="4413" level="11"/>	<!--Average M. Def.-->
-			<skill id="4415" level="5"/>	<!--Blunt Weapon-->
-			<skill id="4178" level="4" use_type="RangeDDMagic_a"/>	<!--Flame Strike-->
-			<skill id="5699" level="3" use_type="Debuff1"/>	<!--Decrease P. Def.-->
-			<skill id="5700" level="3" use_type="Debuff2"/>	<!--Decrease M. Def.-->
-			<skill id="5701" level="3" use_type="Debuff3"/>	<!--Decrease P. Atk.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
 		</skills>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="951" min="20" max="30" chance="100"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6573" min="3" max="3" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="105246" min="1" max="2" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="952" min="40" max="60" chance="100"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6574" min="6" max="6" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="105261" min="2" max="4" chance="80"/>  
+			</group>
+		</rewardlist>
 	</npc>
 	<npc id="29136" name="Lost Guard" title="">
 		<set name="type" value="Monster"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_height" value="34.7"/>
 		<set name="collision_radius" value="23.5"/>
-		<set name="level" value="49"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
@@ -2141,7 +2162,7 @@
 		<set name="ai_type" value="Priest"/>
 		<set name="collision_height" value="32.8"/>
 		<set name="collision_radius" value="23"/>
-		<set name="level" value="49"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
@@ -2202,11 +2223,11 @@
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_height" value="54.5"/>
 		<set name="collision_radius" value="35"/>
-		<set name="level" value="59"/>
-		<set name="rewardExp" value="3594131"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="103278"/>
-		<set name="baseHpMax" value="157355.932513963"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="350684.918183978"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="22.4624319931485"/>
 		<set name="baseMpMax" value="1007"/>
@@ -2219,11 +2240,11 @@
 		<set name="baseWIT" value="78"/>
 		<set name="basePCritRate" value="40"/>
 		<set name="baseMCritRate" value="50"/>
-		<set name="basePAtk" value="2910.02131560435"/>
-		<set name="basePDef" value="2185.34337"/>
+		<set name="basePAtk" value="8000.621067445"/>
+		<set name="basePDef" value="5000.060832"/>
 		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtk" value="662.389107836897"/>
-		<set name="baseMDef" value="1066.08"/>
+		<set name="baseMAtk" value="1068.80623772118"/>
+		<set name="baseMDef" value="1505.492104"/>
 		<set name="baseWalkSpd" value="70"/>
 		<set name="baseRunSpd" value="440"/>
 		<set name="baseShldDef" value="0"/>
@@ -2245,33 +2266,54 @@
 			<minion npc_id="29139" count="2"/>	<!--Lost Guard-->
 			<minion npc_id="29140" count="2"/>	<!--Lost Assistant Guard-->
 		</minions>
-		<client_skills>
-			<skill id="4494" level="1"/>	<!--Raid Boss-->
-			<skill id="14774" level="1"/>	<!--Raid Boss (Lv. 59)-->
-			<skill id="4416" level="1"/>	<!--Undead-->
-		</client_skills>
 		<skills>
-			<skill id="14765" level="4"/>	<!--Blood Siphon Resistance-->
-			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="5462" level="1"/>	<!--Fire Attacks-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
 			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
-			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
 			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
-			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4412" level="18"/>	<!--Strong P. Def.-->
 			<skill id="4413" level="11"/>	<!--Average M. Def.-->
 			<skill id="4414" level="2"/>	<!--Standard Type-->
-			<skill id="4415" level="3"/>	<!--One-handed Sword-->
-			<skill id="4178" level="5" use_type="RangeDDMagic_a"/>	<!--Flame Strike-->
-			<skill id="5699" level="4" use_type="Debuff1"/>	<!--Decrease P. Def.-->
-			<skill id="5700" level="4" use_type="Debuff2"/>	<!--Decrease M. Def.-->
-			<skill id="5701" level="4" use_type="Debuff3"/>	<!--Decrease P. Atk.-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
 		</skills>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="947" min="20" max="30" chance="100"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6571" min="3" max="3" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="105247" min="1" max="2" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="948" min="40" max="60" chance="100"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6572" min="6" max="6" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="105262" min="2" max="4" chance="80"/>  
+			</group>
+		</rewardlist>
 	</npc>
 	<npc id="29139" name="Lost Guard" title="">
 		<set name="type" value="Monster"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_height" value="42"/>
 		<set name="collision_radius" value="20"/>
-		<set name="level" value="59"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
@@ -2326,7 +2368,7 @@
 		<set name="ai_type" value="Priest"/>
 		<set name="collision_height" value="42"/>
 		<set name="collision_radius" value="20"/>
-		<set name="level" value="59"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
@@ -2387,11 +2429,11 @@
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_height" value="45"/>
 		<set name="collision_radius" value="40"/>
-		<set name="level" value="69"/>
-		<set name="rewardExp" value="8315796"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="266955"/>
-		<set name="baseHpMax" value="191797.381313819"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="450684.918183978"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="25.9708291743063"/>
 		<set name="baseMpMax" value="1314"/>
@@ -2404,11 +2446,11 @@
 		<set name="baseWIT" value="78"/>
 		<set name="basePCritRate" value="40"/>
 		<set name="baseMCritRate" value="50"/>
-		<set name="basePAtk" value="4373.20309489813"/>
-		<set name="basePDef" value="2620.35567"/>
+		<set name="basePAtk" value="12000.621067445"/>
+		<set name="basePDef" value="5000.060832"/>
 		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtk" value="995.443611418391"/>
-		<set name="baseMDef" value="1278.3"/>
+		<set name="baseMAtk" value="1068.80623772118"/>
+		<set name="baseMDef" value="2305.492104"/>
 		<set name="baseWalkSpd" value="38"/>
 		<set name="baseRunSpd" value="440"/>
 		<set name="baseShldDef" value="0"/>
@@ -2427,33 +2469,54 @@
 			<minion npc_id="29142" count="2"/>	<!--Lost Guard-->
 			<minion npc_id="29143" count="2"/>	<!--Lost Assistant Guard-->
 		</minions>
-		<client_skills>
-			<skill id="4494" level="1"/>	<!--Raid Boss-->
-			<skill id="14775" level="1"/>	<!--Raid Boss (Lv. 69)-->
-			<skill id="4416" level="4"/>	<!--Animals-->
-			<skill id="4414" level="3"/>	<!--Light Armor Type-->
-		</client_skills>
 		<skills>
-			<skill id="14765" level="4"/>	<!--Blood Siphon Resistance-->
-			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="5462" level="1"/>	<!--Fire Attacks-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
 			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
-			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
 			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
-			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4412" level="18"/>	<!--Strong P. Def.-->
 			<skill id="4413" level="11"/>	<!--Average M. Def.-->
-			<skill id="4415" level="7"/>	<!--Dagger-->
-			<skill id="4178" level="6" use_type="RangeDDMagic_a"/>	<!--Flame Strike-->
-			<skill id="5699" level="5" use_type="Debuff1"/>	<!--Decrease P. Def.-->
-			<skill id="5700" level="5" use_type="Debuff2"/>	<!--Decrease M. Def.-->
-			<skill id="5701" level="5" use_type="Debuff3"/>	<!--Decrease P. Atk.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
 		</skills>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="729" min="20" max="30" chance="100"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6569" min="3" max="3" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="105248" min="1" max="2" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="730" min="40" max="60" chance="100"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6570" min="6" max="6" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="105263" min="2" max="4" chance="80"/>  
+			</group>
+		</rewardlist>
 	</npc>
 	<npc id="29142" name="Lost Guard" title="">
 		<set name="type" value="Monster"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_height" value="43.5"/>
 		<set name="collision_radius" value="36"/>
-		<set name="level" value="69"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
@@ -2508,7 +2571,7 @@
 		<set name="ai_type" value="Priest"/>
 		<set name="collision_height" value="43.5"/>
 		<set name="collision_radius" value="36"/>
-		<set name="level" value="69"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
@@ -2565,15 +2628,15 @@
 		</skills>
 	</npc>
 	<npc id="29144" name="Lost Guard Captain" title="">
-		<set name="type" value="LostCaptain"/>
+		<set name="type" value="Monster"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_height" value="80"/>
 		<set name="collision_radius" value="15"/>
-		<set name="level" value="78"/>
-		<set name="rewardExp" value="12606594"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
-		<set name="rewardSp" value="390050"/>
-		<set name="baseHpMax" value="213658.175404426"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="550684.918183978"/>
 		<set name="baseHpRate" value="1"/>
 		<set name="baseHpReg" value="28.1290857057966"/>
 		<set name="baseMpMax" value="1607.4"/>
@@ -2586,11 +2649,11 @@
 		<set name="baseWIT" value="78"/>
 		<set name="basePCritRate" value="40"/>
 		<set name="baseMCritRate" value="50"/>
-		<set name="basePAtk" value="5460.71749184196"/>
-		<set name="basePDef" value="2994.30549"/>
+		<set name="basePAtk" value="10500.621067445"/>
+		<set name="basePDef" value="5000.060832"/>
 		<set name="basePAtkSpd" value="253"/>
-		<set name="baseMAtk" value="1242.98740401123"/>
-		<set name="baseMDef" value="1460.76"/>
+		<set name="baseMAtk" value="1068.80623772118"/>
+		<set name="baseMDef" value="2305.492104"/>
 		<set name="baseWalkSpd" value="50"/>
 		<set name="baseRunSpd" value="440"/>
 		<set name="baseShldDef" value="0"/>
@@ -2612,37 +2675,54 @@
 			<minion npc_id="29145" count="2"/>	<!--Lost Guard-->
 			<minion npc_id="29146" count="2"/>	<!--Lost Assistant Guard-->
 		</minions>
-		<client_skills>
-			<skill id="4494" level="1"/>	<!--Raid Boss-->
-			<skill id="14776" level="1"/>	<!--Raid Boss (Lv. 78)-->
-			<skill id="4416" level="8"/>	<!--Angels-->
-			<skill id="5462" level="1"/>	<!--Fire Attack-->
-		</client_skills>
 		<skills>
-			<skill id="14765" level="4"/>	<!--Blood Siphon Resistance-->
-			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="5462" level="1"/>	<!--Fire Attacks-->
+			<skill id="4408" level="11"/>	<!--HP Increase (3x)-->
 			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
-			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4410" level="15"/>	<!--Strong P. Atk.-->
 			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
-			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4412" level="18"/>	<!--Strong P. Def.-->
 			<skill id="4413" level="11"/>	<!--Average M. Def.-->
 			<skill id="4414" level="2"/>	<!--Standard Type-->
-			<skill id="4415" level="11"/>	<!--Spear-->
-			<skill id="4178" level="7" use_type="RangeDDMagic_a"/>	<!--Flame Strike-->
-			<skill id="5699" level="6" use_type="Debuff1"/>	<!--Decrease P. Def.-->
-			<skill id="5700" level="6" use_type="Debuff2"/>	<!--Decrease M. Def.-->
-			<skill id="5701" level="6" use_type="Debuff3"/>	<!--Decrease P. Atk.-->
+			<skill id="4415" level="1"/>	<!--Bare Hands-->
 		</skills>
-		<attributes>
-			<attack attribute="fire" value="200"/>
-		</attributes>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="959" min="20" max="30" chance="100"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6577" min="3" max="3" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="105249" min="1" max="2" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="960" min="40" max="60" chance="100"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="6578" min="6" max="6" chance="80"/>  
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="105251" min="2" max="4" chance="80"/>  
+			</group>
+		</rewardlist>
 	</npc>
 	<npc id="29145" name="Lost Guard" title="">
 		<set name="type" value="Monster"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_height" value="47"/>
 		<set name="collision_radius" value="13"/>
-		<set name="level" value="78"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
@@ -2704,7 +2784,7 @@
 		<set name="ai_type" value="Priest"/>
 		<set name="collision_height" value="38.5;46.5"/>
 		<set name="collision_radius" value="11.0;13"/>
-		<set name="level" value="78"/>
+		<set name="level" value="85"/>
 		<set name="rewardExp" value="0"/>
 		<set name="rewardRp" value="0"/>
 		<set name="rewardSp" value="0"/>
@@ -4451,7 +4531,7 @@
 		</skills>
 	</npc>
 	<npc id="29175" name="Tiat" title="Witch of the Dragon of Darkness">
-		<set name="type" value="Monster"/>
+		<set name="type" value="RaidBoss"/>
 		<set name="ai_type" value="Fighter"/>
 		<set name="collision_height" value="104.0;124.8"/>
 		<set name="collision_radius" value="55.0;66"/>
