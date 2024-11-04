@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		C Weapons
+	-->
+	<weapon id="101055" name="Samurai Long Sword Lv.1">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_samurai_old_longsword_i00"/>
+		<set name="kamael_convert" value="9292"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1380"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="196"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+		</for>
+	</weapon>
+	<weapon id="101056" name="Samurai Long Sword Lv.2">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_samurai_old_longsword_i00"/>
+		<set name="kamael_convert" value="9292"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1380"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="241"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+		</for>
+	</weapon>
+	<weapon id="101057" name="Samurai Long Sword Lv.3">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_samurai_old_longsword_i00"/>
+		<set name="kamael_convert" value="9292"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1380"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="286"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+		</for>
+	</weapon>
+	<weapon id="101058" name="Eminence Bow Lv.1">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="reuse_delay" value="1500"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eminence_bow_i00"/>
+		<set name="kamael_convert" value="9300"/>
+		<set name="mp_consume" value="3"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1720"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="363"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101059" name="Eminence Bow Lv.2">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="reuse_delay" value="1500"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eminence_bow_i00"/>
+		<set name="kamael_convert" value="9300"/>
+		<set name="mp_consume" value="3"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1720"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="407"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101060" name="Eminence Bow Lv.3">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="reuse_delay" value="1500"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_eminence_bow_i00"/>
+		<set name="kamael_convert" value="9300"/>
+		<set name="mp_consume" value="3"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1720"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="451"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101061" name="Berserker Blade Lv.1">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="crystal_count" value="1885"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_berserker_blade_i00"/>
+		<set name="kamael_convert" value="9296"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="1380"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="230"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+		</for>
+	</weapon>
+	<weapon id="101062" name="Berserker Blade Lv.2">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="crystal_count" value="1885"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_berserker_blade_i00"/>
+		<set name="kamael_convert" value="9296"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="1380"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="275"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+		</for>
+	</weapon>
+	<weapon id="101063" name="Berserker Blade Lv.3">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="crystal_count" value="1885"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_berserker_blade_i00"/>
+		<set name="kamael_convert" value="9296"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="1380"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="320"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+		</for>
+	</weapon>
+	<weapon id="101064" name="Dark Elven Dagger Lv.1">
+		<set name="grind_commission" value="343500"/>
+		<set name="grind_point" value="1145000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="916"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_darkelven_dagger_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1050"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="176"/>
+			<add stat="mAtk" order="0x10" value="61"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101065" name="Dark Elven Dagger Lv.2">
+		<set name="grind_commission" value="343500"/>
+		<set name="grind_point" value="1145000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="916"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_darkelven_dagger_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1050"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="221"/>
+			<add stat="mAtk" order="0x10" value="61"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101066" name="Dark Elven Dagger Lv.3">
+		<set name="grind_commission" value="343500"/>
+		<set name="grind_point" value="1145000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="916"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_darkelven_dagger_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1050"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="286"/>
+			<add stat="mAtk" order="0x10" value="61"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101067" name="Great Pata Lv.1">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;46;90"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_great_pata_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1460"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="230"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101068" name="Great Pata Lv.2">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;46;90"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_great_pata_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1460"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="275"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101069" name="Great Pata Lv.3">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;46;90"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_great_pata_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1460"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="320"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101070" name="Orcish Poleaxe Lv.1">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_orcish_poleaxe_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="1950"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="1"/>
+		</skills>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="196"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101071" name="Orcish Poleaxe Lv.2">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_orcish_poleaxe_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="1950"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="2"/>
+		</skills>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="241"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101072" name="Orcish Poleaxe Lv.3">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_orcish_poleaxe_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="1950"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="3"/>
+		</skills>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="286"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101073" name="Yaksa Mace Lv.1">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1640"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="196"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101074" name="Yaksa Mace Lv.2">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1640"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="241"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101075" name="Yaksa Mace Lv.3">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1640"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="286"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101076" name="Mace of Underworld Lv.1">
+		<set name="grind_commission" value="645000"/>
+		<set name="grind_point" value="2150000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1720"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_mace_of_underworld_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1090"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100006" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="111"/>
+			<add stat="mAtk" order="0x10" value="151"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101077" name="Mace of Underworld Lv.2">
+		<set name="grind_commission" value="645000"/>
+		<set name="grind_point" value="2150000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1720"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_mace_of_underworld_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1090"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100006" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="111"/>
+			<add stat="mAtk" order="0x10" value="206"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101078" name="Mace of Underworld Lv.3">
+		<set name="grind_commission" value="645000"/>
+		<set name="grind_point" value="2150000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="1720"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_mace_of_underworld_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1090"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100006" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="111"/>
+			<add stat="mAtk" order="0x10" value="261"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101079" name="Demon's Staff Lv.1">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_demons_staff_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="990"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100006" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="152"/>
+			<add stat="mAtk" order="0x10" value="172"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101080" name="Demon's Staff Lv.2">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_demons_staff_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="990"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100006" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="152"/>
+			<add stat="mAtk" order="0x10" value="227"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101081" name="Demon's Staff Lv.3">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_demons_staff_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="990"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100006" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="152"/>
+			<add stat="mAtk" order="0x10" value="282"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101082" name="Double Yaksa Mace Lv.1">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALBLUNT"/>
+		<set name="weight" value="1640"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="230"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101083" name="Double Yaksa Mace Lv.2">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALBLUNT"/>
+		<set name="weight" value="1640"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="295"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101084" name="Double Yaksa Mace Lv.3">
+		<set name="grind_commission" value="919500"/>
+		<set name="grind_point" value="3065000"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_count" value="2452"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.weapon_yaksa_mace_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALBLUNT"/>
+		<set name="weight" value="1640"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100005" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="350"/>
+			<add stat="mAtk" order="0x10" value="83"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+</list>

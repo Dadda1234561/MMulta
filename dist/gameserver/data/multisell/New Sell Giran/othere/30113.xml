@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+    <config no_tax="true" type="CHANCED"/>
+
+    <!-- Плащ -->
+
+    <item>
+        <production id="104001" count="1" chance="100000000" /> <!-- Плащ 1 ур -->
+
+        <ingredient id="105519" count="1"/>
+
+		<ingredient id="70004" count="5000"/>
+		<ingredient id="70019" count="20"/>
+		<ingredient id="106414" count="2000"/>
+		<ingredient id="70000" count="12"/>
+		<ingredient id="70010" count="2000"/>
+		<ingredient id="70018" count="30"/>
+		
+        
+    </item>
+    <item>
+        <production id="104002" count="1" chance="100000000" /> <!-- Плащ 2 ур -->
+
+        <ingredient id="104001" count="1"/>
+
+		<ingredient id="70004" count="7500"/>
+		<ingredient id="70019" count="22"/>
+		<ingredient id="106414" count="2500"/>
+		<ingredient id="70000" count="15"/>
+		<ingredient id="70010" count="3000"/>
+		<ingredient id="70018" count="50"/>
+    </item>
+    <item>
+        <production id="104003" count="1" chance="100000000" /> <!-- Плащ 3 ур -->
+
+        <ingredient id="104002" count="1"/>
+
+		<ingredient id="70004" count="10000"/>
+		<ingredient id="70019" count="24"/>
+		<ingredient id="106414" count="3000"/>
+		<ingredient id="70000" count="18"/>
+		<ingredient id="70010" count="4000"/>
+		<ingredient id="70018" count="75"/>
+    </item>
+    <item>
+        <production id="104004" count="1" chance="100000000" /> <!-- Плащ 4 ур -->
+
+        <ingredient id="104003" count="1"/>
+
+        <ingredient id="70023" count="3000"/>
+		<ingredient id="70004" count="12500"/>
+		<ingredient id="70019" count="26"/>
+		<ingredient id="106414" count="3500"/>
+		<ingredient id="70000" count="21"/>
+		<ingredient id="70010" count="5000"/>
+		<ingredient id="70018" count="100"/>
+    </item>
+    <item>
+        <production id="104005" count="1" chance="100000000" /> <!-- Плащ 5 ур -->
+
+        <ingredient id="104004" count="1"/>
+
+        <ingredient id="70023" count="3500"/>
+		<ingredient id="70004" count="15000"/>
+		<ingredient id="70019" count="28"/>
+		<ingredient id="106414" count="4000"/>
+		<ingredient id="70000" count="24"/>
+		<ingredient id="70010" count="7500"/>
+		<ingredient id="70018" count="125"/>
+    </item>
+    <item>
+        <production id="104006" count="1" chance="100000000" /> <!-- Плащ 6 ур -->
+
+        <ingredient id="104005" count="1"/>
+
+        <ingredient id="70023" count="4000"/>
+		<ingredient id="70004" count="17500"/>
+		<ingredient id="70019" count="30"/>
+		<ingredient id="106414" count="4500"/>
+		<ingredient id="70000" count="27"/>
+		<ingredient id="70010" count="10000"/>
+		<ingredient id="70018" count="150"/>
+    </item>
+    <item>
+        <production id="104007" count="1" chance="100000000" /> <!-- Плащ 7 ур -->
+
+        <ingredient id="104006" count="1"/>
+
+        <ingredient id="70023" count="5000"/>
+		<ingredient id="70004" count="20000"/>
+		<ingredient id="70019" count="32"/>
+		<ingredient id="106414" count="5000"/>
+		<ingredient id="70000" count="30"/>
+		<ingredient id="70010" count="15000"/>
+		<ingredient id="70018" count="200"/>
+    </item>
+    <item>
+        <production id="104008" count="1" chance="100000000" /> <!-- Плащ 8 ур -->
+
+        <ingredient id="104007" count="1"/>
+
+        <ingredient id="70023" count="6000"/>
+		<ingredient id="70004" count="22500"/>
+		<ingredient id="70019" count="34"/>
+		<ingredient id="106414" count="6000"/>
+		<ingredient id="70000" count="35"/>
+		<ingredient id="70010" count="20000"/>
+		<ingredient id="70018" count="300"/>
+    </item>
+    <item>
+        <production id="104009" count="1" chance="100000000" /> <!-- Плащ 9 ур -->
+
+        <ingredient id="104008" count="1"/>
+
+        <ingredient id="70023" count="7000"/>
+		<ingredient id="70004" count="25000"/>
+		<ingredient id="70019" count="36"/>
+		<ingredient id="106414" count="7000"/>
+		<ingredient id="70000" count="40"/>
+		<ingredient id="70010" count="30000"/>
+		<ingredient id="70018" count="400"/>
+    </item>
+    <item>
+        <production id="104010" count="1" chance="100000000" /> <!-- Плащ 10 ур -->
+
+        <ingredient id="104009" count="1"/>
+
+        <ingredient id="70023" count="8000"/>
+		<ingredient id="70004" count="30000"/>
+		<ingredient id="70019" count="40"/>
+		<ingredient id="106414" count="8000"/>
+		<ingredient id="70000" count="50"/>
+		<ingredient id="70010" count="50000"/>
+		<ingredient id="70018" count="500"/>
+    </item>
+</list>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<config show_all="true" no_tax="true" keep_enchanted="false" />
+	<!-- Рубашки -->
+	<item>
+		<production id="104028" count="1"/>
+		<ingredient id="8766" count="10000"/>
+		<ingredient id="46409" count="5000"/>
+		<ingredient id="7248" count="3000"/>
+		<ingredient id="57" count="50000000"/>
+	</item>
+	<item>
+		<production id="104029" count="1"/>
+		<ingredient id="104028" count="1"/>
+		<ingredient id="70034" count="2000"/>
+		<ingredient id="70010" count="700"/>
+		<ingredient id="15486" count="700"/>
+		<ingredient id="70014" count="300"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="5"/>
+		<ingredient id="70018" count="3"/>
+	</item>
+	<item>
+		<production id="104030" count="1"/>
+		<ingredient id="104029" count="1"/>
+		<ingredient id="70025" count="30"/>
+		<ingredient id="70034" count="4000"/>
+		<ingredient id="70010" count="1200"/>
+		<ingredient id="15486" count="1200"/>
+		<ingredient id="70014" count="1000"/>
+		<ingredient id="70000" count="10"/>
+		<ingredient id="70001" count="20"/>
+		<ingredient id="70018" count="25"/>
+	</item>
+	<item>
+		<production id="104031" count="1"/>
+		<ingredient id="104030" count="1"/>
+		<ingredient id="70025" count="70"/>
+		<ingredient id="70034" count="10000"/>
+		<ingredient id="70010" count="3000"/>
+		<ingredient id="15486" count="3000"/>
+		<ingredient id="70014" count="2000"/>
+		<ingredient id="70032" count="5000"/>
+		<ingredient id="70000" count="15"/>
+		<ingredient id="70001" count="50"/>
+		<ingredient id="70018" count="60"/>
+	</item>
+	<item>
+		<production id="104032" count="1"/>
+		<ingredient id="104031" count="1"/>
+		<ingredient id="70025" count="150"/>
+		<ingredient id="70034" count="20000"/>
+		<ingredient id="70020" count="15000"/>
+		<ingredient id="70024" count="15000"/>
+		<ingredient id="70032" count="10000"/>
+		<ingredient id="70000" count="35"/>
+		<ingredient id="70001" count="80"/>
+		<ingredient id="70018" count="100"/>
+	</item>
+</list>

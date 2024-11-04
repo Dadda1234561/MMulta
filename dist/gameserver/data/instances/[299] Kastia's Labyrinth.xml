@@ -1,0 +1,35 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="299" name="Kastia's Labyrinth" maxChannels="1000" collapseIfEmpty="3" timelimit="15" dispelBuffs="false">
+		<!-- <level min="100" max="130"/> -->
+		<level min="85" max="130"/>
+		<party min="1" max="1"/>
+		<return loc="147080 26696 -2209"/>
+		<teleport loc="-111618 18345 -10319"/>
+
+		<reuse resetReuse="30 6 * * *" setUponEntry="false" sharedReuseGroup="0"/>
+		<add_parameters>
+			<!--Properties-->
+			<param name="start_stage" value="1"/>
+			<!--NPC's-->
+			<param name="mob_type_1_npc_id" value="24539"/>
+			<param name="mob_type_2_npc_id" value="24540"/>
+			<param name="ruler_npc_id" value="24542"/>
+			<param name="keeper_npc_id" value="24541"/>
+			<!--ETC-->
+			<param name="spawn_group_prefix" value="kastia_105"/>
+		</add_parameters>
+        <spawns>
+			<group name="kastia_105_stage_1" spawned="false"/>
+			<group name="kastia_105_stage_2" spawned="false"/>
+			<group name="kastia_105_stage_3" spawned="false"/>
+			<group name="kastia_105_stage_4" spawned="false"/>
+			<group name="kastia_105_stage_5" spawned="false"/>
+			<group name="kastia_105_stage_6" spawned="false"/>
+			<group name="kastia_105_stage_7" spawned="false"/>
+		</spawns>
+		<zones>
+			<zone name="[kastia_instance]" active="true"/>
+		</zones>
+	</instance>
+</list>

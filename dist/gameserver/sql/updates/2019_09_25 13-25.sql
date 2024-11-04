@@ -1,0 +1,1 @@
+DROP TABLE clan_subpledges_skills;

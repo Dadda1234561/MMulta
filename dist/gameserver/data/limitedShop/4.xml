@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "limitedShop.dtd">
+<list>
+
+							<!-- Ивентовая Монета -->
+
+	<!--<item product1Id="70000" product1Count="1" product1Chance="70.0" product2Id="57" product2Chance="30.0" product2Count="1000000"  index="1113">
+		<ingredient id="57" count="50000000" />
+	</item>-->
+
+												<!-- Подкатегория: Части Ресурсов на Бижутерию Ранга A -->
+
+	<!--<item product1Id="5490" product1Count="5" product1Chance="35.0" product2Id="70076" product2Count="100" product2Chance="65" index="1110">
+		<ingredient id="70076" count="300" />
+	</item>
+	<item product1Id="5483" product1Count="5" product1Chance="35.0" product2Id="70076" product2Count="50" product2Chance="65" index="1209">
+		<ingredient id="70076" count="150" />
+	</item>
+	<item product1Id="5492" product1Count="5" product1Chance="35.0" product2Id="70076" product2Count="50" product2Chance="65" index="1210">
+		<ingredient id="70076" count="150" />
+	</item>-->
+
+											<!-- Подкатегория: Части Ресурсов на Оружие Ранга A -->
+
+	<item product1Id="70079" product1Count="1" product1Chance="70.0" product2Id="70076" product2Count="10" product2Chance="30.0" index="1111">
+		<ingredient id="70076" count="50" />
+	</item>
+	<!--<item product1Id="106529" product1Count="1" product1Chance="100.0" index="1212">
+		<ingredient id="106419" count="2000" />
+		<ingredient id="106420" count="100" />
+		<ingredient id="106448" count="300" />
+		<ingredient id="70004" count="500" />
+		<ingredient id="70018" count="10" />
+	</item>-->
+												<!-- Подкатегория: Части Ресурсов на Брони Ранга A -->
+
+	<item product1Id="70080" product1Count="1" product1Chance="70.0" product2Id="70076" product2Count="10" product2Chance="30.0" index="1112">
+		<ingredient id="70076" count="50" />
+	</item>
+	<item product1Id="106563" product1Chance="100.0"  index="1214" product1Count="1" >
+		<ingredient id="70076" count="300"/>
+	</item>
+
+															<!-- Категория Оружие -->
+												<!-- Подкатегория: Рецепт на Оружие Ранга R (60%) -->
+	<!--<item product1Id="36763" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1000">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="36764" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1001">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="36765" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1002">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="36766" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1003">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="36767" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1004">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="36768" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1005">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="36769" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1006">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="36770" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1007">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="36771" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1008">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="36772" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1009">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="36773" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1010">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="80987" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1011">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="80988" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="50" product2Chance="40.0" index="1012">
+		<ingredient id="70059" count="500" />
+	</item>
+	<item product1Id="80989" product1Count="1" product1Chance="60.0" product2Id="70059" product2Count="40" product2Chance="40.0" index="1013">
+		<ingredient id="70059" count="500" />
+	</item>
+
+													&lt;!&ndash; Подкатегория: Части Ресурсов на Оружие Ранга R &ndash;&gt;
+	<item product1Id="36825" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1014">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="36826" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1015">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="36827" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1016">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="36828" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1017">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="36829" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1018">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="36830" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1019">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="36831" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1020">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="36832" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1021">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="36833" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1022">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="36834" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1023">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="36835" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1024">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="80975" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1025">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="80976" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1026">
+		<ingredient id="70059" count="300" />
+	</item>
+	<item product1Id="80977" product1Count="5" product1Chance="60.0" product2Id="70059" product2Count="30" product2Chance="40.0" index="1027">
+		<ingredient id="70059" count="300" />
+	</item>-->
+
+															<!-- Категория Доспехи -->
+
+													<!-- Подкатегория: Рецепт на Доспехи Ранга R (60%) -->
+	<!--<item product1Id="36744" product1Count="1" product1Chance="60.0" product2Id="70058" product2Count="50" product2Chance="40.0" index="1028">
+		<ingredient id="70058" count="500" />
+	</item>
+	<item product1Id="36781" product1Count="1" product1Chance="60.0" product2Id="70058" product2Count="50" product2Chance="40.0" index="1029">
+		<ingredient id="70058" count="500" />
+	</item>
+	<item product1Id="36786" product1Count="1" product1Chance="60.0" product2Id="70058" product2Count="50" product2Chance="40.0" index="1030">
+		<ingredient id="70058" count="500" />
+	</item>-->
+
+													<!-- Подкатегория: Части Ресурсов на Доспехи Ранга R -->
+	<!--<item product1Id="36837" product1Count="5" product1Chance="60.0" product2Id="70058" product2Count="30" product2Chance="40.0" index="1031">
+		<ingredient id="70058" count="300" />
+	</item>
+	<item product1Id="36843" product1Count="5" product1Chance="60.0" product2Id="70058" product2Count="30" product2Chance="40.0" index="1032">
+		<ingredient id="70058" count="300" />
+	</item>
+	<item product1Id="36848" product1Count="5" product1Chance="60.0" product2Id="70058" product2Count="30" product2Chance="40.0" index="1033">
+		<ingredient id="70058" count="300" />
+	</item>-->
+
+																	<!-- Категория Аксессуары -->
+																<!-- Подкатегория: Карта Баюма -->
+	<item product1Id="70120" product1Count="1" product1Chance="80.0" product2Id="57" product2Count="5000000" product2Chance="20.0" index="1060">
+		<ingredient id="37579" count="1" />
+		<ingredient id="106415" count="200" />
+		<ingredient id="57" count="50000000" />
+	</item>
+	<item product1Id="70121" product1Count="1" product1Chance="70.0" product2Id="70120" product2Count="1" product2Chance="30.0" index="1061">
+		<ingredient id="57" count="100000000" />
+		<ingredient id="37579" count="1" />
+		<ingredient id="70120" count="1" />
+		<ingredient id="106415" count="300" />
+	</item>
+	<item product1Id="70122" product1Count="1" product1Chance="60.0" product2Id="70121" product2Count="1" product2Chance="40.0" index="1062">
+		<ingredient id="57" count="150000000" />
+		<ingredient id="37579" count="2" />
+		<ingredient id="70121" count="1" />
+		<ingredient id="106415" count="500" />
+	</item>
+	<item product1Id="70123" product1Count="1" product1Chance="50.0" product2Id="70122" product2Count="1" product2Chance="50.0" index="1063">
+		<ingredient id="70018" count="2" />
+		<ingredient id="37579" count="2" />
+		<ingredient id="70122" count="1" />
+		<ingredient id="106415" count="700" />
+	</item>
+	<item product1Id="70124" product1Count="1" product1Chance="45.0" product2Id="70123" product2Count="1" product2Chance="55.0" index="1064">
+		<ingredient id="70018" count="4" />
+		<ingredient id="37579" count="3" />
+		<ingredient id="70123" count="1" />
+		<ingredient id="106415" count="900" />
+	</item>
+	<item product1Id="70125" product1Count="1" product1Chance="40.0" product2Id="70124" product2Count="1" product2Chance="60.0" index="1065">
+		<ingredient id="70018" count="6" />
+		<ingredient id="37579" count="3" />
+		<ingredient id="70124" count="1" />
+		<ingredient id="106415" count="1200" />
+	</item>
+	<item product1Id="70126" product1Count="1" product1Chance="35.0" product2Id="70125" product2Count="1" product2Chance="65.0" index="1066">
+		<ingredient id="70018" count="8" />
+		<ingredient id="37579" count="4" />
+		<ingredient id="70125" count="1" />
+		<ingredient id="106415" count="1500" />
+	</item>
+	<item product1Id="70127" product1Count="1" product1Chance="30.0" product2Id="70126" product2Count="1" product2Chance="70.0" index="1067">
+		<ingredient id="70018" count="10" />
+		<ingredient id="37579" count="5" />
+		<ingredient id="70126" count="1" />
+		<ingredient id="106415" count="1800" />
+	</item>
+	<item product1Id="70128" product1Count="1" product1Chance="25.0" product2Id="70127" product2Count="1" product2Chance="75.0" index="1068">
+		<ingredient id="70018" count="12" />
+		<ingredient id="37579" count="5" />
+		<ingredient id="70127" count="1" />
+		<ingredient id="106415" count="2100" />
+	</item>
+	<item product1Id="70129" product1Count="1" product1Chance="20.0" product2Id="70128" product2Count="1" product2Chance="80.0" index="1069">
+		<ingredient id="70018" count="15" />
+		<ingredient id="37579" count="5" />
+		<ingredient id="70128" count="1" />
+		<ingredient id="106415" count="2500" />
+	</item>
+	<!--<item product1Id="106530" product1Count="1" product1Chance="100.0" index="1213">
+		<ingredient id="106418" count="5000" />
+		<ingredient id="106420" count="300" />
+		<ingredient id="106447" count="500" />
+		<ingredient id="70004" count="1000" />
+		<ingredient id="70018" count="20" />
+	</item>-->
+
+
+
+																<!-- Подкатегория: Карта Белефа -->
+	<item product1Id="70130" product1Count="1" product1Chance="80.0" product2Id="57" product2Count="5000000" product2Chance="20.0" index="1070">
+		<ingredient id="37580" count="1" />
+		<ingredient id="106415" count="200" />
+		<ingredient id="57" count="50000000" />
+	</item>
+	<item product1Id="70131" product1Count="1" product1Chance="70.0" product2Id="70130" product2Count="1" product2Chance="30.0" index="1071">
+		<ingredient id="57" count="100000000" />
+		<ingredient id="37580" count="1" />
+		<ingredient id="70130" count="1" />
+		<ingredient id="106415" count="300" />
+	</item>
+	<item product1Id="70132" product1Count="1" product1Chance="60.0" product2Id="70131" product2Count="1" product2Chance="40.0" index="1072">
+		<ingredient id="57" count="150000000" />
+		<ingredient id="37580" count="2" />
+		<ingredient id="70131" count="1" />
+		<ingredient id="106415" count="500" />
+	</item>
+	<item product1Id="70133" product1Count="1" product1Chance="50.0" product2Id="70132" product2Count="1" product2Chance="50.0" index="1073">
+		<ingredient id="70018" count="2" />
+		<ingredient id="37580" count="2" />
+		<ingredient id="70132" count="1" />
+		<ingredient id="106415" count="700" />
+	</item>
+	<item product1Id="70134" product1Count="1" product1Chance="45.0" product2Id="70133" product2Count="1" product2Chance="55.0" index="1074">
+		<ingredient id="70018" count="4" />
+		<ingredient id="37580" count="3" />
+		<ingredient id="70133" count="1" />
+		<ingredient id="106415" count="900" />
+	</item>
+	<item product1Id="70135" product1Count="1" product1Chance="40.0" product2Id="70134" product2Count="1" product2Chance="60.0" index="1075">
+		<ingredient id="70018" count="6" />
+		<ingredient id="37580" count="3" />
+		<ingredient id="70134" count="1" />
+		<ingredient id="106415" count="1200" />
+	</item>
+	<item product1Id="70136" product1Count="1" product1Chance="35.0" product2Id="70135" product2Count="1" product2Chance="65.0" index="1076">
+		<ingredient id="70018" count="8" />
+		<ingredient id="37580" count="4" />
+		<ingredient id="70135" count="1" />
+		<ingredient id="106415" count="1500" />
+	</item>
+	<item product1Id="70137" product1Count="1" product1Chance="30.0" product2Id="70136" product2Count="1" product2Chance="70.0" index="1077">
+		<ingredient id="70018" count="10" />
+		<ingredient id="37580" count="5" />
+		<ingredient id="70136" count="1" />
+		<ingredient id="106415" count="1800" />
+	</item>
+	<item product1Id="70138" product1Count="1" product1Chance="25.0" product2Id="70137" product2Count="1" product2Chance="75.0" index="1078">
+		<ingredient id="70018" count="12" />
+		<ingredient id="37580" count="5" />
+		<ingredient id="70137" count="1" />
+		<ingredient id="106415" count="2100" />
+	</item>
+	<item product1Id="70139" product1Count="1" product1Chance="20.0" product2Id="70138" product2Count="1" product2Chance="80.0" index="1079">
+		<ingredient id="70018" count="15" />
+		<ingredient id="37580" count="5" />
+		<ingredient id="70138" count="1" />
+		<ingredient id="106415" count="2500" />
+	</item>
+
+
+																	<!-- Подкатегория: Карта Тиад -->
+	<item product1Id="70140" product1Count="1" product1Chance="80.0" product2Id="57" product2Count="5000000" product2Chance="20.0" index="1080">
+		<ingredient id="37581" count="1" />
+		<ingredient id="106415" count="200" />
+		<ingredient id="57" count="50000000" />
+	</item>
+	<item product1Id="70141" product1Count="1" product1Chance="70.0" product2Id="70140" product2Count="1" product2Chance="30.0" index="1081">
+		<ingredient id="57" count="100000000" />
+		<ingredient id="37581" count="1" />
+		<ingredient id="70140" count="1" />
+		<ingredient id="106415" count="300" />
+	</item>
+	<item product1Id="70142" product1Count="1" product1Chance="60.0" product2Id="70141" product2Count="1" product2Chance="40.0" index="1082">
+		<ingredient id="57" count="150000000" />
+		<ingredient id="37581" count="2" />
+		<ingredient id="70141" count="1" />
+		<ingredient id="106415" count="500" />
+	</item>
+	<item product1Id="70143" product1Count="1" product1Chance="50.0" product2Id="70142" product2Count="1" product2Chance="50.0" index="1083">
+		<ingredient id="70018" count="2" />
+		<ingredient id="37581" count="2" />
+		<ingredient id="70142" count="1" />
+		<ingredient id="106415" count="700" />
+	</item>
+	<item product1Id="70144" product1Count="1" product1Chance="45.0" product2Id="70143" product2Count="1" product2Chance="55.0" index="1084">
+		<ingredient id="70018" count="4" />
+		<ingredient id="37581" count="3" />
+		<ingredient id="70143" count="1" />
+		<ingredient id="106415" count="900" />
+	</item>
+	<item product1Id="70145" product1Count="1" product1Chance="40.0" product2Id="70144" product2Count="1" product2Chance="60.0" index="1085">
+		<ingredient id="70018" count="6" />
+		<ingredient id="37581" count="3" />
+		<ingredient id="70144" count="1" />
+		<ingredient id="106415" count="1200" />
+	</item>
+	<item product1Id="70146" product1Count="1" product1Chance="35.0" product2Id="70145" product2Count="1" product2Chance="65.0" index="1086">
+		<ingredient id="70018" count="8" />
+		<ingredient id="37581" count="4" />
+		<ingredient id="70145" count="1" />
+		<ingredient id="106415" count="1500" />
+	</item>
+	<item product1Id="70147" product1Count="1" product1Chance="30.0" product2Id="70146" product2Count="1" product2Chance="70.0" index="1087">
+		<ingredient id="70018" count="10" />
+		<ingredient id="37581" count="5" />
+		<ingredient id="70146" count="1" />
+		<ingredient id="106415" count="1800" />
+	</item>
+	<item product1Id="70148" product1Count="1" product1Chance="25.0" product2Id="70147" product2Count="1" product2Chance="75.0" index="1088">
+		<ingredient id="70018" count="12" />
+		<ingredient id="37581" count="5" />
+		<ingredient id="70147" count="1" />
+		<ingredient id="106415" count="2100" />
+	</item>
+	<item product1Id="70149" product1Count="1" product1Chance="20.0" product2Id="70148" product2Count="1" product2Chance="80.0" index="1089">
+		<ingredient id="70018" count="15" />
+		<ingredient id="37581" count="5" />
+		<ingredient id="70148" count="1" />
+		<ingredient id="106415" count="2500" />
+	</item>
+
+
+
+																	<!-- Подкатегория: Карта Лилит -->
+	<item product1Id="70150" product1Count="1" product1Chance="80.0" product2Id="57" product2Count="5000000" product2Chance="20.0" index="1090">
+		<ingredient id="37582" count="1" />
+		<ingredient id="106415" count="200" />
+		<ingredient id="57" count="50000000" />
+	</item>
+	<item product1Id="70151" product1Count="1" product1Chance="70.0" product2Id="70150" product2Count="1" product2Chance="30.0" index="1091">
+		<ingredient id="57" count="100000000" />
+		<ingredient id="37582" count="1" />
+		<ingredient id="70150" count="1" />
+		<ingredient id="106415" count="300" />
+	</item>
+	<item product1Id="70152" product1Count="1" product1Chance="60.0" product2Id="70151" product2Count="1" product2Chance="40.0" index="1092">
+		<ingredient id="57" count="150000000" />
+		<ingredient id="37582" count="2" />
+		<ingredient id="70151" count="1" />
+		<ingredient id="106415" count="500" />
+	</item>
+	<item product1Id="70153" product1Count="1" product1Chance="50.0" product2Id="70152" product2Count="1" product2Chance="50.0" index="1093">
+		<ingredient id="70018" count="2" />
+		<ingredient id="37582" count="2" />
+		<ingredient id="70152" count="1" />
+		<ingredient id="106415" count="700" />
+	</item>
+	<item product1Id="70154" product1Count="1" product1Chance="45.0" product2Id="70153" product2Count="1" product2Chance="55.0" index="1094">
+		<ingredient id="70018" count="4" />
+		<ingredient id="37582" count="3" />
+		<ingredient id="70153" count="1" />
+		<ingredient id="106415" count="900" />
+	</item>
+	<item product1Id="70155" product1Count="1" product1Chance="40.0" product2Id="70154" product2Count="1" product2Chance="60.0" index="1095">
+		<ingredient id="70018" count="6" />
+		<ingredient id="37582" count="3" />
+		<ingredient id="70154" count="1" />
+		<ingredient id="106415" count="1200" />
+	</item>
+	<item product1Id="70156" product1Count="1" product1Chance="35.0" product2Id="70155" product2Count="1" product2Chance="65.0" index="1096">
+		<ingredient id="70018" count="8" />
+		<ingredient id="37582" count="4" />
+		<ingredient id="70155" count="1" />
+		<ingredient id="106415" count="1500" />
+	</item>
+	<item product1Id="70157" product1Count="1" product1Chance="30.0" product2Id="70156" product2Count="1" product2Chance="70.0" index="1097">
+		<ingredient id="70018" count="10" />
+		<ingredient id="37582" count="5" />
+		<ingredient id="70156" count="1" />
+		<ingredient id="106415" count="1800" />
+	</item>
+	<item product1Id="70158" product1Count="1" product1Chance="25.0" product2Id="70157" product2Count="1" product2Chance="75.0" index="1098">
+		<ingredient id="70018" count="12" />
+		<ingredient id="37582" count="5" />
+		<ingredient id="70157" count="1" />
+		<ingredient id="106415" count="2100" />
+	</item>
+	<item product1Id="70159" product1Count="1" product1Chance="20.0" product2Id="70158" product2Count="1" product2Chance="80.0" index="1099">
+		<ingredient id="70018" count="15" />
+		<ingredient id="37582" count="5" />
+		<ingredient id="70158" count="1" />
+		<ingredient id="106415" count="2500" />
+	</item>
+
+
+																	<!-- Подкатегория: Карта Полины -->
+	<item product1Id="70160" product1Count="1" product1Chance="80.0" product2Id="57" product2Count="5000000" product2Chance="20.0" index="1100">
+		<ingredient id="37583" count="1" />
+		<ingredient id="106415" count="200" />
+		<ingredient id="57" count="50000000" />
+	</item>
+	<item product1Id="70161" product1Count="1" product1Chance="70.0" product2Id="70160" product2Count="1" product2Chance="30.0" index="1101">
+		<ingredient id="57" count="100000000" />
+		<ingredient id="37583" count="1" />
+		<ingredient id="70160" count="1" />
+		<ingredient id="106415" count="300" />
+	</item>
+	<item product1Id="70162" product1Count="1" product1Chance="60.0" product2Id="70161" product2Count="1" product2Chance="40.0" index="1102">
+		<ingredient id="57" count="150000000" />
+		<ingredient id="37583" count="2" />
+		<ingredient id="70161" count="1" />
+		<ingredient id="106415" count="500" />
+	</item>
+	<item product1Id="70163" product1Count="1" product1Chance="50.0" product2Id="70162" product2Count="1" product2Chance="50.0" index="1103">
+		<ingredient id="70018" count="2" />
+		<ingredient id="37583" count="2" />
+		<ingredient id="70162" count="1" />
+		<ingredient id="106415" count="700" />
+	</item>
+	<item product1Id="70164" product1Count="1" product1Chance="45.0" product2Id="70163" product2Count="1" product2Chance="55.0" index="1104">
+		<ingredient id="70018" count="4" />
+		<ingredient id="37583" count="3" />
+		<ingredient id="70163" count="1" />
+		<ingredient id="106415" count="900" />
+	</item>
+	<item product1Id="70165" product1Count="1" product1Chance="40.0" product2Id="70164" product2Count="1" product2Chance="60.0" index="1105">
+		<ingredient id="70018" count="6" />
+		<ingredient id="37583" count="3" />
+		<ingredient id="70164" count="1" />
+		<ingredient id="106415" count="1200" />
+	</item>
+	<item product1Id="70166" product1Count="1" product1Chance="35.0" product2Id="70165" product2Count="1" product2Chance="65.0" index="1106">
+		<ingredient id="70018" count="8" />
+		<ingredient id="37583" count="4" />
+		<ingredient id="70165" count="1" />
+		<ingredient id="106415" count="1500" />
+	</item>
+	<item product1Id="70167" product1Count="1" product1Chance="30.0" product2Id="70166" product2Count="1" product2Chance="70.0" index="1107">
+		<ingredient id="70018" count="10" />
+		<ingredient id="37583" count="5" />
+		<ingredient id="70166" count="1" />
+		<ingredient id="106415" count="1800" />
+	</item>
+	<item product1Id="70168" product1Count="1" product1Chance="25.0" product2Id="70167" product2Count="1" product2Chance="75.0" index="1108">
+		<ingredient id="70018" count="12" />
+		<ingredient id="37583" count="5" />
+		<ingredient id="70167" count="1" />
+		<ingredient id="106415" count="2100" />
+	</item>
+	<item product1Id="70169" product1Count="1" product1Chance="20.0" product2Id="70168" product2Count="1" product2Chance="80.0" index="1109">
+		<ingredient id="70018" count="15" />
+		<ingredient id="37583" count="5" />
+		<ingredient id="70168" count="1" />
+		<ingredient id="106415" count="2500" />
+	</item>
+															<!-- Категория Дополнительное Снаряжение -->
+
+																<!-- Подкатегория: Символ Война -->
+	<item product1Id="70100" product1Count="1" product1Chance="80.0" product2Id="57" product2Count="3000000" product2Chance="20.0" index="1034">
+		<ingredient id="57" count="30000000" />
+		<ingredient id="106415" count="500" />
+	</item>
+	<item product1Id="70101" product1Count="1" product1Chance="70.0" product2Id="70100" product2Count="1" product2Chance="30.0" index="1035">
+		<ingredient id="70100" count="1" />
+		<ingredient id="106415" count="700" />
+		<ingredient id="57" count="50000000" />
+	</item>
+	<item product1Id="70102" product1Count="1" product1Chance="65.0" product2Id="70101" product2Count="1" product2Chance="35.0" index="1036">
+		<ingredient id="70101" count="1" />
+		<ingredient id="106415" count="900" />
+		<ingredient id="57" count="100000000" />
+	</item>
+	<item product1Id="70103" product1Count="1" product1Chance="60.0" product2Id="70102" product2Count="1" product2Chance="40.0" index="1037">
+		<ingredient id="70102" count="1" />
+		<ingredient id="106415" count="1200" />
+		<ingredient id="57" count="200000000" />
+	</item>
+	<item product1Id="70104" product1Count="1" product1Chance="55.0" product2Id="70103" product2Count="1" product2Chance="45.0" index="1038">
+		<ingredient id="70103" count="1" />
+		<ingredient id="70018" count="4" />
+		<ingredient id="106415" count="1500" />
+	</item>
+	<item product1Id="70105" product1Count="1" product1Chance="50.0" product2Id="70104" product2Count="1" product2Chance="50.0" index="1039">
+		<ingredient id="70104" count="1" />
+		<ingredient id="70018" count="6" />
+		<ingredient id="106415" count="1800" />
+	</item>
+	<item product1Id="70106" product1Count="1" product1Chance="40.0" product2Id="70105" product2Count="1" product2Chance="60.0" index="1040">
+		<ingredient id="70105" count="1" />
+		<ingredient id="70018" count="8" />
+		<ingredient id="106415" count="2100" />
+	</item>
+	<item product1Id="70107" product1Count="1" product1Chance="30.0" product2Id="70106" product2Count="1" product2Chance="70.0" index="1041">
+		<ingredient id="70106" count="1" />
+		<ingredient id="70018" count="10" />
+		<ingredient id="106415" count="2400" />
+	</item>
+	<item product1Id="70108" product1Count="1" product1Chance="20.0" product2Id="70107" product2Count="1" product2Chance="80.0" index="1042">
+		<ingredient id="70107" count="1" />
+		<ingredient id="70018" count="12" />
+		<ingredient id="106415" count="2700" />
+	</item>
+	<item product1Id="70109" product1Count="1" product1Chance="10.0" product2Id="70108" product2Count="1" product2Chance="90.0" index="1043">
+		<ingredient id="70108" count="1" />
+		<ingredient id="70018" count="15" />
+		<ingredient id="106415" count="3000" />
+	</item>
+
+																	<!-- Подкатегория: Символ Искателя -->
+	<item product1Id="70110" product1Count="1" product1Chance="80.0" product2Id="57" product2Count="3000000" product2Chance="20.0" index="1044">
+		<ingredient id="57" count="30000000" />
+		<ingredient id="106415" count="500" />
+	</item>
+	<item product1Id="70111" product1Count="1" product1Chance="70.0" product2Id="70110" product2Count="1" product2Chance="30.0" index="1045">
+		<ingredient id="70110" count="1" />
+		<ingredient id="106415" count="700" />
+		<ingredient id="57" count="50000000" />
+	</item>
+	<item product1Id="70112" product1Count="1" product1Chance="65.0" product2Id="70111" product2Count="1" product2Chance="35.0" index="1046">
+		<ingredient id="70111" count="1" />
+		<ingredient id="106415" count="900" />
+		<ingredient id="57" count="100000000" />
+	</item>
+	<item product1Id="70113" product1Count="1" product1Chance="60.0" product2Id="70112" product2Count="1" product2Chance="40.0" index="1047">
+		<ingredient id="70112" count="1" />
+		<ingredient id="106415" count="1200" />
+		<ingredient id="57" count="200000000" />
+	</item>
+	<item product1Id="70114" product1Count="1" product1Chance="55.0" product2Id="70113" product2Count="1" product2Chance="45.0" index="1048">
+		<ingredient id="70113" count="1" />
+		<ingredient id="70018" count="4" />
+		<ingredient id="106415" count="1500" />
+	</item>
+	<item product1Id="70115" product1Count="1" product1Chance="50.0" product2Id="70114" product2Count="1" product2Chance="50.0" index="1049">
+		<ingredient id="70114" count="1" />
+		<ingredient id="70018" count="6" />
+		<ingredient id="106415" count="1800" />
+	</item>
+	<item product1Id="70116" product1Count="1" product1Chance="40.0" product2Id="70115" product2Count="1" product2Chance="60.0" index="1050">
+		<ingredient id="70115" count="1" />
+		<ingredient id="70018" count="8" />
+		<ingredient id="106415" count="2100" />
+	</item>
+	<item product1Id="70117" product1Count="1" product1Chance="30.0" product2Id="70116" product2Count="1" product2Chance="70.0" index="1051">
+		<ingredient id="70116" count="1" />
+		<ingredient id="70018" count="10" />
+		<ingredient id="106415" count="2400" />
+	</item>
+	<item product1Id="70118" product1Count="1" product1Chance="20.0" product2Id="70117" product2Count="1" product2Chance="80.0" index="1052">
+		<ingredient id="70117" count="1" />
+		<ingredient id="70018" count="12" />
+		<ingredient id="106415" count="2700" />
+	</item>
+	<item product1Id="70119" product1Count="1" product1Chance="10.0" product2Id="70118" product2Count="1" product2Chance="90.0" index="1053">
+		<ingredient id="70118" count="1" />
+		<ingredient id="70018" count="15" />
+		<ingredient id="106415" count="3000" />
+	</item>
+
+	<!-- Категория Прочее -->
+	<item product1Id="106470" product1Count="1" product1Chance="90.0" product2Id="106467" product2Count="1" product2Chance="10.0" index="1058">
+		<ingredient id="106467" count="3" />
+	</item>
+	<item product1Id="106471" product1Count="1" product1Chance="70.0" product2Id="57" product2Count="10000" product2Chance="30.0" index="1059">
+		<ingredient id="106470" count="5" />
+		<ingredient id="106468" count="5" />
+		<ingredient id="57" count="100000" />
+	</item>
+	<item product1Id="106472" product1Count="1" product1Chance="50.0" product2Id="57" product2Count="5000000" product2Chance="50.0" index="1114">
+		<ingredient id="106471" count="20" />
+		<ingredient id="106469" count="50" />
+		<ingredient id="57" count="50000000" />
+	</item>
+	<item product1Id="106524" product1Count="1" product2Id="57" index="1118">
+		<ingredient id="70039" count="300" />
+		<ingredient id="110303" count="10" />
+		<ingredient id="110615" count="10" />
+		<ingredient id="106472" count="200" />
+	</item>
+	<!--<item product1Id="106434" product1Count="1" product1Chance="100.0"  index="1223">
+		<ingredient id="106433" count="1" />
+		<ingredient id="106432" count="1" />
+	</item>-->
+	<!--<item product1Id="106560" product1Chance="100.0"  index="1203" product1Count="1" >
+		<ingredient id="106431" count="250"/>
+	</item>-->
+	<item product1Id="106533" product1Count="1" index="1204">
+		<ingredient id="106438" count="1" />
+	</item>
+	<item product1Id="106534" product1Count="1" index="1205">
+		<ingredient id="106438" count="1" />
+	</item>
+	<item product1Id="106535" product1Count="1" index="1206">
+		<ingredient id="106438" count="1" />
+	</item>
+	<item product1Id="20336" product1Chance="30.0"  index="1207" product1Count="1" product2Id="97068" product2Chance="30.0" product2Count="1" product3Id="70066" product3Chance="40.0" product3Count="1">
+		<ingredient id="106438" count="1"/>
+	</item>
+	<item product1Id="106536" product1Count="1" index="1208">
+		<ingredient id="106438" count="1" />
+	</item>
+
+	<item product1Id="106583" product1Count="1" index="1215">
+		<ingredient id="106584" count="1000" />
+	</item>
+
+	<item product1Id="105306" product1Count="1" product1Chance="30.0" product2Id="70082" product2Count="100" product2Chance="70.0" index="1211">
+		<ingredient id="70082" count="2000" />
+	</item>
+	<item product1Id="105250" product1Count="1" product1Chance="50.0" product2Id="70029" product2Count="10" product2Chance="50.0" index="1216">
+		<ingredient id="70029" count="300" />
+	</item>
+	<item product1Id="105252" product1Count="1" product1Chance="70.0" product2Id="70028" product2Count="10" product2Chance="30.0" index="1217">
+		<ingredient id="70028" count="200" />
+	</item>
+	<item product1Id="26475" product1Count="1" product1Chance="70.0" product2Id="28359" product2Count="10" product2Chance="30.0" index="1219">
+		<ingredient id="28359" count="100" />
+	</item>
+	<item product1Id="48213" product1Count="1" product1Chance="70.0" product2Id="48212" product2Count="10" product2Chance="30.0" index="1220">
+		<ingredient id="48212" count="100" />
+	</item>
+
+	<item product1Id="48877" product1Count="1" index="1237">
+		<ingredient id="48876" count="100" />
+	</item>
+	<item product1Id="48878" product1Count="1" index="1238">
+		<ingredient id="48877" count="50" />
+	</item>
+	<item product1Id="82169" product1Count="1" product1Chance="10.0" product2Id="48878" product2Count="100" product2Chance="80.0" index="1245">
+		<ingredient id="48878" count="10000" />
+		<ingredient id="70018" count="100" />
+	</item>
+	<item product1Id="110397" product1Count="1" index="1239">
+		<ingredient id="110394" count="20" />
+		<ingredient id="110395" count="1000" />
+		<ingredient id="110396" count="1" />
+	</item>
+	<item product1Id="70061" product1Count="1" product1Chance="70.0" product2Id="57" product2Count="10000" product2Chance="30.0" index="1240">
+		<ingredient id="70001" count="1" />
+	</item>
+	<item product1Id="70019" product1Count="1" product1Chance="70.0" product2Id="57" product2Count="10000" product2Chance="30.0" index="1241">
+		<ingredient id="106436" count="1" />
+	</item>
+	<item product1Id="96630" product1Count="1" product1Chance="80.0" product2Id="57" product2Count="10000" product2Chance="20.0" index="1242">
+		<ingredient id="96623" count="2" />
+	</item>
+	<item product1Id="96613" product1Count="1" product1Chance="10.0" product2Id="96630" product2Count="1" product2Chance="90.0" index="1243">
+		<ingredient id="96630" count="20" />
+		<ingredient id="70018" count="30" />
+	</item>
+
+
+																	<!-- Категория Ивент -->
+	<item product1Id="48910" product1Count="1" product1Chance="10.0" product2Id="48909" product2Count="1" product2Chance="90.0" index="1221">
+		<ingredient id="70018" count="200" />
+		<ingredient id="70069" count="100" />
+	</item>
+	<item product1Id="48909" product1Count="1" product1Chance="30.0" product2Id="70018" product2Count="1" product2Chance="70.0" index="1222">
+		<ingredient id="70018" count="30" />
+		<ingredient id="70069" count="20" />
+	</item>
+	<item product1Id="106599" product1Count="1" index="1244">
+		<ingredient id="106466" count="1" />
+		<ingredient id="110620" count="10" />
+	</item>
+	<!--<item product1Id="110327" product1Count="1" product1Chance="100.0" index="1224">
+		<ingredient id="70001" count="10" />
+		<ingredient id="70018" count="100" />
+		<ingredient id="106436" count="10" />
+	</item>-->
+	<!--<item product1Id="98632" product1Count="1" index="1225">
+		<ingredient id="97351" count="30" />
+	</item>-->
+
+	<!-- снежные куклы -->
+
+	<!--<item product1Id="70066" product1Count="5" index="1226">
+		<ingredient id="98636" count="1" />
+	</item>
+	<item product1Id="70000" product1Count="5" index="1227">
+		<ingredient id="98637" count="1" />
+	</item>
+	<item product1Id="110329" product1Count="1" index="1228">
+		<ingredient id="98638" count="1" />
+	</item>
+	<item product1Id="110339" product1Count="1" index="1229">
+		<ingredient id="98639" count="1" />
+	</item>
+	<item product1Id="110308" product1Count="5" index="1230">
+		<ingredient id="98640" count="1" />
+	</item>
+	<item product1Id="110367" product1Count="1" index="1231">
+		<ingredient id="98641" count="1" />
+	</item>
+	<item product1Id="82032" product1Count="5" index="1232">
+		<ingredient id="98642" count="1" />
+	</item>
+	<item product1Id="110369" product1Count="1" index="1233">
+		<ingredient id="98643" count="1" />
+	</item>
+	<item product1Id="110374" product1Count="1" index="1234">
+		<ingredient id="98644" count="1" />
+	</item>
+	<item product1Id="110375" product1Count="1" index="1235">
+		<ingredient id="98645" count="1" />
+	</item>
+	<item product1Id="110370" product1Count="1" index="1236">
+		<ingredient id="98646" count="1" />
+	</item>-->
+
+</list>

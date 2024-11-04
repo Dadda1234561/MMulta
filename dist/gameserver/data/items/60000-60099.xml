@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<etcitem id="60000" name="Freya's Ice Rose" add_name="Event">
+		<!--For 30 min., Max HP/ MP/ CP +30%, P./ M. Atk. and P./ M. Def. +30%, Atk. Spd./ Casting Spd. +10%, Speed +20, Attribute Attack/ Resistance +100, damage +10%, P./ M. Skill Power +10%, acquired XP/ SP +30%, received damage -10%, Skill MP Consumption -15%.\nThe effect remains after death. Cooldown: 5 min. Does not stack with Art of Seduction and Pa'agrio's Blessing. Cannot be used in the Olympiad.-->
+		<set name="tradeable" value="false" />
+		<set name="dropable" value="false" />
+		<set name="privatestoreable" value="false" />
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60001" name="Lovely Chocolate Box">
+		<!--Double-click to obtain 1-5 Valentine's Bouquets. Additionally, you can get 1 useful item.-->
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60002" name="Lovely Chocolate Box Set">
+		<!--Double-click to obtain Lovely Chocolate Box (70 pcs.) and Valentine's Bouquet (25 pcs.).-->
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60003" name="Alchemist's Treasure Chest">
+		<!--Double-click to obtain a random item.-->
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60004" name="Boys' Surprise Lucky Pouch">
+		<!--Double-click to obtain a random item. Additionally you can get Christmas Gift Lucky Pouch.-->
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60005" name="Christmas Gift Lucky Pouch">
+		<!--Double-click to obtain 1 to 2000 Boys' Lucky Coins.-->
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60006" name="Boys' Lucky Coin">
+		<!--Take it to the Game Assistant to obtain a useful item.-->
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60007" name="Siege Attack Box">
+		<!--Double-click to obtain a random item.-->
+		<set name="tradeable" value="false" />
+		<set name="dropable" value="false" />
+		<set name="privatestoreable" value="false" />
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60008" name="Siege Support Box">
+		<!--Double-click to obtain various supplies.-->
+		<set name="tradeable" value="false" />
+		<set name="dropable" value="false" />
+		<set name="privatestoreable" value="false" />
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60009" name="Festival Fairy's Lucky Ticket">
+		<!--Allows to take part in the raffle for 1 h. after using the ticket. Required level: 105+. The effect is removed when switching to a subclass/ dual class.-->
+		<set name="tradeable" value="false" />
+		<set name="dropable" value="false" />
+		<set name="privatestoreable" value="false" />
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60010" name="Pantheon's Protection Box">
+		<!--Double-click to obtain 1 useful item with a certain chance.-->
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60011" name="Festival Fairy's Good Luck Bag" add_name="Event">
+		<!--Double-click to obtain 3 Festival Fairy's Lucky Tickets (1-hour).-->
+		<set name="tradeable" value="false" />
+		<set name="dropable" value="false" />
+		<set name="destroyable" value="false" />
+		<set name="privatestoreable" value="false" />
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60012" name="Barter Package">
+		<!--Double-click to obtain rare items.-->
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<etcitem id="60013" name="Partner Help Cube">
+		<!--Double-click to obtain Emperor's Special Cocktail (3 pcs.).\n10 d. - Ice Rose (50 pcs.)\n20 d. - Glowing Dragon's Attribute Potion (50 pcs.)\n30 d. - Shining Nevit's Gold Hourglass (20 pcs.)\n(Can be used only once a day.)-->
+		<set name="tradeable" value="false" />
+		<set name="dropable" value="false" />
+		<set name="privatestoreable" value="false" />
+		<set name="sellable" value="false" />
+		<set name="commissionable" value="false" />
+	</etcitem>
+	<armor id="60019" name="Freya's Appearance">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.Icon.g_bm_costume_freya"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="60020" name="Freya's Appearance">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.Icon.g_bm_costume_freya"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="60021" name="Freya's Appearance">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.Icon.g_bm_costume_freya"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="60022" name="Freya's Appearance">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.Icon.g_bm_costume_freya"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="60023" name="Freya's Appearance">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.Icon.g_bm_costume_freya"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="60024" name="Freya's Appearance">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.Icon.g_bm_costume_freya"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="60025" name="Freya's Appearance">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.Icon.g_bm_costume_freya"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="60364" name="Freya's Appearance">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.Icon.g_bm_costume_freya"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="60365" name="Freya's Appearance">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="BranchIcon.Icon.g_bm_costume_freya"/>
+		<set name="type" value="HEAVY"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+</list>

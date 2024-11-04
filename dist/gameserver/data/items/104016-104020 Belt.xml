@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		Belt
+	-->
+	<armor id="104016" name="Ruler's Authority">
+		
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.belt_rulers_authority"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="440"/>
+		<equip>
+			<slot id="BELT"/>
+		</equip>
+		<skills>
+			<skill id="103002" level="1"/>	<!--Полномочия Правителей-->
+		</skills>
+		<!-- <for>
+			<add stat="pDef" order="0x10" value="50"/>
+		</for> -->
+	</armor>
+	<armor id="104017" name="Ruler's Authority">
+		
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.belt_rulers_authority"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="440"/>
+		<equip>
+			<slot id="BELT"/>
+		</equip>
+		<skills>
+			<skill id="103002" level="2"/>	<!--Полномочия Правителей-->
+		</skills>
+		<!-- <for>
+			<add stat="pDef" order="0x10" value="50"/>
+		</for> -->
+	</armor>
+	<armor id="104018" name="Ruler's Authority">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.belt_rulers_authority"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="440"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="BELT"/>
+		</equip>
+		<skills>
+			<skill id="103002" level="3"/>	<!--Полномочия Правителей-->
+		</skills>
+		<!-- <for>
+			<add stat="pDef" order="0x10" value="50"/>
+		</for> -->
+	</armor>
+	<armor id="104019" name="Enhanced Ruler's Authority">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.belt_rulers_authority"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="440"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="BELT"/>
+		</equip>
+		<skills>
+			<skill id="103002" level="4"/>	<!--Полномочия Правителей-->
+		</skills>
+		<!-- <for>
+			<add stat="pDef" order="0x10" value="100"/>
+		</for> -->
+	</armor>
+	<armor id="104020" name="Ruler's Authority - Chaos">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.belt_rulers_authority"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="440"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="BELT"/>
+		</equip>
+		<skills>
+			<skill id="103002" level="5"/>	<!--Полномочия Правителей-->
+		</skills>
+		<enchant_options>
+			<level value="1">
+				<option id="42231"/>
+			</level>
+			<level value="2">
+				<option id="42232"/>
+			</level>
+			<level value="3">
+				<option id="42233"/>
+			</level>
+			<level value="4">
+				<option id="42234"/>
+			</level>
+			<level value="5">
+				<option id="42235"/>
+			</level>
+			<level value="6">
+				<option id="42236"/>
+			</level>
+			<level value="7">
+				<option id="42237"/>
+			</level>
+			<level value="8">
+				<option id="42238"/>
+			</level>
+			<level value="9">
+				<option id="42239"/>
+			</level>
+			<level value="10">
+				<option id="42240"/>
+			</level>
+		</enchant_options>
+	</armor>
+</list>

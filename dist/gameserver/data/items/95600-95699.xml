@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <armor id="95663" name="Символ Святости">
+        <set name="crystal_type" value="R99"/>
+        <set name="crystal_count" value="1891"/>
+        <set name="icon" value="icon.elos_i00"/>
+        <set name="type" value="SIGIL"/>
+        <set name="weight" value="920"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="1"/>
+        </for>
+    </armor>
+    <armor id="96937" name="Символ Бессмертия">
+        <set name="crystal_type" value="R99"/>
+        <set name="crystal_count" value="1891"/>
+        <set name="icon" value="icon.elos_i00"/>
+        <set name="type" value="SIGIL"/>
+        <set name="weight" value="920"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="1"/>
+        </for>
+    </armor>
+</list>

@@ -1,0 +1,1 @@
+ALTER TABLE character_subclasses DROP COLUMN abilities_points;

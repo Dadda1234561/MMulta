@@ -1,0 +1,2750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!-- AUTHOR: Edoo -->
+<list>
+<spawn group="gludio_castle_mass_gatekeeper" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-16532" y="109387" z="-1784" h="32768"/>
+		<npc id="35095"/><!--Mass Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="35096" />
+      <point x="-18452" y="113261" z="-2760" h="16384" />
+	</spawn> <!-- Outer Castle Gatekeeper -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="35096" />
+      <point x="-18506" y="112913" z="-2768" h="32768" />
+	</spawn> <!-- Outer Castle Gatekeeper -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="35097" />
+      <point x="-18279" y="110702" z="-2464" h="16384" />
+	</spawn> <!-- Inner Castle Gatekeeper -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="35097" />
+      <point x="-18345" y="110347" z="-2512" h="32768" />
+	</spawn> <!-- Inner Castle Gatekeeper -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="35098" />
+      <point x="-17644" y="109616" z="-2656" h="33000" />
+	</spawn> <!-- Blacksmith -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="35099" />
+      <point x="-18130" y="110020" z="-2656" h="49152" />
+	</spawn> <!-- Warehouse Keeper -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="35100" />
+      <point x="-18212" y="108827" z="-2480" h="16384" />
+	</spawn> <!-- Chamberlain of Light -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="35101" />
+      <point x="-17952" y="108142" z="-2032" h="49152" />
+	</spawn> <!-- Grad -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="35102" />
+      <point x="-17876" y="108944" z="-2496" h="16384" />
+	</spawn> <!-- Greenspan -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="35104" />
+      <point x="-15172" y="116723" z="-3216" h="16384" />
+	</spawn> <!-- Tyron -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="35648" />
+      <point x="-18340" y="108932" z="-2496" h="16384" />
+	</spawn> <!-- Court Wizard -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="36403" />
+      <point x="-18142" y="109070" z="-2656" h="16384" />
+	</spawn> <!-- Warden -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="36707" />
+      <point x="-18117" y="108313" z="-2032" h="47567" />
+	</spawn> <!-- Mermoden -->
+		<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="gludio_castle_1">
+		<point x="-17680" y="109519" z="-2656" h="0"/>
+		<npc id="35098"/><!--Blacksmith-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="gludio_castle_1">
+		<point x="-18113" y="109956" z="-2683" h="0"/>
+		<npc id="35099"/><!--Warehouse Keeper-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="gludio_castle_1">
+		<point x="-17952" y="108142" z="-2032" h="-16384"/>
+		<npc id="35101"/><!--Grad-->
+	</spawn>
+		<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="gludio_castle_1">
+		<point x="-18234" y="108913" z="-2507" h="868"/>
+		<npc id="35648"/><!--Court Magician-->
+	</spawn>
+		<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="gludio_castle_1">
+		<point x="-17962" y="109067" z="-2657" h="16384"/>
+		<npc id="36403"/><!--Warden-->
+	</spawn>
+		<spawn group="gludio_castle_siege_artefact" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-18120" y="107984" z="-2483" h="16384"/>
+		<npc id="35063"/><!--Holy Artefact-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111653" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111602" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111552" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111502" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111452" z="-2376" h="0"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111402" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111352" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111302" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111252" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111202" z="-2376" h="0"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111152" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege12" count="1" respawn="10800">
+		<point x="-16548" y="111102" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18220" y="110540" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18189" y="110540" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18158" y="110540" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18126" y="110540" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18095" y="110540" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18063" y="110540" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18032" y="110540" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18000" y="110540" z="-2500" h="16384"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18220" y="110560" z="-2500" h="16384"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18189" y="110560" z="-2500" h="16384"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18158" y="110560" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18126" y="110560" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18095" y="110560" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18063" y="110560" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18032" y="110560" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege11" count="1" respawn="10800">
+		<point x="-18000" y="110560" z="-2500" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111653" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111602" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111552" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111502" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111452" z="-2376" h="0"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111402" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111352" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111302" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111252" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111202" z="-2376" h="0"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111152" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege13" count="1" respawn="10800">
+		<point x="-19950" y="111102" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-17880" y="110667" z="-2191" h="32768"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-17881" y="110789" z="-2191" h="32768"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-17826" y="110850" z="-2191" h="24576"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-17801" y="110869" z="-2191" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-17762" y="110870" z="-2191" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-17726" y="110870" z="-2191" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-17880" y="110710" z="-2191" h="32768"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-17852" y="110825" z="-2191" h="24576"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-17880" y="110749" z="-2190" h="32768"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-17778" y="110804" z="-2192" h="24576"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-18333" y="110661" z="-2193" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-18333" y="110701" z="-2191" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-18333" y="110786" z="-2192" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-18391" y="110851" z="-2191" h="8192"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-18418" y="110871" z="-2190" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-18458" y="110870" z="-2191" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-18497" y="110871" z="-2191" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-18333" y="110745" z="-2189" h="0"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-18355" y="110815" z="-2192" h="8192"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege10" count="1" respawn="10800">
+		<point x="-18435" y="110797" z="-2189" h="8192"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18176" y="111420" z="-2500" h="16384"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18048" y="111420" z="-2500" h="16384"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17985" y="111420" z="-2500" h="16384"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18240" y="111420" z="-2500" h="16384"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18371" y="111420" z="-2500" h="16384"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18499" y="111420" z="-2500" h="16384"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17857" y="111420" z="-2500" h="16384"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17728" y="111420" z="-2500" h="16384"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18304" y="111420" z="-2500" h="16384"/>
+		<npc id="35067"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17921" y="111420" z="-2500" h="16384"/>
+		<npc id="35067"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17664" y="111420" z="-2500" h="16384"/>
+		<npc id="35067"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18563" y="111420" z="-2500" h="16384"/>
+		<npc id="35067"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18112" y="111420" z="-2500" h="16384"/>
+		<npc id="35068"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17793" y="111420" z="-2500" h="16384"/>
+		<npc id="35068"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18435" y="111420" z="-2500" h="16384"/>
+		<npc id="35068"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18560" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18496" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17664" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17728" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18112" y="111570" z="-2500" h="16384"/>
+		<npc id="35066"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18432" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18368" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18304" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18240" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18176" y="111570" z="-2500" h="16384"/>
+		<npc id="35066"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-18049" y="111570" z="-2500" h="16384"/>
+		<npc id="35066"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17985" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17921" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17857" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege09" count="1" respawn="10800">
+		<point x="-17793" y="111570" z="-2500" h="16384"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18096" y="113184" z="-2384" h="32768"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18096" y="113248" z="-2384" h="32768"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18096" y="113296" z="-2384" h="32768"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18048" y="113296" z="-2384" h="20480"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18000" y="113296" z="-2384" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-17936" y="113296" z="-2384" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-17872" y="113296" z="-2384" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18602" y="113174" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18608" y="113232" z="-2384" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18611" y="113295" z="-2376" h="8192"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18672" y="113296" z="-2384" h="12288"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18720" y="113296" z="-2384" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18780" y="113296" z="-2384" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18830" y="113296" z="-2384" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18096" y="113216" z="-2384" h="32768"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18096" y="113264" z="-2384" h="32768"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18608" y="113200" z="-2384" h="0"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18611" y="113261" z="-2376" h="0"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18025" y="113264" z="-2384" h="16384"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18704" y="113256" z="-2384" h="16384"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18648" y="113313" z="-2376" h="32768"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18692" y="113313" z="-2376" h="32768"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18759" y="113311" z="-2376" h="24576"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18804" y="113316" z="-2376" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18071" y="113326" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18011" y="113328" z="-2376" h="0"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-17969" y="113325" z="-2376" h="8192"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-17923" y="113326" z="-2376" h="16384"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18096" y="113216" z="-2384" h="32768"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18096" y="113264" z="-2384" h="32768"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18608" y="113200" z="-2384" h="0"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18611" y="113261" z="-2376" h="0"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18025" y="113264" z="-2384" h="16384"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege08" count="1" respawn="10800">
+		<point x="-18704" y="113256" z="-2384" h="16384"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18173" y="108190" z="-2555" h="16344"/>
+		<npc id="35064"/><!--Барон Ливен Валднер-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18061" y="108187" z="-2554" h="16344"/>
+		<npc id="35065"/><!--Кроненберг - Сэр-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17959" y="108204" z="-2560" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17922" y="108203" z="-2560" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17889" y="108203" z="-2560" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17851" y="108202" z="-2560" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17814" y="108202" z="-2559" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17776" y="108201" z="-2559" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17744" y="108201" z="-2559" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17706" y="108200" z="-2559" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17959" y="108238" z="-2561" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17921" y="108237" z="-2561" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17888" y="108237" z="-2561" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17851" y="108236" z="-2561" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17813" y="108236" z="-2560" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17776" y="108235" z="-2560" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17743" y="108235" z="-2560" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17706" y="108234" z="-2560" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17957" y="108276" z="-2562" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17919" y="108275" z="-2562" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17887" y="108275" z="-2562" h="16344"/>
+		<npc id="35066"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17849" y="108274" z="-2562" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17812" y="108274" z="-2561" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17774" y="108273" z="-2561" h="16344"/>
+		<npc id="35066"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17742" y="108273" z="-2561" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17704" y="108272" z="-2561" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18519" y="108210" z="-2556" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18481" y="108210" z="-2556" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18449" y="108210" z="-2556" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18411" y="108209" z="-2556" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18374" y="108208" z="-2555" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18336" y="108208" z="-2555" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18303" y="108207" z="-2555" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18266" y="108207" z="-2555" h="16344"/>
+		<npc id="35072"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18518" y="108245" z="-2557" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18480" y="108244" z="-2557" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18448" y="108244" z="-2557" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18410" y="108243" z="-2557" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18373" y="108242" z="-2556" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18335" y="108242" z="-2556" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18303" y="108242" z="-2556" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18265" y="108241" z="-2556" h="16344"/>
+		<npc id="35069"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18517" y="108282" z="-2558" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18479" y="108281" z="-2558" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18446" y="108281" z="-2558" h="16344"/>
+		<npc id="35066"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18409" y="108280" z="-2558" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18371" y="108280" z="-2557" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18334" y="108279" z="-2557" h="16344"/>
+		<npc id="35066"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18301" y="108279" z="-2557" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18264" y="108278" z="-2557" h="16344"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18439" y="108045" z="-2555" h="16344"/>
+		<npc id="35068"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18355" y="108045" z="-2554" h="16344"/>
+		<npc id="35068"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18276" y="108044" z="-2554" h="16344"/>
+		<npc id="35068"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18201" y="108044" z="-2554" h="16344"/>
+		<npc id="35068"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-18024" y="108044" z="-2551" h="16344"/>
+		<npc id="35068"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17941" y="108044" z="-2551" h="16344"/>
+		<npc id="35068"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17861" y="108043" z="-2551" h="16344"/>
+		<npc id="35068"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege05" count="1" respawn="5">
+		<point x="-17787" y="108043" z="-2551" h="16344"/>
+		<npc id="35068"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18257" y="110335" z="-2493" h="6320"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18240" y="110310" z="-2494" h="6320"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18216" y="110284" z="-2493" h="6320"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18197" y="110261" z="-2493" h="6320"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18182" y="110243" z="-2492" h="6320"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18160" y="110217" z="-2494" h="6320"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18143" y="110192" z="-2494" h="6320"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18123" y="110171" z="-2494" h="6320"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18099" y="110160" z="-2495" h="17076"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18074" y="110179" z="-2494" h="25568"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18056" y="110203" z="-2494" h="25568"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18043" y="110223" z="-2493" h="25568"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18024" y="110250" z="-2495" h="25568"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18005" y="110274" z="-2496" h="25568"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17986" y="110304" z="-2495" h="25568"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17969" y="110329" z="-2495" h="25568"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17956" y="110348" z="-2494" h="25568"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18272" y="110315" z="-2495" h="6320"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18254" y="110291" z="-2496" h="6320"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18230" y="110265" z="-2495" h="6320"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18211" y="110241" z="-2495" h="6320"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18196" y="110223" z="-2494" h="6320"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18175" y="110197" z="-2496" h="6320"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18157" y="110173" z="-2496" h="6320"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18138" y="110152" z="-2496" h="6320"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18113" y="110141" z="-2497" h="17076"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18085" y="110142" z="-2494" h="17076"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18060" y="110161" z="-2493" h="25568"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18042" y="110185" z="-2493" h="25568"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18029" y="110205" z="-2492" h="25568"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18010" y="110232" z="-2494" h="25568"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17991" y="110256" z="-2495" h="25568"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17972" y="110286" z="-2494" h="25568"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17955" y="110311" z="-2494" h="25568"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17942" y="110330" z="-2493" h="25568"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18300" y="110210" z="-2493" h="6320"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18281" y="110187" z="-2493" h="6320"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18266" y="110169" z="-2492" h="6320"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18244" y="110143" z="-2494" h="6320"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18227" y="110118" z="-2495" h="6320"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17999" y="110152" z="-2489" h="25568"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17986" y="110172" z="-2488" h="25568"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17966" y="110199" z="-2490" h="25568"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17948" y="110223" z="-2491" h="25568"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17929" y="110253" z="-2490" h="25568"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17968" y="110076" z="-2491" h="15620"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-17934" y="110076" z="-2492" h="15620"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18213" y="110073" z="-2492" h="15620"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18190" y="110074" z="-2492" h="15620"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="10800">
+		<point x="-18265" y="110348" z="-2490" h="25568"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="5">
+		<point x="-18274" y="110294" z="-2493" h="6320"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="5">
+		<point x="-18193" y="110203" z="-2493" h="6320"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="5">
+		<point x="-18008" y="110212" z="-2493" h="6320"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege04" count="1" respawn="5">
+		<point x="-17936" y="110315" z="-2493" h="6320"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18574" y="109236" z="-2333" h="16088"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18600" y="109236" z="-2333" h="16088"/>
+		<npc id="35079"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18643" y="109233" z="-2332" h="16088"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18574" y="109214" z="-2337" h="16088"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18601" y="109214" z="-2337" h="16088"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18628" y="109214" z="-2336" h="16088"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18575" y="109189" z="-2335" h="16088"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18602" y="109189" z="-2335" h="16088"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18629" y="109190" z="-2334" h="16088"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18536" y="108948" z="-2335" h="16088"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18562" y="108948" z="-2335" h="16088"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18590" y="108948" z="-2334" h="16088"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18428" y="108118" z="-2338" h="65152"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18427" y="108154" z="-2338" h="65152"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18426" y="108191" z="-2337" h="65152"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18426" y="108227" z="-2337" h="65152"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18426" y="108263" z="-2337" h="65152"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18425" y="108301" z="-2337" h="65152"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18425" y="108332" z="-2336" h="65152"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18424" y="108369" z="-2336" h="65152"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18424" y="108404" z="-2336" h="65152"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18423" y="108441" z="-2336" h="65152"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege07" count="1" respawn="10800">
+		<point x="-18422" y="108478" z="-2336" h="65152"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17599" y="109170" z="-2333" h="16088"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17625" y="109170" z="-2333" h="16088"/>
+		<npc id="35079"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17653" y="109170" z="-2332" h="16088"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17599" y="109148" z="-2337" h="16088"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17626" y="109148" z="-2337" h="16088"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17653" y="109148" z="-2336" h="16088"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17600" y="109123" z="-2335" h="16088"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17627" y="109123" z="-2335" h="16088"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17654" y="109124" z="-2334" h="16088"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17540" y="109046" z="-2335" h="16088"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17566" y="109046" z="-2335" h="16088"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17594" y="109046" z="-2334" h="16088"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17795" y="108473" z="-2338" h="32692"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17794" y="108436" z="-2338" h="32692"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17794" y="108399" z="-2337" h="32692"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17793" y="108363" z="-2337" h="32692"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17793" y="108327" z="-2337" h="32692"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17792" y="108289" z="-2337" h="32692"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17792" y="108258" z="-2336" h="32692"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17791" y="108221" z="-2336" h="32692"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17790" y="108186" z="-2336" h="32692"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17790" y="108149" z="-2336" h="32692"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege06" count="1" respawn="10800">
+		<point x="-17790" y="108112" z="-2336" h="32692"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18460" y="113107" z="-2759" h="15608"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18432" y="113107" z="-2759" h="15608"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18404" y="113107" z="-2759" h="15608"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18376" y="113107" z="-2759" h="15608"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18348" y="113107" z="-2759" h="15608"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18320" y="113107" z="-2759" h="15608"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18292" y="113107" z="-2759" h="15608"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18264" y="113107" z="-2759" h="15608"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18236" y="113107" z="-2759" h="15608"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18460" y="113127" z="-2759" h="15608"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18432" y="113127" z="-2759" h="15608"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18404" y="113127" z="-2759" h="15608"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18376" y="113127" z="-2759" h="15608"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18348" y="113127" z="-2759" h="15608"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18320" y="113127" z="-2759" h="15608"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18292" y="113127" z="-2759" h="15608"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18264" y="113127" z="-2759" h="15608"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18236" y="113127" z="-2759" h="15608"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18460" y="113147" z="-2759" h="15608"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18432" y="113147" z="-2759" h="15608"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18404" y="113147" z="-2759" h="15608"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18376" y="113147" z="-2759" h="15608"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18348" y="113147" z="-2759" h="15608"/>
+		<npc id="35079"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18320" y="113147" z="-2759" h="15608"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18292" y="113147" z="-2759" h="15608"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18264" y="113147" z="-2759" h="15608"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege01" count="1" respawn="10800">
+		<point x="-18236" y="113147" z="-2759" h="15608"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18410" y="112356" z="-2498" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18380" y="112355" z="-2499" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18350" y="112358" z="-2498" h="15900"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18320" y="112359" z="-2498" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18291" y="112360" z="-2497" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18640" y="112422" z="-2496" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18610" y="112421" z="-2497" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18581" y="112424" z="-2496" h="15900"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18551" y="112425" z="-2496" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18521" y="112426" z="-2495" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18107" y="112560" z="-2497" h="31664"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18104" y="112590" z="-2498" h="31664"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18106" y="112619" z="-2497" h="31664"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18105" y="112649" z="-2497" h="31664"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18104" y="112679" z="-2496" h="31664"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-17840" y="112354" z="-2600" h="65480"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-17839" y="112320" z="-2600" h="65480"/>
+		<npc id="35079"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-17835" y="112279" z="-2599" h="65480"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-17861" y="112354" z="-2589" h="65480"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-17860" y="112320" z="-2590" h="65480"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-17856" y="112279" z="-2589" h="65480"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-17879" y="112354" z="-2575" h="65480"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-17878" y="112320" z="-2576" h="65480"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-17874" y="112279" z="-2575" h="65480"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18207" y="112313" z="-2498" h="22676"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18410" y="112356" z="-2498" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18350" y="112358" z="-2498" h="15900"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18291" y="112360" z="-2497" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18640" y="112422" z="-2496" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18610" y="112421" z="-2497" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18581" y="112424" z="-2496" h="15900"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18551" y="112425" z="-2496" h="15900"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18107" y="112560" z="-2497" h="31664"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18106" y="112619" z="-2497" h="31664"/>
+		<npc id="35080"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege03" count="1" respawn="10800">
+		<point x="-18104" y="112679" z="-2496" h="31664"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18603" y="112729" z="-2749" h="64848"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18602" y="112698" z="-2748" h="64848"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18602" y="112668" z="-2748" h="64848"/>
+		<npc id="35079"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18602" y="112638" z="-2747" h="64848"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18603" y="112607" z="-2748" h="64848"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18601" y="112578" z="-2747" h="64848"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18601" y="112548" z="-2747" h="64848"/>
+		<npc id="35079"/><!--Рыцарь Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18601" y="112518" z="-2746" h="64848"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18602" y="112487" z="-2747" h="64848"/>
+		<npc id="35084"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18628" y="112711" z="-2767" h="64848"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18628" y="112681" z="-2767" h="64848"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18628" y="112650" z="-2766" h="64848"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18629" y="112620" z="-2767" h="64848"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18627" y="112590" z="-2766" h="64848"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18627" y="112560" z="-2766" h="64848"/>
+		<npc id="35082"/><!--Гвардеец - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18626" y="112531" z="-2765" h="64848"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18627" y="112499" z="-2766" h="64848"/>
+		<npc id="35083"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18649" y="112727" z="-2771" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18648" y="112697" z="-2771" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18648" y="112667" z="-2770" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18647" y="112636" z="-2770" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18649" y="112606" z="-2770" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18647" y="112576" z="-2769" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18647" y="112546" z="-2769" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18646" y="112517" z="-2768" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18647" y="112485" z="-2769" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18795" y="112709" z="-2772" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18795" y="112679" z="-2771" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18795" y="112648" z="-2771" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18794" y="112618" z="-2770" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18795" y="112588" z="-2770" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18793" y="112558" z="-2770" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18792" y="112528" z="-2769" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18792" y="112498" z="-2769" h="64848"/>
+		<npc id="35085"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18896" y="112378" z="-2763" h="15900"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="10800">
+		<point x="-18866" y="112377" z="-2764" h="15900"/>
+		<npc id="35081"/><!--Маг Гвардии - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="5">
+		<point x="-18658" y="112496" z="-2747" h="64848"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="5">
+		<point x="-18659" y="112560" z="-2747" h="64848"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="5">
+		<point x="-18659" y="112649" z="-2747" h="64848"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	<spawn group="gludio_castle_siege" name="gludio_siege02" count="1" respawn="5">
+		<point x="-18656" y="112709" z="-2747" h="64848"/>
+		<npc id="35071"/><!--Охранник - Глудио-->
+	</spawn>
+	
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-25038" y="219733" z="-3232" h="0"/>
+		<npc id="35700"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-25246" y="220033" z="-3240" h="32608"/>
+		<npc id="35700"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-24640" y="220960" z="-3232" h="60060"/>
+		<npc id="35696"/><!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-24128" y="221488" z="-3232" h="54428"/>
+		<npc id="35698"/><!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-23885" y="221728" z="-3232" h="32672"/>
+		<npc id="36458"/><!--Wyvern Manager-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-23248" y="219696" z="-3232" h="0"/>
+		<npc id="35701"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-23360" y="219904" z="-3232" h="32612"/>
+		<npc id="35701"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-22256" y="219808" z="-3072" h="32904"/>
+		<npc id="35689"/><!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-22176" y="219907" z="-3232" h="33500"/>
+		<npc id="35701"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-22048" y="219696" z="-3232" h="0"/>
+		<npc id="35701"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-20116" y="219724" z="-3232" h="0"/>
+		<npc id="35699"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="southern_fortress_102">
+		<point x="-20327" y="220028" z="-3232" h="33316"/>
+		<npc id="35699"/><!--Doorman-->
+	</spawn>
+	<spawn group="southern_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22992" y="218160" z="-3208" h="0"/>
+		<npc id="35691"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="southern_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21328" y="218864" z="-2960" h="0"/>
+		<npc id="35692"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="southern_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21520" y="221504" z="-3210" h="-20208"/>
+		<npc id="35694"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="southern_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22992" y="218160" z="-3208" h="0"/>
+		<npc id="35713"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="southern_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21520" y="221504" z="-3210" h="-20208"/>
+		<npc id="35716"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="southern_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21328" y="218864" z="-2960" h="0"/>
+		<npc id="35719"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="southern_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23992" y="218883" z="-3078" h="24440"/>
+		<npc id="35707"/><!--Main Machine-->
+	</spawn>
+	<spawn group="southern_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22728" y="221746" z="-3200" h="-32368"/>
+		<npc id="35721"/><!--General-->
+	</spawn>
+	<spawn group="southern_fortress_mercenary" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-18864" y="218592" z="-3424" h="19244"/>
+		<npc id="35724"/><!--Mercenary Captain-->
+	</spawn>
+	<spawn group="southern_fortress_out_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24394" y="219179" z="-3239" h="24964"/>
+		<npc id="35708"/><!--Backup Power Unit-->
+	</spawn>
+	<spawn group="southern_fortress_out_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23765" y="219176" z="-3239" h="8152"/>
+		<npc id="35708"/><!--Backup Power Unit-->
+	</spawn>
+	<spawn group="southern_fortress_out_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23764" y="218552" z="-3239" h="-7500"/>
+		<npc id="35708"/><!--Backup Power Unit-->
+	</spawn>
+	<spawn group="southern_fortress_out_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24397" y="218548" z="-3239" h="-25356"/>
+		<npc id="35708"/><!--Backup Power Unit-->
+	</spawn>
+	<spawn group="southern_fortress_out_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23490" y="218863" z="-3239" h="0"/>
+		<npc id="35709"/><!--Control Unit-->
+	</spawn>
+	<spawn group="southern_fortress_in_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24096" y="219296" z="-3174" h="-13776"/>
+		<npc id="35710"/><!--Power Control Unit-->
+	</spawn>
+	<spawn group="southern_fortress_in_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24528" y="218864" z="-3142" h="0"/>
+		<npc id="35710"/><!--Power Control Unit-->
+	</spawn>
+	<spawn group="southern_fortress_in_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24080" y="218416" z="-3110" h="17068"/>
+		<npc id="35710"/><!--Power Control Unit-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="6" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_outer_shop]-->
+			<add x="-23494" y="218527" zmin="-3272" zmax="-3072"/>
+			<add x="-23136" y="218687" zmin="-3272" zmax="-3072"/>
+			<add x="-23131" y="219064" zmin="-3272" zmax="-3072"/>
+			<add x="-23414" y="219097" zmin="-3272" zmax="-3072"/>
+			<add x="-23462" y="219451" zmin="-3272" zmax="-3072"/>
+			<add x="-23774" y="219292" zmin="-3272" zmax="-3072"/>
+			<add x="-23489" y="218986" zmin="-3272" zmax="-3072"/>
+		</territory>
+		<npc id="35711"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20208" y="219936" z="-3239" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20208" y="219904" z="-3240" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20208" y="219872" z="-3240" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20207" y="219839" z="-3239" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25156" y="219923" z="-3239" h="32716"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25156" y="219891" z="-3240" h="32716"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25156" y="219859" z="-3240" h="32716"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25156" y="219826" z="-3239" h="32716"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22081" y="219853" z="-3239" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22081" y="219821" z="-3240" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22081" y="219789" z="-3240" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22081" y="219756" z="-3239" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23327" y="219850" z="-3223" h="32716"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23327" y="219818" z="-3224" h="32716"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23327" y="219786" z="-3224" h="32716"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23327" y="219753" z="-3223" h="32716"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20304" y="219024" z="-2859" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20304" y="218992" z="-2859" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21008" y="217984" z="-2859" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20992" y="218000" z="-2859" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22256" y="217472" z="-2859" h="-17512"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22288" y="217472" z="-2859" h="-17512"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23280" y="217472" z="-2859" h="-15540"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23248" y="217472" z="-2859" h="-15540"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24656" y="218288" z="-2859" h="-30116"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24640" y="218272" z="-2859" h="-30116"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25072" y="219008" z="-2859" h="-31940"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25056" y="218992" z="-2859" h="-31940"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25072" y="220752" z="-2859" h="30696"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25056" y="220784" z="-2859" h="30696"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24656" y="221472" z="-2859" h="27176"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24640" y="221504" z="-2859" h="27176"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23280" y="222288" z="-2859" h="18436"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23248" y="222288" z="-2859" h="18436"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22288" y="222288" z="-2859" h="17072"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22256" y="222288" z="-2859" h="17072"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21744" y="222208" z="-2859" h="8936"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21712" y="222176" z="-2859" h="8936"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20400" y="220928" z="-2859" h="6864"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20384" y="220896" z="-2859" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21297" y="219688" z="-3239" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21347" y="219734" z="-3236" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21347" y="219702" z="-3237" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21347" y="219670" z="-3237" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21347" y="219638" z="-3236" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24144" y="219936" z="-3239" h="32716"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24104" y="219982" z="-3235" h="32716"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24104" y="219950" z="-3236" h="32716"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24104" y="219918" z="-3236" h="32716"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24104" y="219886" z="-3235" h="32716"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21753" y="217807" z="-3239" h="0"/>
+		<npc id="35723"/><!--Ballista-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23748" y="221847" z="-3239" h="0"/>
+		<npc id="35723"/><!--Ballista-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22740" y="218883" z="-3239" h="0"/>
+		<npc id="35723"/><!--Ballista-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22777" y="220679" z="-3239" h="0"/>
+		<npc id="35723"/><!--Ballista-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20416" y="219552" z="-2793" h="16836"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20383" y="219552" z="-2793" h="16836"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20448" y="219552" z="-2777" h="16836"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20413" y="219506" z="-2793" h="16836"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20432" y="220240" z="-2793" h="-15632"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20464" y="220240" z="-2793" h="-15632"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20400" y="220240" z="-2793" h="-15632"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20432" y="220272" z="-2793" h="-15632"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24944" y="220224" z="-2794" h="-16416"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24976" y="220224" z="-2794" h="-16416"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24906" y="220224" z="-2794" h="-16416"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24944" y="220272" z="-2794" h="-16416"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24928" y="219520" z="-2794" h="16552"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24960" y="219520" z="-2794" h="16552"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24896" y="219520" z="-2794" h="16552"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24928" y="219472" z="-2794" h="16552"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24016" y="220288" z="-2794" h="-24252"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24016" y="220352" z="-2794" h="-24252"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23984" y="220320" z="-2794" h="-24252"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23968" y="220288" z="-2794" h="-24252"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21296" y="220176" z="-2794" h="-8656"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21296" y="220240" z="-2794" h="-8656"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21328" y="220208" z="-2794" h="-8656"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21360" y="220160" z="-2794" h="-8656"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20686" y="219235" z="-2883" h="0"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20686" y="219267" z="-2883" h="0"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20654" y="219235" z="-2883" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20654" y="219267" z="-2883" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20351" y="219568" z="-3060" h="-32148"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20352" y="219601" z="-3060" h="-32148"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20384" y="219566" z="-3072" h="-32148"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20385" y="219598" z="-3072" h="-32148"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20690" y="220540" z="-2883" h="0"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20690" y="220508" z="-2883" h="0"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20658" y="220540" z="-2883" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20658" y="220508" z="-2883" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20368" y="220171" z="-3060" h="0"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20368" y="220208" z="-3060" h="0"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20411" y="220171" z="-3076" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-20412" y="220204" z="-3083" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24667" y="220493" z="-2884" h="32768"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24667" y="220525" z="-2884" h="32768"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24699" y="220493" z="-2884" h="32768"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24699" y="220525" z="-2884" h="32768"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25008" y="220192" z="-3061" h="0"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25008" y="220160" z="-3061" h="0"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24960" y="220192" z="-3072" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24960" y="220160" z="-3073" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24669" y="219226" z="-2884" h="32768"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24669" y="219258" z="-2884" h="32768"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24701" y="219226" z="-2884" h="32768"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24701" y="219258" z="-2884" h="32768"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25008" y="219600" z="-3061" h="0"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-25008" y="219568" z="-3061" h="0"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24972" y="219602" z="-3072" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24972" y="219567" z="-3079" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23758" y="220704" z="-2884" h="49151"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23726" y="220704" z="-2884" h="49151"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23758" y="220672" z="-2884" h="49151"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23726" y="220672" z="-2884" h="49151"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24059" y="220414" z="-3067" h="16040"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24096" y="220416" z="-3072" h="16040"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24058" y="220447" z="-3088" h="16040"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24095" y="220448" z="-3095" h="16040"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21594" y="220037" z="-2884" h="16384"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21562" y="220037" z="-2884" h="16384"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21594" y="220067" z="-2884" h="16384"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21562" y="220067" z="-2884" h="16384"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21264" y="220368" z="-3061" h="-16092"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21232" y="220368" z="-3061" h="-16092"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21266" y="220328" z="-3074" h="-16092"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21231" y="220329" z="-3077" h="-16092"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21776" y="221504" z="-3210" h="6672"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21648" y="221408" z="-3210" h="10732"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21568" y="221360" z="-3210" h="20132"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21312" y="221456" z="-3210" h="-28032"/>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21632" y="221680" z="-3210" h="-16968"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21360" y="221344" z="-3210" h="22236"/>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21280" y="219088" z="-3057" h="-16792"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21248" y="219088" z="-3057" h="-16792"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21376" y="218592" z="-3057" h="16448"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21344" y="218592" z="-3057" h="16448"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21312" y="218832" z="-3163" h="0"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21104" y="219056" z="-3163" h="17016"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21504" y="219056" z="-3163" h="17016"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21552" y="219008" z="-3163" h="-32664"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21568" y="218672" z="-3163" h="-32664"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21522" y="218629" z="-3163" h="-17928"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21104" y="218631" z="-3163" h="-17928"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21060" y="218677" z="-3163" h="0"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21056" y="219024" z="-3163" h="0"/>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22625" y="219799" z="-2314" h="0"/>
+		<npc id="35702"/><!--Rebel Commander-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219813" z="-2313" h="0"/>
+		<npc id="35703"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219785" z="-2313" h="0"/>
+		<npc id="35703"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219840" z="-2316" h="0"/>
+		<npc id="35703"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22592" y="219760" z="-2314" h="0"/>
+		<npc id="35703"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219813" z="-2314" h="32672"/>
+		<npc id="35703"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219785" z="-2314" h="32672"/>
+		<npc id="35703"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22814" y="219841" z="-2316" h="32672"/>
+		<npc id="35703"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219759" z="-2314" h="32672"/>
+		<npc id="35703"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219673" z="-2345" h="0"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219705" z="-2345" h="0"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219641" z="-2345" h="0"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219609" z="-2345" h="0"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219737" z="-2345" h="0"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219769" z="-2345" h="0"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219577" z="-2345" h="0"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219545" z="-2345" h="0"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22317" y="220384" z="-2869" h="16604"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22351" y="220384" z="-2869" h="16964"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22282" y="220384" z="-2869" h="16964"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23094" y="219456" z="-2524" h="15616"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23120" y="219456" z="-2524" h="15616"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23071" y="219456" z="-2524" h="15616"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23040" y="220288" z="-2719" h="0"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23040" y="220256" z="-2719" h="0"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-23040" y="220320" z="-2719" h="0"/>
+		<npc id="35704"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219813" z="-2313" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219785" z="-2313" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22591" y="219840" z="-2316" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22592" y="219760" z="-2314" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219813" z="-2314" h="32672"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219785" z="-2314" h="32672"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22814" y="219841" z="-2316" h="32672"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22815" y="219759" z="-2314" h="32672"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219673" z="-2345" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219705" z="-2345" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219641" z="-2345" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219609" z="-2345" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219737" z="-2345" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219769" z="-2345" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219577" z="-2345" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22400" y="219545" z="-2345" h="0"/>
+		<npc id="35705"/><!--Court Guard-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_gunner1]-->
+			<add x="-24267" y="220975" zmin="-3312" zmax="-3112"/>
+			<add x="-23703" y="220862" zmin="-3312" zmax="-3112"/>
+			<add x="-23239" y="221200" zmin="-3312" zmax="-3112"/>
+			<add x="-23916" y="221539" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_gunner2]-->
+			<add x="-21953" y="217813" zmin="-3312" zmax="-3112"/>
+			<add x="-21145" y="218216" zmin="-3312" zmax="-3112"/>
+			<add x="-21837" y="218401" zmin="-3312" zmax="-3112"/>
+			<add x="-22059" y="218576" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_gunner3]-->
+			<add x="-21628" y="220617" zmin="-3312" zmax="-3112"/>
+			<add x="-21139" y="220742" zmin="-3312" zmax="-3112"/>
+			<add x="-22005" y="221432" zmin="-3312" zmax="-3112"/>
+			<add x="-22293" y="221369" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_gunner4]-->
+			<add x="-22965" y="218777" zmin="-3312" zmax="-3112"/>
+			<add x="-22529" y="218765" zmin="-3312" zmax="-3112"/>
+			<add x="-22118" y="219102" zmin="-3312" zmax="-3112"/>
+			<add x="-23304" y="219090" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_gunner5]-->
+			<add x="-23282" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22316" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22668" y="220932" zmin="-3312" zmax="-3112"/>
+			<add x="-22868" y="220932" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_gunner6]-->
+			<add x="-24033" y="218000" zmin="-3312" zmax="-3112"/>
+			<add x="-23489" y="217720" zmin="-3312" zmax="-3112"/>
+			<add x="-23435" y="218399" zmin="-3312" zmax="-3112"/>
+			<add x="-23644" y="218445" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35711"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="southern_fortress_envoy" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-22368" y="219776" z="-3080" h="0"/>
+		<npc id="36394"/><!--Special Envoy-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21413" y="219735" z="-3231" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21413" y="219703" z="-3232" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21413" y="219671" z="-3232" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-21413" y="219638" z="-3231" h="0"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24045" y="219982" z="-3239" h="32716"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24045" y="219950" z="-3240" h="32716"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24045" y="219918" z="-3240" h="32716"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="-24045" y="219885" z="-3239" h="32716"/>
+		<npc id="35706"/><!--Guard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b1]-->
+			<add x="-24267" y="220975" zmin="-3312" zmax="-3112"/>
+			<add x="-23703" y="220862" zmin="-3312" zmax="-3112"/>
+			<add x="-23239" y="221200" zmin="-3312" zmax="-3112"/>
+			<add x="-23916" y="221539" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b1]-->
+			<add x="-24267" y="220975" zmin="-3312" zmax="-3112"/>
+			<add x="-23703" y="220862" zmin="-3312" zmax="-3112"/>
+			<add x="-23239" y="221200" zmin="-3312" zmax="-3112"/>
+			<add x="-23916" y="221539" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b1]-->
+			<add x="-24267" y="220975" zmin="-3312" zmax="-3112"/>
+			<add x="-23703" y="220862" zmin="-3312" zmax="-3112"/>
+			<add x="-23239" y="221200" zmin="-3312" zmax="-3112"/>
+			<add x="-23916" y="221539" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b2]-->
+			<add x="-21953" y="217813" zmin="-3312" zmax="-3112"/>
+			<add x="-21145" y="218216" zmin="-3312" zmax="-3112"/>
+			<add x="-21837" y="218401" zmin="-3312" zmax="-3112"/>
+			<add x="-22059" y="218576" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b2]-->
+			<add x="-21953" y="217813" zmin="-3312" zmax="-3112"/>
+			<add x="-21145" y="218216" zmin="-3312" zmax="-3112"/>
+			<add x="-21837" y="218401" zmin="-3312" zmax="-3112"/>
+			<add x="-22059" y="218576" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b2]-->
+			<add x="-21953" y="217813" zmin="-3312" zmax="-3112"/>
+			<add x="-21145" y="218216" zmin="-3312" zmax="-3112"/>
+			<add x="-21837" y="218401" zmin="-3312" zmax="-3112"/>
+			<add x="-22059" y="218576" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b3]-->
+			<add x="-21628" y="220617" zmin="-3312" zmax="-3112"/>
+			<add x="-21139" y="220742" zmin="-3312" zmax="-3112"/>
+			<add x="-22005" y="221432" zmin="-3312" zmax="-3112"/>
+			<add x="-22293" y="221369" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b3]-->
+			<add x="-21628" y="220617" zmin="-3312" zmax="-3112"/>
+			<add x="-21139" y="220742" zmin="-3312" zmax="-3112"/>
+			<add x="-22005" y="221432" zmin="-3312" zmax="-3112"/>
+			<add x="-22293" y="221369" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b3]-->
+			<add x="-21628" y="220617" zmin="-3312" zmax="-3112"/>
+			<add x="-21139" y="220742" zmin="-3312" zmax="-3112"/>
+			<add x="-22005" y="221432" zmin="-3312" zmax="-3112"/>
+			<add x="-22293" y="221369" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b4]-->
+			<add x="-22965" y="218777" zmin="-3312" zmax="-3112"/>
+			<add x="-22529" y="218765" zmin="-3312" zmax="-3112"/>
+			<add x="-22118" y="219102" zmin="-3312" zmax="-3112"/>
+			<add x="-23304" y="219090" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b4]-->
+			<add x="-22965" y="218777" zmin="-3312" zmax="-3112"/>
+			<add x="-22529" y="218765" zmin="-3312" zmax="-3112"/>
+			<add x="-22118" y="219102" zmin="-3312" zmax="-3112"/>
+			<add x="-23304" y="219090" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b4]-->
+			<add x="-22965" y="218777" zmin="-3312" zmax="-3112"/>
+			<add x="-22529" y="218765" zmin="-3312" zmax="-3112"/>
+			<add x="-22118" y="219102" zmin="-3312" zmax="-3112"/>
+			<add x="-23304" y="219090" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b5]-->
+			<add x="-23282" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22316" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22668" y="220932" zmin="-3312" zmax="-3112"/>
+			<add x="-22868" y="220932" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b5]-->
+			<add x="-23282" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22316" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22668" y="220932" zmin="-3312" zmax="-3112"/>
+			<add x="-22868" y="220932" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b5]-->
+			<add x="-23282" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22316" y="220706" zmin="-3312" zmax="-3112"/>
+			<add x="-22668" y="220932" zmin="-3312" zmax="-3112"/>
+			<add x="-22868" y="220932" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b6]-->
+			<add x="-24033" y="218000" zmin="-3312" zmax="-3112"/>
+			<add x="-23489" y="217720" zmin="-3312" zmax="-3112"/>
+			<add x="-23435" y="218399" zmin="-3312" zmax="-3112"/>
+			<add x="-23644" y="218445" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35720"/><!--Archer-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b6]-->
+			<add x="-24033" y="218000" zmin="-3312" zmax="-3112"/>
+			<add x="-23489" y="217720" zmin="-3312" zmax="-3112"/>
+			<add x="-23435" y="218399" zmin="-3312" zmax="-3112"/>
+			<add x="-23644" y="218445" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35717"/><!--Wizard-->
+	</spawn>
+	<spawn group="southern_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort102_1924_reinforce_b6]-->
+			<add x="-24033" y="218000" zmin="-3312" zmax="-3112"/>
+			<add x="-23489" y="217720" zmin="-3312" zmax="-3112"/>
+			<add x="-23435" y="218399" zmin="-3312" zmax="-3112"/>
+			<add x="-23644" y="218445" zmin="-3312" zmax="-3112"/>
+		</territory>
+		<npc id="35718"/><!--Healer-->
+	</spawn>
+</list>

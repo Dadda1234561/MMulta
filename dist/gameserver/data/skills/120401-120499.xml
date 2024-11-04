@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+    <skill id="120401" levels="1" name="Конвертация Воина 6">
+        <table name="#value">1</table>
+        <table name="#spd">0.15</table>
+        <table name="#PvpDamage">1.13</table>
+        <set name="effectPoint" value="100"/>
+        <set name="icon" value="icon.skill31135"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="hitTime" value="100"/>
+        <set name="mp_consume" value="50"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="#value"/>
+        <set name="abnormal_type" value="huyase1"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="operate_type" value="A2"/>
+        <for>
+            <effect>
+                <mul stat="pAtkSpd" value="#spd"/>
+                <mul stat="pvePhysDmgBonus" value="#PvpDamage"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="120402" levels="1" name="Конвертация Воина 7">
+        <table name="#value">1</table>
+        <table name="#spd">0.1</table>
+        <table name="#PvpDamage">1.16</table>
+        <set name="effectPoint" value="100"/>
+        <set name="icon" value="icon.skill31135"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="hitTime" value="100"/>
+        <set name="mp_consume" value="50"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="#value"/>
+        <set name="abnormal_type" value="huyase1"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="operate_type" value="A2"/>
+        <for>
+            <effect>
+                <mul stat="pAtkSpd" value="#spd"/>
+                <mul stat="pvePhysDmgBonus" value="#PvpDamage"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="120403" levels="1" name="Конвертация Воина 8">
+        <table name="#value">1</table>
+        <table name="#spd">0.05</table>
+        <table name="#PvpDamage">1.2</table>
+        <set name="effectPoint" value="100"/>
+        <set name="icon" value="icon.skill31135"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="hitTime" value="100"/>
+        <set name="mp_consume" value="50"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="#value"/>
+        <set name="abnormal_type" value="huyase1"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="operate_type" value="A2"/>
+        <for>
+            <effect>
+                <mul stat="pAtkSpd" value="#spd"/>
+                <mul stat="pvePhysDmgBonus" value="#PvpDamage"/>
+            </effect>
+        </for>
+    </skill>
+
+    <skill id="120404" levels="1" name="Конвертация Мага 6">
+        <table name="#value">1</table>
+        <table name="#spd">0.15</table>
+        <table name="#PvpDamage">1.13</table>
+        <set name="effectPoint" value="100"/>
+        <set name="icon" value="icon.skill31136"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="hitTime" value="100"/>
+        <set name="mp_consume" value="50"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="#value"/>
+        <set name="abnormal_type" value="huyase1"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="operate_type" value="A2"/>
+        <for>
+            <effect>
+                <mul stat="mAtkSpd" value="#spd"/>
+                <mul stat="pveMagicSkillDmgBonus" value="#PvpDamage"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="120405" levels="1" name="Конвертация Мага 7">
+        <table name="#value">1</table>
+        <table name="#spd">0.1</table>
+        <table name="#PvpDamage">1.16</table>
+        <set name="effectPoint" value="100"/>
+        <set name="icon" value="icon.skill31136"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="hitTime" value="100"/>
+        <set name="mp_consume" value="50"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="#value"/>
+        <set name="abnormal_type" value="huyase1"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="operate_type" value="A2"/>
+        <for>
+            <effect>
+                <mul stat="mAtkSpd" value="#spd"/>
+                <mul stat="pveMagicSkillDmgBonus" value="#PvpDamage"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="120406" levels="1" name="Конвертация Мага 8">
+        <table name="#value">1</table>
+        <table name="#spd">0.05</table>
+        <table name="#PvpDamage">1.2</table>
+        <set name="effectPoint" value="100"/>
+        <set name="icon" value="icon.skill31136"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="hitTime" value="100"/>
+        <set name="mp_consume" value="50"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="#value"/>
+        <set name="abnormal_type" value="huyase1"/>
+        <set name="magicLevel" value="81"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="operate_type" value="A2"/>
+        <for>
+            <effect>
+                <mul stat="mAtkSpd" value="#spd"/>
+                <mul stat="pveMagicSkillDmgBonus" value="#PvpDamage"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="120407" levels="1" name="Улучшенное Наследие Гномов / Improved Dwarven Legacy">
+        <set name="icon" value="icon.skill31242"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="1.05"/>
+            <mul stat="mAtk" value="1.075"/>
+            <mul stat="pDef" value="1.05"/>
+            <mul stat="mDef" value="1.05"/>
+            <add stat="defenceWater" value="50"/>
+            <add stat="defenceFire" value="50"/>
+            <add stat="defenceWind" value="50"/>
+            <add stat="defenceEarth" value="50"/>
+            <add stat="defenceHoly" value="50"/>
+            <add stat="defenceUnholy" value="50"/>
+            <add stat="attackFire" value="100"/>
+            <add stat="attackWater" value="100"/>
+            <add stat="attackWind" value="100"/>
+            <add stat="attackEarth" value="100"/>
+            <add stat="attackHoly" value="100"/>
+            <add stat="attackUnholy" value="100"/>
+            <mul stat="pvePhysDmgBonus" value="1.05"/>
+            <mul stat="pveMagicSkillDmgBonus" value="1.05"/>
+            <mul stat="pvePhysSkillDmgBonus" value="1.05"/>
+            <mul stat="pvePhysDefenceBonus" value="1.05"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="1.05"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="1.05"/>
+            <mul stat="pvpPhysDmgBonus" value="1.1"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="1.1"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="1.1"/>
+            <mul stat="pvpPhysDefenceBonus" value="1.05"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="1.05"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="1.05"/>
+        </for>
+    </skill>
+    <skill id="120408" levels="5" name="Кукла Хранителя">
+        <table name="#mSkillPower">1.05 1.1 1.2 1.3 1.5</table>
+        <table name="#dist">50 100 150 300 500</table>
+        <table name="#stat">0 1 1 2 3</table>
+        <set name="icon" value="icon.vulcan_doll_03"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Bow"/>
+            </add>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Dagger"/>
+            </add>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Dual Dagger"/>
+            </add>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Pole"/>
+            </add>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Sword"/>
+            </add>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Big Sword"/>
+            </add>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Dual Sword"/>
+            </add>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Blunt"/>
+            </add>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Big Blunt"/>
+            </add>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Dual Blunt"/>
+            </add>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Dual Fist"/>
+            </add>
+            <add order="0x10" stat="pAtkRange" value="#dist">
+                <using kind="Fist"/>
+            </add>
+            <mul stat="mSkillPower" value="#mSkillPower"/>
+            <add order="0x10" stat="STR" value="#stat"/>
+            <add order="0x10" stat="DEX" value="#stat"/>
+            <add order="0x10" stat="CON" value="#stat"/>
+            <add order="0x10" stat="INT" value="#stat"/>
+            <add order="0x10" stat="WIT" value="#stat"/>
+            <add order="0x10" stat="MEN" value="#stat"/>
+        </for>
+    </skill>
+    <skill id="120409" levels="5" name="Кукла Айгис">
+        <table name="#soulSpiritShotDamage">1.02 1.04 1.06 1.08 1.1</table>
+        <table name="#damageReverce">0.98 0.96 0.94 0.92 0.9</table>
+        <table name="#adenaDrop">0.03 0.06 0.09 0.12 0.15</table>
+        <table name="#expRate">0.1 0.2 0.3 0.4 0.5</table>
+        <set name="icon" value="icon.andreas_van_holter_doll_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="spiritshot_power" value="#soulSpiritShotDamage"/>
+            <mul stat="soulshot_power" value="#soulSpiritShotDamage"/>
+            <mul stat="receive_p_damage_power" value="#damageReverce"/>
+            <mul stat="receive_m_damage_power" value="#damageReverce"/>
+            <add stat="exp_rate_multiplier" value="#expRate"/>
+            <add stat="sp_rate_multiplier" value="#expRate"/>
+            <add stat="adena_rate_multiplier" order="0x40" value="#adenaDrop"/>
+        </for>
+    </skill>
+    <skill id="120410" levels="10" name="Свиток Гран Каина: Модифицировать Брошь Лавианроз">
+        <set name="icon" value="icon.bm_shilen_scrl_of_brooch_6slot_lavianrose"/>
+        <table name="#pAtk">1.005 1.01 1.015 1.02 1.025 1.03 1.035 1.04 1.045 1.05</table>
+        <table name="#mAtk">1.0075 1.015 1.0225 1.03 1.0375 1.045 1.0525 1.06 1.0675 1.075</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#pAtk"/>
+            <mul stat="mAtk" value="#mAtk"/>
+        </for>
+    </skill>
+    <skill id="120411" levels="10" name="Свиток Гран Каина: Модифицировать Браслет Величия">
+        <set name="icon" value="icon.bm_shilen_scrl_of_ench_rbracelet"/>
+        <table name="#pmDef">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#pmDef"/>
+            <mul stat="mDef" value="#pmDef"/>
+        </for>
+    </skill>
+    <skill id="120412" levels="10" name="Свиток Гран Каина: Модифицировать Плащ">
+        <set name="icon" value="icon.bm_shilen_scrl_of_cloak"/>
+        <table name="#pvpDamage">1.015 1.03 1.045 1.06 1.075 1.09 1.105 1.12 1.135 1.15</table>
+        <table name="#pvpDefence">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+            <mul stat="pvpPhysDefenceBonus" value="#pvpDefence"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#pvpDefence"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#pvpDefence"/>
+        </for>
+    </skill>
+    <skill id="120413" levels="10" name="Свиток: Модифицировать Полномочия Правителя">
+        <set name="icon" value="icon.bm_destruction_scrl_of_ench_dragon_belt"/>
+        <table name="#pveDamage/Defence">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvePhysDmgBonus" value="#pveDamage/Defence"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#pveDamage/Defence"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#pveDamage/Defence"/>
+            <mul stat="pvePhysDefenceBonus" value="#pveDamage/Defence"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#pveDamage/Defence"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#pveDamage/Defence"/>
+        </for>
+    </skill>
+    <skill id="120414" levels="10" name="Свиток Гран Каина: Модифицировать Книгу Артефактов">
+        <set name="icon" value="icon.bm_shilen_scrl_of_artifact_book_lv3_02"/>
+        <table name="#damageReverce">0.99 0.98 0.97 0.96 0.95 0.94 0.93 0.92 0.91 0.9</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="receive_p_damage_power" value="#damageReverce"/>
+            <mul stat="receive_m_damage_power" value="#damageReverce"/>
+        </for>
+    </skill>
+    <skill id="120415" levels="10" name="Свиток Гран Каина: Модифицировать Браслет Агатиона">
+        <set name="icon" value="icon.bm_shilen_scrl_of_lbracelet_charm_m1_s4_lv5"/>
+        <table name="#maxHpCpMp">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="maxHp" value="#maxHpCpMp"/>
+            <mul stat="maxCp" value="#maxHpCpMp"/>
+            <mul stat="maxMp" value="#maxHpCpMp"/>
+        </for>
+    </skill>
+    <skill id="120416" levels="10" name="Свиток Гран Каина: Модифицировать Сияние Наследника">
+        <set name="icon" value="icon.bm_shilen_scrl_of_ench_acc"/>
+        <table name="#soulSpiritShotDamage">1.005 1.01 1.015 1.02 1.025 1.03 1.035 1.04 1.045 1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="spiritshot_power" value="#soulSpiritShotDamage"/>
+            <mul stat="soulshot_power" value="#soulSpiritShotDamage"/>
+        </for>
+    </skill>
+</list>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!-- AUTHOR: Edoo -->
+<list>
+	<territory name="aden06_2518_01">
+		<add x="177724" y="5656" zmin="-2776" zmax="-2576"/>
+		<add x="178808" y="5660" zmin="-2776" zmax="-2576"/>
+		<add x="179312" y="6968" zmin="-2776" zmax="-2576"/>
+		<add x="179308" y="8836" zmin="-2776" zmax="-2576"/>
+		<add x="179056" y="9048" zmin="-2776" zmax="-2576"/>
+		<add x="177344" y="9044" zmin="-2776" zmax="-2576"/>
+		<add x="177356" y="6112" zmin="-2776" zmax="-2576"/>
+	</territory>
+	<territory name="aden06_2518_02">
+		<add x="180192" y="5712" zmin="-2776" zmax="-2576"/>
+		<add x="181252" y="5704" zmin="-2776" zmax="-2576"/>
+		<add x="181676" y="6208" zmin="-2776" zmax="-2576"/>
+		<add x="181632" y="9020" zmin="-2776" zmax="-2576"/>
+		<add x="179936" y="9036" zmin="-2776" zmax="-2576"/>
+		<add x="179692" y="8768" zmin="-2776" zmax="-2576"/>
+		<add x="179720" y="6960" zmin="-2776" zmax="-2576"/>
+	</territory>
+	<territory name="aden06_2518_03">
+		<add x="177408" y="9460" zmin="-2768" zmax="-2468"/>
+		<add x="179068" y="9460" zmin="-2768" zmax="-2468"/>
+		<add x="179316" y="9704" zmin="-2768" zmax="-2468"/>
+		<add x="179308" y="11776" zmin="-2768" zmax="-2468"/>
+		<add x="178648" y="12892" zmin="-2768" zmax="-2468"/>
+		<add x="177748" y="12888" zmin="-2768" zmax="-2468"/>
+		<add x="177360" y="12432" zmin="-2768" zmax="-2468"/>
+	</territory>
+	<territory name="aden06_2518_04">
+		<add x="181572" y="4164" zmin="-2796" zmax="-2396"/>
+		<add x="184760" y="4872" zmin="-2796" zmax="-2396"/>
+		<add x="186044" y="6308" zmin="-2796" zmax="-2396"/>
+		<add x="184864" y="9172" zmin="-2796" zmax="-2396"/>
+		<add x="182684" y="9200" zmin="-2796" zmax="-2396"/>
+	</territory>
+
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="27470" /> <point x="181110" y="11907" z="-2728" h="32960"  />
+	</spawn> <!-- Shilen's Messenger Cabrio -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+			<npc id="33405" /> <point x="193353" y="22608" z="-3624" h="36900"  />
+	</spawn> <!-- Rotating Dimensional Door -->
+</list>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		R Armors
+	-->
+	<!-- Хеви сет -->
+	<armor id="102205" name="Moirai Helmet Lv.1" add_name="Heavy">
+		<set name="crystal_count" value="404"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="96"/>
+		</for>
+	</armor>
+	<armor id="102206" name="Moirai Breastplate Lv.1" add_name="Heavy">
+		<set name="crystal_count" value="1077"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t100_u_i00"/>
+		
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="7520"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="250"/>
+		</for>
+	</armor>
+	<armor id="102207" name="Moirai Gaiters Lv.1" add_name="Heavy">
+		<set name="crystal_count" value="673"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t100_l_i00"/>
+		
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="3170"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="156"/>
+		</for>
+	</armor>
+	<armor id="102208" name="Moirai Gauntlets Lv.1" add_name="Heavy">
+		<set name="crystal_count" value="269"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t100_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="68"/>
+		</for>
+	</armor>
+	<armor id="102209" name="Moirai Boots Lv.1" add_name="Heavy">
+		<set name="crystal_count" value="269"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t100_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="68"/>
+		</for>
+	</armor>
+	<!-- Лайт сет -->
+	<armor id="102210" name="Moirai Leather Helmet Lv.1" add_name="Light">
+		<set name="crystal_count" value="404"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="96"/>
+		</for>
+	</armor>
+	<armor id="102211" name="Moirai Leather Breastplate Lv.1" add_name="Light">
+		<set name="crystal_count" value="808"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t101_u_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4140"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="187"/>
+		</for>
+	</armor>
+	<armor id="102212" name="Moirai Leather Leggings Lv.1" add_name="Light">
+		<set name="crystal_count" value="505"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t101_l_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1320"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="117"/>
+		</for>
+	</armor>
+	<armor id="102213" name="Moirai Leather Gloves Lv.1" add_name="Light">
+		<set name="crystal_count" value="269"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t101_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="68"/>
+		</for>
+	</armor>
+	<armor id="102214" name="Moirai Leather Boots Lv.1" add_name="Light">
+		<set name="crystal_count" value="269"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t101_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="68"/>
+		</for>
+	</armor>
+	<!-- Маг сет -->
+	<armor id="102215" name="Moirai Circlet Lv.1" add_name="Robe">
+		<set name="crystal_count" value="404"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_circlet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="96"/>
+		</for>
+	</armor>
+	<armor id="102216" name="Moirai Tunic Lv.1" add_name="Robe">
+		<set name="crystal_count" value="808"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t102_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1750"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="125"/>
+			<add stat="maxMp" order="0x60" value="614"/>
+		</for>
+	</armor>
+	<armor id="102217" name="Moirai Stockings Lv.1" add_name="Robe">
+		<set name="crystal_count" value="505"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t102_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="850"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="78"/>
+			<add stat="maxMp" order="0x60" value="392"/>
+		</for>
+	</armor>
+	<armor id="102218" name="Moirai Gloves Lv.1" add_name="Robe">
+		<set name="crystal_count" value="269"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t102_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="68"/>
+		</for>
+	</armor>
+	<armor id="102219" name="Moirai Shoes Lv.1" add_name="Robe">
+		<set name="crystal_count" value="269"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t102_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="68"/>
+		</for>
+	</armor>
+</list>

@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <!--
+        NG Jewel
+    -->
+    <armor id="106303" name="Blue Diamond Necklace Lv.1">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="1"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="25"/>
+        </for>
+    </armor>
+
+    <armor id="106304" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.accessary_elemental_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="1"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="19"/>
+        </for>
+    </armor>
+
+    <armor id="106305" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="1"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="12"/>
+        </for>
+    </armor>
+
+    <!--
+        D Jewel
+    -->
+
+    <armor id="106306" name="Blue Diamond Necklace Lv.1">
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="2"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="45"/>
+        </for>
+    </armor>
+
+    <armor id="106307" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.accessary_coral_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="2"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="34"/>
+        </for>
+    </armor>
+
+    <armor id="106308" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="2"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="22"/>
+        </for>
+    </armor>
+
+
+    <!--
+        C Jewel
+    -->
+
+    <armor id="106309" name="Blue Diamond Necklace Lv.1">
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="3"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="64"/>
+        </for>
+    </armor>
+
+    <armor id="106310" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.accessary_coral_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="3"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="48"/>
+        </for>
+    </armor>
+
+    <armor id="106311" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="3"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="32"/>
+        </for>
+    </armor>
+
+
+    <!--
+        B Jewel
+    -->
+
+    <armor id="106312" name="Blue Diamond Necklace Lv.1">
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="4"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="72"/>
+        </for>
+    </armor>
+
+    <armor id="106313" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.accessary_coral_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="4"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="54"/>
+        </for>
+    </armor>
+
+    <armor id="106314" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="4"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="36"/>
+        </for>
+    </armor>
+
+
+    <!--
+        A Jewel
+    -->
+
+    <armor id="106315" name="Blue Diamond Necklace Lv.1">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="5"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="85"/>
+        </for>
+    </armor>
+
+    <armor id="106316" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.accessary_coral_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="5"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="63"/>
+        </for>
+    </armor>
+
+    <armor id="106317" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="5"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="42"/>
+        </for>
+    </armor>
+
+
+    <!--
+        S Jewel
+    -->
+
+    <armor id="106318" name="Blue Diamond Necklace Lv.1">
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="6"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="95"/>
+        </for>
+    </armor>
+
+    <armor id="106319" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.accessary_coral_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="6"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="71"/>
+        </for>
+    </armor>
+
+    <armor id="106320" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="6"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="48"/>
+        </for>
+    </armor>
+
+
+    <!--
+        S80 Jewel
+    -->
+
+    <armor id="106321" name="Ожерелье(UPGRADE) S80/Necklace(UPGRADE) S80">
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.r1_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="7"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="106"/>
+        </for>
+    </armor>
+
+    <armor id="106322" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.accessary_coral_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="7"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="79"/>
+        </for>
+    </armor>
+
+    <armor id="106323" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="7"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="60"/>
+        </for>
+    </armor>
+
+    <!--
+        S84 Jewel
+    -->
+
+    <armor id="106324" name="Blue Diamond Necklace Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="8"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="109"/>
+        </for>
+    </armor>
+
+    <armor id="106325" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_coral_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="8"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="81"/>
+        </for>
+    </armor>
+
+    <armor id="106326" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="8"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="61"/>
+        </for>
+    </armor>
+
+
+    <!-- 2 lvl -->
+
+    <armor id="106327" name="Blue Diamond Necklace Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="9"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="112"/>
+        </for>
+    </armor>
+
+    <armor id="106328" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_coral_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="9"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="84"/>
+        </for>
+    </armor>
+
+    <armor id="106329" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="9"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="63"/>
+        </for>
+    </armor>
+
+    <!-- 3 lvl -->
+
+    <armor id="106330" name="Blue Diamond Necklace Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="10"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="115"/>
+        </for>
+    </armor>
+
+    <armor id="106331" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_coral_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="10"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="87"/>
+        </for>
+    </armor>
+
+    <armor id="106332" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="10"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="65"/>
+        </for>
+    </armor>
+
+    <!-- 4 lvl -->
+
+    <armor id="106333" name="Blue Diamond Necklace Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="11"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="118"/>
+        </for>
+    </armor>
+
+    <armor id="106334" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_coral_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="11"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="90"/>
+        </for>
+    </armor>
+
+    <armor id="106335" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="11"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="67"/>
+        </for>
+    </armor>
+
+    <!-- 5 lvl -->
+
+    <armor id="106336" name="Blue Diamond Necklace Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120010" level="12"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="121"/>
+        </for>
+    </armor>
+
+    <armor id="106337" name="Coral Earring Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_coral_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+       <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120011" level="12"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="93"/>
+        </for>
+    </armor>
+
+    <armor id="106338" name="Blue Coral Ring Lv.1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120012" level="12"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="69"/>
+        </for>
+    </armor>
+
+    <!--
+        Epic Jewel
+    -->
+
+
+<!-- Уровень 1 -->
+
+
+    <armor id="106339" name="Ожерелье Фринтезы 1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120013" level="1"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="126"/>
+        </for>
+    </armor>
+    <armor id="106340" name="Серьга Орфен 1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120014" level="1"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="96"/>
+        </for>
+    </armor>
+    <armor id="106341" name="Серьга Антараса 1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>      
+			<slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120015" level="1"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="96"/>
+        </for>
+    </armor>
+    <armor id="106342" name="Кольцо Баюма 1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120016" level="1"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="71"/>
+        </for>
+    </armor>
+    <armor id="106343" name="Кольцо Коре 1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120017" level="1"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="71"/>
+        </for>
+    </armor>
+    <armor id="106344" name="Кольцо АК 1">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120018" level="1"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="71"/>
+        </for>
+    </armor>
+
+    <!-- 2 уровень -->
+
+    <armor id="106345" name="Ожерелье Фринтезы 2">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120013" level="2"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="131"/>
+        </for>
+    </armor>
+
+    <armor id="106346" name="Серьга Орфен 2">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120014" level="2"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="103"/>
+        </for>
+    </armor>
+
+    <armor id="106347" name="Серьга Антараса 2">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120015" level="2"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="103"/>
+        </for>
+    </armor>
+
+    <armor id="106348" name="Кольцо Баюма 2">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120016" level="2"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="73"/>
+        </for>
+    </armor>
+
+    <armor id="106349" name="Кольцо Коре 2">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120017" level="2"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="73"/>
+        </for>
+    </armor>
+
+    <armor id="106350" name="Кольцо АК 2">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120018" level="2"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="73"/>
+        </for>
+    </armor>
+
+            <!--  3 уровень -->
+
+    <armor id="106351" name="Ожерелье Фринтезы 3">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120013" level="3"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="145"/>
+        </for>
+    </armor>
+
+    <armor id="106352" name="Серьга Орфен 3">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120014" level="3"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="109"/>
+        </for>
+    </armor>
+
+    <armor id="106353" name="Серьга Антараса 3">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_earing_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120015" level="3"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="109"/>
+        </for>
+    </armor>
+
+    <armor id="106354" name="Кольцо Баюма 3">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120016" level="3"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="76"/>
+        </for>
+    </armor>
+
+    <armor id="106355" name="Кольцо Коре 3">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120017" level="3"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="76"/>
+        </for>
+    </armor>
+
+    <armor id="106356" name="Кольцо АК 3">
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120018" level="3"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="76"/>
+        </for>
+    </armor>
+
+</list>

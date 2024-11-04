@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <!--
+        Belt
+    -->
+    <armor id="105510" name="Пояс Могущества">
+
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.belt_rulers_authority"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="440"/>
+        <equip>
+            <slot id="BELT"/>
+        </equip>
+        <skills>
+            <skill id="120002" level="1"/>	<!--Полномочия Правителей-->
+        </skills>
+         <for>
+            <add stat="pDef" order="0x10" value="21"/>
+        </for>
+    </armor>
+    <armor id="105511" name="Пояс Могущества">
+
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.belt_rulers_authority"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="440"/>
+        <equip>
+            <slot id="BELT"/>
+        </equip>
+        <skills>
+            <skill id="120002" level="2"/>	<!--Полномочия Правителей-->
+        </skills>
+         <for>
+            <add stat="pDef" order="0x10" value="23"/>
+        </for>
+    </armor>
+    <armor id="105512" name="Пояс Могущества">
+
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.belt_rulers_authority"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="440"/>
+        <equip>
+            <slot id="BELT"/>
+        </equip>
+        <skills>
+            <skill id="120002" level="3"/>	<!--Полномочия Правителей-->
+        </skills>
+         <for>
+            <add stat="pDef" order="0x10" value="24"/>
+        </for>
+    </armor>
+    <armor id="105513" name="Пояс Могущества">
+
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.belt_rulers_authority"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="440"/>
+        <equip>
+            <slot id="BELT"/>
+        </equip>
+        <skills>
+            <skill id="120002" level="4"/>	<!--Полномочия Правителей-->
+        </skills>
+         <for>
+            <add stat="pDef" order="0x10" value="25"/>
+        </for>
+    </armor>
+    <armor id="105514" name="Пояс Могущества">
+
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.belt_rulers_authority"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="440"/>
+        <equip>
+            <slot id="BELT"/>
+        </equip>
+        <skills>
+            <skill id="120002" level="5"/>	<!--Полномочия Правителей-->
+        </skills>
+         <for>
+            <add stat="pDef" order="0x10" value="25"/>
+        </for>
+    </armor>
+</list>

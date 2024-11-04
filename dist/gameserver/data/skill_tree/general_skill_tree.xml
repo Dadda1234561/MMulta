@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--AUTHOR: Bonux-->
+<!--Древо скиллов используется для верификации умений с забытых книг и т.д.-->
+<list>
+	<normal_skill_tree>
+		<skill id="194" level="1" name="Везение(Lucky)" min_level="1"/>
+		<skill id="1322" level="1" name="Обычное Ремесло(Common Craft)" min_level="1"/>
+		<skill id="1321" level="1" name="Ремесло Гномов(Dwarven Craft)" min_level="1" race="DWARF"/>
+		<skill id="1320" level="1" name="Создать Обычный Предмет(Create Common Item)" min_level="5"/>
+		<!--HARDCODED: <skill id="239" level="1" name="Квалификация D(Expertise D)" min_level="20"/>-->
+		<skill id="1320" level="2" name="Создать Обычный Предмет(Create Common Item)" min_level="20"/>
+		<skill id="1320" level="3" name="Создать Обычный Предмет(Create Common Item)" min_level="28"/>
+		<skill id="1320" level="4" name="Создать Обычный Предмет(Create Common Item)" min_level="36"/>
+		<!--HARDCODED: <skill id="239" level="2" name="Квалификация C(Expertise C)" min_level="40"/>-->
+		<skill id="1320" level="5" name="Создать Обычный Предмет(Create Common Item)" min_level="43"/>
+		<skill id="1320" level="6" name="Создать Обычный Предмет(Create Common Item)" min_level="49"/>
+		<!--HARDCODED: <skill id="239" level="3" name="Квалификация B(Expertise B)" min_level="52"/>-->
+		<skill id="1320" level="7" name="Создать Обычный Предмет(Create Common Item)" min_level="55"/>
+		<!--HARDCODED: <skill id="239" level="4" name="Квалификация A(Expertise A)" min_level="61"/>-->
+		<skill id="1320" level="8" name="Создать Обычный Предмет(Create Common Item)" min_level="62"/>
+		<skill id="1320" level="9" name="Создать Обычный Предмет(Create Common Item)" min_level="70"/>
+		<!--HARDCODED: <skill id="239" level="5" name="Квалификация S(Expertise S)" min_level="76"/>-->
+		<!--HARDCODED: <skill id="239" level="6" name="Квалификация S80(Expertise S80)" min_level="80"/>-->
+		<skill id="1320" level="10" name="Создать Обычный Предмет(Create Common Item)" min_level="85"/>
+		<!--HARDCODED: <skill id="239" level="8" name="Квалификация R(Expertise R)" min_level="85"/>-->
+		<!--HARDCODED: <skill id="239" level="9" name="Квалификация R95(Expertise R95)" min_level="95"/>-->
+		<!--HARDCODED: <skill id="239" level="10" name="Квалификация R99(Expertise R99)" min_level="99"/>-->
+		<!--Race Skills-->
+		<!--Human-->
+		<skill id="1901" level="1" name="Ясная Цель(Aim)" race="HUMAN"/>
+		<skill id="1902" level="1" name="Крепкая Психика(Mental Fortress)" race="HUMAN"/>
+		<!--Elf-->
+		<skill id="1906" level="1" name="Благословенная Вода(Blessing of Water)" race="ELF"/>
+		<skill id="1908" level="1" name="Чуткость(Delicacy)" race="ELF"/>
+		<!--Dark Elf-->
+		<skill id="1909" level="1" name="Острота(Sharpness)" race="DARKELF"/>
+		<skill id="1911" level="1" name="Благословенный Ветер(Blessing of Wind)" race="DARKELF"/>
+		<!--Orc-->
+		<skill id="1915" level="1" name="Сила Огня(Blessing of Fire)" race="ORC"/>
+		<skill id="1916" level="1" name="Сильная Энергетика(Energetic)" race="ORC"/>
+		<!--Dwarf-->
+		<skill id="1919" level="1" name="Ловкость(Dexterity)" race="DWARF"/>
+		<skill id="1921" level="1" name="Благословенная Земля(Blessing of Earth)" race="DWARF"/>
+		<!--Kamael-->
+		<skill id="1923" level="1" name="Боевой Инстинкт(Battle Instinct)" race="KAMAEL"/>
+		<skill id="1924" level="1" name="Темная Тишина(Dark Silence)" race="KAMAEL"/>
+		<skill id="1926" level="1" name="Укрепление Тела(Body Reinforcement)" race="KAMAEL"/>
+		<skill id="1954" level="1" name="Укрепление Тела в Полете(Flying Body Reinforcement)" race="KAMAEL"/>
+	</normal_skill_tree>
+	<general_skill_tree>
+		<skill id="841" level="1" name="Aurabird Falcon" min_level="75"/>
+		<skill id="842" level="1" name="Aurabird Owl" min_level="75"/>
+		<skill id="15094" level="1" name="Clan Flag"/>
+		<skill id="19115" level="1" name="Air Bike"/>
+		<skill id="19116" level="1" name="Summon Lyn Draco"/>
+		<skill id="17096" level="1" name="Transform: One-eyed ParaPara Cat"/>
+		<skill id="17097" level="1" name="Transform: Smiling ParaPara Cat"/>
+		<skill id="17098" level="1" name="Transform: Charming ParaPara Cat"/>
+		<skill id="17099" level="1" name="Transform: Ferocious ParaPara Cat"/>
+		<skill id="17100" level="1" name="Transform: Merchant ParaPara Cat"/>
+		<class id="131"> <!--doombringer-->
+			<skill id="840" level="1" name="Final Flying Form" min_level="79"/>
+		</class>
+		<class id="132"> <!--male_soulhound-->
+			<skill id="840" level="1" name="Final Flying Form" min_level="79"/>
+		</class>
+		<class id="133"> <!--female_soulhound-->
+			<skill id="840" level="1" name="Final Flying Form" min_level="79"/>
+		</class>
+		<class id="134"> <!--trickster-->
+			<skill id="840" level="1" name="Final Flying Form" min_level="79"/>
+		</class>
+		<class id="136"> <!--judicator-->
+			<skill id="840" level="1" name="Final Flying Form" min_level="79"/>
+		</class>
+	</general_skill_tree>
+</list>

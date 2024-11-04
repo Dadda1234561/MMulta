@@ -1,0 +1,390 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="1" name="Gludio Castle" impl="CastleSiege">
+		<parameter name="start_time" value="00 18 * * SUN" />	<!--Времемя проведения осады в формате cron.-->
+		<parameter name="validation_date" value="2;4;2023"/>	<!--Время валидации даты, от которой начинается отсчет даты осад-->
+		<on_init>
+			<if name="light_side">
+				<spawn name="castle_peace_light_npcs"/>
+			</if>
+			<if name="dark_side">
+				<spawn name="castle_peace_dark_npcs"/>
+			</if>
+			<spawn name="castle_peace_npcs"/>
+			<spawn name="artefact"/>
+			<init name="doors"/>
+			<init name="siege_zones"/>
+			<init name="flag_zones"/>
+			<init name="zone_1"/>
+			<init name="zone_2"/>
+			<spawn name="control_towers_peace"/>
+			<spawn name="mass_gatekeeper"/>
+		</on_init>
+		<on_start>
+			<ifnot name="have_owner">
+				<spawn name="guards"/>
+			</ifnot>
+			<despawn name="control_towers_peace"/>
+			<spawn name="control_towers"/>
+			<spawn name="flame_towers"/>
+			<refresh name="artefact"/>
+			<refresh name="doors"/>
+			<refresh name="mass_gatekeeper"/>
+			<active name="siege_zones"/>
+			<teleport_players id="from_residence_to_town"/>
+		</on_start>
+		<on_stop>
+			<despawn name="control_towers"/>
+			<despawn name="flame_towers"/>
+			<spawn name="control_towers_peace"/>
+			<ifnot name="have_old_owner">
+				<despawn name="guards"/>
+			</ifnot>
+			<refresh name="artefact"/>
+			<refresh name="doors"/>
+			<refresh name="mass_gatekeeper"/>
+			<start name="registration"/>
+			<teleport_players id="from_residence_to_town"/>
+			<deactive name="siege_zones"/>
+		</on_stop>
+		<on_act>
+			<on act="change_castle_side">
+				<if name="light_side">
+					<despawn name="castle_peace_dark_npcs"/>
+					<spawn name="castle_peace_light_npcs"/>
+				</if>
+				<if name="dark_side">
+					<despawn name="castle_peace_light_npcs"/>
+					<spawn name="castle_peace_dark_npcs"/>
+				</if>
+			</on>
+		</on_act>
+		<on_time>
+			<on time="-86400">
+				<stop name="registration" />
+			</on>
+			<on time="0">
+				<start name="event" />
+				<announce id="1" value="3600" />
+				<play_sound type="SOUND" range="-1" sound="B01_F" />
+			</on>
+			<on time="60">
+				<play_sound type="SOUND" range="-1" sound="B02_S01" />
+			</on>
+			<on time="120">
+				<play_sound type="SOUND" range="-1" sound="B03_F" />
+			</on>
+			<on time="150">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="180">
+				<play_sound type="SOUND" range="-1" sound="B04_F" />
+			</on>
+			<on time="240">
+				<play_sound type="SOUND" range="-1" sound="B01_S01" />
+			</on>
+			<on time="300">
+				<play_sound type="SOUND" range="-1" sound="B02_F" />
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="360">
+				<play_sound type="SOUND" range="-1" sound="B03_S02" />
+			</on>
+			<on time="420">
+				<play_sound type="SOUND" range="-1" sound="B04_S01" />
+			</on>
+			<on time="450">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="480">
+				<play_sound type="SOUND" range="-1" sound="B01_S02" />
+			</on>
+			<on time="540">
+				<play_sound type="SOUND" range="-1" sound="B02_S02" />
+			</on>
+			<on time="600">
+				<play_sound type="SOUND" range="-1" sound="B03_S01" />
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="660">
+				<play_sound type="SOUND" range="-1" sound="B04_S02" />
+			</on>
+			<on time="720">
+				<play_sound type="SOUND" range="-1" sound="B01_F" />
+			</on>
+			<on time="750">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="780">
+				<play_sound type="SOUND" range="-1" sound="B02_S01" />
+			</on>
+			<on time="840">
+				<play_sound type="SOUND" range="-1" sound="B03_F" />
+			</on>
+			<on time="900">
+				<announce id="1" value="3600" />
+				<play_sound type="SOUND" range="-1" sound="B04_F" />
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="960">
+				<play_sound type="SOUND" range="-1" sound="B01_S01" />
+			</on>
+			<on time="1020">
+				<play_sound type="SOUND" range="-1" sound="B02_F" />
+			</on>
+			<on time="1050">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="1080">
+				<play_sound type="SOUND" range="-1" sound="B03_S02" />
+			</on>
+			<on time="1140">
+				<play_sound type="SOUND" range="-1" sound="B04_S01" />
+			</on>
+			<on time="1200">
+				<play_sound type="SOUND" range="-1" sound="B01_S02" />
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="1260">
+				<play_sound type="SOUND" range="-1" sound="B02_S02" />
+			</on>
+			<on time="1320">
+				<play_sound type="SOUND" range="-1" sound="B03_S01" />
+			</on>
+			<on time="1350">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="1380">
+				<play_sound type="SOUND" range="-1" sound="B04_S02" />
+			</on>
+			<on time="1440">
+				<play_sound type="SOUND" range="-1" sound="B01_F" />
+			</on>
+			<on time="1500">
+				<play_sound type="SOUND" range="-1" sound="B02_S01" />
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="1560">
+				<play_sound type="SOUND" range="-1" sound="B03_F" />
+			</on>
+			<on time="1620">
+				<play_sound type="SOUND" range="-1" sound="B04_F" />
+			</on>
+			<on time="1650">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="1680">
+				<play_sound type="SOUND" range="-1" sound="B01_S01" />
+			</on>
+			<on time="1740">
+				<play_sound type="SOUND" range="-1" sound="B02_F" />
+			</on>
+			<on time="1800">
+				<play_sound type="SOUND" range="-1" sound="B03_S02" />
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="1860">
+				<play_sound type="SOUND" range="-1" sound="B04_S01" />
+			</on>
+			<on time="1920">
+				<play_sound type="SOUND" range="-1" sound="B01_S02" />
+			</on>
+			<on time="1950">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="1980">
+				<play_sound type="SOUND" range="-1" sound="B02_S02" />
+			</on>
+			<on time="2040">
+				<play_sound type="SOUND" range="-1" sound="B03_S01" />
+			</on>
+			<on time="2100">
+				<play_sound type="SOUND" range="-1" sound="B04_S02" />
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="2160">
+				<play_sound type="SOUND" range="-1" sound="B01_F" />
+			</on>
+			<on time="2220">
+				<play_sound type="SOUND" range="-1" sound="B02_S01" />
+			</on>
+			<on time="2250">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="2280">
+				<play_sound type="SOUND" range="-1" sound="B03_F" />
+			</on>
+			<on time="2340">
+				<play_sound type="SOUND" range="-1" sound="B04_F" />
+			</on>
+			<on time="2400">
+				<play_sound type="SOUND" range="-1" sound="B01_S01" />
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="2460">
+				<play_sound type="SOUND" range="-1" sound="B02_F" />
+			</on>
+			<on time="2520">
+				<play_sound type="SOUND" range="-1" sound="B03_S02" />
+			</on>
+			<on time="2550">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="2580">
+				<play_sound type="SOUND" range="-1" sound="B04_S01" />
+			</on>
+			<on time="2640">
+				<play_sound type="SOUND" range="-1" sound="B01_S02" />
+			</on>
+			<on time="2700">
+				<announce id="1" value="1800" />
+				<play_sound type="SOUND" range="-1" sound="B02_S02" />
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="2760">
+				<play_sound type="SOUND" range="-1" sound="B03_S01" />
+			</on>
+			<on time="2820">
+				<play_sound type="SOUND" range="-1" sound="B04_S02" />
+			</on>
+			<on time="2850">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="2880">
+				<play_sound type="SOUND" range="-1" sound="B01_F" />
+			</on>
+			<on time="2940">
+				<play_sound type="SOUND" range="-1" sound="B02_S01" />
+			</on>
+			<on time="3000">
+				<play_sound type="SOUND" range="-1" sound="B03_F" />
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="3060">
+				<play_sound type="SOUND" range="-1" sound="B04_F" />
+			</on>
+			<on time="3120">
+				<play_sound type="SOUND" range="-1" sound="B01_S01" />
+			</on>
+			<on time="3150">
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="3180">
+				<play_sound type="SOUND" range="-1" sound="B02_F" />
+			</on>
+			<on time="3240">
+				<play_sound type="SOUND" range="-1" sound="B03_S02" />
+			</on>
+			<on time="3300">
+				<announce id="1" value="600" />
+				<play_sound type="SOUND" range="-1" sound="B04_S01" />
+				<give_item id="-300" count="1250" />
+			</on>
+			<on time="3360">
+				<play_sound type="SOUND" range="-1" sound="B01_S02" />
+			</on>
+			<on time="3420">
+				<play_sound type="SOUND" range="-1" sound="B02_S02" />
+			</on>
+			<on time="3450">
+				<give_item id="-300" count="1250" />
+				<announce id="1" value="300" />
+			</on>
+			<on time="3480">
+				<play_sound type="SOUND" range="-1" sound="B03_S01" />
+			</on>
+			<on time="3540">
+				<play_sound type="SOUND" range="-1" sound="B04_S02" />
+			</on>
+			<on time="3540">
+				<announce id="1" value="60" />
+			</on>
+			<on time="3570">
+				<announce id="1" value="30" />
+			</on>
+			<on time="3590">
+				<announce id="1" value="10" />
+			</on>
+			<on time="3595">
+				<announce id="1" value="5" />
+			</on>
+			<on time="3596">
+				<announce id="1" value="4" />
+			</on>
+			<on time="3597">
+				<announce id="1" value="3" />
+			</on>
+			<on time="3598">
+				<announce id="1" value="2" />
+			</on>
+			<on time="3599">
+				<announce id="1" value="1" />
+			</on>
+			<on time="3600">
+				<stop name="event" />
+			</on>
+		</on_time>
+		<objects name="castle_peace_npcs">
+			<spawn name="gludio_castle_1"/>
+		</objects>
+		<objects name="castle_peace_light_npcs">
+			<spawn name="gludio_castle_light_side"/>
+		</objects>
+		<objects name="castle_peace_dark_npcs">
+			<spawn name="gludio_castle_dark_side"/>
+		</objects>
+		<objects name="artefact">
+			<spawn_ex name="gludio_castle_siege_artefact"/>
+		</objects>
+		<objects name="guards">
+			<spawn_ex name="gludio_castle_siege"/>
+		</objects>
+		<objects name="doors">
+			<door id="19210001"/>
+			<door id="19210002"/>
+			<door id="19210003"/>
+			<door id="19210004"/>
+			<door id="19210005"/>
+			<door id="19210006"/>
+			<door id="19210007"/>
+			<door id="19210008"/>
+			<door id="19210009"/>
+		</objects>
+		<objects name="control_towers_peace">
+			<spawn_npc id="13003" x="-18325" y="112811" z="-2377"/>
+			<spawn_npc id="13003" x="-18048" y="107098" z="-2378"/>
+			<spawn_npc id="13003" x="-18113" y="108597" z="-2343"/>
+			<spawn_npc id="13005" x="-18154" y="107591" z="-2560"/>
+			<spawn_npc id="13005" x="-19329" y="108154" z="-2384"/>
+		</objects>
+		<objects name="control_towers">
+			<siege_toggle_npc id="13002" fake_id="13003" x="-18325" y="112811" z="-2377" hp="100000"/>
+			<siege_toggle_npc id="13002" fake_id="13003" x="-18048" y="107098" z="-2378" hp="100000"/>
+			<siege_toggle_npc id="13002" fake_id="13003" x="-18113" y="108597" z="-2343" hp="100000"/>
+		</objects>
+		<objects name="flame_towers">
+			<siege_toggle_npc id="13004" fake_id="13005" x="-18154" y="107591" z="-2560" hp="100000">
+				<objects name="zone_1"/>
+			</siege_toggle_npc>
+			<siege_toggle_npc id="13004" fake_id="13005" x="-19329" y="108154" z="-2384" hp="100000">
+				<objects name="zone_2"/>
+			</siege_toggle_npc>
+		</objects>
+		<objects name="zone_1">
+			<castle_zone name="[gludio_damage_1]" price="3000000"/>
+		</objects>
+		<objects name="zone_2">
+			<castle_zone name="[gludio_damage_2]" price="3000000"/>
+		</objects>
+		<objects name="siege_zones">
+			<zone name="[gludio_castle_siege]"/>
+		</objects>
+		<objects name="mass_gatekeeper">
+			<spawn_ex name="gludio_castle_mass_gatekeeper"/>
+		</objects>
+		<objects name="flag_zones">
+			<zone name="[gludio_castle_hq]"/>
+		</objects>
+	</event>
+</list>

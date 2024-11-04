@@ -1,0 +1,983 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "option_data.dtd">
+<list>
+
+    <!-- Diadema -->
+    <option_data id="43000">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.05"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.05"/>
+        </for>
+    </option_data>
+
+    <option_data id="43001">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.1"/>
+        </for>
+    </option_data>
+
+    <option_data id="43002">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.15"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.15"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.15"/>
+        </for>
+    </option_data>
+
+    <option_data id="43003">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.2"/>
+        </for>
+    </option_data>
+
+    <option_data id="43004">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.05"/>
+        </for>
+    </option_data>
+
+    <option_data id="43005">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.1"/>
+        </for>
+    </option_data>
+
+    <option_data id="43006">
+        <for>
+            <mul order="0x40" stat="mAtk" value="1.05"/>
+        </for>
+    </option_data>
+
+    <option_data id="43007">
+        <for>
+            <mul order="0x40" stat="mAtk" value="1.1"/>
+        </for>
+    </option_data>
+
+    <option_data id="43008">
+        <for>
+            <mul order="0x40" stat="maxHp" value="1.1"/>
+        </for>
+    </option_data>
+
+    <option_data id="43009">
+        <for>
+            <mul order="0x40" stat="maxHp" value="1.1"/>
+        </for>
+    </option_data>
+
+
+    <!-- Браслет Карли -->
+
+    <option_data id="43010">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.1"/>
+        </for>
+    </option_data>
+
+    <option_data id="43011">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.15"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.15"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.15"/>
+        </for>
+    </option_data>
+
+    <option_data id="43012">
+        <for>
+            <mul order="0x40" stat="pDef" value="1.15"/>
+        </for>
+    </option_data>
+
+    <option_data id="43013">
+        <for>
+            <mul order="0x40" stat="mDef" value="1.15"/>
+        </for>
+    </option_data>
+
+    <option_data id="43014">
+        <for>
+            <mul order="0x40" stat="maxHp" value="1.1"/>
+        </for>
+    </option_data>
+
+    <option_data id="43015">
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+        </for>
+    </option_data>
+
+    <option_data id="43016">
+        <for>
+            <add order="0x10" stat="STR" value="2"/>
+            <add order="0x10" stat="CON" value="2"/>
+        </for>
+    </option_data>
+
+    <option_data id="43017">
+        <for>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+        </for>
+    </option_data>
+
+    <option_data id="43018">
+        <for>
+            <add order="0x10" stat="INT" value="2"/>
+            <add order="0x10" stat="WIT" value="2"/>
+        </for>
+    </option_data>
+
+    <option_data id="43019">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.1"/>
+        </for>
+    </option_data>
+
+    <!-- Брошь -->
+
+    <option_data id="43020">
+        <for>
+            <p_skill_critical_damage value="5" type="PER"/>
+        </for>
+    </option_data>
+
+    <option_data id="43021">
+        <for>
+            <p_magic_critical_dmg value="5" type="PER"/>
+        </for>
+    </option_data>
+
+    <option_data id="43022">
+        <for>
+            <p_skill_critical_damage value="10" type="PER"/>
+        </for>
+    </option_data>
+
+    <option_data id="43023">
+        <for>
+            <p_magic_critical_dmg value="10" type="PER"/>
+        </for>
+    </option_data>
+
+    <option_data id="43024">
+        <for>
+            <p_skill_critical_damage value="15" type="PER"/>
+        </for>
+    </option_data>
+
+    <option_data id="43025">
+        <for>
+            <p_magic_critical_dmg value="15" type="PER"/>
+        </for>
+    </option_data>
+
+    <option_data id="43026">
+        <for>
+            <p_skill_critical_damage value="20" type="PER"/>
+        </for>
+    </option_data>
+
+    <option_data id="43027">
+        <for>
+            <p_magic_critical_dmg value="20" type="PER"/>
+        </for>
+    </option_data>
+
+    <option_data id="43028">
+        <for>
+            <p_skill_critical_damage value="7" type="PER"/>
+        </for>
+    </option_data>
+
+    <option_data id="43029">
+        <for>
+            <p_magic_critical_dmg value="7" type="PER"/>
+        </for>
+    </option_data>
+
+    <!-- Belt -->
+
+    <option_data id="43030">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.01"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.01"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.01"/>
+            <mul order="0x40" stat="pvePhysDefenceBonus" value="1.01"/>
+            <mul order="0x40" stat="pvePhysSkillDefenceBonus" value="1.01"/>
+            <mul order="0x40" stat="pveMagicSkillDefenceBonus" value="1.01"/>
+        </for>
+    </option_data>
+
+    <option_data id="43031">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.02"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.02"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.02"/>
+            <mul order="0x40" stat="pvePhysDefenceBonus" value="1.02"/>
+            <mul order="0x40" stat="pvePhysSkillDefenceBonus" value="1.02"/>
+            <mul order="0x40" stat="pveMagicSkillDefenceBonus" value="1.02"/>
+        </for>
+    </option_data>
+
+    <option_data id="43032">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.03"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.03"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.03"/>
+            <mul order="0x40" stat="pvePhysDefenceBonus" value="1.03"/>
+            <mul order="0x40" stat="pvePhysSkillDefenceBonus" value="1.03"/>
+            <mul order="0x40" stat="pveMagicSkillDefenceBonus" value="1.03"/>
+        </for>
+    </option_data>
+
+    <option_data id="43033">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.04"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.04"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.04"/>
+            <mul order="0x40" stat="pvePhysDefenceBonus" value="1.04"/>
+            <mul order="0x40" stat="pvePhysSkillDefenceBonus" value="1.04"/>
+            <mul order="0x40" stat="pveMagicSkillDefenceBonus" value="1.04"/>
+        </for>
+    </option_data>
+
+    <option_data id="43034">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.05"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.05"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.05"/>
+            <mul order="0x40" stat="pvePhysDefenceBonus" value="1.05"/>
+            <mul order="0x40" stat="pvePhysSkillDefenceBonus" value="1.05"/>
+            <mul order="0x40" stat="pveMagicSkillDefenceBonus" value="1.05"/>
+        </for>
+    </option_data>
+
+    <option_data id="43035">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.06"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.06"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.06"/>
+            <mul order="0x40" stat="pvePhysDefenceBonus" value="1.06"/>
+            <mul order="0x40" stat="pvePhysSkillDefenceBonus" value="1.06"/>
+            <mul order="0x40" stat="pveMagicSkillDefenceBonus" value="1.06"/>
+        </for>
+    </option_data>
+
+    <option_data id="43036">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.07"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.07"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.07"/>
+            <mul order="0x40" stat="pvePhysDefenceBonus" value="1.07"/>
+            <mul order="0x40" stat="pvePhysSkillDefenceBonus" value="1.07"/>
+            <mul order="0x40" stat="pveMagicSkillDefenceBonus" value="1.07"/>
+        </for>
+    </option_data>
+
+    <option_data id="43037">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.08"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.08"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.08"/>
+            <mul order="0x40" stat="pvePhysDefenceBonus" value="1.08"/>
+            <mul order="0x40" stat="pvePhysSkillDefenceBonus" value="1.08"/>
+            <mul order="0x40" stat="pveMagicSkillDefenceBonus" value="1.08"/>
+        </for>
+    </option_data>
+
+    <option_data id="43038">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.09"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.09"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.09"/>
+            <mul order="0x40" stat="pvePhysDefenceBonus" value="1.09"/>
+            <mul order="0x40" stat="pvePhysSkillDefenceBonus" value="1.09"/>
+            <mul order="0x40" stat="pveMagicSkillDefenceBonus" value="1.09"/>
+        </for>
+    </option_data>
+
+    <option_data id="43039">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.1"/>
+            <mul order="0x40" stat="pvePhysDefenceBonus" value="1.1"/>
+            <mul order="0x40" stat="pvePhysSkillDefenceBonus" value="1.1"/>
+            <mul order="0x40" stat="pveMagicSkillDefenceBonus" value="1.1"/>
+        </for>
+    </option_data>
+
+
+    <!-- Cloak -->
+
+    <option_data id="43040">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.02"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.02"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.02"/>
+        </for>
+    </option_data>
+
+    <option_data id="43041">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.04"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.04"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.04"/>
+        </for>
+    </option_data>
+
+    <option_data id="43042">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.06"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.06"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.06"/>
+        </for>
+    </option_data>
+
+    <option_data id="43043">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.08"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.08"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.08"/>
+        </for>
+    </option_data>
+
+    <option_data id="43044">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.1"/>
+        </for>
+    </option_data>
+
+    <option_data id="43045">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.15"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.15"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.15"/>
+        </for>
+    </option_data>
+
+    <option_data id="43046">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.2"/>
+        </for>
+    </option_data>
+
+    <option_data id="43047">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.25"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.25"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.25"/>
+        </for>
+    </option_data>
+
+    <option_data id="43048">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.3"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.3"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.3"/>
+        </for>
+    </option_data>
+
+    <option_data id="43049">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.35"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.35"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.35"/>
+        </for>
+    </option_data>
+
+
+    <!-- T-Shirt -->
+
+    <option_data id="43050">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.07"/>
+        </for>
+    </option_data>
+
+    <option_data id="43051">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.09"/>
+        </for>
+    </option_data>
+
+    <option_data id="43052">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.11"/>
+        </for>
+    </option_data>
+
+    <option_data id="43053">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.13"/>
+        </for>
+    </option_data>
+
+    <option_data id="43054">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.15"/>
+        </for>
+    </option_data>
+
+    <option_data id="43055">
+        <for>
+            <mul order="0x40" stat="mAtk" value="1.09"/>
+        </for>
+    </option_data>
+
+    <option_data id="43056">
+        <for>
+            <mul order="0x40" stat="mAtk" value="1.11"/>
+        </for>
+    </option_data>
+
+    <option_data id="43057">
+        <for>
+            <mul order="0x40" stat="mAtk" value="1.13"/>
+        </for>
+    </option_data>
+
+    <option_data id="43058">
+        <for>
+            <mul order="0x40" stat="mAtk" value="1.15"/>
+        </for>
+    </option_data>
+
+    <option_data id="43059">
+        <for>
+            <mul order="0x40" stat="mAtk" value="1.2"/>
+        </for>
+    </option_data>
+
+    <option_data id="43060">
+        <skills>
+            <skill id="3132" level="1"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43061">
+        <skills>
+            <skill id="3132" level="2"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43062">
+        <skills>
+            <skill id="3132" level="3"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43063">
+        <skills>
+            <skill id="3132" level="4"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43064">
+        <skills>
+            <skill id="3132" level="5"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43065">
+        <skills>
+            <skill id="3132" level="6"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43066">
+        <skills>
+            <skill id="3132" level="7"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43067">
+        <skills>
+            <skill id="3132" level="8"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43068">
+        <skills>
+            <skill id="3132" level="9"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43069">
+        <skills>
+            <skill id="3132" level="10"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+
+    <option_data id="43070">
+        <skills>
+            <skill id="3133" level="1"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43071">
+        <skills>
+            <skill id="3133" level="2"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43072">
+        <skills>
+            <skill id="3133" level="3"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43073">
+        <skills>
+            <skill id="3133" level="4"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43074">
+        <skills>
+            <skill id="3133" level="5"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43075">
+        <skills>
+            <skill id="3133" level="6"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43076">
+        <skills>
+            <skill id="3133" level="7"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43077">
+        <skills>
+            <skill id="3133" level="8"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43078">
+        <skills>
+            <skill id="3133" level="9"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43079">
+        <skills>
+            <skill id="3133" level="10"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+
+    <option_data id="43080">
+        <skills>
+            <skill id="3134" level="1"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43081">
+        <skills>
+            <skill id="3134" level="2"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43082">
+        <skills>
+            <skill id="3134" level="3"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43083">
+        <skills>
+            <skill id="3134" level="4"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43084">
+        <skills>
+            <skill id="3134" level="5"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43085">
+        <skills>
+            <skill id="3134" level="6"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43086">
+        <skills>
+            <skill id="3134" level="7"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43087">
+        <skills>
+            <skill id="3134" level="8"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43088">
+        <skills>
+            <skill id="3134" level="9"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43089">
+        <skills>
+            <skill id="3134" level="10"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+
+    <option_data id="43090">
+        <skills>
+            <skill id="3135" level="1"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43091">
+        <skills>
+            <skill id="3135" level="2"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43092">
+        <skills>
+            <skill id="3135" level="3"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43093">
+        <skills>
+            <skill id="3135" level="4"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43094">
+        <skills>
+            <skill id="3135" level="5"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43095">
+        <skills>
+            <skill id="3135" level="6"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43096">
+        <skills>
+            <skill id="3135" level="7"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43097">
+        <skills>
+            <skill id="3135" level="8"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43098">
+        <skills>
+            <skill id="3135" level="9"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43099">
+        <skills>
+            <skill id="3135" level="10"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+
+    <option_data id="43100">
+        <skills>
+            <skill id="3136" level="1"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43101">
+        <skills>
+            <skill id="3136" level="2"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43102">
+        <skills>
+            <skill id="3136" level="3"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43103">
+        <skills>
+            <skill id="3136" level="4"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43104">
+        <skills>
+            <skill id="3136" level="5"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43105">
+        <skills>
+            <skill id="3136" level="6"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43106">
+        <skills>
+            <skill id="3136" level="7"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43107">
+        <skills>
+            <skill id="3136" level="8"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43108">
+        <skills>
+            <skill id="3136" level="9"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43109">
+        <skills>
+            <skill id="3136" level="10"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+
+    <option_data id="43110">
+        <skills>
+            <skill id="3240" level="1"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43111">
+        <skills>
+            <skill id="3240" level="2"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43112">
+        <skills>
+            <skill id="3240" level="3"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43113">
+        <skills>
+            <skill id="3240" level="4"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43114">
+        <skills>
+            <skill id="3240" level="5"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43115">
+        <skills>
+            <skill id="3240" level="6"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43116">
+        <skills>
+            <skill id="3240" level="7"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43117">
+        <skills>
+            <skill id="3240" level="8"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43118">
+        <skills>
+            <skill id="3240" level="9"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+    <option_data id="43119">
+        <skills>
+            <skill id="3240" level="10"/> <!--Item Skill: Might-->
+        </skills>
+    </option_data>
+
+    <option_data id="43120">
+        <skills>
+            <skill id="3241" level="1"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43121">
+        <skills>
+            <skill id="3241" level="2"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43122">
+        <skills>
+            <skill id="3241" level="3"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43123">
+        <skills>
+            <skill id="3241" level="4"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43124">
+        <skills>
+            <skill id="3241" level="5"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43125">
+        <skills>
+            <skill id="3241" level="6"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43126">
+        <skills>
+            <skill id="3241" level="7"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43127">
+        <skills>
+            <skill id="3241" level="8"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43128">
+        <skills>
+            <skill id="3241" level="9"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+    <option_data id="43129">
+        <skills>
+            <skill id="3241" level="10"/> <!--Item Skill: Empower-->
+        </skills>
+    </option_data>
+
+    <option_data id="43130">
+        <skills>
+            <skill id="3243" level="1"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43131">
+        <skills>
+            <skill id="3243" level="2"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43132">
+        <skills>
+            <skill id="3243" level="3"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43133">
+        <skills>
+            <skill id="3243" level="4"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43134">
+        <skills>
+            <skill id="3243" level="5"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43135">
+        <skills>
+            <skill id="3243" level="6"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43136">
+        <skills>
+            <skill id="3243" level="7"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43137">
+        <skills>
+            <skill id="3243" level="8"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43138">
+        <skills>
+            <skill id="3243" level="9"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+    <option_data id="43139">
+        <skills>
+            <skill id="3243" level="10"/> <!--Item Skill: Duel Might-->
+        </skills>
+    </option_data>
+
+
+    <option_data id="43140">
+        <skills>
+            <skill id="3244" level="1"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43141">
+        <skills>
+            <skill id="3244" level="2"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43142">
+        <skills>
+            <skill id="3244" level="3"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43143">
+        <skills>
+            <skill id="3244" level="4"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43144">
+        <skills>
+            <skill id="3244" level="5"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43145">
+        <skills>
+            <skill id="3244" level="6"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43146">
+        <skills>
+            <skill id="3244" level="7"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43147">
+        <skills>
+            <skill id="3244" level="8"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43148">
+        <skills>
+            <skill id="3244" level="9"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+    <option_data id="43149">
+        <skills>
+            <skill id="3244" level="10"/> <!--Item Skill: Shield-->
+        </skills>
+    </option_data>
+
+
+    <option_data id="43150">
+        <skills>
+            <skill id="3245" level="1"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43151">
+        <skills>
+            <skill id="3245" level="2"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43152">
+        <skills>
+            <skill id="3245" level="3"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43153">
+        <skills>
+            <skill id="3245" level="4"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43154">
+        <skills>
+            <skill id="3245" level="5"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43155">
+        <skills>
+            <skill id="3245" level="6"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43156">
+        <skills>
+            <skill id="3245" level="7"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43157">
+        <skills>
+            <skill id="3245" level="8"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43158">
+        <skills>
+            <skill id="3245" level="9"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+    <option_data id="43159">
+        <skills>
+            <skill id="3245" level="10"/> <!--Item Skill: Magic Barrier-->
+        </skills>
+    </option_data>
+
+
+</list>

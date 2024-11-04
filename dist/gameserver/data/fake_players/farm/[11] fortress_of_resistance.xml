@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Fortress of Resistance" min_level="24" max_level="34">
+	<zones>
+		<zone>
+			<circle loc="47160 116392 15000 -3000 0"/>
+		</zone>
+		<spawn_points>
+			<coords loc="47434 111240 -2112"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</go_to_town>
+</farm>

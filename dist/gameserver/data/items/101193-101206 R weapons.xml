@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		R Weapons
+	-->
+	<weapon id="101193" name="Apocalypse Shaper">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_phasian_i00"/>
+		
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="crystal_count" value="3274"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="530"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101194" name="Apocalypse Cutter">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_pasis_i00"/>
+		
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_count" value="3274"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="530"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101195" name="Apocalypse Slasher">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_volver_i00"/>
+		
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="550"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101196" name="Apocalypse Avenger">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_raksilion_i00"/>
+		
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_count" value="3274"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="2004"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101197" name="Apocalypse Fighter">
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_kirche_i00"/>
+		
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1550"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="crystal_count" value="3274"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="530"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101198" name="Apocalypse Stormer">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_grave_i00"/>
+		
+		<set name="type" value="POLE"/>
+		<set name="weight" value="2010"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_count" value="3274"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="2004"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101199" name="Apocalypse Thrower">
+		<set name="reuse_delay" value="1500"/>
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_spina_i00"/>
+		
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="crystal_count" value="3274"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="530"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101200" name="Apocalypse Shooter">
+		<set name="reuse_delay" value="1350"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_medianox_i00"/>
+		
+		<set name="type" value="TWOHANDCROSSBOW"/>
+		<set name="weight" value="1580"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="crystal_count" value="3274"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="2394"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101201" name="Apocalypse Buster">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_imerose_i00"/>
+		
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_count" value="3274"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100014" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="491"/>
+			<add stat="mAtk" order="0x10" value="330"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+			<add stat="mAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101202" name="Apocalypse Caster">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_yuke_i00"/>
+		
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1080"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_count" value="3274"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100014" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="403"/>
+			<add stat="mAtk" order="0x10" value="330"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101203" name="Apocalypse Retributer">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_herencia_i00"/>
+		
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="1080"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_count" value="3274"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100014" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="491"/>
+			<add stat="mAtk" order="0x10" value="330"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+			<add stat="mAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101204" name="Apocalypse Dual Swords">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_count" value="4092"/>
+		<set name="icon" value="icon.weapon_r_dualsword_i00"/>
+		
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="530"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101205" name="Apocalypse Dual Daggers">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r_dualdagger_i00"/>
+		
+		<set name="type" value="DUALDAGGER"/>
+		<set name="weight" value="2050"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_count" value="4092"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="530"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101206" name="Apocalypse Dual Blunt Weapon">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="S80"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r_dualblunt_i00"/>
+		
+		<set name="type" value="DUALBLUNT"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_count" value="4092"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100013" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="2113"/>
+			<add stat="mAtk" order="0x10" value="219"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+</list>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<list>
+	<event id="4" name="Capture The Flag" impl="fightclub.CaptureTheFlag">
+		<parameter name="enabled" value="false"/>
+		<parameter name="icon" value="Icon.etc_bloodpledge_point_i00"/>
+		<parameter name="desc" value="Team Event. Try to steal Flag that is placed near enemy spawn location and bring it to your territory. Don't forget to defend your flag, we don't want it to be hold by enemy hands! Event Lasts 10 minutes."/>
+		<parameter name="roundRunTime" value="3"/>
+		<parameter name="roundEvent" value="false"/>
+        <parameter name="isAutoTimed" value="true"/>
+        <parameter name="sendInvites" value="true"/>
+		<parameter name="autoTimes" value="01:00,04:00,07:00,10:00,13:00,16:00,19:00,22:00"/>
+		<parameter name="teamed" value="true"/>
+		<parameter name="buffer" value="true"/>
+		<parameter name="fighterBuffs" value="1204,2;1086,2;1068,3;1045,6;1048,6;1040,3;1062,2;1036,2"/>
+		<parameter name="mageBuffs" value="1204,2;1085,3;1059,3;1045,6;1048,6;1040,3;1062,2;1036,2"/>
+		<parameter name="rootBetweenRounds" value="true"/>
+		<parameter name="excludedClasses" value=""/>
+		<parameter name="excludedSkills" value="922"/>
+		<parameter name="respawnTime" value="5"/>
+		<parameter name="ressAllowed" value="false"/>
+		<parameter name="showPersonality" value="true"/>
+		<parameter name="badgesCaptureFlag" value="1"/>
+		<parameter name="badgeIDWin" value="106587"/> <!--Item to give to winners -->
+		<parameter name="badgeIDLose" value="106588"/> <!--Item to give to losers -->
+		<parameter name="badgesWin" value="2"/> <!--Items count to give to winners -->
+		<parameter name="topKillerReward" value="1"/> <!--Items count to add if cha is top killer -->
+		<parameter name="min_level" value="70"/>
+		<parameter name="max_level" value="120"/>
+		<parameter name="rebirthCnt" value="3"/>
+	</event>
+</list>

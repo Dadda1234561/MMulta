@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <etcitem id="97000" name="VIP Lv.1" add_name="">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="weight" value="120"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="106000" level="1"/>
+        </skills>
+    </etcitem>
+    <etcitem id="97001" name="VIP Lv.2" add_name="">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="weight" value="120"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="106001" level="1"/>
+        </skills>
+    </etcitem>
+    <etcitem id="97002" name="VIP Lv.3" add_name="">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="weight" value="120"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="106002" level="1"/>
+        </skills>
+    </etcitem>
+    <etcitem id="97003" name="VIP Lv.4" add_name="">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="weight" value="120"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="106003" level="1"/>
+        </skills>
+    </etcitem>
+    <etcitem id="97004" name="VIP Lv.5" add_name="">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="weight" value="120"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="106004" level="1"/>
+        </skills>
+    </etcitem>
+    <etcitem id="97005" name="VIP Lv.6" add_name="">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="weight" value="120"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="106005" level="1"/>
+        </skills>
+    </etcitem>
+    <etcitem id="97006" name="VIP Lv.7" add_name="">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="weight" value="120"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="106006" level="1"/>
+        </skills>
+    </etcitem>
+    <etcitem id="97007" name="VIP Lv.8" add_name="">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="weight" value="120"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="106007" level="1"/>
+        </skills>
+    </etcitem>
+    <etcitem id="97008" name="VIP Lv.9" add_name="">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="weight" value="120"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="106008" level="1"/>
+        </skills>
+    </etcitem>
+    <etcitem id="97009" name="VIP Lv.10" add_name="">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="weight" value="120"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="106009" level="1"/>
+        </skills>
+    </etcitem>
+    <armor id="97050" name="Antharas Breastplate">
+        <set name="crystal_count" value="408"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_u_i00"/>
+        
+        <set name="type" value="HEAVY"/>
+        <set name="weight" value="7620"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="500"/>
+        </for>
+    </armor>
+    <armor id="97051" name="Antharas Gaiters">
+        <set name="crystal_count" value="255"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_l_i00"/>
+        
+        <set name="type" value="HEAVY"/>
+        <set name="weight" value="3260"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="320"/>
+        </for>
+    </armor>
+    <armor id="97052" name="Antharas Gauntlets">
+        <set name="crystal_count" value="102"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_g_i00"/>
+        
+        <set name="type" value="NONE"/>
+        <set name="weight" value="540"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="130"/>
+        </for>
+    </armor>
+    <armor id="97053" name="Antharas Boots">
+        <set name="crystal_count" value="102"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_b_i00"/>
+        
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1110"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="130"/>
+        </for>
+    </armor>
+    <armor id="97054" name="Верх Валакаса">
+        <set name="crystal_count" value="408"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_u_i00"/>
+        
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="7620"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="400"/>
+        </for>
+    </armor>
+    <armor id="97055" name="Низ Валакаса">
+        <set name="crystal_count" value="255"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_l_i00"/>
+        
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="3260"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="260"/>
+        </for>
+    </armor>
+    <armor id="97056" name="Перчи Валакаса">
+        <set name="crystal_count" value="102"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_g_i00"/>
+        
+        <set name="type" value="NONE"/>
+        <set name="weight" value="540"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="130"/>
+        </for>
+    </armor>
+    <armor id="97057" name="Шлёпки Валакаса">
+        <set name="crystal_count" value="102"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_b_i00"/>
+        
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1110"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="130"/>
+        </for>
+    </armor>
+    <armor id="97058" name="Верх Фунфыриона">
+        <set name="crystal_count" value="408"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_u_i00"/>
+        
+        <set name="type" value="MAGIC"/>
+        <set name="weight" value="7620"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="maxMp" value="1700"/>
+            <add order="0x10" stat="mDef" value="80"/>
+            <add stat="pDef" order="0x10" value="205"/>
+        </for>
+    </armor>
+    <armor id="97059" name="Низ Фунфыриона">
+        <set name="crystal_count" value="255"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_l_i00"/>
+        
+        <set name="type" value="MAGIC"/>
+        <set name="weight" value="3260"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add order="0x10" stat="maxMp" value="1200"/>
+            <add order="0x10" stat="mDef" value="80"/>
+            <add stat="pDef" order="0x10" value="128"/>
+        </for>
+    </armor>
+    <armor id="97060" name="Перчи Фунфыриона">
+        <set name="crystal_count" value="102"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_g_i00"/>
+        
+        <set name="type" value="NONE"/>
+        <set name="weight" value="540"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="130"/>
+        </for>
+    </armor>
+    <armor id="97061" name="Боты Фунфыриона">
+        <set name="crystal_count" value="102"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t88_b_i00"/>
+        
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1110"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="130"/>
+        </for>
+    </armor>
+    <armor id="97062" name="Антарас Шлем">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="530"/>
+        <equip>
+            <slot id="HEAD"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="190"/>
+        </for>
+    </armor>
+    <armor id="97063" name="Валакас Шлем">
+        <set name="commissionable" value="false"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="530"/>
+        <equip>
+            <slot id="HEAD"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="190"/>
+        </for>
+    </armor>
+    <armor id="97064" name="Фунфырион Шлем">
+        <set name="crystal_type" value="R110"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="530"/>
+        <equip>
+            <slot id="HEAD"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="190"/>
+        </for>
+    </armor>
+
+    <etcitem id="97065" name="Серебряная Руна 1 час">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="durability" value="60"/>
+        <set name="temporal" value="true"/>
+        <set name="icon" value="BranchSys3.lcon.g_rune_itemdrop_up"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="22588" level="5"/>	<!--High-grade Drop Rate Rune-->
+        </skills>
+    </etcitem>
+
+    <etcitem id="97066" name="Серебряная Руна 5 часа">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="durability" value="300"/>
+        <set name="temporal" value="true"/>
+        <set name="icon" value="BranchSys3.lcon.g_rune_itemdrop_up"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="22588" level="5"/>	<!--High-grade Drop Rate Rune-->
+        </skills>
+    </etcitem>
+
+    <etcitem id="97067" name="Серебряная Руна 1 час">
+        <set name="icon" value="icon.ev_adena_buff_scroll"/>
+        <set name="is_olympiad_can_use" value="false"/>
+        <set name="type" value="POTION"/>
+        <set name="stackable" value="true"/>
+        <set name="reuse_delay" value="5000"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="temporal" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="freightable" value="false"/>
+        <skills>
+            <skill id="120254" level="1"/>
+        </skills>
+    </etcitem>
+
+    <etcitem id="97068" name="Серебряная Руна 3 часа">
+        <set name="icon" value="icon.ev_adena_buff_scroll"/>
+        <set name="is_olympiad_can_use" value="false"/>
+        <set name="type" value="POTION"/>
+        <set name="stackable" value="true"/>
+        <set name="reuse_delay" value="5000"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="temporal" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="freightable" value="false"/>
+        <skills>
+            <skill id="120255" level="1"/>
+        </skills>
+    </etcitem>
+
+    <etcitem id="97069" name="Наградной Билет" add_name="Запечатано">
+        <set name="icon" value="icon.secret_store_ticket"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="durability" value="10080"/>
+        <set name="temporal" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="22589" level="1"/>
+        </skills>
+    </etcitem>
+
+    <etcitem id="97070" name="Подарочный Куб - 7 Дней" add_name="Запечатано">
+        <set name="icon" value="icon.bm_2019_cube_lv3"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="handler" value="Skills"/>
+        <set name="max_use_cnt" value="7" />
+        <set name="reuse_type" value="EVERY_DAY_AT_6_30" />
+        <skills>
+            <skill id="70200" level="1"/>
+        </skills>
+    </etcitem>
+    <etcitem id="97071" name="Подарочный Куб - День 1" add_name="Запечатано">
+        <set name="icon" value="icon.npoint_valakas_30day_box"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+		    <capsuled_item id="97069" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="105245" min_count="10" max_count="10" chance="100.00"/>
+            <capsuled_item id="105246" min_count="10" max_count="10" chance="100.00"/>
+            <capsuled_item id="105247" min_count="10" max_count="10" chance="100.00"/>
+			<capsuled_item id="105248" min_count="10" max_count="10" chance="100.00"/>
+			<capsuled_item id="105260" min_count="20" max_count="20" chance="100.00"/>
+            <capsuled_item id="105261" min_count="20" max_count="20" chance="100.00"/>
+            <capsuled_item id="105262" min_count="20" max_count="20" chance="100.00"/>
+			<capsuled_item id="105263" min_count="20" max_count="20" chance="100.00"/>
+            
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="97072" name="Подарочный Куб - День 2" add_name="Запечатано">
+        <set name="icon" value="icon.npoint_antaras_30day_box"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="70066" min_count="10" max_count="10" chance="100.00"/>
+            <capsuled_item id="96623" min_count="20" max_count="20" chance="100.00"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="97073" name="Подарочный Куб - День 3" add_name="Запечатано">
+        <set name="icon" value="icon.npoint_tauti_30day_box"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="37044" min_count="20" max_count="20" chance="100.00"/>
+            <capsuled_item id="46153" min_count="15" max_count="15" chance="100.00"/>
+            <capsuled_item id="46157" min_count="10" max_count="10" chance="100.00"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="97074" name="Подарочный Куб - День 4" add_name="Запечатано">
+        <set name="icon" value="icon.npoint_earring_of_lind_30day_box"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="106713" min_count="1" max_count="1" chance="100.00"/>
+			<capsuled_item id="13015" min_count="2" max_count="2" chance="100.00"/>
+			<capsuled_item id="13016" min_count="20" max_count="20" chance="100.00"/>
+			<capsuled_item id="20391" min_count="2" max_count="2" chance="100.00"/>/
+			<capsuled_item id="20392" min_count="2" max_count="2" chance="100.00"/>
+        </capsuled_items>
+    </etcitem>
+        <etcitem id="97075" name="Подарочный Куб - День 5" add_name="Запечатано">
+        <set name="icon" value="icon.etc_pi_box_love_pack"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="20336" min_count="1" max_count="1" chance="100.00"/>
+			<capsuled_item id="97068" min_count="1" max_count="1" chance="100.00"/>
+			<capsuled_item id="106557" min_count="1" max_count="1" chance="100.00"/>
+			<capsuled_item id="106558" min_count="1" max_count="1" chance="100.00"/>
+			<capsuled_item id="110376" min_count="1" max_count="1" chance="100.00"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="97076" name="Подарочный Куб - День 6" add_name="Запечатано">
+        <set name="icon" value="icon.etc_pi_box_love_pack"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="106726" min_count="1" max_count="1" chance="100.00"/>
+			<capsuled_item id="106727" min_count="1" max_count="1" chance="100.00"/>
+			<capsuled_item id="106728" min_count="1" max_count="1" chance="100.00"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="97077" name="Подарочный Куб - День 7" add_name="Запечатано">
+        <set name="icon" value="icon.etc_pi_box_love_pack"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="110617" min_count="1" max_count="1" chance="100.00"/>
+        </capsuled_items>
+    </etcitem>
+</list>

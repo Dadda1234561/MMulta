@@ -1,0 +1,35 @@
+<!ELEMENT list (mission)*>
+
+	<!ELEMENT mission (reward_items)*>
+	<!ATTLIST mission
+		id CDATA #REQUIRED
+		handler CDATA #REQUIRED
+		category CDATA #REQUIRED
+		repeatable CDATA #IMPLIED
+		min_pledge_level CDATA #IMPLIED
+		pledge_mastery CDATA #IMPLIED
+		min_player_level CDATA #IMPLIED
+		max_player_level CDATA #IMPLIED
+		main_class CDATA #IMPLIED
+		dual_class CDATA #IMPLIED
+		sub_class CDATA #IMPLIED
+		is_all_lvl CDATA #IMPLIED
+		previous_mission_id CDATA #IMPLIED
+		start_date CDATA #IMPLIED
+		start_time CDATA #IMPLIED
+		end_date CDATA #IMPLIED
+		end_time CDATA #IMPLIED
+		activate_time CDATA #IMPLIED
+		deactivate_time CDATA #IMPLIED
+		unk CDATA #IMPLIED
+		available_day CDATA #IMPLIED
+		goal_count CDATA #IMPLIED
+		clan_reputation_reward CDATA #IMPLIED
+		fame_reward CDATA #IMPLIED>
+
+		<!ELEMENT reward_items (item)*>
+
+			<!ELEMENT item (#PCDATA)>
+			<!ATTLIST item
+				id CDATA #REQUIRED
+				count CDATA #REQUIRED>

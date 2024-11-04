@@ -1,0 +1,43 @@
+<!ELEMENT list (itemGroup|item|skill)*>
+        <!ELEMENT itemGroup (enchantModifier|variationModifier|ensoulModifier|skillModifier)*>
+        <!ATTLIST itemGroup
+                grade CDATA #REQUIRED
+                baseGearScore CDATA #REQUIRED>
+        <!ELEMENT enchantModifier (enchant)*>
+        <!ELEMENT enchant (#PCDATA)>
+        <!ATTLIST enchant
+                type (GS_NONE|GS_BASE|GS_NORMAL|GS_ANY_VARIATION|GS_VARIATION_BY_MINERAL_ID|GS_VARIATION_BY_OPTION_ID|GS_ANY_ENSOUL|GS_ANY_ENSOUL_BY_OPTION_ID|GS_BLESS|GS_HAS_SKILL|GS_HAS_ENCHANTED_SKILL) #IMPLIED
+                value CDATA #IMPLIED
+                perScore CDATA #IMPLIED
+                fromLevel CDATA #IMPLIED
+                isBlessed CDATA #IMPLIED
+                level CDATA #IMPLIED
+                toLevel CDATA #IMPLIED>
+        <!ELEMENT variationModifier (variation)*>
+        <!ELEMENT variation (#PCDATA)>
+        <!ATTLIST variation
+                type (GS_NONE|GS_BASE|GS_NORMAL|GS_ANY_VARIATION|GS_VARIATION_BY_MINERAL_ID|GS_VARIATION_BY_OPTION_ID|GS_ANY_ENSOUL|GS_ANY_ENSOUL_BY_OPTION_ID|GS_BLESS|GS_HAS_SKILL|GS_HAS_ENCHANTED_SKILL) #IMPLIED
+                value CDATA #IMPLIED
+                perScore CDATA #IMPLIED
+                mineralId CDATA #IMPLIED
+                optionId CDATA #IMPLIED>
+        <!ELEMENT ensoulModifier (ensoul)*>
+        <!ELEMENT ensoul (#PCDATA)>
+        <!ATTLIST ensoul
+                type (GS_NONE|GS_BASE|GS_NORMAL|GS_ANY_VARIATION|GS_VARIATION_BY_MINERAL_ID|GS_VARIATION_BY_OPTION_ID|GS_ANY_ENSOUL|GS_ANY_ENSOUL_BY_OPTION_ID|GS_BLESS|GS_HAS_SKILL|GS_HAS_ENCHANTED_SKILL) #IMPLIED
+                value CDATA #IMPLIED
+                perScore CDATA #IMPLIED
+                optionId CDATA #REQUIRED>
+        <!ELEMENT skillModifier (skill)*>
+        <!ELEMENT skill (#PCDATA)>
+        <!ATTLIST skill
+                value CDATA #IMPLIED
+                perScore CDATA #IMPLIED
+                level CDATA #IMPLIED
+                id CDATA #REQUIRED
+                fromLevel CDATA #IMPLIED
+                toLevel CDATA #IMPLIED>
+        <!ELEMENT item (enchantModifier|variationModifier|ensoulModifier|skillModifier)*>
+        <!ATTLIST item
+                id CDATA #REQUIRED
+                baseGearScore CDATA #REQUIRED>

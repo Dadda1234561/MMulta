@@ -1,0 +1,19 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--Noblesse, Soul Testing-->
+	<instance id="217" name="Eva's Hidden Space" maxChannels="20" collapseIfEmpty="1" timelimit="30" dispelBuffs="false">
+
+		<level min="100"/>
+		<return loc="111257 221071 -3550"/>
+		<teleport loc="-121680 -116556 -5777"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+		<quest id="10591"/>
+
+		<reuse resetReuse="* * * * *" setUponEntry="true" sharedReuseGroup="0"/>
+		 <spawns>
+			<group name="iz217_npc1614_01" spawned="true"/>
+		</spawns>
+	</instance>
+</list>

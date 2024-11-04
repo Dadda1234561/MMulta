@@ -1,0 +1,36 @@
+package l2s.gameserver.network.l2.c2s;
+
+import l2s.gameserver.model.Player;
+import l2s.gameserver.network.l2.s2c.ListMenteeWaitingPacket;
+
+/**
+ * Created with IntelliJ IDEA. User: Darvin Date: 02.07.12 Time: 0:48 Приходит при нажатии наставником кнопки "+" в окне учеников Ответом на пакет
+ * является {@link l2s.gameserver.network.l2.s2c.ListMenteeWaitingPacket}
+ */
+public class RequestMenteeWaitingList extends L2GameClientPacket
+{
+	private int maxLevel;
+	private int minLevel;
+	private int page;
+
+	@Override
+	protected boolean readImpl()
+	{
+		this.page = readD();
+		this.minLevel = readD();
+		this.maxLevel = readD();
+		return true;
+	}
+
+	@Override
+	protected void runImpl()
+	{
+		Player activeChar = getClient().getActiveChar();
+
+		if(activeChar == null)
+		{
+			return;
+		}
+		activeChar.sendPacket(new ListMenteeWaitingPacket(activeChar, this.page, this.minLevel, this.maxLevel));
+	}
+}

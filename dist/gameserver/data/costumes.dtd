@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT list (costume)*>
+
+<!ELEMENT costume (need_item | extract_fee)*>
+<!ATTLIST costume
+        id CDATA #REQUIRED
+        visual_item_id CDATA #REQUIRED
+        costume_skill CDATA #REQUIRED
+        evolution_need CDATA #REQUIRED
+        origin_type CDATA #REQUIRED
+        grade CDATA #REQUIRED>
+
+<!ELEMENT need_item (item)*>
+<!ELEMENT extract_fee (item)*>
+
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+        id CDATA #REQUIRED
+        count CDATA #REQUIRED>

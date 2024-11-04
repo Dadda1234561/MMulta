@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="35500" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +2483, P. Atk. +1%, P. Critical Damage +2%. -->
+		<set name="icon" value="icon.dyeeffect_or_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="2483" />
+			<mul stat="pAtk" value="1.01" />
+			<p_critical_damage value="2" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35501" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +2483, P. Atk. +1%, P. Skill Critical Damage +2%. -->
+		<set name="icon" value="icon.dyeeffect_ya_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="2483" />
+			<mul stat="pAtk" value="1.01" />
+			<p_skill_critical_damage value="2" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35502" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- M. Atk. +1309 and additionally +3%. -->
+		<set name="icon" value="icon.dyeeffect_fw_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAtk" value="1309" />
+			<mul stat="mAtk" value="1.03" />
+		</for>
+	</skill>
+	<skill id="35503" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +1199, M. Atk. +654, P./ M. Atk. +2%, P./ M. Skill Power +1%. -->
+		<set name="icon" value="icon.dyeeffect_ws_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="1199" />
+			<mul stat="pAtk" value="1.02" />
+			<add stat="mAtk" value="654" />
+			<mul stat="mAtk" value="1.02" />
+			<mul stat="p_skill_power" value="1.01"/>
+			<mul stat="mSkillPower" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="35504" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- M. Atk. +1168, M. Atk. +2%, M. Skill Critical Rate +5%, P./ M. Def. +1%. -->
+		<set name="icon" value="icon.dyeeffect_eh_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAtk" value="1168" />
+			<mul stat="mAtk" value="1.02" />
+			<mul stat="pDef" value="1.01" />
+			<mul stat="mDef" value="1.01" />
+			<add stat="baseMCritRate" value="5"/>
+		</for>
+	</skill>
+	<skill id="35505" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +2226. Additionally P. Atk. +3%. -->
+		<set name="icon" value="icon.dyeeffect_tw_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="2226" />
+			<mul stat="pAtk" value="1.03" />
+		</for>
+	</skill>
+	<skill id="35506" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +2226. Additionally P. Atk. +3%. -->
+		<set name="icon" value="icon.dyeeffect_tw_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="2226" />
+			<mul stat="pAtk" value="1.03" />
+		</for>
+	</skill>
+	<skill id="35507" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +2312, P. Atk. +2%, P. Critical Damage +1%. -->
+		<set name="icon" value="icon.dyeeffect_ie_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="2312" />
+			<mul stat="pAtk" value="1.02" />
+			<p_critical_damage value="1" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35508" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +2312, P. Atk. +2%, P. Critical Damage +1%. -->
+		<set name="icon" value="icon.dyeeffect_ie_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="2312" />
+			<mul stat="pAtk" value="1.02" />
+			<p_critical_damage value="1" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35509" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +2483, P. Atk. +1%, P. Critical Damage +2%. -->
+		<set name="icon" value="icon.dyeeffect_or_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="2483" />
+			<mul stat="pAtk" value="1.01" />
+			<p_critical_damage value="2" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35510" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +2226. Additionally P. Atk. +3%. -->
+		<set name="icon" value="icon.dyeeffect_tw_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="2226" />
+			<mul stat="pAtk" value="1.03" />
+		</for>
+	</skill>
+	<skill id="35511" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +2226. Additionally P. Atk. +3%. -->
+		<set name="icon" value="icon.dyeeffect_tw_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="2226" />
+			<mul stat="pAtk" value="1.03" />
+		</for>
+	</skill>
+	<skill id="35512" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- M. Atk. +1309 and additionally +3%. -->
+		<set name="icon" value="icon.dyeeffect_fw_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAtk" value="1309" />
+			<mul stat="mAtk" value="1.03" />
+		</for>
+	</skill>
+	<skill id="35513" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +2483, P. Atk. +1%, P. Skill Critical Damage +2%. -->
+		<set name="icon" value="icon.dyeeffect_ya_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="2483" />
+			<mul stat="pAtk" value="1.01" />
+			<p_skill_critical_damage value="2" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35514" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- P. Atk. +2226, P. Atk. +2%, P. Critical Damage +1%. -->
+		<set name="icon" value="icon.dyeeffect_gr_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="2226" />
+			<mul stat="pAtk" value="1.02" />
+			<p_critical_damage value="1" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35515" levels="1" name="Dye's Special Effect - Slot 3">
+		<!-- M. Atk. +1309 and additionally +2%, M. Skill Power +1%. -->
+		<set name="icon" value="icon.dyeeffect_ss_slot_03"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAtk" value="1309" />
+			<mul stat="mAtk" value="1.02" />
+			<mul stat="mSkillPower" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="35516" levels="1" name="PA Artifact - P. Atk.">
+	<!-- Физ. Атк. +4%. -->
+		<set name="icon" value="icon.artifact_a_pa"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.04"/>
+		</for>
+	</skill>
+	<skill id="35517" levels="1" name="PA Artifact - M. Atk.">
+	<!-- Маг. Атк. +4%. -->
+		<set name="icon" value="icon.artifact_a_ma"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.04"/>
+		</for>
+	</skill>
+	<skill id="35518" levels="1" name="PA Artifact - P. Def.">
+	<!-- Физ. Защ. +5%. -->
+		<set name="icon" value="icon.artifact_a_phy_def"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="35519" levels="1" name="PA Artifact - M. Def.">
+	<!-- Маг. Защ. +5%. -->
+		<set name="icon" value="icon.artifact_a_mag_def"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="35520" levels="1" name="Return of Soul">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35521" levels="1" name="Soul Scar - Zariche">
+		<set name="debuff" value="true"/>
+		<set name="icon" value="icon.skill4047"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35522" levels="1" name="Soul Scar - Akamanah">
+		<set name="debuff" value="true"/>
+		<set name="icon" value="icon.skill4047"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35523" levels="1" name="Ruler's Authority">
+		<set name="icon" value="icon.belt_rulers_authority"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35524" levels="6" name="Kaliel's Bracelet">
+		<!-- 
+			lvl 1 = Открывает ячейки для талисмана: 5 шт. ВЫН/ ДУХ +1.
+			lvl 2 = Открывает ячейки для талисмана: 5 шт. ВЫН/ ДУХ/ ЛВК/ МДР +1, Макс. HP +100.
+			lvl 3 = Открывает ячейки для талисмана: 5 шт. ВЫН/ ДУХ/ ЛВК/ МДР/ СИЛ/ ИНТ +1, Макс. HP +200.
+			lvl 4 = Открывает ячейки для талисмана: 5 шт. Все характеристики +1, Макс. HP +300.
+			lvl 5 = Открывает ячейки для талисмана: 5 шт. Все характеристики +1, Макс. HP +400.
+			lvl 6 = Открывает ячейки для талисмана: 5 шт. Все характеристики +1, Макс. HP +500.
+		-->
+		<set name="icon" value="icon.bm_kalie_rbracelet01"/>
+		<set name="operate_type" value="P"/>
+		<table name="#STR">0 0 1 1 1 1</table>
+		<table name="#DEX">0 1 1 1 1 1</table>
+		<table name="#CON">1 1 1 1 1 1</table>
+		<table name="#INT">0 0 1 1 1 1</table>
+		<table name="#WIT">0 1 1 1 1 1</table>
+		<table name="#MEN">1 1 1 1 1 1</table>
+		<table name="#LUC">0 0 0 1 1 1</table>
+		<table name="#CHA">0 0 0 1 1 1</table>
+		<table name="#maxHp">0 100 200 300 400 500</table>
+		<for>
+			<add stat="talismansLimit" value="5"/>
+			<add order="0x10" stat="STR" value="#STR"/>	<!-- СИЛ(STR) -->
+			<add order="0x10" stat="DEX" value="#DEX"/> <!-- ЛВК(DEX) -->
+			<add order="0x10" stat="CON" value="#CON"/> <!-- ВЫН(CON) -->
+			<add order="0x10" stat="INT" value="#INT"/> <!-- ИНТ(INT) -->
+			<add order="0x10" stat="WIT" value="#WIT"/> <!-- МДР(WIT) -->
+			<add order="0x10" stat="MEN" value="#MEN"/> <!-- ДУХ(MEN) -->
+			<add order="0x10" stat="LUC" value="#LUC"/> <!-- УДЧ(LUC) -->
+			<add order="0x10" stat="CHA" value="#CHA"/> <!-- ХАР(CHA) -->
+			<add stat="maxHp" value="#maxHp" />
+		</for>
+	</skill>
+	<skill id="35525" levels="6" name="Kaliel's Greater Bracelet">
+		<!-- 
+			lvl 1 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +500.
+			lvl 2 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +500, Физ./ Маг. Защ. +1%.
+			lvl 3 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +500, Физ./ Маг. Защ. +1%, Физ./ Маг. Атк. +1%.
+			lvl 4 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +500, Физ./ Маг. Защ. +2%, Физ./ Маг. Атк. +1%.
+			lvl 5 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +500, Физ./ Маг. Защ. +2%, Физ./ Маг. Атк. +2%.
+			lvl 6 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +500, Физ./ Маг. Защ. +3%, Физ./ Маг. Атк. +3%.
+		-->
+		<set name="icon" value="icon.bm_kalie_rbracelet02"/>
+		<set name="operate_type" value="P"/>
+		<table name="#STR">1 1 1 1 1 1</table>
+		<table name="#DEX">1 1 1 1 1 1</table>
+		<table name="#CON">1 1 1 1 1 1</table>
+		<table name="#INT">1 1 1 1 1 1</table>
+		<table name="#WIT">1 1 1 1 1 1</table>
+		<table name="#MEN">1 1 1 1 1 1</table>
+		<table name="#LUC">1 1 1 1 1 1</table>
+		<table name="#CHA">1 1 1 1 1 1</table>
+		<table name="#maxHp">500 500 500 500 500 500</table>
+		<table name="#Def">1 1.01 1.01 1.02 1.02 1.03</table>
+		<table name="#Atk">1 1 1.01 1.01 1.02 1.03</table>
+		<for>
+			<add stat="talismansLimit" value="6"/>
+			<add order="0x10" stat="STR" value="#STR"/>	<!-- СИЛ(STR) -->
+			<add order="0x10" stat="DEX" value="#DEX"/> <!-- ЛВК(DEX) -->
+			<add order="0x10" stat="CON" value="#CON"/> <!-- ВЫН(CON) -->
+			<add order="0x10" stat="INT" value="#INT"/> <!-- ИНТ(INT) -->
+			<add order="0x10" stat="WIT" value="#WIT"/> <!-- МДР(WIT) -->
+			<add order="0x10" stat="MEN" value="#MEN"/> <!-- ДУХ(MEN) -->
+			<add order="0x10" stat="LUC" value="#LUC"/> <!-- УДЧ(LUC) -->
+			<add order="0x10" stat="CHA" value="#CHA"/> <!-- ХАР(CHA) -->
+			<add stat="maxHp" value="#maxHp" />
+			<mul stat="pDef" value="#Def" />
+			<mul stat="mDef" value="#Def" />
+			<mul stat="pAtk" value="#Atk"/>
+			<mul stat="mAtk" value="#Atk"/>
+		</for>
+	</skill>
+	<skill id="35526" levels="11" name="Superior Kaliel's Bracelet">
+		<!-- 
+			lvl 1 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +1000, Физ./ Маг. Защ. +3%, Физ./ Маг. Атк. +3%.
+			lvl 2 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +1000, Физ./ Маг. Защ. +4%, Физ./ Маг. Атк. +3%.
+			lvl 3 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +1000, Физ./ Маг. Защ. +4%, Физ./ Маг. Атк. +4%.
+			lvl 4 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +1000, Физ./ Маг. Защ. +5%, Физ./ Маг. Атк. +5%.
+			lvl 5 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +1000, Физ./ Маг. Защ. +6%, Физ./ Маг. Атк. +6%.
+			lvl 6 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +1000, Физ./ Маг. Защ. +7%, Физ./ Маг. Атк. +7%. При нанесении урона персонажу каждые 40 мин. на 15 сек. создает защитный барьер, поглощающий 75000 урона.
+			lvl 7 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +1000, Физ./ Маг. Защ. +8%, Физ./ Маг. Атк. +7%. При нанесении урона персонажу каждые 35 мин. на 15 сек. создает защитный барьер, поглощающий 75000 урона.
+			lvl 8 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +1000, Физ./ Маг. Защ. +8%, Физ./ Маг. Атк. +8%. При нанесении урона персонажу каждые 30 мин. на 15 сек. создает защитный барьер, поглощающий 75000 урона.
+			lvl 9 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +1000, Физ./ Маг. Защ. +9%, Физ./ Маг. Атк. +8%. При нанесении урона персонажу каждые 20 мин. на 15 сек. создает защитный барьер, поглощающий 75000 урона.
+			lvl 10 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +1000, Физ./ Маг. Защ. +9%, Физ./ Маг. Атк. +9%. При нанесении урона персонажу каждые 15 мин. на 15 сек. создает защитный барьер, поглощающий 75000 урона.
+			lvl 11 = Открывает ячейки для талисмана: 6 шт. Все характеристики +1, Макс. HP +1000, Физ./ Маг. Защ. +10%, Физ./ Маг. Атк. +10%. При нанесении урона персонажу каждые 5 мин. на 15 сек. создает защитный барьер, поглощающий 75000 урона.
+		-->
+		<set name="icon" value="icon.bm_kalie_rbracelet03"/>
+		<set name="operate_type" value="P"/>
+		<table name="#STR">1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#DEX">1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#CON">1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#INT">1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#WIT">1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#MEN">1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#LUC">1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#CHA">1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#maxHp">1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000</table>
+		<table name="#Def">1.03 1.04 1.04 1.05 1.06 1.07 1.08 1.08 1.09 1.09 1.10</table>
+		<table name="#Atk">1.03 1.03 1.04 1.05 1.06 1.07 1.07 1.08 1.08 1.09 1.10</table>
+		<table name="#triggerLevel">0 0 0 0 0 1 2 3 4 5 6</table>
+		<triggers>
+			<trigger id="30818" level="#triggerLevel" type="RECEIVE_DAMAGE" chance="100">
+				<player damage="1;0"/>
+			</trigger>
+		</triggers>
+		<for>
+			<add stat="talismansLimit" value="6"/>
+			<add order="0x10" stat="STR" value="#STR"/>	<!-- СИЛ(STR) -->
+			<add order="0x10" stat="DEX" value="#DEX"/> <!-- ЛВК(DEX) -->
+			<add order="0x10" stat="CON" value="#CON"/> <!-- ВЫН(CON) -->
+			<add order="0x10" stat="INT" value="#INT"/> <!-- ИНТ(INT) -->
+			<add order="0x10" stat="WIT" value="#WIT"/> <!-- МДР(WIT) -->
+			<add order="0x10" stat="MEN" value="#MEN"/> <!-- ДУХ(MEN) -->
+			<add order="0x10" stat="LUC" value="#LUC"/> <!-- УДЧ(LUC) -->
+			<add order="0x10" stat="CHA" value="#CHA"/> <!-- ХАР(CHA) -->
+			<add stat="maxHp" value="#maxHp" />
+			<mul stat="pDef" value="#Def" />
+			<mul stat="mDef" value="#Def" />
+			<mul stat="pAtk" value="#Atk"/>
+			<mul stat="mAtk" value="#Atk"/>
+		</for>
+	</skill>
+	<skill id="35527" levels="1" name="Enchant Scroll: PA Challenge">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35528" levels="1" name="+10 Agathion Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35529" levels="1" name="Bloodstained Zariche - Warrior">
+		<set name="icon" value="icon.zariche_cutter_2"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35530" levels="1" name="Bloodstained Zariche - Wizard">
+		<set name="icon" value="icon.zariche_twohand_magic_blunt_2"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35531" levels="1" name="Bloodstained Akamanah - Warrior">
+		<set name="icon" value="icon.aka_manaf_cutter_2"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35532" levels="1" name="Bloodstained Akamanah - Wizard">
+		<set name="icon" value="icon.aka_manaf_twohand_magic_blunt_2"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35533" levels="1" name="Soul's Insanity - Zariche">
+		<set name="icon" value="icon.madness_zariche1"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="300"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35534" levels="1" name="Soul's Confinement - Zariche">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.imprison_zariche1"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35535" levels="1" name="Soul's Release - Zariche">
+		<set name="debuff" value="true"/>
+		<set name="icon" value="icon.relieve_zariche1"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="300"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35536" levels="1" name="Soul's Insanity - Akamanah">
+		<set name="icon" value="icon.madness_aka_manaf1"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="300"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35537" levels="1" name="Soul's Confinement - Akamanah">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.imprison_aka_manaf1"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35538" levels="1" name="Soul's Release - Akamanah">
+		<set name="debuff" value="true"/>
+		<set name="icon" value="icon.relieve_aka_manaf1"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="300"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35539" levels="1" name="Summon Greater Agathion Virgo">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35540" levels="1" name="Summon Enhanced Capricorn Agathion">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35541" levels="1" name="Summon Enhanced Libra Agathion">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35542" levels="1" name="Summon Enhanced Aries Agathion">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35543" levels="1" name="Summon Enhanced Taurus Agathion">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35544" levels="1" name="Summon Enhanced Leo Agathion">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35545" levels="1" name="Summon Enhanced Gemini Agathion">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35546" levels="1" name="Summon Enhanced Scorpion Agathion">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35547" levels="1" name="Summon Enhanced Aquarius Agathion">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35548" levels="1" name="Summon Enhanced Pisces Agathion">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35549" levels="1" name="Summon Enhanced Sagittarius Agathion">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35550" levels="1" name="Summon Enhanced Cancer Agathion">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35551" levels="1" name="Greater Zodiac Agathion's Book of Growth">
+		<set name="icon" value="icon.star_scrl_of_ench_ag"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35552" levels="1" name="Heavenly Talisman">
+		<set name="icon" value="icon.accessory_heaven_talisman"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="MUSIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="-1"/>
+		<set name="abnormal_effect" value="SEED_TALISMAN8"/>
+		<set name="abnormal_type" value="seed_talisman1"/>
+		<set name="abnormal_level" value="7"/>
+		<set name="isHideStartMessage" value="true"/>
+		<set name="isHideUseMessage" value="true"/>
+		<set name="apply_effects_on_summon" value="false"/>
+		<set name="apply_effects_on_pet" value="false"/>
+		<set name="isSelfDispellable" value="false"/>
+		<for>
+			<effect/>
+		</for>
+	</skill>
+	<skill id="35553" levels="1" name="Remove Heavenly Talisman">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.accessory_heaven_talisman"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35554" levels="1" name="Bloodstained Talisman of Protection">
+		<set name="icon" value="icon.cursed_defend_talisman_lv1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35555" levels="1" name="Blessing of Blessed Adventurer - Combat">
+		<set name="icon" value="icon.skill6319"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35556" levels="1" name="Blessing of Blessed Adventurer - Combat">
+		<set name="icon" value="icon.skill6319"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35557" levels="1" name="Blessing of Blessed Adventurer - Magic">
+		<set name="icon" value="icon.skill6319"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35558" levels="1" name="Blessing of Blessed Adventurer - Magic">
+		<set name="icon" value="icon.skill6319"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35559" levels="1" name="Blessed Adventurer's Heavy Armor Set">
+		<set name="icon" value="icon.m_class_heavy"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35560" levels="1" name="Blessed Adventurer's Light Armor Set">
+		<set name="icon" value="icon.m_class_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35561" levels="1" name="Blessed Adventurer's Robe">
+		<set name="icon" value="icon.m_class_robe"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35562" levels="1" name="Blessed Adventurer's Necklace - Cooldown">
+		<set name="icon" value="icon.skill5239"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35563" levels="1" name="Blessed Adventurer's Earring - MP Consumption">
+		<set name="icon" value="icon.skill1397"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35564" levels="1" name="Blessed Adventurer's Earring - Vampiric Rage">
+		<set name="icon" value="icon.skill1268"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35565" levels="1" name="Blessed Adventurer's Ring - Critical Rate">
+		<set name="icon" value="icon.skill0137"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35566" levels="1" name="Blessed Adventurer's Ring - Critical Damage">
+		<set name="icon" value="icon.skill0531"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35567" levels="10" name="Dye (P. Atk.)">
+		<set name="icon" value="icon.bm_dye_physical_hena_1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35568" levels="10" name="Dye (Standard Attack Critical Damage)">
+		<set name="icon" value="icon.bm_dye_physical_hena_2"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35569" levels="10" name="Dye (P. Skill Critical Damage)">
+		<set name="icon" value="icon.bm_dye_physical_hena_3"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35570" levels="10" name="Dye (P. Skill Power)">
+		<set name="icon" value="icon.bm_dye_physical_hena_4"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35571" levels="10" name="Dye (M. Atk.)">
+		<set name="icon" value="icon.bm_dye_magic_hena_1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35572" levels="10" name="Dye (M. Critical Damage)">
+		<set name="icon" value="icon.bm_dye_magic_hena_2"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35573" levels="10" name="Dye (M. Skill Power)">
+		<set name="icon" value="icon.bm_dye_magic_hena_3"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35574" levels="4" name="Dragon Augmentation - P. Atk.">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35575" levels="4" name="Dragon Augmentation - P. Def.">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35576" levels="4" name="Dragon Augmentation - Standard Attack Critical Damage">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35577" levels="4" name="Dragon Augmentation - P. Skill Critical Damage">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35578" levels="4" name="Dragon Augmentation - M. Skill Critical Damage">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35579" levels="4" name="Dragon Augmentation - M. Atk.">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35580" levels="4" name="Dragon Augmentation - M. Def.">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35581" levels="4" name="Dragon Augmentation - P. Skill Power">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35582" levels="4" name="Dragon Augmentation - M. Skill Power">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35583" levels="4" name="Dragon Augmentation - Damage">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35584" levels="4" name="Dragon Augmentation - Received Damage">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35585" levels="4" name="Dragon Augmentation - Damage When Immobilized">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35586" levels="4" name="Dragon Augmentation - Received Damage When Immobilized">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35587" levels="3" name="Dragon Augmentation - All Stats">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35588" levels="5" name="Dragon Augmentation - Attribute Attack">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35589" levels="5" name="Dragon Augmentation - Attribute Resistance">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35590" levels="5" name="Dragon Augmentation - Standard Attack Critical Damage Increase">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35591" levels="5" name="Dragon Augmentation - P. Skill Critical Damage">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35592" levels="5" name="Dragon Augmentation - M. Skill Critical Damage">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35593" levels="5" name="Dragon Augmentation - P. Def.">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35594" levels="5" name="Dragon Augmentation - M. Def.">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35595" levels="5" name="Dragon Augmentation - Ranged Attack Resistance">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35596" levels="5" name="Dragon Augmentation - Dagger/ Dual Dagger Attack Resistance">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35597" levels="5" name="Dragon Augmentation - Sword/ Dual Sword Attack Resistance">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35598" levels="5" name="Dragon Augmentation - Debuff Resistance">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35599" levels="5" name="Dragon Augmentation - Received Healing">
+		<set name="icon" value="icon.renewal_mineral_dragon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+</list>

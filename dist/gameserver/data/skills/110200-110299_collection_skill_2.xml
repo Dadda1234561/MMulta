@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+    <skill id="110200" levels="1" name="Физическая Атака +6%">
+        <table name="#pmAtk">1.06</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#pmAtk"/>
+        </for>
+    </skill>
+    <skill id="110201" levels="1" name="Магическая Атака +9%">
+        <table name="#pmAtk">1.09</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mAtk" value="#pmAtk"/>
+        </for>
+    </skill>
+    <skill id="110202" levels="1" name="Физическая Атака +7%">
+        <table name="#pmAtk">1.07</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#pmAtk"/>
+        </for>
+    </skill>
+    <skill id="110203" levels="1" name="Магическая Атака +10.5%">
+        <table name="#pmAtk">1.105</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mAtk" value="#pmAtk"/>
+        </for>
+    </skill>
+    <skill id="110204" levels="1" name="Физическая Атака +8%">
+        <table name="#pmAtk">1.08</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#pmAtk"/>
+        </for>
+    </skill>
+    <skill id="110205" levels="1" name="Магическая Атака +12%">
+        <table name="#pmAtk">1.12</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mAtk" value="#pmAtk"/>
+        </for>
+    </skill>
+    <skill id="110206" levels="1" name="Физическая Атака +10%">
+        <table name="#pmAtk">1.10</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#pmAtk"/>
+        </for>
+    </skill>
+    <skill id="110207" levels="1" name="Магическая Атака +15%">
+        <table name="#pmAtk">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mAtk" value="#pmAtk"/>
+        </for>
+    </skill>
+    <skill id="110208" levels="1" name="Урон от Зарядов Души и Духа +2%">
+        <table name="#soulDamage">1.02</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="spiritshot_power" value="#soulDamage"/>
+            <mul stat="soulshot_power" value="#soulDamage"/>
+        </for>
+    </skill>
+    <skill id="110209" levels="1" name="Урон от Зарядов Души и Духа +3%">
+        <table name="#soulDamage">1.03</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="spiritshot_power" value="#soulDamage"/>
+            <mul stat="soulshot_power" value="#soulDamage"/>
+        </for>
+    </skill>
+    <skill id="110210" levels="1" name="Урон от Зарядов Души и Духа +5%">
+        <table name="#soulDamage">1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="spiritshot_power" value="#soulDamage"/>
+            <mul stat="soulshot_power" value="#soulDamage"/>
+        </for>
+    </skill>
+    <skill id="110211" levels="1" name="PvE Атака +7.5%">
+        <table name="#pveAtk">1.075</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvePhysDmgBonus" value="#pveAtk"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#pveAtk"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#pveAtk"/>
+        </for>
+    </skill>
+    <skill id="110212" levels="1" name="PvP Атака +10%">
+        <table name="#pvpAtk">1.10</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvePhysDmgBonus" value="#pvpAtk"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#pvpAtk"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#pvpAtk"/>
+        </for>
+    </skill>
+
+    <skill id="110213" levels="1" name="Физическая Защита +6%">
+        <table name="#defense">1.06</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#defense"/>
+        </for>
+    </skill>
+    <skill id="110214" levels="1" name="Физическая Защита +7%">
+        <table name="#defense">1.07</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#defense"/>
+        </for>
+    </skill>
+    <skill id="110215" levels="1" name="Физическая Защита +8%">
+        <table name="#defense">1.08</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#defense"/>
+        </for>
+    </skill>
+    <skill id="110216" levels="1" name="Физическая Защита +10%">
+        <table name="#defense">1.10</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#defense"/>
+        </for>
+    </skill>
+    <skill id="110217" levels="1" name="HP/MP/CP +3%">
+        <table name="#hpMpCp">1.03</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="maxHp" value="#hpMpCp"/>
+            <mul stat="maxCp" value="#hpMpCp"/>
+            <mul stat="maxMp" value="#hpMpCp"/>
+        </for>
+    </skill>
+    <skill id="110218" levels="1" name="PvP Защита +5%">
+        <table name="#pvpDefense">1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvpPhysDefenceBonus" value="#pvpDefense"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#pvpDefense"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#pvpDefense"/>
+        </for>
+    </skill>
+    <skill id="110219" levels="1" name="PvE Защита +5%">
+        <table name="#pveDefense">1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvePhysDefenceBonus" value="#pveDefense"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#pveDefense"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#pveDefense"/>
+        </for>
+    </skill>
+    <skill id="110220" levels="1" name="Получаемый Урон -5%">
+        <table name="#damageReceived">0.95</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="receive_p_damage_power" value="#damageReceived"/>
+            <mul stat="receive_m_damage_power" value="#damageReceived"/>
+        </for>
+    </skill>
+
+
+
+
+
+    <skill id="110221" levels="1" name="PvE Атака +2% / PvP Урон +3%">
+        <table name="#pveAttack">1.02</table>
+        <table name="#pvpDamage">1.03</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvpPhysDefenceBonus" value="#pvpDamage"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#pvpDamage"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#pvpDamage"/>
+            <mul stat="pvePhysDefenceBonus" value="#pveAttack"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#pveAttack"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#pveAttack"/>
+        </for>
+    </skill>
+    <skill id="110222" levels="1" name="PvE Атака +3% / PvP Урон +5%">
+        <table name="#pveAttack">1.03</table>
+        <table name="#pvpDamage">1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvpPhysDefenceBonus" value="#pvpDamage"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#pvpDamage"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#pvpDamage"/>
+            <mul stat="pvePhysDefenceBonus" value="#pveAttack"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#pveAttack"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#pveAttack"/>
+        </for>
+    </skill>
+    <skill id="110223" levels="1" name="PvE Атака +5% / PvP Урон +7%">
+        <table name="#pveAttack">1.05</table>
+        <table name="#pvpDamage">1.07</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvpPhysDefenceBonus" value="#pvpDamage"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#pvpDamage"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#pvpDamage"/>
+            <mul stat="pvePhysDefenceBonus" value="#pveAttack"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#pveAttack"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#pveAttack"/>
+        </for>
+    </skill>
+    <skill id="110224" levels="1" name="Урон по Рейд Боссам +5% / EXP +15%">
+        <table name="#raidBossDamage">1.05</table>
+        <table name="#expBonus">0.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="raid_boss_damage" value="#raidBossDamage"/>
+            <mul stat="exp_rate_multiplier" value="#expBonus"/>
+        </for>
+    </skill>
+    <skill id="110225" levels="1" name="Сила Крит. Атк +15%">
+        <table name="#critAttackPower">15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <p_critical_damage value="#critAttackPower" type="PER"/>
+        </for>
+    </skill>
+    <skill id="110226" levels="1" name="PvP/PvE Защита +7%">
+        <table name="#defense">1.07</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvpPhysDefenceBonus" value="#defense"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#defense"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#defense"/>
+            <mul stat="pvePhysDefenceBonus" value="#defense"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#defense"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#defense"/>
+        </for>
+    </skill>
+    <skill id="110227" levels="1" name="Физическая Атака +5% / Магическая Атака +7.5%">
+        <table name="#physicalAttack">1.05</table>
+        <table name="#magicAttack">1.075</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#physicalAttack"/>
+            <mul stat="mAtk" value="#magicAttack"/>
+        </for>
+    </skill>
+    <skill id="110228" levels="1" name="PvE Атака +5%">
+        <table name="#pveAttack">1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvePhysDmgBonus" value="#pveAttack"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#pveAttack"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#pveAttack"/>
+        </for>
+    </skill>
+    <skill id="110229" levels="1" name="STR/INT +3">
+        <table name="#strIntBonus">3</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="STR" value="#strIntBonus"/>
+            <mul stat="INT" value="#strIntBonus"/>
+        </for>
+    </skill>
+    <skill id="110230" levels="1" name="WIT/DEX +3">
+        <table name="#witDexBonus">3</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="WIT" value="#witDexBonus"/>
+            <mul stat="DEX" value="#witDexBonus"/>
+        </for>
+    </skill>
+    <skill id="110231" levels="1" name="CON/MEN +3">
+        <table name="#conMenBonus">3</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="CON" value="#conMenBonus"/>
+            <mul stat="MEN" value="#conMenBonus"/>
+        </for>
+    </skill>
+    <skill id="110232" levels="1" name="Все основные характеристики +3">
+        <table name="#allStatsBonus">3</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="STR" value="#allStatsBonus"/>
+            <mul stat="DEX" value="#allStatsBonus"/>
+            <mul stat="CON" value="#allStatsBonus"/>
+            <mul stat="INT" value="#allStatsBonus"/>
+            <mul stat="WIT" value="#allStatsBonus"/>
+            <mul stat="MEN" value="#allStatsBonus"/>
+        </for>
+    </skill>
+    <skill id="110233" levels="1" name="Урон от Зарядов Души и Духа +5%">
+        <table name="#soulSpiritDamage">1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="soulshot_power" value="#soulSpiritDamage"/>
+            <mul stat="spiritshot_power" value="#soulSpiritDamage"/>
+        </for>
+    </skill>
+    <skill id="110234" levels="1" name="EXP +20%">
+        <table name="#expBonus">0.20</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="exp_rate_multiplier" value="#expBonus"/>
+        </for>
+    </skill>
+    <skill id="110235" levels="1" name="HP/MP/CP +5% / Физ/Маг Защита +5% / Сила Крит. Атк +20%">
+        <table name="#hpMpCpBonus">1.05</table>
+        <table name="#defenseBonus">1.05</table>
+        <table name="#critAttackPowerBonus">20</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="maxHp" value="#hpMpCpBonus"/>
+            <mul stat="maxMp" value="#hpMpCpBonus"/>
+            <mul stat="maxCp" value="#hpMpCpBonus"/>
+            <mul stat="pDef" value="#defenseBonus"/>
+            <mul stat="mDef" value="#defenseBonus"/>
+            <p_critical_damage value="#critAttackPowerBonus" type="PER"/>
+        </for>
+    </skill>
+    <skill id="110236" levels="1" name="STR/INT +2 / Физ/Маг Защита +5%">
+        <table name="#strIntBonus">2</table>
+        <table name="#defenseBonus">1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="STR" value="#strIntBonus"/>
+            <mul stat="INT" value="#strIntBonus"/>
+            <mul stat="pDef" value="#defenseBonus"/>
+            <mul stat="mDef" value="#defenseBonus"/>
+        </for>
+    </skill>
+    <skill id="110237" levels="1" name="HP/MP/CP +5%">
+        <table name="#hpMpCpBonus">1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="maxHp" value="#hpMpCpBonus"/>
+            <mul stat="maxMp" value="#hpMpCpBonus"/>
+            <mul stat="maxCp" value="#hpMpCpBonus"/>
+        </for>
+    </skill>
+    <skill id="110238" levels="1" name="Физическая Атака +2% / Магическая Атака +3%">
+        <table name="#physicalAttack">1.02</table>
+        <table name="#magicAttack">1.03</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#physicalAttack"/>
+            <mul stat="mAtk" value="#magicAttack"/>
+        </for>
+    </skill>
+    <skill id="110239" levels="1" name="Физическая Атака +3% / Магическая Атака +4.5%">
+        <table name="#physicalAttack">1.03</table>
+        <table name="#magicAttack">1.045</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#physicalAttack"/>
+            <mul stat="mAtk" value="#magicAttack"/>
+        </for>
+    </skill>
+    <skill id="110240" levels="1" name="Физическая/Магическая Защита +3%">
+        <table name="#defense">1.03</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#defense"/>
+            <mul stat="mDef" value="#defense"/>
+        </for>
+    </skill>
+    <skill id="110241" levels="1" name="Физическая/Магическая Защита +5%">
+        <table name="#defense">1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#defense"/>
+            <mul stat="mDef" value="#defense"/>
+        </for>
+    </skill>
+    <skill id="110242" levels="1" name="HP/MP/CP +3%">
+        <table name="#hpMpCpBonus">1.03</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="maxHp" value="#hpMpCpBonus"/>
+            <mul stat="maxMp" value="#hpMpCpBonus"/>
+            <mul stat="maxCp" value="#hpMpCpBonus"/>
+        </for>
+    </skill>
+    <skill id="110243" levels="1" name="HP/MP/CP +5%">
+        <table name="#hpMpCpBonus">1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="maxHp" value="#hpMpCpBonus"/>
+            <mul stat="maxMp" value="#hpMpCpBonus"/>
+            <mul stat="maxCp" value="#hpMpCpBonus"/>
+        </for>
+    </skill>
+    <skill id="110244" levels="1" name="Drop Adena +3%">
+        <table name="#dropAdena">0.03</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="adena_rate_multiplier" value="#dropAdena"/>
+        </for>
+    </skill>
+    <skill id="110245" levels="1" name="Drop Adena +7%">
+        <table name="#dropAdena">0.07</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="adena_rate_multiplier" value="#dropAdena"/>
+        </for>
+    </skill>
+</list>

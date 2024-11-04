@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+    <skill id="31051" levels="3" name="Могущество Берсерка">
+        <set name="icon" value="icon.skill31051"/>
+        <table name="#pAtk">1.01 1.02 1.03</table>
+        <table name="#mAtk">1.01 1.03 1.045</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#pAtk"/>
+            <mul stat="mAtk" value="#mAtk"/>
+        </for>
+    </skill>
+
+    <skill id="31052" levels="3" name="Стихийная Атака Берсерка">
+        <table name="#ElementalAttack">10 20 40</table>
+        <set name="icon" value="icon.skill31052"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="attackFire" value="#ElementalAttack"/>
+            <add stat="attackWater" value="#ElementalAttack"/>
+            <add stat="attackEarth" value="#ElementalAttack"/>
+            <add stat="attackUnholy" value="#ElementalAttack"/>
+            <add stat="attackHoly" value="#ElementalAttack"/>
+            <add stat="attackWind" value="#ElementalAttack"/>
+        </for>
+    </skill>
+
+    <skill id="31053" levels="2" name="Атака Хаоса Берсерка"> <!-- Вампиризм + 3%, 5%. -->
+        <set name="icon" value="icon.skill31053"/>
+        <table name="#p_heal_effect_per">3 5</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <p_vampiric_attack value="#p_heal_effect_per" chance="30"/>
+        </for>
+    </skill>
+
+    <skill id="31054" levels="3" name="Концентрация Берсерка"> <!-- Cкорость Бега 10/20/30. -->
+        <set name="icon" value="icon.skill31054"/>
+        <table name="#TabrunSpd">10 20 30</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="runSpd" value="#TabrunSpd"/>
+        </for>
+    </skill>
+
+    <skill id="31055" levels="2" name="Искусство Фокусировки Берсерка">
+        <set name="icon" value="icon.skill31055"/>
+        <table name="#CritRate">20 50</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="basePCritRate" value="#CritRate"/>
+            <add stat="baseMCritRate" value="#CritRate"/>
+        </for>
+    </skill>
+
+    <skill id="31056" levels="3" name="Развитие Берсерка"> <!-- Сила +1/2 -->
+        <set name="icon" value="icon.skill31056"/>
+        <table name="#STAT">1 2 3</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add order="0x10" stat="STR" value="#STAT"/>
+            <add order="0x10" stat="INT" value="#STAT"/>
+        </for>
+    </skill>
+
+    <skill id="31057" levels="2" name="Фокусировка Берсерка"> <!-- Физический PvE Урон +3/5% -->
+        <table name="#PVEdmg">1.03 1.05</table>
+        <set name="icon" value="icon.skill31057"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvePhysDmgBonus" value="#PVEdmg"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PVEdmg"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PVEdmg"/>
+        </for>
+    </skill>
+
+    <skill id="31058" levels="3" name="Искусство Смерти Берсерка"> <!-- Сила Физ.Крит.Атк / +3/6/10% -->
+        <set name="icon" value="icon.skill31058"/>
+        <table name="#pm_critical_damage">1 3 5</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <p_critical_damage value="#pm_critical_damage" type="PER"/>
+            <p_magic_critical_dmg value="#pm_critical_damage" type="PER"/>
+        </for>
+    </skill>
+
+    <skill id="31059" levels="2" name="Кровотечение Берсерка"> <!-- Все характеристики +1/2 -->
+        <set name="icon" value="icon.skill31059"/>
+        <table name="#STAT">1 2</table>
+        <set name="icon" value="icon.skill31104"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add order="0x10" stat="STR" value="#STAT"/>
+            <add order="0x10" stat="INT" value="#STAT"/>
+            <add order="0x10" stat="DEX" value="#STAT"/>
+            <add order="0x10" stat="WIT" value="#STAT"/>
+            <add order="0x10" stat="CON" value="#STAT"/>
+            <add order="0x10" stat="MEN" value="#STAT"/>
+            <add order="0x10" stat="CHA" value="#STAT"/>
+            <add order="0x10" stat="LUC" value="#STAT"/>
+        </for>
+    </skill>
+
+    <skill id="31060" levels="3" name="Шепот Смерти Берсерка">
+        <set name="icon" value="icon.skill31060"/>
+        <table name="#pm_critical_damage">1 3 5</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <p_critical_damage value="#pm_critical_damage" type="PER"/>
+            <p_magic_critical_dmg value="#pm_critical_damage" type="PER"/>
+        </for>
+    </skill>
+
+    <skill id="31061" levels="1" name="Слепая Атака Берсерка"> <!-- Урон от зарядов Души +10%. -->
+        <set name="icon" value="icon.skill31061"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="soulshot_power" value="1.1"/>
+            <mul stat="spiritshot_power" value="1.1"/>
+        </for>
+    </skill>
+
+    <skill id="31062" levels="4" name="Искусство Силы Берсерка"> <!-- Физическая Атака 2/3/4/5% -->
+        <set name="icon" value="icon.skill31062"/>
+        <table name="#pAtk">1.02 1.03 1.04 1.05</table>
+        <table name="#mAtk">1.03 1.045 1.06 1.075</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#pAtk"/>
+            <mul stat="mAtk" value="#mAtk"/>
+        </for>
+    </skill>
+
+    <skill id="31063" levels="2" name="Сноровка Берсерка">  <!-- Физическая Точность + 5/10. -->
+        <set name="icon" value="icon.skill31063"/>
+        <table name="#evs">3 5</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="pAccCombat" value="#evs"/>
+            <add stat="mAccCombat" value="#evs"/>
+        </for>
+    </skill>
+
+    <skill id="31064" levels="4" name="Сила Берсерка"> <!-- хз -->
+        <set name="icon" value="icon.skill31064"/>
+        <table name="#11">1.05 1.07 1.1 1.15</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="raid_boss_damage" value="#11"/>
+        </for>
+    </skill>
+
+    <skill id="31065" levels="3" name="Сдерживающая Атака Берсерка"> <!-- Физический PvP Урон +3/5/10% -->
+        <set name="icon" value="icon.skill31065"/>
+        <table name="#PVPdmg">1.03 1.07 1.1</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvpPhysDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="#PVPdmg"/>
+        </for>
+    </skill>
+
+    <skill id="31066" levels="3" name="Рвение Берсерка"> <!-- Физическая Атака +8/9/10%. -->
+        <set name="icon" value="icon.skill31066"/>
+        <table name="#pAtk">1.06 1.08 1.1</table>
+        <table name="#power">1.1 1.2 1.3</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#pAtk"/>
+            <mul stat="mSkillPower" value="#power"/>
+        </for>
+    </skill>
+
+    <skill id="31067" levels="4" name="Природная Атака Берсерка">
+        <set name="icon" value="icon.skill31067"/>
+        <table name="#ElementalAttack">50 100 110 120</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="attackFire" value="#ElementalAttack"/>
+            <add stat="attackWater" value="#ElementalAttack"/>
+            <add stat="attackEarth" value="#ElementalAttack"/>
+            <add stat="attackUnholy" value="#ElementalAttack"/>
+            <add stat="attackHoly" value="#ElementalAttack"/>
+            <add stat="attackWind" value="#ElementalAttack"/>
+        </for>
+    </skill>
+
+    <skill id="31068" levels="3" name="Кровавый Бой Берсерка"> <!-- Физический Урон PvE +5%, 7%, 10%. -->
+        <set name="icon" value="icon.skill31068"/>
+        <table name="#PVEdmg">1.05 1.07 1.1</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvePhysDmgBonus" value="#PVEdmg"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PVEdmg"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PVEdmg"/>
+        </for>
+    </skill>
+
+    <skill id="31069" levels="3" name="Темный Бой Берсерка"> <!-- Физический Урон в PvP +5/10/15%. -->
+        <set name="icon" value="icon.skill31069"/>
+        <table name="#PVPdmg">1.05 1.07 1.10</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvpPhysDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="#PVPdmg"/>
+
+        </for>
+    </skill>
+
+    <skill id="31070" levels="3" name="Боевое Мастерство Берсерка"> <!-- Сила Физического Крита +10/12/15%. -->
+        <set name="icon" value="icon.skill31070"/>
+        <table name="#pm_critical_damage">5 7 10</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <p_critical_damage value="#pm_critical_damage" type="PER"/>
+            <p_magic_critical_dmg value="#pm_critical_damage" type="PER"/>
+        </for>
+    </skill>
+
+    <skill id="31071" levels="3" name="Щит Стражника">
+        <set name="icon" value="icon.skill31071"/>
+        <table name="#pDef">1.02 1.04 1.06</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#pDef"/>
+        </for>
+    </skill>
+
+    <skill id="31072" levels="3" name="Магический Барьер Стражника">
+        <set name="icon" value="icon.skill31072"/>
+        <table name="#mDef">1.02 1.04 1.06</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mDef" value="#mDef"/>
+        </for>
+    </skill>
+
+    <skill id="31073" levels="3" name="Стихийная Защита Стражника">
+        <set name="icon" value="icon.skill31073"/>
+        <table name="#power">10 20 40</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="defenceFire" value="#power"/>
+            <add stat="defenceWater" value="#power"/>
+            <add stat="defenceWind" value="#power"/>
+            <add stat="defenceEarth" value="#power"/>
+            <add stat="defenceHoly" value="#power"/>
+            <add stat="defenceUnholy" value="#power"/>
+        </for>
+    </skill>
+
+    <skill id="31074" levels="4" name="Повышение Здоровья Стражника">
+        <table name="#maxHp">1.03 1.06 1.09 1.12</table>
+        <set name="icon" value="icon.skill1045"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="maxHp" value="#maxHp"/>
+        </for>
+    </skill>
+
+    <skill id="31075" levels="1" name="Мастерство Блока Стражника">
+        <set name="icon" value="icon.skill31075"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="sDef" value="2.0"/>
+        </for>
+    </skill>
+
+    <skill id="31076" levels="3" name="Развитие Стражника">
+        <set name="icon" value="icon.skill31076"/>
+        <table name="#STAT">1 2 3</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add order="0x10" stat="CON" value="#STAT"/>
+            <add order="0x10" stat="MEN" value="#STAT"/>
+            <add order="0x10" stat="CHA" value="#STAT"/>
+        </for>
+    </skill>
+
+    <skill id="31077" levels="2" name="Стойкость Стражника">
+        <set name="icon" value="icon.skill31077"/>
+        <table name="#resist_abnormal_debuff">-5 -10</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="resist_abnormal_debuff" value="#resist_abnormal_debuff"/>
+        </for>
+    </skill>
+
+    <skill id="31078" levels="3" name="Фокусировка Щита Стражника">
+        <set name="icon" value="icon.skill31078"/>
+        <table name="#pCritChanceRcpt">0.85 0.7 0.5</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pCritChanceRcpt" value="#pCritChanceRcpt"/>
+            <mul stat="mCritChanceRcpt" value="#pCritChanceRcpt"/>
+        </for>
+    </skill>
+
+    <skill id="31079" levels="3" name="Смертоносный Щит Стражника">
+        <set name="icon" value="icon.skill31079"/>
+        <table name="#pCritDamRcpt">0.9 0.8 0.65</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pCritDamRcpt" value="#pCritDamRcpt"/>
+            <mul stat="mCritDamRcpt" value="#pCritDamRcpt"/>
+        </for>
+    </skill>
+
+    <skill id="31080" levels="3" name="Усиление Стражника">
+        <set name="icon" value="icon.skill31080"/>
+        <table name="#maxHp">1.03 1.06 1.09</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="maxHp" value="#maxHp"/>
+            <mul stat="maxMp" value="#maxHp"/>
+        </for>
+    </skill>
+
+    <skill id="31081" levels="2" name="Кровотечение Стражника">
+        <set name="icon" value="icon.skill31081"/>
+        <table name="#value">0.99 0.97</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mReuse" value="#value"/>
+            <mul stat="pReuse" value="#value"/>
+        </for>
+    </skill>
+
+    <skill id="31082" levels="3" name="Сковывающее Укрытие Стражника"> <!-- хз -->
+        <set name="icon" value="icon.skill31082"/>
+        <set name="operate_type" value="P"/>
+        <for>
+
+        </for>
+    </skill>
+
+    <skill id="31083" levels="3" name="Рвение Стражника">
+        <set name="icon" value="icon.skill31083"/>
+        <table name="#pDef">1.1 1.11 1.12</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#pDef"/>
+            <mul stat="mDef" value="#pDef"/>
+        </for>
+    </skill>
+
+    <skill id="31084" levels="3" name="Сноровка Стражника в Ближнем Бою">
+        <table name="#value">-1 -2 -3</table>
+        <set name="icon" value="icon.skill31084"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <effect>
+                <p_defence_trait name="sword" value="#value"/>
+                <p_defence_trait name="dual" value="#value"/>
+                <p_defence_trait name="blunt" value="#value"/>
+                <p_defence_trait name="dagger" value="#value"/>
+                <p_defence_trait name="pole" value="#value"/>
+                <p_defence_trait name="fist" value="#value"/>
+            </effect>
+        </for>
+    </skill>
+
+    <skill id="31085" levels="3" name="Сноровка Стражника в Дальнем Бою">
+        <table name="#value">-1 -2 -3</table>
+        <set name="icon" value="icon.skill31085"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <effect>
+                <p_defence_trait name="bow" value="#value"/>
+                <p_defence_trait name="crossbow" value="#value"/>
+            </effect>
+        </for>
+    </skill>
+
+    <skill id="31086" levels="4" name="Природная Защита Стражника">
+        <table name="#defence">50 100 110 120</table>
+        <set name="icon" value="icon.skill0335"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="defenceFire" value="#defence"/>
+            <add stat="defenceWater" value="#defence"/>
+            <add stat="defenceWind" value="#defence"/>
+            <add stat="defenceEarth" value="#defence"/>
+            <add stat="defenceHoly" value="#defence"/>
+            <add stat="defenceUnholy" value="#defence"/>
+        </for>
+    </skill>
+
+    <skill id="31087" levels="4" name="Эволюция Жизненной Силы Стражника"> <!-- Сопротивление урону от Зарядов Души/Духа +2/4/6/8%. хз-->
+        <set name="icon" value="icon.skill31087"/>
+        <table name="#22">0.98 0.96 0.94 0.92</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="soulshot_defence" value="#22"/>
+        </for>
+    </skill>
+
+    <skill id="31088" levels="3" name="Кровавые Латы Стражника">
+        <set name="icon" value="icon.skill31088"/>
+        <table name="#PVEdef">1.05 1.06 1.07</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvePhysDefenceBonus" value="#PVEdef"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#PVEdef"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#PVEdef"/>
+        </for>
+    </skill>
+
+    <skill id="31089" levels="3" name="Темные Латы Стражника">
+        <set name="icon" value="icon.skill31089"/>
+        <table name="#PVEdef">1.05 1.06 1.07</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvpPhysDefenceBonus" value="#PVEdef"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#PVEdef"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#PVEdef"/>
+        </for>
+    </skill>
+
+    <skill id="31090" levels="3" name="Искусство Защиты Стражника">
+        <table name="#power">0.9 0.89 0.88</table>
+        <set name="icon" value="icon.skill31090"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="receive_p_damage_power" value="#power"/>
+            <mul stat="receive_m_damage_power" value="#power"/>
+        </for>
+    </skill>
+
+    <skill id="31091" levels="2" name="Ускорение Оракула">
+        <table name="#TabrunSpd">15 30</table>
+        <set name="icon" value="icon.skill31091"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="runSpd" value="#TabrunSpd"/>
+        </for>
+    </skill>
+
+    <skill id="31092" levels="3" name="Стихийная Душа Оракула">
+        <table name="#defence">5 10 25</table>
+        <set name="icon" value="icon.skill31092"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="defenceFire" value="#defence"/>
+            <add stat="defenceWater" value="#defence"/>
+            <add stat="defenceWind" value="#defence"/>
+            <add stat="defenceEarth" value="#defence"/>
+            <add stat="defenceHoly" value="#defence"/>
+            <add stat="defenceUnholy" value="#defence"/>
+            <add stat="attackFire" value="#defence"/>
+            <add stat="attackWater" value="#defence"/>
+            <add stat="attackWind" value="#defence"/>
+            <add stat="attackEarth" value="#defence"/>
+            <add stat="attackHoly" value="#defence"/>
+            <add stat="attackUnholy" value="#defence"/>
+        </for>
+    </skill>
+
+    <skill id="31093" levels="2" name="Мастерское Владение Умениями Оракула"> <!-- Магическая Атака +2/5%. -->
+        <set name="icon" value="icon.skill31093"/>
+        <table name="#adenaRate">0.02 0.05</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#adenaRate"/>
+        </for>
+    </skill>
+
+    <skill id="31094" levels="3" name="Находчивость Оракула"> <!-- Магичеcкое Уклонение +2/5/7 -->
+        <set name="icon" value="icon.skill31094"/>
+        <table name="#mEvasRate">2 5 7</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="mEvasRate" value="#mEvasRate"/>
+        </for>
+    </skill>
+
+    <skill id="31095" levels="2" name="Благословение Оракула"> <!-- Бонус Опыта +5/10% -->
+        <set name="icon" value="icon.skill31095"/>
+        <table name="#exp_rate_multiplier">0.05 0.1</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="exp_rate_multiplier" value="#exp_rate_multiplier"/>
+        </for>
+    </skill>
+
+    <skill id="31096" levels="1" name="Святое Благословение Оракула"> <!-- Бонус Опыта +10% -->
+        <set name="icon" value="icon.skill31096"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="exp_rate_multiplier" value="0.1"/>
+        </for>
+    </skill>
+
+    <skill id="31097" levels="1" name="Божественное Благословение Оракула">
+        <set name="icon" value="icon.skill31097"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="exp_rate_multiplier" value="10">
+                <player has_vitality="true"/>
+            </add>
+        </for>
+    </skill>
+
+    <skill id="31098" levels="4" name="Господство Оракула">
+        <set name="icon" value="icon.skill31098"/>
+        <table name="#RaidBossDamage">1.01 1.02 1.03 1.05</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="raid_boss_damage" value="#RaidBossDamage"/>
+        </for>
+    </skill>
+
+    <skill id="31099" levels="2" name="Мастерское Зелье Оракула"> <!-- Перезарядка Магических Умений 3/5%. -->
+        <set name="icon" value="icon.skill31099"/>
+        <table name="#value">0.97 0.95</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mReuse" value="#value"/>
+        </for>
+    </skill>
+
+    <skill id="31100" levels="1" name="Взгляд Оракула"> <!-- Мощность Магических Умений +20%. -->
+        <set name="icon" value="icon.skill31100"/>
+        <table name="#pm_critical_damage">5</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <p_critical_damage value="#pm_critical_damage" type="PER"/>
+            <p_magic_critical_dmg value="#pm_critical_damage" type="PER"/>
+        </for>
+    </skill>
+
+    <skill id="31101" levels="2" name="Удача Оракула"> <!-- ИНТ +1/2. -->
+        <set name="icon" value="icon.skill31101"/>
+        <table name="#STAT">2 3</table>
+        <set name="icon" value="icon.skill31104"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add order="0x10" stat="LUC" value="#STAT"/>
+        </for>
+    </skill>
+
+    <skill id="31102" levels="2" name="Святой Шепот Оракула"> <!-- Вампиризм +3/5%. -->
+        <set name="icon" value="icon.skill31102"/>
+        <table name="#TababsorbDam">3 5</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <p_vampiric_attack value="#TababsorbDam" chance="30"/>
+        </for>
+    </skill>
+
+    <skill id="31103" levels="1" name="Озарение Оракула"> <!-- Урон от зарядов Духа +10% -->
+        <set name="icon" value="icon.skill31103"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="drop_count_modifier" order="0x40" value="0.05"/>
+        </for>
+    </skill>
+
+    <skill id="31104" levels="1" name="Сакральное Благословение Оракула"> <!-- Бонус Опыта +15% -->
+        <set name="icon" value="icon.skill31113"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="exp_rate_multiplier" value="0.15"/>
+        </for>
+    </skill>
+
+    <skill id="31105" levels="2" name="Резкий Прорыв Оракула">
+        <table name="#STAT">1 2</table>
+        <set name="icon" value="icon.skill31104"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <effect>
+                <add order="0x10" stat="STR" value="#STAT"/>
+                <add order="0x10" stat="INT" value="#STAT"/>
+                <add order="0x10" stat="DEX" value="#STAT"/>
+                <add order="0x10" stat="WIT" value="#STAT"/>
+                <add order="0x10" stat="CON" value="#STAT"/>
+                <add order="0x10" stat="MEN" value="#STAT"/>
+            </effect>
+        </for>
+    </skill>
+
+    <skill id="31106" levels="1" name="Усиление Оракула"> <!-- PvE Магический Урон +5%. -->
+        <set name="icon" value="icon.skill31104"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <effect>
+                <mul stat="spoil_rate_multiplier" value="0.05"/>
+            </effect>
+        </for>
+    </skill>
+
+    <skill id="31107" levels="1" name="Божественное Благословение Оракула"> <!-- Бонус Опыта +20% -->
+        <set name="icon" value="icon.skill31104"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="exp_rate_multiplier" value="0.20"/>
+        </for>
+    </skill>
+
+    <skill id="31108" levels="2" name="Эхо Оракула"> <!-- где это ???? -->
+        <set name="icon" value="icon.skill31105"/>
+        <set name="operate_type" value="P"/>
+        <for>
+
+        </for>
+    </skill>
+
+    <skill id="31109" levels="1" name="Хронос Оракула"> <!-- Мощность Магических Умений +30%. -->
+        <set name="icon" value="icon.skill31106"/>
+        <table name="#RaidBossDamage">1.1</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="raid_boss_damage" value="#RaidBossDamage"/>
+        </for>
+    </skill>
+
+    <skill id="31110" levels="1" name="Высвобождение Оракула">  <!-- где это ???? -->
+        <set name="icon" value="icon.skill31107"/>
+        <set name="operate_type" value="P"/>
+        <for>
+
+        </for>
+    </skill>
+
+    <skill id="31111" levels="1" name="Восход Оракула"> <!-- где это ???? -->
+        <set name="icon" value="icon.skill31108"/>
+        <set name="operate_type" value="P"/>
+        <for>
+
+        </for>
+    </skill>
+
+    <skill id="31112" levels="2" name="Мощное Кровотечение Оракула"> <!-- Атака стихией +50/100. -->
+        <table name="#attack">50 100</table>
+        <set name="icon" value="icon.skill31109"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="attackFire" value="#attack"/>
+            <add stat="attackWater" value="#attack"/>
+            <add stat="attackWind" value="#attack"/>
+            <add stat="attackEarth" value="#attack"/>
+            <add stat="attackHoly" value="#attack"/>
+            <add stat="attackUnholy" value="#attack"/>
+        </for>
+    </skill>
+
+    <skill id="31113" levels="2" name="Божественное Воскрешение Оракула"> <!-- Сила Маг.Крит.Атк +10/20%. -->
+        <set name="icon" value="icon.skill31110"/>
+        <table name="#value">100 200</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <effect>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Bow,Crossbow,Two Hand Crossbow"/>
+                </add>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Dagger"/>
+                </add>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Dual Dagger"/>
+                </add>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Pole"/>
+                </add>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Sword"/>
+                </add>
+                <add order="0x10" stat="mAtkRange" value="#value">
+                    <using kind="Sword"/>
+                </add>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Big Sword"/>
+                </add>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Dual Sword"/>
+                </add>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Blunt"/>
+                </add>
+                <add order="0x10" stat="mAtkRange" value="#value">
+                    <using kind="Blunt"/>
+                </add>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Big Blunt"/>
+                </add>
+                <add order="0x10" stat="mAtkRange" value="#value">
+                    <using kind="Big Blunt"/>
+                </add>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Dual Blunt"/>
+                </add>
+                <add order="0x10" stat="mAtkRange" value="#value">
+                    <using kind="Dual Blunt"/>
+                </add>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Fist"/>
+                </add>
+                <add order="0x10" stat="pAtkRange" value="#value">
+                    <using kind="Dual Fist"/>
+                </add>
+            </effect>
+        </for>
+    </skill>
+
+    <skill id="31114" levels="3" name="Боевое Мастерство Оракула"> <!-- PvP Магический Урон + 10/15/25% -->
+        <set name="icon" value="icon.skill31111"/>
+        <table name="#PvpDamage">1.1 1.15 1.20</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvpPhysDmgBonus" value="#PvpDamage"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="#PvpDamage"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="#PvpDamage"/>
+        </for>
+    </skill>
+
+    <skill id="31115" levels="3" name="Богатство Оракула">
+        <set name="icon" value="icon.skill31112"/>
+        <table name="#adenaRate">0.03 0.06 0.1</table>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#adenaRate"/>
+        </for>
+    </skill>
+
+</list>

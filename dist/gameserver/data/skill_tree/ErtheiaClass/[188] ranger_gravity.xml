@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<normal_skill_tree>
+		<class id="188">	<!--Заступник Сайхи-->
+			<!--<skill id="30500" level="18" name="Боковая Атака(Lateral Hit)" cost="15000" min_level="85"/>
+			<skill id="30504" level="6" name="Встречный Ветер Гравитации(Gravity Hit)" cost="75000" min_level="85"/>
+			<skill id="30511" level="2" name="Гравитационный Прилив(Air Light)" cost="15000" min_level="85"/>
+			<skill id="30501" level="17" name="Импульс с Разворота(Backspin Impact)" cost="15000" min_level="85"/>
+			<skill id="30518" level="1" name="Коварное Опрокидывание(Reverse Weight)" cost="15000" min_level="85"/>
+			<skill id="30514" level="2" name="Маятник(Fluid Weave)" cost="15000" min_level="85"/>
+			<skill id="30833" level="1" name="Обычная Гармония Фантазии(Basic Fantasia Harmony)" cost="10000" min_level="85"/>
+			<skill id="30824" level="1" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="10000" min_level="85"/>
+			<skill id="30826" level="1" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="10000" min_level="85"/>
+			<skill id="30825" level="1" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="10000" min_level="85"/>
+			<skill id="30823" level="1" name="Обычная Поэма Рога(Basic Horn Melody)" cost="10000" min_level="85"/>
+			<skill id="30827" level="1" name="Обычное Анданте Битвы(Basic Andante of Battle)" cost="10000" min_level="85"/>
+			<skill id="30828" level="1" name="Обычное Анданте Движения(Basic Andante of Movement)" cost="10000" min_level="85"/>
+			<skill id="30829" level="1" name="Обычное Анданте Расслабления(Basic Refreshing Andante)" cost="10000" min_level="85"/>
+			<skill id="30831" level="1" name="Обычное Сопротивление Злым Чарам(Basic Debuff Resistance)" cost="10000" min_level="85"/>
+			<skill id="30832" level="1" name="Обычное Сопротивление Психическим Атакам(Basic Mental Attack Resistance)" cost="10000" min_level="85"/>
+			<skill id="30830" level="1" name="Обычное Сопротивление Стихиям(Basic Attribute Resistance)" cost="10000" min_level="85"/>
+			<skill id="8904" level="1" name="Оседлать Лиса Заступника(Summon Eviscerator Fox)" min_level="85"/>
+			<skill id="30542" level="4" name="Превосходная Устойчивость(Eminent Stability)" cost="15000" min_level="85"/>
+			<skill id="30540" level="8" name="Превосходное Владение Кастетами(Eminent Fist Weapon Mastery)" cost="15000" min_level="85"/>
+			<skill id="30541" level="8" name="Превосходное Владение Легкими Доспехами(Eminent Light Armor Mastery)" cost="15000" min_level="85"/>
+			<skill id="30544" level="2" name="Превосходное Сопротивление Отрицательным Эффектам(Eminent Trait Resistance)" cost="15000" min_level="85"/>
+			<skill id="30543" level="2" name="Превосходное Сопротивление Стихиям(Eminent Attribute Resistance)" cost="15000" min_level="85"/>
+			<skill id="30545" level="3" name="Превосходные Способности(Eminent Ability)" cost="15000" min_level="85"/>
+			<skill id="30512" level="2" name="Преображение(Distortion)" cost="15000" min_level="85"/>
+			<skill id="1370" level="1" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1370" level="2" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1370" level="3" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="800000000" min_level="85"/>
+			<skill id="1372" level="1" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="20000000" min_level="85"/>
+			<skill id="1372" level="2" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1372" level="3" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="60000000" min_level="85"/>
+			<skill id="1372" level="4" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="80000000" min_level="85"/>
+			<skill id="1372" level="5" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="100000000" min_level="85"/>
+			<skill id="1372" level="6" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="120000000" min_level="85"/>
+			<skill id="1372" level="7" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="200000000" min_level="85"/>
+			<skill id="1372" level="8" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1371" level="1" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="20000000" min_level="85"/>
+			<skill id="1371" level="2" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1371" level="3" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="60000000" min_level="85"/>
+			<skill id="1371" level="4" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="80000000" min_level="85"/>
+			<skill id="1371" level="5" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="100000000" min_level="85"/>
+			<skill id="1371" level="6" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="120000000" min_level="85"/>
+			<skill id="1371" level="7" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="200000000" min_level="85"/>
+			<skill id="1371" level="8" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="30602" level="1" name="Сила Заступника(Eviscerator Force)" min_level="85"/>
+			<skill id="30520" level="1" name="Стальные Нервы(Steel Mind)" cost="15000" min_level="85"/>
+			<skill id="1572" level="1" name="Увеличение Веса(Weight Increase)" min_level="85"/>
+			<skill id="1571" level="1" name="Увеличение Инвентаря(Inventory Increase)" min_level="85"/>
+			<skill id="30546" level="1" name="Удар Коленом в Полете(Flying Knee Kick)" cost="15000" min_level="85"/>
+			<skill id="30506" level="4" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="15000" min_level="85"/>
+			<skill id="30503" level="1" name="Удар Ногой с Разворота(Spinning Kick)" cost="15000" min_level="85"/>
+			<skill id="30517" level="1" name="Улучшенная Гравитация(Heavy Hand)" cost="15000" min_level="85"/>
+			<skill id="30508" level="17" name="Шаг Вправо(Right Sidestep)" cost="15000" min_level="85"/>
+			<skill id="11402" level="1" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="50000000" item_id="57" item_count="25000000" min_level="86"/>
+			<skill id="11402" level="2" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="50000000" item_id="57" item_count="50000000" min_level="86"/>
+			<skill id="11402" level="3" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="50000000" item_id="57" item_count="100000000" min_level="86"/>
+			<skill id="11402" level="4" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="50000000" item_id="57" item_count="200000000" min_level="86"/>
+			<skill id="11402" level="5" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="50000000" item_id="57" item_count="400000000" min_level="86"/>
+			<skill id="11402" level="6" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11402" level="7" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11402" level="8" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11402" level="9" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11402" level="10" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11402" level="11" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11402" level="12" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11402" level="13" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11402" level="14" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11402" level="15" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11402" level="16" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11402" level="17" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11402" level="18" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11402" level="19" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11402" level="20" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11402" level="21" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11402" level="22" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11402" level="23" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11402" level="24" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11402" level="25" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11402" level="26" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11402" level="27" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11402" level="28" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11402" level="29" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11402" level="30" name="Забытая Сила - Защитная Броня(Forgotten Power - Armor Defense)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11401" level="1" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="50000000" item_id="57" item_count="25000000" min_level="86"/>
+			<skill id="11401" level="2" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="50000000" item_id="57" item_count="50000000" min_level="86"/>
+			<skill id="11401" level="3" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="50000000" item_id="57" item_count="100000000" min_level="86"/>
+			<skill id="11401" level="4" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="50000000" item_id="57" item_count="200000000" min_level="86"/>
+			<skill id="11401" level="5" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="50000000" item_id="57" item_count="400000000" min_level="86"/>
+			<skill id="11401" level="6" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11401" level="7" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11401" level="8" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11401" level="9" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11401" level="10" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11401" level="11" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11401" level="12" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11401" level="13" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11401" level="14" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11401" level="15" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11401" level="16" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11401" level="17" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11401" level="18" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11401" level="19" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11401" level="20" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11401" level="21" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11401" level="22" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11401" level="23" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11401" level="24" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11401" level="25" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11401" level="26" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11401" level="27" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11401" level="28" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11401" level="29" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11401" level="30" name="Забытая Сила - Магическая Атака(Forgotten Power - Magical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11403" level="1" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="50000000" item_id="57" item_count="25000000" min_level="86"/>
+			<skill id="11403" level="2" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="50000000" item_id="57" item_count="50000000" min_level="86"/>
+			<skill id="11403" level="3" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="50000000" item_id="57" item_count="100000000" min_level="86"/>
+			<skill id="11403" level="4" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="50000000" item_id="57" item_count="200000000" min_level="86"/>
+			<skill id="11403" level="5" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="50000000" item_id="57" item_count="400000000" min_level="86"/>
+			<skill id="11403" level="6" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11403" level="7" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11403" level="8" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11403" level="9" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11403" level="10" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11403" level="11" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11403" level="12" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11403" level="13" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11403" level="14" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11403" level="15" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11403" level="16" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11403" level="17" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11403" level="18" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11403" level="19" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11403" level="20" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11403" level="21" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11403" level="22" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11403" level="23" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11403" level="24" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11403" level="25" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11403" level="26" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11403" level="27" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11403" level="28" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11403" level="29" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11403" level="30" name="Забытая Сила - Прилив Жизненной Силы(Forgotten Power - Vitalizing)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11404" level="1" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="50000000" item_id="57" item_count="25000000" min_level="86"/>
+			<skill id="11404" level="2" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="50000000" item_id="57" item_count="50000000" min_level="86"/>
+			<skill id="11404" level="3" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="50000000" item_id="57" item_count="100000000" min_level="86"/>
+			<skill id="11404" level="4" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="50000000" item_id="57" item_count="200000000" min_level="86"/>
+			<skill id="11404" level="5" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="50000000" item_id="57" item_count="400000000" min_level="86"/>
+			<skill id="11404" level="6" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11404" level="7" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11404" level="8" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11404" level="9" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11404" level="10" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11404" level="11" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11404" level="12" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11404" level="13" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11404" level="14" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11404" level="15" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11404" level="16" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11404" level="17" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11404" level="18" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11404" level="19" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11404" level="20" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11404" level="21" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11404" level="22" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11404" level="23" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11404" level="24" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11404" level="25" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11404" level="26" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11404" level="27" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11404" level="28" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11404" level="29" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11404" level="30" name="Забытая Сила - Стихийная Защита(Forgotten Power - Elemental Guard)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11400" level="1" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="50000000" item_id="57" item_count="25000000" min_level="86"/>
+			<skill id="11400" level="2" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="50000000" item_id="57" item_count="50000000" min_level="86"/>
+			<skill id="11400" level="3" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="50000000" item_id="57" item_count="100000000" min_level="86"/>
+			<skill id="11400" level="4" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="50000000" item_id="57" item_count="200000000" min_level="86"/>
+			<skill id="11400" level="5" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="50000000" item_id="57" item_count="400000000" min_level="86"/>
+			<skill id="11400" level="6" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11400" level="7" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11400" level="8" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11400" level="9" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11400" level="10" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="100000000" item_id="48876" item_count="5" min_level="86"/>
+			<skill id="11400" level="11" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11400" level="12" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11400" level="13" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11400" level="14" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11400" level="15" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11400" level="16" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11400" level="17" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11400" level="18" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11400" level="19" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11400" level="20" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="500000000" item_id="48877" item_count="5" min_level="86"/>
+			<skill id="11400" level="21" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11400" level="22" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11400" level="23" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11400" level="24" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11400" level="25" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11400" level="26" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11400" level="27" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11400" level="28" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11400" level="29" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="11400" level="30" name="Забытая Сила - Физическая Атака(Forgotten Power - Physical Attack)" cost="1000000000" item_id="48878" item_count="5" min_level="86"/>
+			<skill id="30530" level="6" name="Искажение Энергии(Crushing Air)" cost="75000" min_level="86"/>
+			<skill id="30518" level="2" name="Коварное Опрокидывание(Reverse Weight)" cost="75000" min_level="86"/>
+			<skill id="30503" level="2" name="Удар Ногой с Разворота(Spinning Kick)" cost="75000" min_level="86"/>
+			<skill id="30502" level="15" name="Удар с Рассечением(Chin Strike)" cost="75000" min_level="86"/>
+			<skill id="30507" level="15" name="Шаг Влево(Left Sidestep)" cost="75000" min_level="86"/>
+			<skill id="30500" level="19" name="Боковая Атака(Lateral Hit)" cost="90000" min_level="87"/>
+			<skill id="30504" level="7" name="Встречный Ветер Гравитации(Gravity Hit)" cost="90000" min_level="87"/>
+			<skill id="30505" level="1" name="Гравитационный Шок(Pressure Punch)" cost="90000" min_level="87"/>
+			<skill id="30501" level="18" name="Импульс с Разворота(Backspin Impact)" cost="90000" min_level="87"/>
+			<skill id="30546" level="2" name="Удар Коленом в Полете(Flying Knee Kick)" cost="90000" min_level="87"/>
+			<skill id="30506" level="5" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="90000" min_level="87"/>
+			<skill id="30517" level="2" name="Улучшенная Гравитация(Heavy Hand)" cost="90000" min_level="87"/>
+			<skill id="30508" level="18" name="Шаг Вправо(Right Sidestep)" cost="90000" min_level="87"/>
+			<skill id="30530" level="7" name="Искажение Энергии(Crushing Air)" cost="120000" min_level="88"/>
+			<skill id="30518" level="3" name="Коварное Опрокидывание(Reverse Weight)" cost="120000" min_level="88"/>
+			<skill id="30503" level="3" name="Удар Ногой с Разворота(Spinning Kick)" cost="120000" min_level="88"/>
+			<skill id="30502" level="16" name="Удар с Рассечением(Chin Strike)" cost="120000" min_level="88"/>
+			<skill id="30507" level="16" name="Шаг Влево(Left Sidestep)" cost="120000" min_level="88"/>
+			<skill id="30500" level="20" name="Боковая Атака(Lateral Hit)" cost="150000" min_level="89"/>
+			<skill id="30504" level="8" name="Встречный Ветер Гравитации(Gravity Hit)" cost="150000" min_level="89"/>
+			<skill id="30505" level="2" name="Гравитационный Шок(Pressure Punch)" cost="150000" min_level="89"/>
+			<skill id="30501" level="19" name="Импульс с Разворота(Backspin Impact)" cost="150000" min_level="89"/>
+			<skill id="30546" level="3" name="Удар Коленом в Полете(Flying Knee Kick)" cost="150000" min_level="89"/>
+			<skill id="30506" level="6" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="150000" min_level="89"/>
+			<skill id="30517" level="3" name="Улучшенная Гравитация(Heavy Hand)" cost="150000" min_level="89"/>
+			<skill id="30508" level="19" name="Шаг Вправо(Right Sidestep)" cost="150000" min_level="89"/>
+			<skill id="30509" level="2" name="Шаг Назад(Back Step)" cost="150000" min_level="89"/>
+			<skill id="30530" level="8" name="Искажение Энергии(Crushing Air)" cost="555000" min_level="90"/>
+			<skill id="30518" level="4" name="Коварное Опрокидывание(Reverse Weight)" cost="555000" min_level="90"/>
+			<skill id="30824" level="2" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="370000" min_level="90"/>
+			<skill id="30826" level="2" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="370000" min_level="90"/>
+			<skill id="30825" level="2" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="370000" min_level="90"/>
+			<skill id="30823" level="2" name="Обычная Поэма Рога(Basic Horn Melody)" cost="370000" min_level="90"/>
+			<skill id="30542" level="5" name="Превосходная Устойчивость(Eminent Stability)" cost="555000" min_level="90"/>
+			<skill id="30540" level="9" name="Превосходное Владение Кастетами(Eminent Fist Weapon Mastery)" cost="555000" min_level="90"/>
+			<skill id="30541" level="9" name="Превосходное Владение Легкими Доспехами(Eminent Light Armor Mastery)" cost="555000" min_level="90"/>
+			<skill id="30543" level="3" name="Превосходное Сопротивление Стихиям(Eminent Attribute Resistance)" cost="370000" min_level="90"/>
+			<skill id="30503" level="4" name="Удар Ногой с Разворота(Spinning Kick)" cost="555000" min_level="90"/>
+			<skill id="30502" level="17" name="Удар с Рассечением(Chin Strike)" cost="555000" min_level="90"/>
+			<skill id="30507" level="17" name="Шаг Влево(Left Sidestep)" cost="555000" min_level="90"/>
+			<skill id="30500" level="21" name="Боковая Атака(Lateral Hit)" cost="600000" min_level="91"/>
+			<skill id="30504" level="9" name="Встречный Ветер Гравитации(Gravity Hit)" cost="600000" min_level="91"/>
+			<skill id="30505" level="3" name="Гравитационный Шок(Pressure Punch)" cost="600000" min_level="91"/>
+			<skill id="30501" level="20" name="Импульс с Разворота(Backspin Impact)" cost="600000" min_level="91"/>
+			<skill id="30546" level="4" name="Удар Коленом в Полете(Flying Knee Kick)" cost="600000" min_level="91"/>
+			<skill id="30506" level="7" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="600000" min_level="91"/>
+			<skill id="30517" level="4" name="Улучшенная Гравитация(Heavy Hand)" cost="600000" min_level="91"/>
+			<skill id="30508" level="20" name="Шаг Вправо(Right Sidestep)" cost="600000" min_level="91"/>
+			<skill id="30530" level="9" name="Искажение Энергии(Crushing Air)" cost="630000" min_level="92"/>
+			<skill id="30518" level="5" name="Коварное Опрокидывание(Reverse Weight)" cost="630000" min_level="92"/>
+			<skill id="30503" level="5" name="Удар Ногой с Разворота(Spinning Kick)" cost="630000" min_level="92"/>
+			<skill id="30502" level="18" name="Удар с Рассечением(Chin Strike)" cost="630000" min_level="92"/>
+			<skill id="30507" level="18" name="Шаг Влево(Left Sidestep)" cost="630000" min_level="92"/>
+			<skill id="30500" level="22" name="Боковая Атака(Lateral Hit)" cost="660000" min_level="93"/>
+			<skill id="30504" level="10" name="Встречный Ветер Гравитации(Gravity Hit)" cost="660000" min_level="93"/>
+			<skill id="30516" level="1" name="Гравитационный Барьер(Gravity Barrier)" cost="660000" min_level="93"/>
+			<skill id="30505" level="4" name="Гравитационный Шок(Pressure Punch)" cost="660000" min_level="93"/>
+			<skill id="30501" level="21" name="Импульс с Разворота(Backspin Impact)" cost="660000" min_level="93"/>
+			<skill id="30546" level="5" name="Удар Коленом в Полете(Flying Knee Kick)" cost="660000" min_level="93"/>
+			<skill id="30506" level="8" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="660000" min_level="93"/>
+			<skill id="30517" level="5" name="Улучшенная Гравитация(Heavy Hand)" cost="660000" min_level="93"/>
+			<skill id="30508" level="21" name="Шаг Вправо(Right Sidestep)" cost="660000" min_level="93"/>
+			<skill id="30509" level="3" name="Шаг Назад(Back Step)" cost="660000" min_level="93"/>
+			<skill id="30530" level="10" name="Искажение Энергии(Crushing Air)" cost="720000" min_level="94"/>
+			<skill id="30518" level="6" name="Коварное Опрокидывание(Reverse Weight)" cost="720000" min_level="94"/>
+			<skill id="30503" level="6" name="Удар Ногой с Разворота(Spinning Kick)" cost="720000" min_level="94"/>
+			<skill id="30502" level="19" name="Удар с Рассечением(Chin Strike)" cost="720000" min_level="94"/>
+			<skill id="30507" level="19" name="Шаг Влево(Left Sidestep)" cost="720000" min_level="94"/>
+			<skill id="30500" level="23" name="Боковая Атака(Lateral Hit)" cost="1500000" min_level="95"/>
+			<skill id="30504" level="11" name="Встречный Ветер Гравитации(Gravity Hit)" cost="1500000" min_level="95"/>
+			<skill id="30511" level="3" name="Гравитационный Прилив(Air Light)" cost="1500000" min_level="95"/>
+			<skill id="30505" level="5" name="Гравитационный Шок(Pressure Punch)" cost="1500000" min_level="95"/>
+			<skill id="30501" level="22" name="Импульс с Разворота(Backspin Impact)" cost="1500000" min_level="95"/>
+			<skill id="30824" level="3" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="1000000" min_level="95"/>
+			<skill id="30826" level="3" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="1000000" min_level="95"/>
+			<skill id="30825" level="3" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="1000000" min_level="95"/>
+			<skill id="30823" level="3" name="Обычная Поэма Рога(Basic Horn Melody)" cost="1000000" min_level="95"/>
+			<skill id="30542" level="6" name="Превосходная Устойчивость(Eminent Stability)" cost="1500000" min_level="95"/>
+			<skill id="30540" level="10" name="Превосходное Владение Кастетами(Eminent Fist Weapon Mastery)" cost="1500000" min_level="95"/>
+			<skill id="30541" level="10" name="Превосходное Владение Легкими Доспехами(Eminent Light Armor Mastery)" cost="1500000" min_level="95"/>
+			<skill id="30543" level="4" name="Превосходное Сопротивление Стихиям(Eminent Attribute Resistance)" cost="1000000" min_level="95"/>
+			<skill id="30546" level="6" name="Удар Коленом в Полете(Flying Knee Kick)" cost="1500000" min_level="95"/>
+			<skill id="30506" level="9" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="1500000" min_level="95"/>
+			<skill id="30517" level="6" name="Улучшенная Гравитация(Heavy Hand)" cost="1500000" min_level="95"/>
+			<skill id="30508" level="22" name="Шаг Вправо(Right Sidestep)" cost="1500000" min_level="95"/>
+			<skill id="30530" level="11" name="Искажение Энергии(Crushing Air)" cost="7455000" min_level="96"/>
+			<skill id="30518" level="7" name="Коварное Опрокидывание(Reverse Weight)" cost="7455000" min_level="96"/>
+			<skill id="30503" level="7" name="Удар Ногой с Разворота(Spinning Kick)" cost="7455000" min_level="96"/>
+			<skill id="30502" level="20" name="Удар с Рассечением(Chin Strike)" cost="7455000" min_level="96"/>
+			<skill id="30507" level="20" name="Шаг Влево(Left Sidestep)" cost="7455000" min_level="96"/>
+			<skill id="30500" level="24" name="Боковая Атака(Lateral Hit)" cost="7470000" min_level="97"/>
+			<skill id="30504" level="12" name="Встречный Ветер Гравитации(Gravity Hit)" cost="7470000" min_level="97"/>
+			<skill id="30505" level="6" name="Гравитационный Шок(Pressure Punch)" cost="7470000" min_level="97"/>
+			<skill id="30501" level="23" name="Импульс с Разворота(Backspin Impact)" cost="7470000" min_level="97"/>
+			<skill id="30510" level="1" name="Истребитель(Infighter)" cost="7470000" min_level="97"/>
+			<skill id="30546" level="7" name="Удар Коленом в Полете(Flying Knee Kick)" cost="7470000" min_level="97"/>
+			<skill id="30506" level="10" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="7470000" min_level="97"/>
+			<skill id="30517" level="7" name="Улучшенная Гравитация(Heavy Hand)" cost="7470000" min_level="97"/>
+			<skill id="30508" level="23" name="Шаг Вправо(Right Sidestep)" cost="7470000" min_level="97"/>
+			<skill id="30509" level="4" name="Шаг Назад(Back Step)" cost="7470000" min_level="97"/>
+			<skill id="30530" level="12" name="Искажение Энергии(Crushing Air)" cost="7485000" min_level="98"/>
+			<skill id="30519" level="1" name="Искривленное Пространство(Warped Space)" cost="7485000" min_level="98"/>
+			<skill id="30518" level="8" name="Коварное Опрокидывание(Reverse Weight)" cost="7485000" min_level="98"/>
+			<skill id="30503" level="8" name="Удар Ногой с Разворота(Spinning Kick)" cost="7485000" min_level="98"/>
+			<skill id="30502" level="21" name="Удар с Рассечением(Chin Strike)" cost="7485000" min_level="98"/>
+			<skill id="30507" level="21" name="Шаг Влево(Left Sidestep)" cost="7485000" min_level="98"/>
+			<skill id="1405" level="5" name="Божественное Вдохновение(Divine Inspiration)" item_id="40064" cost="5000000" min_level="99"/>
+			<skill id="1405" level="6" name="Божественное Вдохновение(Divine Inspiration)" item_id="40065" cost="5000000" min_level="99"/>
+			<skill id="30500" level="25" name="Боковая Атака(Lateral Hit)" cost="7500000" min_level="99"/>
+			<skill id="30504" level="13" name="Встречный Ветер Гравитации(Gravity Hit)" cost="7500000" min_level="99"/>
+			<skill id="30511" level="4" name="Гравитационный Прилив(Air Light)" cost="7500000" min_level="99"/>
+			<skill id="30505" level="7" name="Гравитационный Шок(Pressure Punch)" cost="7500000" min_level="99"/>
+			<skill id="30501" level="24" name="Импульс с Разворота(Backspin Impact)" cost="7500000" min_level="99"/>
+			<skill id="30824" level="4" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="5000000" min_level="99"/>
+			<skill id="30826" level="4" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="5000000" min_level="99"/>
+			<skill id="30825" level="4" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="5000000" min_level="99"/>
+			<skill id="30823" level="4" name="Обычная Поэма Рога(Basic Horn Melody)" cost="5000000" min_level="99"/>
+			<skill id="30542" level="7" name="Превосходная Устойчивость(Eminent Stability)" cost="7500000" min_level="99"/>
+			<skill id="30540" level="11" name="Превосходное Владение Кастетами(Eminent Fist Weapon Mastery)" cost="7500000" min_level="99"/>
+			<skill id="30541" level="11" name="Превосходное Владение Легкими Доспехами(Eminent Light Armor Mastery)" cost="7500000" min_level="99"/>
+			<skill id="30543" level="5" name="Превосходное Сопротивление Стихиям(Eminent Attribute Resistance)" cost="5000000" min_level="99"/>
+			<skill id="30515" level="1" name="Расщепление(Spallation)" cost="7500000" min_level="99"/>
+			<skill id="30520" level="2" name="Стальные Нервы(Steel Mind)" cost="7500000" min_level="99"/>
+			<skill id="30547" level="1" name="Удар Клейма(Stamp Punch)" cost="7500000" min_level="99"/>
+			<skill id="30546" level="8" name="Удар Коленом в Полете(Flying Knee Kick)" cost="7500000" min_level="99"/>
+			<skill id="30506" level="11" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="7500000" min_level="99"/>
+			<skill id="30517" level="8" name="Улучшенная Гравитация(Heavy Hand)" cost="7500000" min_level="99"/>
+			<skill id="30508" level="24" name="Шаг Вправо(Right Sidestep)" cost="7500000" min_level="99"/>
+			<skill id="30542" level="8" name="Превосходная Устойчивость(Eminent Stability)" cost="88099899" min_level="100"/>
+			<skill id="30540" level="12" name="Превосходное Владение Кастетами(Eminent Fist Weapon Mastery)" cost="88099899" min_level="100"/>
+			<skill id="30541" level="12" name="Превосходное Владение Легкими Доспехами(Eminent Light Armor Mastery)" cost="88099899" min_level="100"/>
+			<skill id="30543" level="6" name="Превосходное Сопротивление Стихиям(Eminent Attribute Resistance)" cost="88099899" min_level="100"/>
+			<skill id="10956" level="1" name="Распространение Божественности(Divine Expansion)" item_id="39738" item_count="8" cost="88099899" min_level="100"/>
+			<skill id="30500" level="26" name="Боковая Атака(Lateral Hit)" cost="211440000" min_level="101"/>
+			<skill id="30504" level="14" name="Встречный Ветер Гравитации(Gravity Hit)" cost="211440000" min_level="101"/>
+			<skill id="30511" level="5" name="Гравитационный Прилив(Air Light)" cost="211440000" min_level="101"/>
+			<skill id="30505" level="8" name="Гравитационный Шок(Pressure Punch)" cost="211440000" min_level="101"/>
+			<skill id="30501" level="25" name="Импульс с Разворота(Backspin Impact)" cost="211440000" min_level="101"/>
+			<skill id="30530" level="13" name="Искажение Энергии(Crushing Air)" cost="211440000" min_level="101"/>
+			<skill id="30518" level="9" name="Коварное Опрокидывание(Reverse Weight)" cost="211440000" min_level="101"/>
+			<skill id="30514" level="3" name="Маятник(Fluid Weave)" cost="211440000" min_level="101"/>
+			<skill id="30512" level="3" name="Преображение(Distortion)" cost="211440000" min_level="101"/>
+			<skill id="30520" level="3" name="Стальные Нервы(Steel Mind)" cost="211440000" min_level="101"/>
+			<skill id="30547" level="2" name="Удар Клейма(Stamp Punch)" cost="211440000" min_level="101"/>
+			<skill id="30546" level="9" name="Удар Коленом в Полете(Flying Knee Kick)" cost="211440000" min_level="101"/>
+			<skill id="30506" level="12" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="211440000" min_level="101"/>
+			<skill id="30503" level="9" name="Удар Ногой с Разворота(Spinning Kick)" cost="211440000" min_level="101"/>
+			<skill id="30502" level="22" name="Удар с Рассечением(Chin Strike)" cost="211440000" min_level="101"/>
+			<skill id="30517" level="9" name="Улучшенная Гравитация(Heavy Hand)" cost="211440000" min_level="101"/>
+			<skill id="30507" level="22" name="Шаг Влево(Left Sidestep)" cost="211440000" min_level="101"/>
+			<skill id="30508" level="25" name="Шаг Вправо(Right Sidestep)" cost="211440000" min_level="101"/>
+			<skill id="30509" level="5" name="Шаг Назад(Back Step)" cost="211440000" min_level="101"/>
+			<skill id="30542" level="9" name="Превосходная Устойчивость(Eminent Stability)" cost="507455418" min_level="102"/>
+			<skill id="30540" level="13" name="Превосходное Владение Кастетами(Eminent Fist Weapon Mastery)" cost="507455418" min_level="102"/>
+			<skill id="30541" level="13" name="Превосходное Владение Легкими Доспехами(Eminent Light Armor Mastery)" cost="507455418" min_level="102"/>
+			<skill id="30543" level="7" name="Превосходное Сопротивление Стихиям(Eminent Attribute Resistance)" cost="507455418" min_level="102"/>
+			<skill id="30500" level="27" name="Боковая Атака(Lateral Hit)" cost="608946501" min_level="103"/>
+			<skill id="30504" level="15" name="Встречный Ветер Гравитации(Gravity Hit)" cost="608946501" min_level="103"/>
+			<skill id="30511" level="6" name="Гравитационный Прилив(Air Light)" cost="608946501" min_level="103"/>
+			<skill id="30505" level="9" name="Гравитационный Шок(Pressure Punch)" cost="608946501" min_level="103"/>
+			<skill id="30501" level="26" name="Импульс с Разворота(Backspin Impact)" cost="608946501" min_level="103"/>
+			<skill id="30530" level="14" name="Искажение Энергии(Crushing Air)" cost="608946501" min_level="103"/>
+			<skill id="30518" level="10" name="Коварное Опрокидывание(Reverse Weight)" cost="608946501" min_level="103"/>
+			<skill id="30547" level="3" name="Удар Клейма(Stamp Punch)" cost="608946501" min_level="103"/>
+			<skill id="30546" level="10" name="Удар Коленом в Полете(Flying Knee Kick)" cost="608946501" min_level="103"/>
+			<skill id="30506" level="13" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="608946501" min_level="103"/>
+			<skill id="30503" level="10" name="Удар Ногой с Разворота(Spinning Kick)" cost="608946501" min_level="103"/>
+			<skill id="30502" level="23" name="Удар с Рассечением(Chin Strike)" cost="608946501" min_level="103"/>
+			<skill id="30517" level="10" name="Улучшенная Гравитация(Heavy Hand)" cost="608946501" min_level="103"/>
+			<skill id="30507" level="23" name="Шаг Влево(Left Sidestep)" cost="608946501" min_level="103"/>
+			<skill id="30508" level="26" name="Шаг Вправо(Right Sidestep)" cost="608946501" min_level="103"/>
+			<skill id="30542" level="10" name="Превосходная Устойчивость(Eminent Stability)" cost="1461471604" min_level="104"/>
+			<skill id="30540" level="14" name="Превосходное Владение Кастетами(Eminent Fist Weapon Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="30541" level="14" name="Превосходное Владение Легкими Доспехами(Eminent Light Armor Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="30543" level="8" name="Превосходное Сопротивление Стихиям(Eminent Attribute Resistance)" cost="1461471604" min_level="104"/>
+			<skill id="30500" level="28" name="Боковая Атака(Lateral Hit)" cost="1753765925" min_level="105"/>
+			<skill id="30504" level="16" name="Встречный Ветер Гравитации(Gravity Hit)" cost="1753765925" min_level="105"/>
+			<skill id="30511" level="7" name="Гравитационный Прилив(Air Light)" cost="1753765925" min_level="105"/>
+			<skill id="30505" level="10" name="Гравитационный Шок(Pressure Punch)" cost="1753765925" min_level="105"/>
+			<skill id="30501" level="27" name="Импульс с Разворота(Backspin Impact)" cost="1753765925" min_level="105"/>
+			<skill id="30530" level="15" name="Искажение Энергии(Crushing Air)" cost="1753765925" min_level="105"/>
+			<skill id="30518" level="11" name="Коварное Опрокидывание(Reverse Weight)" cost="1753765925" min_level="105"/>
+			<skill id="30547" level="4" name="Удар Клейма(Stamp Punch)" cost="1753765925" min_level="105"/>
+			<skill id="30546" level="11" name="Удар Коленом в Полете(Flying Knee Kick)" cost="1753765925" min_level="105"/>
+			<skill id="30506" level="14" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="1753765925" min_level="105"/>
+			<skill id="30503" level="11" name="Удар Ногой с Разворота(Spinning Kick)" cost="1753765925" min_level="105"/>
+			<skill id="30502" level="24" name="Удар с Рассечением(Chin Strike)" cost="1753765925" min_level="105"/>
+			<skill id="30517" level="11" name="Улучшенная Гравитация(Heavy Hand)" cost="1753765925" min_level="105"/>
+			<skill id="30507" level="24" name="Шаг Влево(Left Sidestep)" cost="1753765925" min_level="105"/>
+			<skill id="30508" level="27" name="Шаг Вправо(Right Sidestep)" cost="1753765925" min_level="105"/>
+			<skill id="30542" level="11" name="Превосходная Устойчивость(Eminent Stability)" cost="2104519110" min_level="106"/>
+			<skill id="30540" level="15" name="Превосходное Владение Кастетами(Eminent Fist Weapon Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="30541" level="15" name="Превосходное Владение Легкими Доспехами(Eminent Light Armor Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="30543" level="9" name="Превосходное Сопротивление Стихиям(Eminent Attribute Resistance)" cost="2104519110" min_level="106"/>
+			<skill id="30500" level="29" name="Боковая Атака(Lateral Hit)" cost="2525422932" min_level="107"/>
+			<skill id="30504" level="17" name="Встречный Ветер Гравитации(Gravity Hit)" cost="2525422932" min_level="107"/>
+			<skill id="30505" level="11" name="Гравитационный Шок(Gravity Shock)" cost="2525422932" min_level="107"/>
+			<skill id="30501" level="28" name="Импульс с Разворота(Backspin Impact)" cost="2525422932" min_level="107"/>
+			<skill id="30530" level="16" name="Искажение Энергии(Crushing Air)" cost="2525422932" min_level="107"/>
+			<skill id="30518" level="12" name="Коварное Опрокидывание(Reverse Weight)" cost="2525422932" min_level="107"/>
+			<skill id="30547" level="5" name="Удар Клейма(Stamp Punch)" cost="2525422932" min_level="107"/>
+			<skill id="30546" level="12" name="Удар Коленом в Полете(Flying Knee Kick)" cost="2525422932" min_level="107"/>
+			<skill id="30506" level="15" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="2525422932" min_level="107"/>
+			<skill id="30503" level="12" name="Удар Ногой с Разворота(Spinning Kick)" cost="2525422932" min_level="107"/>
+			<skill id="30502" level="25" name="Удар с Рассечением(Chin Strike)" cost="2525422932" min_level="107"/>
+			<skill id="30517" level="12" name="Улучшенная Гравитация(Heavy Hand)" cost="2525422932" min_level="107"/>
+			<skill id="30507" level="25" name="Шаг Влево(Left Sidestep)" cost="2525422932" min_level="107"/>
+			<skill id="30508" level="28" name="Шаг Вправо(Right Sidestep)" cost="2525422932" min_level="107"/>
+			<skill id="30542" level="12" name="Превосходная Устойчивость(Eminent Stability)" cost="6061015038" min_level="108"/>
+			<skill id="30540" level="16" name="Превосходное Владение Кастетами(Eminent Fist Weapon Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="30541" level="16" name="Превосходное Владение Легкими Доспехами(Eminent Light Armor Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="30543" level="10" name="Превосходное Сопротивление Стихиям(Eminent Attribute Resistance)" cost="6061015038" min_level="108"/>
+			<skill id="30500" level="30" name="Боковая Атака(Lateral Hit)" cost="7273218046" min_level="109"/>
+			<skill id="30504" level="18" name="Встречный Ветер Гравитации(Gravity Hit)" cost="7273218046" min_level="109"/>
+			<skill id="30505" level="12" name="Гравитационный Шок(Gravity Shock)" cost="7273218046" min_level="109"/>
+			<skill id="30501" level="29" name="Импульс с Разворота(Backspin Impact)" cost="7273218046" min_level="109"/>
+			<skill id="30530" level="17" name="Искажение Энергии(Crushing Air)" cost="7273218046" min_level="109"/>
+			<skill id="30518" level="13" name="Коварное Опрокидывание(Reverse Weight)" cost="7273218046" min_level="109"/>
+			<skill id="30547" level="6" name="Удар Клейма(Stamp Punch)" cost="7273218046" min_level="109"/>
+			<skill id="30546" level="13" name="Удар Коленом в Полете(Flying Knee Kick)" cost="7273218046" min_level="109"/>
+			<skill id="30506" level="16" name="Удар Ногой в Голову с Разворота(Distant Kick)" cost="7273218046" min_level="109"/>
+			<skill id="30503" level="13" name="Удар Ногой с Разворота(Spinning Kick)" cost="7273218046" min_level="109"/>
+			<skill id="30502" level="26" name="Удар с Рассечением(Chin Strike)" cost="7273218046" min_level="109"/>
+			<skill id="30517" level="13" name="Улучшенная Гравитация(Heavy Hand)" cost="7273218046" min_level="109"/>
+			<skill id="30507" level="26" name="Шаг Влево(Left Sidestep)" cost="7273218046" min_level="109"/>
+			<skill id="30508" level="29" name="Шаг Вправо(Right Sidestep)" cost="7273218046" min_level="109"/>
+			<skill id="30859" level="1" name="Всемогущая Гравитация(Powerful Gravity)" item_id="81453" cost="17455723311" min_level="110"/>
+			<skill id="30542" level="13" name="Превосходная Устойчивость(Eminent Stability)" cost="17455723311" min_level="110"/>
+			<skill id="30540" level="17" name="Превосходное Владение Кастетами(Eminent Fist Weapon Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="30541" level="17" name="Превосходное Владение Легкими Доспехами(Eminent Light Armor Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="30543" level="11" name="Превосходное Сопротивление Стихиям(Eminent Attribute Resistance)" cost="17455723311" min_level="110"/>
+			<skill id="30512" level="4" name="Преображение(Distortion)" cost="17455723311" min_level="110"/>
+			<skill id="30520" level="4" name="Стальные Нервы(Mind of Steel)" cost="17455723311" min_level="110"/>-->
+		</class>
+	</normal_skill_tree>
+</list>

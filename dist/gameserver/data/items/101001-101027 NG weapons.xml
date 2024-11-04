@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		NG Weapons
+	-->
+	<weapon id="101001" name="Falchion Lv.1">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_falchion_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1530"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="31"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+		</for>
+	</weapon>
+	<weapon id="101002" name="Falchion Lv.2">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_falchion_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1530"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="34"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+		</for>
+	</weapon>
+	<weapon id="101003" name="Falchion Lv.3">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_falchion_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1530"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="37"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+		</for>
+	</weapon>
+	<weapon id="101004" name="Compound Bow Lv.1">
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="reuse_delay" value="1500"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_composition_bow_i00"/>
+		<set name="mp_consume" value="1"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1880"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="64"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101005" name="Compound Bow Lv.2">
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="reuse_delay" value="1500"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_composition_bow_i00"/>
+		<set name="mp_consume" value="1"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1880"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="67"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101006" name="Compound Bow Lv.3">
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="reuse_delay" value="1500"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_composition_bow_i00"/>
+		<set name="mp_consume" value="1"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1880"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="70"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101007" name="Zweihander Lv.1">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_zweihander_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="1530"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="38"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+		</for>
+	</weapon>
+	<weapon id="101008" name="Zweihander Lv.2">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_zweihander_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="1530"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="41"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+		</for>
+	</weapon>
+	<weapon id="101009" name="Zweihander Lv.3">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_zweihander_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="1530"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="44"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+		</for>
+	</weapon>
+	<weapon id="101010" name="Sword Breaker Lv.1">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_sword_breaker_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1110"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="27"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101011" name="Sword Breaker Lv.2">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_sword_breaker_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1110"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="30"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101012" name="Sword Breaker Lv.3">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_sword_breaker_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1110"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="33"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101013" name="Iron Gloves Lv.1">
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_iron_glove_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1580"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="38"/>
+			<add stat="mAtk" order="0x10" value="9"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101014" name="Iron Gloves Lv.2">
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_iron_glove_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1580"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="41"/>
+			<add stat="mAtk" order="0x10" value="9"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101015" name="Iron Gloves Lv.3">
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_iron_glove_i00"/>
+		
+		<set name="rnd_dam" value="5"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1580"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="44"/>
+			<add stat="mAtk" order="0x10" value="9"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101016" name="Great Spear Lv.1">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_long_spear_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="2120"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="1"/>
+		</skills>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="31"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101017" name="Great Spear Lv.2">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_long_spear_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="2120"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="2"/>
+		</skills>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="34"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101018" name="Great Spear Lv.3">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_long_spear_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="2120"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="3"/>
+		</skills>
+		<skills>
+			<skill id="3599" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="37"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101019" name="Iron Hammer Lv.1">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_iron_hammer_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1850"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="31"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101020" name="Iron Hammer Lv.2">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_iron_hammer_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1850"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="34"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101021" name="Iron Hammer Lv.3">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_iron_hammer_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1850"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100001" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="37"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101022" name="Crucifix of Blessing Lv.1">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_crucifix_of_blessing_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="620"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100002" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="25"/>
+			<add stat="mAtk" order="0x10" value="28"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+		</for>
+	</weapon>
+	<weapon id="101023" name="Crucifix of Blessing Lv.2">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_crucifix_of_blessing_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="620"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100002" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="25"/>
+			<add stat="mAtk" order="0x10" value="31"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+		</for>
+	</weapon>
+	<weapon id="101024" name="Crucifix of Blessing Lv.3">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_crucifix_of_blessing_i00"/>
+		
+		<set name="rnd_dam" value="10"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="620"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100002" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="25"/>
+			<add stat="mAtk" order="0x10" value="34"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+		</for>
+	</weapon>
+	<weapon id="101025" name="Apprentice's Staff Lv.1">
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100002" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="23"/>
+			<add stat="mAtk" order="0x10" value="31"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101026" name="Apprentice's Staff Lv.2">
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100002" level="2"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="23"/>
+			<add stat="mAtk" order="0x10" value="34"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101027" name="Apprentice's Staff Lv.3">
+		<set name="damage_range" value="0;0;46;120"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
+		
+		<set name="rnd_dam" value="20"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100002" level="3"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="23"/>
+			<add stat="mAtk" order="0x10" value="37"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+</list>

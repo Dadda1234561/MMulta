@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "bbs_buffs.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<available_skills>
+		<!--If level of skill is -1 server automatically set max level of skill.-->
+		<premium_skills>
+			<!--The skills indicated in the 'premium_skills' redefine the skills in the main groups.-->
+			<skills_group time_modifier="1" time_assign="-1">
+				<skill id="395" level="-1"/>	<!--Heroic Miracle-->
+				<skill id="396" level="-1"/>	<!--Heroic Berserker-->
+			</skills_group>
+		</premium_skills>
+		<skills_group time_modifier="1" time_assign="-1">
+			<skill id="11517" level="-1" sub_level="0"/>	<!--Horn Melody-->
+			<skill id="11518" level="-1" sub_level="0"/>	<!--Drum Melody-->
+			<skill id="11519" level="-1" sub_level="0"/>	<!--Pipe Organ Melody-->
+			<skill id="11520" level="-1" sub_level="0"/>	<!--Guitar Melody-->
+			<skill id="11521" level="-1" sub_level="0"/>	<!--Harp Melody-->
+			<skill id="11522" level="-1" sub_level="0"/>	<!--Lute Melody-->
+		</skills_group>
+		<skills_group time_modifier="1" time_assign="-1">
+			<skill id="11523" level="-1" sub_level="0"/>	<!--Knight's Harmony-->
+			<skill id="11524" level="-1" sub_level="0"/>	<!--Warrior's Harmony-->
+			<skill id="11525" level="-1" sub_level="0"/>	<!--Wizard's Harmony-->
+		</skills_group>
+		<skills_group time_modifier="1" time_assign="-1">
+			<skill id="11529" level="-1" sub_level="0"/>	<!--Prevailing Sonata-->
+			<skill id="11530" level="-1" sub_level="0"/>	<!--Daring Sonata-->
+			<skill id="11532" level="-1" sub_level="0"/>	<!--Refreshing Sonata-->
+		</skills_group>
+		<skills_group time_modifier="1" time_assign="-1">
+			<skill id="11565" level="-1" sub_level="0"/>	<!--Elemental Resistance-->
+			<skill id="11566" level="-1" sub_level="0"/>	<!--Holy Attack Resistance-->
+			<skill id="11567" level="-1" sub_level="0"/>	<!--Mental Attack Resistance-->
+		</skills_group>
+		<skill id="1323" level="-1" time_modifier="1" time_assign="-1"/>	<!--Noblesse Blessing-->
+	</available_skills>
+	<base_buff_sets>
+		<buff_set id="1">
+			<name>
+				<en>For Guardian</en>
+				<ru>Стражу</ru>
+			</name>
+			<skills>
+				<skill id="11523"/>	<!--Knight's Harmony-->
+				<skill id="11517"/>	<!--Horn Melody-->
+				<skill id="11518"/>	<!--Drum Melody-->
+				<skill id="11519"/>	<!--Pipe Organ Melody-->
+				<skill id="11520"/>	<!--Guitar Melody-->
+				<skill id="11521"/>	<!--Harp Melody-->
+				<skill id="11522"/>	<!--Lute Melody-->
+				<skill id="11529"/>	<!--Prevailing Sonata-->
+				<skill id="11530"/>	<!--Daring Sonata-->
+				<skill id="11532"/>	<!--Refreshing Sonata-->
+				<skill id="11565"/>	<!--Elemental Resistance-->
+				<skill id="11566"/>	<!--Holy Attack Resistance-->
+				<skill id="11567"/>	<!--Mental Attack Resistance-->
+			</skills>
+		</buff_set>
+		<buff_set id="2">
+			<name>
+				<en>For Berserker</en>
+				<ru>Берсерку</ru>
+			</name>
+			<skills>
+				<skill id="11524"/>	<!--Warrior's Harmony-->
+				<skill id="11517"/>	<!--Horn Melody-->
+				<skill id="11518"/>	<!--Drum Melody-->
+				<skill id="11519"/>	<!--Pipe Organ Melody-->
+				<skill id="11520"/>	<!--Guitar Melody-->
+				<skill id="11521"/>	<!--Harp Melody-->
+				<skill id="11522"/>	<!--Lute Melody-->
+				<skill id="11529"/>	<!--Prevailing Sonata-->
+				<skill id="11530"/>	<!--Daring Sonata-->
+				<skill id="11532"/>	<!--Refreshing Sonata-->
+				<skill id="11565"/>	<!--Elemental Resistance-->
+				<skill id="11566"/>	<!--Holy Attack Resistance-->
+				<skill id="11567"/>	<!--Mental Attack Resistance-->
+			</skills>
+		</buff_set>
+		<buff_set id="3">
+			<name>
+				<en>For Magic</en>
+				<ru>Магу</ru>
+			</name>
+			<skills>
+				<skill id="11525"/>	<!--Wizard's Harmony-->
+				<skill id="11517"/>	<!--Horn Melody-->
+				<skill id="11518"/>	<!--Drum Melody-->
+				<skill id="11519"/>	<!--Pipe Organ Melody-->
+				<skill id="11520"/>	<!--Guitar Melody-->
+				<skill id="11521"/>	<!--Harp Melody-->
+				<skill id="11522"/>	<!--Lute Melody-->
+				<skill id="11529"/>	<!--Prevailing Sonata-->
+				<skill id="11530"/>	<!--Daring Sonata-->
+				<skill id="11532"/>	<!--Refreshing Sonata-->
+				<skill id="11565"/>	<!--Elemental Resistance-->
+				<skill id="11566"/>	<!--Holy Attack Resistance-->
+				<skill id="11567"/>	<!--Mental Attack Resistance-->
+			</skills>
+		</buff_set>
+	</base_buff_sets>
+</list>

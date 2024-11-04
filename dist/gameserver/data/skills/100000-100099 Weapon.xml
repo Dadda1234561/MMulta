@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="100001" levels="3" name="Weapon Phys - NG">
+		<table name="#pAtk">50 100 150</table>
+		<table name="#pAtkSpd">30 40 50</table>
+		<table name="#crit">30 40 50</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="#pAtk"/>
+			<add stat="pAtkSpd" value="#pAtkSpd"/>
+			<add stat="basePCritRate" value="#crit"/>
+		</for>
+	</skill>
+	<skill id="100002" levels="3" name="Weapon Mage - NG">
+		<table name="#mAtk">100 200 300</table>
+		<table name="#mAtkSpd">100 200 300</table>
+		<table name="#mReuse">0.97 0.96 0.95</table>
+		<!-- <table name="#mCritRate">1.03 1.04 1.05</table> -->
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAtk" value="#mAtk"/>
+			<add stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="mReuse" value="#mReuse"/>
+			<!-- <mul stat="mCritRate" value="#mCritRate">
+				<using kind="Big Blunt"/>
+			</mul> -->
+		</for>
+	</skill>
+	<skill id="100003" levels="3" name="Weapon Phys - D">
+		<table name="#pAtk">200 250 300</table>
+		<table name="#pAtkSpd">1.05 1.05 1.05</table>
+		<table name="#crit">30 40 50</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<effect>
+				<add stat="pAtk" value="#pAtk"/>
+				<mul stat="pAtkSpd" value="#pAtkSpd"/>
+				<add stat="basePCritRate" value="#crit"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="100004" levels="3" name="Weapon Mage - D">
+		<table name="#mAtk">1.05 1.07 1.1</table>
+		<table name="#mAtkSpd">1.06 1.08 1.1</table>
+		<table name="#mReuse">0.97 0.96 0.96</table>
+		<!-- <table name="#p_magic_critical_dmg_per">5 7 8</table> -->
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="mReuse" value="#mReuse"/>
+			<!-- <p_magic_critical_dmg value="#p_magic_critical_dmg_per" type="PER"/> -->
+		</for>
+	</skill>
+	<skill id="100005" levels="3" name="Weapon Phys - C">
+		<table name="#pAtk">1.05 1.06 1.07</table>
+		<table name="#pAtkSpd">1.05 1.06 1.07</table>
+		<table name="#crit">50 60 60</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<add stat="basePCritRate" value="#crit"/>
+		</for>
+	</skill>
+	<skill id="100006" levels="3" name="Weapon Mage - C">
+		<table name="#mAtk">1.06 1.07 1.08</table>
+		<table name="#mAtkSpd">1.06 1.07 1.08</table>
+		<table name="#mReuse">0.96 0.95 0.95</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="mReuse" value="#mReuse"/>
+		</for>
+	</skill>
+	<skill id="100007" levels="3" name="Weapon Phys - B">
+		<table name="#pAtk">1.08 1.09 1.1</table>
+		<table name="#pAtkSpd">1.08 1.09 1.1</table>
+		<table name="#crit">60 60 60</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<add stat="basePCritRate" value="#crit"/>
+		</for>
+	</skill>
+	<skill id="100008" levels="3" name="Weapon Mage - B">
+		<table name="#mAtk">1.09 1.1 1.11</table>
+		<table name="#mAtkSpd">1.09 1.1 1.11</table>
+		<table name="#mReuse">0.95 0.94 0.93</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="mReuse" value="#mReuse"/>
+		</for>
+	</skill>
+	<skill id="100009" levels="3" name="Weapon Phys - A">
+		<table name="#pAtk">1.11 1.12 1.13</table>
+		<table name="#pAtkSpd">1.11 1.12 1.13</table>
+		<table name="#crit">60 60 60</table>
+		<table name="#CritRate">5 6 7</table>
+		<table name="#maxHp">1.05 1.06 1.07</table>
+		<table name="#pveDmg">1.05 1.06 1.07</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<add stat="basePCritRate" value="#crit"/>
+			<p_critical_damage value="#CritRate" type="PER"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDmg"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDmg"/>
+		</for>
+	</skill>
+	<skill id="100010" levels="3" name="Weapon Mage - A">
+		<table name="#mAtk">1.12 1.13 1.14</table>
+		<table name="#mAtkSpd">1.12 1.13 1.14</table>
+		<table name="#mReuse">0.92 0.91 0.9</table>
+		<table name="#maxHp">1.05 1.06 1.07</table>
+		<table name="#pveDmg">1.05 1.06 1.07</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="mReuse" value="#mReuse"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDmg"/>
+		</for>
+	</skill>
+	<skill id="100011" levels="3" name="Weapon Phys - S">
+		<table name="#pAtk">1.14 1.15 1.16</table>
+		<table name="#pAtkSpd">1.14 1.15 1.16</table>
+		<table name="#crit">60 60 60</table>
+		<table name="#CritRate">8 9 10</table>
+		<table name="#maxHp">1.08 1.09 1.1</table>
+		<table name="#pveDmg">1.08 1.09 1.1</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<add stat="basePCritRate" value="#crit"/>
+			<p_critical_damage value="#CritRate" type="PER"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDmg"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDmg"/>
+		</for>
+	</skill>
+	<skill id="100012" levels="3" name="Weapon Mage - S">
+		<table name="#mAtk">1.15 1.16 1.17</table>
+		<table name="#mAtkSpd">1.15 1.16 1.17</table>
+		<table name="#mReuse">0.9 0.9 0.9</table>
+		<table name="#maxHp">1.08 1.09 1.1</table>
+		<table name="#pveDmg">1.08 1.09 1.1</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="mReuse" value="#mReuse"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDmg"/>
+		</for>
+	</skill>
+	
+	<skill id="100013" levels="1" name="Weapon Phys - R">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtkSpd" value="1.33"/>
+			<mul stat="pAtk" value="1.55"/>
+		</for>
+	</skill>
+	<skill id="100014" levels="1" name="Weapon Mage - R">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.50"/>
+			<mul stat="mAtkSpd" value="1.33"/>
+			<mul stat="mSkillPower" value="1.10"/>
+		</for>
+	</skill>
+	<skill id="100015" levels="1" name="Weapon Phys - R95">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.6"/>
+			<mul stat="pAtkSpd" value="1.33"/>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="100016" levels="1" name="Weapon Mage - R95">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.50"/>
+			<mul stat="mAtkSpd" value="1.33"/>
+			<mul stat="mSkillPower" value="1.20"/>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="100017" levels="1" name="Weapon Phys - R99">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.65"/>
+			<mul stat="pAtkSpd" value="1.33"/>
+			<mul stat="pvpPhysDmgBonus" value="1.30"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.30"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.30"/>
+		</for>
+	</skill>
+	<skill id="100018" levels="1" name="Weapon Mage - R99">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.50"/>
+			<mul stat="mAtkSpd" value="1.33"/>
+			<mul stat="mSkillPower" value="1.30"/>
+			<mul stat="pvpPhysDmgBonus" value="1.30"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.30"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.30"/>
+		</for>
+	</skill>
+	<skill id="100019" levels="1" name="Weapon Phys - R99(PvP)">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="100020" levels="1" name="Weapon Mage - R99(PvP)">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="100021" levels="1" name="Weapon Phys - R99(PvE)">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="100022" levels="1" name="Weapon Mage - R99(PvE)">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="100023" levels="1" name="Weapon Phys - R110">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.2"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.2"/>
+			<mul stat="pvpPhysDmgBonus" value="1.2"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.2"/>
+			<mul stat="pvePhysDmgBonus" value="1.2"/>
+		</for>
+	</skill>
+	<skill id="100024" levels="1" name="Weapon Mage - R110">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.2"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.2"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.2"/>
+		</for>
+	</skill>
+
+	<skill id="100025" levels="11" name="Умение Оружия: Острие">
+		<set name="icon" value="icon.immortal_weapon_dagger"/>
+		<table name="#pAtk">1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14</table>
+		<table name="#powerPCritAtk">3 6 9 12 15 18 21 24 27 30 40</table>
+		<table name="#soulshot">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 1.15</table>
+		<table name="#pveDamage">1 1 1 1 1.05 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<table name="#pvpDamage">1 1 1 1 1 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<p_critical_damage value="#powerPCritAtk" type="PER"/>
+			<mul stat="soulshot_power" value="#soulshot"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+		</for>
+	</skill>
+	<skill id="100026" levels="11" name="Умение Оружия: Эспадон">
+		<set name="icon" value="icon.immortal_weapon_two_hand_sword"/>
+		<table name="#pAtk">1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14</table>
+		<table name="#powerPCritAtk">3 6 9 12 15 18 21 24 27 30 40</table>
+		<table name="#soulshot">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 1.15</table>
+		<table name="#pveDamage">1 1 1 1 1.05 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<table name="#pvpDamage">1 1 1 1 1 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<p_critical_damage value="#powerPCritAtk" type="PER"/>
+			<mul stat="soulshot_power" value="#soulshot"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+		</for>
+	</skill>
+	<skill id="100027" levels="11" name="Умение Оружия: Бросок">
+		<set name="icon" value="icon.immortal_weapon_bow"/>
+		<table name="#pAtk">1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14</table>
+		<table name="#powerPCritAtk">3 6 9 12 15 18 21 24 27 30 40</table>
+		<table name="#soulshot">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 1.15</table>
+		<table name="#pveDamage">1 1 1 1 1.05 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<table name="#pvpDamage">1 1 1 1 1 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<table name="#p_vampiric_attack_only_bow">3 4 5 6 7 8 9 10 11 12 13</table>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<p_critical_damage value="#powerPCritAtk" type="PER"/>
+			<mul stat="soulshot_power" value="#soulshot"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+			<p_vampiric_attack_only_bow value="#p_vampiric_attack_only_bow" chance="30"/>
+		</for>
+	</skill>
+	<skill id="100028" levels="11" name="Умение Оружия: Воитель">
+		<set name="icon" value="icon.immortal_weapon_dualfist"/>
+		<table name="#pAtk">1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14</table>
+		<table name="#powerPCritAtk">3 6 9 12 15 18 21 24 27 30 40</table>
+		<table name="#soulshot">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 1.15</table>
+		<table name="#pveDamage">1 1 1 1 1.05 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<table name="#pvpDamage">1 1 1 1 1 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<p_critical_damage value="#powerPCritAtk" type="PER"/>
+			<mul stat="soulshot_power" value="#soulshot"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+		</for>
+	</skill>
+	<skill id="100029" levels="11" name="Умение Оружия: Парные Кинжалы">
+		<set name="icon" value="icon.immortal_weapon_dagger"/>
+		<table name="#pAtk">1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14</table>
+		<table name="#powerPCritAtk">3 6 9 12 15 18 21 24 27 30 40</table>
+		<table name="#soulshot">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 1.15</table>
+		<table name="#pveDamage">1 1 1 1 1.05 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<table name="#pvpDamage">1 1 1 1 1 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<p_critical_damage value="#powerPCritAtk" type="PER"/>
+			<mul stat="soulshot_power" value="#soulshot"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+		</for>
+	</skill>
+	<skill id="100030" levels="11" name="Умение Оружия: Резак">
+		<set name="icon" value="icon.immortal_weapon_sword"/>
+		<table name="#pAtk">1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14</table>
+		<table name="#powerPCritAtk">3 6 9 12 15 18 21 24 27 30 40</table>
+		<table name="#soulshot">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 1.15</table>
+		<table name="#pveDamage">1 1 1 1 1.05 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<table name="#pvpDamage">1 1 1 1 1 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<p_critical_damage value="#powerPCritAtk" type="PER"/>
+			<mul stat="soulshot_power" value="#soulshot"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+		</for>
+	</skill>
+	<skill id="100031" levels="11" name="Умение Оружия: Парные Мечи">
+		<set name="icon" value="icon.immortal_weapon_dual_sword"/>
+		<table name="#pAtk">1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14 1.14</table>
+		<table name="#powerPCritAtk">3 6 9 12 15 18 21 24 27 30 40</table>
+		<table name="#soulshot">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 1.15</table>
+		<table name="#pveDamage">1 1 1 1 1.05 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<table name="#pvpDamage">1 1 1 1 1 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<p_critical_damage value="#powerPCritAtk" type="PER"/>
+			<mul stat="soulshot_power" value="#soulshot"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+		</for>
+	</skill>
+	<skill id="100032" levels="11" name="Умение Оружия: Расчленитель">
+		<set name="icon" value="icon.immortal_weapon_two_hand_staff"/>
+		<table name="#mAtk">1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21</table>
+		<table name="#powerMCritAtk">3 6 9 12 15 18 21 24 27 30 40</table>
+		<table name="#spiritshot_power">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 1.15</table>
+		<table name="#pveDamage">1 1 1 1 1.05 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<table name="#pvpDamage">1 1 1 1 1 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<p_magic_critical_dmg value="#powerMCritAtk" type="PER"/>
+			<mul stat="spiritshot_power" value="#spiritshot_power"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+		</for>
+	</skill>
+	<skill id="100033" levels="11" name="Умение Оружия: Возмездие">
+		<set name="icon" value="icon.immortal_weapon_staff"/>
+		<table name="#mAtk">1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21</table>
+		<table name="#powerMCritAtk">3 6 9 12 15 18 21 24 27 30 40</table>
+		<table name="#spiritshot_power">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 1.15</table>
+		<table name="#pveDamage">1 1 1 1 1.05 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<table name="#pvpDamage">1 1 1 1 1 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<p_magic_critical_dmg value="#powerMCritAtk" type="PER"/>
+			<mul stat="spiritshot_power" value="#spiritshot_power"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+		</for>
+	</skill>
+	<skill id="100034" levels="11" name="Умение Оружия: Парные Заклинатели">
+		<set name="icon" value="icon.immortal_weapon_staff"/>
+		<table name="#mAtk">1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21 1.21</table>
+		<table name="#powerMCritAtk">3 6 9 12 15 18 21 24 27 30 40</table>
+		<table name="#spiritshot_power">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10 1.15</table>
+		<table name="#pveDamage">1 1 1 1 1.05 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<table name="#pvpDamage">1 1 1 1 1 1.1 1.15 1.2 1.25 1.3 1.4</table>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<p_magic_critical_dmg value="#powerMCritAtk" type="PER"/>
+			<mul stat="spiritshot_power" value="#spiritshot_power"/>
+			<mul stat="pvePhysDmgBonus" value="#pveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDamage"/>
+			<mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+		</for>
+	</skill>
+</list>

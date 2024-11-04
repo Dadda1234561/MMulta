@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+    <npc id="40200" name="Beast Devourer" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="31"/>
+        <set name="collision_radius" value="27"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="2000000"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="629504"/>
+        <set name="baseHpMax" value="280750"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpMax" value="2781"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="288569"/>
+        <set name="basePDef" value="54881"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="64011"/>
+        <set name="baseMDef" value="18055"/>
+        <set name="baseWalkSpd" value="25"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="97351" min="1" max="1" chance="0.6"/>	<!-- снежинка -->
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="40201" name="Beast Devourer" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="31"/>
+        <set name="collision_radius" value="27"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="868728"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="88089"/>
+        <set name="baseHpMax" value="3820035.59060587002"/>
+        <set name="baseHpRate" value="2"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1777.4"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="basePAtk" value="3500099.42361669366"/>
+        <set name="basePDef" value="26053.86144"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="750.763809564873"/>
+        <set name="baseMDef" value="11810.94045"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="500"/>
+        <set name="shots" value="NONE"/>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="97351" min="1" max="1" chance="0.7"/>	<!-- снежинка -->
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="40202" name="Beast Devourer" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="31"/>
+        <set name="collision_radius" value="27"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="868728"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="88089"/>
+        <set name="baseHpMax" value="3820035.59060587002"/>
+        <set name="baseHpRate" value="2"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1777.4"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="basePAtk" value="3500099.42361669366"/>
+        <set name="basePDef" value="26053.86144"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="750.763809564873"/>
+        <set name="baseMDef" value="11810.94045"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="500"/>
+        <set name="shots" value="NONE"/>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="97351" min="1" max="1" chance="0.7"/>	<!-- снежинка -->
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="40203" name="Beast Devourer" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="31"/>
+        <set name="collision_radius" value="27"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="868728"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="88089"/>
+        <set name="baseHpMax" value="3820035.59060587002"/>
+        <set name="baseHpRate" value="2"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1777.4"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="basePAtk" value="3500099.42361669366"/>
+        <set name="basePDef" value="26053.86144"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="750.763809564873"/>
+        <set name="baseMDef" value="11810.94045"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="500"/>
+        <set name="shots" value="NONE"/>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="97351" min="1" max="1" chance="0.7"/>	<!-- снежинка -->
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="40204" name="Beast Devourer" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="31"/>
+        <set name="collision_radius" value="27"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="2000000"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="629504"/>
+        <set name="baseHpMax" value="280750"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpMax" value="2781"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="288569"/>
+        <set name="basePDef" value="54881"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="64011"/>
+        <set name="baseMDef" value="18055"/>
+        <set name="baseWalkSpd" value="25"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="97351" min="1" max="1" chance="0.6"/>	<!-- снежинка -->
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="40205" name="Beast Devourer" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="31"/>
+        <set name="collision_radius" value="27"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="2000000"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="629504"/>
+        <set name="baseHpMax" value="280750"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpMax" value="2781"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="288569"/>
+        <set name="basePDef" value="54881"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="64011"/>
+        <set name="baseMDef" value="18055"/>
+        <set name="baseWalkSpd" value="25"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="97351" min="1" max="1" chance="0.6"/>	<!-- снежинка -->
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="40206" name="Beast Devourer" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="31"/>
+        <set name="collision_radius" value="27"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="5559600"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="5003568"/>
+        <set name="baseHpMax" value="282184080.9219331"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="208"/>
+        <set name="baseMpMax" value="300.8"/>
+        <set name="baseMpReg" value="2.1"/>
+        <set name="baseSTR" value="164"/>
+        <set name="baseCON" value="111"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="188"/>
+        <set name="baseMEN" value="149"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="20636360"/>
+        <set name="basePDef" value="640000"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="8"/>
+        <set name="baseMDef" value="120000"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="97351" min="1" max="1" chance="0.8"/>	<!-- снежинка -->
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="40207" name="Beast Devourer" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="31"/>
+        <set name="collision_radius" value="27"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="5559600"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="5003568"/>
+        <set name="baseHpMax" value="282184080.9219331"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="208"/>
+        <set name="baseMpMax" value="300.8"/>
+        <set name="baseMpReg" value="2.1"/>
+        <set name="baseSTR" value="164"/>
+        <set name="baseCON" value="111"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="188"/>
+        <set name="baseMEN" value="149"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="20636360"/>
+        <set name="basePDef" value="640000"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="8"/>
+        <set name="baseMDef" value="120000"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="97351" min="1" max="1" chance="0.8"/>	<!-- снежинка -->
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="40208" name="Beast Devourer" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="31"/>
+        <set name="collision_radius" value="27"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="5559600"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="5003568"/>
+        <set name="baseHpMax" value="282184080.9219331"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="208"/>
+        <set name="baseMpMax" value="300.8"/>
+        <set name="baseMpReg" value="2.1"/>
+        <set name="baseSTR" value="164"/>
+        <set name="baseCON" value="111"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="188"/>
+        <set name="baseMEN" value="149"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="20636360"/>
+        <set name="basePDef" value="640000"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="8"/>
+        <set name="baseMDef" value="120000"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="97351" min="1" max="1" chance="0.8"/>	<!-- снежинка -->
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="40209" name="Руви" title="Благословенная Тайнами">
+        <set name="type" value="RuviBless"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="collision_height" value="29.4"/>
+        <set name="collision_radius" value="16.8"/>
+        <set name="level" value="70"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="2444.46819"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpMax" value="1345.8"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="castle_id" value="3"/>
+        <client_skills>
+            <skill id="4416" level="18"/>	<!--Dwarves-->
+        </client_skills>
+    </npc>
+    <npc id="40210" name="Монумент Забытого Мира" title="">
+        <set name="type" value="MonumentOldWorld"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="collision_height" value="29.4"/>
+        <set name="collision_radius" value="16.8"/>
+        <set name="level" value="70"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="2444.46819"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpMax" value="1345.8"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="castle_id" value="3"/>
+    </npc>
+    <npc id="40211" name="Лорд Рэйс" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="57"/>
+        <set name="collision_radius" value="24"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="868728"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="88089"/>
+        <set name="baseHpMax" value="3820035.59060587002"/>
+        <set name="baseHpRate" value="2"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1777.4"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="basePAtk" value="3500099.42361669366"/>
+        <set name="basePDef" value="26053.86144"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="750.763809564873"/>
+        <set name="baseMDef" value="11810.94045"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="FIST"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="500"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="baseDamageRange" value="0;0;80;120"/>
+        <faction names="dragon_in_clan" range="500"/>
+        <ai_params>
+            <set name="unsowing" value="false"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="9"/>	<!--Demons-->
+            <skill id="5467" level="1"/>	<!--Dark Attacks-->
+            <skill id="4408" level="10"/>	<!--HP Increase (2x)-->
+            <skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+            <skill id="4410" level="11"/>	<!--Average P. Atk.-->
+            <skill id="4411" level="11"/>	<!--Average M. Atk.-->
+            <skill id="4412" level="11"/>	<!--Average P. Def.-->
+            <skill id="4413" level="11"/>	<!--Average M. Def.-->
+            <skill id="4414" level="2"/>	<!--Standard Type-->
+            <skill id="4415" level="3"/>	<!--One-handed Sword-->
+            <skill id="4045" level="1"/>	<!--Full Magic Attack Resistance-->
+            <skill id="5598" level="12"/>	<!--Petrification Resistance-->
+            <skill id="6771" level="1" use_type="Skill01_ID"/>	<!--Death Strike-->
+            <skill id="6772" level="1" use_type="Skill02_ID"/>	<!--Power Strike-->
+            <skill id="6773" level="1" use_type="Skill03_ID"/>	<!--Rage-->
+        </skills>
+        <attributes>
+            <attack attribute="unholy" value="270"/>
+        </attributes>
+    </npc>
+    <npc id="40212" name="Громгард" title="Главный Исследователь">
+        <set name="type" value="Gromard"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="collision_height" value="29.4"/>
+        <set name="collision_radius" value="16.8"/>
+        <set name="level" value="70"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="2444.46819"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpMax" value="1345.8"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="castle_id" value="3"/>
+    </npc>
+    <npc id="40213" name="Кристалл Многоликих Светов" title="">
+        <set name="type" value="CrystalManyColors"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="collision_height" value="40.69"/>
+        <set name="collision_radius" value="16.675"/>
+        <set name="level" value="70"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="2444.46819"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpMax" value="1345.8"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="castle_id" value="3"/>
+    </npc>
+    <npc id="10000" name="агатион птичка" title="">
+        <set name="type" value="Npc"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="collision_height" value="45"/>
+        <set name="collision_radius" value="16.38"/>
+        <set name="level" value="70"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="2444.46819"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpMax" value="1345.8"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseSTR" value="88"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="baseMCritRate" value="50"/>
+        <set name="basePAtk" value="688.86373"/>
+        <set name="basePDef" value="295.91597"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="470.40463"/>
+        <set name="baseMDef" value="216.53847"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <set name="castle_id" value="3"/>
+        <ai_params>
+            <set name="unsowing" value="false"/>
+            <set name="attackable" value="false"/>
+        </ai_params>
+    </npc>
+</list>

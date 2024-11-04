@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+    <skill id="45191" levels="3" name="STR Increase Bonus">
+        <table name="#pAtk">1.03 1.03 1.03</table>
+        <table name="#powerPCritAtk">0 5 5</table>
+        <table name="#PvePAtk">1 1 1.05</table>
+        <set name="icon" value="icon.statbonus_str"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#pAtk"/>
+            <p_critical_damage value="#powerPCritAtk" type="PER"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PvePAtk"/>
+            <mul stat="pvePhysDmgBonus" value="#PvePAtk"/>
+        </for>
+    </skill>
+    <skill id="45192" levels="3" name="INT Increase Bonus">
+        <table name="#mAtk">1.05 1.05 1.05</table>
+        <table name="#powerMCritAtk">0 5 5</table>
+        <table name="#pveMAtk">1 1 1.05</table>
+        <set name="icon" value="icon.statbonus_int"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mAtk" value="#mAtk"/>
+            <p_magic_critical_dmg value="#powerMCritAtk" type="PER"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#pveMAtk"/>
+        </for>
+    </skill>
+    <skill id="45193" levels="3" name="DEX Increase Bonus">
+        <table name="#pAtkSpeed">1.1 1.1 1.1</table>
+        <table name="#chancePCritAtk">0 100 100</table>
+        <table name="#soulShotAtk">1 1 1.05</table>
+        <set name="icon" value="icon.statbonus_dex"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtkSpd" value="#pAtkSpeed"/>
+            <add stat="basePCritRate" value="#chancePCritAtk"/>
+            <mul stat="soulshot_power" value="#soulShotAtk"/>
+        </for>
+    </skill>
+    <skill id="45194" levels="3" name="WIT Increase Bonus">
+        <table name="#mAtkSpeed">1.1 1.1 1.1</table>
+        <table name="#chanceMCritAtk">0 100 100</table>
+        <table name="#spiritShotAtk">1 1 1.05</table>
+        <set name="icon" value="icon.statbonus_wit"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mAtkSpd" value="#mAtkSpeed"/>
+            <add stat="baseMCritRate" value="#chanceMCritAtk"/>
+            <mul stat="spiritshot_power" value="#spiritShotAtk"/>
+        </for>
+    </skill>
+    <skill id="45195" levels="3" name="CON Increase Bonus">
+        <table name="#pDef">1.05 1.05 1.05</table>
+        <table name="#pEvas">0 10 10</table>
+        <table name="#pvpPDef">1 1 1.1</table>
+        <set name="icon" value="icon.statbonus_con"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="1.05"/>
+            <add stat="pEvasRate" value="10"/>
+            <mul stat="pvpPhysDefenceBonus" value="#pvpPDef"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#pvpPDef"/>
+        </for>
+    </skill>
+    <skill id="45196" levels="3" name="MEN Increase Bonus">
+        <table name="#mDef">1.05 1.05 1.05</table>
+        <table name="#mEvas">0 10 10</table>
+        <table name="#pvpMDef">1 1 1.1</table>
+        <set name="icon" value="icon.statbonus_men"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mDef" value="1.05"/>
+            <add stat="mEvasRate" value="10"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#pvpMDef"/>
+        </for>
+    </skill>
+</list>

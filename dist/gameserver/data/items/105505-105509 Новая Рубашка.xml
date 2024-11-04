@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <!--
+        Shirt
+    -->
+    <armor id="105505" name="Рубашка Эйнхасад">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.ainhasard_shirt"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="130"/>
+
+        <equip>
+            <slot id="UNDERWEAR"/>
+        </equip>
+        <skills>
+            <skill id="120001" level="1"/>
+        </skills>
+        <for>
+            <add stat="pDef" order="0x10" value="28"/>
+        </for>
+    </armor>
+
+    <armor id="105506" name="Рубашка Эйнхасад">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.ainhasard_shirt_4"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="130"/>
+
+        <equip>
+            <slot id="UNDERWEAR"/>
+        </equip>
+        <skills>
+            <skill id="120001" level="2"/>
+        </skills>
+        <for>
+            <add stat="pDef" order="0x10" value="28"/>
+        </for>
+    </armor>
+
+    <armor id="105507" name="Рубашка Эйнхасад">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.ainhasard_shirt_5"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="130"/>
+
+        <equip>
+            <slot id="UNDERWEAR"/>
+        </equip>
+        <skills>
+            <skill id="120001" level="3"/>
+        </skills>
+        <for>
+            <add stat="pDef" order="0x10" value="28"/>
+        </for>
+    </armor>
+
+    <armor id="105508" name="Рубашка Эйнхасад">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.ainhasard_shirt_3"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="130"/>
+
+        <equip>
+            <slot id="UNDERWEAR"/>
+        </equip>
+        <skills>
+            <skill id="120001" level="4"/>
+        </skills>
+        <for>
+            <add stat="pDef" order="0x10" value="28"/>
+        </for>
+    </armor>
+
+    <armor id="105509" name="Рубашка Эйнхасад">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.ainhasard_shirt_2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="130"/>
+
+        <equip>
+            <slot id="UNDERWEAR"/>
+        </equip>
+        <skills>
+            <skill id="120001" level="5"/>
+        </skills>
+        <for>
+            <add stat="pDef" order="0x10" value="28"/>
+        </for>
+    </armor>
+</list>

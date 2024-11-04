@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <weapon id="82242" name="Оружие Монстров - Посох Амура">
+        <set name="icon" value="icon.weapon_icarus_disperser_i00"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="3310"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="1520"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="1"/>
+            <add stat="mAtk" order="0x10" value="1"/>
+        </for>
+    </weapon>
+
+    <etcitem id="82265" name="Кристалл Души Терси - Ур. 1 / Tersi's Soul Crystal Lv. 1">
+        <set name="icon" value="icon.ensoul_stone_tersi"/>
+        <set name="sellable" value="false"/>
+        <set name="weight" value="20"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="handler" value="EnsoulStone"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+    <etcitem id="82266" name="Кристалл Души Терси - Ур. 2 / Tersi's Soul Crystal Lv. 2">
+        <set name="icon" value="icon.ensoul_stone_tersi"/>
+        <set name="sellable" value="false"/>
+        <set name="weight" value="20"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="handler" value="EnsoulStone"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+    <etcitem id="82267" name="Кристалл Души Терси - Ур. 3 / Tersi's Soul Crystal Lv. 3">
+        <set name="icon" value="icon.ensoul_stone_tersi"/>
+        <set name="sellable" value="false"/>
+        <set name="weight" value="20"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="handler" value="EnsoulStone"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+    <etcitem id="82268" name="Кристалл Души Терси - Ур. 4 / Tersi's Soul Crystal Lv. 4">
+        <set name="icon" value="icon.ensoul_stone_tersi"/>
+        <set name="sellable" value="false"/>
+        <set name="weight" value="20"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="handler" value="EnsoulStone"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+    <etcitem id="82269" name="Кристалл Души Терси - Ур. 5 / Tersi's Soul Crystal Lv. 5">
+        <set name="icon" value="icon.ensoul_stone_tersi"/>
+        <set name="sellable" value="false"/>
+        <set name="weight" value="20"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="handler" value="EnsoulStone"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+    <etcitem id="82270" name="Кристалл Души Терси - Ур. 6 / Tersi's Soul Crystal Lv. 6">
+        <set name="icon" value="icon.ensoul_stone_tersi"/>
+        <set name="sellable" value="false"/>
+        <set name="weight" value="20"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="handler" value="EnsoulStone"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+    <etcitem id="82271" name="Кристалл Души Терси - Ур. 7 / Tersi's Soul Crystal Lv. 7">
+        <set name="icon" value="icon.ensoul_stone_tersi"/>
+        <set name="sellable" value="false"/>
+        <set name="weight" value="20"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="handler" value="EnsoulStone"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+    <etcitem id="82272" name="Кристалл Души Терси - Ур. 8 / Tersi's Soul Crystal Lv. 8">
+        <set name="icon" value="icon.ensoul_stone_tersi"/>
+        <set name="sellable" value="false"/>
+        <set name="weight" value="20"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="handler" value="EnsoulStone"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+    <etcitem id="82273" name="Кристалл Души Терси - Ур. 9 / Tersi's Soul Crystal Lv. 9">
+        <set name="icon" value="icon.ensoul_stone_tersi"/>
+        <set name="sellable" value="false"/>
+        <set name="weight" value="20"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="handler" value="EnsoulStone"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+    <etcitem id="82274" name="Кристалл Души Терси - Ур. 10 / Tersi's Soul Crystal Lv. 10">
+        <set name="icon" value="icon.ensoul_stone_tersi"/>
+        <set name="sellable" value="false"/>
+        <set name="weight" value="20"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="handler" value="EnsoulStone"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+
+</list>

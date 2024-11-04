@@ -1,0 +1,3347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!-- AUTHOR: Edoo -->
+<list>
+<spawn group="schuttgart_castle_mass_gatekeeper" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77564" y="-150504" z="771" h="45000"/>
+		<npc id="35547"/><!--Group Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="77795" y="-153326" z="-514" h="14662" />
+		<npc id="35557" /><!--Kendrew-->
+	</spawn>
+		<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_light_side">
+		<point x="77488" y="-153360" z="-390" h="16500"/>
+		<npc id="35555"/><!--Chamberlain of Light-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_dark_side">
+		<point x="77488" y="-153360" z="-390" h="16500"/>
+		<npc id="36661"/><!--Chamberlain of Darkness-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="77804" y="-147213" z="-480" h="26688"/>
+		<npc id="35559"/><!--Daguerre-->
+	</spawn>
+		<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="77105" y="-152827" z="-907" h="0"/>
+		<npc id="35553"/><!--Blacksmith-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="77906" y="-152872" z="-934" h="0"/>
+		<npc id="35554"/><!--Warehouse Keeper-->
+	</spawn>
+		<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="77314" y="-153361" z="-539" h="7271"/>
+		<npc id="35656"/><!--Court Magician-->
+	</spawn>
+		<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="77554" y="-152972" z="-904" h="16384"/>
+		<npc id="36411"/><!--Warden-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="77568" y="-153296" z="1226" h="48792"/>
+		<npc id="35556"/><!--Gallic-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="76400" y="-153052" z="1043" h="16500"/>
+		<npc id="35551"/><!--Doorman  -->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="76352" y="-153216" z="1051" h="49000"/>
+		<npc id="35551"/><!--Doorman  -->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="78712" y="-153056" z="1043" h="16500"/>
+		<npc id="35552"/><!--Doorman  -->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="78764" y="-153216" z="1051" h="49000"/>
+		<npc id="35552"/><!--Doorman  -->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="79392" y="-152160" z="-656" h="0"/>
+		<npc id="35550"/><!--Inner Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="79104" y="-152144" z="-656" h="33000"/>
+		<npc id="35550"/><!--Inner Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="77350" y="-149735" z="-353" h="57344"/>
+		<npc id="35548"/><!--Outer Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="77381" y="-149411" z="-353" h="16384"/>
+		<npc id="35548"/><!--Outer Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="75731" y="-152159" z="-678" h="30710"/>
+		<npc id="35549"/><!--Inner Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="schuttgart_castle_9">
+		<point x="76006" y="-152166" z="-678" h="62180"/>
+		<npc id="35549"/><!--Inner Doorman-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege_artefact" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="76668" y="-154520" z="226" h="0"/>
+		<npc id="35515"/><!--Holy Artefact-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege_artefact" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78446" y="-154524" z="227" h="0"/>
+		<npc id="35514"/><!--Holy Artefact-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79161" y="-151846" z="129" h="4216"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79217" y="-151818" z="129" h="4976"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79131" y="-151837" z="128" h="4376"/>
+		<npc id="35531"/><!--Рыцарь Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79143" y="-151809" z="129" h="4216"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79150" y="-151881" z="129" h="4376"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79112" y="-151796" z="129" h="4376"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79186" y="-151867" z="129" h="4376"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79137" y="-151782" z="129" h="4376"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79188" y="-151836" z="129" h="4216"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79170" y="-151799" z="129" h="4216"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79213" y="-151854" z="129" h="4376"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79170" y="-151766" z="129" h="4376"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79240" y="-151841" z="129" h="4376"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79200" y="-151753" z="129" h="4376"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79199" y="-151784" z="129" h="4976"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79265" y="-151829" z="129" h="4376"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_20" count="1" respawn="10800">
+		<point x="79226" y="-151744" z="129" h="4376"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="75973" y="-151985" z="128" h="28872"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="75986" y="-151958" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="75961" y="-152013" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76007" y="-151984" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76007" y="-152025" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76013" y="-152063" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76051" y="-152039" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="75973" y="-152049" z="128" h="0"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76094" y="-151736" z="128" h="28872"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76107" y="-151709" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76082" y="-151764" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76117" y="-151766" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76149" y="-151746" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76185" y="-151726" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76193" y="-151768" z="128" h="28496"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_21" count="1" respawn="10800">
+		<point x="76137" y="-151721" z="128" h="0"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="79017" y="-151747" z="128" h="5320"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="79030" y="-151774" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="79003" y="-151720" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="78997" y="-151774" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="78964" y="-151748" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="78932" y="-151728" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="78927" y="-151773" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="78968" y="-151706" z="128" h="-23552"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="79133" y="-151998" z="128" h="5320"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="79146" y="-152025" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="79119" y="-151972" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="79095" y="-151997" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="79090" y="-152035" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="79083" y="-152075" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="79045" y="-152055" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_22" count="1" respawn="10800">
+		<point x="79117" y="-152041" z="128" h="-23552"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79594" y="-149742" z="-12" h="-11872"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79565" y="-149782" z="-12" h="-11872"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79545" y="-149815" z="-12" h="-11872"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79499" y="-149886" z="-12" h="-11872"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79472" y="-149927" z="-12" h="-11872"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79442" y="-149970" z="-12" h="-11872"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79522" y="-149851" z="-12" h="-12120"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79413" y="-149790" z="-12" h="20648"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79497" y="-149676" z="-12" h="20648"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79333" y="-149904" z="-12" h="20648"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79469" y="-149714" z="-12" h="20648"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79442" y="-149755" z="-12" h="20648"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79388" y="-149829" z="-12" h="20648"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_12" count="1" respawn="10800">
+		<point x="79361" y="-149867" z="-12" h="20648"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74770" y="-151078" z="-12" h="22512"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74747" y="-151117" z="-12" h="27680"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74847" y="-151098" z="-12" h="12768"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74795" y="-151212" z="-12" h="42944"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74729" y="-151163" z="-12" h="35248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74760" y="-151188" z="-12" h="42688"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74833" y="-151238" z="-12" h="42688"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74806" y="-151084" z="-12" h="12600"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74890" y="-151115" z="-12" h="12600"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74770" y="-151078" z="-12" h="22512"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74747" y="-151117" z="-12" h="27680"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74847" y="-151098" z="-12" h="12768"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74795" y="-151212" z="-12" h="42944"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74729" y="-151163" z="-12" h="35248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74760" y="-151188" z="-12" h="42688"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74833" y="-151238" z="-12" h="42688"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74806" y="-151084" z="-12" h="12600"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_13" count="1" respawn="10800">
+		<point x="74890" y="-151115" z="-12" h="12600"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80382" y="-151164" z="-12" h="-160"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80366" y="-151117" z="-12" h="5008"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80319" y="-151210" z="-12" h="-9904"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80256" y="-151101" z="-12" h="20272"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80338" y="-151076" z="-12" h="12576"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80298" y="-151087" z="-12" h="20016"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80214" y="-151117" z="-12" h="20016"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80356" y="-151186" z="-12" h="-10072"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80280" y="-151235" z="-12" h="-10072"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80382" y="-151164" z="-12" h="-160"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80366" y="-151117" z="-12" h="5008"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80319" y="-151210" z="-12" h="-9904"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80256" y="-151101" z="-12" h="20272"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80338" y="-151076" z="-12" h="12576"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80298" y="-151087" z="-12" h="20016"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80214" y="-151117" z="-12" h="20016"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80356" y="-151186" z="-12" h="-10072"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_14" count="1" respawn="10800">
+		<point x="80280" y="-151235" z="-12" h="-10072"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_15" count="1" respawn="10800">
+		<point x="74510" y="-151786" z="-12" h="82856"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_15" count="1" respawn="10800">
+		<point x="74572" y="-151793" z="-12" h="82856"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_15" count="1" respawn="10800">
+		<point x="74603" y="-151796" z="-12" h="82856"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_15" count="1" respawn="10800">
+		<point x="74541" y="-151789" z="-12" h="82856"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_15" count="1" respawn="10800">
+		<point x="74632" y="-151799" z="-12" h="82856"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_15" count="1" respawn="10800">
+		<point x="74466" y="-151869" z="-12" h="30112"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_15" count="1" respawn="10800">
+		<point x="74477" y="-151832" z="-12" h="29320"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_15" count="1" respawn="10800">
+		<point x="74487" y="-151799" z="-12" h="29112"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_16" count="1" respawn="10800">
+		<point x="80625" y="-151804" z="-12" h="2224"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_16" count="1" respawn="10800">
+		<point x="80610" y="-151785" z="-12" h="17688"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_16" count="1" respawn="10800">
+		<point x="80633" y="-151836" z="-12" h="4224"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_16" count="1" respawn="10800">
+		<point x="80548" y="-151792" z="-12" h="17832"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_16" count="1" respawn="10800">
+		<point x="80518" y="-151796" z="-12" h="17744"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_16" count="1" respawn="10800">
+		<point x="80579" y="-151789" z="-12" h="17576"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_16" count="1" respawn="10800">
+		<point x="80488" y="-151799" z="-12" h="17576"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_16" count="1" respawn="10800">
+		<point x="80642" y="-151870" z="-12" h="4016"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75687" y="-152414" z="-649" h="32768"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75688" y="-152324" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75769" y="-152369" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75771" y="-152328" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75771" y="-152285" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75772" y="-152245" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75689" y="-152241" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75687" y="-152369" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75729" y="-152368" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75730" y="-152327" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75731" y="-152284" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75731" y="-152244" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75688" y="-152284" z="-649" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75726" y="-152412" z="-649" h="32768"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75767" y="-152409" z="-649" h="32768"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75690" y="-152203" z="-649" h="32768"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75732" y="-152205" z="-649" h="32768"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_17" count="1" respawn="10800">
+		<point x="75772" y="-152205" z="-649" h="32768"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79331" y="-152410" z="-649" h="0"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79332" y="-152320" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79414" y="-152366" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79416" y="-152324" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79416" y="-152281" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79417" y="-152241" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79334" y="-152238" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79331" y="-152365" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79373" y="-152365" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79375" y="-152323" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79376" y="-152280" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79376" y="-152240" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79333" y="-152280" z="-649" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79371" y="-152408" z="-649" h="0"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79411" y="-152405" z="-649" h="0"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79334" y="-152200" z="-649" h="0"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79377" y="-152202" z="-649" h="0"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_18" count="1" respawn="10800">
+		<point x="79417" y="-152202" z="-649" h="0"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75964" y="-151810" z="129" h="27944"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75906" y="-151785" z="129" h="28704"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75976" y="-151839" z="128" h="28104"/>
+		<npc id="35531"/><!--Рыцарь Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75948" y="-151847" z="129" h="27944"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75997" y="-151795" z="129" h="28104"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75957" y="-151880" z="129" h="28104"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75964" y="-151778" z="129" h="28104"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75931" y="-151870" z="129" h="28104"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75938" y="-151796" z="129" h="27944"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75922" y="-151834" z="129" h="27944"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75936" y="-151765" z="129" h="28104"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75897" y="-151855" z="129" h="28104"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75909" y="-151753" z="129" h="28104"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75868" y="-151840" z="129" h="28104"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75892" y="-151821" z="129" h="28704"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75884" y="-151741" z="129" h="28104"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_19" count="1" respawn="10800">
+		<point x="75844" y="-151827" z="129" h="28104"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_30" count="1" respawn="10800">
+		<point x="75876" y="-154183" z="388" h="0"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_30" count="1" respawn="10800">
+		<point x="75876" y="-154221" z="388" h="0"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_30" count="1" respawn="10800">
+		<point x="75876" y="-154261" z="388" h="0"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_30" count="1" respawn="10800">
+		<point x="75876" y="-154302" z="388" h="0"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_30" count="1" respawn="10800">
+		<point x="75876" y="-154340" z="388" h="0"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_30" count="1" respawn="10800">
+		<point x="75876" y="-154380" z="388" h="0"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_30" count="1" respawn="10800">
+		<point x="75876" y="-154420" z="388" h="0"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_30" count="1" respawn="10800">
+		<point x="75876" y="-154460" z="388" h="0"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_31" count="1" respawn="10800">
+		<point x="76326" y="-154925" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_31" count="1" respawn="10800">
+		<point x="76374" y="-154925" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_31" count="1" respawn="10800">
+		<point x="76420" y="-154925" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_31" count="1" respawn="10800">
+		<point x="76471" y="-154925" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_31" count="1" respawn="10800">
+		<point x="76518" y="-154925" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_31" count="1" respawn="10800">
+		<point x="76565" y="-154925" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_31" count="1" respawn="10800">
+		<point x="76614" y="-154925" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_31" count="1" respawn="10800">
+		<point x="76663" y="-154925" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_32" count="1" respawn="10800">
+		<point x="76329" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_32" count="1" respawn="10800">
+		<point x="76378" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_32" count="1" respawn="10800">
+		<point x="76424" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_32" count="1" respawn="10800">
+		<point x="76474" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_32" count="1" respawn="10800">
+		<point x="76521" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_32" count="1" respawn="10800">
+		<point x="76569" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_32" count="1" respawn="10800">
+		<point x="76617" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_32" count="1" respawn="10800">
+		<point x="76666" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="79025" y="-154340" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="78965" y="-154303" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="79005" y="-154303" z="126" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="79046" y="-154303" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="79085" y="-154303" z="126" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="79124" y="-154303" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="79166" y="-154303" z="126" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="78915" y="-154307" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="79048" y="-154373" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="79135" y="-154375" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="78965" y="-154269" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="78966" y="-154236" z="126" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="78967" y="-154205" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="78968" y="-154172" z="126" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78975" y="-154340" z="128" h="16384"/>
+		<npc id="35518"/><!--Рыцарь Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="79095" y="-154373" z="128" h="16384"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="79002" y="-154373" z="128" h="16408"/>
+		<npc id="35516"/><!--Верус - Сэр-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="79065" y="-154340" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="79106" y="-154340" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="79148" y="-154340" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="78928" y="-154340" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="78916" y="-154272" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="10800">
+		<point x="78917" y="-154234" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78951" y="-154370" z="128" h="16384"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78706" y="-154586" z="128" h="40"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78703" y="-154460" z="128" h="40"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78773" y="-154551" z="128" h="40"/>
+		<npc id="35518"/><!--Рыцарь Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78773" y="-154487" z="128" h="40"/>
+		<npc id="35518"/><!--Рыцарь Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78735" y="-154539" z="128" h="40"/>
+		<npc id="35520"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78735" y="-154499" z="128" h="40"/>
+		<npc id="35520"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78773" y="-154599" z="128" h="40"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78735" y="-154584" z="128" h="40"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78735" y="-154624" z="128" h="40"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78736" y="-154665" z="128" h="40"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78736" y="-154706" z="128" h="40"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78734" y="-154332" z="128" h="40"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78734" y="-154372" z="128" h="40"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78735" y="-154414" z="128" h="40"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78735" y="-154455" z="128" h="40"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78706" y="-154647" z="128" h="40"/>
+		<npc id="35519"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78702" y="-154391" z="128" h="40"/>
+		<npc id="35519"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78773" y="-154643" z="128" h="40"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78773" y="-154689" z="128" h="40"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78773" y="-154732" z="128" h="40"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78771" y="-154308" z="128" h="40"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78771" y="-154351" z="128" h="40"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78771" y="-154398" z="128" h="40"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_33" count="1" respawn="5">
+		<point x="78771" y="-154440" z="128" h="40"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_23" count="1" respawn="10800">
+		<point x="76576" y="-151210" z="128" h="16832"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_23" count="1" respawn="10800">
+		<point x="76766" y="-151088" z="128" h="16832"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_23" count="1" respawn="10800">
+		<point x="76615" y="-151182" z="128" h="16832"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_23" count="1" respawn="10800">
+		<point x="76652" y="-151159" z="128" h="16832"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_23" count="1" respawn="10800">
+		<point x="76692" y="-151134" z="128" h="16832"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_23" count="1" respawn="10800">
+		<point x="76728" y="-151111" z="128" h="16832"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_24" count="1" respawn="10800">
+		<point x="78371" y="-151101" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_24" count="1" respawn="10800">
+		<point x="78561" y="-151223" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_24" count="1" respawn="10800">
+		<point x="78412" y="-151125" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_24" count="1" respawn="10800">
+		<point x="78449" y="-151148" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_24" count="1" respawn="10800">
+		<point x="78488" y="-151174" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_24" count="1" respawn="10800">
+		<point x="78524" y="-151197" z="128" h="4944"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_25" count="1" respawn="10800">
+		<point x="76885" y="-151441" z="129" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_25" count="1" respawn="10800">
+		<point x="76910" y="-151391" z="129" h="22016"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_25" count="1" respawn="10800">
+		<point x="76782" y="-151482" z="129" h="23072"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_25" count="1" respawn="10800">
+		<point x="76829" y="-151507" z="129" h="23072"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_25" count="1" respawn="10800">
+		<point x="76902" y="-151516" z="129" h="23072"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_25" count="1" respawn="10800">
+		<point x="76917" y="-151446" z="129" h="23072"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_25" count="1" respawn="10800">
+		<point x="76834" y="-151477" z="129" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_25" count="1" respawn="10800">
+		<point x="76866" y="-151511" z="129" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_25" count="1" respawn="10800">
+		<point x="76910" y="-151480" z="129" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_25" count="1" respawn="10800">
+		<point x="76876" y="-151477" z="129" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_26" count="1" respawn="10800">
+		<point x="78290" y="-151478" z="129" h="11184"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_26" count="1" respawn="10800">
+		<point x="78346" y="-151480" z="129" h="10128"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_26" count="1" respawn="10800">
+		<point x="78210" y="-151401" z="129" h="11184"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_26" count="1" respawn="10800">
+		<point x="78206" y="-151455" z="129" h="11184"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_26" count="1" respawn="10800">
+		<point x="78229" y="-151525" z="129" h="11184"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_26" count="1" respawn="10800">
+		<point x="78299" y="-151509" z="129" h="11184"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_26" count="1" respawn="10800">
+		<point x="78236" y="-151446" z="129" h="11184"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_26" count="1" respawn="10800">
+		<point x="78218" y="-151490" z="129" h="11184"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_26" count="1" respawn="10800">
+		<point x="78265" y="-151517" z="129" h="11184"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_26" count="1" respawn="10800">
+		<point x="78254" y="-151485" z="129" h="11184"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77162" y="-153811" z="-397" h="-26544"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77179" y="-154085" z="-395" h="23072"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77214" y="-153938" z="-396" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77133" y="-153793" z="-397" h="-26544"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77101" y="-153774" z="-397" h="-26544"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77071" y="-153756" z="-397" h="-26544"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77044" y="-153740" z="-397" h="-26544"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77015" y="-153721" z="-397" h="-26544"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77192" y="-154029" z="-395" h="23072"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77208" y="-153968" z="-395" h="23072"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77223" y="-153909" z="-395" h="23072"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77250" y="-153942" z="-395" h="23072"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77236" y="-154003" z="-395" h="23072"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77223" y="-154064" z="-395" h="23072"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77197" y="-154001" z="-396" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77183" y="-154060" z="-396" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77215" y="-154098" z="-396" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77261" y="-153906" z="-396" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77273" y="-153969" z="-396" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_27" count="1" respawn="10800">
+		<point x="77254" y="-154038" z="-396" h="23072"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="78094" y="-153720" z="-397" h="-15104"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="78065" y="-153738" z="-397" h="-15104"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="78034" y="-153758" z="-397" h="-15104"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="78003" y="-153776" z="-397" h="-15104"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77977" y="-153794" z="-397" h="-15104"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77947" y="-153811" z="-397" h="-15104"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77869" y="-153917" z="-395" h="-96"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77911" y="-154063" z="-396" h="-96"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77886" y="-153973" z="-395" h="-96"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77902" y="-154033" z="-395" h="-96"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77918" y="-154092" z="-395" h="-96"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77879" y="-154077" z="-395" h="-96"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77860" y="-154017" z="-395" h="-96"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77842" y="-153957" z="-395" h="-96"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77895" y="-154000" z="-396" h="-96"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77878" y="-153941" z="-396" h="-96"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77831" y="-153924" z="-396" h="-96"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77886" y="-154114" z="-396" h="-96"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77845" y="-154064" z="-396" h="-96"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_28" count="1" respawn="10800">
+		<point x="77827" y="-153995" z="-396" h="-96"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="75967" y="-154332" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="75947" y="-154286" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="75987" y="-154286" z="126" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76027" y="-154286" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76066" y="-154286" z="126" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76105" y="-154286" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76147" y="-154286" z="126" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76189" y="-154295" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="75950" y="-154366" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76062" y="-154366" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76147" y="-154254" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76147" y="-154222" z="126" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76149" y="-154190" z="126" h="16384"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76149" y="-154158" z="126" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76142" y="-154332" z="128" h="16384"/>
+		<npc id="35518"/><!--Рыцарь Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76168" y="-154364" z="128" h="16384"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76112" y="-154366" z="128" h="16408"/>
+		<npc id="35517"/><!--Свэн Кен Орвен - Граф-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76007" y="-154332" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76048" y="-154332" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76089" y="-154332" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76195" y="-154333" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76190" y="-154260" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="10800">
+		<point x="76191" y="-154222" z="128" h="16384"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76005" y="-154364" z="128" h="16384"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76415" y="-154449" z="128" h="32768"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76418" y="-154575" z="128" h="32768"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76348" y="-154483" z="128" h="32768"/>
+		<npc id="35518"/><!--Рыцарь Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76348" y="-154548" z="128" h="32768"/>
+		<npc id="35518"/><!--Рыцарь Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76386" y="-154496" z="128" h="32768"/>
+		<npc id="35520"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76386" y="-154536" z="128" h="32768"/>
+		<npc id="35520"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76349" y="-154435" z="128" h="32768"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76386" y="-154451" z="128" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76386" y="-154411" z="128" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76386" y="-154369" z="128" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76386" y="-154328" z="128" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76386" y="-154702" z="128" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76386" y="-154662" z="128" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76386" y="-154621" z="128" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76386" y="-154580" z="128" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76415" y="-154387" z="128" h="32768"/>
+		<npc id="35519"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76418" y="-154644" z="128" h="32768"/>
+		<npc id="35519"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76349" y="-154391" z="128" h="32768"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76349" y="-154345" z="128" h="32768"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76349" y="-154303" z="128" h="32768"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76350" y="-154727" z="128" h="32768"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76350" y="-154683" z="128" h="32768"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76350" y="-154637" z="128" h="32768"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_29" count="1" respawn="5">
+		<point x="76350" y="-154594" z="128" h="32768"/>
+		<npc id="35522"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_34" count="1" respawn="10800">
+		<point x="79235" y="-154172" z="388" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_34" count="1" respawn="10800">
+		<point x="79235" y="-154211" z="388" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_34" count="1" respawn="10800">
+		<point x="79235" y="-154251" z="388" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_34" count="1" respawn="10800">
+		<point x="79235" y="-154292" z="388" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_34" count="1" respawn="10800">
+		<point x="79235" y="-154330" z="388" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_34" count="1" respawn="10800">
+		<point x="79235" y="-154370" z="388" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_34" count="1" respawn="10800">
+		<point x="79235" y="-154410" z="388" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_34" count="1" respawn="10800">
+		<point x="79235" y="-154450" z="388" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_35" count="1" respawn="10800">
+		<point x="78483" y="-154923" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_35" count="1" respawn="10800">
+		<point x="78531" y="-154923" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_35" count="1" respawn="10800">
+		<point x="78577" y="-154923" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_35" count="1" respawn="10800">
+		<point x="78627" y="-154923" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_35" count="1" respawn="10800">
+		<point x="78675" y="-154923" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_35" count="1" respawn="10800">
+		<point x="78722" y="-154923" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_35" count="1" respawn="10800">
+		<point x="78770" y="-154923" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_35" count="1" respawn="10800">
+		<point x="78820" y="-154923" z="388" h="16384"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_36" count="1" respawn="10800">
+		<point x="78419" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_36" count="1" respawn="10800">
+		<point x="78468" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_36" count="1" respawn="10800">
+		<point x="78514" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_36" count="1" respawn="10800">
+		<point x="78564" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_36" count="1" respawn="10800">
+		<point x="78611" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_36" count="1" respawn="10800">
+		<point x="78659" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_36" count="1" respawn="10800">
+		<point x="78707" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_36" count="1" respawn="10800">
+		<point x="78756" y="-154119" z="388" h="49152"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78724" y="-149637" z="-12" h="7536"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78682" y="-149617" z="-12" h="12704"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78710" y="-149718" z="-12" h="-2208"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78594" y="-149677" z="-12" h="27968"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78634" y="-149606" z="-12" h="20272"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78615" y="-149639" z="-12" h="27712"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78574" y="-149717" z="-12" h="27712"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78718" y="-149675" z="-12" h="-2376"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78699" y="-149763" z="-12" h="-2376"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78724" y="-149637" z="-12" h="7536"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78682" y="-149617" z="-12" h="12704"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78710" y="-149718" z="-12" h="-2208"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78594" y="-149677" z="-12" h="27968"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78634" y="-149606" z="-12" h="20272"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78615" y="-149639" z="-12" h="27712"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78574" y="-149717" z="-12" h="27712"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78718" y="-149675" z="-12" h="-2376"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_10" count="1" respawn="10800">
+		<point x="78699" y="-149763" z="-12" h="-2376"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75613" y="-149676" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75639" y="-149709" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75664" y="-149743" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75714" y="-149811" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75738" y="-149845" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75764" y="-149879" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75690" y="-149776" z="-12" h="0"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75581" y="-149849" z="-12" h="32768"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75508" y="-149734" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75659" y="-149962" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75532" y="-149772" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75557" y="-149808" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75608" y="-149886" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_11" count="1" respawn="10800">
+		<point x="75633" y="-149923" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77283" y="-149200" z="368" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77248" y="-149200" z="368" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77327" y="-149237" z="368" h="48"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77208" y="-149239" z="368" h="32784"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77331" y="-149268" z="368" h="0"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77201" y="-149267" z="368" h="-32672"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77344" y="-149361" z="368" h="48"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77349" y="-149393" z="368" h="0"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77283" y="-149200" z="368" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77248" y="-149200" z="368" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77327" y="-149237" z="368" h="48"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77208" y="-149239" z="368" h="32784"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77331" y="-149268" z="368" h="0"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77201" y="-149267" z="368" h="-32672"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77344" y="-149361" z="368" h="48"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_01" count="1" respawn="10800">
+		<point x="77349" y="-149393" z="368" h="0"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77867" y="-149196" z="368" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77832" y="-149196" z="368" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77908" y="-149240" z="368" h="48"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77784" y="-149239" z="368" h="32784"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77912" y="-149271" z="368" h="0"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77777" y="-149267" z="368" h="-32672"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77764" y="-149357" z="368" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77758" y="-149388" z="368" h="32768"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77867" y="-149196" z="368" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77832" y="-149196" z="368" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77908" y="-149240" z="368" h="48"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77784" y="-149239" z="368" h="32784"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77912" y="-149271" z="368" h="0"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77777" y="-149267" z="368" h="-32672"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77764" y="-149357" z="368" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_02" count="1" respawn="10800">
+		<point x="77758" y="-149388" z="368" h="32768"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77513" y="-149552" z="-354" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77555" y="-149552" z="-352" h="16336"/>
+		<npc id="35531"/><!--Рыцарь Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77476" y="-149552" z="-354" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77436" y="-149551" z="-354" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77676" y="-149553" z="-354" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77639" y="-149553" z="-354" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77599" y="-149553" z="-354" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77407" y="-149525" z="-354" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77707" y="-149526" z="-354" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77708" y="-149486" z="-354" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77409" y="-149486" z="-354" h="16520"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77558" y="-149463" z="-350" h="16480"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77535" y="-149501" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77581" y="-149502" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77625" y="-149502" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77666" y="-149502" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77448" y="-149501" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77492" y="-149501" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77409" y="-149456" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77708" y="-149456" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77519" y="-149463" z="-350" h="16480"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77480" y="-149463" z="-350" h="16480"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77441" y="-149463" z="-350" h="16480"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77676" y="-149463" z="-350" h="16480"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77637" y="-149463" z="-350" h="16480"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77599" y="-149463" z="-350" h="16480"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77622" y="-149527" z="-350" h="16480"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_03" count="1" respawn="10800">
+		<point x="77496" y="-149526" z="-350" h="16480"/>
+		<npc id="35541"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77559" y="-149763" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77557" y="-149702" z="-350" h="16480"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77512" y="-149702" z="-350" h="16480"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77465" y="-149702" z="-350" h="16480"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77421" y="-149701" z="-350" h="16480"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77604" y="-149702" z="-350" h="16480"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77649" y="-149702" z="-350" h="16480"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77692" y="-149702" z="-350" h="16480"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77536" y="-149733" z="-350" h="16480"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77583" y="-149733" z="-350" h="16480"/>
+		<npc id="35535"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77513" y="-149764" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77467" y="-149764" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77420" y="-149764" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77604" y="-149764" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77649" y="-149764" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77693" y="-149765" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77672" y="-149734" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_04" count="1" respawn="10800">
+		<point x="77443" y="-149734" z="-352" h="16336"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77054" y="-149772" z="-288" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77054" y="-149808" z="-288" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77054" y="-149844" z="-288" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77054" y="-149882" z="-288" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77054" y="-149923" z="-288" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77054" y="-149960" z="-288" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77054" y="-149999" z="-288" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77128" y="-149750" z="-331" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77128" y="-149786" z="-331" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77128" y="-149822" z="-331" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77128" y="-149860" z="-331" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77128" y="-149901" z="-331" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77128" y="-149938" z="-331" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77128" y="-149977" z="-331" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77094" y="-149876" z="-311" h="0"/>
+		<npc id="35531"/><!--Рыцарь Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77094" y="-149762" z="-311" h="0"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_05" count="1" respawn="10800">
+		<point x="77094" y="-149935" z="-311" h="0"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="78078" y="-149782" z="-277" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="78078" y="-149818" z="-277" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="78078" y="-149854" z="-277" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="78078" y="-149892" z="-277" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="78078" y="-149933" z="-277" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="78078" y="-149970" z="-279" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="78078" y="-150009" z="-272" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="77979" y="-149754" z="-331" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="77979" y="-149790" z="-331" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="77979" y="-149826" z="-331" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="77979" y="-149864" z="-331" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="77979" y="-149905" z="-331" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="77979" y="-149942" z="-331" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="77979" y="-149981" z="-331" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="78030" y="-149884" z="-305" h="32768"/>
+		<npc id="35531"/><!--Рыцарь Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="78030" y="-149770" z="-305" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_06" count="1" respawn="10800">
+		<point x="78030" y="-149943" z="-305" h="32768"/>
+		<npc id="35542"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76600" y="-150150" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76585" y="-150107" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76569" y="-150064" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76554" y="-150017" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76540" y="-149971" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76522" y="-149922" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76086" y="-150018" z="-12" h="0"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76245" y="-149935" z="-12" h="0"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76272" y="-149922" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76113" y="-150004" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76143" y="-149987" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76064" y="-150028" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76170" y="-149974" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76194" y="-149961" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76188" y="-150010" z="0" h="0"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_07" count="1" respawn="10800">
+		<point x="76221" y="-149948" z="-12" h="248"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78993" y="-150000" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78966" y="-149984" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78915" y="-149957" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78532" y="-150101" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78887" y="-149944" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78837" y="-149916" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="79017" y="-150011" z="-12" h="32768"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78861" y="-149928" z="-12" h="32768"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78940" y="-149970" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78548" y="-150057" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="79041" y="-150024" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78599" y="-149927" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78582" y="-149973" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78519" y="-150143" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78875" y="-150004" z="0" h="32768"/>
+		<npc id="35533"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_08" count="1" respawn="10800">
+		<point x="78565" y="-150012" z="-12" h="32768"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76474" y="-149605" z="-12" h="14824"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76430" y="-149617" z="-12" h="19992"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76512" y="-149675" z="-12" h="5080"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76402" y="-149725" z="-12" h="35256"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76389" y="-149640" z="-12" h="27560"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76394" y="-149682" z="-12" h="35000"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76413" y="-149768" z="-12" h="35000"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76493" y="-149633" z="-12" h="4912"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76532" y="-149718" z="-12" h="4912"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76474" y="-149605" z="-12" h="14824"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76430" y="-149617" z="-12" h="19992"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76512" y="-149675" z="-12" h="5080"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76402" y="-149725" z="-12" h="35256"/>
+		<npc id="35532"/><!--Маг Гвардии - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76389" y="-149640" z="-12" h="27560"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76394" y="-149682" z="-12" h="35000"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76413" y="-149768" z="-12" h="35000"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76493" y="-149633" z="-12" h="4912"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="schuttgart_castle_siege" name="schuttgart19_2213_09" count="1" respawn="10800">
+		<point x="76532" y="-149718" z="-12" h="4912"/>
+		<npc id="35543"/><!--Охранник - Шутгарт-->
+	</spawn>
+	<spawn group="archaic_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="104796" y="-142532" z="-3664" h="0"/>
+		<npc id="36004"><!--Suspicious Merchant-->
+			<set name="walker_route_id" value="1"/>
+		</npc>
+	</spawn>
+	<spawn group="archaic_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109600" y="-139735" z="-2929" h="-2924"/>
+		<npc id="36005"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109856" y="-142640" z="-2674" h="0"/>
+		<npc id="36006"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108223" y="-142209" z="-2928" h="8524"/>
+		<npc id="36007"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109600" y="-139735" z="-2929" h="-2924"/>
+		<npc id="36022"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108223" y="-142209" z="-2928" h="8524"/>
+		<npc id="36025"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109856" y="-142640" z="-2674" h="0"/>
+		<npc id="36028"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_mercenary" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="112811" y="-141785" z="-3248" h="25024"/>
+		<npc id="36031"/><!--Mercenary Captain-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111457" y="-141672" z="-2961" h="-2924"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111447" y="-141703" z="-2961" h="-2924"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111438" y="-141736" z="-2961" h="-2924"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111428" y="-141768" z="-2961" h="-2924"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107461" y="-140566" z="-2960" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107470" y="-140534" z="-2960" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107479" y="-140502" z="-2960" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107490" y="-140471" z="-2960" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110095" y="-141353" z="-2960" h="-2924"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110085" y="-141386" z="-2960" h="-2924"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110074" y="-141419" z="-2960" h="-2924"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110064" y="-141453" z="-2960" h="-2924"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108875" y="-141093" z="-2960" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108886" y="-141059" z="-2960" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108896" y="-141025" z="-2960" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108906" y="-140993" z="-2960" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110720" y="-142800" z="-2582" h="-7904"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110752" y="-142784" z="-2582" h="-7904"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109616" y="-143200" z="-2582" h="-12672"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109584" y="-143216" z="-2582" h="-12672"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107440" y="-141664" z="-2582" h="-31100"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107424" y="-141632" z="-2582" h="-31100"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108288" y="-139344" z="-2582" h="25276"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108320" y="-139312" z="-2582" h="25276"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110720" y="-139456" z="-2582" h="8564"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110752" y="-139472" z="-2582" h="8564"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111456" y="-140416" z="-2582" h="4172"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111456" y="-140448" z="-2582" h="4172"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110834" y="-141561" z="-2960" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110768" y="-141637" z="-2960" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110785" y="-141576" z="-2960" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110800" y="-141520" z="-2960" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110818" y="-141462" z="-2960" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108260" y="-140804" z="-2960" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108287" y="-140899" z="-2960" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108304" y="-140848" z="-2960" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108320" y="-140797" z="-2960" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108335" y="-140753" z="-2960" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110118" y="-140598" z="-2960" h="0"/>
+		<npc id="36030"/><!--Ballista-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111206" y="-140667" z="-2960" h="0"/>
+		<npc id="36030"/><!--Ballista-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109179" y="-142057" z="-2960" h="0"/>
+		<npc id="36030"/><!--Ballista-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108958" y="-142888" z="-2960" h="0"/>
+		<npc id="36030"/><!--Ballista-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111040" y="-142160" z="-2510" h="8252"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111019" y="-142139" z="-2510" h="8252"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111060" y="-142180" z="-2510" h="8252"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111021" y="-142178" z="-2510" h="8252"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111339" y="-141097" z="-2512" h="-14464"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111369" y="-141092" z="-2512" h="-14464"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111309" y="-141104" z="-2512" h="-14464"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111334" y="-141069" z="-2512" h="-14464"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107873" y="-140080" z="-2510" h="-24788"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107894" y="-140101" z="-2510" h="-24788"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107852" y="-140059" z="-2510" h="-24788"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107894" y="-140060" z="-2510" h="-24788"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107560" y="-141105" z="-2512" h="18972"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107532" y="-141113" z="-2512" h="18972"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107589" y="-141098" z="-2512" h="18972"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107568" y="-141135" z="-2512" h="18972"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110641" y="-142162" z="-2600" h="-8508"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110662" y="-142143" z="-2600" h="-8508"/>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110658" y="-142181" z="-2600" h="-8508"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110679" y="-142161" z="-2600" h="-8508"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111222" y="-142214" z="-2777" h="24388"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111202" y="-142233" z="-2777" h="24388"/>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111205" y="-142196" z="-2777" h="24388"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111185" y="-142216" z="-2777" h="24388"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111020" y="-140860" z="-2602" h="2748"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111027" y="-140889" z="-2602" h="2748"/>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111044" y="-140854" z="-2602" h="2748"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111052" y="-140883" z="-2602" h="2748"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111517" y="-141157" z="-2779" h="-30432"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111510" y="-141129" z="-2779" h="-30432"/>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111492" y="-141163" z="-2779" h="-30432"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="111486" y="-141134" z="-2779" h="-30432"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108276" y="-140078" z="-2600" h="23836"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108255" y="-140096" z="-2600" h="23836"/>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108259" y="-140060" z="-2600" h="23836"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108238" y="-140078" z="-2600" h="23836"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107700" y="-140023" z="-2777" h="-9180"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107721" y="-140005" z="-2777" h="-9180"/>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107715" y="-140042" z="-2777" h="-9180"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107737" y="-140023" z="-2777" h="-9180"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107897" y="-141319" z="-2602" h="-29636"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107888" y="-141291" z="-2602" h="-29636"/>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107873" y="-141326" z="-2602" h="-29636"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107864" y="-141298" z="-2602" h="-29636"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107382" y="-141056" z="-2779" h="3308"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107391" y="-141083" z="-2779" h="3308"/>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107405" y="-141048" z="-2779" h="3308"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="107414" y="-141076" z="-2779" h="3308"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108124" y="-142146" z="-2928" h="-4556"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108271" y="-141965" z="-2927" h="-18328"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108437" y="-142101" z="-2926" h="-25992"/>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108286" y="-142320" z="-2925" h="20180"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108476" y="-142277" z="-2927" h="29120"/>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108107" y="-141920" z="-2927" h="-9268"/>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109875" y="-142365" z="-2773" h="-14276"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109843" y="-142372" z="-2773" h="-14276"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109843" y="-142889" z="-2773" h="18368"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109874" y="-142883" z="-2773" h="18368"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109600" y="-142448" z="-2879" h="18368"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110032" y="-142368" z="-2879" h="18368"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110128" y="-142800" z="-2879" h="-14276"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109696" y="-142896" z="-2878" h="-14276"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109642" y="-142868" z="-2879" h="-30592"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109568" y="-142496" z="-2878" h="-30592"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110080" y="-142400" z="-2879" h="2772"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110151" y="-142753" z="-2879" h="2772"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109856" y="-142624" z="-2879" h="0"/>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109676" y="-139687" z="-2928" h="29804"/>
+		<npc id="36023"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109665" y="-139720" z="-2928" h="29804"/>
+		<npc id="36023"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109656" y="-139752" z="-2928" h="29804"/>
+		<npc id="36023"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109646" y="-139787" z="-2928" h="29804"/>
+		<npc id="36023"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109636" y="-139821" z="-2929" h="29804"/>
+		<npc id="36023"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109716" y="-139698" z="-2929" h="29804"/>
+		<npc id="36024"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109705" y="-139732" z="-2928" h="29804"/>
+		<npc id="36024"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109695" y="-139764" z="-2928" h="29804"/>
+		<npc id="36024"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109685" y="-139798" z="-2928" h="29804"/>
+		<npc id="36024"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109675" y="-139832" z="-2929" h="29804"/>
+		<npc id="36024"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109423" y="-141204" z="-2035" h="29804"/>
+		<npc id="36015"/><!--Rebel Commander-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109371" y="-141234" z="-2035" h="29804"/>
+		<npc id="36016"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109395" y="-141150" z="-2035" h="29804"/>
+		<npc id="36016"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109379" y="-141206" z="-2035" h="29804"/>
+		<npc id="36016"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109387" y="-141178" z="-2034" h="29804"/>
+		<npc id="36016"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109601" y="-141213" z="-2035" h="-2924"/>
+		<npc id="36016"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109575" y="-141297" z="-2035" h="-2924"/>
+		<npc id="36016"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109592" y="-141241" z="-2035" h="-2924"/>
+		<npc id="36016"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109584" y="-141269" z="-2035" h="-2924"/>
+		<npc id="36016"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109266" y="-140889" z="-2066" h="29804"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109200" y="-141104" z="-2066" h="29804"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109209" y="-141073" z="-2066" h="29804"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109257" y="-140919" z="-2066" h="29804"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109248" y="-140950" z="-2066" h="29804"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109219" y="-141042" z="-2066" h="29804"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109228" y="-141012" z="-2066" h="29804"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109238" y="-140982" z="-2066" h="29804"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108944" y="-141664" z="-2592" h="-19452"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108975" y="-141673" z="-2592" h="-19452"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108912" y="-141654" z="-2592" h="-19452"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109967" y="-141004" z="-2245" h="-19452"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109994" y="-141012" z="-2245" h="-19452"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109939" y="-140996" z="-2245" h="-19452"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109674" y="-141758" z="-2440" h="29856"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109665" y="-141788" z="-2440" h="29856"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109656" y="-141818" z="-2440" h="29856"/>
+		<npc id="36017"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109371" y="-141234" z="-2035" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109395" y="-141150" z="-2035" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109379" y="-141206" z="-2035" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109387" y="-141178" z="-2034" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109601" y="-141213" z="-2035" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109575" y="-141297" z="-2035" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109592" y="-141241" z="-2035" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109584" y="-141269" z="-2035" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109266" y="-140889" z="-2066" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109200" y="-141104" z="-2066" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109209" y="-141073" z="-2066" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109257" y="-140919" z="-2066" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109248" y="-140950" z="-2066" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109219" y="-141042" z="-2066" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109228" y="-141012" z="-2066" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109238" y="-140982" z="-2066" h="29804"/>
+		<npc id="36018"/><!--Court Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110704" y="-141618" z="-2960" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110721" y="-141558" z="-2960" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110737" y="-141501" z="-2960" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="110753" y="-141445" z="-2960" h="-2924"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108350" y="-140917" z="-2960" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108367" y="-140866" z="-2960" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108387" y="-140815" z="-2960" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="108401" y="-140772" z="-2960" h="29804"/>
+		<npc id="36019"/><!--Guard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b1]-->
+			<add x="110441" y="-140835" zmin="-3012" zmax="-2812"/>
+			<add x="110936" y="-140880" zmin="-3012" zmax="-2812"/>
+			<add x="110664" y="-139966" zmin="-3012" zmax="-2812"/>
+			<add x="109965" y="-140487" zmin="-3012" zmax="-2812"/>
+		</territory>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b1]-->
+			<add x="110441" y="-140835" zmin="-3012" zmax="-2812"/>
+			<add x="110936" y="-140880" zmin="-3012" zmax="-2812"/>
+			<add x="110664" y="-139966" zmin="-3012" zmax="-2812"/>
+			<add x="109965" y="-140487" zmin="-3012" zmax="-2812"/>
+		</territory>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b1]-->
+			<add x="110441" y="-140835" zmin="-3012" zmax="-2812"/>
+			<add x="110936" y="-140880" zmin="-3012" zmax="-2812"/>
+			<add x="110664" y="-139966" zmin="-3012" zmax="-2812"/>
+			<add x="109965" y="-140487" zmin="-3012" zmax="-2812"/>
+		</territory>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b2]-->
+			<add x="109998" y="-142011" zmin="-3004" zmax="-2804"/>
+			<add x="110506" y="-142649" zmin="-3004" zmax="-2804"/>
+			<add x="110846" y="-142464" zmin="-3004" zmax="-2804"/>
+			<add x="110018" y="-141806" zmin="-3004" zmax="-2804"/>
+		</territory>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b2]-->
+			<add x="109998" y="-142011" zmin="-3004" zmax="-2804"/>
+			<add x="110506" y="-142649" zmin="-3004" zmax="-2804"/>
+			<add x="110846" y="-142464" zmin="-3004" zmax="-2804"/>
+			<add x="110018" y="-141806" zmin="-3004" zmax="-2804"/>
+		</territory>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b2]-->
+			<add x="109998" y="-142011" zmin="-3004" zmax="-2804"/>
+			<add x="110506" y="-142649" zmin="-3004" zmax="-2804"/>
+			<add x="110846" y="-142464" zmin="-3004" zmax="-2804"/>
+			<add x="110018" y="-141806" zmin="-3004" zmax="-2804"/>
+		</territory>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b3]-->
+			<add x="108652" y="-140465" zmin="-2988" zmax="-2788"/>
+			<add x="109275" y="-140270" zmin="-2988" zmax="-2788"/>
+			<add x="109169" y="-139736" zmin="-2988" zmax="-2788"/>
+			<add x="108204" y="-139907" zmin="-2988" zmax="-2788"/>
+		</territory>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b3]-->
+			<add x="108652" y="-140465" zmin="-2988" zmax="-2788"/>
+			<add x="109275" y="-140270" zmin="-2988" zmax="-2788"/>
+			<add x="109169" y="-139736" zmin="-2988" zmax="-2788"/>
+			<add x="108204" y="-139907" zmin="-2988" zmax="-2788"/>
+		</territory>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b3]-->
+			<add x="108652" y="-140465" zmin="-2988" zmax="-2788"/>
+			<add x="109275" y="-140270" zmin="-2988" zmax="-2788"/>
+			<add x="109169" y="-139736" zmin="-2988" zmax="-2788"/>
+			<add x="108204" y="-139907" zmin="-2988" zmax="-2788"/>
+		</territory>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b4]-->
+			<add x="107753" y="-141742" zmin="-2992" zmax="-2792"/>
+			<add x="108634" y="-141676" zmin="-2992" zmax="-2792"/>
+			<add x="108738" y="-141271" zmin="-2992" zmax="-2792"/>
+			<add x="107677" y="-141440" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b4]-->
+			<add x="107753" y="-141742" zmin="-2992" zmax="-2792"/>
+			<add x="108634" y="-141676" zmin="-2992" zmax="-2792"/>
+			<add x="108738" y="-141271" zmin="-2992" zmax="-2792"/>
+			<add x="107677" y="-141440" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b4]-->
+			<add x="107753" y="-141742" zmin="-2992" zmax="-2792"/>
+			<add x="108634" y="-141676" zmin="-2992" zmax="-2792"/>
+			<add x="108738" y="-141271" zmin="-2992" zmax="-2792"/>
+			<add x="107677" y="-141440" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b5]-->
+			<add x="108718" y="-142759" zmin="-2992" zmax="-2792"/>
+			<add x="109168" y="-142877" zmin="-2992" zmax="-2792"/>
+			<add x="109542" y="-142088" zmin="-2992" zmax="-2792"/>
+			<add x="108753" y="-141866" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36029"/><!--Archer-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b5]-->
+			<add x="108718" y="-142759" zmin="-2992" zmax="-2792"/>
+			<add x="109168" y="-142877" zmin="-2992" zmax="-2792"/>
+			<add x="109542" y="-142088" zmin="-2992" zmax="-2792"/>
+			<add x="108753" y="-141866" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36026"/><!--Wizard-->
+	</spawn>
+	<spawn group="archaic_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_reinforce_b5]-->
+			<add x="108718" y="-142759" zmin="-2992" zmax="-2792"/>
+			<add x="109168" y="-142877" zmin="-2992" zmax="-2792"/>
+			<add x="109542" y="-142088" zmin="-2992" zmax="-2792"/>
+			<add x="108753" y="-141866" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36027"/><!--Healer-->
+	</spawn>
+	<spawn group="archaic_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_gunner1]-->
+			<add x="110441" y="-140835" zmin="-3012" zmax="-2812"/>
+			<add x="110936" y="-140880" zmin="-3012" zmax="-2812"/>
+			<add x="110664" y="-139966" zmin="-3012" zmax="-2812"/>
+			<add x="109965" y="-140487" zmin="-3012" zmax="-2812"/>
+		</territory>
+		<npc id="36021"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="archaic_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_gunner2]-->
+			<add x="109998" y="-142011" zmin="-3004" zmax="-2804"/>
+			<add x="110506" y="-142649" zmin="-3004" zmax="-2804"/>
+			<add x="110846" y="-142464" zmin="-3004" zmax="-2804"/>
+			<add x="110018" y="-141806" zmin="-3004" zmax="-2804"/>
+		</territory>
+		<npc id="36021"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="archaic_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_gunner3]-->
+			<add x="108652" y="-140465" zmin="-2988" zmax="-2788"/>
+			<add x="109275" y="-140270" zmin="-2988" zmax="-2788"/>
+			<add x="109169" y="-139736" zmin="-2988" zmax="-2788"/>
+			<add x="108204" y="-139907" zmin="-2988" zmax="-2788"/>
+		</territory>
+		<npc id="36021"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="archaic_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_gunner4]-->
+			<add x="107753" y="-141742" zmin="-2992" zmax="-2792"/>
+			<add x="108634" y="-141676" zmin="-2992" zmax="-2792"/>
+			<add x="108738" y="-141271" zmin="-2992" zmax="-2792"/>
+			<add x="107677" y="-141440" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36021"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="archaic_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort111_2313_gunner5]-->
+			<add x="108718" y="-142759" zmin="-2992" zmax="-2792"/>
+			<add x="109168" y="-142877" zmin="-2992" zmax="-2792"/>
+			<add x="109542" y="-142088" zmin="-2992" zmax="-2792"/>
+			<add x="108753" y="-141866" zmin="-2992" zmax="-2792"/>
+		</territory>
+		<npc id="36021"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="archaic_fortress_envoy" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="109080" y="-141070" z="-2801" h="29804"/>
+		<npc id="36434"/><!--Special Envoy-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="111599" y="-141627" z="-2952" h="63047"/>
+		<npc id="36012"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="111284" y="-141838" z="-2960" h="27132"/>
+		<npc id="36012"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="107647" y="-140412" z="-2952" h="61443"/>
+		<npc id="36013"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="107329" y="-140637" z="-2960" h="29764"/>
+		<npc id="36013"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="108873" y="-140927" z="-2952" h="26540"/>
+		<npc id="36014"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="108947" y="-141186" z="-2952" h="61621"/>
+		<npc id="36014"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="110020" y="-141282" z="-2952" h="30213"/>
+		<npc id="36014"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="110096" y="-141515" z="-2952" h="60844"/>
+		<npc id="36014"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="109028" y="-141085" z="-2800" h="61500"/>
+		<npc id="36003"/><!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="108535" y="-139495" z="-2952" h="54072"/>
+		<npc id="36009"/><!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="110799" y="-139995" z="-2952" h="39621"/>
+		<npc id="36011"/><!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="archaic_fortress_111">
+		<point x="111136" y="-140268" z="-2952" h="35323"/>
+		<npc id="36467"/><!--Wyvern Manager-->
+	</spawn>
+</list>

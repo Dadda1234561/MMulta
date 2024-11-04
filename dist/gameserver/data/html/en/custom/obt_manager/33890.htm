@@ -1,0 +1,43 @@
+<html>
+<head>
+<body scroll="no">
+<table border=0 cellpadding=0 cellspacing=0 width=292 height=358 background="L2UI_CH3.refinewnd_back_Pattern">
+	<tr>
+		<td valign="top" align="center">
+			<table border=0 cellpadding=0 cellspacing=0 width="210" height="70" background="L2UI_EPIC.ShipinfoTitleBG">
+				<tr>
+					<td height="50" align="center">
+						<font color="af9878">Управление уровнем</font>
+					</td>
+				</tr>
+			</table>
+			<table border=0 cellpadding=5 cellspacing=0 width=270>
+				<tr>
+					<td align="center">
+						<font color="A5A5A5">Введите уровень (1-120)</font>
+						<br>
+						<edit var="newLevel" length="3" width="100" height="10" type="number">
+					</td>
+					<td align="center">
+						<table border="0">
+							<tr>
+								<td align="center"><button action="bypass -h npc_%objectId%_setLevelTo $newLevel" value="Применить" width="100" height="20" back="L2UI_EPIC.NewButton_Green" fore="L2UI_EPIC.NewButton_Green"></Button></td>
+							</tr>
+							<tr>
+								<td>
+									<table border="0">
+										<tr>
+											<td width="40" align="left"><a action="bypass -h npc_%objectId%_modifySP reset" >0 SP</a></td>
+											<td width="40" align="left"><a action="bypass -h npc_%objectId%_modifySP max" >Max SP</a></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body></html>

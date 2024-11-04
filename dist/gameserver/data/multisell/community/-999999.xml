@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+    <config show_all="true" no_tax="true" keep_enchanted="false" />
+
+    <!-- Эмблемы VIP-->
+
+    <item>
+        <production id="97000" count="1"/>
+        <ingredient id="70065" count="1000"/>
+    </item>
+
+    <item>
+        <production id="97001" count="1"/>
+        <ingredient id="70065" count="2500"/>
+        <ingredient id="97000" count="1"/>
+    </item>
+
+    <item>
+        <production id="97002" count="1"/>
+        <ingredient id="70065" count="3500"/>
+        <ingredient id="97001" count="1"/>
+    </item>
+
+    <item>
+        <production id="97003" count="1"/>
+        <ingredient id="70065" count="5000"/>
+        <ingredient id="97002" count="1"/>
+    </item>
+
+    <item>
+        <production id="97004" count="1"/>
+        <ingredient id="70065" count="6000"/>
+        <ingredient id="97003" count="1"/>
+    </item>
+
+    <item>
+        <production id="97005" count="1"/>
+        <ingredient id="70065" count="7000"/>
+        <ingredient id="97004" count="1"/>
+    </item>
+
+    <item>
+        <production id="97006" count="1"/>
+        <ingredient id="70065" count="8000"/>
+        <ingredient id="97005" count="1"/>
+    </item>
+
+    <item>
+        <production id="97007" count="1"/>
+        <ingredient id="70065" count="9000"/>
+        <ingredient id="97006" count="1"/>
+    </item>
+
+    <item>
+        <production id="97008" count="1"/>
+        <ingredient id="70065" count="10000"/>
+        <ingredient id="97007" count="1"/>
+    </item>
+
+    <item>
+        <production id="97009" count="1"/>
+        <ingredient id="70065" count="11000"/>
+        <ingredient id="97008" count="1"/>
+    </item>
+
+    <item>
+        <production id="106566" count="1"/>
+        <ingredient id="70065" count="12000"/>
+        <ingredient id="97009" count="1"/>
+    </item>
+
+    <item>
+        <production id="106567" count="1"/>
+        <ingredient id="70065" count="13000"/>
+        <ingredient id="106566" count="1"/>
+    </item>
+
+    <item>
+        <production id="106568" count="1"/>
+        <ingredient id="70065" count="14000"/>
+        <ingredient id="106567" count="1"/>
+    </item>
+
+    <item>
+        <production id="106569" count="1"/>
+        <ingredient id="70065" count="15000"/>
+        <ingredient id="106568" count="1"/>
+    </item>
+
+    <item>
+        <production id="106570" count="1"/>
+        <ingredient id="70065" count="16000"/>
+        <ingredient id="106569" count="1"/>
+    </item>
+</list>

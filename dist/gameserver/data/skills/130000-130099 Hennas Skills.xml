@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+    <skill id="130000" levels="1" name="Легендарная Краска Атаки">
+        <set name="icon" value="BranchSys3.icon1.lv1_wind_dye_luc"/>
+        <set name="magicLevel" value="85"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="1.1"/>
+            <mul stat="mAtk" value="1.15"/>
+            <p_critical_damage value="15" type="PER"/>
+            <p_magic_critical_dmg value="20" type="PER"/>
+        </for>
+    </skill>
+    <skill id="130001" levels="1" name="Легендарная Краска Защиты">
+        <set name="icon" value="BranchSys3.icon1.lv1_wind_dye_cha"/>
+        <set name="magicLevel" value="85"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="1.1"/>
+            <mul stat="mDef" value="1.1"/>
+            <mul stat="maxHp" value="1.1"/>
+            <mul stat="maxCp" value="1.1"/>
+            <mul stat="maxMp" value="1.1"/>
+            <mul stat="receive_p_damage_power" value="0.95"/>
+            <mul stat="receive_m_damage_power" value="0.95"/>
+        </for>
+    </skill>
+    <skill id="130002" levels="1" name="Легендарная Краска Поддержки">
+        <set name="icon" value="BranchSys3.icon1.lv1_wind_dye_cha"/>
+        <set name="magicLevel" value="85"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="0.2"/>
+            <add order="0x10" stat="CHA" value="5"/>
+            <mul stat="spiritshot_power" value="1.1"/>
+            <mul stat="soulshot_power" value="1.1"/>
+        </for>
+    </skill>
+</list>

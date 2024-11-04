@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+<skill id="120000" levels="5" name="Браслет">
+    <table name="#talismansLimit">2 3 4 5 6</table>
+    <table name="#vse">1.01 1.02 1.03 1.04 1.05</table>
+    <set name="icon" value="icon.dimension_bracelet_i00"/>
+    <set name="magicLevel" value="1"/>
+    <set name="operate_type" value="P"/>
+    <for>
+        <add stat="talismansLimit" value="#talismansLimit"/>
+        <mul stat="pvePhysDmgBonus" value="#vse"/>
+        <mul stat="pveMagicSkillDmgBonus" value="#vse"/>
+        <mul stat="pvePhysSkillDmgBonus" value="#vse"/>
+        <mul stat="pvePhysDefenceBonus" value="#vse"/>
+        <mul stat="pvePhysSkillDefenceBonus" value="#vse"/>
+        <mul stat="pveMagicSkillDefenceBonus" value="#vse"/>
+        <mul stat="pDef" value="#vse"/>
+        <mul stat="mDef" value="#vse"/>
+    </for>
+</skill>
+
+    <skill id="120001" levels="5" name="Рубаха">
+        <table name="#icon">icon.ainhasard_shirt icon.ainhasard_shirt_4 icon.ainhasard_shirt_5 icon.ainhasard_shirt_3 icon.ainhasard_shirt_2</table>
+        <table name="#11">1.02 1.04 1.06 1.08 1.1</table>
+        <table name="#hpcpmp">1.02 1.04 1.06 1.08 1.1</table>
+        <table name="#pAtk">1.01 1.02 1.03 1.04 1.05</table>
+        <table name="#mAtk">1.015 1.03 1.045 1.06 1.075</table>
+        <table name="#reuse">0.98 0.96 0.94 0.92 0.9</table>
+        <set name="icon" value="#icon"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="raid_boss_damage" value="#11"/>
+            <mul stat="maxHp" value="#hpcpmp"/>
+            <mul stat="maxMp" value="#hpcpmp"/>
+            <mul stat="maxCp" value="#hpcpmp"/>
+            <mul stat="mAtk" value="#mAtk" />
+            <mul stat="pAtk" value="#pAtk"/>
+            <mul stat="mReuse" value="#reuse"/>
+        </for>
+    </skill>
+
+    <skill id="120002" levels="6" name="Пояс">
+        <table name="#stat">1 2 3 4 5 5</table>
+        <table name="#speed">3 6 9 12 15 15</table>
+        <table name="#22">1.0 1.0 1.0 1.0 1.0 0.95</table>
+        <table name="#shot">1.01 1.02 1.03 1.04 1.05 1.05</table>
+        <table name="#p_critical_damage_per">3 7 10 15 20 20</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="runSpd" value="#speed"/>
+            <add order="0x10" stat="STR" value="#stat"/>
+            <add order="0x10" stat="INT" value="#stat"/>
+            <add order="0x10" stat="DEX" value="#stat"/>
+            <add order="0x10" stat="WIT" value="#stat"/>
+            <add order="0x10" stat="CON" value="#stat"/>
+            <add order="0x10" stat="MEN" value="#stat"/>
+            <mul stat="receive_p_damage_power" value="#22"/>
+            <mul stat="receive_m_damage_power" value="#22"/>
+            <mul stat="spiritshot_power" value="#shot"/>
+            <mul stat="soulshot_power" value="#shot"/>
+        </for>
+    </skill>
+
+    <skill id="120003" levels="5" name="Плащ">
+        <table name="#vse">1.02 1.04 1.06 1.08 1.1</table>
+        <table name="#crit">2 4 6 8 10</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtkSpd" value="#vse"/>
+            <mul stat="mAtkSpd" value="#vse"/>
+            <mul stat="pDef" value="#vse"/>
+            <mul stat="mDef" value="#vse"/>
+            <p_critical_damage value="#crit" type="PER"/>
+            <p_magic_critical_dmg value="#crit" type="PER"/>
+        </for>
+    </skill>
+
+    <skill id="120004" levels="5" name="Талисман Древней Магии">
+        <table name="#stat">1 2 3 4 5</table>
+        <table name="#PVPdmg">1.03 1.06 1.09 1.12 1.15</table>
+        <table name="#PVPdef">1.015 1.03 1.045 1.06 1.075</table>
+        <table name="#skill_power">1.05 1.1 1.15 1.2 1.25</table>
+        <set name="icon" value="icon.etc_talisman_i01"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add order="0x10" stat="STR" value="#stat"/>
+            <add order="0x10" stat="INT" value="#stat"/>
+            <add order="0x10" stat="DEX" value="#stat"/>
+            <add order="0x10" stat="WIT" value="#stat"/>
+            <add order="0x10" stat="CON" value="#stat"/>
+            <add order="0x10" stat="MEN" value="#stat"/>
+            <mul stat="pvpPhysDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpPhysDefenceBonus" value="#PVPdef"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#PVPdef"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#PVPdef"/>
+            <mul stat="mSkillPower" value="#skill_power"/>
+        </for>
+    </skill>
+
+    <skill id="120005" levels="5" name="Талисман Защиты">
+        <table name="#11">1.02 1.04 1.06 1.08 1.1</table>
+        <table name="#evas">2 3 4 6 8</table>
+        <set name="icon" value="icon.etc_talisman_i01"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="maxHp" value="#11"/>
+            <mul stat="maxMp" value="#11"/>
+            <mul stat="maxCp" value="#11"/>
+            <mul stat="pDef" value="#11"/>
+            <mul stat="mDef" value="#11"/>
+            <add stat="mEvasRate" value="#evas"/>
+            <add stat="pEvasRate" value="#evas"/>
+        </for>
+    </skill>
+
+    <skill id="120006" levels="5" name="Талисман Берсерка">
+        <table name="#PVE">1.01 1.02 1.03 1.04 1.05</table>
+        <table name="#mAtk">1.015 1.03 1.045 1.06 1.075</table>
+        <table name="#TababsorbDam">0.5 1 1.5 2 3</table>
+        <set name="icon" value="icon.etc_talisman_i01"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvePhysDmgBonus" value="#PVE"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PVE"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PVE"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#PVE"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#PVE"/>
+            <mul stat="pvePhysDefenceBonus" value="#PVE"/>
+            <mul stat="mAtk" value="#mAtk" />
+            <mul stat="pAtk" value="#PVE"/>
+            <p_vampiric_attack value="#TababsorbDam" chance="30"/>
+        </for>
+    </skill>
+
+    <skill id="120007" levels="5" name="Талисман Скрытой Силы">
+        <table name="#Acc">1 2 3 4 5</table>
+        <table name="#crit">2 4 6 8 10</table>
+        <table name="#pCritRate">10 20 30 40 50</table>
+        <table name="#mCritRate">20 40 60 80 100</table>
+        <table name="#spd">1.02 1.04 1.06 1.08 1.1</table>
+        <set name="icon" value="icon.etc_talisman_i01"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <p_critical_damage value="#crit" type="PER"/>
+            <p_magic_critical_dmg value="#crit" type="PER"/>
+            <mul stat="pAtkSpd" value="#spd"/>
+            <mul stat="mAtkSpd" value="#spd"/>
+            <add stat="mAccCombat" value="#Acc"/>
+            <add stat="pAccCombat" value="#Acc"/>
+            <add stat="basePCritRate" value="#pCritRate"/>
+            <add stat="baseMCritRate" value="#mCritRate"/>
+        </for>
+    </skill>
+
+    <!-- Брошь -->
+
+    <skill id="120008" levels="5" name="Брошь Лавианроз">
+        <table name="#mAtk">1.015 1.03 1.045 1.06 1.075</table>
+        <table name="#set">1.01 1.02 1.03 1.04 1.05</table>
+        <table name="#jewels_limit">9 10 11 12 12</table>
+        <table name="#inventoryLimit">10 20 30 40 50</table>
+        <table name="#Att">10 20 30 40 50</table>
+        <set name="icon" value="icon.etc_talisman_i01"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="inventoryLimit" value="#inventoryLimit"/>
+            <add stat="jewels_limit" value="#jewels_limit"/>
+            <mul stat="pAtk" value="#set"/>
+            <mul stat="mAtk" value="#mAtk"/>
+            <mul stat="pDef" value="#set"/>
+            <mul stat="mDef" value="#set"/>
+            <add stat="attackFire" value="#Att"/>
+            <add stat="attackWater" value="#Att"/>
+            <add stat="attackWind" value="#Att"/>
+            <add stat="attackEarth" value="#Att"/>
+            <add stat="attackHoly" value="#Att"/>
+            <add stat="attackUnholy" value="#Att"/>
+        </for>
+    </skill>
+
+    <!-- Венец -->
+
+    <skill id="120009" levels="6" name="Венец Героя">
+        <table name="#stat">1 2 3 4 5 5</table>
+        <table name="#stat1">0 2 3 4 5 5</table>
+        <table name="#stat2">0 0 3 4 5 5</table>
+        <table name="#set">1.0 1.0 1.0 1.0 1.0 1.1</table>
+		<table name="#set1">1.0 1.0 1.0 1.0 1.0 1.1</table>
+        <set name="icon" value="icon.accessory_barka_karm_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#set"/>
+            <mul stat="mDef" value="#set1"/>
+            <add order="0x10" stat="STR" value="#stat"/>
+            <add order="0x10" stat="INT" value="#stat"/>
+            <add order="0x10" stat="DEX" value="#stat1"/>
+            <add order="0x10" stat="WIT" value="#stat1"/>
+            <add order="0x10" stat="CON" value="#stat2"/>
+            <add order="0x10" stat="MEN" value="#stat2"/>
+        </for>
+    </skill>
+
+    <!-- Бижа -->
+
+    <!-- Некля -->
+    <skill id="120010" levels="12" name="Ожерелки">
+        <table name="#pAtk">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.075 1.08 1.085 1.09 1.095</table>
+        <table name="#set">1.015 1.03 1.045 1.06 1.075 1.09 1.105 1.115 1.125 1.135 1.145 1.155</table>
+        <table name="#stat">0 0 0 0 0 0 0 1 2 3 4 5</table>
+        <table name="#Att">5 10 15 20 25 30 35 40 45 50 55 60</table>
+        <table name="#hpcpmp">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#pAtk"/>
+            <mul stat="mAtk" value="#set"/>
+            <add order="0x10" stat="STR" value="#stat"/>
+            <add order="0x10" stat="INT" value="#stat"/>
+
+            <mul stat="maxHp" value="#hpcpmp"/>
+            <mul stat="maxCp" value="#hpcpmp"/>
+            <mul stat="maxMp" value="#hpcpmp"/>
+
+            <add stat="attackFire" value="#Att"/>
+            <add stat="attackWater" value="#Att"/>
+            <add stat="attackWind" value="#Att"/>
+            <add stat="attackEarth" value="#Att"/>
+            <add stat="attackHoly" value="#Att"/>
+            <add stat="attackUnholy" value="#Att"/>
+        </for>
+    </skill>
+
+    <skill id="120011" levels="12" name="Серьги">
+        <table name="#soulshotDamage">1.005 1.01 1.015 1.02 1.025 1.03 1.035 1.04 1.045 1.05 1.055 1.06</table>
+        <table name="#stat">0 0 0 0 0 0 0 1 2 3 4 5</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add order="0x10" stat="MEN" value="#stat"/>
+            <mul stat="spiritshot_power" value="#soulshotDamage"/>
+            <mul stat="soulshot_power" value="#soulshotDamage"/>
+        </for>
+    </skill>
+
+    <skill id="120012" levels="12" name="Кольца">
+        <table name="#set">1 1 1 1 1 1 1 1.26 1.27 1.28 1.29 1.30</table>
+        <table name="#pmCritPower">0.5 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 6</table>
+        <table name="#stat">0 0 0 0 0 0 0 1 2 3 4 5</table>
+        <table name="#pCritRateAdd">5 10 15 20 25 30 35 40 45 50 55 60</table>
+        <table name="#mCritRateAdd">10 20 30 40 50 60 70 80 90 100 110 120</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add order="0x10" stat="WIT" value="#stat"/>
+            <p_critical_damage value="#pmCritPower" type="PER"/>
+            <p_magic_critical_dmg value="#pmCritPower" type="PER"/>
+            <add stat="basePCritRate" value="#pCritRateAdd"/>
+            <add stat="baseMCritRate" value="#mCritRateAdd"/>
+        </for>
+    </skill>
+
+    <!-- Эпик Бижа -->
+    <skill id="120013" levels="3" name="Фринтеза">
+        <table name="#pAtk">1.095 1.095 1.095</table>
+        <table name="#mAtk">1.155 1.155 1.155</table>
+        <table name="#Att">60 60 60</table>
+        <table name="#hpCpMp">1.12 1.12 1.12</table>
+        <table name="#stat">5 5 5</table>
+
+        <!-- Дополнительный эффект Ожерелья Фринтезы -->
+        <table name="#pAtkDop">1.05 1.1 1.15</table>
+        <table name="#skill_power">1.1 1.2 1.3</table>
+        <table name="#raidBossDamage">1.1 1.2 1.3</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#pAtk"/>
+            <mul stat="mAtk" value="#mAtk"/>
+            <add stat="attackFire" value="#Att"/>
+            <add stat="attackWater" value="#Att"/>
+            <add stat="attackWind" value="#Att"/>
+            <add stat="attackEarth" value="#Att"/>
+            <add stat="attackHoly" value="#Att"/>
+            <add stat="attackUnholy" value="#Att"/>
+            <mul stat="maxHp" value="#hpCpMp"/>
+            <mul stat="maxCp" value="#hpCpMp"/>
+            <mul stat="maxMp" value="#hpCpMp"/>
+            <add order="0x10" stat="INT" value="#stat"/>
+            <add order="0x10" stat="STR" value="#stat"/>
+
+            <!-- Дополнительный эффект Ожерелья Фринтезы -->
+            <mul stat="pAtk" value="#pAtkDop"/>
+            <mul stat="mSkillPower" value="#skill_power"/>
+            <mul stat="raid_boss_damage" value="#raidBossDamage"/>
+        </for>
+    </skill>
+
+    <skill id="120014" levels="3" name="Орфен">
+        <table name="#Def">1.12 1.12 1.12</table>
+        <table name="#Att1">36 36 36</table>
+        <table name="#stat">5 5 5</table>
+
+        <!-- Дополнительный эффект Серьги Орфен -->
+        <table name="#Att2">50 100 150</table>
+        <table name="#hpCpMp">1.05 1.1 1.15</table>
+        <table name="#PVPdef">1.05 1.10 1.15</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#Def"/>
+            <mul stat="mDef" value="#Def"/>
+            <add stat="defenceFire" value="#Att1"/>
+            <add stat="defenceWater" value="#Att1"/>
+            <add stat="defenceWind" value="#Att1"/>
+            <add stat="defenceEarth" value="#Att1"/>
+            <add stat="defenceHoly" value="#Att1"/>
+            <add stat="defenceUnholy" value="#Att1"/>
+            <add order="0x10" stat="CON" value="#stat"/>
+
+            <!-- Дополнительный эффект Серьги Орфен -->
+            <add stat="defenceFire" value="#Att2"/>
+            <add stat="defenceWater" value="#Att2"/>
+            <add stat="defenceWind" value="#Att2"/>
+            <add stat="defenceEarth" value="#Att2"/>
+            <add stat="defenceHoly" value="#Att2"/>
+            <add stat="defenceUnholy" value="#Att2"/>
+            <mul stat="maxHp" value="#hpCpMp"/>
+            <mul stat="maxCp" value="#hpCpMp"/>
+            <mul stat="maxMp" value="#hpCpMp"/>
+            <mul stat="pvpPhysDefenceBonus" value="#PVPdef"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#PVPdef"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#PVPdef"/>
+
+        </for>
+    </skill>
+
+    <skill id="120015" levels="3" name="Антарас">
+        <table name="#soulshotDamage">1.06 1.06 1.06</table>
+        <table name="#stat">5 5 5</table>
+
+        <!-- Дополнительный эффект Серьги Антараса -->
+        <table name="#Def">1.05 1.1 1.15</table>
+        <table name="#receive_p_damage_power">0.95 0.93 0.9</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="spiritshot_power" value="#soulshotDamage"/>
+            <mul stat="soulshot_power" value="#soulshotDamage"/>
+            <add order="0x10" stat="MEN" value="#stat"/>
+
+            <!-- Дополнительный эффект Серьги Антараса -->
+            <mul stat="receive_p_damage_power" value="#receive_p_damage_power"/>
+            <mul stat="receive_m_damage_power" value="#receive_p_damage_power"/>
+            <mul stat="pDef" value="#Def"/>
+            <mul stat="mDef" value="#Def"/>
+        </for>
+    </skill>
+
+    <skill id="120016" levels="3" name="Баюм">
+        <table name="#pmCritPower1">6 6 6</table>
+        <table name="#pCritRate">60 60 60</table>
+        <table name="#mCritRate">120 120 120</table>
+        <table name="#stat">5 5 5</table>
+
+        <!-- Дополнительный эффект Кольца Баюма -->
+        <table name="#pmCritPower2">5 10 15</table>
+        <table name="#PVP">1.1 1.2 1.3</table>
+        <table name="#TababsorbDam">5 7 10</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <p_critical_damage value="#pmCritPower1" type="PER"/>
+            <p_magic_critical_dmg value="#pmCritPower1" type="PER"/>
+            <add stat="basePCritRate" value="#pCritRate"/>
+            <add stat="baseMCritRate" value="#mCritRate"/>
+            <add order="0x10" stat="WIT" value="#stat"/>
+
+            <!-- Дополнительный эффект Кольца Баюма -->
+            <p_critical_damage value="#pmCritPower2" type="PER"/>
+            <p_magic_critical_dmg value="#pmCritPower2" type="PER"/>
+            <mul stat="pvpPhysDmgBonus" value="#PVP"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="#PVP"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="#PVP"/>
+            <p_vampiric_attack value="#TababsorbDam" chance="30"/>
+        </for>
+    </skill>
+
+    <skill id="120017" levels="3" name="Коре">
+        <table name="#set">1.35 1.40 1.50</table>
+        <table name="#stat">6 8 10</table>
+        <table name="#crit">10 20 30</table>
+        <table name="#pve">1.05 1.10 1.20</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mAtkSpd" value="#set"/>
+            <mul stat="maxHp" value="#set"/>
+            <mul stat="maxCp" value="#set"/>
+            <mul stat="maxMp" value="#set"/>
+            <p_magic_critical_dmg value="#crit" type="PER"/>
+            <add order="0x10" stat="WIT" value="#stat"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#pve"/>
+        </for>
+    </skill>
+
+    <skill id="120018" levels="3" name="АК">
+        <table name="#pMAtkSpd1">1.24 1.24 1.24</table>
+        <table name="#stat">5 5 5</table>
+
+        <!-- Дополнительный эффект Кольца Королевы Муравьев -->
+        <table name="#PVE">1.05 1.10 1.15</table>
+        <table name="#runSpd">20 40 60</table>
+        <table name="#pMAtkSpd2">1.05 1.1 1.15</table>
+        <table name="#multiplier">0.05 0.1 0.15</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtkSpd" value="#pMAtkSpd1"/>
+            <mul stat="MAtkSpd" value="#pMAtkSpd1"/>
+            <add order="0x10" stat="DEX" value="#stat"/>
+
+            <!-- Дополнительный эффект Кольца Королевы Муравьев -->
+            <mul stat="pvePhysDmgBonus" value="#PVE"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PVE"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PVE"/>
+            <add stat="runSpd" value="#runSpd"/>
+            <mul stat="pAtkSpd" value="#pMAtkSpd2"/>
+            <mul stat="MAtkSpd" value="#pMAtkSpd2"/>
+            <add stat="adena_rate_multiplier" order="0x40" value="#multiplier"/>
+        </for>
+    </skill>
+
+    <!-- Куклы -->
+    <skill id="120019" levels="5" name="АК">
+        <table name="#Atk">1.03 1.06 1.10 1.15 1.20</table>
+        <table name="#crit">4 8 12 20 30</table>
+        <table name="#HP">1.02 1.04 1.06 1.1 1.15</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtk" value="#Atk"/>
+            <mul stat="maxHp" value="#HP"/>
+            <p_critical_damage value="#crit" type="PER"/>
+        </for>
+    </skill>
+
+    <skill id="120020" levels="5" name="Орфен">
+        <table name="#Atk">1.04 1.09 1.15 1.23 1.30</table>
+        <table name="#crit">4 8 12 20 30</table>
+        <table name="#HP">1.02 1.04 1.06 1.1 1.15</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mAtk" value="#Atk"/>
+            <p_magic_critical_dmg value="#crit" type="PER"/>
+            <mul stat="maxHp" value="#HP"/>
+        </for>
+    </skill>
+
+    <skill id="120021" levels="5" name="Баюм">
+        <table name="#Def">1.02 1.05 1.10 1.15 1.20</table>
+        <table name="#reuse">0.98 0.96 0.93 0.90 0.85</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#Def"/>
+            <mul stat="mDef" value="#Def"/>
+            <mul stat="mReuse" value="#reuse"/>
+            <mul stat="pReuse" value="#reuse"/>
+        </for>
+    </skill>
+
+    <skill id="120022" levels="5" name="Закен">
+        <table name="#PVP">1.02 1.05 1.1 1.2 1.3</table>
+        <table name="#crit">5 10 15 22 30</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvpPhysDmgBonus" value="#PVP"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="#PVP"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="#PVP"/>
+            <p_magic_critical_dmg value="#crit" type="PER"/>
+            <p_critical_damage value="#crit" type="PER"/>
+        </for>
+    </skill>
+
+    <skill id="120023" levels="5" name="Ядро">
+        <table name="#critical_damage">0.97 0.94 0.90 0.85 0.80</table>
+        <table name="#PVPdef">1.02 1.05 1.10 1.20 1.30</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pCritDamRcpt" value="#critical_damage"/>
+            <mul stat="mCritDamRcpt" value="#critical_damage"/>
+            <mul stat="pvpPhysDefenceBonus" value="#PVPdef"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#PVPdef"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#PVPdef"/>
+        </for>
+    </skill>
+
+    <skill id="120024" levels="5" name="Фринтеза">
+        <table name="#stat">1 2 3 4 5</table>
+        <table name="#stat2">0 2 3 4 5</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add order="0x10" stat="STR" value="#stat"/>
+            <add order="0x10" stat="INT" value="#stat"/>
+            <add order="0x10" stat="CON" value="#stat"/>
+            <add order="0x10" stat="DEX" value="#stat2"/>
+            <add order="0x10" stat="WIT" value="#stat2"/>
+            <add order="0x10" stat="CHA" value="#stat2"/>
+        </for>
+    </skill>
+
+    <skill id="120025" levels="5" name="Клакиес">
+        <table name="#shot">1.05 1.10 1.15 1.20 1.30</table>
+        <table name="#Att">20 40 60 80 100</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="spiritshot_power" value="#shot"/>
+            <mul stat="soulshot_power" value="#shot"/>
+            <add stat="attackFire" value="#Att"/>
+            <add stat="attackWater" value="#Att"/>
+            <add stat="attackWind" value="#Att"/>
+            <add stat="attackEarth" value="#Att"/>
+            <add stat="attackHoly" value="#Att"/>
+            <add stat="attackUnholy" value="#Att"/>
+        </for>
+    </skill>
+
+    <skill id="120026" levels="5" name="Чудовище">
+        <table name="#PVE">1.02 1.04 1.08 1.14 1.2</table>
+        <table name="#Att">20 40 60 80 100</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvePhysDmgBonus" value="#PVE"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PVE"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PVE"/>
+            <mul stat="pvePhysDefenceBonus" value="#PVE"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#PVE"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#PVE"/>
+            <add stat="defenceWater" value="#Att"/>
+            <add stat="defenceFire" value="#Att"/>
+            <add stat="defenceWind" value="#Att"/>
+            <add stat="defenceEarth" value="#Att"/>
+            <add stat="defenceHoly" value="#Att"/>
+            <add stat="defenceUnholy" value="#Att"/>
+        </for>
+    </skill>
+
+    <skill id="120027" levels="5" name="Антарас">
+        <table name="#stat">1.05 1.10 1.15 1.20 1.30</table>
+        <table name="#22">0.97 0.95 0.93 0.90 0.85</table>
+		<table name="#stat55">1 2 3 4 5</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="damage_decreace_per" value="#22"/>
+            <mul stat="soulshot_defence" value="#22"/>
+            <add order="0x10" stat="CON" value="#stat55"/>
+            <add order="0x10" stat="MEN" value="#stat55"/>
+        </for>
+    </skill>
+
+    <skill id="120028" levels="10" name="Маска Пробивания">
+        <table name="#PVE">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pvePhysDmgBonus" value="#PVE"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PVE"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PVE"/>
+            <mul stat="pvePhysDefenceBonus" value="#PVE"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#PVE"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#PVE"/>
+        </for>
+    </skill>
+
+    <skill id="120029" levels="10" name="Плащ Путешесвенника">
+        <table name="#exp">0.01 0.02 0.03 0.04 0.05 0.06 0.07 0.08 0.09 0.10</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="exp_rate_multiplier" value="#exp"/>
+        </for>
+    </skill>
+    <skill id="120030" levels="1" name="Bracelet">
+        <set name="icon" value="icon.dimension_bracelet_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="talismansLimit" value="2"/>
+        </for>
+    </skill>
+
+    <skill id="120031" levels="1" name="Brooch">
+        <set name="icon" value="icon.etc_bm_brooch_lavianrose_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add stat="jewels_limit" value="8"/>
+            <add stat="inventoryLimit" order="0x40" value="10"/>
+        </for>
+    </skill>
+
+    <skill id="120032" levels="12" name="Серьги">
+        <table name="#set">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12</table>
+        <table name="#stat">0 0 0 0 0 0 0 1 2 3 4 5</table>
+        <table name="#Att">3 6 9 12 15 18 21 24 27 30 33 36</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#set"/>
+            <mul stat="mDef" value="#set"/>
+            <add order="0x10" stat="CON" value="#stat"/>
+
+            <add stat="defenceWater" value="#Att"/>
+            <add stat="defenceFire" value="#Att"/>
+            <add stat="defenceWind" value="#Att"/>
+            <add stat="defenceEarth" value="#Att"/>
+            <add stat="defenceHoly" value="#Att"/>
+            <add stat="defenceUnholy" value="#Att"/>
+        </for>
+    </skill>
+
+    <skill id="120033" levels="12" name="Кольца">
+        <table name="#pmAtkSpd">1.02 1.04 1.06 1.08 1.1 1.12 1.14 1.16 1.18 1.2 1.22 1.24</table>
+        <table name="#stat">0 0 0 0 0 0 0 1 2 3 4 5</table>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pAtkSpd" value="#pmAtkSpd"/>
+            <mul stat="mAtkSpd" value="#pmAtkSpd"/>
+            <add order="0x10" stat="DEX" value="#stat"/>
+        </for>
+    </skill>
+
+    <skill id="120034" levels="5" name="Браслет для Агатионов PVE">
+        <table name="#agathions_limit">2 2 2 3 3</table>
+        <table name="#PVEdmg">1.01 1.02 1.03 1.04 1.05</table>
+        <table name="#PVEdef">1.01 1.02 1.03 1.04 1.05</table>
+        <set name="icon" value="icon.high_agathion_bracelet_i01"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <set stat="agathions_limit" value="#agathions_limit"/>
+            <mul stat="pvePhysDmgBonus" value="#PVEdmg"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PVEdmg"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PVEdmg"/>
+            <mul stat="pvePhysDefenceBonus" value="#PVEdef"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#PVEdef"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#PVEdef"/>
+        </for>
+    </skill>
+    <skill id="120035" levels="5" name="Браслет для Агатионов PVP">
+        <table name="#agathions_limit">2 2 2 3 3</table>
+        <table name="#PVPdmg">1.02 1.04 1.06 1.08 1.1</table>
+        <table name="#PVPdef">1.01 1.02 1.03 1.04 1.05</table>
+        <set name="icon" value="icon.high_agathion_bracelet_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <set stat="agathions_limit" value="#agathions_limit"/>
+            <mul stat="pvpPhysDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpPhysDefenceBonus" value="#PVPdef"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#PVPdef"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#PVPdef"/>
+        </for>
+    </skill>
+    <skill id="120036" levels="5" name="Браслет для Агатионов Предельный">
+        <table name="#agathions_limit">5 5 5 5 5</table>
+        <table name="#PVEdmg">1.07 1.09 1.11 1.13 1.15</table>
+        <table name="#PVEdef">1.07 1.09 1.11 1.13 1.15</table>
+        <table name="#PVPdmg">1.14 1.18 1.22 1.26 1.3</table>
+        <table name="#PVPdef">1.07 1.09 1.11 1.13 1.15</table>
+        <table name="#STAT">1 2 3 4 5</table>
+        <set name="icon" value="icon.pi_high_agathion_bracelet_i01"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <set stat="agathions_limit" value="#agathions_limit"/>
+            <mul stat="pvpPhysDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="#PVPdmg"/>
+            <mul stat="pvpPhysDefenceBonus" value="#PVPdef"/>
+            <mul stat="pvpPhysSkillDefenceBonus" value="#PVPdef"/>
+            <mul stat="pvpMagicSkillDefenceBonus" value="#PVPdef"/>
+            <mul stat="pvePhysDmgBonus" value="#PVEdmg"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PVEdmg"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PVEdmg"/>
+            <mul stat="pvePhysDefenceBonus" value="#PVEdef"/>
+            <mul stat="pvePhysSkillDefenceBonus" value="#PVEdef"/>
+            <mul stat="pveMagicSkillDefenceBonus" value="#PVEdef"/>
+            <add order="0x10" stat="STR" value="#STAT"/>
+            <add order="0x10" stat="INT" value="#STAT"/>
+            <add order="0x10" stat="DEX" value="#STAT"/>
+            <add order="0x10" stat="WIT" value="#STAT"/>
+            <add order="0x10" stat="CON" value="#STAT"/>
+            <add order="0x10" stat="MEN" value="#STAT"/>
+            <add order="0x10" stat="CHA" value="#STAT"/>
+            <add order="0x10" stat="LUC" value="#STAT"/>
+        </for>
+    </skill>
+    <skill id="120037" levels="1" name="Браслет Путешественника агат">
+        <set name="icon" value="icon.bracelet_tersi_agathion"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <set stat="agathions_limit" value="2"/>
+        </for>
+    </skill>
+
+    <skill id="120038" levels="1" name="Талисман Баюма">
+        <set name="icon" value="icon.baium_talisman_new"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+            <add stat="attackFire" value="50"/>
+            <add stat="attackWater" value="50"/>
+            <add stat="attackWind" value="50"/>
+            <add stat="attackEarth" value="50"/>
+            <add stat="attackHoly" value="50"/>
+            <add stat="attackUnholy" value="50"/>
+            <add stat="runSpd" value="30"/>
+            <mul stat="pvpPhysDmgBonus" value="1.1"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="1.1"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="1.1"/>
+            <add stat="pAtk" value="350"/>
+            <add stat="mAtk" value="350"/>
+        </for>
+    </skill>
+
+    <skill id="120039" levels="1" name="Талисман Властителя">
+        <set name="icon" value="icon.sayhas_talisman_new"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="spiritshot_power" value="1.05"/>
+            <mul stat="soulshot_power" value="1.05"/>
+            <mul stat="mAtkSpd" value="1.05"/>
+            <mul stat="pAtkSpd" value="1.05"/>
+            <mul stat="mReuse" value="0.95"/>
+            <mul stat="pvePhysDmgBonus" value="1.05"/>
+            <mul stat="pveMagicSkillDmgBonus" value="1.05"/>
+            <mul stat="pvePhysSkillDmgBonus" value="1.05"/>
+            <mul stat="pDef" value="1.05"/>
+            <mul stat="mDef" value="1.05"/>
+        </for>
+    </skill>
+    <skill id="120040" levels="1" name="Венец Героя">
+        <table name="#stat">5</table>
+        <table name="#stat1">5</table>
+        <table name="#stat2">5</table>
+        <table name="#set">1.10</table>
+        <set name="icon" value="icon.accessory_barka_karm_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="pDef" value="#set"/>
+            <mul stat="mDef" value="#set"/>
+            <add order="0x10" stat="STR" value="#stat"/>
+            <add order="0x10" stat="INT" value="#stat"/>
+            <add order="0x10" stat="DEX" value="#stat1"/>
+            <add order="0x10" stat="WIT" value="#stat1"/>
+            <add order="0x10" stat="CON" value="#stat2"/>
+            <add order="0x10" stat="MEN" value="#stat2"/>
+        </for>
+    </skill>
+    <skill id="120041" levels="15" name="Комплект Бижутерии">
+        <table name="#mDefMul">1 1 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12 1.13 1.15</table>
+        <table name="#mDefAdd">200 500 800 1000 1200 1400 1600 1800 2000 2200 2400 2600 2800 3000 3500</table>
+        <table name="#pveDamage">1.005 1.01 1.015 1.02 1.025 1.03 1.035 1.04 1.045 1.05 1.055 1.06 1.065 1.07 1.075</table>
+        <table name="#pvpDamage">1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12 1.13 1.14 1.15</table>
+        <table name="#exp">0.03 0.06 0.09 0.12 0.15 0.18 0.21 0.24 0.27 0.3 0.33 0.36 0.4 0.45 0.5</table>
+        <set name="icon" value="icon.elemental_necklace_fire_i00"/>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <mul stat="mDef" value="#mDefMul"/>
+            <add stat="mDef" value="#mDefAdd"/>
+
+            <mul stat="pvePhysDmgBonus" value="#pveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#pveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#pveDamage"/>
+
+            <mul stat="pvpPhysDmgBonus" value="#pvpDamage"/>
+            <mul stat="pvpMagicSkillDmgBonus" value="#pvpDamage"/>
+            <mul stat="pvpPhysSkillDmgBonus" value="#pvpDamage"/>
+
+            <add stat="exp_rate_multiplier" value="#exp"/>
+        </for>
+    </skill>
+</list>

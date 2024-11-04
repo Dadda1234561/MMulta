@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<normal_skill_tree>
+		<class id="156">	<!--Мастер Тира-->
+			<!--<skill id="10274" level="1" name="Берсерк(Berserker)" min_level="85"/>
+			<skill id="1405" level="1" name="Божественное Вдохновение(Divine Inspiration)" cost="4" min_level="85"/>
+			<skill id="1405" level="2" name="Божественное Вдохновение(Divine Inspiration)" cost="30" min_level="85"/>
+			<skill id="1405" level="3" name="Божественное Вдохновение(Divine Inspiration)" cost="100" min_level="85"/>
+			<skill id="1405" level="4" name="Божественное Вдохновение(Divine Inspiration)" min_level="85"/>
+			<skill id="10267" level="1" name="Бросок Урагана(Hurricane Rush)" min_level="85"/>
+			<skill id="10256" level="1" name="Великое Владение HP(Superior HP Mastery)" min_level="85"/>
+			<skill id="10311" level="1" name="Великое Владение Двуручным Оружием(Superior Two-handed Weapon Mastery)" min_level="85"/>
+			<skill id="10315" level="1" name="Великое Владение Древковым Оружием(Superior Polearm Mastery)" min_level="85"/>
+			<skill id="10329" level="1" name="Великое Владение Дробящим Оружием(Superior Blunt Weapon Mastery)" min_level="85"/>
+			<skill id="10257" level="1" name="Великое Владение Духом(Great Spirit Mastery)" min_level="85"/>
+			<skill id="10254" level="1" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" min_level="85"/>
+			<skill id="10251" level="1" name="Великое Владение Оружием(Superior Weapon Mastery)" min_level="85"/>
+			<skill id="10252" level="1" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" min_level="85"/>
+			<skill id="10255" level="1" name="Великое Владение Силой(Superior Momentum Mastery)" min_level="85"/>
+			<skill id="10253" level="1" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" min_level="85"/>
+			<skill id="11620" level="1" name="Великое Владение Щитом(Superior Shield Mastery)" min_level="85"/>
+			<skill id="10286" level="1" name="Великое Сопротивление(Superior Resistance)" min_level="85"/>
+			<skill id="10265" level="1" name="Взрыв Энергии(Eruption)" min_level="85"/>
+			<skill id="10294" level="1" name="Визг Кролика(Feral Rabbit Cry)" min_level="85"/>
+			<skill id="10312" level="1" name="Владение Ремеслом(Crafting Mastery)" min_level="85"/>
+			<skill id="10298" level="1" name="Возрождение Силы(Power Revival)" min_level="85"/>
+			<skill id="10292" level="1" name="Вопль Огра(Feral Ogre Cry)" min_level="85"/>
+			<skill id="19109" level="1" name="Дух Осадного Голема(Siege Golem's Spirit)" min_level="85"/>
+			<skill id="10296" level="1" name="Дух Охотника(Spirit of the Hunter)" min_level="85"/>
+			<skill id="10297" level="1" name="Дух Убийцы(Spirit of the Slayer)" min_level="85"/>
+			<skill id="10280" level="1" name="Заряд Энергии(Momentum Charge)" min_level="85"/>
+			<skill id="10263" level="1" name="Источник Урагана(Hurricane Blaster)" min_level="85"/>
+			<skill id="10295" level="1" name="Клич Ястреба(Hawk Cry)" min_level="85"/>
+			<skill id="10289" level="1" name="Копье Доблести(Brave Spear)" min_level="85"/>
+			<skill id="248" level="6" name="Кристаллизация(Crystallize)" min_level="85"/>
+			<skill id="150" level="3" name="Лимит Веса(Weight Limit)" min_level="85"/>
+			<skill id="10260" level="1" name="Мегаудар(Mega Strike)" min_level="85"/>
+			<skill id="10262" level="1" name="Мощный Бомбардир(Power Bomber)" min_level="85"/>
+			<skill id="10330" level="1" name="Мощный Удар Молотом(Power Hammer Crush)" min_level="85"/>
+			<skill id="10273" level="1" name="Обезоруживание(Lightning Disarm)" min_level="85"/>
+			<skill id="30833" level="1" name="Обычная Гармония Фантазии(Basic Fantasia Harmony)" min_level="85"/>
+			<skill id="30824" level="1" name="Обычная Поэма Барабана(Basic Drum Melody)" min_level="85"/>
+			<skill id="30826" level="1" name="Обычная Поэма Гитары(Basic Guitar Melody)" min_level="85"/>
+			<skill id="30825" level="1" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" min_level="85"/>
+			<skill id="30823" level="1" name="Обычная Поэма Рога(Basic Horn Melody)" min_level="85"/>
+			<skill id="30827" level="1" name="Обычное Анданте Битвы(Basic Andante of Battle)" min_level="85"/>
+			<skill id="30828" level="1" name="Обычное Анданте Движения(Basic Andante of Movement)" min_level="85"/>
+			<skill id="30829" level="1" name="Обычное Анданте Расслабления(Basic Refreshing Andante)" min_level="85"/>
+			<skill id="30831" level="1" name="Обычное Сопротивление Злым Чарам(Basic Debuff Resistance)" min_level="85"/>
+			<skill id="30832" level="1" name="Обычное Сопротивление Психическим Атакам(Basic Mental Attack Resistance)" min_level="85"/>
+			<skill id="30830" level="1" name="Обычное Сопротивление Стихиям(Basic Attribute Resistance)" min_level="85"/>
+			<skill id="8601" level="1" name="Оседлать Дикого Скакуна(Summon Battle Scar)" min_level="85"/>
+			<skill id="10278" level="1" name="Ослабление Гнева(Reduce Anger)" min_level="85"/>
+			<skill id="19089" level="1" name="Призвать Стального Вепря(Summon Wild Hog Cannon)" min_level="85"/>
+			<skill id="10258" level="1" name="Разрушение Брони(Armor Destruction)" min_level="85"/>
+			<skill id="1370" level="1" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1370" level="2" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1370" level="3" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="800000000" min_level="85"/>
+			<skill id="1372" level="1" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="20000000" min_level="85"/>
+			<skill id="1372" level="2" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1372" level="3" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="60000000" min_level="85"/>
+			<skill id="1372" level="4" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="80000000" min_level="85"/>
+			<skill id="1372" level="5" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="100000000" min_level="85"/>
+			<skill id="1372" level="6" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="120000000" min_level="85"/>
+			<skill id="1372" level="7" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="200000000" min_level="85"/>
+			<skill id="1372" level="8" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1371" level="1" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="20000000" min_level="85"/>
+			<skill id="1371" level="2" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1371" level="3" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="60000000" min_level="85"/>
+			<skill id="1371" level="4" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="80000000" min_level="85"/>
+			<skill id="1371" level="5" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="100000000" min_level="85"/>
+			<skill id="1371" level="6" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="120000000" min_level="85"/>
+			<skill id="1371" level="7" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="200000000" min_level="85"/>
+			<skill id="1371" level="8" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="10291" level="1" name="Рев Медведя(Feral Bear Cry)" min_level="85"/>
+			<skill id="10293" level="1" name="Рычание Пумы(Feral Puma Cry)" min_level="85"/>
+			<skill id="10276" level="1" name="Сила Природы(Force of Nature)" min_level="85"/>
+			<skill id="1929" level="1" name="Сила Тира(Tyrr Force)" min_level="85"/>
+			<skill id="172" level="11" name="Создать Предмет(Create Item)" min_level="85"/>
+			<skill id="1572" level="1" name="Увеличение Веса(Weight Increase)" min_level="85"/>
+			<skill id="1571" level="1" name="Увеличение Инвентаря(Inventory Increase)" min_level="85"/>
+			<skill id="10266" level="1" name="Удар Гиганта(Giant Punch)" min_level="85"/>
+			<skill id="10288" level="1" name="Ураганный Шторм(Hurricane Storm)" min_level="85"/>
+			<skill id="10265" level="2" name="Взрыв Энергии(Eruption)" cost="50000" min_level="86"/>
+			<skill id="10263" level="2" name="Источник Урагана(Hurricane Blaster)" cost="50000" min_level="86"/>
+			<skill id="10260" level="2" name="Мегаудар(Mega Strike)" cost="50000" min_level="86"/>
+			<skill id="10278" level="2" name="Ослабление Гнева(Reduce Anger)" cost="50000" min_level="86"/>
+			<skill id="10288" level="2" name="Ураганный Шторм(Hurricane Storm)" cost="50000" min_level="86"/>
+			<skill id="10269" level="1" name="Атака в Прыжке(Jump Attack)" cost="60000" min_level="87"/>
+			<skill id="10267" level="2" name="Бросок Урагана(Hurricane Rush)" cost="60000" min_level="87"/>
+			<skill id="10258" level="2" name="Разрушение Брони(Armor Destruction)" cost="60000" min_level="87"/>
+			<skill id="10266" level="2" name="Удар Гиганта(Giant Punch)" cost="60000" min_level="87"/>
+			<skill id="10265" level="3" name="Взрыв Энергии(Eruption)" cost="80000" min_level="88"/>
+			<skill id="10263" level="3" name="Источник Урагана(Hurricane Blaster)" cost="80000" min_level="88"/>
+			<skill id="10260" level="3" name="Мегаудар(Mega Strike)" cost="80000" min_level="88"/>
+			<skill id="10262" level="2" name="Мощный Бомбардир(Power Bomber)" cost="80000" min_level="88"/>
+			<skill id="10278" level="3" name="Ослабление Гнева(Reduce Anger)" cost="80000" min_level="88"/>
+			<skill id="10288" level="3" name="Ураганный Шторм(Hurricane Storm)" cost="80000" min_level="88"/>
+			<skill id="10269" level="2" name="Атака в Прыжке(Jump Attack)" cost="100000" min_level="89"/>
+			<skill id="10268" level="1" name="Громовые Раскаты(Rolling Thunder)" cost="100000" min_level="89"/>
+			<skill id="10258" level="3" name="Разрушение Брони(Armor Destruction)" cost="100000" min_level="89"/>
+			<skill id="10266" level="3" name="Удар Гиганта(Giant Punch)" cost="100000" min_level="89"/>
+			<skill id="10274" level="2" name="Берсерк(Berserker)" cost="370000" min_level="90"/>
+			<skill id="10267" level="3" name="Бросок Урагана(Hurricane Rush)" cost="370000" min_level="90"/>
+			<skill id="10256" level="2" name="Великое Владение HP(Superior HP Mastery)" cost="370000" min_level="90"/>
+			<skill id="10311" level="2" name="Великое Владение Двуручным Оружием(Superior Two-handed Weapon Mastery)" cost="370000" min_level="90"/>
+			<skill id="10315" level="2" name="Великое Владение Древковым Оружием(Superior Polearm Mastery)" cost="370000" min_level="90"/>
+			<skill id="10254" level="2" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="370000" min_level="90"/>
+			<skill id="10251" level="2" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="370000" min_level="90"/>
+			<skill id="10252" level="2" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="370000" min_level="90"/>
+			<skill id="10255" level="2" name="Великое Владение Силой(Superior Momentum Mastery)" cost="370000" min_level="90"/>
+			<skill id="10253" level="2" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="370000" min_level="90"/>
+			<skill id="11620" level="2" name="Великое Владение Щитом(Superior Shield Mastery)" cost="370000" min_level="90"/>
+			<skill id="10286" level="2" name="Великое Сопротивление(Superior Resistance)" cost="370000" min_level="90"/>
+			<skill id="10265" level="4" name="Взрыв Энергии(Eruption)" cost="370000" min_level="90"/>
+			<skill id="10312" level="2" name="Владение Ремеслом(Crafting Mastery)" cost="370000" min_level="90"/>
+			<skill id="19109" level="2" name="Дух Осадного Голема(Siege Golem's Spirit)" cost="370000" min_level="90"/>
+			<skill id="10263" level="4" name="Источник Урагана(Hurricane Blaster)" cost="370000" min_level="90"/>
+			<skill id="10289" level="2" name="Копье Доблести(Brave Spear)" cost="370000" min_level="90"/>
+			<skill id="10260" level="4" name="Мегаудар(Mega Strike)" cost="370000" min_level="90"/>
+			<skill id="10330" level="2" name="Мощный Удар Молотом(Power Hammer Crush)" cost="370000" min_level="90"/>
+			<skill id="10273" level="2" name="Обезоруживание(Lightning Disarm)" cost="370000" min_level="90"/>
+			<skill id="30824" level="2" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="370000" min_level="90"/>
+			<skill id="30826" level="2" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="370000" min_level="90"/>
+			<skill id="30825" level="2" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="370000" min_level="90"/>
+			<skill id="30823" level="2" name="Обычная Поэма Рога(Basic Horn Melody)" cost="370000" min_level="90"/>
+			<skill id="10278" level="4" name="Ослабление Гнева(Reduce Anger)" cost="370000" min_level="90"/>
+			<skill id="10300" level="1" name="Последняя Атака(Last Attack)" cost="370000" min_level="90"/>
+			<skill id="19089" level="2" name="Призвать Стального Вепря(Summon Wild Hog Cannon)" cost="370000" min_level="90"/>
+			<skill id="172" level="12" name="Создать Предмет(Create Item)" min_level="90"/>
+			<skill id="10288" level="4" name="Ураганный Шторм(Hurricane Storm)" cost="370000" min_level="90"/>
+			<skill id="10269" level="3" name="Атака в Прыжке(Jump Attack)" cost="400000" min_level="91"/>
+			<skill id="10279" level="1" name="Барьер Великана(Giant Barrier)" cost="400000" min_level="91"/>
+			<skill id="10268" level="2" name="Громовые Раскаты(Rolling Thunder)" cost="400000" min_level="91"/>
+			<skill id="10262" level="3" name="Мощный Бомбардир(Power Bomber)" cost="400000" min_level="91"/>
+			<skill id="10258" level="4" name="Разрушение Брони(Armor Destruction)" cost="400000" min_level="91"/>
+			<skill id="10266" level="4" name="Удар Гиганта(Giant Punch)" cost="400000" min_level="91"/>
+			<skill id="10265" level="5" name="Взрыв Энергии(Eruption)" cost="420000" min_level="92"/>
+			<skill id="10263" level="5" name="Источник Урагана(Hurricane Blaster)" cost="420000" min_level="92"/>
+			<skill id="10260" level="5" name="Мегаудар(Mega Strike)" cost="420000" min_level="92"/>
+			<skill id="10278" level="5" name="Ослабление Гнева(Reduce Anger)" cost="420000" min_level="92"/>
+			<skill id="10288" level="5" name="Ураганный Шторм(Hurricane Storm)" cost="420000" min_level="92"/>
+			<skill id="10269" level="4" name="Атака в Прыжке(Jump Attack)" cost="440000" min_level="93"/>
+			<skill id="10267" level="4" name="Бросок Урагана(Hurricane Rush)" cost="440000" min_level="93"/>
+			<skill id="10268" level="3" name="Громовые Раскаты(Rolling Thunder)" cost="440000" min_level="93"/>
+			<skill id="10270" level="1" name="Последняя Энергия(Second Wind)" cost="440000" min_level="93"/>
+			<skill id="10258" level="5" name="Разрушение Брони(Armor Destruction)" cost="440000" min_level="93"/>
+			<skill id="10266" level="5" name="Удар Гиганта(Giant Punch)" cost="440000" min_level="93"/>
+			<skill id="10265" level="6" name="Взрыв Энергии(Eruption)" cost="480000" min_level="94"/>
+			<skill id="10263" level="6" name="Источник Урагана(Hurricane Blaster)" cost="480000" min_level="94"/>
+			<skill id="10260" level="6" name="Мегаудар(Mega Strike)" cost="480000" min_level="94"/>
+			<skill id="10262" level="4" name="Мощный Бомбардир(Power Bomber)" cost="480000" min_level="94"/>
+			<skill id="10278" level="6" name="Ослабление Гнева(Reduce Anger)" cost="480000" min_level="94"/>
+			<skill id="10288" level="6" name="Ураганный Шторм(Hurricane Storm)" cost="480000" min_level="94"/>
+			<skill id="10269" level="5" name="Атака в Прыжке(Jump Attack)" cost="1000000" min_level="95"/>
+			<skill id="10274" level="3" name="Берсерк(Berserker)" cost="1000000" min_level="95"/>
+			<skill id="10256" level="3" name="Великое Владение HP(Superior HP Mastery)" cost="1000000" min_level="95"/>
+			<skill id="10254" level="3" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="1000000" min_level="95"/>
+			<skill id="10251" level="3" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="1000000" min_level="95"/>
+			<skill id="10252" level="3" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="1000000" min_level="95"/>
+			<skill id="10255" level="3" name="Великое Владение Силой(Superior Momentum Mastery)" cost="1000000" min_level="95"/>
+			<skill id="10253" level="3" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="1000000" min_level="95"/>
+			<skill id="11620" level="3" name="Великое Владение Щитом(Superior Shield Mastery)" cost="1000000" min_level="95"/>
+			<skill id="10286" level="3" name="Великое Сопротивление(Superior Resistance)" cost="1000000" min_level="95"/>
+			<skill id="10312" level="3" name="Владение Ремеслом(Crafting Mastery)" cost="1000000" min_level="95"/>
+			<skill id="10268" level="4" name="Громовые Раскаты(Rolling Thunder)" cost="1000000" min_level="95"/>
+			<skill id="19109" level="3" name="Дух Осадного Голема(Siege Golem's Spirit)" cost="1000000" min_level="95"/>
+			<skill id="10281" level="1" name="Звуковая Звезда(Sonic Star)" cost="1000000" min_level="95"/>
+			<skill id="10289" level="3" name="Копье Доблести(Brave Spear)" cost="1000000" min_level="95"/>
+			<skill id="10330" level="3" name="Мощный Удар Молотом(Power Hammer Crush)" cost="1000000" min_level="95"/>
+			<skill id="10273" level="3" name="Обезоруживание(Lightning Disarm)" cost="1000000" min_level="95"/>
+			<skill id="30824" level="3" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="1000000" min_level="95"/>
+			<skill id="30826" level="3" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="1000000" min_level="95"/>
+			<skill id="30825" level="3" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="1000000" min_level="95"/>
+			<skill id="30823" level="3" name="Обычная Поэма Рога(Basic Horn Melody)" cost="1000000" min_level="95"/>
+			<skill id="10300" level="2" name="Последняя Атака(Last Attack)" cost="1000000" min_level="95"/>
+			<skill id="19089" level="3" name="Призвать Стального Вепря(Summon Wild Hog Cannon)" cost="1000000" min_level="95"/>
+			<skill id="10258" level="6" name="Разрушение Брони(Armor Destruction)" cost="1000000" min_level="95"/>
+			<skill id="172" level="13" name="Создать Предмет(Create Item)" min_level="95"/>
+			<skill id="10266" level="6" name="Удар Гиганта(Giant Punch)" cost="1000000" min_level="95"/>
+			<skill id="10267" level="5" name="Бросок Урагана(Hurricane Rush)" cost="4970000" min_level="96"/>
+			<skill id="10265" level="7" name="Взрыв Энергии(Eruption)" cost="4970000" min_level="96"/>
+			<skill id="10263" level="7" name="Источник Урагана(Hurricane Blaster)" cost="4970000" min_level="96"/>
+			<skill id="10260" level="7" name="Мегаудар(Mega Strike)" cost="4970000" min_level="96"/>
+			<skill id="10278" level="7" name="Ослабление Гнева(Reduce Anger)" cost="4970000" min_level="96"/>
+			<skill id="10288" level="7" name="Ураганный Шторм(Hurricane Storm)" cost="4970000" min_level="96"/>
+			<skill id="10269" level="6" name="Атака в Прыжке(Jump Attack)" cost="4980000" min_level="97"/>
+			<skill id="10268" level="5" name="Громовые Раскаты(Rolling Thunder)" cost="4980000" min_level="97"/>
+			<skill id="10271" level="1" name="Мощная Провокация(Power Provoke)" cost="4980000" min_level="97"/>
+			<skill id="10262" level="5" name="Мощный Бомбардир(Power Bomber)" cost="4980000" min_level="97"/>
+			<skill id="10258" level="7" name="Разрушение Брони(Armor Destruction)" cost="4980000" min_level="97"/>
+			<skill id="10266" level="7" name="Удар Гиганта(Giant Punch)" cost="4980000" min_level="97"/>
+			<skill id="10265" level="8" name="Взрыв Энергии(Eruption)" cost="4990000" min_level="98"/>
+			<skill id="10281" level="2" name="Звуковая Звезда(Sonic Star)" cost="4990000" min_level="98"/>
+			<skill id="10263" level="8" name="Источник Урагана(Hurricane Blaster)" cost="4990000" min_level="98"/>
+			<skill id="10260" level="8" name="Мегаудар(Mega Strike)" cost="4990000" min_level="98"/>
+			<skill id="10278" level="8" name="Ослабление Гнева(Reduce Anger)" cost="4990000" min_level="98"/>
+			<skill id="10288" level="8" name="Ураганный Шторм(Hurricane Storm)" cost="4990000" min_level="98"/>
+			<skill id="10269" level="7" name="Атака в Прыжке(Jump Attack)" cost="5000000" min_level="99"/>
+			<skill id="10274" level="4" name="Берсерк(Berserker)" cost="5000000" min_level="99"/>
+			<skill id="1405" level="5" name="Божественное Вдохновение(Divine Inspiration)" item_id="40064" cost="5000000" min_level="99"/>
+			<skill id="1405" level="6" name="Божественное Вдохновение(Divine Inspiration)" item_id="40065" cost="5000000" min_level="99"/>
+			<skill id="10267" level="6" name="Бросок Урагана(Hurricane Rush)" cost="5000000" min_level="99"/>
+			<skill id="10256" level="4" name="Великое Владение HP(Superior HP Mastery)" cost="5000000" min_level="99"/>
+			<skill id="10254" level="4" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="5000000" min_level="99"/>
+			<skill id="10251" level="4" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="5000000" min_level="99"/>
+			<skill id="10252" level="4" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="5000000" min_level="99"/>
+			<skill id="10255" level="4" name="Великое Владение Силой(Superior Momentum Mastery)" cost="5000000" min_level="99"/>
+			<skill id="10253" level="4" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="5000000" min_level="99"/>
+			<skill id="11620" level="4" name="Великое Владение Щитом(Superior Shield Mastery)" cost="5000000" min_level="99"/>
+			<skill id="10286" level="4" name="Великое Сопротивление(Superior Resistance)" cost="5000000" min_level="99"/>
+			<skill id="10312" level="4" name="Владение Ремеслом(Crafting Mastery)" cost="5000000" min_level="99"/>
+			<skill id="10268" level="6" name="Громовые Раскаты(Rolling Thunder)" cost="5000000" min_level="99"/>
+			<skill id="19109" level="4" name="Дух Осадного Голема(Siege Golem's Spirit)" cost="5000000" min_level="99"/>
+			<skill id="10289" level="4" name="Копье Доблести(Brave Spear)" cost="5000000" min_level="99"/>
+			<skill id="30611" level="1" name="Лезвие Шторма(Edge of Storm)" item_id="39738" item_count="8" cost="5000000" min_level="99"/>
+			<skill id="10271" level="2" name="Мощная Провокация(Power Provoke)" cost="5000000" min_level="99"/>
+			<skill id="10262" level="6" name="Мощный Бомбардир(Power Bomber)" cost="5000000" min_level="99"/>
+			<skill id="10330" level="4" name="Мощный Удар Молотом(Power Hammer Crush)" cost="5000000" min_level="99"/>
+			<skill id="10273" level="4" name="Обезоруживание(Lightning Disarm)" cost="5000000" min_level="99"/>
+			<skill id="30824" level="4" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="5000000" min_level="99"/>
+			<skill id="30826" level="4" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="5000000" min_level="99"/>
+			<skill id="30825" level="4" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="5000000" min_level="99"/>
+			<skill id="30823" level="4" name="Обычная Поэма Рога(Basic Horn Melody)" cost="5000000" min_level="99"/>
+			<skill id="10300" level="3" name="Последняя Атака(Last Attack)" cost="5000000" min_level="99"/>
+			<skill id="10341" level="1" name="Призвать Пылающего Механического Голема(Summon Burning Mechanic Golem)" item_id="39738" item_count="8" cost="5000000" min_level="99"/>
+			<skill id="19089" level="4" name="Призвать Стального Вепря(Summon Wild Hog Cannon)" cost="5000000" min_level="99"/>
+			<skill id="10258" level="8" name="Разрушение Брони(Armor Destruction)" cost="5000000" min_level="99"/>
+			<skill id="172" level="14" name="Создать Предмет(Create Item)" min_level="99"/>
+			<skill id="10275" level="1" name="Удар Вечности(Infinity Strike)" cost="5000000" min_level="99"/>
+			<skill id="10266" level="8" name="Удар Гиганта(Giant Punch)" cost="5000000" min_level="99"/>
+			<skill id="10256" level="5" name="Великое Владение HP(Superior HP Mastery)" cost="88099899" min_level="100"/>
+			<skill id="10254" level="5" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="88099899" min_level="100"/>
+			<skill id="10251" level="5" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="88099899" min_level="100"/>
+			<skill id="10252" level="5" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="88099899" min_level="100"/>
+			<skill id="10255" level="5" name="Великое Владение Силой(Superior Momentum Mastery)" cost="88099899" min_level="100"/>
+			<skill id="10253" level="5" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="88099899" min_level="100"/>
+			<skill id="11620" level="5" name="Великое Владение Щитом(Superior Shield Mastery)" cost="88099899" min_level="100"/>
+			<skill id="10286" level="5" name="Великое Сопротивление(Superior Resistance)" cost="88099899" min_level="100"/>
+			<skill id="10956" level="1" name="Распространение Божественности(Divine Expansion)" item_id="39738" item_count="8" cost="88099899" min_level="100"/>
+			<skill id="10269" level="8" name="Атака в Прыжке(Jump Attack)" cost="211440000" min_level="101"/>
+			<skill id="10267" level="7" name="Бросок Урагана(Hurricane Rush)" cost="211440000" min_level="101"/>
+			<skill id="10265" level="9" name="Взрыв Энергии(Eruption)" cost="211440000" min_level="101"/>
+			<skill id="10281" level="3" name="Звуковая Звезда(Sonic Star)" cost="211440000" min_level="101"/>
+			<skill id="10263" level="9" name="Источник Урагана(Hurricane Blaster)" cost="211440000" min_level="101"/>
+			<skill id="10260" level="9" name="Мегаудар(Mega Strike)" cost="211440000" min_level="101"/>
+			<skill id="10262" level="7" name="Мощный Бомбардир(Power Bomber)" cost="211440000" min_level="101"/>
+			<skill id="10330" level="5" name="Мощный Удар Молотом(Power Hammer Crush)" cost="211440000" min_level="101"/>
+			<skill id="10300" level="4" name="Последняя Атака(Last Attack)" cost="211440000" min_level="101"/>
+			<skill id="10341" level="2" name="Призвать Пылающего Механического Голема(Summon Burning Mechanic Golem)" cost="211440000" min_level="101"/>
+			<skill id="10258" level="9" name="Разрушение Брони(Armor Destruction)" cost="211440000" min_level="101"/>
+			<skill id="10275" level="2" name="Удар Вечности(Infinity Strike)" cost="211440000" min_level="101"/>
+			<skill id="10266" level="9" name="Удар Гиганта(Giant Punch)" cost="211440000" min_level="101"/>
+			<skill id="10288" level="9" name="Ураганный Шторм(Hurricane Storm)" cost="211440000" min_level="101"/>
+			<skill id="10256" level="6" name="Великое Владение HP(Superior HP Mastery)" cost="507455418" min_level="102"/>
+			<skill id="10254" level="6" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="507455418" min_level="102"/>
+			<skill id="10251" level="6" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="507455418" min_level="102"/>
+			<skill id="10252" level="6" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="507455418" min_level="102"/>
+			<skill id="10255" level="6" name="Великое Владение Силой(Superior Momentum Mastery)" cost="507455418" min_level="102"/>
+			<skill id="10253" level="6" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="507455418" min_level="102"/>
+			<skill id="11620" level="6" name="Великое Владение Щитом(Superior Shield Mastery)" cost="507455418" min_level="102"/>
+			<skill id="10286" level="6" name="Великое Сопротивление(Superior Resistance)" cost="507455418" min_level="102"/>
+			<skill id="10269" level="9" name="Атака в Прыжке(Jump Attack)" cost="608946501" min_level="103"/>
+			<skill id="10267" level="8" name="Бросок Урагана(Hurricane Rush)" cost="608946501" min_level="103"/>
+			<skill id="10265" level="10" name="Взрыв Энергии(Eruption)" cost="608946501" min_level="103"/>
+			<skill id="10281" level="4" name="Звуковая Звезда(Sonic Star)" cost="608946501" min_level="103"/>
+			<skill id="10263" level="10" name="Источник Урагана(Hurricane Blaster)" cost="608946501" min_level="103"/>
+			<skill id="10260" level="10" name="Мегаудар(Mega Strike)" cost="608946501" min_level="103"/>
+			<skill id="10262" level="8" name="Мощный Бомбардир(Power Bomber)" cost="608946501" min_level="103"/>
+			<skill id="10330" level="6" name="Мощный Удар Молотом(Power Hammer Crush)" cost="608946501" min_level="103"/>
+			<skill id="10300" level="5" name="Последняя Атака(Last Attack)" cost="608946501" min_level="103"/>
+			<skill id="10341" level="3" name="Призвать Пылающего Механического Голема(Summon Burning Mechanic Golem)" cost="608946501" min_level="103"/>
+			<skill id="10258" level="10" name="Разрушение Брони(Armor Destruction)" cost="608946501" min_level="103"/>
+			<skill id="10275" level="3" name="Удар Вечности(Infinity Strike)" cost="608946501" min_level="103"/>
+			<skill id="10266" level="10" name="Удар Гиганта(Giant Punch)" cost="608946501" min_level="103"/>
+			<skill id="10288" level="10" name="Ураганный Шторм(Hurricane Storm)" cost="608946501" min_level="103"/>
+			<skill id="10256" level="7" name="Великое Владение HP(Superior HP Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="10254" level="7" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="10251" level="7" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="10252" level="7" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="10255" level="7" name="Великое Владение Силой(Superior Momentum Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="10253" level="7" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="11620" level="7" name="Великое Владение Щитом(Superior Shield Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="10286" level="7" name="Великое Сопротивление(Superior Resistance)" cost="1461471604" min_level="104"/>
+			<skill id="10269" level="10" name="Атака в Прыжке(Jump Attack)" cost="1753765925" min_level="105"/>
+			<skill id="10267" level="9" name="Бросок Урагана(Hurricane Rush)" cost="1753765925" min_level="105"/>
+			<skill id="10265" level="11" name="Взрыв Энергии(Eruption)" cost="1753765925" min_level="105"/>
+			<skill id="10281" level="5" name="Звуковая Звезда(Sonic Star)" cost="1753765925" min_level="105"/>
+			<skill id="10263" level="11" name="Источник Урагана(Hurricane Blaster)" cost="1753765925" min_level="105"/>
+			<skill id="10260" level="11" name="Мегаудар(Mega Strike)" cost="1753765925" min_level="105"/>
+			<skill id="10262" level="9" name="Мощный Бомбардир(Power Bomber)" cost="1753765925" min_level="105"/>
+			<skill id="10330" level="7" name="Мощный Удар Молотом(Power Hammer Crush)" cost="1753765925" min_level="105"/>
+			<skill id="30819" level="1" name="Напряжение Силы(Force Intention)" item_id="39738" item_count="8" cost="1753765925" min_level="105"/>
+			<skill id="10300" level="6" name="Последняя Атака(Last Attack)" cost="1753765925" min_level="105"/>
+			<skill id="10341" level="4" name="Призвать Пылающего Механического Голема(Summon Burning Mechanic Golem)" cost="1753765925" min_level="105"/>
+			<skill id="10258" level="11" name="Разрушение Брони(Armor Destruction)" cost="1753765925" min_level="105"/>
+			<skill id="172" level="15" name="Создать Предмет(Create Item)" cost="1753765925" min_level="105"/>
+			<skill id="10275" level="4" name="Удар Вечности(Infinity Strike)" cost="1753765925" min_level="105"/>
+			<skill id="10266" level="11" name="Удар Гиганта(Giant Punch)" cost="1753765925" min_level="105"/>
+			<skill id="10288" level="11" name="Ураганный Шторм(Hurricane Storm)" cost="1753765925" min_level="105"/>
+			<skill id="10256" level="8" name="Великое Владение HP(Superior HP Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="10254" level="8" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="10251" level="8" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="10252" level="8" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="10255" level="8" name="Великое Владение Силой(Superior Momentum Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="10253" level="8" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="11620" level="8" name="Великое Владение Щитом(Superior Shield Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="10286" level="8" name="Великое Сопротивление(Superior Resistance)" cost="2104519110" min_level="106"/>
+			<skill id="30863" level="1" name="Дух Голема(Golem's Spirit)" item_id="39738" item_count="8" cost="2104519110" min_level="106"/>
+			<skill id="10269" level="11" name="Атака в Прыжке(Jump Attack)" cost="2525422932" min_level="107"/>
+			<skill id="10267" level="10" name="Бросок Урагана(Hurricane Rush)" cost="2525422932" min_level="107"/>
+			<skill id="10265" level="12" name="Взрыв Энергии(Eruption)" cost="2525422932" min_level="107"/>
+			<skill id="10281" level="6" name="Звуковая Звезда(Sonic Star)" cost="2525422932" min_level="107"/>
+			<skill id="10263" level="12" name="Источник Урагана(Hurricane Blaster)" cost="2525422932" min_level="107"/>
+			<skill id="10260" level="12" name="Мегаудар(Mega Strike)" cost="2525422932" min_level="107"/>
+			<skill id="10262" level="10" name="Мощный Бомбардир(Power Bomber)" cost="2525422932" min_level="107"/>
+			<skill id="10330" level="8" name="Мощный Удар Молотом(Power Hammer Crush)" cost="2525422932" min_level="107"/>
+			<skill id="10300" level="7" name="Последняя Атака(Last Attack)" cost="2525422932" min_level="107"/>
+			<skill id="10258" level="12" name="Разрушение Брони(Armor Destruction)" cost="2525422932" min_level="107"/>
+			<skill id="10275" level="5" name="Удар Вечности(Infinity Strike)" cost="2525422932" min_level="107"/>
+			<skill id="10266" level="12" name="Удар Гиганта(Giant Punch)" cost="2525422932" min_level="107"/>
+			<skill id="10288" level="12" name="Ураганный Шторм(Hurricane Storm)" cost="2525422932" min_level="107"/>
+			<skill id="10256" level="9" name="Великое Владение HP(Superior HP Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="10254" level="9" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="10251" level="9" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="10252" level="9" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="10255" level="9" name="Великое Владение Силой(Superior Momentum Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="10253" level="9" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="11620" level="9" name="Великое Владение Щитом(Superior Shield Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="10286" level="9" name="Великое Сопротивление(Superior Resistance)" cost="6061015038" min_level="108"/>
+			<skill id="10269" level="12" name="Атака в Прыжке(Jump Attack)" cost="7273218046" min_level="109"/>
+			<skill id="10267" level="11" name="Бросок Урагана(Hurricane Rush)" cost="7273218046" min_level="109"/>
+			<skill id="10265" level="13" name="Взрыв Энергии(Eruption)" cost="7273218046" min_level="109"/>
+			<skill id="10281" level="7" name="Звуковая Звезда(Sonic Star)" cost="7273218046" min_level="109"/>
+			<skill id="10263" level="13" name="Источник Урагана(Hurricane Blaster)" cost="7273218046" min_level="109"/>
+			<skill id="10260" level="13" name="Мегаудар(Mega Strike)" cost="7273218046" min_level="109"/>
+			<skill id="10262" level="11" name="Мощный Бомбардир(Power Bomber)" cost="7273218046" min_level="109"/>
+			<skill id="10330" level="9" name="Мощный Удар Молотом(Power Hammer Crush)" cost="7273218046" min_level="109"/>
+			<skill id="10300" level="8" name="Последняя Атака(Last Attack)" cost="7273218046" min_level="109"/>
+			<skill id="10258" level="13" name="Разрушение Брони(Armor Destruction)" cost="7273218046" min_level="109"/>
+			<skill id="10275" level="6" name="Удар Вечности(Infinity Strike)" cost="7273218046" min_level="109"/>
+			<skill id="10266" level="13" name="Удар Гиганта(Giant Punch)" cost="7273218046" min_level="109"/>
+			<skill id="10288" level="13" name="Ураганный Шторм(Hurricane Storm)" cost="7273218046" min_level="109"/>
+			<skill id="10256" level="10" name="Великое Владение HP(Superior HP Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="10254" level="10" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="10251" level="10" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="10252" level="10" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="10255" level="10" name="Великое Владение Силой(Superior Momentum Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="10253" level="10" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="11620" level="10" name="Великое Владение Щитом(Superior Shield Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="10286" level="10" name="Великое Сопротивление(Superior Resistance)" cost="17455723311" min_level="110"/>
+			<skill id="30852" level="1" name="Максимальная Энергия(Max Energy)" item_id="81453" cost="17455723311" min_level="110"/>-->
+		</class>
+	</normal_skill_tree>
+</list>

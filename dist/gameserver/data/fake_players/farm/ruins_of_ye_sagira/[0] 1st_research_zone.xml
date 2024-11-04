@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Ruins of Ye Sagira - 1st Research Zone" min_level="6" max_level="12" races="HUMAN;ELF;DARKELF;ORC;DWARF;KAMAEL">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="-115176 238056 -3238 -2938"/>
+				<coords loc="-115784 237624 -3238 -2938"/>
+				<coords loc="-116152 237064 -3238 -2938"/>
+				<coords loc="-116344 236280 -3238 -2938"/>
+				<coords loc="-116136 235672 -3238 -2938"/>
+				<coords loc="-115752 235128 -3238 -2938"/>
+				<coords loc="-115256 234792 -3238 -2938"/>
+				<coords loc="-114488 234584 -3238 -2938"/>
+				<coords loc="-113816 234792 -3238 -2938"/>
+				<coords loc="-113304 235128 -3238 -2938"/>
+				<coords loc="-112824 235784 -3190 -2890"/>
+				<coords loc="-112616 236488 -3190 -2890"/>
+				<coords loc="-112840 237224 -3190 -2890"/>
+				<coords loc="-113224 237592 -3190 -2890"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="-115033 237303 -3088"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</go_to_town>
+</farm>

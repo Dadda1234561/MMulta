@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "events.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--формат даты HH:mm dd.MM.yyyy-->
+	<event id="9" name="Letter Collector" impl="LetterCollector">
+		<parameter name="start_time_pattern" value="06:30 06.02.2023" />
+		<parameter name="stop_time_pattern" value="06:30 06.06.2021" />
+		<parameter name="min_level" value="40" />
+		<parameter name="remove_items_on_stop" value="event_items"/>
+		<on_start>
+			<global_add_reward name="droplist"/>
+		</on_start>
+		<on_time>
+			<on time="1209600">	<!--2 Weeks-->
+				<global_remove_reward name="droplist"/>
+			</on>
+		</on_time>
+		<on_stop>
+			<global_remove_reward name="droplist"/>
+		</on_stop>
+		<objects name="droplist">
+			<rewardlist type="EVENT_GROUPED">
+				<group chance="100">
+					<reward item_id="3875" min="1" max="1" chance="5"/>	<!--Letter A-->
+					<reward item_id="3877" min="1" max="1" chance="5"/>	<!--Letter E-->
+					<reward item_id="3879" min="1" max="1" chance="5"/>	<!--Letter G-->
+					<reward item_id="3881" min="1" max="1" chance="5"/>	<!--Letter I-->
+					<reward item_id="3882" min="1" max="1" chance="5"/>	<!--Letter L-->
+					<reward item_id="3883" min="1" max="1" chance="5"/>	<!--Letter N-->
+					<reward item_id="3885" min="1" max="1" chance="1"/>	<!--Letter R-->
+					<reward item_id="3886" min="1" max="1" chance="1"/>	<!--Letter S-->
+					<reward item_id="3888" min="1" max="1" chance="1"/>	<!--Number II-->
+					<!--<reward item_id="92021" min="1" max="1" chance="5"/>	&lt;!&ndash;Letter D&ndash;&gt;-->
+					<!--<reward item_id="92022" min="1" max="1" chance="1"/>	&lt;!&ndash;Letter P&ndash;&gt;-->
+				</group>
+			</rewardlist>
+		</objects>
+		<objects name="event_items">
+			<item id="3875"/>	<!--Letter A-->
+			<item id="3877"/>	<!--Letter E-->
+			<item id="3879"/>	<!--Letter G-->
+			<item id="3881"/>	<!--Letter I-->
+			<item id="3882"/>	<!--Letter L-->
+			<item id="3883"/>	<!--Letter N-->
+			<item id="3885"/>	<!--Letter R-->
+			<item id="3886"/>	<!--Letter S-->
+			<item id="3888"/>	<!--Number II-->
+			<!--<item id="92021"/>	&lt;!&ndash;Letter D&ndash;&gt;-->
+			<!--<item id="92022"/>	&lt;!&ndash;Letter P&ndash;&gt;-->
+		</objects>
+		<objects name="letters_set_0">
+			<item id="3882"/>	<!--Letter L-->
+			<item id="3881"/>	<!--Letter I-->
+			<item id="3883"/>	<!--Letter N-->
+			<item id="3877"/>	<!--Letter E-->
+			<item id="3875"/>	<!--Letter A-->
+			<item id="3879"/>	<!--Letter G-->
+			<item id="3877"/>	<!--Letter E-->
+			<item id="3888"/>	<!--Number II-->
+		</objects>
+		<objects name="letters_set_1">
+			<item id="3886"/>	<!--Letter S-->
+			<!--<item id="92022"/>	&lt;!&ndash;Letter P&ndash;&gt;-->
+			<item id="3885"/>	<!--Letter R-->
+			<item id="3881"/>	<!--Letter I-->
+			<item id="3883"/>	<!--Letter N-->
+			<item id="3879"/>	<!--Letter G-->
+		</objects>
+		<objects name="letters_set_2">
+			<item id="3875"/>	<!--Letter A-->
+			<!--<item id="92021"/>	&lt;!&ndash;Letter D&ndash;&gt;-->
+			<item id="3877"/>	<!--Letter E-->
+			<item id="3883"/>	<!--Letter N-->
+		</objects>
+		<objects name="rewards_set_0">
+			<reward item_id="90972" min="1" max="1" chance="0.01"/>	<!--Weapon Supply Box +8 (A-grade)-->
+		</objects>
+		<objects name="rewards_set_1">
+			<reward item_id="90763" min="1" max="1" chance="0.1"/>	<!--Zaken's Earring Lv. 1-->
+		</objects>
+		<objects name="rewards_set_2">
+			<reward item_id="6662" min="1" max="1" chance="0.1"/>	<!--Ring of Core Lv. 1-->
+		</objects>
+	</event>
+</list>

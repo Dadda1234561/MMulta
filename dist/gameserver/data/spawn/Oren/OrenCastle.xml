@@ -1,0 +1,3751 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!-- AUTHOR: Edoo -->
+<list>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="oren_castle_4">
+		<point x="75275" y="40132" z="-3150" h="32768"/>
+		<npc id="35232"/><!--Sherwood-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="oren_castle_4">
+		<point x="78737" y="36852" z="-2544" h="32768"/>
+		<npc id="35222"/><!--Outer Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="oren_castle_4">
+		<point x="79085" y="36798" z="-2544" h="49152"/>
+		<npc id="35222"/><!--Outer Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="oren_castle_4">
+		<point x="81296" y="37025" z="-2254" h="32768"/>
+		<npc id="35223"/><!--Inner Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="oren_castle_4">
+		<point x="81651" y="36959" z="-2294" h="49152"/>
+		<npc id="35223"/><!--Inner Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="oren_castle_4">
+		<point x="83056" y="37425" z="-2280" h="32768" />
+		<npc id="35228" /><!--Morrison-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81998" y="54009" z="-1496" h="63860"/>
+		<npc id="31206"/><!--Ten Ten-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80091" y="53464" z="-1558" h="57784"/>
+		<npc id="35229"/><!--Manor Manager-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="82682" y="55280" z="-1523" h="27280"/>
+		<npc id="35229"/><!--Manor Manager-->
+	</spawn>
+	<spawn group="oren_castle_mass_gatekeeper" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="82611" y="38772" z="-1578" h="49152"/>
+		<npc id="35221"/><!--Mass Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79998" y="55455" z="-1568" h="0"/>
+		<npc id="31031"/><!--Broadcasting Tower-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="oren_castle_4">
+		<point x="82043" y="37132" z="-2450" h="0"/>
+		<npc id="35225"/><!--Warehouse Keeper-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="oren_castle_4">
+		<point x="82464" y="37592" z="-2450" h="0"/>
+		<npc id="35224"/><!--Blacksmith-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="oren_castle_4">
+		<point x="83853" y="37192" z="-1835" h="49000"/>
+		<npc id="35227"/><!--Finrod-->
+	</spawn>
+	<spawn group="oren_castle_siege_artefact" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="84014" y="37184" z="-2277" h="32768"/>
+		<npc id="35189"/><!--Holy Artefact-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78891" y="36844" z="-2553" h="31992"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78891" y="36872" z="-2553" h="31992"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78891" y="36900" z="-2553" h="31992"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78891" y="36928" z="-2553" h="31992"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78891" y="36956" z="-2553" h="31992"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78891" y="36984" z="-2553" h="31992"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78891" y="37012" z="-2553" h="31992"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78891" y="37040" z="-2553" h="31992"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78891" y="37068" z="-2553" h="31992"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78871" y="36844" z="-2553" h="31992"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78871" y="36872" z="-2553" h="31992"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78871" y="36900" z="-2553" h="31992"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78871" y="36928" z="-2553" h="31992"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78871" y="36956" z="-2553" h="31992"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78871" y="36984" z="-2553" h="31992"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78871" y="37012" z="-2553" h="31992"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78871" y="37040" z="-2553" h="31992"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78871" y="37068" z="-2553" h="31992"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78851" y="36844" z="-2553" h="31992"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78851" y="36872" z="-2553" h="31992"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78851" y="36900" z="-2553" h="31992"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78851" y="36928" z="-2553" h="31992"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78851" y="36956" z="-2553" h="31992"/>
+		<npc id="35205"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78851" y="36984" z="-2553" h="31992"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78851" y="37012" z="-2553" h="31992"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78851" y="37040" z="-2553" h="31992"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege01" count="1" respawn="10800">
+		<point x="78851" y="37068" z="-2553" h="31992"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79269" y="36701" z="-2543" h="15696"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79300" y="36702" z="-2542" h="15696"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79330" y="36702" z="-2542" h="15696"/>
+		<npc id="35205"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79360" y="36702" z="-2541" h="15696"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79391" y="36701" z="-2542" h="15696"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79420" y="36703" z="-2541" h="15696"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79450" y="36703" z="-2541" h="15696"/>
+		<npc id="35205"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79480" y="36703" z="-2540" h="15696"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79511" y="36702" z="-2541" h="15696"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79287" y="36676" z="-2561" h="15696"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79317" y="36676" z="-2561" h="15696"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79348" y="36676" z="-2560" h="15696"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79378" y="36675" z="-2561" h="15696"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79408" y="36677" z="-2560" h="15696"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79438" y="36677" z="-2560" h="15696"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79467" y="36678" z="-2559" h="15696"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79499" y="36677" z="-2560" h="15696"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79271" y="36655" z="-2565" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79301" y="36656" z="-2565" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79331" y="36656" z="-2564" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79362" y="36657" z="-2564" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79392" y="36655" z="-2564" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79422" y="36657" z="-2563" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79452" y="36657" z="-2563" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79481" y="36658" z="-2562" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79513" y="36657" z="-2563" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79289" y="36509" z="-2566" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79319" y="36509" z="-2565" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79350" y="36509" z="-2565" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79380" y="36510" z="-2564" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79410" y="36509" z="-2564" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79440" y="36511" z="-2564" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79470" y="36512" z="-2563" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79500" y="36512" z="-2563" h="15696"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79620" y="36408" z="-2557" h="32284"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="10800">
+		<point x="79621" y="36438" z="-2558" h="32284"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="5">
+		<point x="79502" y="36646" z="-2541" h="15696"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="5">
+		<point x="79438" y="36645" z="-2541" h="15696"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="5">
+		<point x="79349" y="36645" z="-2541" h="15696"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege02" count="1" respawn="5">
+		<point x="79289" y="36648" z="-2541" h="15696"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79642" y="36894" z="-2292" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79643" y="36924" z="-2293" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79640" y="36954" z="-2292" h="32284"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79639" y="36984" z="-2292" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79638" y="37013" z="-2291" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79576" y="36664" z="-2290" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79577" y="36694" z="-2291" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79574" y="36723" z="-2290" h="32284"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79573" y="36753" z="-2290" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79572" y="36783" z="-2289" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79438" y="37197" z="-2291" h="48048"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79408" y="37200" z="-2292" h="48048"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79379" y="37198" z="-2291" h="48048"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79349" y="37199" z="-2291" h="48048"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79319" y="37200" z="-2290" h="48048"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79644" y="37464" z="-2394" h="16328"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79678" y="37465" z="-2394" h="16328"/>
+		<npc id="35205"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79719" y="37469" z="-2393" h="16328"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79644" y="37443" z="-2383" h="16328"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79678" y="37444" z="-2384" h="16328"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79719" y="37448" z="-2383" h="16328"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79644" y="37425" z="-2369" h="16328"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79678" y="37426" z="-2370" h="16328"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79719" y="37430" z="-2369" h="16328"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79685" y="37097" z="-2292" h="39060"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79642" y="36894" z="-2292" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79640" y="36954" z="-2292" h="32284"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79638" y="37013" z="-2291" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79576" y="36664" z="-2290" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79577" y="36694" z="-2291" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79574" y="36723" z="-2290" h="32284"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79573" y="36753" z="-2290" h="32284"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79438" y="37197" z="-2291" h="48048"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79379" y="37198" z="-2291" h="48048"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege03" count="1" respawn="10800">
+		<point x="79319" y="37200" z="-2290" h="48048"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81663" y="37047" z="-2287" h="22704"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81688" y="37064" z="-2288" h="22704"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81714" y="37088" z="-2287" h="22704"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81737" y="37107" z="-2287" h="22704"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81755" y="37122" z="-2286" h="22704"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81781" y="37144" z="-2288" h="22704"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81806" y="37161" z="-2288" h="22704"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81827" y="37181" z="-2288" h="22704"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81838" y="37205" z="-2289" h="33460"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81819" y="37230" z="-2288" h="41952"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81795" y="37248" z="-2288" h="41952"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81775" y="37261" z="-2287" h="41952"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81748" y="37280" z="-2289" h="41952"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81724" y="37299" z="-2290" h="41952"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81694" y="37318" z="-2289" h="41952"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81669" y="37335" z="-2289" h="41952"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81650" y="37348" z="-2288" h="41952"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81683" y="37032" z="-2289" h="22704"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81707" y="37050" z="-2290" h="22704"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81733" y="37074" z="-2289" h="22704"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81757" y="37093" z="-2289" h="22704"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81775" y="37108" z="-2288" h="22704"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81801" y="37129" z="-2290" h="22704"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81825" y="37147" z="-2290" h="22704"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81846" y="37166" z="-2290" h="22704"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81857" y="37191" z="-2291" h="33460"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81856" y="37219" z="-2288" h="33460"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81837" y="37244" z="-2287" h="41952"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81813" y="37262" z="-2287" h="41952"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81793" y="37275" z="-2286" h="41952"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81766" y="37294" z="-2288" h="41952"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81742" y="37313" z="-2289" h="41952"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81712" y="37332" z="-2288" h="41952"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81687" y="37349" z="-2288" h="41952"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81668" y="37362" z="-2287" h="41952"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81788" y="37004" z="-2287" h="22704"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81811" y="37023" z="-2287" h="22704"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81829" y="37038" z="-2286" h="22704"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81855" y="37060" z="-2288" h="22704"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81880" y="37077" z="-2289" h="22704"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81846" y="37305" z="-2283" h="41952"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81826" y="37318" z="-2282" h="41952"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81799" y="37338" z="-2284" h="41952"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81775" y="37356" z="-2285" h="41952"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81745" y="37375" z="-2284" h="41952"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81922" y="37336" z="-2285" h="32004"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81922" y="37370" z="-2286" h="32004"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81925" y="37091" z="-2286" h="32004"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81924" y="37114" z="-2286" h="32004"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="10800">
+		<point x="81650" y="37039" z="-2284" h="41952"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="5">
+		<point x="81704" y="37030" z="-2287" h="22704"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="5">
+		<point x="81795" y="37111" z="-2287" h="22704"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="5">
+		<point x="81786" y="37296" z="-2287" h="22704"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege04" count="1" respawn="5">
+		<point x="81683" y="37368" z="-2287" h="22704"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83808" y="37131" z="-2349" h="32728"/>
+		<npc id="35190"/><!--Балтус Ван Дейк - Герцог-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83811" y="37243" z="-2348" h="32728"/>
+		<npc id="35107"/><!--Ивано - Сэр-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83794" y="37345" z="-2354" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83795" y="37382" z="-2354" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83795" y="37415" z="-2354" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83796" y="37453" z="-2354" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83796" y="37490" z="-2353" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83797" y="37528" z="-2353" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83797" y="37560" z="-2353" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83798" y="37598" z="-2353" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83760" y="37345" z="-2355" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83761" y="37383" z="-2355" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83761" y="37416" z="-2355" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83762" y="37453" z="-2355" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83762" y="37491" z="-2354" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83763" y="37528" z="-2354" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83763" y="37561" z="-2354" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83764" y="37598" z="-2354" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83722" y="37347" z="-2356" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83723" y="37385" z="-2356" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83723" y="37417" z="-2356" h="32728"/>
+		<npc id="35192"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83724" y="37455" z="-2356" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83724" y="37492" z="-2355" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83725" y="37530" z="-2355" h="32728"/>
+		<npc id="35192"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83725" y="37562" z="-2355" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83726" y="37600" z="-2355" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83788" y="36785" z="-2350" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83788" y="36823" z="-2350" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83788" y="36855" z="-2350" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83789" y="36893" z="-2350" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83790" y="36930" z="-2349" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83790" y="36968" z="-2349" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83791" y="37001" z="-2349" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83791" y="37038" z="-2349" h="32728"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83753" y="36786" z="-2351" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83754" y="36824" z="-2351" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83754" y="36856" z="-2351" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83755" y="36894" z="-2351" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83756" y="36931" z="-2350" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83756" y="36969" z="-2350" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83756" y="37001" z="-2350" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83757" y="37039" z="-2350" h="32728"/>
+		<npc id="35195"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83716" y="36787" z="-2352" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83717" y="36825" z="-2352" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83717" y="36858" z="-2352" h="32728"/>
+		<npc id="35192"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83718" y="36895" z="-2352" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83718" y="36933" z="-2351" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83719" y="36970" z="-2351" h="32728"/>
+		<npc id="35192"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83719" y="37003" z="-2351" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83720" y="37040" z="-2351" h="32728"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83953" y="36865" z="-2349" h="32728"/>
+		<npc id="35194"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83953" y="36949" z="-2348" h="32728"/>
+		<npc id="35194"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83954" y="37028" z="-2348" h="32728"/>
+		<npc id="35194"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83954" y="37103" z="-2348" h="32728"/>
+		<npc id="35194"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83954" y="37280" z="-2345" h="32728"/>
+		<npc id="35194"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83954" y="37363" z="-2345" h="32728"/>
+		<npc id="35194"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83955" y="37443" z="-2345" h="32728"/>
+		<npc id="35194"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege05" count="1" respawn="5">
+		<point x="83955" y="37517" z="-2345" h="32728"/>
+		<npc id="35194"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82828" y="37705" z="-2127" h="32472"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82828" y="37679" z="-2127" h="32472"/>
+		<npc id="35205"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82828" y="37651" z="-2126" h="32472"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82850" y="37705" z="-2131" h="32472"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82850" y="37678" z="-2131" h="32472"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82850" y="37651" z="-2130" h="32472"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82875" y="37704" z="-2129" h="32472"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82875" y="37677" z="-2129" h="32472"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82874" y="37650" z="-2128" h="32472"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82952" y="37764" z="-2129" h="32472"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82952" y="37738" z="-2129" h="32472"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="82952" y="37710" z="-2128" h="32472"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="83525" y="37509" z="-2132" h="49076"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="83562" y="37510" z="-2132" h="49076"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="83599" y="37510" z="-2131" h="49076"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="83635" y="37511" z="-2131" h="49076"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="83671" y="37511" z="-2131" h="49076"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="83709" y="37512" z="-2131" h="49076"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="83740" y="37512" z="-2130" h="49076"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="83777" y="37513" z="-2130" h="49076"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="83812" y="37514" z="-2130" h="49076"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="83849" y="37514" z="-2130" h="49076"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege06" count="1" respawn="10800">
+		<point x="83886" y="37514" z="-2130" h="49076"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="82762" y="36730" z="-2127" h="32472"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="82762" y="36704" z="-2127" h="32472"/>
+		<npc id="35205"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="82765" y="36661" z="-2126" h="32472"/>
+		<npc id="35210"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="82784" y="36730" z="-2131" h="32472"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="82784" y="36703" z="-2131" h="32472"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="82784" y="36676" z="-2130" h="32472"/>
+		<npc id="35209"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="82809" y="36729" z="-2129" h="32472"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="82809" y="36702" z="-2129" h="32472"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="82808" y="36675" z="-2128" h="32472"/>
+		<npc id="35208"/><!--Гвардеец - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83050" y="36768" z="-2129" h="32472"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83050" y="36742" z="-2129" h="32472"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83050" y="36714" z="-2128" h="32472"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83880" y="36876" z="-2132" h="16000"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83844" y="36877" z="-2132" h="16000"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83807" y="36878" z="-2131" h="16000"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83771" y="36878" z="-2131" h="16000"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83735" y="36878" z="-2131" h="16000"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83697" y="36879" z="-2131" h="16000"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83666" y="36879" z="-2130" h="16000"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83629" y="36880" z="-2130" h="16000"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83594" y="36880" z="-2130" h="16000"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83557" y="36881" z="-2130" h="16000"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege07" count="1" respawn="10800">
+		<point x="83520" y="36882" z="-2130" h="16000"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78822" y="37198" z="-2168" h="49152"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78759" y="37185" z="-2168" h="49152"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78697" y="37187" z="-2168" h="40960"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78657" y="37233" z="-2168" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78656" y="37278" z="-2168" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78657" y="37310" z="-2168" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78659" y="37348" z="-2168" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78820" y="36711" z="-2168" h="49152"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78755" y="36710" z="-2168" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78689" y="36718" z="-2168" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78660" y="36672" z="-2168" h="24576"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78656" y="36620" z="-2168" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78653" y="36580" z="-2168" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78655" y="36537" z="-2168" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78783" y="37187" z="-2168" h="16384"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78734" y="37184" z="-2168" h="24576"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78785" y="36711" z="-2168" h="40960"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78728" y="36709" z="-2168" h="49152"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78728" y="37265" z="-2168" h="24576"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78741" y="36649" z="-2168" h="40960"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78822" y="37198" z="-2168" h="49152"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78759" y="37185" z="-2168" h="49152"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78697" y="37187" z="-2168" h="40960"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78657" y="37233" z="-2168" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78820" y="36711" z="-2168" h="49152"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78755" y="36710" z="-2168" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78689" y="36718" z="-2168" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78660" y="36672" z="-2168" h="24576"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78783" y="37187" z="-2168" h="16384"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78734" y="37184" z="-2168" h="24576"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78785" y="36711" z="-2168" h="40960"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78728" y="36709" z="-2168" h="49152"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78728" y="37265" z="-2168" h="24576"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege08" count="1" respawn="10800">
+		<point x="78741" y="36649" z="-2168" h="40960"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="37128" z="-2294" h="32768"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="37256" z="-2294" h="32768"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="37319" z="-2294" h="32768"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="37064" z="-2294" h="32768"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="36933" z="-2294" h="32768"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="36805" z="-2294" h="32768"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="37447" z="-2294" h="32768"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="37576" z="-2294" h="32768"/>
+		<npc id="35198"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="37000" z="-2294" h="32768"/>
+		<npc id="35193"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="37383" z="-2294" h="32768"/>
+		<npc id="35193"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="37640" z="-2294" h="32768"/>
+		<npc id="35193"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="36741" z="-2294" h="32768"/>
+		<npc id="35193"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="37192" z="-2294" h="32768"/>
+		<npc id="35194"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="37511" z="-2294" h="32768"/>
+		<npc id="35194"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80578" y="36869" z="-2294" h="32768"/>
+		<npc id="35194"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="36744" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="36808" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="37640" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="37576" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="37192" z="-2294" h="32768"/>
+		<npc id="35192"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="36872" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="36936" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="37000" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="37064" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="37128" z="-2294" h="32768"/>
+		<npc id="35192"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="37255" z="-2294" h="32768"/>
+		<npc id="35192"/><!--Рыцарь Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="37319" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="37383" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="37447" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege09" count="1" respawn="10800">
+		<point x="80428" y="37511" z="-2294" h="32768"/>
+		<npc id="35197"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81331" y="37424" z="-1985" h="49152"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81209" y="37423" z="-1985" h="49152"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81148" y="37478" z="-1985" h="40960"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81129" y="37503" z="-1985" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81128" y="37542" z="-1985" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81128" y="37578" z="-1985" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81288" y="37424" z="-1985" h="49152"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81173" y="37452" z="-1985" h="40960"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81249" y="37424" z="-1984" h="49152"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81194" y="37526" z="-1986" h="40960"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81337" y="36971" z="-1987" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81297" y="36971" z="-1985" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81212" y="36971" z="-1986" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81147" y="36913" z="-1985" h="24576"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81127" y="36886" z="-1984" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81128" y="36846" z="-1985" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81127" y="36807" z="-1985" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81253" y="36971" z="-1983" h="16384"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81183" y="36949" z="-1986" h="24576"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege10" count="1" respawn="10800">
+		<point x="81201" y="36869" z="-1983" h="24576"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81458" y="37084" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81458" y="37115" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81458" y="37146" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81458" y="37178" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81458" y="37209" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81458" y="37241" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81458" y="37272" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81458" y="37304" z="-2294" h="32768"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81438" y="37084" z="-2294" h="32768"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81438" y="37115" z="-2294" h="32768"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81438" y="37146" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81438" y="37178" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81438" y="37209" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81438" y="37241" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81438" y="37272" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege11" count="1" respawn="10800">
+		<point x="81438" y="37304" z="-2294" h="32768"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80345" y="38756" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80396" y="38756" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80446" y="38756" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80496" y="38756" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80546" y="38756" z="-2170" h="16384"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80596" y="38756" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80646" y="38756" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80696" y="38756" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80746" y="38756" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80796" y="38756" z="-2170" h="16384"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80846" y="38756" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege12" count="1" respawn="10800">
+		<point x="80896" y="38756" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80345" y="35354" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80396" y="35354" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80446" y="35354" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80496" y="35354" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80546" y="35354" z="-2170" h="16384"/>
+		<npc id="35207"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80596" y="35354" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80646" y="35354" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80696" y="35354" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80746" y="35354" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80796" y="35354" z="-2170" h="16384"/>
+		<npc id="35206"/><!--Маг Гвардии - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80846" y="35354" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<spawn group="oren_castle_siege" name="oren_siege13" count="1" respawn="10800">
+		<point x="80896" y="35354" z="-2170" h="16384"/>
+		<npc id="35211"/><!--Охранник - Орен-->
+	</spawn>
+	<!--<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="82787" y="53121" z="-1488" h="16737"/>
+		&lt;!&ndash; <npc id="33685" /> &ndash;&gt;
+			<npc id="40007" />
+	</spawn>-->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="74256" y="2960" z="-3040" h="23657"/>
+		<npc id="35806"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="74164" y="2606" z="-3040" h="56453"/>
+		<npc id="35806"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="73281" y="3925" z="-3040" h="23840"/>
+		<npc id="35807"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="73194" y="3703" z="-3040" h="56456"/>
+		<npc id="35807"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="72536" y="4664" z="-2888" h="56456"/>
+		<npc id="35796"/><!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="72430" y="4624" z="-3040" h="56456"/>
+		<npc id="35807"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="73470" y="6019" z="-3040" h="56456"/>
+		<npc id="36461"/><!--Wyvern Manager-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="73119" y="6121" z="-3047" h="46480"/>
+		<npc id="35804"/><!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="72532" y="4853" z="-3040" h="23840"/>
+		<npc id="35807"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="74736" y="4160" z="-3040" h="34596"/>
+		<npc id="35802"/><!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="71536" y="5808" z="-3040" h="56456"/>
+		<npc id="35805"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="ivory_fortress_105">
+		<point x="71634" y="6146" z="-3040" h="23840"/>
+		<npc id="35805"/><!--Doorman-->
+	</spawn>
+	<spawn group="ivory_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="75280" y="1387" z="-3268" h="24564"/>
+		<npc id="35797"><!--Suspicious Merchant-->
+			<set name="walker_route_id" value="1"/>
+		</npc>
+	</spawn>
+	<spawn group="ivory_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73788" y="5479" z="-3016" h="-10400"/>
+		<npc id="35798"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72400" y="2896" z="-2762" h="0"/>
+		<npc id="35799"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71264" y="4144" z="-3014" h="0"/>
+		<npc id="35800"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73788" y="5479" z="-3016" h="-10400"/>
+		<npc id="35815"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71264" y="4144" z="-3014" h="0"/>
+		<npc id="35818"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72400" y="2896" z="-2762" h="0"/>
+		<npc id="35821"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_mercenary" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71661" y="7320" z="-3141" h="-23200"/>
+		<npc id="35824"/><!--Mercenary Captain-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71549" y="5954" z="-3046" h="23840"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71570" y="5972" z="-3046" h="23840"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71591" y="5990" z="-3046" h="23840"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71613" y="6009" z="-3047" h="23840"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74248" y="2796" z="-3047" h="-9080"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74226" y="2778" z="-3047" h="-9080"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74205" y="2759" z="-3047" h="-9080"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74183" y="2741" z="-3047" h="-9080"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72431" y="4730" z="-3047" h="23840"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72453" y="4748" z="-3047" h="23840"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72474" y="4766" z="-3047" h="23840"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72495" y="4784" z="-3047" h="23840"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73265" y="3803" z="-3045" h="-9080"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73243" y="3784" z="-3047" h="-9080"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73287" y="3821" z="-3047" h="-9080"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73221" y="3766" z="-3047" h="-9080"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74928" y="3824" z="-2672" h="0"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74944" y="3856" z="-2672" h="0"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74880" y="5040" z="-2672" h="0"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74864" y="5072" z="-2672" h="0"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72944" y="6500" z="-2672" h="15392"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72912" y="6496" z="-2672" h="15392"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="70928" y="5088" z="-2672" h="28632"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="70912" y="5056" z="-2672" h="28632"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71824" y="2576" z="-2672" h="-19720"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71856" y="2560" z="-2672" h="-19720"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73008" y="2272" z="-2672" h="-14744"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73056" y="2272" z="-2672" h="-14744"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72149" y="5113" z="-3047" h="23840"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72192" y="5152" z="-3047" h="23840"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72238" y="5193" z="-3047" h="23840"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72279" y="5228" z="-3047" h="23840"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72165" y="5223" z="-3047" h="23840"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73520" y="3392" z="-3047" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73568" y="3440" z="-3047" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73616" y="3488" z="-3047" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73680" y="3536" z="-3047" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73648" y="3408" z="-3047" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73799" y="4465" z="-3047" h="0"/>
+		<npc id="35823"/><!--Ballista-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72186" y="3762" z="-3047" h="0"/>
+		<npc id="35823"/><!--Ballista-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71777" y="3073" z="-3047" h="0"/>
+		<npc id="35823"/><!--Ballista-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73616" y="6096" z="-3047" h="0"/>
+		<npc id="35823"/><!--Ballista-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73640" y="2625" z="-2597" h="2300"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73646" y="2594" z="-2597" h="2300"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73633" y="2656" z="-2597" h="2300"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73602" y="2615" z="-2597" h="2300"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74474" y="3350" z="-2599" h="-20808"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74501" y="3339" z="-2599" h="-20808"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74448" y="3362" z="-2599" h="-20808"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74488" y="3381" z="-2599" h="-20808"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72160" y="6112" z="-2597" h="-31204"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72165" y="6078" z="-2597" h="-31204"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72155" y="6143" z="-2597" h="-31204"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72190" y="6117" z="-2597" h="-31204"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71328" y="5440" z="-2599" h="12944"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71299" y="5449" z="-2599" h="12944"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71356" y="5430" z="-2599" h="12944"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71319" y="5413" z="-2599" h="12944"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73345" y="2861" z="-2687" h="-14720"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73312" y="2855" z="-2687" h="-14720"/>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73350" y="2833" z="-2687" h="-14720"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73317" y="2827" z="-2687" h="-14720"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73705" y="2507" z="-2864" h="18232"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73734" y="2511" z="-2864" h="18232"/>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73700" y="2538" z="-2864" h="18232"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73728" y="2544" z="-2864" h="18232"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74328" y="3697" z="-2689" h="-3556"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74338" y="3725" z="-2689" h="-3556"/>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74353" y="3688" z="-2689" h="-3556"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74363" y="3716" z="-2689" h="-3556"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74572" y="3210" z="-2866" h="28652"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74584" y="3239" z="-2866" h="28652"/>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74543" y="3223" z="-2866" h="28652"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74554" y="3250" z="-2866" h="28652"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72494" y="5898" z="-2687" h="18360"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72465" y="5892" z="-2687" h="18360"/>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72489" y="5923" z="-2687" h="18360"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72459" y="5917" z="-2687" h="18360"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72074" y="6272" z="-2864" h="-14596"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72044" y="6266" z="-2864" h="-14596"/>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72079" y="6249" z="-2864" h="-14596"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72048" y="6244" z="-2864" h="-14596"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71498" y="5116" z="-2689" h="12502"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71488" y="5086" z="-2689" h="12512"/>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71469" y="5126" z="-2689" h="12506"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71458" y="5097" z="-2689" h="12512"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71198" y="5553" z="-2866" h="-3516"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71208" y="5584" z="-2866" h="-3516"/>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71220" y="5544" z="-2866" h="-3516"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71230" y="5576" z="-2866" h="-3516"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71440" y="3984" z="-3014" h="25044"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71488" y="4112" z="-3014" h="32492"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71488" y="4288" z="-3014" h="-25480"/>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71136" y="4320" z="-3014" h="-9300"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71200" y="3920" z="-3014" h="8836"/>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71472" y="3872" z="-3014" h="23492"/>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72548" y="3109" z="-2864" h="-20612"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72517" y="3121" z="-2864" h="-20612"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72236" y="2691" z="-2864" h="12340"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72265" y="2679" z="-2864" h="12340"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72688" y="3024" z="-2967" h="11896"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72272" y="3184" z="-2967" h="11896"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72224" y="3168" z="-2967" h="28780"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72080" y="2832" z="-2965" h="28780"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72096" y="2784" z="-2967" h="-19780"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72512" y="2608" z="-2967" h="-19780"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72560" y="2624" z="-2965" h="-4000"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72704" y="2976" z="-2967" h="-4000"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72384" y="2912" z="-2967" h="0"/>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73798" y="5414" z="-3016" h="24564"/>
+		<npc id="35816"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73820" y="5434" z="-3016" h="24564"/>
+		<npc id="35816"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73841" y="5455" z="-3016" h="24564"/>
+		<npc id="35816"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73863" y="5475" z="-3016" h="24564"/>
+		<npc id="35816"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73777" y="5392" z="-3015" h="24564"/>
+		<npc id="35816"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73810" y="5358" z="-3016" h="24564"/>
+		<npc id="35817"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73830" y="5380" z="-3016" h="24564"/>
+		<npc id="35817"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73853" y="5402" z="-3016" h="24564"/>
+		<npc id="35817"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73874" y="5422" z="-3016" h="24564"/>
+		<npc id="35817"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73895" y="5443" z="-3016" h="24564"/>
+		<npc id="35817"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72814" y="4327" z="-2123" h="23656"/>
+		<npc id="35808"/><!--Rebel Commander-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72759" y="4334" z="-2123" h="23660"/>
+		<npc id="35809"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72822" y="4386" z="-2122" h="23656"/>
+		<npc id="35809"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72781" y="4351" z="-2123" h="23656"/>
+		<npc id="35809"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72802" y="4369" z="-2123" h="23656"/>
+		<npc id="35809"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72961" y="4222" z="-2123" h="-9080"/>
+		<npc id="35809"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72938" y="4203" z="-2123" h="-9080"/>
+		<npc id="35809"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72917" y="4185" z="-2123" h="-9080"/>
+		<npc id="35809"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72896" y="4167" z="-2123" h="-9080"/>
+		<npc id="35809"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72765" y="4588" z="-2154" h="23660"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72811" y="4626" z="-2154" h="23664"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72742" y="4568" z="-2154" h="23660"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72835" y="4645" z="-2154" h="23664"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72857" y="4664" z="-2154" h="23660"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72718" y="4548" z="-2154" h="23660"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72695" y="4528" z="-2154" h="23660"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72788" y="4607" z="-2154" h="23660"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72152" y="4200" z="-2678" h="-25508"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72132" y="4223" z="-2678" h="-25508"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72172" y="4177" z="-2678" h="-25508"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73376" y="4184" z="-2335" h="-25656"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73395" y="4161" z="-2336" h="-25656"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73357" y="4207" z="-2336" h="-25656"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72719" y="3723" z="-2528" h="24056"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72695" y="3703" z="-2528" h="24056"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72672" y="3684" z="-2528" h="24056"/>
+		<npc id="35810"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72759" y="4334" z="-2123" h="23660"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72822" y="4386" z="-2122" h="23656"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72781" y="4351" z="-2123" h="23656"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72802" y="4369" z="-2123" h="23656"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72961" y="4222" z="-2123" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72938" y="4203" z="-2123" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72917" y="4185" z="-2123" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72896" y="4167" z="-2123" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72765" y="4588" z="-2154" h="23660"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72811" y="4626" z="-2154" h="23664"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72742" y="4568" z="-2154" h="23660"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72835" y="4645" z="-2154" h="23664"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72857" y="4664" z="-2154" h="23660"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72718" y="4548" z="-2154" h="23660"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72695" y="4528" z="-2154" h="23660"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72788" y="4607" z="-2154" h="23660"/>
+		<npc id="35811"/><!--Court Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_gunner1]-->
+			<add x="73797" y="4018" zmin="-3076" zmax="-2876"/>
+			<add x="74264" y="3748" zmin="-3076" zmax="-2876"/>
+			<add x="74703" y="4815" zmin="-3076" zmax="-2876"/>
+			<add x="73850" y="4500" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35814"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="ivory_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_gunner2]-->
+			<add x="72936" y="2845" zmin="-3076" zmax="-2876"/>
+			<add x="73528" y="2930" zmin="-3076" zmax="-2876"/>
+			<add x="73098" y="3590" zmin="-3076" zmax="-2876"/>
+			<add x="72676" y="3249" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35814"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="ivory_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_gunner3]-->
+			<add x="71387" y="3520" zmin="-3076" zmax="-2876"/>
+			<add x="71821" y="3012" zmin="-3076" zmax="-2876"/>
+			<add x="72135" y="3729" zmin="-3076" zmax="-2876"/>
+			<add x="71829" y="4123" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35814"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="ivory_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_gunner4]-->
+			<add x="72541" y="5615" zmin="-3076" zmax="-2876"/>
+			<add x="73107" y="5127" zmin="-3076" zmax="-2876"/>
+			<add x="73567" y="5983" zmin="-3076" zmax="-2876"/>
+			<add x="72586" y="6024" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35814"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="ivory_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_gunner5]-->
+			<add x="71109" y="4759" zmin="-3076" zmax="-2876"/>
+			<add x="71927" y="4397" zmin="-3076" zmax="-2876"/>
+			<add x="71693" y="4948" zmin="-3076" zmax="-2876"/>
+			<add x="71142" y="5082" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35814"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="ivory_fortress_envoy" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72619" y="4569" z="-2889" h="23840"/>
+		<npc id="36397"/><!--Special Envoy-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72193" y="5062" z="-3047" h="23840"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72238" y="5100" z="-3047" h="23840"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72286" y="5140" z="-3047" h="23840"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72327" y="5178" z="-3047" h="23840"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73473" y="3443" z="-3047" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73521" y="3488" z="-3047" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73569" y="3538" z="-3047" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73633" y="3589" z="-3047" h="-9080"/>
+		<npc id="35812"/><!--Guard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b1]-->
+			<add x="73797" y="4018" zmin="-3076" zmax="-2876"/>
+			<add x="74264" y="3748" zmin="-3076" zmax="-2876"/>
+			<add x="74703" y="4815" zmin="-3076" zmax="-2876"/>
+			<add x="73850" y="4500" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b1]-->
+			<add x="73797" y="4018" zmin="-3076" zmax="-2876"/>
+			<add x="74264" y="3748" zmin="-3076" zmax="-2876"/>
+			<add x="74703" y="4815" zmin="-3076" zmax="-2876"/>
+			<add x="73850" y="4500" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b1]-->
+			<add x="73797" y="4018" zmin="-3076" zmax="-2876"/>
+			<add x="74264" y="3748" zmin="-3076" zmax="-2876"/>
+			<add x="74703" y="4815" zmin="-3076" zmax="-2876"/>
+			<add x="73850" y="4500" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b2]-->
+			<add x="72936" y="2845" zmin="-3076" zmax="-2876"/>
+			<add x="73528" y="2930" zmin="-3076" zmax="-2876"/>
+			<add x="73098" y="3590" zmin="-3076" zmax="-2876"/>
+			<add x="72676" y="3249" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b2]-->
+			<add x="72936" y="2845" zmin="-3076" zmax="-2876"/>
+			<add x="73528" y="2930" zmin="-3076" zmax="-2876"/>
+			<add x="73098" y="3590" zmin="-3076" zmax="-2876"/>
+			<add x="72676" y="3249" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b2]-->
+			<add x="72936" y="2845" zmin="-3076" zmax="-2876"/>
+			<add x="73528" y="2930" zmin="-3076" zmax="-2876"/>
+			<add x="73098" y="3590" zmin="-3076" zmax="-2876"/>
+			<add x="72676" y="3249" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b3]-->
+			<add x="71387" y="3520" zmin="-3076" zmax="-2876"/>
+			<add x="71821" y="3012" zmin="-3076" zmax="-2876"/>
+			<add x="72135" y="3729" zmin="-3076" zmax="-2876"/>
+			<add x="71829" y="4123" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b3]-->
+			<add x="71387" y="3520" zmin="-3076" zmax="-2876"/>
+			<add x="71821" y="3012" zmin="-3076" zmax="-2876"/>
+			<add x="72135" y="3729" zmin="-3076" zmax="-2876"/>
+			<add x="71829" y="4123" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b3]-->
+			<add x="71387" y="3520" zmin="-3076" zmax="-2876"/>
+			<add x="71821" y="3012" zmin="-3076" zmax="-2876"/>
+			<add x="72135" y="3729" zmin="-3076" zmax="-2876"/>
+			<add x="71829" y="4123" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b4]-->
+			<add x="72541" y="5615" zmin="-3076" zmax="-2876"/>
+			<add x="73107" y="5127" zmin="-3076" zmax="-2876"/>
+			<add x="73567" y="5983" zmin="-3076" zmax="-2876"/>
+			<add x="72586" y="6024" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b4]-->
+			<add x="72541" y="5615" zmin="-3076" zmax="-2876"/>
+			<add x="73107" y="5127" zmin="-3076" zmax="-2876"/>
+			<add x="73567" y="5983" zmin="-3076" zmax="-2876"/>
+			<add x="72586" y="6024" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b4]-->
+			<add x="72541" y="5615" zmin="-3076" zmax="-2876"/>
+			<add x="73107" y="5127" zmin="-3076" zmax="-2876"/>
+			<add x="73567" y="5983" zmin="-3076" zmax="-2876"/>
+			<add x="72586" y="6024" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b5]-->
+			<add x="71109" y="4759" zmin="-3076" zmax="-2876"/>
+			<add x="71927" y="4397" zmin="-3076" zmax="-2876"/>
+			<add x="71693" y="4948" zmin="-3076" zmax="-2876"/>
+			<add x="71142" y="5082" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35822"/><!--Archer-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b5]-->
+			<add x="71109" y="4759" zmin="-3076" zmax="-2876"/>
+			<add x="71927" y="4397" zmin="-3076" zmax="-2876"/>
+			<add x="71693" y="4948" zmin="-3076" zmax="-2876"/>
+			<add x="71142" y="5082" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35819"/><!--Wizard-->
+	</spawn>
+	<spawn group="ivory_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort105_2218_reinforce_b5]-->
+			<add x="71109" y="4759" zmin="-3076" zmax="-2876"/>
+			<add x="71927" y="4397" zmin="-3076" zmax="-2876"/>
+			<add x="71693" y="4948" zmin="-3076" zmax="-2876"/>
+			<add x="71142" y="5082" zmin="-3076" zmax="-2876"/>
+		</territory>
+		<npc id="35820"/><!--Healer-->
+	</spawn>
+	<territory name="fort116_2220_reinforce_a1">
+		<add x="78948" y="87303" zmin="-3347" zmax="-1347"/>
+		<add x="82380" y="89012" zmin="-3347" zmax="-1347"/>
+		<add x="79358" y="94791" zmin="-3347" zmax="-1347"/>
+		<add x="75895" y="92869" zmin="-3347" zmax="-1347"/>
+	</territory>
+	<territory name="fort116_2220_reinforce_b1">
+		<add x="78795" y="89182" zmin="-2928" zmax="-2728"/>
+		<add x="80176" y="89052" zmin="-2928" zmax="-2728"/>
+		<add x="80216" y="89733" zmin="-2928" zmax="-2728"/>
+		<add x="78715" y="89322" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_reinforce_b2">
+		<add x="77737" y="90356" zmin="-2928" zmax="-2728"/>
+		<add x="78352" y="91140" zmin="-2928" zmax="-2728"/>
+		<add x="78176" y="91440" zmin="-2928" zmax="-2728"/>
+		<add x="77324" y="91084" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_reinforce_b3">
+		<add x="78825" y="92692" zmin="-2928" zmax="-2728"/>
+		<add x="79150" y="91981" zmin="-2928" zmax="-2728"/>
+		<add x="79533" y="92736" zmin="-2928" zmax="-2728"/>
+		<add x="79348" y="93119" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_reinforce_b4">
+		<add x="79815" y="90166" zmin="-2928" zmax="-2728"/>
+		<add x="80015" y="89761" zmin="-2928" zmax="-2728"/>
+		<add x="80663" y="91257" zmin="-2928" zmax="-2728"/>
+		<add x="80520" y="91492" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_reinforce_b5">
+		<add x="77011" y="92379" zmin="-2928" zmax="-2728"/>
+		<add x="78580" y="92649" zmin="-2928" zmax="-2728"/>
+		<add x="78121" y="93345" zmin="-2928" zmax="-2728"/>
+		<add x="76912" y="92882" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_gunner1">
+		<add x="78795" y="89182" zmin="-2928" zmax="-2728"/>
+		<add x="80176" y="89052" zmin="-2928" zmax="-2728"/>
+		<add x="80216" y="89733" zmin="-2928" zmax="-2728"/>
+		<add x="78715" y="89322" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_gunner2">
+		<add x="77737" y="90356" zmin="-2928" zmax="-2728"/>
+		<add x="78352" y="91140" zmin="-2928" zmax="-2728"/>
+		<add x="78176" y="91440" zmin="-2928" zmax="-2728"/>
+		<add x="77324" y="91084" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_gunner3">
+		<add x="78825" y="92692" zmin="-2928" zmax="-2728"/>
+		<add x="79150" y="91981" zmin="-2928" zmax="-2728"/>
+		<add x="79533" y="92736" zmin="-2928" zmax="-2728"/>
+		<add x="79348" y="93119" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_gunner4">
+		<add x="79815" y="90166" zmin="-2928" zmax="-2728"/>
+		<add x="80015" y="89761" zmin="-2928" zmax="-2728"/>
+		<add x="80663" y="91257" zmin="-2928" zmax="-2728"/>
+		<add x="80520" y="91492" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<territory name="fort116_2220_gunner5">
+		<add x="77011" y="92379" zmin="-2928" zmax="-2728"/>
+		<add x="78580" y="92649" zmin="-2928" zmax="-2728"/>
+		<add x="78121" y="93345" zmin="-2928" zmax="-2728"/>
+		<add x="76912" y="92882" zmin="-2928" zmax="-2728"/>
+	</territory>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="65776" y="73170" z="-3704" h="29225"/>
+		<npc id="32013"/><!--Suki-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="76880" y="92931" z="-2880" h="37660"/>
+		<npc id="36472"/><!--Wyvern Manager-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="77600" y="93440" z="-2880" h="57688"/>
+		<npc id="36179"/><!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="80031" y="92773" z="-2880" h="37568"/>
+		<npc id="36182"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="80329" y="92637" z="-2880" h="5012"/>
+		<npc id="36182"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="79686" y="91280" z="-2720" h="37660"/>
+		<npc id="36172"/><!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="78231" y="89249" z="-2880" h="5012"/>
+		<npc id="36183"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="77927" y="89390" z="-2880" h="37920"/>
+		<npc id="36183"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="78812" y="90685" z="-2880" h="5012"/>
+		<npc id="36184"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="79666" y="91408" z="-2880" h="37660"/>
+		<npc id="36184"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="78611" y="90849" z="-2880" h="37660"/>
+		<npc id="36184"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="79865" y="91249" z="-2880" h="5012"/>
+		<npc id="36184"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="antharas_fortress_116">
+		<point x="76848" y="92624" z="-2880" h="62456"/>
+		<npc id="36181"/><!--Detention Camp Warden-->
+	</spawn>
+	<spawn group="antharas_fortress_peace_merchant" count="1" respawn="10" respawn_random="0" period_of_day="none">
+		<point x="80904" y="94098" z="-3152" h="64664"/>
+		<npc id="36173"><!--Suspicious Merchant-->
+			<set name="walker_route_id" value="1"/>
+		</npc>
+	</spawn>
+	<spawn group="antharas_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79440" y="88752" z="-2608" h="0"/>
+		<npc id="36175"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77262" y="91704" z="-2864" h="5112"/>
+		<npc id="36174"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80929" y="90510" z="-2860" h="-25344"/>
+		<npc id="36177"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79440" y="88752" z="-2608" h="0"/>
+		<npc id="36202"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77262" y="91704" z="-2864" h="5112"/>
+		<npc id="36196"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80929" y="90510" z="-2860" h="-25344"/>
+		<npc id="36199"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="antharas_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78915" y="93374" z="-2732" h="13024"/>
+		<npc id="36190"/><!--Main Machine-->
+	</spawn>
+	<spawn group="antharas_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80755" y="89002" z="-2850" h="21984"/>
+		<npc id="36204"/><!--General-->
+	</spawn>
+	<spawn group="antharas_fortress_out_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78715" y="93037" z="-2887" h="-19200"/>
+		<npc id="36191"/><!--Backup Power Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_out_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78418" y="93601" z="-2887" h="29984"/>
+		<npc id="36191"/><!--Backup Power Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_out_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78978" y="93899" z="-2887" h="13396"/>
+		<npc id="36191"/><!--Backup Power Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_out_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79279" y="93337" z="-2887" h="3356"/>
+		<npc id="36191"/><!--Backup Power Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_out_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79137" y="92935" z="-2887" h="-11044"/>
+		<npc id="36192"/><!--Control Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_in_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79248" y="93680" z="-2828" h="-27408"/>
+		<npc id="36193"/><!--Power Control Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_in_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78624" y="93872" z="-2796" h="-11176"/>
+		<npc id="36193"/><!--Power Control Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_in_power_units" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78448" y="93248" z="-2764" h="5940"/>
+		<npc id="36193"/><!--Power Control Unit-->
+	</spawn>
+	<spawn group="antharas_fortress_mercenary" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80491" y="94076" z="-3114" h="-18296"/>
+		<npc id="36207"/><!--Mercenary Caption-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79297" y="91077" z="-1962" h="5012"/>
+		<npc id="36185"/><!--Rebel Commander-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79311" y="91132" z="-1962" h="5012"/>
+		<npc id="36186"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79325" y="91107" z="-1961" h="5012"/>
+		<npc id="36186"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79338" y="91082" z="-1962" h="5012"/>
+		<npc id="36186"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79351" y="91057" z="-1962" h="5012"/>
+		<npc id="36186"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79124" y="91037" z="-1962" h="-27876"/>
+		<npc id="36186"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79137" y="91011" z="-1961" h="-27876"/>
+		<npc id="36186"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79150" y="90986" z="-1961" h="-27876"/>
+		<npc id="36186"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79164" y="90960" z="-1961" h="-27876"/>
+		<npc id="36186"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79519" y="91168" z="-1993" h="5012"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79629" y="90970" z="-1993" h="5012"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79613" y="90998" z="-1993" h="5012"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79535" y="91139" z="-1993" h="5012"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79550" y="91110" z="-1993" h="5012"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79597" y="91025" z="-1993" h="5012"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79566" y="91082" z="-1993" h="5012"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79582" y="91053" z="-1993" h="5012"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79312" y="91744" z="-2517" h="20576"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79280" y="91729" z="-2517" h="20576"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79342" y="91757" z="-2517" h="20576"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79055" y="90553" z="-2172" h="22200"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79080" y="90569" z="-2172" h="22200"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79029" y="90537" z="-2172" h="22200"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78724" y="91294" z="-2367" h="5536"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78708" y="91320" z="-2367" h="5536"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78692" y="91346" z="-2367" h="5536"/>
+		<npc id="36187"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79311" y="91132" z="-1962" h="5012"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79325" y="91107" z="-1961" h="5012"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79338" y="91082" z="-1962" h="5012"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79351" y="91057" z="-1962" h="5012"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79124" y="91037" z="-1962" h="-27876"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79137" y="91011" z="-1961" h="-27876"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79150" y="90986" z="-1961" h="-27876"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79164" y="90960" z="-1961" h="-27876"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79519" y="91168" z="-1993" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79629" y="90970" z="-1993" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79613" y="90998" z="-1993" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79535" y="91139" z="-1993" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79550" y="91110" z="-1993" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79597" y="91025" z="-1993" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79566" y="91082" z="-1993" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79582" y="91053" z="-1993" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_envoy" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79618" y="91276" z="-2728" h="5012"/>
+		<npc id="36443"/><!--Special Envoy-->
+	</spawn>
+	<spawn group="antharas_fortress_envoy" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79641" y="91231" z="-2728" h="5012"/>
+		<npc id="36444"/><!--Special Envoy-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80164" y="92755" z="-2887" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80179" y="92726" z="-2887" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80194" y="92696" z="-2887" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80209" y="92667" z="-2887" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78095" y="89267" z="-2887" h="-27616"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78079" y="89296" z="-2887" h="-27616"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78064" y="89325" z="-2888" h="-27616"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78049" y="89354" z="-2888" h="-27616"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79766" y="91389" z="-2887" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79782" y="91357" z="-2887" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79798" y="91325" z="-2887" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79814" y="91293" z="-2887" h="5012"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78711" y="90707" z="-2887" h="-27876"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78696" y="90737" z="-2887" h="-27876"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78680" y="90767" z="-2887" h="-27876"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78664" y="90798" z="-2887" h="-27876"/>
+		<npc id="36188"/><!--Court Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79664" y="93712" z="-2512" h="4916"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79680" y="93696" z="-2512" h="4916"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80720" y="91728" z="-2512" h="4916"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80736" y="91696" z="-2512" h="4916"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81104" y="91008" z="-2512" h="4916"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81120" y="90976" z="-2512" h="4916"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81488" y="90272" z="-2512" h="4916"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81504" y="90240" z="-2512" h="4916"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81760" y="89488" z="-2513" h="-3000"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81744" y="89456" z="-2513" h="-3000"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81632" y="89008" z="-2513" h="-3000"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81616" y="88976" z="-2513" h="-3000"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81120" y="88576" z="-2512" h="-11176"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81088" y="88560" z="-2512" h="-11176"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80528" y="88256" z="-2512" h="-11176"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80496" y="88240" z="-2512" h="-11176"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79936" y="87952" z="-2512" h="-11176"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79904" y="87936" z="-2512" h="-11176"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79440" y="87824" z="-2513" h="-19404"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79408" y="87840" z="-2513" h="-19404"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78960" y="87968" z="-2513" h="-19404"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78928" y="87968" z="-2513" h="-19404"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78560" y="88400" z="-2512" h="-26876"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78544" y="88432" z="-2512" h="-26876"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77536" y="90304" z="-2512" h="-26876"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77520" y="90320" z="-2512" h="-26876"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77152" y="91024" z="-2512" h="-27196"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77136" y="91056" z="-2512" h="-27196"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="76768" y="91744" z="-2512" h="-27196"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="76752" y="91776" z="-2512" h="-27196"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="76480" y="92528" z="-2513" h="29668"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="76496" y="92560" z="-2513" h="29668"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="76640" y="93008" z="-2513" h="29668"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="76656" y="93040" z="-2513" h="29668"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="76992" y="93376" z="-2512" h="22340"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77024" y="93392" z="-2512" h="22340"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77568" y="93680" z="-2512" h="22340"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77600" y="93696" z="-2512" h="22340"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78176" y="94000" z="-2512" h="22340"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78208" y="94016" z="-2512" h="22340"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78816" y="94192" z="-2513" h="13736"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78848" y="94192" z="-2513" h="13736"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79296" y="94064" z="-2513" h="13532"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79328" y="94048" z="-2513" h="13532"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79649" y="92243" z="-2887" h="8328"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79600" y="92224" z="-2887" h="8328"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79648" y="92192" z="-2887" h="8328"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79696" y="92160" z="-2887" h="8328"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79552" y="92256" z="-2887" h="8328"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78640" y="89840" z="-2887" h="-23452"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78640" y="89904" z="-2887" h="-23452"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78704" y="89872" z="-2887" h="-23452"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78768" y="89840" z="-2887" h="-23452"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78576" y="89936" z="-2887" h="-23452"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78912" y="91925" z="-2887" h="0"/>
+		<npc id="36206"/><!--Ballista-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79252" y="90176" z="-2887" h="0"/>
+		<npc id="36206"/><!--Ballista-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80247" y="88389" z="-2887" h="0"/>
+		<npc id="36206"/><!--Ballista-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78023" y="93737" z="-2887" h="0"/>
+		<npc id="36206"/><!--Ballista-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80144" y="92288" z="-2444" h="21316"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80118" y="92274" z="-2444" h="21316"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80169" y="92301" z="-2444" h="21316"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80157" y="92261" z="-2444" h="21316"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79820" y="92909" z="-2444" h="-11532"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79794" y="92896" z="-2444" h="-11532"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79845" y="92922" z="-2444" h="-11532"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79806" y="92935" z="-2444" h="-11532"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78894" y="92293" z="-2444" h="0"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78870" y="92312" z="-2444" h="0"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78870" y="92275" z="-2444" h="0"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78893" y="92259" z="-2444" h="0"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78111" y="89718" z="-2444" h="-11536"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78138" y="89731" z="-2444" h="-11536"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78085" y="89705" z="-2444" h="-11536"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78099" y="89743" z="-2444" h="-11536"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78424" y="89120" z="-2444" h="21948"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78400" y="89106" z="-2444" h="21948"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78449" y="89135" z="-2444" h="21948"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78438" y="89097" z="-2444" h="21948"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79504" y="89904" z="-2444" h="-29660"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79514" y="89875" z="-2444" h="-29660"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79538" y="89899" z="-2444" h="-29660"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79549" y="89870" z="-2444" h="-29660"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80041" y="91903" z="-2534" h="5204"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80027" y="91928" z="-2534" h="5204"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80063" y="91914" z="-2534" h="5204"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80049" y="91939" z="-2534" h="5204"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80253" y="92417" z="-2711" h="-28436"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80241" y="92443" z="-2711" h="-28436"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80229" y="92406" z="-2711" h="-28436"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80218" y="92432" z="-2711" h="-28436"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79444" y="93042" z="-2534" h="-10792"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79457" y="93021" z="-2534" h="-10792"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79469" y="93057" z="-2534" h="-10792"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79481" y="93035" z="-2534" h="-10792"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80002" y="92905" z="-2711" h="-27968"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79989" y="92931" z="-2711" h="-27968"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79980" y="92894" z="-2711" h="-27968"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79966" y="92920" z="-2711" h="-27968"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78766" y="92652" z="-2534" h="-27780"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78780" y="92626" z="-2534" h="-27780"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78743" y="92640" z="-2534" h="-27780"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78757" y="92614" z="-2534" h="-27780"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78620" y="92101" z="-2711" h="21324"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78645" y="92115" z="-2711" h="21324"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78609" y="92123" z="-2711" h="21324"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78634" y="92136" z="-2711" h="21324"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78212" y="90103" z="-2534" h="-28000"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78225" y="90077" z="-2534" h="-28000"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78191" y="90092" z="-2534" h="-28000"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78203" y="90067" z="-2534" h="-28000"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78012" y="89566" z="-2711" h="5388"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77999" y="89590" z="-2711" h="5388"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78034" y="89577" z="-2711" h="5388"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78020" y="89602" z="-2711" h="5388"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78800" y="88975" z="-2534" h="-28044"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78786" y="89001" z="-2534" h="-28044"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78778" y="88963" z="-2534" h="-28044"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78764" y="88989" z="-2534" h="-28044"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78249" y="89119" z="-2711" h="5816"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78264" y="89095" z="-2711" h="5816"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78270" y="89131" z="-2711" h="5816"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78285" y="89106" z="-2711" h="5816"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79359" y="89915" z="-2534" h="5508"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79374" y="89890" z="-2534" h="5508"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79380" y="89927" z="-2534" h="5508"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79396" y="89902" z="-2534" h="5508"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79914" y="89779" z="-2711" h="22244"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79901" y="89800" z="-2711" h="22244"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79889" y="89764" z="-2711" h="22244"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79875" y="89784" z="-2711" h="22244"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80877" y="90674" z="-2860" h="-15340"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80651" y="90653" z="-2860" h="-5296"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80655" y="90503" z="-2860" h="-1140"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80744" y="90436" z="-2860" h="3800"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="80752" y="90336" z="-2860" h="6872"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="81068" y="90402" z="-2860" h="26684"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79439" y="88751" z="-2816" h="0"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79721" y="88646" z="-2816" h="53247"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79741" y="88735" z="-2816" h="5500"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79584" y="89030" z="-2816" h="5500"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79507" y="89047" z="-2816" h="20480"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79151" y="88858" z="-2815" h="20480"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79125" y="88784" z="-2811" h="38143"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79290" y="88472" z="-2815" h="38143"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79366" y="88459" z="-2815" h="53247"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79502" y="88494" z="-2707" h="20480"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79532" y="88508" z="-2707" h="20480"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79374" y="89007" z="-2707" h="53247"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79345" y="88993" z="-2707" h="53247"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77287" y="91801" z="-2864" h="36863"/>
+		<npc id="36197"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77303" y="91769" z="-2864" h="36863"/>
+		<npc id="36197"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77319" y="91737" z="-2863" h="36863"/>
+		<npc id="36197"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77335" y="91705" z="-2863" h="36863"/>
+		<npc id="36197"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77351" y="91673" z="-2863" h="36863"/>
+		<npc id="36197"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77335" y="91817" z="-2864" h="36863"/>
+		<npc id="36198"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77351" y="91785" z="-2864" h="36863"/>
+		<npc id="36198"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77367" y="91753" z="-2864" h="36863"/>
+		<npc id="36198"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77383" y="91721" z="-2864" h="36863"/>
+		<npc id="36198"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="77399" y="91689" z="-2864" h="36863"/>
+		<npc id="36198"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_live_with_c_center" count="6" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort116_2220_outer_shop]-->
+			<add x="79786" y="93260" zmin="-2914" zmax="-2714"/>
+			<add x="79487" y="93817" zmin="-2914" zmax="-2714"/>
+			<add x="79239" y="93024" zmin="-2914" zmax="-2714"/>
+			<add x="79017" y="92891" zmin="-2914" zmax="-2714"/>
+			<add x="78355" y="93076" zmin="-2914" zmax="-2714"/>
+			<add x="78255" y="93271" zmin="-2914" zmax="-2714"/>
+			<add x="78454" y="94048" zmin="-2914" zmax="-2714"/>
+			<add x="77857" y="93749" zmin="-2914" zmax="-2714"/>
+			<add x="78486" y="92562" zmin="-2914" zmax="-2714"/>
+			<add x="78486" y="92562" zmin="-2914" zmax="-2714"/>
+		</territory>
+		<npc id="36194"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79520" y="92208" z="-2887" h="8328"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79568" y="92176" z="-2887" h="8328"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79616" y="92144" z="-2887" h="8328"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="79664" y="92112" z="-2887" h="8328"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78619" y="89987" z="-2887" h="-23452"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78683" y="89957" z="-2887" h="-23452"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78748" y="89927" z="-2887" h="-23452"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78813" y="89896" z="-2887" h="-23452"/>
+		<npc id="36189"/><!--Guard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b1"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b1"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b1"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b2"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b2"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b2"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b3"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b3"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b3"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b4"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b4"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b4"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b5"/>
+		<npc id="36203"/><!--Archer-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b5"/>
+		<npc id="36200"/><!--Wizard-->
+	</spawn>
+	<spawn group="antharas_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_reinforce_b5"/>
+		<npc id="36201"/><!--Healer-->
+	</spawn>
+	<spawn group="antharas_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_gunner1"/>
+		<npc id="36194"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="antharas_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_gunner2"/>
+		<npc id="36194"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="antharas_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_gunner3"/>
+		<npc id="36194"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="antharas_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_gunner4"/>
+		<npc id="36194"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="antharas_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory name="fort116_2220_gunner5"/>
+		<npc id="36194"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="78504" y="72616" z="-3566" h="-19704"/>
+		<npc id="33841"/><!--Sel Mahum Soldier-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="91400" y="72840" z="-3710" h="-19704"/>
+		<npc id="27497"/><!--Лойкен-->
+	</spawn>
+</list>

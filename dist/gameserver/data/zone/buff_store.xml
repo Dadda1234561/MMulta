@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "zone.dtd">
+<list>
+	<zone name="[aden_buff_store_1]" type="buff_store">
+		<set name="blocked_actions" value="open_private_store;open_private_workshop" />
+		<polygon>
+			<coords loc="147699 27395 -2240 -2200" />
+			<coords loc="148579 27394 -2240 -2200" />
+			<coords loc="148570 26577 -2240 -2200" />
+			<coords loc="147709 26572 -2240 -2200" />
+		</polygon>
+	</zone>
+	<zone name="[giran_buff_store_1]" type="buff_store">
+		<set name="blocked_actions" value="open_private_store;open_private_workshop" />
+		<polygon>
+			<coords loc="84008 149256 -3500 -2500" />
+			<coords loc="84328 149272 -3500 -2500" />
+			<coords loc="84328 148008 -3500 -2500" />
+			<coords loc="84008 148008 -3500 -2500" />
+		</polygon>
+	</zone><!--
+	<zone name="[giran_buff_store_2]" type="buff_store">
+		<set name="blocked_actions" value="open_private_store;open_private_workshop" />
+		<polygon>
+			<coords loc="83894 149163 -3440 -3000" />
+			<coords loc="83979 149163 -3440 -3000" />
+			<coords loc="83977 149241 -3440 -3000" />
+			<coords loc="84265 149243 -3440 -3000" />
+			<coords loc="84258 149164 -3440 -3000" />
+			<coords loc="84340 149159 -3440 -3000" />
+			<coords loc="84340 148886 -3440 -3000" />
+			<coords loc="84264 148879 -3440 -3000" />
+			<coords loc="84258 148781 -3440 -3000" />
+			<coords loc="83992 148781 -3440 -3000" />
+			<coords loc="83993 148869 -3440 -3000" />
+			<coords loc="83896 148878 -3440 -3000" />
+		</polygon>
+	</zone>-->
+</list>

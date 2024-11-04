@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Ivory Tower" min_level="40" max_level="50">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="75832 25400 -5000 -2000"/>
+				<coords loc="75848 8296 -5000 -2000"/>
+				<coords loc="93608 5880 -5000 -2000"/>
+				<coords loc="93400 22984 -5000 -2000"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="85416 16184 -3672"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</go_to_town>
+</farm>

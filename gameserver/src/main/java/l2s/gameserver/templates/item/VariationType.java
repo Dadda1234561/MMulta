@@ -1,0 +1,32 @@
+package l2s.gameserver.templates.item;
+
+/**
+ * @author nexvill
+ */
+public enum VariationType
+{
+	/*0*/WEAPON,
+	/*1*/ARMOR_HELMET,
+	/*2*/ARMOR_CHEST,
+	/*3*/ARMOR_LEGS,
+	/*4*/ARMOR_GLOVES,
+	/*5*/ARMOR_BOOTS,
+	/*6*/ACCESSORY,
+	/*7*/ACCESSORY_ANGEL_EARRING,
+	/*8*/ACCESSORY_ANGEL_NECKLACE,
+	/*9*/ACCESSORY_ANGEL_RING,
+	/*10*/ACCESSORY_ATLAS_EARRING,
+	/*11*/ACCESSORY_DRAGON_EARRING,
+	/*12*/ACCESSORY_DRAGON_NECKLACE,
+	/*13*/ACCESSORY_DRAGON_RING,
+	/*14*/ACCESSORY_FALLEN_ANGEL_RING,
+	/*15*/HAIR_ACCESSORY,
+	/*16*/CLOAK,
+	/*17*/BROOCH,
+	/*18*/BRACELET,
+	/*19*/UNDERWEAR,
+	/*20*/BELT,
+	ARTEFACTBOOK;
+
+	public static final VariationType[] VALUES = values();
+}

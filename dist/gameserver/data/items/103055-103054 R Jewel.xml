@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		R Set Jewel
+	-->
+	<armor id="103055" name="Twilight Necklace">
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.r2_necklace_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_count" value="346"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="142"/>
+		</for>
+		<skills>
+			<skill id="102501" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103056" name="Twilight Earring">
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.r2_earring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_count" value="260"/>
+		<equip>
+			<slot id="LEFT_EAR"/>
+			<slot id="RIGHT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="107"/>
+		</for>
+		<skills>
+			<skill id="102502" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103057" name="Twilight Earring">
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.r2_earring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_count" value="260"/>
+		<equip>
+			<slot id="LEFT_EAR"/>
+			<slot id="RIGHT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="107"/>
+		</for>
+		<skills>
+			<skill id="102503" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103058" name="Twilight Ring">
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.r2_ring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_count" value="173"/>
+		<equip>
+			<slot id="LEFT_FINGER"/>
+			<slot id="RIGHT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="71"/>
+		</for>
+		<skills>
+			<skill id="102504" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103059" name="Twilight Ring">
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.r2_ring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_count" value="173"/>
+		<equip>
+			<slot id="LEFT_FINGER"/>
+			<slot id="RIGHT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="71"/>
+		</for>
+		<skills>
+			<skill id="102505" level="1"/>
+		</skills>
+	</armor>
+	<!-- 
+		R95 Set Jewel
+	-->
+	<armor id="103060" name="Seraph Necklace">
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R95"/>
+		<set name="icon" value="icon.r95_necklace_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_count" value="851"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="161"/>
+		</for>
+		<skills>
+			<skill id="102506" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103061" name="Seraph Earring">
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R95"/>
+		<set name="icon" value="icon.r95_earring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_count" value="638"/>
+		<equip>
+			<slot id="LEFT_EAR"/>
+			<slot id="RIGHT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="121"/>
+		</for>
+		<skills>
+			<skill id="102507" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103062" name="Seraph Earring">
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R95"/>
+		<set name="icon" value="icon.r95_earring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_count" value="638"/>
+		<equip>
+			<slot id="LEFT_EAR"/>
+			<slot id="RIGHT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="121"/>
+			<add stat="maxMp" order="0x60" value="46"/>
+		</for>
+		<skills>
+			<skill id="102508" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103063" name="Seraph Ring">
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R95"/>
+		<set name="icon" value="icon.r95_ring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_count" value="425"/>
+		<equip>
+			<slot id="LEFT_FINGER"/>
+			<slot id="RIGHT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="80"/>
+		</for>
+		<skills>
+			<skill id="102509" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103064" name="Seraph Ring">
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R95"/>
+		<set name="icon" value="icon.r95_ring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="crystal_count" value="425"/>
+		<equip>
+			<slot id="LEFT_FINGER"/>
+			<slot id="RIGHT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="80"/>
+		</for>
+		<skills>
+			<skill id="102510" level="1"/>
+		</skills>
+	</armor>
+	<!-- 
+		R99 Set Jewel
+	-->
+	<armor id="103065" name="Angel's Necklace">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.elemental_necklace_wind_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="202"/>
+		</for>
+		<skills>
+			<skill id="102511" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103066" name="Angel's Earring">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.accessary_angel_of_earing"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="enchantable" value="false"/>
+		<equip>
+			<slot id="LEFT_EAR"/>
+			<slot id="RIGHT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="151"/>
+		</for>
+		<skills>
+			<skill id="102512" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103067" name="Helios' Majestic Earring">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.grand_earing_of_helios"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_EAR"/>
+			<slot id="RIGHT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="147"/>
+		</for>
+		<skills>
+			<skill id="102513" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103068" name="Fallen Angel's Ring">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_ring_of_fallen_angel"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_FINGER"/>
+			<slot id="RIGHT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="101"/>
+		</for>
+		<skills>
+			<skill id="102514" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103069" name="Ring of Insolence I">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="B"/>
+		<set name="crystal_count" value="192"/>
+		<set name="icon" value="icon.ring_of_oman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_FINGER"/>
+			<slot id="RIGHT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="101"/>
+		</for>
+		<skills>
+			<skill id="102515" level="1"/>
+		</skills>
+	</armor>
+	<!-- 
+		R110 Set Jewel
+	-->
+	<armor id="103070" name="Ожерелье Фафуриона">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.etc_fafurion_guardpontus_01"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="292"/>
+		</for>
+	</armor>
+	<armor id="103071" name="Серьга Хелиоса">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.grand_earing_of_helios"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_EAR"/>
+			<slot id="RIGHT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="219"/>
+		</for>
+	</armor>
+	<armor id="103072" name="Серьга Линдвиора">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.accessory_earring_of_lind_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_EAR"/>
+			<slot id="RIGHT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="219"/>
+		</for>
+	</armor>
+	<armor id="103073" name="Кольцо Таути">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.accessary_tauti_ring"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_FINGER"/>
+			<slot id="RIGHT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="146"/>
+		</for>
+	</armor>
+	<armor id="103074" name="Кольцо Кельбима">
+		<set name="sellable" value="false"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.level_reward_immortal_ring"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_FINGER"/>
+			<slot id="RIGHT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="146"/>
+		</for>
+	</armor>
+	<!-- 
+		R110 Dragon Set Jewel
+	-->
+	
+	<armor id="103075" name="Dragon's Necklace">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.dragon_accessary_necklace"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="292"/>
+		</for>
+		<skills>
+			<skill id="102521" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103076" name="Dragon's Earring">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.dragon_accessary_earring"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_EAR"/>
+			<slot id="RIGHT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="219"/>
+		</for>
+		<skills>
+			<skill id="102522" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103077" name="Dragon's Earring">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.dragon_accessary_earring"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_EAR"/>
+			<slot id="RIGHT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="219"/>
+		</for>
+		<skills>
+			<skill id="102523" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103078" name="Dragon's Ring">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.dragon_accessary_ring"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_FINGER"/>
+			<slot id="RIGHT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="146"/>
+		</for>
+		<skills>
+			<skill id="102524" level="1"/>
+		</skills>
+	</armor>
+	<armor id="103079" name="Dragon's Ring">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.dragon_accessary_ring"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_FINGER"/>
+			<slot id="RIGHT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="146"/>
+		</for>
+		<skills>
+			<skill id="102525" level="1"/>
+		</skills>
+	</armor>
+</list>

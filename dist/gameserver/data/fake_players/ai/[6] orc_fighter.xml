@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE fake_player_ai SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<fake_player_ai race="ORC" type="FIGHTER">
+	<on_character_create>	<!--Создается персонаж-->
+		<wait min_delay="3000" max_delay="9000"/>
+		<move_to_npc id="32972"/>
+		<speak_with_npc id="32972"/>
+		<wait min_delay="1000" max_delay="3000"/>
+		<wait min_delay="500" max_delay="1500"/>
+		<move_to_point x="-114376" y="259880" z="-1192" min_range="50" max_range="150"/>
+		<random_action>
+			<ordinary_actions>
+				<move_to_point x="-113976" y="259544" z="-1192" min_range="50" max_range="100"/>
+				<move_to_point x="-113976" y="259208" z="-1192" min_range="50" max_range="100"/>
+				<move_to_point x="-114152" y="258712" z="-1192" min_range="50" max_range="100"/>
+			</ordinary_actions>
+			<ordinary_actions>
+				<move_to_point x="-114808" y="259560" z="-1192" min_range="50" max_range="100"/>
+				<move_to_point x="-114728" y="259208" z="-1192" min_range="50" max_range="100"/>
+				<move_to_point x="-114616" y="258728" z="-1192" min_range="50" max_range="100"/>
+			</ordinary_actions>
+		</random_action>
+		<move_to_point x="-114376" y="258456" z="-1192" min_range="0" max_range="50"/>
+		<move_to_point x="-114376" y="257432" z="-1152" min_range="0" max_range="50"/>
+		<wait min_delay="1000" max_delay="5000"/>
+		<move_to_point x="-114376" y="257192" z="-1136" min_range="0" max_range="50"/>
+		<random_action>
+			<ordinary_actions>
+				<move_to_point x="-114824" y="257032" z="-1136" min_range="0" max_range="50"/>
+				<move_to_point x="-114792" y="256824" z="-1192" min_range="0" max_range="50"/>
+				<move_to_point x="-114648" y="256664" z="-1272" min_range="0" max_range="50"/>
+			</ordinary_actions>
+			<ordinary_actions>
+				<move_to_point x="-113912" y="257032" z="-1136" min_range="0" max_range="50"/>
+				<move_to_point x="-113944" y="256808" z="-1192" min_range="0" max_range="50"/>
+				<move_to_point x="-114120" y="256664" z="-1272" min_range="0" max_range="50"/>
+			</ordinary_actions>
+		</random_action>
+		<move_to_point x="-114376" y="256504" z="-1280" min_range="50" max_range="100"/>
+		<move_to_point x="-114376" y="256056" z="-1448" min_range="50" max_range="100"/>
+		<move_to_point x="-114360" y="255416" z="-1520" min_range="50" max_range="100"/>
+		<move_to_point x="-114360" y="255112" z="-1520" min_range="0" max_range="50"/>
+		<move_to_npc id="32975"/>
+		<speak_with_npc id="32975"/>
+		<wait min_delay="2000" max_delay="5000"/>
+		<add_level count="8"/>
+		<wait min_delay="500" max_delay="1500"/>
+	</on_character_create>
+</fake_player_ai>

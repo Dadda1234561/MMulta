@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <weapon id="109077" name="Оружие Реквиема - Одноручный Посох">
+        <set name="icon" value="icon.weapon_icarus_spirits_i00"/>
+        <set name="crystal_type" value="R"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="3310"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="100032" level="1"/>	<!-- Умение Магического Одноручного Посоха Ур.1 -->
+            <skill id="120240" level="1"/>
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="325"/>
+            <add stat="mAtk" order="0x10" value="238"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="109078" name="Оружие Апокалипсиса - Одноручный Посох">
+        <set name="icon" value="icon.weapon_vesper_burster_i00"/>
+        <set name="crystal_type" value="R"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="4587"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="100032" level="2"/>	<!-- Умение Магического Одноручного Посоха Ур.2 -->
+            <skill id="120240" level="1"/>
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="386"/>
+            <add stat="mAtk" order="0x10" value="257"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="109079" name="Оружие Фантазмы - Одноручный Посох">
+        <set name="icon" value="icon.weapon_veniplant_sword_i00"/>
+        <set name="crystal_type" value="R95"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="5488"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="100032" level="3"/>	<!-- Умение Магического Одноручного Посоха Ур.3 -->
+            <skill id="120240" level="1"/>
+            <skill id="120241" level="1"/>
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="404"/>
+            <add stat="mAtk" order="0x10" value="268"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="109080" name="Оружие Хелиоса - Одноручный Посох">
+        <set name="icon" value="icon.weapon_archangel_sword_i00"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="6581"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="100032" level="4"/>	<!-- Умение Магического Одноручного Посоха Ур.4 -->
+            <skill id="120240" level="1"/>
+            <skill id="120241" level="1"/>
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="426"/>
+            <add stat="mAtk" order="0x10" value="281"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="109081" name="Оружие Хелиоса PVE- Одноручный Посох">
+        <set name="icon" value="icon.weapon_imerose_i00"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="3274"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100032" level="5"/>	<!-- Умение Магического Одноручного Посоха Ур.5 -->
+            <skill id="120240" level="1"/>
+            <skill id="120241" level="1"/>
+            <skill id="120242" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="491"/>
+            <add stat="mAtk" order="0x10" value="330"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <set stat="basePCritRate" order="0x08" value="60"/>
+        </for>
+    </weapon>
+    <weapon id="109082" name="Оружие Хелиоса PVP - Одноручный Посох">
+        <set name="icon" value="icon.weapon_imerose_i00"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100032" level="6"/>	<!-- Умение Магического Одноручного Посоха Ур.6 -->
+            <skill id="120240" level="1"/>
+            <skill id="120241" level="1"/>
+            <skill id="120242" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="569"/>
+            <add stat="mAtk" order="0x10" value="380"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="109083" name="Оружие Безмятежного - Одноручный Посох">
+        <set name="icon" value="icon.weaon_serapear_i00"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="13794"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100032" level="7"/>	<!-- Умение Магического Одноручного Посоха Ур.7 -->
+            <skill id="120240" level="1"/>
+            <skill id="120241" level="1"/>
+            <skill id="120242" level="1"/>
+            <skill id="11050" level="9"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="622"/>
+            <add stat="mAtk" order="0x10" value="430"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <set stat="basePCritRate" order="0x08" value="60"/>
+        </for>
+    </weapon>
+    <weapon id="109084" name="Оружие Усиленного Безмятежного - Одноручный Посох">
+        <set name="icon" value="icon.weaon_serapear_i00"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="13794"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100032" level="8"/>	<!-- Умение Магического Одноручного Посоха Ур.8 -->
+            <skill id="120240" level="1"/>
+            <skill id="120241" level="1"/>
+            <skill id="120242" level="1"/>
+            <skill id="11050" level="9"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="622"/>
+            <add stat="mAtk" order="0x10" value="490"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <set stat="basePCritRate" order="0x08" value="60"/>
+        </for>
+    </weapon>
+    <weapon id="109085" name="Оружие Темного Безмятежного - Одноручный Посох">
+        <set name="icon" value="icon.weaon_serapear_i00"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="13794"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100032" level="9"/>	<!-- Умение Магического Одноручного Посоха Ур.9 -->
+            <skill id="120240" level="1"/>
+            <skill id="120241" level="1"/>
+            <skill id="120242" level="1"/>
+            <skill id="11050" level="9"/>
+            <skill id="120243" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="622"/>
+            <add stat="mAtk" order="0x10" value="550"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <set stat="basePCritRate" order="0x08" value="60"/>
+        </for>
+    </weapon>
+    <weapon id="109086" name="Оружие Предельного Безмятежного - Одноручный Посох">
+        <set name="icon" value="icon.weaon_serapear_i00"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="13794"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100032" level="10"/>	<!-- Умение Магического Одноручного Посоха Ур.10 -->
+            <skill id="120240" level="1"/>
+            <skill id="120241" level="1"/>
+            <skill id="120242" level="1"/>
+            <skill id="11050" level="9"/>
+            <skill id="120243" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="622"/>
+            <add stat="mAtk" order="0x10" value="610"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <set stat="basePCritRate" order="0x08" value="60"/>
+        </for>
+    </weapon>
+    <weapon id="109087" name="Оружие Бессмертия - Одноручный Посох">
+        <set name="icon" value="icon.weaon_serapear_i00"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="13794"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100032" level="11"/>	<!-- Умение Магического Одноручного Посоха Ур.11 -->
+            <skill id="120240" level="1"/>
+            <skill id="120241" level="1"/>
+            <skill id="120242" level="1"/>
+            <skill id="11050" level="9"/>
+            <skill id="120243" level="1"/>
+            <skill id="120252" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="622"/>
+            <add stat="mAtk" order="0x10" value="670"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <set stat="basePCritRate" order="0x08" value="60"/>
+        </for>
+    </weapon>
+</list>

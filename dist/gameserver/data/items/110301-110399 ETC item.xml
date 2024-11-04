@@ -1,0 +1,2132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <etcitem id="110301" name="Blessed Scroll: Enchant Dragon Shirt">
+        <set name="commissionable" value="false"/>
+
+        <set name="icon" value="icon.g_scrl_of_ench_wolf_shirt"/>
+        <set name="weight" value="10"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="SCROLL_ENCHANT_ARMOR"/>
+    </etcitem>
+
+    <armor id="110302" name="Santa's Cloak">
+        <set name="tradable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="destroyable" value="false"/>
+        <set name="storeable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="mailable" value="false"/>
+        <set name="freightable" value="false"/>
+        <set name="is_olympiad_can_use" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchSys3.icon.g_christmas_cloak"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="220"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+        <skills>
+            <skill id="120159" level="1"/>	<!--PLASCH-->
+        </skills>
+    </armor>
+
+    <etcitem id="110303" name="Фрагмент Руны (Уровень 4)/Rune Fragment (Level 4)">
+        <set name="icon" value="icon.aden_rune_old_i04"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+
+    <etcitem id="110304" name="Сундук с Артефактами Атаки">
+        <set name="icon" value="icon.bm_artifact_b_box_i00"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="tradable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="destroyable" value="true"/>
+        <set name="storeable" value="true"/>
+        <set name="commissionable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="mailable" value="true"/>
+        <set name="freightable" value="true"/>
+        <set name="is_olympiad_can_use" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items rewardType="WEIGHTED_RANDOM">
+            <capsuled_item id="48957" min_count="1" max_count="1" chance="33.3333"/>
+            <capsuled_item id="48958" min_count="1" max_count="1" chance="33.3333"/>
+            <capsuled_item id="48976" min_count="1" max_count="1" chance="33.3333"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="110305" name="Сундук с Артефактами Защиты">
+        <set name="tradable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="destroyable" value="true"/>
+        <set name="storeable" value="true"/>
+        <set name="commissionable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="mailable" value="true"/>
+        <set name="freightable" value="true"/>
+        <set name="is_olympiad_can_use" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="icon" value="icon.bm_artifact_c_box_i00"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items rewardType="WEIGHTED_RANDOM">
+            <capsuled_item id="48961" min_count="1" max_count="1" chance="25.0"/>
+            <capsuled_item id="48962" min_count="1" max_count="1" chance="25.0"/>
+            <capsuled_item id="48966" min_count="1" max_count="1" chance="25.0"/>
+            <capsuled_item id="48971" min_count="1" max_count="1" chance="25.0"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="110306" name="Сундук с Артефактами Поддержки">
+        <set name="tradable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="destroyable" value="true"/>
+        <set name="storeable" value="true"/>
+        <set name="commissionable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="mailable" value="true"/>
+        <set name="freightable" value="true"/>
+        <set name="is_olympiad_can_use" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="icon" value="icon.bm_artifact_d_box_i00"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items rewardType="WEIGHTED_RANDOM">
+            <capsuled_item id="48965" min_count="1" max_count="1" chance="33.3333"/>
+            <capsuled_item id="48959" min_count="1" max_count="1" chance="33.3333"/>
+            <capsuled_item id="48963" min_count="1" max_count="1" chance="33.3333"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="110307" name="Сундук с Артефактами Баланса">
+        <set name="tradable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="destroyable" value="true"/>
+        <set name="storeable" value="true"/>
+        <set name="commissionable" value="true"/>
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="mailable" value="true"/>
+        <set name="freightable" value="true"/>
+        <set name="is_olympiad_can_use" value="true"/>
+        <set name="stackable" value="true"/>
+        <set name="icon" value="icon.bm_artifact_d_box_i00"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items rewardType="WEIGHTED_RANDOM">
+            <capsuled_item id="48960" min_count="1" max_count="1" chance="8.3333"/>
+            <capsuled_item id="48967" min_count="1" max_count="1" chance="8.3333"/>
+            <capsuled_item id="48964" min_count="1" max_count="1" chance="8.3333"/>
+            <capsuled_item id="48968" min_count="1" max_count="1" chance="8.3333"/>
+            <capsuled_item id="48972" min_count="1" max_count="1" chance="8.3333"/>
+            <capsuled_item id="48969" min_count="1" max_count="1" chance="8.3333"/>
+            <capsuled_item id="48970" min_count="1" max_count="1" chance="8.3333"/>
+            <capsuled_item id="48973" min_count="1" max_count="1" chance="8.3333"/>
+            <capsuled_item id="48974" min_count="1" max_count="1" chance="8.3333"/>
+            <capsuled_item id="48975" min_count="1" max_count="1" chance="8.3333"/>
+            <capsuled_item id="48977" min_count="1" max_count="1" chance="8.3333"/>
+            <capsuled_item id="48985" min_count="1" max_count="1" chance="8.3333"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="110308" name="Скрытый Кристалл Души">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="icon" value="icon.ensoul_big_pm"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items rewardType="WEIGHTED_RANDOM">
+            <capsuled_item id="46444" min_count="1" max_count="1" chance="25.0"/>
+            <capsuled_item id="46459" min_count="1" max_count="1" chance="25.0"/>
+            <capsuled_item id="46474" min_count="1" max_count="1" chance="25.0"/>
+            <capsuled_item id="46489" min_count="1" max_count="1" chance="25.0"/>
+        </capsuled_items>
+    </etcitem>
+    <etcitem id="110309" name="Набор Временной Эпической Бижутерии">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="icon" value="icon.aka_manaf_box"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="110643" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110644" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110645" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110646" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110648" min_count="1" max_count="1" chance="100.00"/>
+        </capsuled_items>
+    </etcitem>
+
+    <armor id="110310" name="Ожерелье Фринтезы 1" add_name="3 Дня">
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120013" level="1"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="126"/>
+        </for>
+    </armor>
+    <armor id="110311" name="Серьга Орфен 1" add_name="3 Дня">
+        <set name="icon" value="icon.accessary_elemental_earing_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_EAR"/>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120014" level="1"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="96"/>
+        </for>
+    </armor>
+    <armor id="110312" name="Серьга Антараса 1" add_name="3 Дня">
+        <set name="icon" value="icon.accessary_elemental_earing_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_EAR"/>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120015" level="1"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="96"/>
+        </for>
+    </armor>
+    <armor id="110313" name="Кольцо Баюма 1" add_name="3 Дня">
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120016" level="1"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="71"/>
+        </for>
+    </armor>
+    <armor id="110314" name="Кольцо Коре 1" add_name="3 Дня">
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120017" level="1"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="71"/>
+        </for>
+    </armor>
+    <armor id="110315" name="Кольцо АК 1" add_name="3 Дня">
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120018" level="1"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="71"/>
+        </for>
+    </armor>
+    <etcitem id="110316" name="Artifact Crystal">
+        <set name="icon" value="icon.bm_artifact_stone"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="sellable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+
+    <etcitem id="110317" name="Сокровище MultImperia 2">
+        <set name="icon" value="icon.bm_dragon_present_3"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items rewardType="WEIGHTED_RANDOM">
+		    <capsuled_item id="110603" min_count="1" max_count="2" chance="7.6"/>
+            <capsuled_item id="110604" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="110605" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="110606" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="110607" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="110608" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="110609" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="110610" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="110611" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="46444" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="46459" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="46474" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="46489" min_count="1" max_count="2" chance="7.6"/>
+			<capsuled_item id="48215" min_count="1" max_count="1" chance="10.1"/>
+			<capsuled_item id="28484" min_count="1" max_count="1" chance="10.1"/>
+			<capsuled_item id="81931" min_count="1" max_count="1" chance="10.1"/>
+			<capsuled_item id="82186" min_count="1" max_count="1" chance="10.1"/>
+			<capsuled_item id="105303" min_count="1" max_count="1" chance="10.1"/>
+			<capsuled_item id="82343" min_count="1" max_count="1" chance="10.1"/>
+        </capsuled_items>
+    </etcitem>
+
+    <armor id="110318" name="Superior Ruby Lv. 1 (1 день)">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="1440"/>
+        <set name="temporal" value="true"/>
+        <set name="weight" value="5"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="18717" level="11"/>	<!-- Рубин Исключительного Качества Ур. 1 -->
+        </skills>
+    </armor>
+    <armor id="110319" name="Superior Sapphire Lv. 1 (1 день)">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="1440"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="18719" level="11"/>	<!-- Сапфир Исключительного Качества Ур. 1 -->
+        </skills>
+    </armor>
+
+    <armor id="110320" name="Superior Opal Lv. 1">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_atkeleup_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="1440"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="17705" level="11"/>	<!-- Опал Исключительного Качества Ур. 1 -->
+        </skills>
+    </armor>
+
+    <armor id="110321" name="Superior Emerald Lv. 1 (1 день)">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_allstat_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="1440"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="17825" level="11"/>	<!-- Изумруд Исключительного Качества Ур. 1 -->
+        </skills>
+    </armor>
+
+    <armor id="110322" name="Superior Diamond Lv. 1(1 день)">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_phydef_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="1440"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="17708" level="11"/>	<!-- Бриллиант Исключительного Качества Ур. 1 -->
+        </skills>
+    </armor>
+
+    <armor id="110323" name="Superior Red Cat's Eye Lv. 1 (1 день)">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_red_catseye_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="1440"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="18713" level="11"/>
+        </skills>
+    </armor>
+
+    <armor id="110324" name="Superior Blue Cat's Eye Lv. 1 (1 день)">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_blue_catseye_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="1440"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="18714" level="11"/>
+        </skills>
+    </armor>
+
+    <armor id="110325" name="Superior Pearl Lv. 1 (1 день)">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_magdef_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="1440"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="17709" level="11"/>	<!-- Жемчуг Исключительного Качества Ур. 1 -->
+        </skills>
+    </armor>
+
+    <etcitem id="98632" name="Кукла-снеговик Ур. 1">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="1"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98633" name="Кукла-снеговик Ур. 2">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="2"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98634" name="Кукла-снеговик Ур. 3">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="3"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98635" name="Кукла-снеговик Ур. 4">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="4"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98636" name="Кукла-снеговик Ур. 5">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="5"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98637" name="Кукла-снеговик Ур. 6">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="6"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98638" name="Кукла-снеговик Ур. 7">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="7"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98639" name="Кукла-снеговик Ур. 8">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="8"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98640" name="Кукла-снеговик Ур. 9">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="9"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98641" name="Кукла-снеговик Ур. 10">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="10"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98642" name="Кукла-снеговик Ур. 11">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="11"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98643" name="Кукла-снеговик Ур. 12">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/><skills>
+        <skill id="120165" level="12"/>	<!-- Кукла-снеговик -->
+    </skills>
+
+    </etcitem>
+    <etcitem id="98644" name="Кукла-снеговик Ур. 13">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="13"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98645" name="Кукла-снеговик Ур. 14">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <skills>
+            <skill id="120165" level="14"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+    <etcitem id="98646" name="Кукла-снеговик Ур. 15">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <skills>
+            <skill id="120165" level="15"/>	<!-- Кукла-снеговик -->
+        </skills>
+    </etcitem>
+
+    <etcitem id="97351" name="Снежный Кристалл (Временно)">
+        <set name="icon" value="icon.bm_freya_crystal"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+
+    <etcitem id="110326" name="Набор Временной Эпической Бижутерии">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="icon" value="icon.bm_sayha_blessed_box"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="110318" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110319" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110320" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110321" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110322" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110323" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110324" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110325" min_count="1" max_count="1" chance="100.00"/>
+        </capsuled_items>
+    </etcitem>
+
+    <etcitem id="110327" name="Ключ Замерзшего Каньона">
+        <set name="icon" value="icon.bereth_reward_box_key"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="stackable" value="true"/>
+    </etcitem>
+
+    <etcitem id="110328" name="Руна Замерзшего Каньона">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="RUNE"/>
+        <set name="durability" value="120"/>
+        <set name="temporal" value="true"/>
+        <set name="icon" value="icon.bm_freya_rune"/>
+        <set name="crystal_type" value="NONE"/>
+        <skills>
+            <skill id="120167" level="1"/>	<!--High-grade Drop Rate Rune-->
+        </skills>
+    </etcitem>
+
+    <etcitem id="110329" name="Упаковка:Руна Замерзшего Каньона">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="icon" value="icon.bm_sayha_blessed_box"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="110328" min_count="1" max_count="1" chance="100.00"/>
+        </capsuled_items>
+    </etcitem>
+
+
+    <!-- ШМОТ НА 3 ДНЯ -->
+    <armor id="110330" name="Маска Пробивания">
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.Accessary_black_half_mask_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="10"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="FACE"/>
+        </equip>
+        <skills>
+            <skill id="120028" level="5"/>
+        </skills>
+    </armor>
+
+    <armor id="110331" name="Венец Героя 3">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.accessory_barka_karm_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="10"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="HAIR"/>
+        </equip>
+
+        <skills>
+            <skill id="120009" level="3"/>
+        </skills>
+    </armor>
+
+    <armor id="110332" name="Рубашка Эйнхасад">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.ainhasard_shirt_5"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="130"/>
+        <equip>
+            <slot id="UNDERWEAR"/>
+        </equip>
+        <skills>
+            <skill id="120001" level="3"/>
+        </skills>
+        <for>
+            <add stat="pDef" order="0x10" value="28"/>
+        </for>
+    </armor>
+
+    <armor id="110333" name="Пояс Могущества">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.belt_rulers_authority"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="440"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="BELT"/>
+        </equip>
+        <skills>
+            <skill id="120002" level="3"/>	<!--Полномочия Правителей-->
+        </skills>
+        <for>
+            <add stat="pDef" order="0x10" value="24"/>
+        </for>
+    </armor>
+
+    <armor id="110334" name="Talisman Bracelet Lv. 3">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.r2_bracelet_i01"/>
+        <set name="type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+
+        <equip>
+            <slot id="RIGHT_BRACELET"/>
+        </equip>
+        <skills>
+            <skill id="120000" level="3"/>
+        </skills>
+    </armor>
+
+    <armor id="110335" name="Brooch Lv. 3">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_brooch_6slot_lavianrose_3"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="10"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="BROOCH"/>
+        </equip>
+        <skills>
+            <skill id="120008" level="3"/>
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="14"/>
+        </for>
+    </armor>
+
+    <armor id="110336" name="Браслет Агатиона PVE Ур. 3">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.high_agathion_bracelet_i01"/>
+        <set name="type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="LEFT_BRACELET"/>
+        </equip>
+        <skills>
+            <skill id="120034" level="3"/>
+        </skills>
+    </armor>
+
+    <!-- //ШМОТ НА 3 ДНЯ -->
+
+    <etcitem id="110337" name="Набор Путешественника">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="icon" value="icon.bm_sayha_blessed_box"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="110330" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110331" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110332" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110333" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110334" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110335" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="110336" min_count="1" max_count="1" chance="100.00"/>
+            <capsuled_item id="106713" min_count="5" max_count="5" chance="100.00"/>
+            <capsuled_item id="70066" min_count="30" max_count="30" chance="100.00"/>
+            <capsuled_item id="20336" min_count="3" max_count="3" chance="100.00"/>
+            <capsuled_item id="97068" min_count="3" max_count="3" chance="100.00"/>
+            <capsuled_item id="20392" min_count="5" max_count="5" chance="100.00"/>
+            <capsuled_item id="13015" min_count="3" max_count="3" chance="100.00"/>
+            <capsuled_item id="13016" min_count="30" max_count="30" chance="100.00"/>
+        </capsuled_items>
+    </etcitem>
+
+    <etcitem id="110338" name="Сокровище MultImperia 3">
+        <set name="icon" value="icon.bm_dragon_shinning_present"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items rewardType="WEIGHTED_RANDOM">
+            <capsuled_item id="46445" min_count="1" max_count="1" chance="7.0"/>
+            <capsuled_item id="46460" min_count="1" max_count="1" chance="7.0"/>
+            <capsuled_item id="46475" min_count="1" max_count="1" chance="7.0"/>
+            <capsuled_item id="46490" min_count="1" max_count="1" chance="7.0"/>
+            <capsuled_item id="110327" min_count="1" max_count="1" chance="10.0"/>
+            <capsuled_item id="106358" min_count="1" max_count="1" chance="10.0"/>
+            <capsuled_item id="106363" min_count="1" max_count="1" chance="10.0"/>
+            <capsuled_item id="106368" min_count="1" max_count="1" chance="10.0"/>
+            <capsuled_item id="106373" min_count="1" max_count="1" chance="10.0"/>
+            <capsuled_item id="106378" min_count="1" max_count="1" chance="10.0"/>
+            <capsuled_item id="106383" min_count="1" max_count="1" chance="10.0"/>
+            <capsuled_item id="106388" min_count="1" max_count="1" chance="10.0"/>
+            <capsuled_item id="106393" min_count="1" max_count="1" chance="10.0"/>
+            <capsuled_item id="106398" min_count="1" max_count="1" chance="10.0"/>
+            <capsuled_item id="97351" min_count="50" max_count="50" chance="30.0"/>
+            <capsuled_item id="82032" min_count="1" max_count="1" chance="20.0"/>
+            <capsuled_item id="106589" min_count="1" max_count="1" chance="20.0"/>
+            <capsuled_item id="106590" min_count="1" max_count="1" chance="20.0"/>
+            <capsuled_item id="48211" min_count="1" max_count="1" chance="20.0"/>
+            <capsuled_item id="105242" min_count="1" max_count="1" chance="20.0"/>
+            <capsuled_item id="110301" min_count="1" max_count="1" chance="20.0"/>
+            <capsuled_item id="48323" min_count="1" max_count="1" chance="20.0"/>
+            <capsuled_item id="110329" min_count="1" max_count="1" chance="20.0"/>
+        </capsuled_items>
+    </etcitem>
+
+    <!-- временные шотки для ивента -->
+
+    <armor id="110339" name="Talisman of Protection Lv. 7">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_defend_talisman"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="105530;-1;0"/>
+                    <using slotitem="105531;-1;0"/>
+                    <using slotitem="105532;-1;0"/>
+                    <using slotitem="105533;-1;0"/>
+                    <using slotitem="105534;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="103008" level="7"/>
+        </skills>
+    </armor>
+
+    <armor id="110340" name="Ожерелье Фринтезы 3">
+        <set name="crystal_type" value="S84"/>
+        <set name="icon" value="icon.accessary_elemental_necklace_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="NECKLACE"/>
+        </equip>
+        <skills>
+            <skill id="120013" level="3"/> <!-- Некля -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="145"/>
+        </for>
+    </armor>
+
+    <armor id="110341" name="Серьга Орфен 3">
+        <set name="crystal_type" value="S84"/>
+        <set name="icon" value="icon.accessary_elemental_earing_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_EAR"/>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120014" level="3"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="109"/>
+        </for>
+    </armor>
+
+    <armor id="110342" name="Серьга Антараса 3">
+        <set name="crystal_type" value="S84"/>
+        <set name="icon" value="icon.accessary_elemental_earing_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_EAR"/>
+            <slot id="LEFT_EAR"/>
+        </equip>
+        <skills>
+            <skill id="120015" level="3"/> <!-- Серьги -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="109"/>
+        </for>
+    </armor>
+
+    <armor id="110343" name="Кольцо Баюма 3">
+        <set name="crystal_type" value="S84"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120016" level="3"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="76"/>
+        </for>
+    </armor>
+
+    <armor id="110344" name="Кольцо Коре 3">
+        <set name="crystal_type" value="S84"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120017" level="3"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="76"/>
+        </for>
+    </armor>
+
+    <armor id="110345" name="Кольцо АК 3">
+        <set name="crystal_type" value="S84"/>
+        <set name="icon" value="icon.accessary_elemental_ring_i00"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="4320"/>
+        <set name="temporal" value="true"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <equip>
+            <slot id="RIGHT_FINGER"/>
+            <slot id="LEFT_FINGER"/>
+        </equip>
+        <skills>
+            <skill id="120018" level="3"/> <!-- Кольца -->
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="76"/>
+        </for>
+    </armor>
+
+    <!-- непередаваемые предметы -->
+
+    <etcitem id="110346" name="ак 5">
+        <set name="icon" value="icon.bm_queen_ant_doll_30d"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <skills>
+            <skill id="120019" level="5"/>
+        </skills>
+    </etcitem>
+
+    <etcitem id="110347" name="Орфен 5">
+        <set name="icon" value="icon.bm_orfen_doll_30d"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <skills>
+            <skill id="120020" level="5"/>
+        </skills>
+    </etcitem>
+
+    <etcitem id="110348" name="Баюм 5">
+        <set name="icon" value="icon.bm_orfen_doll_30d"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <skills>
+            <skill id="120021" level="5"/>
+        </skills>
+    </etcitem>
+
+    <etcitem id="110349" name="Закен 5">
+        <set name="icon" value="icon.bm_orfen_doll_30d"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <skills>
+            <skill id="120022" level="5"/>
+        </skills>
+    </etcitem>
+
+    <etcitem id="110350" name="Ядро 5">
+        <set name="icon" value="icon.bm_orfen_doll_30d"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <skills>
+            <skill id="120023" level="5"/>
+        </skills>
+    </etcitem>
+
+    <etcitem id="110351" name="Фринтеза 5">
+        <set name="icon" value="icon.bm_orfen_doll_30d"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <skills>
+            <skill id="120024" level="5"/>
+        </skills>
+    </etcitem>
+
+    <etcitem id="110352" name="Клакиес 5">
+        <set name="icon" value="icon.bm_orfen_doll_30d"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <skills>
+            <skill id="120025" level="5"/>
+        </skills>
+    </etcitem>
+
+    <etcitem id="110353" name="Чудовище 5">
+        <set name="icon" value="icon.bm_orfen_doll_30d"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <skills>
+            <skill id="120026" level="5"/>
+        </skills>
+    </etcitem>
+
+    <etcitem id="110354" name="Антарас 5">
+        <set name="icon" value="icon.bm_orfen_doll_30d"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="RUNE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <skills>
+            <skill id="120027" level="5"/>
+        </skills>
+    </etcitem>
+
+    <armor id="110355" name="Superior Topaz Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_absdmg_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="18814" level="20"/>
+            <skill id="17701" level="20"/>
+        </skills>
+    </armor>
+
+    <armor id="110356" name="Superior Ruby Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_ssdmg_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="18717" level="20"/>	<!-- Рубин Исключительного Качества Ур. 20 -->
+        </skills>
+    </armor>
+
+    <armor id="110357" name="Superior Sapphire Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_spsdmg_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="18719" level="20"/>	<!-- Сапфир Исключительного Качества Ур. 10 -->
+        </skills>
+    </armor>
+
+    <armor id="110358" name="Superior Opal Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_atkeleup_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="17705" level="20"/>	<!-- Опал Исключительного Качества Ур. 10 -->
+        </skills>
+    </armor>
+
+    <armor id="110359" name="Superior Obsidian Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_pvpdef_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="17704" level="20"/>	<!-- Обсидиан Исключительного Качества Ур. 10 -->
+        </skills>
+    </armor>
+
+    <armor id="110360" name="Superior Diamond Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_phydef_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="17708" level="20"/>	<!-- Бриллиант Исключительного Качества Ур. 10 -->
+        </skills>
+    </armor>
+
+    <armor id="110361" name="Superior Emerald Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_allstat_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="17825" level="20"/>	<!-- Изумруд Исключительного Качества Ур. 10 -->
+        </skills>
+    </armor>
+
+    <armor id="110362" name="Superior Pearl Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_magdef_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="17709" level="20"/>	<!-- Жемчуг Исключительного Качества Ур. 10 -->
+        </skills>
+    </armor>
+
+    <armor id="110363" name="Superior Vital Stone Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_vital_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="18568" level="20"/> <!-- Камень Энергии Исключительного Качества Ур. 10 -->
+            <skill id="27439" level="6"/> <!-- Камень Энергии Исключительного Качества - Ветер Энергии -->
+        </skills>
+    </armor>
+
+    <armor id="110364" name="Superior Red Cat's Eye Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_red_catseye_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="18713" level="20"/>
+        </skills>
+    </armor>
+
+    <armor id="110365" name="Superior Blue Cat's Eye Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_jewel_blue_catseye_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="18714" level="20"/>
+        </skills>
+    </armor>
+
+    <armor id="110366" name="Superior Amethyst Lv. 10">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchIcon.Icon.g_bm_jewel_amethyst_lv1_lavianrose_high2"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <equip>
+            <slot id="JEWEL"/>
+        </equip>
+        <skills>
+            <skill id="29409" level="10"/>
+            <skill id="27443" level="11"/>
+        </skills>
+    </armor>
+
+
+    <etcitem id="110367" name="Сундук со случайной Эпической Бижутерией">
+        <set name="icon" value="icon.zariche_box"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items rewardType="WEIGHTED_RANDOM">
+            <capsuled_item id="110649" min_count="1" max_count="1" chance="20.0"/>
+            <capsuled_item id="110650" min_count="1" max_count="1" chance="20.0"/>
+            <capsuled_item id="110651" min_count="1" max_count="1" chance="20.0"/>
+            <capsuled_item id="110652" min_count="1" max_count="1" chance="20.0"/>
+            <capsuled_item id="110654" min_count="1" max_count="1" chance="20.0"/>
+        </capsuled_items>
+    </etcitem>
+
+    <armor id="110368" name="Greater Agathion Taurus Charm">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.agathion_tau_star_1"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="5"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="durability" value="10080"/>
+        <set name="temporal" value="true"/>
+        <equip>
+            <slot id="AGATHION"/>
+        </equip>
+        <agathion_data>
+            <enchant level="0">
+                <sub_skills>
+                    <skill id="120156" level="1"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+                </sub_skills>
+            </enchant>
+            <enchant level="1">
+                <sub_skills>
+                    <skill id="120156" level="2"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+                </sub_skills>
+            </enchant>
+            <enchant level="2">
+                <sub_skills>
+                    <skill id="120156" level="3"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+                </sub_skills>
+            </enchant>
+            <enchant level="3">
+                <sub_skills>
+                    <skill id="120156" level="4"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+                </sub_skills>
+            </enchant>
+            <enchant level="4">
+                <sub_skills>
+                    <skill id="120156" level="5"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+                </sub_skills>
+            </enchant>
+            <enchant level="5">
+                <sub_skills>
+                    <skill id="120156" level="6"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+                </sub_skills>
+            </enchant>
+            <enchant level="6">
+                <sub_skills>
+                    <skill id="120156" level="7"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+                </sub_skills>
+            </enchant>
+            <enchant level="7">
+                <sub_skills>
+                    <skill id="120156" level="8"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+                </sub_skills>
+            </enchant>
+            <enchant level="8">
+                <sub_skills>
+                    <skill id="120156" level="9"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+                </sub_skills>
+            </enchant>
+            <enchant level="9">
+                <sub_skills>
+                    <skill id="120156" level="10"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+                </sub_skills>
+            </enchant>
+            <enchant level="10">
+                <sub_skills>
+                    <skill id="120156" level="11"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+                </sub_skills>
+            </enchant>
+        </agathion_data>
+    </armor>
+
+    <etcitem id="110369" name="Упаковка">
+        <set name="icon" value="icon.agathion_tau_star_1"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="stackable" value="true"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="110368" min_count="1" max_count="1" enchant_level="10" chance="100.0"/>
+        </capsuled_items>
+    </etcitem>
+
+    <etcitem id="110370" name="Сундук со случайной Куклой Ур 5.">
+        <set name="icon" value="icon.christmas_card_box1"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items rewardType="WEIGHTED_RANDOM">
+            <capsuled_item id="110346" min_count="1" max_count="1" chance="11.1111"/>
+            <capsuled_item id="110347" min_count="1" max_count="1" chance="11.1111"/>
+            <capsuled_item id="110348" min_count="1" max_count="1" chance="11.1111"/>
+            <capsuled_item id="110349" min_count="1" max_count="1" chance="11.1111"/>
+            <capsuled_item id="110350" min_count="1" max_count="1" chance="11.1111"/>
+            <capsuled_item id="110351" min_count="1" max_count="1" chance="11.1111"/>
+            <capsuled_item id="110352" min_count="1" max_count="1" chance="11.1111"/>
+            <capsuled_item id="110353" min_count="1" max_count="1" chance="11.1111"/>
+            <capsuled_item id="110354" min_count="1" max_count="1" chance="11.1111"/>
+        </capsuled_items>
+    </etcitem>
+
+    <armor id="110371" name="Artifact - P. Atk." add_name="Attack">
+        <set name="sellable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.artifact_b_pa"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="NONE"/>
+        <set name="artifact_slot" value="ATTACK"/>
+        <equip>
+            <slot id="ARTIFACT"/>
+        </equip>
+        <enchant_options>
+            <level value="0">
+                <option id="33506"/>
+            </level>
+            <level value="1">
+                <option id="33507"/>
+            </level>
+            <level value="2">
+                <option id="33508"/>
+            </level>
+            <level value="3">
+                <option id="33509"/>
+            </level>
+            <level value="4">
+                <option id="33510"/>
+            </level>
+            <level value="5">
+                <option id="33511"/>
+            </level>
+            <level value="6">
+                <option id="33512"/>
+            </level>
+            <level value="7">
+                <option id="33513"/>
+            </level>
+            <level value="8">
+                <option id="33514"/>
+            </level>
+            <level value="9">
+                <option id="33515"/>
+            </level>
+            <level value="10">
+                <option id="33516"/>
+            </level>
+        </enchant_options>
+    </armor>
+    <armor id="110372" name="Artifact - M. Skill Power." add_name="Attack">
+        <set name="sellable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.artifact_b_ma"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="type" value="NONE"/>
+        <set name="artifact_slot" value="ATTACK"/>
+        <equip>
+            <slot id="ARTIFACT"/>
+        </equip>
+        <enchant_options>
+            <level value="0">
+                <option id="33517"/>
+            </level>
+            <level value="1">
+                <option id="33518"/>
+            </level>
+            <level value="2">
+                <option id="33519"/>
+            </level>
+            <level value="3">
+                <option id="33520"/>
+            </level>
+            <level value="4">
+                <option id="33521"/>
+            </level>
+            <level value="5">
+                <option id="33522"/>
+            </level>
+            <level value="6">
+                <option id="33523"/>
+            </level>
+            <level value="7">
+                <option id="33524"/>
+            </level>
+            <level value="8">
+                <option id="33525"/>
+            </level>
+            <level value="9">
+                <option id="33526"/>
+            </level>
+            <level value="10">
+                <option id="33527"/>
+            </level>
+        </enchant_options>
+    </armor>
+
+    <armor id="110373" name="Artifact - PVP Damage" add_name="Attack">
+        <set name="sellable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="icon" value="icon.artifact_a_hp_special"/>
+        <set name="type" value="NONE"/>
+        <set name="artifact_slot" value="ATTACK"/>
+        <equip>
+            <slot id="ARTIFACT"/>
+        </equip>
+        <enchant_options>
+            <level value="0">
+                <option id="33715"/>
+            </level>
+            <level value="1">
+                <option id="33716"/>
+            </level>
+            <level value="2">
+                <option id="33717"/>
+            </level>
+            <level value="3">
+                <option id="33718"/>
+            </level>
+            <level value="4">
+                <option id="33719"/>
+            </level>
+            <level value="5">
+                <option id="33720"/>
+            </level>
+            <level value="6">
+                <option id="33721"/>
+            </level>
+            <level value="7">
+                <option id="33722"/>
+            </level>
+            <level value="8">
+                <option id="33723"/>
+            </level>
+            <level value="9">
+                <option id="33724"/>
+            </level>
+            <level value="10">
+                <option id="33725"/>
+            </level>
+        </enchant_options>
+    </armor>
+
+    <etcitem id="110374" name="Сундук со случайным Артефактом Атаки +10">
+        <set name="icon" value="icon.bm_artifact_b_box_i00"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items rewardType="WEIGHTED_RANDOM">
+            <capsuled_item id="110371" min_count="1" max_count="1" enchant_level="10" chance="33.33"/>
+            <capsuled_item id="110372" min_count="1" max_count="1" enchant_level="10" chance="33.33"/>
+            <capsuled_item id="110373" min_count="1" max_count="1" enchant_level="10" chance="33.33"/>
+        </capsuled_items>
+    </etcitem>
+
+    <etcitem id="110375" name="Сундук со случайным Исключительным Драгоценным Камнем Ур 10.">
+        <set name="icon" value="icon.bm_sayha_blessed_box"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="stackable" value="true"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items rewardType="WEIGHTED_RANDOM">
+            <capsuled_item id="110355" min_count="1" max_count="1" chance="8.33"/>
+            <capsuled_item id="110356" min_count="1" max_count="1" chance="8.33"/>
+            <capsuled_item id="110357" min_count="1" max_count="1" chance="8.33"/>
+            <capsuled_item id="110358" min_count="1" max_count="1" chance="8.33"/>
+            <capsuled_item id="110359" min_count="1" max_count="1" chance="8.33"/>
+            <capsuled_item id="110360" min_count="1" max_count="1" chance="8.33"/>
+            <capsuled_item id="110361" min_count="1" max_count="1" chance="8.33"/>
+            <capsuled_item id="110362" min_count="1" max_count="1" chance="8.33"/>
+            <capsuled_item id="110363" min_count="1" max_count="1" chance="8.33"/>
+            <capsuled_item id="110364" min_count="1" max_count="1" chance="8.33"/>
+            <capsuled_item id="110365" min_count="1" max_count="1" chance="8.33"/>
+            <capsuled_item id="110366" min_count="1" max_count="1" chance="8.33"/>
+        </capsuled_items>
+    </etcitem>
+
+    <etcitem id="110376" name="Камень Продления Крепость Астатина">
+        <set name="icon" value="icon.timezone_refill_new_i04"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="type" value="POTION"/>
+        <skills>
+            <skill id="120168" level="1" />
+        </skills>
+    </etcitem>
+    <etcitem id="110377" name="Камень Продления Колонии Фей">
+        <set name="icon" value="icon.timezone_refill_new_i05"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="type" value="POTION"/>
+        <skills>
+            <skill id="120168" level="2" />
+        </skills>
+    </etcitem>
+    <etcitem id="110378" name="Камень Продления Храм Орбиса">
+        <set name="icon" value="icon.timezone_refill_new_i06"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="type" value="POTION"/>
+        <skills>
+            <skill id="120168" level="3" />
+        </skills>
+    </etcitem>
+    <etcitem id="110379" name="Камень Продления Храма Фафуриона">
+        <set name="icon" value="icon.timezone_refill_new_i02"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="type" value="POTION"/>
+        <skills>
+            <skill id="120168" level="4" />
+        </skills>
+    </etcitem>
+    <etcitem id="110380" name="Камень Продления Кузница Богов">
+        <set name="icon" value="icon.timezone_refill_new_i01"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="type" value="POTION"/>
+        <skills>
+            <skill id="120168" level="5" />
+        </skills>
+    </etcitem>
+    <etcitem id="110381" name="Камень Продления Крепость Супериона">
+        <set name="icon" value="icon.timezone_refill_new_i05"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="type" value="POTION"/>
+        <skills>
+            <skill id="120168" level="6" /> 
+        </skills>
+    </etcitem>
+    <etcitem id="110382" name="Камень Продления Замерзший Каньон">
+        <set name="icon" value="icon.timezone_refill_new_i04"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="type" value="POTION"/>
+        <skills>
+            <skill id="120168" level="7" /> 
+        </skills>
+    </etcitem>
+    <etcitem id="110383" name="Монета Перерождения">
+        <set name="icon" value="icon.etc_coins_black_i01"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+        <set name="type" value="CURRENCY"/>
+    </etcitem>
+
+
+    <etcitem id="110384" name="Кровь Босса Свержения №1/Blood of the Overthrow Boss #1" add_name="№1">
+        <set name="icon" value="icon.holy_fire_buildup"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110385" name="Кровь Босса Свержения №2/Blood of the Overthrow Boss #2" add_name="№2">
+        <set name="icon" value="icon.holy_fire_buildup"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110386" name="Кровь Босса Свержения №3/Blood of the Overthrow Boss #3" add_name="№3">
+        <set name="icon" value="icon.holy_fire_buildup"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110387" name="Кровь Босса Свержения №4/Blood of the Overthrow Boss #4" add_name="№4">
+        <set name="icon" value="icon.holy_fire_buildup"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110388" name="Кровь Босса Свержения №5/Blood of the Overthrow Boss #5" add_name="№5">
+        <set name="icon" value="icon.holy_fire_buildup"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110389" name="Кровь Босса Свержения №6/Blood of the Overthrow Boss #6" add_name="№6">
+        <set name="icon" value="icon.holy_fire_buildup"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110390" name="Кровь Босса Свержения №7/Blood of the Overthrow Boss #7" add_name="№7">
+        <set name="icon" value="icon.holy_fire_buildup"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110391" name="Кровь Босса Свержения №8/Blood of the Overthrow Boss #8" add_name="№8">
+        <set name="icon" value="icon.holy_fire_buildup"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110392" name="Кровь Босса Свержения №9/Blood of the Overthrow Boss #9" add_name="№9">
+        <set name="icon" value="icon.holy_fire_buildup"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+        <etcitem id="110393" name="Кровь Босса Свержения №10/Blood of the Overthrow Boss #10" add_name="№10">
+        <set name="icon" value="icon.holy_fire_buildup"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+
+    <etcitem id="110394" name="Страница Забытых Миров" add_name="Запечатано">
+        <set name="icon" value="icon.prophets_paper_piece_i02"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110395" name="Знак Перерожденного" add_name="Запечатано">
+        <set name="icon" value="icon.trial_behemoth_01"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110396" name="Медаль Героя" add_name="Запечатано">
+        <set name="icon" value="icon.newserver_token_01"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110397" name="Сертификат 4-й Профессии/4th Profession Certificate" add_name="Запечатано">
+        <set name="icon" value="icon.seal_lev_95"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="110398" name="Пламя Героя">
+        <set name="icon" value="icon.seal_lev_95"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+</list>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <!--
+        Брошь
+    -->
+
+    <armor id="105540" name="Brooch Lv. 1">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_brooch_6slot_lavianrose_3"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="10"/>
+        <equip>
+            <slot id="BROOCH"/>
+        </equip>
+        <skills>
+            <skill id="120008" level="1"/>
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="11"/>
+        </for>
+    </armor>
+    <armor id="105541" name="Brooch Lv. 2">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_brooch_6slot_lavianrose_3"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="10"/>
+        <equip>
+            <slot id="BROOCH"/>
+        </equip>
+        <skills>
+            <skill id="120008" level="2"/>
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="12"/>
+        </for>
+    </armor>
+    <armor id="105542" name="Brooch Lv. 3">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_brooch_6slot_lavianrose_3"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="10"/>
+        <equip>
+            <slot id="BROOCH"/>
+        </equip>
+        <skills>
+            <skill id="120008" level="3"/>
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="14"/>
+        </for>
+    </armor>
+    <armor id="105543" name="Brooch Lv. 4">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_brooch_6slot_lavianrose_4"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="10"/>
+        <equip>
+            <slot id="BROOCH"/>
+        </equip>
+        <skills>
+            <skill id="120008" level="4"/>
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="15"/>
+        </for>
+    </armor>
+    <armor id="105544" name="Brooch Lv. 5">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_brooch_6slot_lavianrose_5"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="10"/>
+        <set name="variation_group_id" value="1"/>
+        <equip>
+            <slot id="BROOCH"/>
+        </equip>
+        <skills>
+            <skill id="120008" level="5"/>
+        </skills>
+        <for>
+            <add stat="mDef" order="0x10" value="17"/>
+        </for>
+    </armor>
+
+</list>

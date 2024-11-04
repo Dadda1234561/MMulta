@@ -1,0 +1,3632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!-- AUTHOR: Edoo -->
+<list>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="innadril_castle_light_side">
+		<point x="116123" y="249702" z="-762" h="49152"/>
+		<npc id="35316"/><!--Chamberlain of Light-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="innadril_castle_dark_side">
+		<point x="116123" y="249702" z="-762" h="49152"/>
+		<npc id="36658"/><!--Chamberlain of Darkness-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="innadril_castle_6">
+		<point x="117136" y="241763" z="-1280" h="49152"/>
+		<npc id="35320"/><!--Raybell-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="innadril_castle_6">
+		<point x="116363" y="245268" z="-1040" h="49152"/>
+		<npc id="35312"/><!--Outer Doorman-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="0" period_of_day="none" group="innadril_castle_6">
+		<point x="116417" y="245616" z="-1040" h="0"/>
+		<npc id="35312"/><!--Outer Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="innadril_castle_6">
+		<point x="116190" y="247827" z="-750" h="49152"/>
+		<npc id="35313"/><!--Inner Doorman-->
+	</spawn>
+	<spawn count="1" respawn="129600" respawn_random="0" period_of_day="none" group="innadril_castle_6">
+		<point x="116256" y="248182" z="-790" h="0"/>
+		<npc id="35313"/><!--Inner Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="innadril_castle_6">
+		<point x="115787" y="249585" z="-775" h="49152" />
+		<npc id="35318" /><!--Solinus-->
+	</spawn>
+	<spawn group="innadril_castle_mass_gatekeeper" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="114443" y="249142" z="-74" h="0"/>
+		<npc id="35311"/><!--Mass Gatekeeper-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="innadril_castle_6">
+		<point x="115649" y="249072" z="-973" h="0"/>
+		<npc id="35314"/><!--Blacksmith-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="innadril_castle_6">
+		<point x="116015" y="248558" z="-946" h="0"/>
+		<npc id="35315"/><!--Warehouse Keeper-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="innadril_castle_6">
+		<point x="115863" y="250387" z="-322" h="0"/>
+		<npc id="35317"/><!--Tate-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="innadril_castle_6">
+		<point x="116137" y="249617" z="-797" h="40463"/>
+		<npc id="35653"/><!--Court Magician-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="innadril_castle_6">
+		<point x="116041" y="249446" z="-947" h="49151"/>
+		<npc id="36408"/><!--Warden-->
+	</spawn>
+	<spawn group="innadril_castle_siege_artefact" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116024" y="250557" z="-770" h="-16384"/>
+		<npc id="35279"/><!--Holy Artefact-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116168" y="248194" z="-783" h="39088"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116151" y="248219" z="-784" h="39088"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116127" y="248245" z="-783" h="39088"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116108" y="248268" z="-783" h="39088"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116093" y="248286" z="-782" h="39088"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116071" y="248312" z="-784" h="39088"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116054" y="248337" z="-784" h="39088"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116034" y="248358" z="-784" h="39088"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116010" y="248369" z="-785" h="49844"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115985" y="248350" z="-784" h="58336"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115967" y="248326" z="-784" h="58336"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115954" y="248306" z="-783" h="58336"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115935" y="248279" z="-785" h="58336"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115916" y="248255" z="-786" h="58336"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115897" y="248225" z="-785" h="58336"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115880" y="248200" z="-785" h="58336"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115867" y="248181" z="-784" h="58336"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116183" y="248214" z="-785" h="39088"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116165" y="248238" z="-786" h="39088"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116141" y="248264" z="-785" h="39088"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116122" y="248288" z="-785" h="39088"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116107" y="248306" z="-784" h="39088"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116086" y="248332" z="-786" h="39088"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116068" y="248356" z="-786" h="39088"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116049" y="248377" z="-786" h="39088"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116024" y="248388" z="-787" h="49844"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115996" y="248387" z="-784" h="49844"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115971" y="248368" z="-783" h="58336"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115953" y="248344" z="-783" h="58336"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115940" y="248324" z="-782" h="58336"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115921" y="248297" z="-784" h="58336"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115902" y="248273" z="-785" h="58336"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115883" y="248243" z="-784" h="58336"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115866" y="248218" z="-784" h="58336"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115853" y="248199" z="-783" h="58336"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116211" y="248319" z="-783" h="39088"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116192" y="248342" z="-783" h="39088"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116177" y="248360" z="-782" h="39088"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116155" y="248386" z="-784" h="39088"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116138" y="248411" z="-785" h="39088"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115910" y="248377" z="-779" h="58336"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115897" y="248357" z="-778" h="58336"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115877" y="248330" z="-780" h="58336"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115859" y="248306" z="-781" h="58336"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115840" y="248276" z="-780" h="58336"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115879" y="248453" z="-781" h="48388"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="115845" y="248453" z="-782" h="48388"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116124" y="248456" z="-782" h="48388"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116101" y="248455" z="-782" h="48388"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="10800">
+		<point x="116176" y="248181" z="-780" h="58336"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="5">
+		<point x="116185" y="248235" z="-783" h="39088"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="5">
+		<point x="116104" y="248326" z="-783" h="39088"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="5">
+		<point x="115919" y="248317" z="-783" h="39088"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege04" count="1" respawn="5">
+		<point x="115847" y="248214" z="-783" h="39088"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116084" y="250339" z="-845" h="49112"/>
+		<npc id="35280"/><!--Барон Леонел Хантер-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115972" y="250342" z="-844" h="49112"/>
+		<npc id="35281"/><!--Шат - Сэр-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115870" y="250325" z="-850" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115833" y="250326" z="-850" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115800" y="250326" z="-850" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115762" y="250327" z="-850" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115725" y="250327" z="-849" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115687" y="250328" z="-849" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115655" y="250328" z="-849" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115617" y="250329" z="-849" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115870" y="250291" z="-851" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115832" y="250292" z="-851" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115799" y="250292" z="-851" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115762" y="250293" z="-851" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115724" y="250293" z="-850" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115687" y="250294" z="-850" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115654" y="250294" z="-850" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115617" y="250295" z="-850" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115868" y="250253" z="-852" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115830" y="250254" z="-852" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115798" y="250254" z="-852" h="49112"/>
+		<npc id="35282"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115760" y="250255" z="-852" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115723" y="250255" z="-851" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115685" y="250256" z="-851" h="49112"/>
+		<npc id="35282"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115653" y="250256" z="-851" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115615" y="250257" z="-851" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116430" y="250319" z="-846" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116392" y="250319" z="-846" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116360" y="250319" z="-846" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116322" y="250320" z="-846" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116285" y="250321" z="-845" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116247" y="250321" z="-845" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116214" y="250322" z="-845" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116177" y="250322" z="-845" h="49112"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116429" y="250284" z="-847" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116391" y="250285" z="-847" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116359" y="250285" z="-847" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116321" y="250286" z="-847" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116284" y="250287" z="-846" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116246" y="250287" z="-846" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116214" y="250287" z="-846" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116176" y="250288" z="-846" h="49112"/>
+		<npc id="35285"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116428" y="250247" z="-848" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116390" y="250248" z="-848" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116357" y="250248" z="-848" h="49112"/>
+		<npc id="35282"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116320" y="250249" z="-848" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116282" y="250249" z="-847" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116245" y="250250" z="-847" h="49112"/>
+		<npc id="35282"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116212" y="250250" z="-847" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116175" y="250251" z="-847" h="49112"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116350" y="250484" z="-845" h="49112"/>
+		<npc id="35284"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116266" y="250484" z="-844" h="49112"/>
+		<npc id="35284"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116187" y="250485" z="-844" h="49112"/>
+		<npc id="35284"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="116112" y="250485" z="-844" h="49112"/>
+		<npc id="35284"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115935" y="250485" z="-841" h="49112"/>
+		<npc id="35284"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115852" y="250485" z="-841" h="49112"/>
+		<npc id="35284"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115772" y="250486" z="-841" h="49112"/>
+		<npc id="35284"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege05" count="1" respawn="5">
+		<point x="115698" y="250486" z="-841" h="49112"/>
+		<npc id="35284"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116514" y="245800" z="-1039" h="32080"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116513" y="245831" z="-1038" h="32080"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116513" y="245861" z="-1038" h="32080"/>
+		<npc id="35295"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116513" y="245891" z="-1037" h="32080"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116514" y="245922" z="-1038" h="32080"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116512" y="245951" z="-1037" h="32080"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116512" y="245981" z="-1037" h="32080"/>
+		<npc id="35295"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116512" y="246011" z="-1036" h="32080"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116513" y="246042" z="-1037" h="32080"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116539" y="245818" z="-1057" h="32080"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116539" y="245848" z="-1057" h="32080"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116539" y="245879" z="-1056" h="32080"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116540" y="245909" z="-1057" h="32080"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116538" y="245939" z="-1056" h="32080"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116538" y="245969" z="-1056" h="32080"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116537" y="245998" z="-1055" h="32080"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116538" y="246030" z="-1056" h="32080"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116560" y="245802" z="-1061" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116559" y="245832" z="-1061" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116559" y="245862" z="-1060" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116558" y="245893" z="-1060" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116560" y="245923" z="-1060" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116558" y="245953" z="-1059" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116558" y="245983" z="-1059" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116557" y="246012" z="-1058" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116558" y="246044" z="-1059" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116706" y="245820" z="-1062" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116706" y="245850" z="-1061" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116706" y="245881" z="-1061" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116705" y="245911" z="-1060" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116706" y="245941" z="-1060" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116704" y="245971" z="-1060" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116703" y="246001" z="-1059" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116703" y="246031" z="-1059" h="32080"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116807" y="246151" z="-1053" h="48668"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="10800">
+		<point x="116777" y="246152" z="-1054" h="48668"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="5">
+		<point x="116569" y="246033" z="-1037" h="32080"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="5">
+		<point x="116570" y="245969" z="-1037" h="32080"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="5">
+		<point x="116570" y="245880" z="-1037" h="32080"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege02" count="1" respawn="5">
+		<point x="116567" y="245820" z="-1037" h="32080"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116321" y="246173" z="-788" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116291" y="246174" z="-789" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116261" y="246171" z="-788" h="48668"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116231" y="246170" z="-788" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116202" y="246169" z="-787" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116551" y="246107" z="-786" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116521" y="246108" z="-787" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116492" y="246105" z="-786" h="48668"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116462" y="246104" z="-786" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116432" y="246103" z="-785" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116018" y="245969" z="-787" h="64432"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116015" y="245939" z="-788" h="64432"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116017" y="245910" z="-787" h="64432"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116016" y="245880" z="-787" h="64432"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116015" y="245850" z="-786" h="64432"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="115751" y="246175" z="-890" h="32712"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="115750" y="246209" z="-890" h="32712"/>
+		<npc id="35295"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="115746" y="246250" z="-889" h="32712"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="115772" y="246175" z="-879" h="32712"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="115771" y="246209" z="-880" h="32712"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="115767" y="246250" z="-879" h="32712"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="115790" y="246175" z="-865" h="32712"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="115789" y="246209" z="-866" h="32712"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="115785" y="246250" z="-865" h="32712"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116118" y="246216" z="-788" h="55444"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116321" y="246173" z="-788" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116261" y="246171" z="-788" h="48668"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116202" y="246169" z="-787" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116551" y="246107" z="-786" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116521" y="246108" z="-787" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116492" y="246105" z="-786" h="48668"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116462" y="246104" z="-786" h="48668"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116018" y="245969" z="-787" h="64432"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116017" y="245910" z="-787" h="64432"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege03" count="1" respawn="10800">
+		<point x="116015" y="245850" z="-786" h="64432"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116371" y="245422" z="-1049" h="48376"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116343" y="245422" z="-1049" h="48376"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116315" y="245422" z="-1049" h="48376"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116287" y="245422" z="-1049" h="48376"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116259" y="245422" z="-1049" h="48376"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116231" y="245422" z="-1049" h="48376"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116203" y="245422" z="-1049" h="48376"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116175" y="245422" z="-1049" h="48376"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116147" y="245422" z="-1049" h="48376"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116371" y="245402" z="-1049" h="48376"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116343" y="245402" z="-1049" h="48376"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116315" y="245402" z="-1049" h="48376"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116287" y="245402" z="-1049" h="48376"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116259" y="245402" z="-1049" h="48376"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116231" y="245402" z="-1049" h="48376"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116203" y="245402" z="-1049" h="48376"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116175" y="245402" z="-1049" h="48376"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116147" y="245402" z="-1049" h="48376"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116371" y="245382" z="-1049" h="48376"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116343" y="245382" z="-1049" h="48376"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116315" y="245382" z="-1049" h="48376"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116287" y="245382" z="-1049" h="48376"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116259" y="245382" z="-1049" h="48376"/>
+		<npc id="35295"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116231" y="245382" z="-1049" h="48376"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116203" y="245382" z="-1049" h="48376"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116175" y="245382" z="-1049" h="48376"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege01" count="1" respawn="10800">
+		<point x="116147" y="245382" z="-1049" h="48376"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116032" y="245348" z="-672" h="0"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116032" y="245277" z="-672" h="0"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116015" y="245210" z="-672" h="57344"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="115984" y="245185" z="-672" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="115946" y="245185" z="-672" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="115910" y="245185" z="-672" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="115872" y="245185" z="-672" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116491" y="245349" z="-672" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116491" y="245280" z="-672" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116512" y="245216" z="-672" h="40960"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116544" y="245185" z="-672" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116579" y="245185" z="-672" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116614" y="245185" z="-672" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116650" y="245185" z="-672" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116032" y="245315" z="-672" h="0"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116032" y="245240" z="-672" h="0"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116491" y="245312" z="-672" h="32768"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116491" y="245242" z="-672" h="32768"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="115968" y="245248" z="-672" h="57344"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116544" y="245248" z="-672" h="40960"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116015" y="245358" z="-663" h="0"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116015" y="245246" z="-663" h="0"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="115968" y="245187" z="-663" h="57344"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="115901" y="245173" z="-663" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116500" y="245319" z="-663" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116499" y="245239" z="-663" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116545" y="245182" z="-663" h="40960"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116617" y="245170" z="-663" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116500" y="245278" z="-662" h="32768"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116511" y="245207" z="-662" h="40960"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116005" y="245210" z="-662" h="57344"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116015" y="245294" z="-663" h="0"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="116599" y="245209" z="-663" h="40960"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege08" count="1" respawn="10800">
+		<point x="115909" y="245217" z="-663" h="57344"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116087" y="247109" z="-790" h="49152"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115959" y="247109" z="-790" h="49152"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115896" y="247109" z="-790" h="49152"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116151" y="247109" z="-790" h="49152"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116282" y="247109" z="-790" h="49152"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116410" y="247109" z="-790" h="49152"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115768" y="247109" z="-790" h="49152"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115639" y="247109" z="-790" h="49152"/>
+		<npc id="35288"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116215" y="247109" z="-790" h="49152"/>
+		<npc id="35283"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115832" y="247109" z="-790" h="49152"/>
+		<npc id="35283"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115575" y="247109" z="-790" h="49152"/>
+		<npc id="35283"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116474" y="247109" z="-790" h="49152"/>
+		<npc id="35283"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116023" y="247109" z="-790" h="49152"/>
+		<npc id="35284"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115704" y="247109" z="-790" h="49152"/>
+		<npc id="35284"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116346" y="247109" z="-790" h="49152"/>
+		<npc id="35284"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116471" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116407" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115575" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115639" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116023" y="246959" z="-790" h="49152"/>
+		<npc id="35282"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116343" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116279" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116215" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116151" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="116087" y="246959" z="-790" h="49152"/>
+		<npc id="35282"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115960" y="246959" z="-790" h="49152"/>
+		<npc id="35282"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115896" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115832" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115768" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege09" count="1" respawn="10800">
+		<point x="115704" y="246959" z="-790" h="49152"/>
+		<npc id="35287"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115510" y="249359" z="-623" h="48856"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115536" y="249359" z="-623" h="48856"/>
+		<npc id="35295"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115564" y="249359" z="-622" h="48856"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115510" y="249381" z="-627" h="48856"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115537" y="249381" z="-627" h="48856"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115564" y="249381" z="-626" h="48856"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115511" y="249406" z="-625" h="48856"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115538" y="249406" z="-625" h="48856"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115565" y="249405" z="-624" h="48856"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115451" y="249483" z="-625" h="48856"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115477" y="249483" z="-625" h="48856"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115505" y="249483" z="-624" h="48856"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115706" y="250056" z="-628" h="65460"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115705" y="250093" z="-628" h="65460"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115705" y="250130" z="-627" h="65460"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115704" y="250166" z="-627" h="65460"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115704" y="250202" z="-627" h="65460"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115703" y="250240" z="-627" h="65460"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115703" y="250271" z="-626" h="65460"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115702" y="250308" z="-626" h="65460"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115701" y="250343" z="-626" h="65460"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115701" y="250380" z="-626" h="65460"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege06" count="1" respawn="10800">
+		<point x="115701" y="250417" z="-626" h="65460"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116485" y="249293" z="-623" h="48856"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116511" y="249293" z="-623" h="48856"/>
+		<npc id="35295"/><!--Рыцарь Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116554" y="249296" z="-622" h="48856"/>
+		<npc id="35300"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116485" y="249315" z="-627" h="48856"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116512" y="249315" z="-627" h="48856"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116539" y="249315" z="-626" h="48856"/>
+		<npc id="35299"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116486" y="249340" z="-625" h="48856"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116513" y="249340" z="-625" h="48856"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116540" y="249339" z="-624" h="48856"/>
+		<npc id="35298"/><!--Гвардеец - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116447" y="249581" z="-625" h="48856"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116473" y="249581" z="-625" h="48856"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116501" y="249581" z="-624" h="48856"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116339" y="250411" z="-628" h="32384"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116338" y="250375" z="-628" h="32384"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116337" y="250338" z="-627" h="32384"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116337" y="250302" z="-627" h="32384"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116337" y="250266" z="-627" h="32384"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116336" y="250228" z="-627" h="32384"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116336" y="250197" z="-626" h="32384"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116335" y="250160" z="-626" h="32384"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116335" y="250125" z="-626" h="32384"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116334" y="250088" z="-626" h="32384"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege07" count="1" respawn="10800">
+		<point x="116333" y="250051" z="-626" h="32384"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="246876" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="246927" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="246977" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="247027" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="247077" z="-666" h="32768"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="247127" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="247177" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="247227" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="247277" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="247327" z="-666" h="32768"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="247377" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege13" count="1" respawn="10800">
+		<point x="117861" y="247427" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="116131" y="247989" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="116100" y="247989" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="116069" y="247989" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="116037" y="247989" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="116006" y="247989" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="115974" y="247989" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="115943" y="247989" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="115911" y="247989" z="-790" h="49152"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="116131" y="247969" z="-790" h="49152"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="116100" y="247969" z="-790" h="49152"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="116069" y="247969" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="116037" y="247969" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="116006" y="247969" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="115974" y="247969" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="115943" y="247969" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege11" count="1" respawn="10800">
+		<point x="115911" y="247969" z="-790" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="246876" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="246927" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="246977" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="247027" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="247077" z="-666" h="32768"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="247127" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="247177" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="247227" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="247277" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="247327" z="-666" h="32768"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="247377" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege12" count="1" respawn="10800">
+		<point x="114459" y="247427" z="-666" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="115791" y="247862" z="-481" h="0"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="115792" y="247740" z="-481" h="0"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="115737" y="247679" z="-481" h="57344"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="115712" y="247660" z="-481" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="115673" y="247659" z="-481" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="115637" y="247659" z="-481" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="115791" y="247819" z="-481" h="0"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="115763" y="247704" z="-481" h="57344"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="115791" y="247780" z="-480" h="0"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="115689" y="247725" z="-482" h="57344"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="116244" y="247868" z="-483" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="116244" y="247828" z="-481" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="116244" y="247743" z="-482" h="32768"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="116302" y="247678" z="-481" h="40960"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="116329" y="247658" z="-480" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="116369" y="247659" z="-481" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="116408" y="247658" z="-481" h="49152"/>
+		<npc id="35301"/><!--Охранник - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="116244" y="247784" z="-479" h="32768"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="116266" y="247714" z="-482" h="40960"/>
+		<npc id="35296"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn group="innadril_castle_siege" name="innadrile_siege10" count="1" respawn="10800">
+		<point x="116346" y="247732" z="-479" h="40960"/>
+		<npc id="35297"/><!--Маг Гвардии - Иннадрил-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="116460" y="203986" z="-3336" h="38352"/>
+		<npc id="35906"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="117785" y="204712" z="-3336" h="38352"/>
+		<npc id="35907"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="117889" y="203183" z="-3336" h="38352"/>
+		<npc id="36464"/><!--Wyvern Manager-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="118138" y="203228" z="-3336" h="17176"/>
+		<npc id="35904"/><!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="117980" y="204551" z="-3328" h="5396"/>
+		<npc id="35907"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="116741" y="203878" z="-3336" h="5396"/>
+		<npc id="35906"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="120160" y="204256" z="-3336" h="30272"/>
+		<npc id="35902"/><!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="118840" y="205144" z="-3176" h="38352"/>
+		<npc id="35896"/><!--Foreman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="118832" y="205280" z="-3328" h="38352"/>
+		<npc id="35907"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="119040" y="205120" z="-3336" h="5396"/>
+		<npc id="35907"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="120113" y="205939" z="-3336" h="38352"/>
+		<npc id="35905"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="white_sands_fortress_108">
+		<point x="120407" y="205831" z="-3336" h="5396"/>
+		<npc id="35905"/><!--Doorman-->
+	</spawn>
+		<spawn group="bloodaltar_alive_npc" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119976" y="219320" z="-3384" h="32768"/>
+		<npc id="4325"/><!--Altar Guard-->
+	</spawn>
+	<spawn group="bloodaltar_alive_npc" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119896" y="219160" z="-3392" h="32768"/>
+		<npc id="4324"/><!--Worshipper-->
+	</spawn>
+	<spawn group="bloodaltar_alive_npc" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119992" y="219016" z="-3384" h="52200"/>
+		<npc id="4325"/><!--Altar Guard-->
+	</spawn>
+	<spawn group="bloodaltar_dead_npc" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119976" y="219320" z="-3384" h="32768"/>
+		<npc id="4328"/><!--Dead Altar Guard-->
+	</spawn>
+	<spawn group="bloodaltar_dead_npc" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119896" y="219160" z="-3392" h="32768"/>
+		<npc id="4327"/><!--Dead Worshipper-->
+	</spawn>
+	<spawn group="bloodaltar_dead_npc" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119992" y="219016" z="-3384" h="52200"/>
+		<npc id="4328"/><!--Dead Altar Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="113755" y="200437" z="-3716" h="13736"/>
+		<npc id="35897"><!--Suspicious Merchant-->
+			<set name="walker_route_id" value="1"/>
+		</npc>
+	</spawn>
+	<spawn group="white_sands_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118880" y="203568" z="-3304" h="5396"/>
+		<npc id="35898"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="white_sands_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117216" y="205648" z="-3056" h="0"/>
+		<npc id="35899"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="white_sands_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118560" y="206560" z="-3306" h="-16664"/>
+		<npc id="35900"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="white_sands_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118880" y="203568" z="-3304" h="5396"/>
+		<npc id="35915"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="white_sands_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118560" y="206560" z="-3306" h="-16664"/>
+		<npc id="35918"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="white_sands_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117216" y="205648" z="-3056" h="0"/>
+		<npc id="35921"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="white_sands_fortress_mercenary" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="121051" y="206665" z="-3325" h="-31816"/>
+		<npc id="35924"/><!--Mercenary Captain-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120245" y="205931" z="-3336" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120261" y="205901" z="-3336" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120276" y="205874" z="-3336" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120292" y="205846" z="-3336" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116616" y="203885" z="-3336" h="-27184"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116600" y="203913" z="-3336" h="-27184"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116585" y="203942" z="-3336" h="-27184"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116570" y="203971" z="-3336" h="-27184"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118935" y="205258" z="-3336" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118952" y="205226" z="-3336" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118968" y="205196" z="-3336" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118984" y="205165" z="-3336" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117888" y="204583" z="-3333" h="-27184"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117872" y="204612" z="-3336" h="-27184"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117855" y="204643" z="-3333" h="-27184"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117840" y="204673" z="-3336" h="-27184"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120496" y="205488" z="-2955" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120480" y="205520" z="-2955" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120064" y="206288" z="-2955" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120048" y="206320" z="-2955" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120496" y="204528" z="-2955" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120496" y="204560" z="-2955" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120096" y="203712" z="-2955" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120128" y="203744" z="-2955" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118992" y="202944" z="-2955" h="-13624"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119024" y="202944" z="-2955" h="-13624"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117552" y="202992" z="-2955" h="-22376"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117584" y="202976" z="-2955" h="-22376"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116784" y="203536" z="-2955" h="-27828"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116800" y="203504" z="-2955" h="-27828"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116368" y="204336" z="-2955" h="-27432"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116368" y="204304" z="-2955" h="-27432"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116352" y="205296" z="-2955" h="-32108"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116352" y="205264" z="-2955" h="-32108"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117136" y="206496" z="-2955" h="20696"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117104" y="206480" z="-2955" h="20696"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118016" y="206960" z="-2955" h="21772"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117984" y="206944" z="-2955" h="21772"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118256" y="206976" z="-2955" h="14472"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118224" y="206976" z="-2955" h="14472"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119531" y="205508" z="-3336" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119440" y="205552" z="-3336" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119472" y="205504" z="-3336" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119504" y="205456" z="-3336" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119527" y="205417" z="-3336" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117279" y="204244" z="-3336" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117351" y="204198" z="-3336" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117324" y="204240" z="-3336" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117296" y="204288" z="-3336" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117266" y="204332" z="-3336" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118378" y="204000" z="-3336" h="0"/>
+		<npc id="35923"/><!--Ballista-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118694" y="203076" z="-3336" h="0"/>
+		<npc id="35923"/><!--Ballista-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118004" y="205749" z="-3336" h="0"/>
+		<npc id="35923"/><!--Ballista-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117077" y="206107" z="-3336" h="0"/>
+		<npc id="35923"/><!--Ballista-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120288" y="205294" z="-2890" h="15872"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120256" y="205296" z="-2890" h="15872"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120319" y="205293" z="-2890" h="15872"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120286" y="205253" z="-2890" h="15872"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119779" y="206246" z="-2890" h="-5520"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119794" y="206273" z="-2890" h="-5520"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119763" y="206220" z="-2890" h="-5520"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119747" y="206264" z="-2890" h="-5520"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116575" y="204576" z="-2890" h="-16828"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116607" y="204575" z="-2890" h="-16828"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116544" y="204577" z="-2890" h="-16828"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116577" y="204609" z="-2890" h="-16828"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117085" y="203561" z="-2890" h="26964"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117101" y="203587" z="-2890" h="26964"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117069" y="203534" z="-2890" h="26964"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117109" y="203546" z="-2890" h="26964"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120000" y="205042" z="-2980" h="0"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120000" y="205008" z="-2980" h="0"/>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120030" y="205042" z="-2980" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120029" y="205007" z="-2980" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120446" y="205346" z="-3157" h="32412"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120447" y="205375" z="-3157" h="32412"/>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120424" y="205348" z="-3157" h="32412"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="120425" y="205377" z="-3157" h="32412"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119419" y="206158" z="-2980" h="11844"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119392" y="206171" z="-2980" h="11844"/>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119430" y="206179" z="-2980" h="11844"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119403" y="206191" z="-2980" h="11844"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119936" y="206330" z="-3157" h="-22000"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119912" y="206345" z="-3157" h="-22000"/>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119924" y="206311" z="-3157" h="-22000"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119900" y="206325" z="-3157" h="-22000"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116851" y="204864" z="-2980" h="32332"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116850" y="204834" z="-2980" h="32332"/>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116827" y="204864" z="-2980" h="32332"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116826" y="204835" z="-2980" h="32332"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116418" y="204490" z="-3157" h="0"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116418" y="204522" z="-3157" h="0"/>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116450" y="204490" z="-3157" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116450" y="204522" z="-3157" h="0"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117447" y="203660" z="-2980" h="-22136"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117471" y="203645" z="-2980" h="-22136"/>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117434" y="203639" z="-2980" h="-22136"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117458" y="203625" z="-2980" h="-22136"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116928" y="203474" z="-3157" h="11132"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116953" y="203461" z="-3157" h="11132"/>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116939" y="203495" z="-3157" h="11132"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116965" y="203481" z="-3157" h="11132"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118375" y="206630" z="-3305" h="-7860"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118348" y="206360" z="-3306" h="7708"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118496" y="206384" z="-3306" h="13508"/>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118614" y="206327" z="-3306" h="13584"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118715" y="206601" z="-3306" h="-28000"/>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118292" y="206421" z="-3306" h="5576"/>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117301" y="205401" z="-3153" h="21480"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117271" y="205388" z="-3153" h="21480"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117147" y="205901" z="-3153" h="-11404"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117116" y="205884" z="-3153" h="-11404"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117520" y="205552" z="-3259" h="-11404"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117120" y="205344" z="-3259" h="-11404"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116912" y="205728" z="-3259" h="21480"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117296" y="205936" z="-3259" h="21480"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117344" y="205920" z="-3259" h="5400"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117520" y="205600" z="-3259" h="5400"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117072" y="205376" z="-3259" h="-26704"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="116912" y="205664" z="-3259" h="-26704"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117216" y="205648" z="-3259" h="0"/>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118897" y="203650" z="-3304" h="-27184"/>
+		<npc id="35916"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118914" y="203622" z="-3303" h="-27184"/>
+		<npc id="35916"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118931" y="203595" z="-3303" h="-27184"/>
+		<npc id="35916"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118948" y="203565" z="-3304" h="-27184"/>
+		<npc id="35916"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118967" y="203538" z="-3304" h="-27184"/>
+		<npc id="35916"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118930" y="203669" z="-3304" h="-27184"/>
+		<npc id="35917"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118948" y="203642" z="-3303" h="-27184"/>
+		<npc id="35917"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118965" y="203615" z="-3304" h="-27184"/>
+		<npc id="35917"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118982" y="203585" z="-3304" h="-27184"/>
+		<npc id="35917"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119000" y="203557" z="-3304" h="-27184"/>
+		<npc id="35917"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118472" y="204952" z="-2411" h="5396"/>
+		<npc id="35908"/><!--Rebel Commander-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118483" y="205009" z="-2411" h="5396"/>
+		<npc id="35909"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118497" y="204983" z="-2411" h="5396"/>
+		<npc id="35909"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118511" y="204958" z="-2411" h="5396"/>
+		<npc id="35909"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118525" y="204932" z="-2411" h="5396"/>
+		<npc id="35909"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118341" y="204830" z="-2411" h="-27184"/>
+		<npc id="35909"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118327" y="204855" z="-2411" h="-27184"/>
+		<npc id="35909"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118314" y="204880" z="-2411" h="-27184"/>
+		<npc id="35909"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118299" y="204905" z="-2411" h="-27184"/>
+		<npc id="35909"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118695" y="205038" z="-2441" h="5396"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118710" y="205011" z="-2441" h="5396"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118726" y="204983" z="-2441" h="5396"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118742" y="204955" z="-2441" h="5396"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118774" y="204899" z="-2441" h="5396"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118789" y="204870" z="-2441" h="5396"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118805" y="204842" z="-2441" h="5396"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118759" y="204927" z="-2441" h="5396"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118480" y="205616" z="-2965" h="21528"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118448" y="205600" z="-2966" h="21528"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118512" y="205632" z="-2965" h="21528"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118228" y="204425" z="-2624" h="21528"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118203" y="204411" z="-2624" h="21528"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118251" y="204437" z="-2624" h="21528"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117897" y="205164" z="-2816" h="5416"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117881" y="205192" z="-2816" h="5416"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117865" y="205220" z="-2816" h="5416"/>
+		<npc id="35910"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118483" y="205009" z="-2411" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118497" y="204983" z="-2411" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118511" y="204958" z="-2411" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118525" y="204932" z="-2411" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118341" y="204830" z="-2411" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118327" y="204855" z="-2411" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118314" y="204880" z="-2411" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118299" y="204905" z="-2411" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118695" y="205038" z="-2441" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118710" y="205011" z="-2441" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118726" y="204983" z="-2441" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118742" y="204955" z="-2441" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118774" y="204899" z="-2441" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118789" y="204870" z="-2441" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118805" y="204842" z="-2441" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118759" y="204927" z="-2441" h="5396"/>
+		<npc id="35911"/><!--Court Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_gunner1]-->
+			<add x="118539" y="205805" zmin="-3384" zmax="-3184"/>
+			<add x="119527" y="205984" zmin="-3384" zmax="-3184"/>
+			<add x="119289" y="206111" zmin="-3384" zmax="-3184"/>
+			<add x="118534" y="206134" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35914"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="white_sands_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_gunner2]-->
+			<add x="119586" y="204236" zmin="-3384" zmax="-3184"/>
+			<add x="120240" y="204799" zmin="-3384" zmax="-3184"/>
+			<add x="119872" y="205021" zmin="-3384" zmax="-3184"/>
+			<add x="119098" y="204458" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35914"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="white_sands_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_gunner3]-->
+			<add x="117883" y="205597" zmin="-3384" zmax="-3184"/>
+			<add x="118451" y="205883" zmin="-3384" zmax="-3184"/>
+			<add x="117848" y="206594" zmin="-3384" zmax="-3184"/>
+			<add x="117474" y="206277" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35914"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="white_sands_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_gunner4]-->
+			<add x="116930" y="204532" zmin="-3384" zmax="-3184"/>
+			<add x="117609" y="204924" zmin="-3384" zmax="-3184"/>
+			<add x="117467" y="205266" zmin="-3384" zmax="-3184"/>
+			<add x="116897" y="205026" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35914"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="white_sands_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_gunner5]-->
+			<add x="117972" y="203309" zmin="-3384" zmax="-3184"/>
+			<add x="118355" y="203395" zmin="-3384" zmax="-3184"/>
+			<add x="118410" y="204125" zmin="-3384" zmax="-3184"/>
+			<add x="117431" y="203747" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35914"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="white_sands_fortress_envoy" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="118785" y="205138" z="-3177" h="5396"/>
+		<npc id="36400"/><!--Special Envoy-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119471" y="205385" z="-3336" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119447" y="205424" z="-3336" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119415" y="205471" z="-3336" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="119385" y="205520" z="-3336" h="5396"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117408" y="204231" z="-3336" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117380" y="204273" z="-3336" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117350" y="204320" z="-3336" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="117323" y="204365" z="-3336" h="-27184"/>
+		<npc id="35912"/><!--Guard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b1]-->
+			<add x="118539" y="205805" zmin="-3384" zmax="-3184"/>
+			<add x="119527" y="205984" zmin="-3384" zmax="-3184"/>
+			<add x="119289" y="206111" zmin="-3384" zmax="-3184"/>
+			<add x="118534" y="206134" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b1]-->
+			<add x="118539" y="205805" zmin="-3384" zmax="-3184"/>
+			<add x="119527" y="205984" zmin="-3384" zmax="-3184"/>
+			<add x="119289" y="206111" zmin="-3384" zmax="-3184"/>
+			<add x="118534" y="206134" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b1]-->
+			<add x="118539" y="205805" zmin="-3384" zmax="-3184"/>
+			<add x="119527" y="205984" zmin="-3384" zmax="-3184"/>
+			<add x="119289" y="206111" zmin="-3384" zmax="-3184"/>
+			<add x="118534" y="206134" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b2]-->
+			<add x="119586" y="204236" zmin="-3384" zmax="-3184"/>
+			<add x="120240" y="204799" zmin="-3384" zmax="-3184"/>
+			<add x="119872" y="205021" zmin="-3384" zmax="-3184"/>
+			<add x="119098" y="204458" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b2]-->
+			<add x="119586" y="204236" zmin="-3384" zmax="-3184"/>
+			<add x="120240" y="204799" zmin="-3384" zmax="-3184"/>
+			<add x="119872" y="205021" zmin="-3384" zmax="-3184"/>
+			<add x="119098" y="204458" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b2]-->
+			<add x="119586" y="204236" zmin="-3384" zmax="-3184"/>
+			<add x="120240" y="204799" zmin="-3384" zmax="-3184"/>
+			<add x="119872" y="205021" zmin="-3384" zmax="-3184"/>
+			<add x="119098" y="204458" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b3]-->
+			<add x="117883" y="205597" zmin="-3384" zmax="-3184"/>
+			<add x="118451" y="205883" zmin="-3384" zmax="-3184"/>
+			<add x="117848" y="206594" zmin="-3384" zmax="-3184"/>
+			<add x="117474" y="206277" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b3]-->
+			<add x="117883" y="205597" zmin="-3384" zmax="-3184"/>
+			<add x="118451" y="205883" zmin="-3384" zmax="-3184"/>
+			<add x="117848" y="206594" zmin="-3384" zmax="-3184"/>
+			<add x="117474" y="206277" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b3]-->
+			<add x="117883" y="205597" zmin="-3384" zmax="-3184"/>
+			<add x="118451" y="205883" zmin="-3384" zmax="-3184"/>
+			<add x="117848" y="206594" zmin="-3384" zmax="-3184"/>
+			<add x="117474" y="206277" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b4]-->
+			<add x="116930" y="204532" zmin="-3384" zmax="-3184"/>
+			<add x="117609" y="204924" zmin="-3384" zmax="-3184"/>
+			<add x="117467" y="205266" zmin="-3384" zmax="-3184"/>
+			<add x="116897" y="205026" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b4]-->
+			<add x="116930" y="204532" zmin="-3384" zmax="-3184"/>
+			<add x="117609" y="204924" zmin="-3384" zmax="-3184"/>
+			<add x="117467" y="205266" zmin="-3384" zmax="-3184"/>
+			<add x="116897" y="205026" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b4]-->
+			<add x="116930" y="204532" zmin="-3384" zmax="-3184"/>
+			<add x="117609" y="204924" zmin="-3384" zmax="-3184"/>
+			<add x="117467" y="205266" zmin="-3384" zmax="-3184"/>
+			<add x="116897" y="205026" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b5]-->
+			<add x="117972" y="203309" zmin="-3384" zmax="-3184"/>
+			<add x="118355" y="203395" zmin="-3384" zmax="-3184"/>
+			<add x="118410" y="204125" zmin="-3384" zmax="-3184"/>
+			<add x="117431" y="203747" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35922"/><!--Archer-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b5]-->
+			<add x="117972" y="203309" zmin="-3384" zmax="-3184"/>
+			<add x="118355" y="203395" zmin="-3384" zmax="-3184"/>
+			<add x="118410" y="204125" zmin="-3384" zmax="-3184"/>
+			<add x="117431" y="203747" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35919"/><!--Wizard-->
+	</spawn>
+	<spawn group="white_sands_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort108_2324_reinforce_b5]-->
+			<add x="117972" y="203309" zmin="-3384" zmax="-3184"/>
+			<add x="118355" y="203395" zmin="-3384" zmax="-3184"/>
+			<add x="118410" y="204125" zmin="-3384" zmax="-3184"/>
+			<add x="117431" y="203747" zmin="-3384" zmax="-3184"/>
+		</territory>
+		<npc id="35920"/><!--Healer-->
+	</spawn>
+	<!--<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="112435" y="220185" z="-3592" h="47729"/>
+		&lt;!&ndash; <npc id="33685" /> &ndash;&gt;
+			<npc id="40007" />
+	</spawn>-->
+	<!--крепость аару -->
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="72828" y="187848" z="-2610" h="21495"/>
+		<npc id="36295"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="73231" y="187832" z="-2610" h="54141"/>
+		<npc id="36295"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="72874" y="184166" z="-2610" h="21562"/>
+		<npc id="36296"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="73261" y="184166" z="-2612" h="54167"/>
+		<npc id="36296"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="73365" y="185367" z="-2610" h="55201"/>
+		<npc id="36297"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="73498" y="185612" z="-2607" h="21463"/>
+		<npc id="36297"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="72849" y="186594" z="-2610" h="21872"/>
+		<npc id="36297"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="72718" y="186373" z="-2607" h="53066"/>
+		<npc id="36297"/><!--Doorman-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="74835" y="185658" z="-2610" h="20484"/>
+		<npc id="36292"/><!--Logistics Officer-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="70794" y="185631" z="-2610" h="62237"/>
+		<npc id="36294"/><!--Detention Camp Warden-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="70693" y="185271" z="-2610" h="786"/>
+		<npc id="36475"/><!--Wyvern Manager-->
+	</spawn>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none" group="aaru_fortress_119">
+		<point x="72834" y="186405" z="-2450" h="54509"/>
+		<npc id="36286"/><!--Foreman-->
+	</spawn>
+	<spawn group="aaru_fortress_peace_merchant" count="1" respawn="15000" respawn_random="0" period_of_day="none">
+		<point x="69726" y="187330" z="-3008" h="0"/>
+		<npc id="36287"><!--Suspicious Merchant-->
+			<set name="walker_route_id" value="1"/>
+		</npc>
+	</spawn>
+	<spawn group="aaru_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71392" y="184720" z="-2552" h="5528"/>
+		<npc id="36288"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="aaru_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74288" y="186912" z="-2304" h="0"/>
+		<npc id="36289"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="aaru_fortress_peace_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71542" y="186410" z="-2554" h="-10448"/>
+		<npc id="36290"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="aaru_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71392" y="184720" z="-2552" h="5528"/>
+		<npc id="36305"/><!--Guard Captain-->
+	</spawn>
+	<spawn group="aaru_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71542" y="186410" z="-2554" h="-10448"/>
+		<npc id="36308"/><!--Support Unit Captain-->
+	</spawn>
+	<spawn group="aaru_fortress_siege_commanders" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74288" y="186912" z="-2304" h="0"/>
+		<npc id="36311"/><!--Archer Captain-->
+	</spawn>
+	<spawn group="aaru_fortress_mercenary" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72743" y="188618" z="-2589" h="-11212"/>
+		<npc id="36314"/><!--Mercenary Captain-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72985" y="187824" z="-2585" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73013" y="187843" z="-2585" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73042" y="187862" z="-2585" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73070" y="187881" z="-2585" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73114" y="184183" z="-2586" h="-10692"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73085" y="184165" z="-2586" h="-10692"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73056" y="184147" z="-2585" h="-10692"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73026" y="184130" z="-2585" h="-10692"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72719" y="186474" z="-2585" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72750" y="186494" z="-2585" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72782" y="186515" z="-2585" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72814" y="186536" z="-2585" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73501" y="185497" z="-2585" h="-10692"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73472" y="185478" z="-2585" h="-10692"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73443" y="185459" z="-2585" h="-10692"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73415" y="185440" z="-2585" h="-10692"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="75264" y="185600" z="-2203" h="-10440"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="75232" y="185584" z="-2203" h="-10440"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74576" y="185152" z="-2203" h="-10440"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74544" y="185136" z="-2203" h="-10440"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73888" y="184688" z="-2203" h="-10440"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73856" y="184672" z="-2203" h="-10440"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72448" y="183728" z="-2203" h="-10440"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72416" y="183712" z="-2203" h="-10440"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71632" y="183760" z="-2207" h="-18500"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71584" y="183776" z="-2207" h="-18500"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71216" y="184080" z="-2203" h="-26556"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71184" y="184096" z="-2203" h="-26556"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="70672" y="184880" z="-2203" h="-26556"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="70656" y="184912" z="-2203" h="-26556"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="70832" y="186400" z="-2203" h="23132"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="70864" y="186432" z="-2203" h="23132"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71520" y="186864" z="-2203" h="23132"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71552" y="186880" z="-2203" h="23132"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72368" y="187424" z="-2203" h="23132"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72336" y="187408" z="-2203" h="23132"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73648" y="188288" z="-2203" h="23132"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73680" y="188304" z="-2203" h="23132"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74880" y="187936" z="-2203" h="6752"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74896" y="187904" z="-2203" h="6752"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="75408" y="187120" z="-2203" h="6752"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="75424" y="187088" z="-2203" h="6752"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="75664" y="186496" z="-2207" h="-1656"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="75664" y="186464" z="-2207" h="-1656"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73127" y="187231" z="-2585" h="16848"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73104" y="187168" z="-2585" h="16848"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73151" y="187168" z="-2585" h="16848"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73056" y="187167" z="-2585" h="16848"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73198" y="187170" z="-2585" h="16848"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72896" y="184720" z="-2585" h="-14596"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72865" y="184759" z="-2585" h="-14596"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72912" y="184768" z="-2585" h="-14596"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72955" y="184775" z="-2585" h="-14596"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72818" y="184751" z="-2585" h="-14596"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72244" y="185588" z="-2585" h="0"/>
+		<npc id="36313"/><!--Ballista-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73995" y="186114" z="-2585" h="0"/>
+		<npc id="36313"/><!--Ballista-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="75424" y="186515" z="-2585" h="0"/>
+		<npc id="36313"/><!--Ballista-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="70726" y="186034" z="-2585" h="0"/>
+		<npc id="36313"/><!--Ballista-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73473" y="187883" z="-2138" h="-27304"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73491" y="187855" z="-2138" h="-27304"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73455" y="187913" z="-2138" h="-27300"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73504" y="187902" z="-2138" h="-27304"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72810" y="187445" z="-2138" h="5528"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72793" y="187474" z="-2138" h="5528"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72827" y="187418" z="-2138" h="5528"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72781" y="187428" z="-2138" h="5528"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72619" y="184123" z="-2138" h="5160"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72602" y="184152" z="-2138" h="5160"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72636" y="184093" z="-2138" h="5160"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72595" y="184110" z="-2138" h="5160"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73278" y="184560" z="-2138" h="-26448"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73258" y="184588" z="-2138" h="-26448"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73298" y="184532" z="-2138" h="-26448"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_default_guards" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73307" y="184581" z="-2138" h="-26448"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73866" y="187839" z="-2228" h="22200"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73836" y="187822" z="-2228" h="22200"/>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73849" y="187863" z="-2228" h="22196"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73821" y="187845" z="-2228" h="22196"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73342" y="187973" z="-2405" h="-9924"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73316" y="187954" z="-2405" h="-9924"/>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73358" y="187948" z="-2405" h="-9924"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73332" y="187931" z="-2405" h="-9924"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72744" y="187079" z="-2228" h="22296"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72717" y="187063" z="-2228" h="22296"/>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72732" y="187100" z="-2228" h="22296"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72704" y="187084" z="-2228" h="22296"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72813" y="187617" z="-2405" h="-9916"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72786" y="187597" z="-2405" h="-9916"/>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72828" y="187594" z="-2405" h="-9916"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72802" y="187576" z="-2405" h="-9916"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72237" y="184166" z="-2228" h="-10444"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72266" y="184183" z="-2228" h="-10444"/>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72251" y="184143" z="-2228" h="-10444"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72279" y="184160" z="-2228" h="-10444"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72755" y="184035" z="-2405" h="22560"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72781" y="184052" z="-2405" h="22560"/>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72741" y="184054" z="-2405" h="22560"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72768" y="184072" z="-2405" h="22560"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73361" y="184920" z="-2228" h="-9532"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73386" y="184940" z="-2228" h="-9532"/>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73375" y="184901" z="-2228" h="-9532"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73401" y="184921" z="-2228" h="-9532"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73286" y="184392" z="-2405" h="22448"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73311" y="184409" z="-2405" h="22448"/>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73272" y="184416" z="-2405" h="22448"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73297" y="184432" z="-2405" h="22448"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71397" y="186364" z="-2554" h="2152"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71389" y="186131" z="-2554" h="11224"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71520" y="186178" z="-2554" h="14836"/>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71671" y="186192" z="-2554" h="23024"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71781" y="186270" z="-2554" h="26852"/>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71688" y="186473" z="-2554" h="-27656"/>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74272" y="186912" z="-2507" h="0"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74232" y="186613" z="-2507" h="-9984"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74154" y="186624" z="-2507" h="-26140"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73959" y="186913" z="-2507" h="-26140"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73979" y="186992" z="-2507" h="22180"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74310" y="187212" z="-2507" h="22180"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74388" y="187201" z="-2507" h="6016"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74584" y="186906" z="-2507" h="6016"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74562" y="186834" z="-2507" h="-9984"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74183" y="187161" z="-2401" h="-9984"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74157" y="187142" z="-2401" h="-9984"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74359" y="186665" z="-2401" h="22180"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="74386" y="186682" z="-2401" h="22180"/>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71437" y="184747" z="-2552" h="-26944"/>
+		<npc id="36306"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71416" y="184779" z="-2552" h="-26944"/>
+		<npc id="36306"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71458" y="184714" z="-2552" h="-26944"/>
+		<npc id="36306"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71479" y="184681" z="-2552" h="-26944"/>
+		<npc id="36306"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71393" y="184812" z="-2552" h="-26944"/>
+		<npc id="36306"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71447" y="184846" z="-2552" h="-26944"/>
+		<npc id="36307"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71470" y="184813" z="-2552" h="-26944"/>
+		<npc id="36307"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71492" y="184781" z="-2552" h="-26944"/>
+		<npc id="36307"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71514" y="184748" z="-2552" h="-26944"/>
+		<npc id="36307"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_live_with_c_center" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="71534" y="184716" z="-2552" h="-26944"/>
+		<npc id="36307"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73070" y="186048" z="-1659" h="22248"/>
+		<npc id="36298"/><!--Rebel Commander-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73014" y="186046" z="-1659" h="22248"/>
+		<npc id="36299"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73043" y="186064" z="-1659" h="22248"/>
+		<npc id="36299"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73071" y="186082" z="-1659" h="22248"/>
+		<npc id="36299"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73099" y="186100" z="-1659" h="22248"/>
+		<npc id="36299"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73126" y="185873" z="-1659" h="-10692"/>
+		<npc id="36299"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73154" y="185891" z="-1659" h="-10692"/>
+		<npc id="36299"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73183" y="185908" z="-1659" h="-10692"/>
+		<npc id="36299"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73212" y="185926" z="-1659" h="-10692"/>
+		<npc id="36299"/><!--Decorated Rebel Soldier-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72968" y="186237" z="-1690" h="22248"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72996" y="186255" z="-1690" h="22248"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73026" y="186275" z="-1690" h="22248"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73054" y="186293" z="-1690" h="22248"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73112" y="186330" z="-1690" h="22248"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73141" y="186348" z="-1690" h="22248"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73169" y="186365" z="-1690" h="22248"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73084" y="186312" z="-1690" h="22248"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72404" y="185978" z="-2214" h="-26664"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72423" y="185950" z="-2214" h="-26664"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72384" y="186007" z="-2214" h="-26664"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73629" y="185854" z="-1872" h="-26576"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73611" y="185882" z="-1872" h="-26576"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73648" y="185828" z="-1872" h="-26576"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72921" y="185447" z="-2064" h="22656"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72895" y="185430" z="-2064" h="22656"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_noowner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72869" y="185413" z="-2064" h="22656"/>
+		<npc id="36300"/><!--Rebel Private-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73014" y="186046" z="-1659" h="22248"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73043" y="186064" z="-1659" h="22248"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73071" y="186082" z="-1659" h="22248"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73099" y="186100" z="-1659" h="22248"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73126" y="185873" z="-1659" h="-10692"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73154" y="185891" z="-1659" h="-10692"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73183" y="185908" z="-1659" h="-10692"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73212" y="185926" z="-1659" h="-10692"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72968" y="186237" z="-1690" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72996" y="186255" z="-1690" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73026" y="186275" z="-1690" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73054" y="186293" z="-1690" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73112" y="186330" z="-1690" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73141" y="186348" z="-1690" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73169" y="186365" z="-1690" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_owner_flagdef" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73084" y="186312" z="-1690" h="22248"/>
+		<npc id="36301"/><!--Court Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73059" y="187103" z="-2585" h="16848"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73107" y="187103" z="-2585" h="16848"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73154" y="187104" z="-2585" h="16848"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="73201" y="187106" z="-2585" h="16848"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72806" y="184814" z="-2585" h="-14596"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72853" y="184824" z="-2585" h="-14596"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72901" y="184832" z="-2585" h="-14596"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_1" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72945" y="184840" z="-2585" h="-14596"/>
+		<npc id="36302"/><!--Guard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b1]-->
+			<add x="71772" y="185473" zmin="-2628" zmax="-2428"/>
+			<add x="71912" y="185431" zmin="-2628" zmax="-2428"/>
+			<add x="72283" y="186409" zmin="-2628" zmax="-2428"/>
+			<add x="72142" y="186789" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b1]-->
+			<add x="71772" y="185473" zmin="-2628" zmax="-2428"/>
+			<add x="71912" y="185431" zmin="-2628" zmax="-2428"/>
+			<add x="72283" y="186409" zmin="-2628" zmax="-2428"/>
+			<add x="72142" y="186789" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b1]-->
+			<add x="71772" y="185473" zmin="-2628" zmax="-2428"/>
+			<add x="71912" y="185431" zmin="-2628" zmax="-2428"/>
+			<add x="72283" y="186409" zmin="-2628" zmax="-2428"/>
+			<add x="72142" y="186789" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b2]-->
+			<add x="74067" y="185818" zmin="-2652" zmax="-2452"/>
+			<add x="74222" y="186047" zmin="-2652" zmax="-2452"/>
+			<add x="73618" y="186984" zmin="-2652" zmax="-2452"/>
+			<add x="73334" y="186865" zmin="-2652" zmax="-2452"/>
+		</territory>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b2]-->
+			<add x="74067" y="185818" zmin="-2652" zmax="-2452"/>
+			<add x="74222" y="186047" zmin="-2652" zmax="-2452"/>
+			<add x="73618" y="186984" zmin="-2652" zmax="-2452"/>
+			<add x="73334" y="186865" zmin="-2652" zmax="-2452"/>
+		</territory>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b2]-->
+			<add x="74067" y="185818" zmin="-2652" zmax="-2452"/>
+			<add x="74222" y="186047" zmin="-2652" zmax="-2452"/>
+			<add x="73618" y="186984" zmin="-2652" zmax="-2452"/>
+			<add x="73334" y="186865" zmin="-2652" zmax="-2452"/>
+		</territory>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b3]-->
+			<add x="74027" y="187327" zmin="-2628" zmax="-2428"/>
+			<add x="74496" y="187306" zmin="-2628" zmax="-2428"/>
+			<add x="74560" y="187951" zmin="-2628" zmax="-2428"/>
+			<add x="73850" y="188123" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b3]-->
+			<add x="74027" y="187327" zmin="-2628" zmax="-2428"/>
+			<add x="74496" y="187306" zmin="-2628" zmax="-2428"/>
+			<add x="74560" y="187951" zmin="-2628" zmax="-2428"/>
+			<add x="73850" y="188123" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b3]-->
+			<add x="74027" y="187327" zmin="-2628" zmax="-2428"/>
+			<add x="74496" y="187306" zmin="-2628" zmax="-2428"/>
+			<add x="74560" y="187951" zmin="-2628" zmax="-2428"/>
+			<add x="73850" y="188123" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b4]-->
+			<add x="72545" y="184449" zmin="-2628" zmax="-2428"/>
+			<add x="72779" y="184954" zmin="-2628" zmax="-2428"/>
+			<add x="72437" y="185394" zmin="-2628" zmax="-2428"/>
+			<add x="71997" y="184195" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b4]-->
+			<add x="72545" y="184449" zmin="-2628" zmax="-2428"/>
+			<add x="72779" y="184954" zmin="-2628" zmax="-2428"/>
+			<add x="72437" y="185394" zmin="-2628" zmax="-2428"/>
+			<add x="71997" y="184195" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b4]-->
+			<add x="72545" y="184449" zmin="-2628" zmax="-2428"/>
+			<add x="72779" y="184954" zmin="-2628" zmax="-2428"/>
+			<add x="72437" y="185394" zmin="-2628" zmax="-2428"/>
+			<add x="71997" y="184195" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b5]-->
+			<add x="74463" y="185704" zmin="-2628" zmax="-2428"/>
+			<add x="75440" y="186302" zmin="-2628" zmax="-2428"/>
+			<add x="75213" y="187063" zmin="-2628" zmax="-2428"/>
+			<add x="74106" y="186296" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36312"/><!--Archer-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="2" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b5]-->
+			<add x="74463" y="185704" zmin="-2628" zmax="-2428"/>
+			<add x="75440" y="186302" zmin="-2628" zmax="-2428"/>
+			<add x="75213" y="187063" zmin="-2628" zmax="-2428"/>
+			<add x="74106" y="186296" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36309"/><!--Wizard-->
+	</spawn>
+	<spawn group="aaru_fortress_reinforce_2" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_reinforce_b5]-->
+			<add x="74463" y="185704" zmin="-2628" zmax="-2428"/>
+			<add x="75440" y="186302" zmin="-2628" zmax="-2428"/>
+			<add x="75213" y="187063" zmin="-2628" zmax="-2428"/>
+			<add x="74106" y="186296" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36310"/><!--Healer-->
+	</spawn>
+	<spawn group="aaru_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_gunner1]-->
+			<add x="71772" y="185473" zmin="-2628" zmax="-2428"/>
+			<add x="71912" y="185431" zmin="-2628" zmax="-2428"/>
+			<add x="72283" y="186409" zmin="-2628" zmax="-2428"/>
+			<add x="72142" y="186789" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36304"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="aaru_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_gunner2]-->
+			<add x="74067" y="185818" zmin="-2652" zmax="-2452"/>
+			<add x="74222" y="186047" zmin="-2652" zmax="-2452"/>
+			<add x="73618" y="186984" zmin="-2652" zmax="-2452"/>
+			<add x="73334" y="186865" zmin="-2652" zmax="-2452"/>
+		</territory>
+		<npc id="36304"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="aaru_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_gunner3]-->
+			<add x="74027" y="187327" zmin="-2628" zmax="-2428"/>
+			<add x="74496" y="187306" zmin="-2628" zmax="-2428"/>
+			<add x="74560" y="187951" zmin="-2628" zmax="-2428"/>
+			<add x="73850" y="188123" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36304"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="aaru_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_gunner4]-->
+			<add x="72545" y="184449" zmin="-2628" zmax="-2428"/>
+			<add x="72779" y="184954" zmin="-2628" zmax="-2428"/>
+			<add x="72437" y="185394" zmin="-2628" zmax="-2428"/>
+			<add x="71997" y="184195" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36304"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="aaru_fortress_gunner" count="3" respawn="5" respawn_random="0" period_of_day="none">
+		<territory><!--[fort119_2223_gunner5]-->
+			<add x="74463" y="185704" zmin="-2628" zmax="-2428"/>
+			<add x="75440" y="186302" zmin="-2628" zmax="-2428"/>
+			<add x="75213" y="187063" zmin="-2628" zmax="-2428"/>
+			<add x="74106" y="186296" zmin="-2628" zmax="-2428"/>
+		</territory>
+		<npc id="36304"/><!--Dwarven Gunnery Sergeant-->
+	</spawn>
+	<spawn group="aaru_fortress_envoy" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72880" y="186364" z="-2425" h="22248"/>
+		<npc id="36450"/><!--Special Envoy-->
+	</spawn>
+	<spawn group="aaru_fortress_envoy" count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="72850" y="186346" z="-2425" h="22248"/>
+		<npc id="36451"/><!--Special Envoy-->
+	</spawn>
+	<!-- крепость аару -->
+</list>

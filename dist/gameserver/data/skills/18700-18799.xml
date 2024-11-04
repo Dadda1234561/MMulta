@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="18700" levels="1" name="Freya's Art of Seduction - Barrier">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18701" levels="1" name="Freya's Art of Seduction- Exp">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18702" levels="1" name="Pa'agrio's Blessing - Might">
+		<!-- На 30 мин. Макс. HP/ MP/ CP +10%, Физ. Атк. +20%, Маг. Атк. +30%, Физ./ Маг. Защ. +10%, Физ./ Маг. Точность +4, Скор. Атк./ Скор. Маг. +10%, Скорость +10, атака стихией +100, расход MP для умений -10%. Дополнительно наносимый урон +10%, мощность умений +10%. Эффект сохраняется после смерти. -->
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="47665"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="cancelable" value="false"/>
+		<set name="buff_slot_type" value="2"/>
+		<for>
+				<effect>
+					<mul stat="maxHp" value="1.10"/>
+					<mul stat="maxMp" value="1.10"/>
+					<mul stat="maxCp" value="1.10"/>
+					<mul stat="pAtk" value="1.20"/>
+					<mul stat="mAtk" value="1.30"/>
+					<mul stat="pDef" value="1.10"/>
+					<mul stat="mDef" value="1.10"/>
+					<add stat="pAccCombat" value="4"/>
+					<add stat="mAccCombat" value="4"/>
+					<mul stat="pAtkSpd" value="1.10"/>
+					<mul stat="mAtkSpd" value="1.10"/>
+					<add stat="runSpd" value="10"/>
+					<add stat="attackFire" value="100"/>
+					<add stat="attackWater" value="100"/>
+					<add stat="attackWind" value="100"/>
+					<add stat="attackEarth" value="100"/>
+					<add stat="attackHoly" value="100"/>
+					<add stat="attackUnholy" value="100"/>
+					<mul stat="mpConsum" value="0.90"/>
+					<mul stat="mpConsumePhysical" value="0.90"/>
+					<mul stat="mpDanceConsume" value="0.90"/>
+					<mul stat="pvpPhysDmgBonus" value="1.10"/>
+					<mul stat="pvpPhysSkillDmgBonus" value="1.10"/>
+					<mul stat="pvpMagicSkillDmgBonus" value="1.10"/>
+					<mul stat="pvePhysDmgBonus" value="1.10"/>
+					<mul stat="pveMagicSkillDmgBonus" value="1.10"/>
+					<mul stat="pvePhysSkillDmgBonus" value="1.10"/>
+					<mul stat="p_skill_power" value="1.10"/>
+					<mul stat="mSkillPower" value="1.10"/>
+				</effect>
+		</for>
+	</skill>
+	<skill id="18703" levels="1" name="Pa'agrio's Blessing - XP">
+		<!-- На 30 мин. Макс. HP/ MP/ CP +10%, Физ. Атк. +20%, Маг. Атк. +30%, Физ./ Маг. Защ. +10%, Физ./ Маг. Точность +4, Скор. Атк./ Скор. Маг. +10%, Скорость +10, атака стихией +100, расход MP для умений -10%. Дополнительно бонус опыта +30%, а также бонус энергии +12%. Эффект сохраняется после смерти. -->
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="47666"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="cancelable" value="false"/>
+		<set name="buff_slot_type" value="2"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.10"/>
+				<mul stat="maxMp" value="1.10"/>
+				<mul stat="maxCp" value="1.10"/>
+				<mul stat="pAtk" value="1.20"/>
+				<mul stat="mAtk" value="1.30"/>
+				<mul stat="pDef" value="1.10"/>
+				<mul stat="mDef" value="1.10"/>
+				<add stat="pAccCombat" value="4"/>
+				<add stat="mAccCombat" value="4"/>
+				<mul stat="pAtkSpd" value="1.10"/>
+				<mul stat="mAtkSpd" value="1.10"/>
+				<add stat="runSpd" value="10"/>
+				<add stat="attackFire" value="100"/>
+				<add stat="attackWater" value="100"/>
+				<add stat="attackWind" value="100"/>
+				<add stat="attackEarth" value="100"/>
+				<add stat="attackHoly" value="100"/>
+				<add stat="attackUnholy" value="100"/>
+				<mul stat="mpConsum" value="0.90"/>
+				<mul stat="mpConsumePhysical" value="0.90"/>
+				<mul stat="mpDanceConsume" value="0.90"/>
+				<mul stat="pvpPhysDmgBonus" value="1.10"/>
+				<mul stat="pvpPhysSkillDmgBonus" value="1.10"/>
+				<mul stat="pvpMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysDmgBonus" value="1.10"/>
+				<mul stat="pveMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysSkillDmgBonus" value="1.10"/>
+				<mul stat="p_skill_power" value="1.10"/>
+				<mul stat="mSkillPower" value="1.10"/>
+				<add stat="exp_rate_multiplier" value="0.30"/>
+				<add stat="exp_rate_multiplier" value="0.12">
+					<player has_vitality="true"/>
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18704" levels="1" name="MOPP Combat Ration">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.ev_mopp_herb"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18705" levels="3" name="Low-grade Arena Loot">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18706" levels="1" name="PA Points">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18710" levels="1" name="Formal Wear Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18711" levels="1" name="Blessing of Twilight">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="BranchSys2.icon.g_giant_gem"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18712" levels="1" name="Blessing of the Dawn">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="BranchSys2.icon.g_twilight_gem"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18713" levels="20" name="Red Cat's Eye">
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<table name="#icon">icon.bm_jewel_red_catseye icon.bm_jewel_red_catseye icon.bm_jewel_red_catseye icon.bm_jewel_red_catseye icon.bm_jewel_red_catseye icon.bm_jewel_red_catseye_high_lv1_lavianrose icon.bm_jewel_red_catseye_high_lv1_lavianrose icon.bm_jewel_red_catseye_high_lv1_lavianrose icon.bm_jewel_red_catseye_high_lv1_lavianrose icon.bm_jewel_red_catseye_high_lv1_lavianrose icon.bm_jewel_red_catseye_lv1_lavianrose_high2 icon.bm_jewel_red_catseye_lv1_lavianrose_high2 icon.bm_jewel_red_catseye_lv1_lavianrose_high2 icon.bm_jewel_red_catseye_lv1_lavianrose_high2 icon.bm_jewel_red_catseye_lv1_lavianrose_high2 icon.bm_jewel_red_catseye_lv1_lavianrose_high2 icon.bm_jewel_red_catseye_lv1_lavianrose_high2 icon.bm_jewel_red_catseye_lv1_lavianrose_high2 icon.bm_jewel_red_catseye_lv1_lavianrose_high2 icon.bm_jewel_red_catseye_lv1_lavianrose_high2</table>
+		<table name="#value">1 2 4 7 12 12 13 13 14 15 15 16 17 18 20 21 22 23 24 25</table>
+		<table name="#value2">1 1 1 1 1 1.05 1.05 1.06 1.06 1.07 1.10 1.10 1.10 1.10 1.10 1.10 1.10 1.10 1.10 1.10</table>
+		<table name="#pve">1.02 1.04 1.06 1.08 1.10 1.15 1.17 1.19 1.21 1.25 1.30 1.32 1.34 1.36 1.38 1.40 1.42 1.44 1.46 1.50</table>
+		<for>
+			<p_critical_damage value="#value" type="PER"/>
+			<p_skill_critical_damage value="#value" type="PER"/>
+			<mul stat="p_skill_power" value="#value2"/>
+			<mul stat="pvePhysDmgBonus" value="#pve"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pve"/>
+		</for>
+	</skill>
+	<skill id="18714" levels="20" name="Blue Cat's Eye">
+
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<table name="#icon">Icon.bm_jewel_blue_catseye Icon.bm_jewel_blue_catseye Icon.bm_jewel_blue_catseye Icon.bm_jewel_blue_catseye Icon.bm_jewel_blue_catseye icon.bm_jewel_blue_catseye_high_lv1_lavianrose icon.bm_jewel_blue_catseye_high_lv1_lavianrose icon.bm_jewel_blue_catseye_high_lv1_lavianrose icon.bm_jewel_blue_catseye_high_lv1_lavianrose icon.bm_jewel_blue_catseye_high_lv1_lavianrose icon.bm_jewel_blue_catseye_lv1_lavianrose_high2 icon.bm_jewel_blue_catseye_lv1_lavianrose_high2 icon.bm_jewel_blue_catseye_lv1_lavianrose_high2 icon.bm_jewel_blue_catseye_lv1_lavianrose_high2 icon.bm_jewel_blue_catseye_lv1_lavianrose_high2 icon.bm_jewel_blue_catseye_lv1_lavianrose_high2 icon.bm_jewel_blue_catseye_lv1_lavianrose_high2 icon.bm_jewel_blue_catseye_lv1_lavianrose_high2 icon.bm_jewel_blue_catseye_lv1_lavianrose_high2 icon.bm_jewel_blue_catseye_lv1_lavianrose_high2</table>
+		<table name="#value">1 2 4 7 12 12 13 13 14 15 15 16 17 18 20 21 22 23 24 25</table>
+		<table name="#value2">1 1 1 1 1 1.05 1.05 1.06 1.06 1.07 1.10 1.10 1.10 1.10 1.10 1.10 1.10 1.10 1.10 1.10</table>
+		<table name="#pve">1.02 1.04 1.06 1.08 1.10 1.15 1.17 1.19 1.21 1.25 1.30 1.32 1.34 1.36 1.38 1.40 1.42 1.44 1.16 1.50</table>
+		<for>
+			<p_magic_critical_dmg value="#value" type="PER"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pve"/>
+			<mul stat="mSkillPower" value="#value2"/>
+		</for>
+	</skill>
+	<skill id="18715" levels="1" name="Greater Ruby">
+		<set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="120"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18716" levels="1" name="Greater Ruby">
+		<set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="18717" levels="20" name="Ruby">
+		<!-- 
+			lvl 1 = Урон от Зарядов Души и Зарядов Души Зверя +1%. [Рубин Ур. 1]
+			lvl 2 = Урон от Зарядов Души и Зарядов Души Зверя +3.5%. [Рубин Ур. 2]
+			lvl 3 = Урон от Зарядов Души и Зарядов Души Зверя +7.5%. [Рубин Ур. 3]
+			lvl 4 = Урон от Зарядов Души и Зарядов Души Зверя +12.5%. [Рубин Ур. 4]
+			lvl 5 = Урон от Зарядов Души и Зарядов Души Зверя +20%. [Рубин Ур. 5]
+			lvl 6 = Урон от Зарядов Души и Зарядов Души Зверя +20%, Физ. Атк. +9%. [Большой Рубин Ур. 1]
+			lvl 7 = Урон от Зарядов Души и Зарядов Души Зверя +20%, Физ. Атк. +10%. [Большой Рубин Ур. 2]
+			lvl 8 = Урон от Зарядов Души и Зарядов Души Зверя +20%, Физ. Атк. +11%. [Большой Рубин Ур. 3]
+			lvl 9 = Урон от Зарядов Души и Зарядов Души Зверя +20%, Физ. Атк. +13%. [Большой Рубин Ур. 4]
+			lvl 10 = Урон от Зарядов Души и Зарядов Души Зверя +20%, Физ. Атк. +15%. [Большой Рубин Ур. 5]
+			lvl 11 = Урон от Зарядов Души и Зарядов Души Зверя +23%, Физ. Атк. +15%. [Рубин Исключительного Качества Ур. 1]
+			lvl 12 = Урон от Зарядов Души и Зарядов Души Зверя +23%, Физ. Атк. +16%. [Рубин Исключительного Качества Ур. 2]
+			lvl 13 = Урон от Зарядов Души и Зарядов Души Зверя +23%, Физ. Атк. +17%. [Рубин Исключительного Качества Ур. 3]
+			lvl 14 = Урон от Зарядов Души и Зарядов Души Зверя +23%, Физ. Атк. +18%. [Рубин Исключительного Качества Ур. 4]
+			lvl 15 = Урон от Зарядов Души и Зарядов Души Зверя +23%, Физ. Атк. +20%. [Рубин Исключительного Качества Ур. 5]
+			lvl 16 = Урон от Зарядов Души и Зарядов Души Зверя +23%, Физ. Атк. +21%. [Рубин Исключительного Качества Ур. 6]
+			lvl 17 = Урон от Зарядов Души и Зарядов Души Зверя +23%, Физ. Атк. +22%. [Рубин Исключительного Качества Ур. 7]
+			lvl 18 = Урон от Зарядов Души и Зарядов Души Зверя +23%, Физ. Атк. +23%. [Рубин Исключительного Качества Ур. 8]
+			lvl 19 = Урон от Зарядов Души и Зарядов Души Зверя +23%, Физ. Атк. +24%. [Рубин Исключительного Качества Ур. 9]
+			lvl 20 = Урон от Зарядов Души и Зарядов Души Зверя +23%, Физ. Атк. +25%. [Рубин Исключительного Качества Ур. 10]
+		-->
+		<table name="#icon">icon.etc_bm_jewel_ruby_i00 icon.etc_bm_jewel_ruby_i00 icon.etc_bm_jewel_ruby_i00 icon.etc_bm_jewel_ruby_i00 icon.etc_bm_jewel_ruby_i00 icon.bm_jewel_ssdmg_high_lv1_lavianrose icon.bm_jewel_ssdmg_high_lv1_lavianrose icon.bm_jewel_ssdmg_high_lv1_lavianrose icon.bm_jewel_ssdmg_high_lv1_lavianrose icon.bm_jewel_ssdmg_high_lv1_lavianrose icon.bm_jewel_ssdmg_lv1_lavianrose_high2 icon.bm_jewel_ssdmg_lv1_lavianrose_high2 icon.bm_jewel_ssdmg_lv1_lavianrose_high2 icon.bm_jewel_ssdmg_lv1_lavianrose_high2 icon.bm_jewel_ssdmg_lv1_lavianrose_high2 icon.bm_jewel_ssdmg_lv1_lavianrose_high2 icon.bm_jewel_ssdmg_lv1_lavianrose_high2 icon.bm_jewel_ssdmg_lv1_lavianrose_high2 icon.bm_jewel_ssdmg_lv1_lavianrose_high2 icon.bm_jewel_ssdmg_lv1_lavianrose_high2</table>
+		<table name="#power_shot">1.01 1.035 1.075 1.125 1.2 1.22 1.24 1.26 1.28 1.3 1.35 1.38 1.41 1.44 1.47 1.50 1.53 1.56 1.59 1.62</table>
+		<table name="#pAtk">1 1 1 1 1 1.09 1.12 1.15 1.18 1.21 1.25 1.28 1.31 1.34 1.37 1.40 1.43 1.46 1.49 1.55</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+<!--			<effect name="i_soul_shot">-->
+<!--				<def name="power" value="#power_shot"/>-->
+<!--			</effect>-->
+<!--			<effect name="i_summon_soul_shot">-->
+<!--				<def name="power" value="#power_shot"/>-->
+<!--			</effect>-->
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="soulshot_power" value="#power_shot"/>
+		</for>
+	</skill>
+	<skill id="18718" levels="2" name="Greater Sapphire">
+		<set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+		<table name="#power">120 320</table>
+		<table name="#unk_spiritshot_parameter">40 40</table>	<!--TODO: Check.-->
+		<table name="#heal_bonus">1.0 2.4</table>	<!--TODO: Check.-->
+		<set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="#power"/>
+				<def name="unk_spiritshot_parameter" value="#unk_spiritshot_parameter"/>
+				<def name="heal_bonus" value="#heal_bonus"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18719" levels="20" name="Sapphire">
+		<!-- 
+			lvl 1 = Урон от Зарядов Духа и Благословенных Зарядов Духа +1%. [Сапфир Ур. 1]
+			lvl 2 = Урон от Зарядов Духа и Благословенных Зарядов Духа +3.5%. [Сапфир Ур. 2]
+			lvl 3 = Урон от Зарядов Духа и Благословенных Зарядов Духа +7.5%. [Сапфир Ур. 3]
+			lvl 4 = Урон от Зарядов Духа и Благословенных Зарядов Духа +12.5%. [Сапфир Ур. 4]
+			lvl 5 = Урон от Зарядов Духа и Благословенных Зарядов Духа +20%. [Сапфир Ур. 5]
+			lvl 6 = Урон от Зарядов Духа и Благословенных Зарядов Духа +20%, Маг. Атк. +13%. [Большой Сапфир Ур. 1]
+			lvl 7 = Урон от Зарядов Духа и Благословенных Зарядов Духа +20%, Маг. Атк. +14%. [Большой Сапфир Ур. 2]
+			lvl 8 = Урон от Зарядов Духа и Благословенных Зарядов Духа +20%, Маг. Атк. +15%. [Большой Сапфир Ур. 3]
+			lvl 9 = Урон от Зарядов Духа и Благословенных Зарядов Духа +20%, Маг. Атк. +17%. [Большой Сапфир Ур. 4]
+			lvl 10 = Урон от Зарядов Духа и Благословенных Зарядов Духа +20%, Маг. Атк. +19%. [Большой Сапфир Ур. 5]
+			lvl 11 = Урон от Зарядов Духа и Благословенных Зарядов Духа +23%, Маг. Атк. +19%. [Сапфир Исключительного Качества Ур. 1]
+			lvl 12 = Урон от Зарядов Духа и Благословенных Зарядов Духа +23%, Маг. Атк. +20%. [Сапфир Исключительного Качества Ур. 2]
+			lvl 13 = Урон от Зарядов Духа и Благословенных Зарядов Духа +23%, Маг. Атк. +21%. [Сапфир Исключительного Качества Ур. 3]
+			lvl 14 = Урон от Зарядов Духа и Благословенных Зарядов Духа +23%, Маг. Атк. +22%. [Сапфир Исключительного Качества Ур. 4]
+			lvl 15 = Урон от Зарядов Духа и Благословенных Зарядов Духа +23%, Маг. Атк. +24%. [Сапфир Исключительного Качества Ур. 5]
+			lvl 16 = Урон от Зарядов Духа и Благословенных Зарядов Духа +23%, Маг. Атк. +25%. [Сапфир Исключительного Качества Ур. 6]
+			lvl 17 = Урон от Зарядов Духа и Благословенных Зарядов Духа +23%, Маг. Атк. +26%. [Сапфир Исключительного Качества Ур. 7]
+			lvl 18 = Урон от Зарядов Духа и Благословенных Зарядов Духа +23%, Маг. Атк. +27%. [Сапфир Исключительного Качества Ур. 8]
+			lvl 19 = Урон от Зарядов Духа и Благословенных Зарядов Духа +23%, Маг. Атк. +28%. [Сапфир Исключительного Качества Ур. 9]
+			lvl 20 = Урон от Зарядов Духа и Благословенных Зарядов Духа +23%, Маг. Атк. +30%. [Сапфир Исключительного Качества Ур. 10]
+		-->
+		<table name="#icon">icon.etc_bm_jewel_sapphire_i00 icon.etc_bm_jewel_sapphire_i00 icon.etc_bm_jewel_sapphire_i00 icon.etc_bm_jewel_sapphire_i00 icon.etc_bm_jewel_sapphire_i00 icon.bm_jewel_spsdmg_high_lv1_lavianrose icon.bm_jewel_spsdmg_high_lv1_lavianrose icon.bm_jewel_spsdmg_high_lv1_lavianrose icon.bm_jewel_spsdmg_high_lv1_lavianrose icon.bm_jewel_spsdmg_high_lv1_lavianrose icon.bm_jewel_spsdmg_lv1_lavianrose_high2 icon.bm_jewel_spsdmg_lv1_lavianrose_high2 icon.bm_jewel_spsdmg_lv1_lavianrose_high2 icon.bm_jewel_spsdmg_lv1_lavianrose_high2 icon.bm_jewel_spsdmg_lv1_lavianrose_high2 icon.bm_jewel_spsdmg_lv1_lavianrose_high2 icon.bm_jewel_spsdmg_lv1_lavianrose_high2 icon.bm_jewel_spsdmg_lv1_lavianrose_high2 icon.bm_jewel_spsdmg_lv1_lavianrose_high2 icon.bm_jewel_spsdmg_lv1_lavianrose_high2</table>
+		<table name="#power_spirit_shot">1.01 1.035 1.075 1.125 1.2 1.22 1.24 1.26 1.28 1.3 1.35 1.38 1.41 1.44 1.47 1.50 1.53 1.56 1.59 1.62</table>
+		<table name="#mAtk">1 1 1 1 1 1.18 1.23 1.28 1.33 1.38 1.44 1.49 1.54 1.59 1.64 1.69 1.74 1.79 1.84 1.89</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+<!--			<effect name="i_spirit_shot">-->
+<!--				<def name="power" value="#power_spirit_shot"/>-->
+<!--				<def name="unk_spiritshot_parameter" value="40"/>-->
+<!--				<def name="heal_bonus" value="1.0"/>-->
+<!--			</effect>-->
+<!--			<effect name="i_blessed_spirit_shot">-->
+<!--				<def name="power" value="#power_blessed_spirit_shot"/>-->
+<!--				<def name="unk_spiritshot_parameter" value="40"/>-->
+<!--				<def name="heal_bonus" value="2.4"/>-->
+<!--			</effect>-->
+			<mul stat="spiritshot_power" value="#power_spirit_shot"/>
+			<mul stat="mAtk" value="#mAtk"/>
+		</for>
+	</skill>
+	<skill id="18720" levels="2" name="Greater Obsidian - Cancel Target">
+		<table name="#icon">icon.bm_jewel_pvpdef_high_lv1_lavianrose icon.bm_jewel_pvpdef_lv1_lavianrose_high2</table>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="abnormal_time" value="1"/>
+		<set name="activateRate" value="100"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="target" value="TARGET_ONE"/>
+		<for>
+			<effect name="i_target_cancel"/>
+		</for>
+	</skill>
+	<skill id="18721" levels="2" name="Greater Garnet - Cancel Stun/ Silence">
+		<table name="#icon">icon.bm_jewel_garnet_high_lv1_lavianrose icon.bm_jewel_garnet_lv1_lavianrose_high2</table>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="0"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<for>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="silence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="stun"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18723" levels="6" name="Ultimate Jewelry Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18724" levels="2" name="Red Cat's Eye Fortune Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18725" levels="1" name="Freya's Art of Seduction - Barrier">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18726" levels="1" name="Freya's Art of Seduction - EXP">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18727" levels="1" name="Pa'agrio's Blessing - Might">
+		<!-- На 30 мин. Макс. HP/ MP/ CP +10%, Физ. Атк. +20%, Маг. Атк. +30%, Физ./ Маг. Защ. +10%, Физ./ Маг. Точность +4, Скор. Атк./ Скор. Маг. +10%, Скорость +10, атака стихией +100, расход MP для умений -10%. Дополнительно наносимый урон +10%, мощность Физ./ Маг. умений +10%. Эффект сохраняется после смерти. -->
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="47675"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="cancelable" value="false"/>
+		<set name="buff_slot_type" value="2"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.10"/>
+				<mul stat="maxMp" value="1.10"/>
+				<mul stat="maxCp" value="1.10"/>
+				<mul stat="pAtk" value="1.20"/>
+				<mul stat="mAtk" value="1.30"/>
+				<mul stat="pDef" value="1.10"/>
+				<mul stat="mDef" value="1.10"/>
+				<add stat="pAccCombat" value="4"/>
+				<add stat="mAccCombat" value="4"/>
+				<mul stat="pAtkSpd" value="1.10"/>
+				<mul stat="mAtkSpd" value="1.10"/>
+				<add stat="runSpd" value="10"/>
+				<add stat="attackFire" value="100"/>
+				<add stat="attackWater" value="100"/>
+				<add stat="attackWind" value="100"/>
+				<add stat="attackEarth" value="100"/>
+				<add stat="attackHoly" value="100"/>
+				<add stat="attackUnholy" value="100"/>
+				<mul stat="mpConsum" value="0.90"/>
+				<mul stat="mpConsumePhysical" value="0.90"/>
+				<mul stat="mpDanceConsume" value="0.90"/>
+				<mul stat="pvpPhysDmgBonus" value="1.10"/>
+				<mul stat="pvpPhysSkillDmgBonus" value="1.10"/>
+				<mul stat="pvpMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysDmgBonus" value="1.10"/>
+				<mul stat="pveMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysSkillDmgBonus" value="1.10"/>
+				<mul stat="p_skill_power" value="1.10"/>
+				<mul stat="mSkillPower" value="1.10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18728" levels="1" name="Pa'agrio's Blessing - XP">
+		<!-- На 30 мин. Макс. HP/ MP/ CP +10%, Физ. Атк. +20%, Маг. Атк. +30%, Физ./ Маг. Защ. +10%, Физ./ Маг. Точность +4, Скор. Атк./ Скор. Маг. +10%, Скорость +10, атака стихией +100, расход MP для умений -10%. Дополнительно бонус опыта +30%, а также бонус энергии +12%. Эффект сохраняется после смерти. -->
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="47676"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="cancelable" value="false"/>
+		<set name="buff_slot_type" value="2"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.10"/>
+				<mul stat="maxMp" value="1.10"/>
+				<mul stat="maxCp" value="1.10"/>
+				<mul stat="pAtk" value="1.20"/>
+				<mul stat="mAtk" value="1.30"/>
+				<mul stat="pDef" value="1.10"/>
+				<mul stat="mDef" value="1.10"/>
+				<add stat="pAccCombat" value="4"/>
+				<add stat="mAccCombat" value="4"/>
+				<mul stat="pAtkSpd" value="1.10"/>
+				<mul stat="mAtkSpd" value="1.10"/>
+				<add stat="runSpd" value="10"/>
+				<add stat="attackFire" value="100"/>
+				<add stat="attackWater" value="100"/>
+				<add stat="attackWind" value="100"/>
+				<add stat="attackEarth" value="100"/>
+				<add stat="attackHoly" value="100"/>
+				<add stat="attackUnholy" value="100"/>
+				<mul stat="mpConsum" value="0.90"/>
+				<mul stat="mpConsumePhysical" value="0.90"/>
+				<mul stat="mpDanceConsume" value="0.90"/>
+				<mul stat="pvpPhysDmgBonus" value="1.10"/>
+				<mul stat="pvpPhysSkillDmgBonus" value="1.10"/>
+				<mul stat="pvpMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysDmgBonus" value="1.10"/>
+				<mul stat="pveMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysSkillDmgBonus" value="1.10"/>
+				<mul stat="p_skill_power" value="1.10"/>
+				<mul stat="mSkillPower" value="1.10"/>
+				<add stat="exp_rate_multiplier" value="0.30"/>
+				<add stat="exp_rate_multiplier" value="0.12">
+					<player has_vitality="true"/>
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18729" levels="1" name="Treat Wounded Soldier">
+		<set name="icon" value="icon.skill0246"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18730" levels="1" name="Craft Protection Battery Parts">
+		<set name="icon" value="icon.skill0246"/>
+		<set name="hitTime" value="120000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18731" levels="1" name="Activate Protection Battery">
+		<set name="icon" value="icon.skill0246"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="180000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18732" levels="4" name="Low-grade Keucereus Defense Supply Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18733" levels="1" name="Guardian Captain Isburg Elimination Commemorative Supply Items">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18734" levels="1" name="Disguised">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18735" levels="1" name="Disguised">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18736" levels="1" name="Disguised">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18737" levels="1" name="Disguised">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18738" levels="1" name="+10 Helios Weapon Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18739" levels="3" name="+8 Eternal Armor Heavy Capsule">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18740" levels="1" name="+8 Eternal Armor Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18741" levels="1" name="Freya's Art of Seduction - Barrier">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18742" levels="1" name="Freya's Art of Seduction - EXP">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18743" levels="1" name="Pa'agrio's Blessing - Might">
+		<!-- На 30 мин. Макс. HP/ MP/ CP +10%, Физ. Атк. +20%, Маг. Атк. +30%, Физ./ Маг. Защ. +10%, Физ./ Маг. Точность +4, Скор. Атк./ Скор. Маг. +10%, Скорость +10, атака стихией +100, расход MP для умений -10%. Дополнительно наносимый урон +10%, мощность Физ./ Маг. умений +10%. Эффект сохраняется после смерти. -->
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="47736"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="cancelable" value="false"/>
+		<set name="buff_slot_type" value="2"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.10"/>
+				<mul stat="maxMp" value="1.10"/>
+				<mul stat="maxCp" value="1.10"/>
+				<mul stat="pAtk" value="1.20"/>
+				<mul stat="mAtk" value="1.30"/>
+				<mul stat="pDef" value="1.10"/>
+				<mul stat="mDef" value="1.10"/>
+				<add stat="pAccCombat" value="4"/>
+				<add stat="mAccCombat" value="4"/>
+				<mul stat="pAtkSpd" value="1.10"/>
+				<mul stat="mAtkSpd" value="1.10"/>
+				<add stat="runSpd" value="10"/>
+				<add stat="attackFire" value="100"/>
+				<add stat="attackWater" value="100"/>
+				<add stat="attackWind" value="100"/>
+				<add stat="attackEarth" value="100"/>
+				<add stat="attackHoly" value="100"/>
+				<add stat="attackUnholy" value="100"/>
+				<mul stat="mpConsum" value="0.90"/>
+				<mul stat="mpConsumePhysical" value="0.90"/>
+				<mul stat="mpDanceConsume" value="0.90"/>
+				<mul stat="pvpPhysDmgBonus" value="1.10"/>
+				<mul stat="pvpPhysSkillDmgBonus" value="1.10"/>
+				<mul stat="pvpMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysDmgBonus" value="1.10"/>
+				<mul stat="pveMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysSkillDmgBonus" value="1.10"/>
+				<mul stat="p_skill_power" value="1.10"/>
+				<mul stat="mSkillPower" value="1.10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18744" levels="1" name="Pa'agrio's Blessing - XP">
+		<!-- На 30 мин. Макс. HP/ MP/ CP +10%, Физ. Атк. +20%, Маг. Атк. +30%, Физ./ Маг. Защ. +10%, Физ./ Маг. Точность +4, Скор. Атк./ Скор. Маг. +10%, Скорость +10, атака стихией +100, расход MP для умений -10%. Дополнительно бонус опыта +30%, а также бонус энергии +12%. Эффект сохраняется после смерти. -->
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="47737"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="cancelable" value="false"/>
+		<set name="buff_slot_type" value="2"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.10"/>
+				<mul stat="maxMp" value="1.10"/>
+				<mul stat="maxCp" value="1.10"/>
+				<mul stat="pAtk" value="1.20"/>
+				<mul stat="mAtk" value="1.30"/>
+				<mul stat="pDef" value="1.10"/>
+				<mul stat="mDef" value="1.10"/>
+				<add stat="pAccCombat" value="4"/>
+				<add stat="mAccCombat" value="4"/>
+				<mul stat="pAtkSpd" value="1.10"/>
+				<mul stat="mAtkSpd" value="1.10"/>
+				<add stat="runSpd" value="10"/>
+				<add stat="attackFire" value="100"/>
+				<add stat="attackWater" value="100"/>
+				<add stat="attackWind" value="100"/>
+				<add stat="attackEarth" value="100"/>
+				<add stat="attackHoly" value="100"/>
+				<add stat="attackUnholy" value="100"/>
+				<mul stat="mpConsum" value="0.90"/>
+				<mul stat="mpConsumePhysical" value="0.90"/>
+				<mul stat="mpDanceConsume" value="0.90"/>
+				<mul stat="pvpPhysDmgBonus" value="1.10"/>
+				<mul stat="pvpPhysSkillDmgBonus" value="1.10"/>
+				<mul stat="pvpMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysDmgBonus" value="1.10"/>
+				<mul stat="pveMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysSkillDmgBonus" value="1.10"/>
+				<mul stat="p_skill_power" value="1.10"/>
+				<mul stat="mSkillPower" value="1.10"/>
+				<add stat="exp_rate_multiplier" value="0.30"/>
+				<add stat="exp_rate_multiplier" value="0.12">
+					<player has_vitality="true"/>
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18745" levels="3" name="Dragon's Treasure Chest">
+		<table name="#icon">icon.bm_dragon_posion icon.bm_dragon_posion_brave icon.skill0000</table>
+		<set name="icon" value="#icon"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18746" levels="1" name="Dragon's Attribute Potion">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_dragon_posion"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18747" levels="1" name="Dragon's Attribute Potion (XP)">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_dragon_posion_brave"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18748" levels="4" name="Horn Melody - Wealthy Merchant Red">
+		<set name="effectPoint" value="712"/>
+		<set name="icon" value="icon.skill11517"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18749" levels="4" name="Drum Melody - Wealthy Merchant Red">
+		<set name="effectPoint" value="712"/>
+		<set name="icon" value="icon.skill11522"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18750" levels="4" name="Pipe Organ Melody - Wealthy Merchant Red">
+		<set name="effectPoint" value="712"/>
+		<set name="icon" value="icon.skill11519"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18751" levels="4" name="Guitar Melody - Wealthy Merchant Red">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11520"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18752" levels="4" name="Harp Melody - Wealthy Merchant Red">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11521"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18753" levels="4" name="Lute Melody - Wealthy Merchant Red">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11518"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18754" levels="1" name="Prevailing Sonata - Wealthy Merchant Red">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11529"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18755" levels="1" name="Daring Sonata - Wealthy Merchant Red">
+		<set name="effectPoint" value="696"/>
+		<set name="icon" value="icon.skill11530"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18756" levels="1" name="Refreshing Sonata - Wealthy Merchant Red">
+		<set name="effectPoint" value="696"/>
+		<set name="icon" value="icon.skill11532"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18757" levels="1" name="Knight's Harmony - Wealthy Merchant Red">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11523"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18758" levels="1" name="Warrior's Harmony - Wealthy Merchant Red">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11524"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18759" levels="1" name="Wizard's Harmony - Wealthy Merchant Red">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11525"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18760" levels="1" name="Prophecy of Might - Wealthy Merchant Red">
+		<set name="effectPoint" value="712"/>
+		<set name="icon" value="icon.skill19204"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18761" levels="1" name="Potion of Appearance for PA Event - Kelbim’s Light Armor">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18762" levels="1" name="Potion of Appearance for PA Event - Freya’s Robe">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18763" levels="1" name="Pink's Style Potion - Blue Dynasty Armor">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18764" levels="1" name="Pink's Style Potion - White Assassin Suit">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18765" levels="1" name="Potion of Appearance for PA Event - Formal Wear">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18766" levels="1" name="Potion of Appearance for PA Event - Vampiric Outfit">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18767" levels="1" name="Pink's Style Potion - Robin Hood Costume">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18768" levels="1" name="Potion of Appearance for PA Event - Magician Garment">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18769" levels="1" name="Faint Scroll: Enchant Elemental Shirt">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18770" levels="1" name="Scroll: Enchant Brilliant Elemental Shirt">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18771" levels="1" name="Einhasad's Charisma Potion">
+		<set name="icon" value="icon.etc_instant_charisma_potion_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18772" levels="5" name="Horn Melody">
+		<set name="effectPoint" value="712"/>
+		<set name="icon" value="icon.skill11517"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18773" levels="5" name="Drum Melody">
+		<set name="effectPoint" value="712"/>
+		<set name="icon" value="icon.skill11522"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18774" levels="5" name="Pipe Organ Melody">
+		<set name="effectPoint" value="712"/>
+		<set name="icon" value="icon.skill11519"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18775" levels="5" name="Guitar Melody">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11520"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18776" levels="4" name="Harp Melody">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11521"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18777" levels="4" name="Lute Melody">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11518"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18778" levels="2" name="Knight's Harmony">
+		<table name="#icon">icon.skill11523 icon.skill19500</table>
+		<table name="#magicLevel">85 103</table>
+		<table name="#abnormal_time">1800</table>
+		<table name="#abnormal_level">1 2</table>
+		<table name="#mdef">1.15 1.35</table>
+		<table name="#rShld">1.3 1.5</table>
+		<table name="#CritChanceRcpt">1 0.75</table>
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="#icon"/>
+		<set name="castRange" value="900"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_PARTY_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="analog_skills" value="1243;1389;1283;1391;264;271;1589;1590"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;berserker;improve_shield_rate_defence_up;shield_prob_up;shield_defence_up;pa_pd_up"/>
+				<mul stat="mDef" value="1.15"/>
+				<mul stat="pDef" value="1.45"/>
+				<add stat="mCritRate" value="100"/>
+				<add stat="pCritRate" value="100"/>
+				<mul stat="sDef" value="1.5"/>
+				<mul stat="rShld" value="#rShld"/>
+				<p_critical_damage value="35" type="PER"/>
+				<mul stat="pCritChanceRcpt" value="#CritChanceRcpt"/>
+				<mul stat="mCritChanceRcpt" value="#CritChanceRcpt"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="improve_shield_rate_defence_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="shield_prob_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="shield_defence_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="pa_pd_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18779" levels="2" name="Warrior's Harmony">
+		<table name="#icon">icon.skill11524 icon.skill19501</table>
+		<table name="#magicLevel">85 105</table>
+		<table name="#abnormal_time">3600</table>
+		<table name="#abnormal_level">1 2</table>
+		<table name="#p_attack_trait_poison">0</table>
+		<table name="#p_attack_trait_bleed">0</table>
+		<table name="#pAtk">1.22 1.25</table>
+		<table name="#p_critical_damage">70 85</table>
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="#icon"/>
+		<set name="castRange" value="900"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="#abnormal_level"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_PARTY_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="analog_skills" value="1388;1261;1062;1562;1390;269;274;1585;1586"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;berserker;pa_pd_up"/>
+				<mul stat="pAtk" value="#pAtk"/>
+				<mul stat="mAtk" value="1.16"/>
+				<mul stat="pAtkSpd" value="1.08"/>
+				<mul stat="mAtkSpd" value="1.08"/>
+				<p_critical_damage value="#p_critical_damage" type="PER"/>
+				<add stat="pCritRate" value="100"/>
+				<add stat="runSpd" value="8"/>
+				<!-- Glory: <mul stat="pDef" value="0.92"/>
+				<mul stat="mDef" value="0.84"/>
+				<sub stat="pEvasRate" value="4"/> -->
+				<p_attack_trait name="poison" value="#p_attack_trait_poison"/>
+				<p_attack_trait name="bleed" value="#p_attack_trait_bleed"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="pa_pd_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+		<triggers>
+			<trigger id="19435" level="1" type="ATTACK" chance="1">
+				<or>
+					<player hasBuffId="18779;2"/>
+				</or>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="18780" levels="2" name="Wizard's Harmony">
+		<table name="#icon">icon.skill11525 icon.skill19502</table>
+		<table name="#magicLevel">85 103</table>
+		<table name="#abnormal_time">3600</table>
+		<table name="#matk">1.4 1.45</table>
+		<table name="#power">0 100</table>
+		<table name="#p_magic_critical_dmg_per">0 10</table>
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="#icon"/>
+		<set name="castRange" value="900"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_class"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_PARTY_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="analog_skills" value="1078;349;267;337;336;273;365;1587;1588;1595;1596"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;pa_pd_up;cancel_prob_down;berserker"/>
+				<mul stat="mAtk" value="#matk"/>
+				<mul stat="mAtkSpd" value="1.15"/>
+				<add stat="mCritRate" value="100"/>
+				<mul stat="mpConsum" value="0.85"/>
+				<mul stat="mpConsumePhysical" value="0.85"/>
+				<mul stat="mReuse" value="0.8"/>
+				<mul stat="pReuse" value="0.8"/>
+				<p_magic_critical_dmg value="#p_magic_critical_dmg_per" type="PER"/>
+				<add stat="attackFire" value="#power"/>
+				<add stat="attackWater" value="#power"/>
+				<add stat="attackWind" value="#power"/>
+				<add stat="attackEarth" value="#power"/>
+				<add stat="attackHoly" value="#power"/>
+				<add stat="attackUnholy" value="#power"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="cancel_prob_down"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="pa_pd_up"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18781" levels="1" name="War Drum">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">3600</table>
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill19444"/>
+		<set name="castRange" value="900"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="buff_special_aura"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="PARTY"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="pAtk" value="1.3"/>
+				<mul stat="mAtk" value="1.33"/>
+				<mul stat="maxHp" value="1.3"/>
+				<p_vampiric_attack value="8" chance="30"/>
+				<mul stat="concentration" value="1.4"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18782" levels="1" name="Marching Drum">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">3600</table>
+		<set name="effectPoint" value="696"/>
+		<set name="icon" value="icon.skill19445"/>
+		<set name="castRange" value="900"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="enchanter_mod"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="PARTY"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="mAtkSpd" value="1.3"/>
+				<mul stat="pAtkSpd" value="1.4"/>
+				<add stat="reflectDam" value="10"/>
+				<add stat="reflectPSkillDam" value="10"/>
+				<add stat="reflectMSkillDam" value="10"/>
+				<add stat="reflectBowDam" value="10"/>
+				<add stat="runSpd" value="20"/>
+				<mul stat="mReuse" value="0.9"/>
+				<mul stat="pReuse" value="0.9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18783" levels="1" name="Soothing Drum">
+		<table name="#magicLevel">85</table>
+		<table name="#abnormal_time">3600</table>
+		<set name="effectPoint" value="696"/>
+		<set name="icon" value="icon.skill19446"/>
+		<set name="castRange" value="900"/>
+		<set name="abnormal_time" value="#abnormal_time"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="synergy_is"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="AWAKED_BUFF"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="PARTY"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_PARTY"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="affect_range" value="1000"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="song_of_earth;song_of_life;song_of_water;song_of_wind;song_of_hunter;song_of_vitality;song_of_vengeance;song_of_renewal;song_of_champion;song_of_meditation;song_of_warding;song_of_windstorm;song_of_purification;wispering_of_battle;dance_of_berserker;dance_of_bladestorm;dance_of_concentration;dance_of_fire;dance_of_fury;dance_of_inspiration;dance_of_mystic;dance_of_siren;dance_of_vampire;dance_of_warrior;motion_of_defence;buff_unicorn_seraphim;buff_queen_of_cat;knight_aura"/>
+				<mul stat="regHp" value="1.75"/>
+				<mul stat="regMp" value="2"/>
+				<add stat="pEvasRate" value="5"/>
+				<add stat="mEvasRate" value="5"/>
+				<mul stat="mpConsum" value="0.78"/>
+				<mul stat="mpConsumePhysical" value="0.78"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_earth"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_life"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_water"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_wind"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_hunter"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vitality"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_vengeance"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_renewal"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_champion"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_meditation"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_warding"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_windstorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="song_of_purification"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="wispering_of_battle"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_berserker"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_bladestorm"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_concentration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_fury"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_inspiration"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_mystic"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_siren"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_vampire"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="dance_of_warrior"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="motion_of_defence"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_unicorn_seraphim"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="buff_queen_of_cat"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="knight_aura"/>
+				<def name="max_abnormal_level" value="-1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18784" levels="1" name="Elemental Resistance">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11565"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18785" levels="1" name="Debuff Resistance">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11567"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18786" levels="1" name="Mental Resistance">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11824"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18787" levels="1" name="Angel Cat's Blessing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="BranchSys3.g_blessing_of_angel_cat_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18788" levels="2" name="Puss the Cat's Blessing">
+		<table name="#castRange">900 -1</table>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.accessory_cat_the_cat_cap_i00"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18789" levels="1" name="Puss the Cat's Gift">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.accessory_cat_the_cat_cap_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18790" levels="1" name="Sweet Rice Cake">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18791" levels="1" name="Hanbok Outfit">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18793" levels="2" name="Spellbook: Vitality of the Exalted Lv. 1">
+		<table name="#itemConsumeId">47854 47855</table>
+		<table name="#skill">19290-1 19290-2</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="itemConsumeId" value="#itemConsumeId"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<cond msgId="113" addName="1">
+			<player can_learn_skill="#skill"/>
+		</cond>
+		<for>
+			<effect name="i_set_skill">
+				<def name="skill" value="#skill"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18794" levels="2" name="Puss the Cat's Blessing">
+		<table name="#castRange">900 -1</table>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.accessory_cat_the_cat_cap_i00"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18795" levels="1" name="Puss the Cat's Gift">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.accessory_cat_the_cat_cap_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18796" levels="3" name="Angel's Fortune Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18797" levels="1" name="Nevit's Gold Hourglass">
+		<set name="icon" value="icon.bm_nebit_bonus_time_up"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_effect" value="VP_KEEP"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="vote"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="47918"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isHandler" value="true"/>
+		<set name="isSelfDispellable" value="false"/>
+		<for>
+			<effect>
+				<add stat="exp_rate_multiplier" value="0.5"/>
+				<add stat="sp_rate_multiplier" value="0.5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="18798" levels="1" name="Shining Scroll of Growth">
+		<set name="icon" value="icon.bm_nebit_exp_book"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18799" levels="4" name="First Gift Box">
+		<table name="#reuseDelay">0 0 0 10000</table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

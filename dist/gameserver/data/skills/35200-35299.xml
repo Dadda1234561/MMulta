@@ -1,0 +1,1032 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="35200" levels="1" name="Legend Infinity Caster Special Ability">
+		<set name="icon" value="icon.weapon_the_mace_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35201" levels="1" name="Legend Infinity Retributer Special Ability">
+		<set name="icon" value="icon.weapon_the_staff_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35202" levels="1" name="Legend Infinity Dual Sword Special Ability">
+		<set name="icon" value="icon.weapon_r_dualsword_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35203" levels="1" name="Legend Infinity Dual Dagger Special Ability">
+		<set name="icon" value="icon.weapon_r_dualdagger_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35204" levels="1" name="Legend Infinity Dual Blunt Weapon Special Ability">
+		<set name="icon" value="icon.weapon_r_dualblunt_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35205" levels="1" name="Savior's Mask Basic Effect">
+		<set name="icon" value="icon.episode_mask_01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="35206" levels="11" name="Enchant Effect: Savior's Mask">
+		<table name="#resist_abnormal_debuff">0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10</table>
+		<set name="icon" value="icon.episode_scrl_of_ench_hair"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="resist_abnormal_debuff" value="#resist_abnormal_debuff"/>
+		</for>
+	</skill>
+	<skill id="35207" levels="4" name="Strength of Savior's Warrior">
+		<table name="#pAtk">1.01 1.03 1.05 1.1</table>
+		<set name="icon" value="icon.episode_scrl_of_ench_hair"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+		</for>
+	</skill>
+	<skill id="35208" levels="4" name="Power of Savior's Wizard">
+	<table name="#mAtk">1.01 1.03 1.05 1.1</table>
+		<set name="icon" value="icon.episode_scrl_of_ench_hair"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+		</for>
+	</skill>
+	<skill id="35209" levels="4" name="Defense of Savior's Knight">
+		<table name="#def">1.01 1.03 1.05 1.1</table>
+		<set name="icon" value="icon.episode_scrl_of_ench_hair"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="#def"/>
+			<mul stat="pDef" value="#def"/>
+		</for>
+	</skill>
+	<skill id="35210" levels="1" name="Hero's Ring">
+		<set name="icon" value="icon.accessory_ring_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35211" levels="12" name="Angel's Necklace">
+		<table name="#traitdef">0 20 20 20 20 20 20 21 22 23 25</table>
+		<table name="#traitatk">0 0 20 20 20 20 20 21 22 23 25</table>
+		<table name="#speed">0 0 0 5 5 5 5 6 7 8 10</table>
+		<table name="#refl">0 0 0 0 5 5 5 6 7 8 10</table>
+		<table name="#reuse">1 1 1 1 1 0.9 0.9 0.89 0.88 0.87 0.85</table>
+		<table name="#def">1 1 1 1 1 1 1.01 1.02 1.03 1.04 1.05</table>
+		<table name="#power">1 1 1 1 1 1 1 1 1 1.03 1.05</table>
+		<set name="icon" value="icon.elemental_necklace_wind_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="shock" value="#traitdef"/>
+			<p_attack_trait name="shock" value="#traitatk"/>
+			<p_defence_trait name="paralyze" value="#traitdef"/>
+			<p_attack_trait name="paralyze" value="#traitatk"/>
+			<p_defence_trait name="bleed" value="#traitdef"/>
+			<p_attack_trait name="bleed" value="#traitatk"/>
+			<add stat="runSpd" value="#speed"/>
+			<add stat="reflectDam" value="#refl"/>
+			<add stat="reflectBowDam" value="#refl"/>
+			<add stat="reflectPSkillDam" value="#refl"/>
+			<add stat="reflectMSkillDam" value="#refl"/>
+			<mul stat="mReuse" value="#reuse"/>
+			<mul stat="pReuse" value="#reuse"/>
+			<mul stat="musicReuse" value="#reuse"/>
+			<mul stat="pDef" value="#def"/>
+			<mul stat="mDef" value="#def"/>
+			<mul stat="p_skill_power" value="#power"/>
+			<mul stat="mSkillPower" value="#power"/>
+		</for>
+	</skill>
+	<skill id="35212" levels="1" name="Talisman of Battle - Cancel Hide">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-711"/>
+		<set name="icon" value="icon.etc_talisman_i07"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35213" levels="12" name="Angel's Earring">
+		<table name="#traitdef">0 20 20 20 20 20 20 21 22 23 25</table>
+		<table name="#traitatk">0 0 20 20 20 20 20 21 22 23 25</table>
+		<table name="#hpeff">0 0 0 0 5 7 10 11 12 13 15</table>
+		<table name="#vamp">0 0 0 0 0 0 4 4 4 5 6</table>
+		<table name="#atk">1 1 1 1 1 1 1.01 1.02 1.03 1.04 1.05</table>
+		<table name="#mp">1 1 1 0.97 0.97 0.97 0.95 0.94 0.93 0.92 0.9</table>
+		<table name="#dmgreceive">1 1 1 1 1 1 1 1 1 0.95 0.93</table>
+		<set name="icon" value="icon.accessary_angel_of_earing"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="shock" value="#traitdef"/>
+			<p_attack_trait name="shock" value="#traitatk"/>
+			<p_defence_trait name="derangement" value="#traitdef"/>
+			<p_attack_trait name="derangement" value="#traitatk"/>
+			<p_defence_trait name="sleep" value="#traitdef"/>
+			<p_attack_trait name="sleep" value="#traitatk"/>
+			<p_heal_effect value="#hpeff" type="PER"/>
+			<p_vampiric_attack value="#vamp" chance="30"/>
+			<mul stat="pAtk" value="#atk"/>
+			<mul stat="mAtk" value="#atk"/>
+			<mul stat="mpConsum" value="#mp"/>
+			<mul stat="mpConsumePhysical" value="#mp"/>
+			<mul stat="mpDanceConsume" value="#mp"/>
+			<mul stat="pCritDamRcpt" value="#dmgreceive"/>
+			<mul stat="mCritDamRcpt" value="#dmgreceive"/>
+		</for>
+	</skill>
+	<skill id="35214" levels="11" name="Lucien's Bracelet - Attack">
+		<set name="icon" value="icon.accessary_bracelet_lucien_p01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35215" levels="11" name="Lucien's Bracelet - Magic">
+		<set name="icon" value="icon.accessary_bracelet_lucien_m01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35216" levels="11" name="Lucien's Bracelet - Defense">
+		<set name="icon" value="icon.accessary_bracelet_lucien_d01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35217" levels="11" name="Fallen Angel's Ring">
+		<table name="#traitdef">10 20 20 20 20 20 25 25 25 25 25</table>
+		<table name="#traitatk">0 0 20 20 20 20 25 25 25 25 25</table>
+		<table name="#vitality">1 1 1 0.9 0.9 0.9 0.85 0.84 0.83 0.82 0.8</table>
+		<table name="#exp">0 0 0 0 0.05 0.05 0.1 0.11 0.12 0.13 0.15</table>
+		<table name="#p_critical_damage">0 0 0 0 0 10 15 16 17 18 20</table>
+		<table name="#critical_damage">0 0 0 0 0 10 15 16 17 18 20</table>
+		<table name="#dmg">1 1 1 1 1 1 1 1 1 1.03 1.05</table>
+		<set name="icon" value="icon.bm_ring_of_fallen_angel"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="knockback" value="#traitdef"/>
+			<p_attack_trait name="knockback" value="#traitatk"/>
+			<p_defence_trait name="knockdown" value="#traitdef"/>
+			<p_attack_trait name="knockdown" value="#traitatk"/>
+			<p_defence_trait name="pull" value="#traitdef"/>
+			<p_attack_trait name="pull" value="#traitatk"/>
+			<p_defence_trait name="shock" value="#traitdef"/>
+			<p_attack_trait name="shock" value="#traitatk"/>
+			<mul stat="vitality_consume" value="#vitality"/>
+			<add stat="exp_rate_multiplier" value="#exp"/>
+			<add stat="sp_rate_multiplier" value="#exp"/>
+			<p_critical_damage value="#p_critical_damage" type="PER"/>
+			<p_skill_critical_damage value="#critical_damage" type="PER"/>
+			<p_magic_critical_dmg value="#critical_damage" type="PER"/>
+			<mul stat="damageToImmobilized" value="#dmg"/>
+		</for>
+	</skill>
+	<skill id="35218" levels="1" name="Item Skill: Recovery">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35219" levels="10" name="War">
+		<set name="icon" value="icon.bm_ensoul_stone_shilen"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35220" levels="10" name="Revelation">
+		<set name="icon" value="icon.bm_ensoul_stone_shilen"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35221" levels="10" name="Greed">
+		<set name="icon" value="icon.bm_ensoul_stone_shilen"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35222" levels="10" name="Punishment">
+		<set name="icon" value="icon.bm_ensoul_stone_shilen"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35223" levels="10" name="Awakening">
+		<set name="icon" value="icon.bm_ensoul_stone_shilen"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35224" levels="10" name="Disaster">
+		<set name="icon" value="icon.bm_ensoul_stone_shilen"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35225" levels="10" name="Advent">
+		<set name="icon" value="icon.bm_ensoul_stone_shilen"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35226" levels="10" name="Triggered Stun">
+		<table name="#reuseDelay">60000 60000 60000 60000 60000 60000 30000 30000 30000 20000</table>
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.bm_ensoul_stone_shilen"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="castRange" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35227" levels="1" name="Artifact Set Effect Lv. 1">
+		<set name="icon" value="icon.artifact_book_00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.1"/>
+			<mul stat="pvpPhysDmgBonus" value="1.1"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.1"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.05"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.05"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="35228" levels="1" name="Artifact Set Effect Lv. 2">
+		<set name="icon" value="icon.artifact_book_00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.2"/>
+			<mul stat="pvpPhysDmgBonus" value="1.2"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.2"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.1"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.1"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="35229" levels="1" name="Artifact Set Effect Lv. 3">
+		<set name="icon" value="icon.artifact_book_00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.3"/>
+			<mul stat="pvpPhysDmgBonus" value="1.3"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.3"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.15"/>
+			<add order="0x10" stat="STR" value="1"/>
+			<add order="0x10" stat="INT" value="1"/>
+			<add order="0x10" stat="CON" value="1"/>
+			<add order="0x10" stat="MEN" value="1"/>
+			<add order="0x10" stat="DEX" value="1"/>
+			<add order="0x10" stat="WIT" value="1"/>
+			<add order="0x10" stat="CHA" value="1"/>
+			<add order="0x10" stat="LUC" value="1"/>
+		</for>
+	</skill>
+	<skill id="35230" levels="11" name="Artifact - P. Atk.">
+		<table name="#pAtk">1 1.02 1.04 1.06 1.08 1.1 1.12 1.14 1.16 1.18 1.2</table>
+		<set name="icon" value="icon.artifact_b_pa"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+		</for>
+	</skill>
+	<skill id="35231" levels="11" name="Artifact - M. Skill Power.">
+		<table name="#mAtk">1 1.03 1.06 1.09 1.12 1.15 1.18 1.21 1.24 1.27 1.3</table>
+		<set name="icon" value="icon.artifact_b_ma"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mSkillPower" value="#mAtk"/>
+		</for>
+	</skill>
+	<skill id="35232" levels="11" name="Artifact - PVE Damage Support">
+		<table name="#PveDamage">1 1.015 1.03 1.045 1.06 1.075 1.09 1.105 1.12 1.135 1.15</table>
+		<set name="icon" value="icon.artifact_b_pa_speed"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+		</for>
+	</skill>
+	<skill id="35233" levels="11" name="Artifact - PVE Damage Balance">
+		<table name="#PveDamage">1 1.005 1.01 1.015 1.02 1.025 1.03 1.035 1.04 1.045 1.05</table>
+		<set name="icon" value="icon.artifact_b_ma_speed"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+		</for>
+	</skill>
+	<skill id="35234" levels="11" name="Artifact - P. Def.">
+		<table name="#pDef">1 1.02 1.04 1.06 1.08 1.1 1.12 1.14 1.16 1.18 1.2</table>
+		<set name="icon" value="icon.artifact_c_phy_def"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="#pDef"/>
+		</for>
+	</skill>
+	<skill id="35235" levels="11" name="Artifact - M. Def.">
+		<table name="#mDef">1 1.02 1.04 1.06 1.08 1.1 1.12 1.14 1.16 1.18 1.2</table>
+		<set name="icon" value="icon.artifact_c_mag_def"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="#mDef"/>
+		</for>
+	</skill>
+	<skill id="35236" levels="11" name="Artifact - Max HP/CP/MP">
+		<table name="#maxCpHpMp">1 1.02 1.04 1.06 1.08 1.1 1.12 1.14 1.16 1.18 1.2</table>
+		<set name="icon" value="icon.artifact_c_hp"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="#maxCpHpMp"/>
+			<mul stat="maxMp" value="#maxCpHpMp"/>
+			<mul stat="maxCp" value="#maxCpHpMp"/>
+		</for>
+	</skill>
+	<skill id="35237" levels="11" name="Artifact - Adena Rate">
+		<table name="#adena_rate_multiplier">1 1.02 1.04 1.06 1.08 1.1 1.12 1.14 1.16 1.18 1.2</table>
+		<set name="icon" value="icon.artifact_c_mp"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="adena_rate_multiplier" value="#adena_rate_multiplier"/>
+		</for>
+	</skill>
+	<skill id="35238" levels="11" name="Artifact - XP">
+		<table name="#exp_rate_multiplier">0 0.03 0.06 0.09 0.12 0.15 0.18 0.21 0.24 0.27 0.3</table>
+		<set name="icon" value="icon.artifact_d_exp"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="exp_rate_multiplier" value="#exp_rate_multiplier"/>
+		</for>
+	</skill>
+	<skill id="35239" levels="11" name="Artifact - PVE Defence">
+		<table name="#PVEdef">1 1.015 1.03 1.045 1.06 1.075 1.09 1.105 1.12 1.135 1.15</table>
+		<set name="icon" value="icon.artifact_d_vampiric_rage"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="#PVEdef"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="#PVEdef"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="#PVEdef"/>
+		</for>
+	</skill>
+	<skill id="35240" levels="11" name="Artifact - Speed">
+		<table name="#runSpd">0 5 10 15 20 25 30 35 40 45 50</table>
+		<set name="icon" value="icon.artifact_d_move_speed"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="runSpd" value="#runSpd"/>
+		</for>
+	</skill>
+	<skill id="35241" levels="11" name="Artifact - PVP P.Damage Balance">
+		<table name="#PvpDamage">1 1.025 1.05 1.075 1.1 1.125 1.15 1.175 1.2 1.225 1.25</table>
+		<set name="icon" value="icon.artifact_d_heal_effect"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="#PvpDamage"/>
+		</for>
+	</skill>
+	<skill id="35242" levels="11" name="Artifact - M.Damage PVP Balance">
+		<table name="#PvpDamage">1 1.025 1.05 1.075 1.1 1.125 1.15 1.175 1.2 1.225 1.25</table>
+		<set name="icon" value="icon.artifact_a_pa"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpMagicSkillDmgBonus" value="#PvpDamage"/>
+		</for>
+	</skill>
+	<skill id="35243" levels="11" name="Artifact - PVP M.Defence Balance">
+		<table name="#pvpDefenceBonus">1 1.015 1.03 1.045 1.06 1.075 1.09 1.105 1.12 1.135 1.15</table>
+		<set name="icon" value="icon.artifact_a_ma"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpMagicSkillDefenceBonus" value="#pvpDefenceBonus"/>
+		</for>
+	</skill>
+	<skill id="35244" levels="11" name="Artifact - PVP Defence Defence">
+		<table name="#pvpDefenceBonus">1 1.03 1.06 1.09 1.12 1.15 1.18 1.21 1.24 1.27 1.3</table>
+		<set name="icon" value="icon.artifact_a_hit"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="#pvpDefenceBonus"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="#pvpDefenceBonus"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="#pvpDefenceBonus"/>
+		</for>
+	</skill>
+	<skill id="35245" levels="11" name="Artifact - PVP P.Defence Balance">
+		<table name="#pvpDefenceBonus">1 1.015 1.03 1.045 1.06 1.075 1.09 1.105 1.12 1.135 1.15</table>
+		<set name="icon" value="icon.artifact_a_mhit"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="#pvpDefenceBonus"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="#pvpDefenceBonus"/>
+		</for>
+	</skill>
+	<skill id="35246" levels="11" name="Artifact - M.Defence Balance">
+		<table name="#mDef">1 1.02 1.04 1.06 1.08 1.1 1.12 1.14 1.16 1.18 1.20</table>
+		<set name="icon" value="icon.artifact_a_crt_per"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="#mDef"/>
+		</for>
+	</skill>
+	<skill id="35247" levels="11" name="Artifact - P.Defence Balance">
+		<table name="#pDef">1 1.02 1.04 1.06 1.08 1.1 1.12 1.14 1.16 1.18 1.2</table>
+		<set name="icon" value="icon.artifact_a_crt_skill_per"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="#pDef"/>
+		</for>
+	</skill>
+	<skill id="35248" levels="11" name="Artifact - Soul / Spirit Shot Damage Balance">
+		<table name="#soulshot_spiritshot_power">1 1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<set name="icon" value="icon.artifact_a_crt_mag_per"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="spiritshot_power" value="#soulshot_spiritshot_power"/>
+			<mul stat="soulshot_power" value="#soulshot_spiritshot_power"/>
+		</for>
+	</skill>
+	<skill id="35249" levels="11" name="Artifact - PVP Damage Attack">
+		<table name="#PvpDamage">1 1.05 1.1 1.15 1.2 1.25 1.3 1.35 1.4 1.45 1.5</table>
+		<set name="icon" value="icon.artifact_a_hp_special"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysSkillDmgBonus" value="#PvpDamage"/>
+			<mul stat="pvpPhysDmgBonus" value="#PvpDamage"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#PvpDamage"/>
+		</for>
+	</skill>
+	<skill id="35250" levels="11" name="Artifact - Атака Стихией">
+		<table name="#attack">1 10 20 30 40 50 60 70 80 90 100</table>
+		<set name="icon" value="icon.artifact_a_block_act_dmg"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="attackFire" value="#attack"/>
+			<add stat="attackWater" value="#attack"/>
+			<add stat="attackWind" value="#attack"/>
+			<add stat="attackEarth" value="#attack"/>
+			<add stat="attackHoly" value="#attack"/>
+			<add stat="attackUnholy" value="#attack"/>
+		</for>
+	</skill>
+	<skill id="35251" levels="11" name="Artifact - Защита Стихией">
+		<table name="#defence">1 10 20 30 40 50 60 70 80 90 100</table>
+		<set name="icon" value="icon.artifact_a_dmg_by_atk"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceWater" value="#defence"/>
+			<add stat="defenceFire" value="#defence"/>
+			<add stat="defenceWind" value="#defence"/>
+			<add stat="defenceEarth" value="#defence"/>
+			<add stat="defenceHoly" value="#defence"/>
+			<add stat="defenceUnholy" value="#defence"/>
+		</for>
+	</skill>
+	<skill id="35252" levels="1" name="Artifact - Attribute Attack">
+		<set name="icon" value="icon.artifact_a_attribute_att_up"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="attackFire" value="30"/>
+			<add stat="attackWater" value="30"/>
+			<add stat="attackWind" value="30"/>
+			<add stat="attackEarth" value="30"/>
+			<add stat="attackHoly" value="30"/>
+			<add stat="attackUnholy" value="30"/>
+		</for>
+	</skill>
+	<skill id="35253" levels="1" name="Artifact - Attribute Resistance">
+		<set name="icon" value="icon.artifact_a_attribute_def_up"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceWater" value="30"/>
+			<add stat="defenceFire" value="30"/>
+			<add stat="defenceWind" value="30"/>
+			<add stat="defenceEarth" value="30"/>
+			<add stat="defenceHoly" value="30"/>
+			<add stat="defenceUnholy" value="30"/>
+		</for>
+	</skill>
+	<skill id="35254" levels="1" name="Artifact - Received Damage When Immobilized">
+		<set name="icon" value="icon.artifact_a_block_act_dmg"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="resistToImmobilizedDamage" value="1.11"/>
+		</for>
+	</skill>
+	<skill id="35255" levels="1" name="Artifact - P. Skill Power">
+		<set name="icon" value="icon.artifact_a_skill_power"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="p_skill_power" value="1.11"/>
+		</for>
+	</skill>
+	<skill id="35256" levels="1" name="Artifact - M. Skill Power">
+		<set name="icon" value="icon.artifact_a_spell_power"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mSkillPower" value="1.11"/>
+		</for>
+	</skill>
+	<skill id="35257" levels="1" name="Red Mask of Victory (2018)">
+		<set name="icon" value="icon.accessory_worldcup_mask_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35258" levels="1" name="Paulina's Eternal Necklace - Skill Cooldown">
+		<set name="icon" value="icon.skill5239"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mReuse" value="0.90"/>
+			<mul stat="pReuse" value="0.90"/>
+		</for>
+	</skill>
+	<skill id="35259" levels="1" name="Paulina's Eternal Earring - MP Consumption">
+		<set name="icon" value="icon.skill1397"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_heal_effect value="10" type="PER"/>
+			<mul stat="mpConsum" value="0.95"/>
+			<mul stat="mpConsumePhysical" value="0.95"/>
+		</for>
+	</skill>
+	<skill id="35260" levels="1" name="Paulina's Eternal Earring - Vampiric Rage">
+		<set name="icon" value="icon.skill1268"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_vampiric_attack value="5" chance="30"/>
+		</for>
+	</skill>
+	<skill id="35261" levels="1" name="Paulina's Eternal Ring - Critical Rate">
+		<set name="icon" value="icon.skill0137"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pCritRate" value="50"/>
+			<add stat="mCritRate" value="50"/>
+		</for>
+	</skill>
+	<skill id="35262" levels="1" name="Paulina's Eternal Ring - Critical Damage">
+		<set name="icon" value="icon.skill0531"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.15"/>
+			<mul stat="mAtk" value="1.15"/>
+			<p_critical_damage value="15" type="PER"/>
+			<p_magic_critical_dmg value="15" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35263" levels="1" name="Set Effect - Paulina's Eternal Heavy Armor, 5-piece">
+		<!-- Физ. Атк. +8%, Физ. Защ. +8%, Маг. Защ. +8%, СИЛ +3, ВЫН +2, мощность физ./ маг. умений +8%. -->
+		<set name="icon" value="icon.m_class_heavy"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.08"/>
+			<mul stat="pDef" value="1.08"/>
+			<mul stat="mDef" value="1.08"/>
+			<add order="0x10" stat="STR" value="3"/>
+			<add order="0x10" stat="CON" value="2"/>
+			<mul stat="p_skill_power" value="1.08"/>
+			<mul stat="mSkillPower" value="1.08"/>
+		</for>
+	</skill>
+	<skill id="35264" levels="1" name="Set Effect - Paulina's Eternal Light Armor, 5-piece">
+		<!-- Физ. Атк. +8%, Скорость +14, СИЛ +3, ВЫН +2, защита от всех стихий +35, мощность физ./ маг. умений +8%. -->
+		<set name="icon" value="icon.m_class_light"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.08"/>
+			<add stat="runSpd" value="14"/>
+			<add order="0x10" stat="STR" value="3"/>
+			<add order="0x10" stat="CON" value="2"/>
+			<add stat="defenceWater" value="35"/>
+			<add stat="defenceFire" value="35"/>
+			<add stat="defenceWind" value="35"/>
+			<add stat="defenceEarth" value="35"/>
+			<add stat="defenceHoly" value="35"/>
+			<add stat="defenceUnholy" value="35"/>
+			<mul stat="p_skill_power" value="1.08"/>
+			<mul stat="mSkillPower" value="1.08"/>
+		</for>
+	</skill>
+	<skill id="35265" levels="1" name="Set Effect - Paulina's Eternal Robe, 5-piece">
+		<!-- Макс. HP/MP +10%, Маг. Атк. +8%, ИНТ +3, ВЫН +2, мощность физ./ маг. умений +8%, расход MP для умений -7%. -->
+		<set name="icon" value="icon.m_class_robe"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.10"/>
+			<mul stat="maxMp" value="1.10"/>
+			<mul stat="mAtk" value="1.08"/>
+			<add stat="runSpd" value="14"/>
+			<add order="0x10" stat="INT" value="3"/>
+			<add order="0x10" stat="CON" value="2"/>
+			<mul stat="p_skill_power" value="1.08"/>
+			<mul stat="mSkillPower" value="1.08"/>
+			<mul stat="mpConsum" value="0.93"/>
+			<mul stat="mpConsumePhysical" value="0.93"/>
+			<mul stat="mpDanceConsume" value="0.93"/>
+		</for>
+	</skill>
+	<skill id="35266" levels="1" name="Paulina's Blessing - Combat">
+		<!-- Макс. HP +15%, шанс Крит. Атк. для обычных атак +50, сила Крит. Атк. для обычных атак +10%, Скор. Атк. +15%. -->
+		<set name="icon" value="icon.skill6319"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.15"/>
+			<add stat="pCritRate" value="50"/>
+			<p_critical_damage value="10" type="PER"/>
+			<mul stat="pAtkSpd" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="35267" levels="1" name="Paulina's Blessing - Combat">
+		<!-- Макс. HP +15%, шанс Крит. Атк. для обычных атак +100, сила Крит. Атк. для обычных атак +5%, Скор. Атк. +15%. -->
+		<set name="icon" value="icon.skill6319"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.15"/>
+			<add stat="pCritRate" value="100"/>
+			<p_critical_damage value="5" type="PER"/>
+			<mul stat="pAtkSpd" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="35268" levels="1" name="Paulina's Blessing - Magic">
+		<set name="icon" value="icon.skill6319"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.15"/>
+			<add stat="mCritRate" value="50"/>
+			<p_magic_critical_dmg value="10" type="PER"/>
+			<mul stat="mAtkSpd" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="35269" levels="1" name="Paulina's Magic Enhancement Blessing">
+		<set name="icon" value="icon.skill6319"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.15"/>
+			<p_critical_damage value="10" type="PER"/>
+			<p_magic_critical_dmg value="10" type="PER"/>
+			<mul stat="mAtkSpd" value="1.15"/>
+			<mul stat="pAtkSpd" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="35270" levels="1" name="Paulina's Eternal Bracelet">
+		<!-- Открывает ячейки для талисмана: 5 шт., дополнительно Физ. Атк./ Маг. Атк./ Физ. Защ./ Маг. Защ. +3%. -->
+		<set name="icon" value="icon.bm_polyne_R99_bracelet"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="5"/>
+			<mul stat="pAtk" value="1.03"/>
+			<mul stat="mAtk" value="1.03"/>
+			<mul stat="pDef" value="1.03"/>
+			<mul stat="mDef" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="35271" levels="1" name="Fafurion's Breath">
+		<!-- Постепенно замораживает тело противника в течение 5 сек. После полного обледенения наступает паралич, длящийся 10 сек. Игнорирует иммунитет. Потребляет 1 ед. Крови Дракона. Нельзя использовать на Олимпиаде/ Фестивале Хаоса. -->
+		<set name="debuff" value="true"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="effectPoint" value="-418"/>
+		<set name="icon" value="icon.fafurion_breath_i00"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="36415"/> <!-- Кровь Дракона -->
+		<set name="itemConsumeCount" value="1"/>
+		<set name="affect_range" value="250"/>
+		<set name="trait" value="PARALYZE"/>
+		<for>
+			<effect>
+				<triggers>
+					<trigger id="5459" level="1" type="ON_FINISH_EFFECT"/> <!-- Paralysis -->
+				</triggers>
+				<mul stat="pAtkSpd" value="0.1"/>
+				<mul stat="mAtkSpd" value="0.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="35272" levels="1" name="Fafurion Raging Waves">
+		<!-- Уменьшает СР всех противников вокруг. Потребляет 1 ед. Крови Дракона. Нельзя использовать на Олимпиаде/ Фестивале Хаоса. -->
+		<set name="debuff" value="true"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="effectPoint" value="-405"/>
+		<set name="icon" value="icon.fafurion_raging_waves_i00"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="36415"/> <!-- Кровь Дракона -->
+		<set name="itemConsumeCount" value="1"/>
+		<set name="affect_range" value="250"/>
+		<for>
+			<effect>
+				<mul stat="maxCp" value="0.4"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="35273" levels="1" name="Dandy's Blessing - Combat">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35274" levels="1" name="Dandy's Blessing - Combat">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35275" levels="1" name="Dandy's Magic Boost Blessing">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35276" levels="1" name="Dandy's Magic Boost Blessing">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35277" levels="1" name="Enhancement Effect: Krishna Shaper">
+		<set name="icon" value="icon.weapon_r110_dagger_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_skill_critical_damage value="3" type="PER"/>
+			<mul stat="maxHp" value="1.07"/>
+			<mul stat="maxMp" value="1.07"/>
+			<mul stat="maxCp" value="1.07"/>
+		</for>
+	</skill>
+	<skill id="35278" levels="1" name="Enhancement Effect: Krishna Cutter">
+		<set name="icon" value="icon.weapon_r110_onehand_sword_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_skill_critical_damage value="3" type="PER"/>
+			<mul stat="pDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="35279" levels="1" name="Enhancement Effect: Krishna Slasher">
+		<set name="icon" value="icon.weapon_r110_twohand_sword_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_skill_critical_damage value="3" type="PER"/>
+			<mul stat="pAtk" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="35280" levels="1" name="Enhancement Effect: Krishna Avenger">
+		<set name="icon" value="icon.weapon_r110_onehand_blunt_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_skill_critical_damage value="3" type="PER"/>
+			<mul stat="maxHp" value="1.07"/>
+			<mul stat="maxMp" value="1.07"/>
+			<mul stat="maxCp" value="1.07"/>
+		</for>
+	</skill>
+	<skill id="35281" levels="1" name="Enhancement Effect: Krishna Fighter">
+		<set name="icon" value="icon.weapon_r110_fist_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_critical_damage value="3" type="PER"/>
+			<add stat="attackFire" value="50"/>
+			<add stat="attackWater" value="50"/>
+			<add stat="attackWind" value="50"/>
+			<add stat="attackEarth" value="50"/>
+			<add stat="attackHoly" value="50"/>
+			<add stat="attackUnholy" value="50"/>
+		</for>
+	</skill>
+	<skill id="35282" levels="1" name="Enhancement Effect: Krishna Stormer">
+		<set name="icon" value="icon.weapon_r110_spear_i00"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="14532" level="1" type="ATTACK" chance="10"/>
+		</triggers>
+		<for>
+			<p_critical_damage value="3" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35283" levels="1" name="Enhancement Effect: Krishna Thrower">
+		<set name="icon" value="icon.weapon_r110_bow_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_skill_critical_damage value="3" type="PER"/>
+			<p_critical_damage value="3" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35284" levels="1" name="Enhancement Effect: Krishna Shooter">
+		<set name="icon" value="icon.weapon_r110_crossbow_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_skill_critical_damage value="3" type="PER"/>
+			<mul stat="p_skill_power" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="35285" levels="1" name="Enhancement Effect: Krishna Buster">
+		<set name="icon" value="icon.weapon_r110_onehand_magic_sword_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_magic_critical_dmg value="3" type="PER"/>
+			<mul stat="pDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="35286" levels="1" name="Enhancement Effect: Krishna Caster">
+		<set name="icon" value="icon.weapon_r110_onehand_magic_blunt_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_magic_critical_dmg value="3" type="PER"/>
+			<mul stat="maxHp" value="1.07"/>
+			<mul stat="maxMp" value="1.07"/>
+			<mul stat="maxCp" value="1.07"/>
+		</for>
+	</skill>
+	<skill id="35287" levels="1" name="Enhancement Effect: Krishna Retributer">
+		<set name="icon" value="icon.weapon_r110_twohand_magic_blunt_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_critical_damage value="3" type="PER"/>
+			<p_magic_critical_dmg value="3" type="PER"/>
+			<p_skill_critical_damage value="3" type="PER"/>
+			<mul stat="maxHp" value="1.07"/>
+			<mul stat="maxMp" value="1.07"/>
+			<mul stat="maxCp" value="1.07"/>
+		</for>
+	</skill>
+	<skill id="35288" levels="1" name="Enhancement Effect: Krishna Dual Sword">
+		<set name="icon" value="icon.weapon_r110_dual_sword_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_skill_critical_damage value="3" type="PER"/>
+			<mul stat="p_skill_power" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="35289" levels="1" name="Enhancement Effect: Krishna Dual Dagger">
+		<set name="icon" value="icon.weapon_r110_dual_dagger_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_skill_critical_damage value="3" type="PER"/>
+			<p_critical_damage value="3" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35290" levels="1" name="Enhancement Effect: Krishna Dual Blunt Weapon">
+		<set name="icon" value="icon.weapon_r110_dual_blunt_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_skill_critical_damage value="3" type="PER"/>
+			<mul stat="mReuse" value="0.97"/>
+			<mul stat="pReuse" value="0.97"/>
+			<mul stat="musicReuse" value="0.97"/>
+		</for>
+	</skill>
+	<skill id="35291" levels="4" name="Set Effect - Leviathan Heavy Armor, 2-piece">
+		<table name="#power"> 0 5 5 5 </table>
+		<table name="#power2"> 1 1 1.1 1.1 </table>
+		<table name="#trait"> 0 0 10 10 </table>
+		<table name="#power3"> 1 1 1 1.1 </table>
+		<table name="#element"> 0 0 0 20 </table>
+		<set name="icon" value="icon.armor_t901_u_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="3"/>
+			<add order="0x10" stat="CON" value="3"/>
+			<p_critical_damage value="#power" type="PER"/>
+			<p_skill_critical_damage value="#power" type="PER"/>
+			<mul stat="maxMp" value="#power2"/>
+			<p_defence_trait name="shock" value="#trait"/> <!-- TODO: rework on confusion -->
+			<mul stat="pAtk" value="#power3" />
+			<mul stat="pDef" value="#power3" />
+			<add stat="defenceWater" value="#element"/>
+			<add stat="defenceFire" value="#element"/>
+			<add stat="defenceWind" value="#element"/>
+			<add stat="defenceEarth" value="#element"/>
+			<add stat="defenceUnholy" value="#element"/>
+			<add stat="defenceHoly" value="#element"/>
+		</for>
+	</skill>
+	<skill id="35292" levels="4" name="Set Effect - Leviathan Light Armor, 2-piece">
+		<table name="#power"> 1 1.05 1.05 1.05 </table>
+		<table name="#power2"> 1 1 1.1 1.1 </table>
+		<table name="#trait"> 0 0 10 10 </table>
+		<table name="#atk"> 1 1 1 1.1 </table>
+		<table name="#power3"> 1 1 1 1.07 </table>
+		<table name="#heal"> 0 0 0 7 </table>
+		<table name="#element"> 0 0 0 20 </table>
+		<set name="icon" value="icon.armor_t902_u_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="3"/>
+			<add order="0x10" stat="DEX" value="3"/>
+			<mul stat="p_skill_power" value="#power"/>
+			<mul stat="mSkillPower" value="#power"/>
+			<mul stat="maxHp" value="#power2"/>
+			<p_defence_trait name="shock" value="#trait"/> <!-- TODO: rework on confusion -->
+			<mul stat="pAtk" value="#atk" />
+			<mul stat="mAtk" value="#atk" />
+			<mul stat="pDef" value="#power3" />
+			<mul stat="mDef" value="#power3" />
+			<p_heal_effect value="#heal" type="PER"/>
+			<add stat="defenceWater" value="#element"/>
+			<add stat="defenceFire" value="#element"/>
+			<add stat="defenceWind" value="#element"/>
+			<add stat="defenceEarth" value="#element"/>
+			<add stat="defenceUnholy" value="#element"/>
+			<add stat="defenceHoly" value="#element"/>
+		</for>
+	</skill>
+	<skill id="35293" levels="4" name="Set Effect - Leviathan Robe, 2-piece">
+		<table name="#power"> 1 1.05 1.05 1.05 </table>
+		<table name="#power2"> 1 1 1.1 1.1 </table>
+		<table name="#trait"> 0 0 10 10 </table>
+		<table name="#power3"> 1 1 1 1.15 </table>
+		<table name="#heal"> 0 0 0 10 </table>
+		<table name="#element"> 0 0 0 20 </table>
+		<set name="icon" value="icon.armor_t903_u_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="INT" value="3"/>
+			<add order="0x10" stat="CON" value="3"/>
+			<mul stat="mSkillPower" value="#power"/>
+			<mul stat="maxMp" value="#power2"/>
+			<p_defence_trait name="shock" value="#trait"/> <!-- TODO: rework on confusion -->
+			<mul stat="mAtk" value="#power3" />
+			<mul stat="mAtkSpd" value="#power3" />
+			<p_heal_effect value="#heal" type="PER"/>
+			<add stat="defenceWater" value="#element"/>
+			<add stat="defenceFire" value="#element"/>
+			<add stat="defenceWind" value="#element"/>
+			<add stat="defenceEarth" value="#element"/>
+			<add stat="defenceUnholy" value="#element"/>
+			<add stat="defenceHoly" value="#element"/>
+		</for>
+	</skill>
+	<skill id="35294" levels="1" name="Enhancement Effect: Leviathan Shield">
+		<set name="icon" value="icon.weapon_r110_shield"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35295" levels="1" name="Enhancement Effect: Leviathan Sigil">
+		<!-- Скор. Маг. +5%, мощность маг. умений +2%, мощность физ. умений -10%. -->
+		<set name="icon" value="icon.weapon_r110_sigil"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtkSpd" value="1.05"/>
+			<mul stat="mSkillPower" value="1.02"/>
+			<mul stat="p_skill_power" value="1.10"/>
+		</for>
+	</skill>
+	<skill id="35296" levels="1" name="Krishna Cutter Special Ability">
+		<set name="icon" value="icon.weapon_r110_onehand_sword_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="4"/>
+			<add stat="pCritRate" value="30"/>
+		</for>
+	</skill>
+	<skill id="35297" levels="1" name="Krishna Slasher Special Ability">
+		<set name="icon" value="icon.weapon_r110_twohand_sword_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.05" />
+		</for>
+	</skill>
+	<skill id="35298" levels="1" name="Krishna Avenger Special Ability">
+		<set name="icon" value="icon.weapon_r110_onehand_blunt_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="4"/>
+			<mul stat="p_skill_power" value="1.02"/>
+			<mul stat="mSkillPower" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="35299" levels="1" name="Krishna Shaper Special Ability">
+		<set name="icon" value="icon.weapon_r110_dagger_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAccCombat" value="4"/>
+			<p_skill_critical_damage value="2" type="PER"/>
+		</for>
+	</skill>
+</list>

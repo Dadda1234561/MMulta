@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="29371" levels="1" name="Mammon's Treasure Chest">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29372" levels="1" name="Gold Bar Pouch">
+		<set name="icon" value="icon.bm_strongbox"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29373" levels="1" name="Treasure Chest of Ancient Kingdom">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29374" levels="1" name="Glittering Freya's Ice Rose">
+		<!-- На 30 мин. Макс. HP/ MP/ CP +30%, Физ. Атк./ Маг. Атк./ Физ. Защ./ Маг. Защ. +35%, Скор. Атк./ Скор. Маг. +10%, Скорость +20, атака стихией/ защита от стихий +200, урон +12%, мощность физ./ маг. умений +12%, бонус опыта и SP +40%, получаемый урон -15%, расход MP для умений -15%. Эффект сохраняется после смерти. -->
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_ice_rose"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="29677"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="cancelable" value="false"/>
+		<set name="buff_slot_type" value="2"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.30"/>
+				<mul stat="maxMp" value="1.30"/>
+				<mul stat="maxCp" value="1.30"/>
+				<mul stat="pAtk" value="1.35"/>
+				<mul stat="mAtk" value="1.35"/>
+				<mul stat="pDef" value="1.35"/>
+				<mul stat="mDef" value="1.35"/>
+				<mul stat="pAtkSpd" value="1.10"/>
+				<mul stat="mAtkSpd" value="1.10"/>
+				<add stat="runSpd" value="20"/>
+				<add stat="attackFire" value="200"/>
+				<add stat="attackWater" value="200"/>
+				<add stat="attackWind" value="200"/>
+				<add stat="attackEarth" value="200"/>
+				<add stat="attackHoly" value="200"/>
+				<add stat="attackUnholy" value="200"/>
+				<add stat="defenceWater" value="200"/>
+				<add stat="defenceFire" value="200"/>
+				<add stat="defenceWind" value="200"/>
+				<add stat="defenceEarth" value="200"/>
+				<add stat="defenceHoly" value="200"/>
+				<add stat="defenceUnholy" value="200"/>
+				<mul stat="pvpPhysDmgBonus" value="1.12"/>
+				<mul stat="pvpPhysSkillDmgBonus" value="1.12"/>
+				<mul stat="pvpMagicSkillDmgBonus" value="1.12"/>
+				<mul stat="pvePhysDmgBonus" value="1.12"/>
+				<mul stat="pveMagicSkillDmgBonus" value="1.12"/>
+				<mul stat="pvePhysSkillDmgBonus" value="1.12"/>
+				<mul stat="p_skill_power" value="1.12"/>
+				<mul stat="mSkillPower" value="1.12"/>
+				<add stat="exp_rate_multiplier" value="0.40"/>
+				<add stat="sp_rate_multiplier" value="0.40"/>
+				<mul stat="pvpPhysDefenceBonus" value="1.15"/>
+				<mul stat="pvpPhysSkillDefenceBonus" value="1.15"/>
+				<mul stat="pvpMagicSkillDefenceBonus" value="1.15"/>
+				<mul stat="pvePhysDefenceBonus" value="1.15"/>
+				<mul stat="pvePhysSkillDefenceBonus" value="1.15"/>
+				<mul stat="pveMagicSkillDefenceBonus" value="1.15"/>
+				<mul stat="mpConsum" value="0.85"/>
+				<mul stat="mpConsumePhysical" value="0.85"/>
+				<mul stat="mpDanceConsume" value="0.85"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="29375" levels="1" name="Glittering Freya's Scroll of Storm">
+		<!-- На 10 мин. во время охоты расход энергии +200%, бонус опыта и SP +200%. Эффект сохраняется после смерти. Время перезарядки: 9 мин. -->
+		<set name="icon" value="icon.bm_freya_storm_scroll"/>
+		<set name="reuseDelay" value="540000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="EVENT_BUF3"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<for>
+			<effect>
+				<add stat="exp_rate_multiplier" value="2.0"/>
+				<add stat="sp_rate_multiplier" value="2.0"/>
+				<mul stat="vitality_consume" value="3.0"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="29376" levels="1" name="Ride Silver Strider">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill1373"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29377" levels="1" name="Silver Strider Rider Scroll">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29378" levels="1" name="Ride Black Strider">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill1373"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29379" levels="1" name="Black Strider Rider Scroll">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29380" levels="1" name="Ride Iron Strider">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill1373"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29381" levels="1" name="Iron Strider Rider Scroll">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29382" levels="1" name="Heir's Radiance Lv. 1">
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29383" levels="1" name="Heir's Radiance Lv. 2">
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29384" levels="1" name="Heir's Radiance Lv. 3">
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29385" levels="1" name="Heir's Radiance Lv. 4">
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29386" levels="1" name="Heir's Radiance Lv. 1">
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29387" levels="1" name="Heir's Radiance Lv. 2">
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29388" levels="1" name="Heir's Radiance Lv. 3">
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29389" levels="1" name="Heir's Radiance Lv. 4">
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29390" levels="5" name="Heir's Radiance - PvE">
+		<table name="#reuseDelay">21600000 0 0 0 0</table>
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29391" levels="5" name="Heir's Radiance - PvP">
+		<table name="#reuseDelay">21600000 0 0 0 0</table>
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29392" levels="1" name="Vitality Recovery">
+		<set name="icon" value="BranchSys.br_rudolf_food_red_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29393" levels="6" name="Warrior's Heir">
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29394" levels="6" name="Wizard's Heir">
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29395" levels="6" name="Knight's Heir">
+		<set name="icon" value="BranchIcon.icon.g_bm_ring_of_light"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29396" levels="1" name="Dragon Fighter">
+		<set name="icon" value="icon.skill5860"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29397" levels="1" name="Freya's Fortune Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29398" levels="1" name="Sirra's Fortune Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29399" levels="1" name="Snowman's Fortune Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

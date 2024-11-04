@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+    <config no_tax="true" type="CHANCED"/>
+
+    <!-- Легендарные Краски -->
+    <item>
+        <production id="106700" count="1" chance="100000000" /> <!-- Легендарная Краска Атаки -->
+        <ingredient id="106571" count="1"/>
+        <ingredient id="106572" count="1"/>
+        <ingredient id="106573" count="1"/>
+        <ingredient id="106574" count="1"/>
+        <ingredient id="106434" count="10"/>
+    </item>
+    <item>
+        <production id="106701" count="1" chance="100000000" /> <!-- Легендарная Краска Защиты -->
+        <ingredient id="106575" count="1"/>
+        <ingredient id="106576" count="1"/>
+        <ingredient id="106577" count="1"/>
+        <ingredient id="106578" count="1"/>
+        <ingredient id="106434" count="10"/>
+    </item>
+    <item>
+        <production id="106702" count="1" chance="100000000" /> <!-- Легендарная Краска Поддержки -->
+        <ingredient id="106579" count="1"/>
+        <ingredient id="106580" count="1"/>
+        <ingredient id="106581" count="1"/>
+        <ingredient id="106582" count="1"/>
+        <ingredient id="106434" count="10"/>
+    </item>
+</list>

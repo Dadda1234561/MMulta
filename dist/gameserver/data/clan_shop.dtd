@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!ELEMENT list (product)*>
+
+	<!ELEMENT product (#PCDATA)>
+	<!ATTLIST product
+		clan_level CDATA #REQUIRED
+		item_id CDATA #REQUIRED
+		item_count CDATA #REQUIRED
+		adena CDATA #IMPLIED
+		fame CDATA #IMPLIED>

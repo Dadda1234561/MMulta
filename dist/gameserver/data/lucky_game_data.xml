@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "lucky_game_data.dtd">
+<!--AUTHOR: BONUX-->
+<!--Example:
+<game type="NORMAL" games_limit="1" reuse="30 6 * * *">
+
+type - Type of game. Game type should not coincide with the other games.
+fee_item_id - Item ID for fee of game (-1 - Premium points).
+fee_item_count - Items count for fee of game.
+games_limit - Games limit.
+reuse - Time in CRON format for refresh game limit counter.
+
+unique_reward_games_count - Played games on server for roll unique rewards.
+additional_rewards_games_count - Played games by player for roll additional rewards.
+-->
+<list>
+	<config allow="true" unique_reward_games_count="50" additional_rewards_games_count="100"/>
+	<game type="NORMAL" fee_item_id="23768" fee_item_count="1">
+		<common_rewards>
+			<item id="48830" min_count="1" max_count="1" chance="10"/>
+			<item id="80842" min_count="1" max_count="1" chance="10"/>
+			<item id="82076" min_count="1" max_count="1" chance="10"/>
+			<item id="46709" min_count="1" max_count="1" chance="10"/>
+			<item id="48642" min_count="1" max_count="1" chance="5"/>
+			<item id="24333" min_count="1" max_count="1" chance="5"/>
+			<item id="105250" min_count="1" max_count="1" chance="10"/>
+			<item id="105252" min_count="1" max_count="1" chance="10"/>
+			<item id="104033" min_count="1" max_count="1" chance="3"/>
+			<item id="104036" min_count="1" max_count="1" chance="3"/>
+			<item id="104039" min_count="1" max_count="1" chance="3"/>
+			<item id="104042" min_count="1" max_count="1" chance="3"/>
+			<item id="104045" min_count="1" max_count="1" chance="3"/>
+			<item id="104048" min_count="1" max_count="1" chance="3"/>
+			<item id="20551" min_count="1" max_count="1" chance="3"/>
+			<item id="23743" min_count="1" max_count="1" chance="3"/>
+			<item id="37579" min_count="1" max_count="1" chance="5"/>
+			<item id="37580" min_count="1" max_count="1" chance="5"/>
+			<item id="37581" min_count="1" max_count="1" chance="5"/>
+			<item id="37582" min_count="1" max_count="1" chance="5"/>
+			<item id="37583" min_count="1" max_count="1" chance="5"/>
+			<item id="30298" min_count="1" max_count="1" chance="30"/>
+			<item id="46151" min_count="1" max_count="1" chance="20"/>
+			<item id="46155" min_count="1" max_count="1" chance="10"/>
+			<item id="70033" min_count="10" max_count="10" chance="5"/>
+		</common_rewards>
+		<unique_rewards>
+			<item id="48830" min_count="1" max_count="1" chance="20"/>
+			<item id="80842" min_count="1" max_count="1" chance="20"/>
+			<item id="82076" min_count="1" max_count="1" chance="20"/>
+			<item id="46709" min_count="1" max_count="1" chance="20"/>
+			<item id="48642" min_count="1" max_count="1" chance="10"/>
+			<item id="24333" min_count="1" max_count="1" chance="10"/>
+			<item id="105250" min_count="1" max_count="1" chance="15"/>
+			<item id="105252" min_count="1" max_count="1" chance="15"/>
+			<item id="104033" min_count="1" max_count="1" chance="6"/>
+			<item id="104036" min_count="1" max_count="1" chance="6"/>
+			<item id="104039" min_count="1" max_count="1" chance="6"/>
+			<item id="104042" min_count="1" max_count="1" chance="6"/>
+			<item id="104045" min_count="1" max_count="1" chance="6"/>
+			<item id="104048" min_count="1" max_count="1" chance="6"/>
+			<item id="20551" min_count="1" max_count="1" chance="5"/>
+			<item id="23743" min_count="1" max_count="1" chance="5"/>
+			<item id="37579" min_count="1" max_count="1" chance="7"/>
+			<item id="37580" min_count="1" max_count="1" chance="7"/>
+			<item id="37581" min_count="1" max_count="1" chance="7"/>
+			<item id="37582" min_count="1" max_count="1" chance="7"/>
+			<item id="37583" min_count="1" max_count="1" chance="7"/>
+			<item id="30298" min_count="1" max_count="1" chance="40"/>
+			<item id="46151" min_count="1" max_count="1" chance="30"/>
+			<item id="46155" min_count="1" max_count="1" chance="20"/>
+			<item id="70033" min_count="10" max_count="10" chance="10"/>
+		</unique_rewards>
+	</game>
+	<game type="PREMIUM" fee_item_id="45869" fee_item_count="1">
+		<common_rewards>
+			<item id="48830" min_count="2" max_count="2" chance="30"/>
+			<item id="80842" min_count="2" max_count="2" chance="30"/>
+			<item id="82076" min_count="2" max_count="2" chance="30"/>
+			<item id="46709" min_count="2" max_count="2" chance="30"/>
+			<item id="48642" min_count="1" max_count="1" chance="15"/>
+			<item id="105250" min_count="1" max_count="1" chance="10"/>
+			<item id="105252" min_count="1" max_count="1" chance="10"/>
+			<item id="104033" min_count="1" max_count="1" chance="10"/>
+			<item id="104036" min_count="1" max_count="1" chance="10"/>
+			<item id="104039" min_count="1" max_count="1" chance="10"/>
+			<item id="104042" min_count="1" max_count="1" chance="10"/>
+			<item id="104045" min_count="1" max_count="1" chance="10"/>
+			<item id="104048" min_count="1" max_count="1" chance="10"/>
+			<item id="20551" min_count="1" max_count="1" chance="8"/>
+			<item id="23746" min_count="1" max_count="1" chance="8"/>
+			<item id="37579" min_count="1" max_count="1" chance="20"/>
+			<item id="37580" min_count="1" max_count="1" chance="20"/>
+			<item id="37581" min_count="1" max_count="1" chance="20"/>
+			<item id="37582" min_count="1" max_count="1" chance="20"/>
+			<item id="37583" min_count="1" max_count="1" chance="20"/>
+			<item id="30298" min_count="1" max_count="1" chance="50"/>
+			<item id="46151" min_count="1" max_count="1" chance="40"/>
+			<item id="46155" min_count="1" max_count="1" chance="30"/>
+			<item id="70033" min_count="20" max_count="20" chance="10"/>
+			<item id="46444" min_count="1" max_count="1" chance="10"/>
+			<item id="46459" min_count="1" max_count="1" chance="10"/>
+			<item id="46474" min_count="1" max_count="1" chance="10"/>
+			<item id="46489" min_count="1" max_count="1" chance="10"/>
+			<item id="46504" min_count="1" max_count="1" chance="10"/>
+			<item id="48899" min_count="1" max_count="1" chance="7"/>
+			<item id="48909" min_count="1" max_count="1" chance="15"/>
+
+
+			<item id="48910" min_count="1" max_count="1" chance="3"/>
+			<item id="19440" min_count="5" max_count="5" chance="20"/>
+			<item id="17371" min_count="5" max_count="5" chance="20"/>
+			<item id="36513" min_count="5" max_count="5" chance="10"/>
+			<item id="70026" min_count="5" max_count="5" chance="10"/>
+			<item id="48603" min_count="50" max_count="110" chance="30"/>
+		</common_rewards>
+		<unique_rewards>
+			<item id="48830" min_count="2" max_count="2" chance="40"/>
+			<item id="80842" min_count="2" max_count="2" chance="40"/>
+			<item id="82076" min_count="2" max_count="2" chance="40"/>
+			<item id="46709" min_count="2" max_count="2" chance="40"/>
+			<item id="48642" min_count="1" max_count="1" chance="20"/>
+			<item id="105250" min_count="1" max_count="1" chance="20"/>
+			<item id="105252" min_count="1" max_count="1" chance="20"/>
+			<item id="104033" min_count="1" max_count="1" chance="20"/>
+			<item id="104036" min_count="1" max_count="1" chance="20"/>
+			<item id="104039" min_count="1" max_count="1" chance="20"/>
+			<item id="104042" min_count="1" max_count="1" chance="20"/>
+			<item id="104045" min_count="1" max_count="1" chance="20"/>
+			<item id="104048" min_count="1" max_count="1" chance="20"/>
+			<item id="20551" min_count="1" max_count="1" chance="10"/>
+			<item id="23746" min_count="1" max_count="1" chance="10"/>
+			<item id="37579" min_count="1" max_count="1" chance="30"/>
+			<item id="37580" min_count="1" max_count="1" chance="30"/>
+			<item id="37581" min_count="1" max_count="1" chance="30"/>
+			<item id="37582" min_count="1" max_count="1" chance="30"/>
+			<item id="37583" min_count="1" max_count="1" chance="30"/>
+			<item id="30298" min_count="1" max_count="1" chance="60"/>
+			<item id="46151" min_count="1" max_count="1" chance="50"/>
+			<item id="46155" min_count="1" max_count="1" chance="40"/>
+			<item id="70033" min_count="20" max_count="20" chance="10"/>
+			<item id="46444" min_count="1" max_count="1" chance="15"/>
+			<item id="46459" min_count="1" max_count="1" chance="15"/>
+			<item id="46474" min_count="1" max_count="1" chance="15"/>
+			<item id="46489" min_count="1" max_count="1" chance="15"/>
+			<item id="46504" min_count="1" max_count="1" chance="15"/>
+			<item id="48899" min_count="1" max_count="1" chance="10"/>
+			<item id="48909" min_count="1" max_count="1" chance="20"/>
+
+
+			<item id="48910" min_count="1" max_count="1" chance="5"/>
+			<item id="19440" min_count="5" max_count="5" chance="25"/>
+			<item id="17371" min_count="5" max_count="5" chance="25"/>
+			<item id="36513" min_count="5" max_count="5" chance="15"/>
+			<item id="70026" min_count="5" max_count="5" chance="15"/>
+			<item id="48603" min_count="70" max_count="150" chance="50"/>
+		</unique_rewards>
+	</game>
+</list>

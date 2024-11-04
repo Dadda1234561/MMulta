@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT list (resource)*>
+<!ELEMENT resource (ingredients|production|unlock)*>
+<!ATTLIST resource
+        cook_time CDATA #REQUIRED
+        slot CDATA #REQUIRED
+        id CDATA #REQUIRED
+        name CDATA #REQUIRED>
+<!ELEMENT unlock (item)*>
+<!ELEMENT ingredients (item)*>
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+        count CDATA #REQUIRED
+        id CDATA #REQUIRED>
+<!ELEMENT production (item)*>
+<!ATTLIST production
+        type CDATA #IMPLIED>

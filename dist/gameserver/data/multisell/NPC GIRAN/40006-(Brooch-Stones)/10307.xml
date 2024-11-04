@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<config show_all="true" no_tax="true" keep_enchanted="false" />
+	<!-- Брошшь -->
+	<item>
+		<production id="104051" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1890" count="500"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="4045" count="20"/>
+	</item>
+	<item>
+		<production id="104052" count="1"/>
+		<ingredient id="104051" count="1"/>
+		<ingredient id="70034" count="600"/>
+		<ingredient id="9599" count="5000"/>
+		<ingredient id="70009" count="300"/>
+		<ingredient id="70016" count="300"/>
+		<ingredient id="70000" count="5"/>
+		<ingredient id="70018" count="3"/>
+	</item>
+	<item>
+		<production id="104053" count="1"/>
+		<ingredient id="104052" count="1"/>
+		<ingredient id="28359" count="2000"/>
+		<ingredient id="70034" count="3000"/>
+		<ingredient id="9599" count="20000"/>
+		<ingredient id="70009" count="700"/>
+		<ingredient id="70016" count="700"/>
+		<ingredient id="70000" count="10"/>
+		<ingredient id="70018" count="10"/>
+		<ingredient id="70001" count="20"/>
+		<ingredient id="70026" count="50"/>
+	</item>
+	<item>
+		<production id="104054" count="1"/>
+		<ingredient id="104053" count="1"/>
+		<ingredient id="26475" count="100"/>
+		<ingredient id="70034" count="10000"/>
+		<ingredient id="9599" count="50000"/>
+		<ingredient id="70009" count="2000"/>
+		<ingredient id="70016" count="2000"/>
+		<ingredient id="70000" count="20"/>
+		<ingredient id="70018" count="30"/>
+		<ingredient id="70001" count="50"/>
+		<ingredient id="70031" count="20"/>
+	</item>
+	<item>
+		<production id="104055" count="1"/>
+		<ingredient id="104054" count="1"/>
+		<ingredient id="26475" count="100"/>
+		<ingredient id="70034" count="25000"/>
+		<ingredient id="70020" count="8000"/>
+		<ingredient id="70024" count="8000"/>
+		<ingredient id="70000" count="30"/>
+		<ingredient id="70018" count="50"/>
+		<ingredient id="70001" count="100"/>
+		<ingredient id="70031" count="50"/>
+	</item>
+</list>

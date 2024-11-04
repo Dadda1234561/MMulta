@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Blazing Swamp" min_level="92" max_level="102">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="163722 -23720 -5000 3000"/>
+				<coords loc="131173 -24091 -5000 3000"/>
+				<coords loc="130872 -4920 -5000 3000"/>
+				<coords loc="162054 -6705 -5000 3000"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="155512 -16344 -3264"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</go_to_town>
+</farm>

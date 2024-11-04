@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+    <npc id="50100" name="Фантом" title="">
+        <set name="type" value="Pet"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="collision_height" value="23.0"/>
+        <set name="collision_radius" value="9"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="16041"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpMax" value="1491"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="120"/>
+        <set name="baseMCritRate" value="48"/>
+        <set name="basePAtk" value="6039.86373"/>
+        <set name="basePDef" value="3644.91597"/>
+        <set name="basePAtkSpd" value="415"/>
+        <set name="baseMAtk" value="3805.40463"/>
+        <set name="baseMDef" value="4914.53847"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <skills>
+            <skill id="120266" level="1"/>	<!-- Притягивание Фантома -->
+        </skills>
+    </npc>
+    <npc id="50101" name="Фантом" title="">
+        <set name="type" value="Pet"/>
+        <set name="ai_type" value="NpcAI"/>
+        <set name="collision_height" value="23.0"/>
+        <set name="collision_radius" value="7.5"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="16041"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseMpMax" value="1491"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="baseSTR" value="89"/>
+        <set name="baseCON" value="82"/>
+        <set name="baseDEX" value="55"/>
+        <set name="baseINT" value="79"/>
+        <set name="baseMEN" value="78"/>
+        <set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="120"/>
+        <set name="baseMCritRate" value="48"/>
+        <set name="basePAtk" value="6039.86373"/>
+        <set name="basePDef" value="3644.91597"/>
+        <set name="basePAtkSpd" value="415"/>
+        <set name="baseMAtk" value="3805.40463"/>
+        <set name="baseMDef" value="4914.53847"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <skills>
+            <skill id="120268" level="1"/>	<!-- Проклятие Фантома -->
+        </skills>
+    </npc>
+</list>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Blackbird Campsite" min_level="95" max_level="105">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="-61320 70536 -5000 0"/>
+				<coords loc="-64760 35560 -5000 0"/>
+				<coords loc="-39064 38328 -5000 0"/>
+				<coords loc="-36936 60104 -5000 0"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="-48120 69160 -3088"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</go_to_town>
+</farm>

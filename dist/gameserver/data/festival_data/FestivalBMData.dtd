@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT list (item)*>
+
+<!ELEMENT item (#PCDATA)*>
+<!ATTLIST item
+	id CDATA #REQUIRED
+	count CDATA #REQUIRED
+	totalCount CDATA #REQUIRED
+	chance CDATA #REQUIRED
+	locationId CDATA #REQUIRED>

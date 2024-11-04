@@ -1,0 +1,1864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<weapon id="80900" name="Bloodstained Akamanah Dual Blunt Weapon">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.aka_manaf_dual_blunt_2"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="3027"/>
+			<add stat="mAtk" order="0x10" value="1084"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<etcitem id="80901" name="Zariche's Blood">
+		<set name="icon" value="icon.zariche_blood"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1000000"/>
+	</etcitem>
+	<etcitem id="80902" name="Akamanah's Blood">
+		<set name="icon" value="icon.aka_manaf_blood"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="1000000"/>
+	</etcitem>
+	<etcitem id="80903" name="Zariche's Sealed Box">
+		<set name="icon" value="icon.zariche_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80904" name="Akamanah's Sealed Box">
+		<set name="icon" value="icon.aka_manaf_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80905" name="Storm Isle's Time Stone" add_name="Event">
+		<set name="icon" value="icon.timezone_refill_1"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="POTION"/>
+		<skills>
+			<skill id="39542" level="1" /> <!-- Storm Isle's Time Stone -->
+		</skills>
+	</etcitem>
+	<etcitem id="80906" name="Primeval Isle's Time Stone" add_name="Event">
+		<set name="icon" value="icon.timezone_refill_2"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="POTION"/>
+		<skills>
+			<skill id="39543" level="1" /> <!-- Primeval Isle's Time Stone -->
+		</skills>
+	</etcitem>
+	<etcitem id="80907" name="PA Summoning Stick">
+		<set name="icon" value="BranchSys2.icon.br_blessed_taigirl_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80908" name="Lv. 95 Achievement Reward Box">
+		<set name="icon" value="icon.ev_2018_xmas_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="47736" min_count="15" max_count="15" chance="100.0"/>	<!-- Благословение Паагрио - Могущество Ивент -->
+			<capsuled_item id="33794" min_count="100000" max_count="100000" chance="100.0"/>	<!-- Благословенный Заряд Духа: Ранг R Ивент -->
+			<capsuled_item id="48072" min_count="1" max_count="1" chance="100.0"/>	<!-- Браслет Семени Низкого Качества 15 д. -->
+			<capsuled_item id="48124" min_count="1" max_count="1" chance="100.0"/>	<!-- Брелок Агатиона: Фея -->
+			<capsuled_item id="33780" min_count="100000" max_count="100000" chance="100.0"/>	<!-- Заряд Души: Ранг R Ивент -->
+			<capsuled_item id="33640" min_count="10" max_count="10" chance="100.0"/>	<!-- Свиток Благ. Телепорта -->
+			<capsuled_item id="39634" min_count="1" max_count="1" chance="100.0"/>	<!-- Талисман Бенира Ур. 1 -->
+			<capsuled_item id="34985" min_count="1" max_count="1" chance="100.0"/>	<!-- Талисман Разрушения -->
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="80909" name="Lv. 99 Achievement Reward Box">
+		<set name="icon" value="icon.ev_2018_xmas_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="47736" min_count="25" max_count="25" chance="100.0"/>	<!-- Благословение Паагрио - Могущество Ивент -->
+			<capsuled_item id="33794" min_count="100000" max_count="100000" chance="100.0"/>	<!-- Благословенный Заряд Духа: Ранг R Ивент -->
+			<capsuled_item id="38891" min_count="1" max_count="1" chance="100.0"/>	<!-- Бриллиант Ур. 2 -->
+			<capsuled_item id="38768" min_count="1" max_count="1" chance="100.0"/>	<!-- Брошь Лавианроз Ур. 1 -->
+			<capsuled_item id="38896" min_count="1" max_count="1" chance="100.0"/>	<!-- Жемчуг Ур. 2 -->
+			<capsuled_item id="33780" min_count="100000" max_count="100000" chance="100.0"/>	<!-- Заряд Души: Ранг R Ивент -->
+			<capsuled_item id="38881" min_count="1" max_count="1" chance="100.0"/>	<!-- Изумруд Ур. 2 -->
+			<capsuled_item id="33640" min_count="10" max_count="10" chance="100.0"/>	<!-- Свиток Благ. Телепорта -->
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="80910" name="Lv. 100 Achievement Reward Box">
+		<set name="icon" value="icon.ev_2018_xmas_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="33794" min_count="100000" max_count="100000" chance="100.0"/>	<!-- Благословенный Заряд Духа: Ранг R Ивент -->
+			<capsuled_item id="33780" min_count="100000" max_count="100000" chance="100.0"/>	<!-- Заряд Души: Ранг R Ивент -->
+			<capsuled_item id="48848" min_count="35" max_count="35" chance="100.0"/>	<!-- Ледяная Роза Фреи Ивент -->
+			<capsuled_item id="47044" min_count="1" max_count="1" chance="100.0"/>	<!-- Пояс Рядового Рейнджера -->
+			<capsuled_item id="33640" min_count="10" max_count="10" chance="100.0"/>	<!-- Свиток Благ. Телепорта -->
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="80911" name="+5 Warrior's Circlet Box">
+		<set name="icon" value="icon.etc_equip_item_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="48202" min_count="1" max_count="1" chance="100.0" enchant_level="5"/>	<!-- Диадема Берсерка +5 -->
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="80912" name="+5 Wizard's Circlet Box">
+		<set name="icon" value="icon.etc_equip_item_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="48205" min_count="1" max_count="1" chance="100.0" enchant_level="5"/>	<!-- Диадема Мага +5 -->
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="80913" name="+5 Knight's Circlet Box">
+		<set name="icon" value="icon.etc_equip_item_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<capsuled_item id="48208" min_count="1" max_count="1" chance="100.0" enchant_level="5"/>	<!-- Диадема Стража +5 -->
+		</capsuled_items>
+	</etcitem>
+	<etcitem id="80914" name="Red Libra Request - Ivory Tower Crater">
+		<set name="icon" value="icon.red_comminssion_paper"/>
+		<set name="weight" value="1"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80915" name="Red Libra Request - Breka's Stronghold">
+		<set name="icon" value="icon.red_comminssion_paper"/>
+		<set name="weight" value="1"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80916" name="Red Libra Request - Isle of Prayer">
+		<set name="icon" value="icon.red_comminssion_paper"/>
+		<set name="weight" value="1"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80917" name="Red Libra Request - Ivory Tower Crater">
+		<set name="icon" value="icon.red_comminssion_paper"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80918" name="Red Libra Request - Breka's Stronghold">
+		<set name="icon" value="icon.red_comminssion_paper"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80919" name="Red Libra Request - Isle of Prayer">
+		<set name="icon" value="icon.red_comminssion_paper"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80920" name="Emperor's Vitality Tonic" add_name="Event">
+		<set name="icon" value="icon.etc_recall_potion3"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="autouse_type" value="BUFF"/>
+	</etcitem>
+	<etcitem id="80921" name="Lindvior's Treasure Chest">
+		<set name="icon" value="icon.bm_dragon_present_4"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80922" name="Caring Rok's Icy Candy">
+		<set name="icon" value="icon.etc_whiteday_candy_i04"/>
+		<set name="weight" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="autouse_type" value="BUFF"/>
+	</etcitem>
+	<etcitem id="80923" name="Caring Rok's Candy Full of Passion">
+		<set name="icon" value="icon.etc_whiteday_candy_i03"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="autouse_type" value="BUFF"/>
+	</etcitem>
+	<etcitem id="80924" name="Spellbook: Renewed Energy of Power">
+		<set name="icon" value="icon.giant_book_i02"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80925" name="Potion of Protection: Confusion">
+		<set name="icon" value="icon.etc_fruit_juice_glass_bottle_i01"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="80926" name="Potion of Protection: Infection">
+		<set name="icon" value="icon.etc_fruit_juice_glass_bottle_i00"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="80927" name="Potion of Protection: Obstruction">
+		<set name="icon" value="icon.etc_fruit_juice_glass_bottle_i04"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="80928" name="Potion of Protection: Stupor">
+		<set name="icon" value="icon.etc_fruit_juice_glass_bottle_i07"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="80929" name="Package: Mysterious R-grade Soulshots" add_name="Event">
+		<set name="icon" value="icon.br_cash_pack_of_soulshot_r_i00"/>
+		<set name="weight" value="500"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80930" name="Package: Mysterious Blessed R-grade Spiritshots" add_name="Event">
+		<set name="icon" value="icon.br_cash_pack_of_spiritshot_r_i00"/>
+		<set name="weight" value="500"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80931" name="Cube of Enhanced Zodiac Agathion">
+		<set name="icon" value="icon.star_agathion_cube_2"/>
+		<set name="weight" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="80932" name="Greater Zodiac Agathion's Book of Growth">
+		<set name="icon" value="icon.star_scrl_of_ench_ag_2"/>
+		<set name="weight" value="120"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+	</etcitem>
+	<etcitem id="80933" name="Greater Zodiac Agathion's Book of Growth Box" add_name="Event">
+		<set name="icon" value="icon.etc_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80934" name="Festival Fairy's Crystal Box" add_name="Event">
+		<set name="icon" value="icon.event_six_party_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80935" name="Small Fairy's Lucky Coin Pack" add_name="Not used">
+		<set name="icon" value="icon.etc_treasure_box_i10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<armor id="80936" name="Greater Agathion Virgo Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_virgo_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<agathion_data>
+			<enchant level="0">
+				<sub_skills>
+					<skill id="120152" level="1"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<sub_skills>
+					<skill id="120152" level="2"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<sub_skills>
+					<skill id="120152" level="3"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<sub_skills>
+					<skill id="120152" level="4"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<sub_skills>
+					<skill id="120152" level="5"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<sub_skills>
+					<skill id="120152" level="6"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<sub_skills>
+					<skill id="120152" level="7"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<sub_skills>
+					<skill id="120152" level="8"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<sub_skills>
+					<skill id="120152" level="9"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<sub_skills>
+					<skill id="120152" level="10"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<sub_skills>
+					<skill id="120152" level="11"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<armor id="80937" name="Greater Agathion Capricorn Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_capr_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<agathion_data>
+			<enchant level="0">
+				<sub_skills>
+					<skill id="120153" level="1"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<sub_skills>
+					<skill id="120153" level="2"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<sub_skills>
+					<skill id="120153" level="3"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<sub_skills>
+					<skill id="120153" level="4"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<sub_skills>
+					<skill id="120153" level="5"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<sub_skills>
+					<skill id="120153" level="6"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<sub_skills>
+					<skill id="120153" level="7"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<sub_skills>
+					<skill id="120153" level="8"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<sub_skills>
+					<skill id="120153" level="9"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<sub_skills>
+					<skill id="120153" level="10"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<sub_skills>
+					<skill id="120153" level="11"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<armor id="80938" name="Greater Agathion Libra Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_lib_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<agathion_data>
+			<enchant level="0">
+				<sub_skills>
+					<skill id="120154" level="1"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<sub_skills>
+					<skill id="120154" level="2"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<sub_skills>
+					<skill id="120154" level="3"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<sub_skills>
+					<skill id="120154" level="4"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<sub_skills>
+					<skill id="120154" level="5"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<sub_skills>
+					<skill id="120154" level="6"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<sub_skills>
+					<skill id="120154" level="7"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<sub_skills>
+					<skill id="120154" level="8"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<sub_skills>
+					<skill id="120154" level="9"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<sub_skills>
+					<skill id="120154" level="10"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<sub_skills>
+					<skill id="120154" level="11"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<armor id="80939" name="Greater Agathion Aries Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_aries_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<agathion_data>
+			<enchant level="0">
+				<sub_skills>
+					<skill id="120155" level="1"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<sub_skills>
+					<skill id="120155" level="2"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<sub_skills>
+					<skill id="120155" level="3"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<sub_skills>
+					<skill id="120155" level="4"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<sub_skills>
+					<skill id="120155" level="5"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<sub_skills>
+					<skill id="120155" level="6"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<sub_skills>
+					<skill id="120155" level="7"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<sub_skills>
+					<skill id="120155" level="8"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<sub_skills>
+					<skill id="120155" level="9"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<sub_skills>
+					<skill id="120155" level="10"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<sub_skills>
+					<skill id="120155" level="11"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<armor id="80940" name="Greater Agathion Taurus Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_tau_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<agathion_data>
+			<enchant level="0">
+				<sub_skills>
+					<skill id="120156" level="1"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<sub_skills>
+					<skill id="120156" level="2"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<sub_skills>
+					<skill id="120156" level="3"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<sub_skills>
+					<skill id="120156" level="4"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<sub_skills>
+					<skill id="120156" level="5"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<sub_skills>
+					<skill id="120156" level="6"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<sub_skills>
+					<skill id="120156" level="7"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<sub_skills>
+					<skill id="120156" level="8"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<sub_skills>
+					<skill id="120156" level="9"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<sub_skills>
+					<skill id="120156" level="10"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<sub_skills>
+					<skill id="120156" level="11"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<armor id="80941" name="Greater Agathion Leo Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_leo_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<agathion_data>
+			<enchant level="0">
+				<sub_skills>
+					<skill id="120157" level="1"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<sub_skills>
+					<skill id="120157" level="2"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<sub_skills>
+					<skill id="120157" level="3"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<sub_skills>
+					<skill id="120157" level="4"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<sub_skills>
+					<skill id="120157" level="5"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<sub_skills>
+					<skill id="120157" level="6"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<sub_skills>
+					<skill id="120157" level="7"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<sub_skills>
+					<skill id="120157" level="8"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<sub_skills>
+					<skill id="120157" level="9"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<sub_skills>
+					<skill id="120157" level="10"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<sub_skills>
+					<skill id="120157" level="11"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<armor id="80942" name="Greater Agathion Gemini Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_gem_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<agathion_data>
+			<enchant level="0">
+				<sub_skills>
+					<skill id="120158" level="1"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<sub_skills>
+					<skill id="120158" level="2"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<sub_skills>
+					<skill id="120158" level="3"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<sub_skills>
+					<skill id="120158" level="4"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<sub_skills>
+					<skill id="120158" level="5"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<sub_skills>
+					<skill id="120158" level="6"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<sub_skills>
+					<skill id="120158" level="7"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<sub_skills>
+					<skill id="120158" level="8"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<sub_skills>
+					<skill id="120158" level="9"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<sub_skills>
+					<skill id="120158" level="10"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<sub_skills>
+					<skill id="120158" level="11"/><!--Secondary Skill: Enhanced Agathion Virgo-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<armor id="80943" name="Greater Agathion Scorpio Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_sco_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<agathion_data>
+			<enchant level="0">
+				<main_skills>
+					<skill id="35064" level="5"/><!--Primary Skill: Greater Agathion Scorpio-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35052" level="12"/><!--Secondary Skill: Enhanced Agathion Scorpio-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<main_skills>
+					<skill id="35064" level="5"/><!--Primary Skill: Greater Agathion Scorpio-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35052" level="13"/><!--Secondary Skill: Enhanced Agathion Scorpio-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<main_skills>
+					<skill id="35064" level="5"/><!--Primary Skill: Greater Agathion Scorpio-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35052" level="14"/><!--Secondary Skill: Enhanced Agathion Scorpio-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<main_skills>
+					<skill id="35064" level="5"/><!--Primary Skill: Greater Agathion Scorpio-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35052" level="15"/><!--Secondary Skill: Enhanced Agathion Scorpio-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<main_skills>
+					<skill id="35064" level="6"/><!--Primary Skill: Greater Agathion Scorpio-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35052" level="16"/><!--Secondary Skill: Enhanced Agathion Scorpio-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<main_skills>
+					<skill id="35064" level="6"/><!--Primary Skill: Greater Agathion Scorpio-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35052" level="17"/><!--Secondary Skill: Enhanced Agathion Scorpio-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<main_skills>
+					<skill id="35064" level="6"/><!--Primary Skill: Greater Agathion Scorpio-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35052" level="18"/><!--Secondary Skill: Enhanced Agathion Scorpio-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<main_skills>
+					<skill id="35064" level="7"/><!--Primary Skill: Greater Agathion Scorpio-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35052" level="19"/><!--Secondary Skill: Enhanced Agathion Scorpio-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<main_skills>
+					<skill id="35064" level="7"/><!--Primary Skill: Greater Agathion Scorpio-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35052" level="20"/><!--Secondary Skill: Enhanced Agathion Scorpio-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<main_skills>
+					<skill id="35064" level="7"/><!--Primary Skill: Greater Agathion Scorpio-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35052" level="21"/><!--Secondary Skill: Enhanced Agathion Scorpio-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<main_skills>
+					<skill id="35064" level="8"/><!--Primary Skill: Greater Agathion Scorpio-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35052" level="22"/><!--Secondary Skill: Enhanced Agathion Scorpio-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<armor id="80944" name="Greater Agathion Aquarius Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_aqu_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<agathion_data>
+			<enchant level="0">
+				<main_skills>
+					<skill id="35065" level="5"/><!--Primary Skill: Greater Agathion Aquarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35053" level="12"/><!--Secondary Skill: Enhanced Agathion Aquarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<main_skills>
+					<skill id="35065" level="5"/><!--Primary Skill: Greater Agathion Aquarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35053" level="13"/><!--Secondary Skill: Enhanced Agathion Aquarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<main_skills>
+					<skill id="35065" level="5"/><!--Primary Skill: Greater Agathion Aquarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35053" level="14"/><!--Secondary Skill: Enhanced Agathion Aquarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<main_skills>
+					<skill id="35065" level="5"/><!--Primary Skill: Greater Agathion Aquarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35053" level="15"/><!--Secondary Skill: Enhanced Agathion Aquarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<main_skills>
+					<skill id="35065" level="6"/><!--Primary Skill: Greater Agathion Aquarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35053" level="16"/><!--Secondary Skill: Enhanced Agathion Aquarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<main_skills>
+					<skill id="35065" level="6"/><!--Primary Skill: Greater Agathion Aquarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35053" level="17"/><!--Secondary Skill: Enhanced Agathion Aquarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<main_skills>
+					<skill id="35065" level="6"/><!--Primary Skill: Greater Agathion Aquarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35053" level="18"/><!--Secondary Skill: Enhanced Agathion Aquarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<main_skills>
+					<skill id="35065" level="7"/><!--Primary Skill: Greater Agathion Aquarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35053" level="19"/><!--Secondary Skill: Enhanced Agathion Aquarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<main_skills>
+					<skill id="35065" level="7"/><!--Primary Skill: Greater Agathion Aquarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35053" level="20"/><!--Secondary Skill: Enhanced Agathion Aquarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<main_skills>
+					<skill id="35065" level="7"/><!--Primary Skill: Greater Agathion Aquarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35053" level="21"/><!--Secondary Skill: Enhanced Agathion Aquarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<main_skills>
+					<skill id="35065" level="8"/><!--Primary Skill: Greater Agathion Aquarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35053" level="22"/><!--Secondary Skill: Enhanced Agathion Aquarius-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<armor id="80945" name="Greater Agathion Pisces Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_pis_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="24"/>
+		</for>
+		<agathion_data>
+			<enchant level="0">
+				<main_skills>
+					<skill id="35066" level="5"/><!--Primary Skill: Greater Agathion Pisces-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35054" level="12"/><!--Secondary Skill: Enhanced Agathion Pisces-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<main_skills>
+					<skill id="35066" level="5"/><!--Primary Skill: Greater Agathion Pisces-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35054" level="13"/><!--Secondary Skill: Enhanced Agathion Pisces-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<main_skills>
+					<skill id="35066" level="5"/><!--Primary Skill: Greater Agathion Pisces-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35054" level="14"/><!--Secondary Skill: Enhanced Agathion Pisces-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<main_skills>
+					<skill id="35066" level="5"/><!--Primary Skill: Greater Agathion Pisces-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35054" level="15"/><!--Secondary Skill: Enhanced Agathion Pisces-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<main_skills>
+					<skill id="35066" level="6"/><!--Primary Skill: Greater Agathion Pisces-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35054" level="16"/><!--Secondary Skill: Enhanced Agathion Pisces-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<main_skills>
+					<skill id="35066" level="6"/><!--Primary Skill: Greater Agathion Pisces-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35054" level="17"/><!--Secondary Skill: Enhanced Agathion Pisces-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<main_skills>
+					<skill id="35066" level="6"/><!--Primary Skill: Greater Agathion Pisces-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35054" level="18"/><!--Secondary Skill: Enhanced Agathion Pisces-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<main_skills>
+					<skill id="35066" level="7"/><!--Primary Skill: Greater Agathion Pisces-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35054" level="19"/><!--Secondary Skill: Enhanced Agathion Pisces-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<main_skills>
+					<skill id="35066" level="7"/><!--Primary Skill: Greater Agathion Pisces-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35054" level="20"/><!--Secondary Skill: Enhanced Agathion Pisces-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<main_skills>
+					<skill id="35066" level="7"/><!--Primary Skill: Greater Agathion Pisces-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35054" level="21"/><!--Secondary Skill: Enhanced Agathion Pisces-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<main_skills>
+					<skill id="35066" level="8"/><!--Primary Skill: Greater Agathion Pisces-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35054" level="22"/><!--Secondary Skill: Enhanced Agathion Pisces-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<armor id="80946" name="Greater Agathion Sagittarius Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_sag_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="24"/>
+		</for>
+		<agathion_data>
+			<enchant level="0">
+				<main_skills>
+					<skill id="35067" level="5"/><!--Primary Skill: Greater Agathion Sagittarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35055" level="12"/><!--Secondary Skill: Enhanced Agathion Sagittarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<main_skills>
+					<skill id="35067" level="5"/><!--Primary Skill: Greater Agathion Sagittarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35055" level="13"/><!--Secondary Skill: Enhanced Agathion Sagittarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<main_skills>
+					<skill id="35067" level="5"/><!--Primary Skill: Greater Agathion Sagittarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35055" level="14"/><!--Secondary Skill: Enhanced Agathion Sagittarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<main_skills>
+					<skill id="35067" level="5"/><!--Primary Skill: Greater Agathion Sagittarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35055" level="15"/><!--Secondary Skill: Enhanced Agathion Sagittarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<main_skills>
+					<skill id="35067" level="6"/><!--Primary Skill: Greater Agathion Sagittarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35055" level="16"/><!--Secondary Skill: Enhanced Agathion Sagittarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<main_skills>
+					<skill id="35067" level="6"/><!--Primary Skill: Greater Agathion Sagittarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35055" level="17"/><!--Secondary Skill: Enhanced Agathion Sagittarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<main_skills>
+					<skill id="35067" level="6"/><!--Primary Skill: Greater Agathion Sagittarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35055" level="18"/><!--Secondary Skill: Enhanced Agathion Sagittarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<main_skills>
+					<skill id="35067" level="7"/><!--Primary Skill: Greater Agathion Sagittarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35055" level="19"/><!--Secondary Skill: Enhanced Agathion Sagittarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<main_skills>
+					<skill id="35067" level="7"/><!--Primary Skill: Greater Agathion Sagittarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35055" level="20"/><!--Secondary Skill: Enhanced Agathion Sagittarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<main_skills>
+					<skill id="35067" level="7"/><!--Primary Skill: Greater Agathion Sagittarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35055" level="21"/><!--Secondary Skill: Enhanced Agathion Sagittarius-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<main_skills>
+					<skill id="35067" level="8"/><!--Primary Skill: Greater Agathion Sagittarius-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35055" level="22"/><!--Secondary Skill: Enhanced Agathion Sagittarius-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<armor id="80947" name="Greater Agathion Cancer Charm">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.agathion_can_star_1"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="AGATHION"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="24"/>
+		</for>
+		<agathion_data>
+			<enchant level="0">
+				<main_skills>
+					<skill id="35068" level="5"/><!--Primary Skill: Greater Agathion Cancer-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35056" level="12"/><!--Secondary Skill: Enhanced Agathion Cancer-->
+				</sub_skills>
+			</enchant>
+			<enchant level="1">
+				<main_skills>
+					<skill id="35068" level="5"/><!--Primary Skill: Greater Agathion Cancer-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35056" level="13"/><!--Secondary Skill: Enhanced Agathion Cancer-->
+				</sub_skills>
+			</enchant>
+			<enchant level="2">
+				<main_skills>
+					<skill id="35068" level="5"/><!--Primary Skill: Greater Agathion Cancer-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35056" level="14"/><!--Secondary Skill: Enhanced Agathion Cancer-->
+				</sub_skills>
+			</enchant>
+			<enchant level="3">
+				<main_skills>
+					<skill id="35068" level="5"/><!--Primary Skill: Greater Agathion Cancer-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35056" level="15"/><!--Secondary Skill: Enhanced Agathion Cancer-->
+				</sub_skills>
+			</enchant>
+			<enchant level="4">
+				<main_skills>
+					<skill id="35068" level="6"/><!--Primary Skill: Greater Agathion Cancer-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35056" level="16"/><!--Secondary Skill: Enhanced Agathion Cancer-->
+				</sub_skills>
+			</enchant>
+			<enchant level="5">
+				<main_skills>
+					<skill id="35068" level="6"/><!--Primary Skill: Greater Agathion Cancer-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35056" level="17"/><!--Secondary Skill: Enhanced Agathion Cancer-->
+				</sub_skills>
+			</enchant>
+			<enchant level="6">
+				<main_skills>
+					<skill id="35068" level="6"/><!--Primary Skill: Greater Agathion Cancer-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35056" level="18"/><!--Secondary Skill: Enhanced Agathion Cancer-->
+				</sub_skills>
+			</enchant>
+			<enchant level="7">
+				<main_skills>
+					<skill id="35068" level="7"/><!--Primary Skill: Greater Agathion Cancer-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35056" level="19"/><!--Secondary Skill: Enhanced Agathion Cancer-->
+				</sub_skills>
+			</enchant>
+			<enchant level="8">
+				<main_skills>
+					<skill id="35068" level="7"/><!--Primary Skill: Greater Agathion Cancer-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35056" level="20"/><!--Secondary Skill: Enhanced Agathion Cancer-->
+				</sub_skills>
+			</enchant>
+			<enchant level="9">
+				<main_skills>
+					<skill id="35068" level="7"/><!--Primary Skill: Greater Agathion Cancer-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35056" level="21"/><!--Secondary Skill: Enhanced Agathion Cancer-->
+				</sub_skills>
+			</enchant>
+			<enchant level="10">
+				<main_skills>
+					<skill id="35068" level="8"/><!--Primary Skill: Greater Agathion Cancer-->
+				</main_skills>
+				<sub_skills>
+					<skill id="35056" level="22"/><!--Secondary Skill: Enhanced Agathion Cancer-->
+				</sub_skills>
+			</enchant>
+		</agathion_data>
+	</armor>
+	<etcitem id="80948" name="Antharas Treasure Chest">
+		<set name="icon" value="icon.bm_dragon_present_3"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<weapon id="80949" name="Only for monsters (Lord Ishka)">
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.weapon_monster_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="300"/>
+		<set name="soulshots" value="2"/>
+		<set name="spiritshots" value="2"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="50"/>
+			<add stat="mAtk" order="0x10" value="26"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<etcitem id="80950" name="Secret Material">
+		<set name="icon" value="icon.etc_claw_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80951" name="Breath of Death">
+		<set name="icon" value="icon.etc_ashes_black_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80952" name="Corrupted Energy">
+		<set name="icon" value="icon.etc_crystal_piece_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80953" name="Embedded Shard">
+		<set name="icon" value="icon.etc_piece_holy_light"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80954" name="Orc Empowering Potion">
+		<set name="icon" value="icon.etc_ev_draco_purple_bottle"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80955" name="Ketra Order">
+		<set name="icon" value="icon.etc_ketra_badge_captn_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80956" name="Paulina's R-grade Equipment Set" add_name="For Dual Class">
+		<set name="icon" value="icon.etc_equip_item_box_i02"/>
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items>
+			<!-- ARMOR-->
+			<capsuled_item id="46924" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="46925" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="46926" min_count="1" max_count="1" chance="100.0"/>
+			<!--WEAPON-->
+			<capsuled_item id="47008" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="47009" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="47010" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="47011" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="47012" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="47013" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="47014" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="47016" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="47017" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="47018" min_count="1" max_count="1" chance="100.0"/>
+			<capsuled_item id="47019" min_count="1" max_count="1" chance="100.0"/>
+		</capsuled_items>
+	</etcitem>
+	<armor id="80957" name="Heavenly Talisman">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.accessory_heaven_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+		<skills>
+			<skill id="8864" level="8"/>
+		</skills>
+	</armor>
+	<etcitem id="80958" name="Sealed Heavenly Talisman">
+		<set name="icon" value="icon.accessory_heaven_talisman"/>
+		<set name="weight" value="100"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<armor id="80959" name="Epic Talisman">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.epic_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+	</armor>
+	<etcitem id="80960" name="Golden Altar's Time Stone" add_name="Event">
+		<set name="icon" value="icon.timezone_refill_3"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="POTION"/>
+		<skills>
+			<skill id="39562" level="1" /> <!-- Golden Altar's Time Stone -->
+		</skills>
+	</etcitem>
+	<etcitem id="80961" name="Maphr's Blessing" add_name="1-day">
+		<set name="icon" value="BranchSys.icon.br_rune_of_eva_i00"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80962" name="Maphr's Blessing Chest">
+		<set name="icon" value="icon.lucky_bag_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<armor id="80963" name="Bloodstained Talisman of Protection" add_name="8-hour">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.cursed_defend_talisman_lv1"/>
+		<set name="type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+	</armor>
+	<etcitem id="80964" name="Energy of Protection">
+		<set name="icon" value="icon.defend_talisman_energy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80965" name="Shining Talisman Pack">
+		<set name="icon" value="BranchSys3.icon1.g_ev_invite_fantasy_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80966" name="Dragon's Shining Box">
+		<set name="icon" value="icon.bm_dragon_present_4"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80967" name="Scroll of Aden Green Squad" add_name="Event">
+		<set name="icon" value="icon.ev_green_aden_scroll"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="autouse_type" value="BUFF"/>
+	</etcitem>
+	<etcitem id="80968" name="Red Libra Coin" add_name="Event">
+		<set name="icon" value="icon.etc_coins_gold_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80969" name="Master Engineer's Box" add_name="Event">
+		<set name="icon" value="icon.etc_treasure_box_i10"/>
+		<set name="weight" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80970" name="Spellbook: Dignity of the Exalted" add_name="Lv. 6">
+		<!-- Позволяет выучить умение Величие Почета Ур. 6.\nТолько для основного класса со 105-го уровня. -->
+		<set name="icon" value="icon.giant_book_i02"/>
+		<set name="weight" value="20"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="FORGOTTEN_SPELLBOOK"/>
+		<cond>
+			<player class_type="BASE_CLASS"/>
+			<player minLevel="105"/>
+		</cond>
+		<skills>
+			<skill id="18345" level="6"/>	<!--Spellbook: Dignity of the Exalted Lv. 6-->
+		</skills>
+	</etcitem>
+	<etcitem id="80971" name="Dragon's Relic">
+		<set name="icon" value="icon.bm_dragon_present_poket"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80972" name="Corroded Requiem Dual Sword Fragment">
+		<set name="icon" value="icon.weapon_estia_i00_piece"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="338713"/>
+	</etcitem>
+	<etcitem id="80973" name="Corroded Requiem Dual Dagger Fragment">
+		<set name="icon" value="icon.weapon_aspeda_i00_piece"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="338713"/>
+	</etcitem>
+	<etcitem id="80974" name="Corroded Requiem Dual Blunt Weapon Fragment">
+		<set name="icon" value="icon.weapon_batista_i00_piece"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="338713"/>
+	</etcitem>
+	<etcitem id="80975" name="Corroded Apocalypse Dual Sword Fragment">
+		<set name="icon" value="icon.etc_vesper_cutter_piece_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="922132"/>
+	</etcitem>
+	<etcitem id="80976" name="Corroded Apocalypse Dual Dagger Fragment">
+		<set name="icon" value="icon.etc_vesper_shaper_piece_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="922132"/>
+	</etcitem>
+	<etcitem id="80977" name="Corroded Apocalypse Dual Blunt Weapon Fragment">
+		<set name="icon" value="icon.etc_vesper_avenger_piece_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="922132"/>
+	</etcitem>
+	<etcitem id="80978" name="Corroded Specter Dual Sword Fragment">
+		<set name="icon" value="icon.etc_vesper_cutter_piece_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="2934420"/>
+	</etcitem>
+	<etcitem id="80979" name="Corroded Specter Dual Dagger Fragment">
+		<set name="icon" value="icon.etc_vesper_shaper_piece_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="2934420"/>
+	</etcitem>
+	<etcitem id="80980" name="Corroded Specter Dual Blunt Weapon Fragment">
+		<set name="icon" value="icon.etc_vesper_avenger_piece_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="2934420"/>
+	</etcitem>
+	<etcitem id="80981" name="Corroded Helios Dual Sword Fragment">
+		<set name="icon" value="icon.etc_vesper_cutter_piece_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="6466360"/>
+	</etcitem>
+	<etcitem id="80982" name="Corroded Helios Dual Dagger Fragment">
+		<set name="icon" value="icon.etc_vesper_shaper_piece_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="6466360"/>
+	</etcitem>
+	<etcitem id="80983" name="Corroded Helios Dual Blunt Weapon Fragment">
+		<set name="icon" value="icon.etc_vesper_avenger_piece_i00"/>
+		<set name="weight" value="60"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="6466360"/>
+	</etcitem>
+	<etcitem id="80984" name="Recipe: Requiem Dual Swords (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="3387132"/>
+	</etcitem>
+	<etcitem id="80985" name="Recipe: Requiem Dual Daggers (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="3387132"/>
+	</etcitem>
+	<etcitem id="80986" name="Recipe: Requiem Dual Blunt Weapon (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="3387132"/>
+	</etcitem>
+	<etcitem id="80987" name="Recipe: Apocalypse Dual Swords (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="9221324"/>
+	</etcitem>
+	<etcitem id="80988" name="Recipe: Apocalypse Dual Daggers (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="9221324"/>
+	</etcitem>
+	<etcitem id="80989" name="Recipe: Apocalypse Dual Blunt Weapon (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="9221324"/>
+	</etcitem>
+	<etcitem id="80990" name="Recipe: Specter Dual Swords (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="29344200"/>
+	</etcitem>
+	<etcitem id="80991" name="Recipe: Specter Dual Daggers (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="29344200"/>
+	</etcitem>
+	<etcitem id="80992" name="Recipe: Specter Dual Blunt Weapon (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="29344200"/>
+	</etcitem>
+	<etcitem id="80993" name="Recipe: Helios Dual Swords (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="64663600"/>
+	</etcitem>
+	<etcitem id="80994" name="Recipe: Helios Dual Daggers (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="64663600"/>
+	</etcitem>
+	<etcitem id="80995" name="Recipe: Helios Dual Blunt Weapon (60%)">
+		<set name="icon" value="icon.etc_recipe_gold_i00"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="price" value="64663600"/>
+	</etcitem>
+	<etcitem id="80996" name="Storm Isle's Time Stone">
+		<set name="icon" value="icon.timezone_refill_1"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="POTION"/>
+		<skills>
+			<skill id="39565" level="1" /> <!-- Storm Isle's Time Stone -->
+		</skills>
+	</etcitem>
+	<etcitem id="80997" name="Primeval Isle's Time Stone">
+		<set name="icon" value="icon.timezone_refill_2"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="POTION"/>
+		<skills>
+			<skill id="39566" level="1" /> <!-- Primeval Isle's Time Stone -->
+		</skills>
+	</etcitem>
+	<etcitem id="80998" name="Golden Altar's Time Stone">
+		<set name="icon" value="icon.timezone_refill_3"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="POTION"/>
+		<skills>
+			<skill id="39567" level="1" /> <!-- Golden Altar's Time Stone -->
+		</skills>
+	</etcitem>
+	<etcitem id="80999" name="My Teleport Book Lv. 2">
+		<set name="freightable" value="true"/>
+		<set name="icon" value="icon.bookmark_book_i00"/>
+		<set name="weight" value="5"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+</list>

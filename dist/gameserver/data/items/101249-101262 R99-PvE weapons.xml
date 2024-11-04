@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		R99-PvE Weapons
+	-->
+	<weapon id="101249" name="Bloody Helios Shaper">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_dagger_pve_i00"/>
+		
+		<set name="crystal_count" value="17243"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100021" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="3629"/>
+			<add stat="mAtk" order="0x10" value="313"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101250" name="Bloody Helios Cutter">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_onehand_sword_pve_i00"/>
+		
+		<set name="crystal_count" value="17243"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100021" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="3719"/>
+			<add stat="mAtk" order="0x10" value="313"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101251" name="Bloody Helios Slasher">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_twohand_sword_pve_i00"/>
+		
+		<set name="crystal_count" value="17243"/>
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100021" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="3875"/>
+			<add stat="mAtk" order="0x10" value="313"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101252" name="Bloody Helios Avenger">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_onehand_blunt_pve_i00"/>
+		
+		<set name="crystal_count" value="17243"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100021" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="3719"/>
+			<add stat="mAtk" order="0x10" value="313"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101253" name="Bloody Helios Fighter">
+		<set name="damage_range" value="0;0;32;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_fist_pve_i00"/>
+		
+		<set name="crystal_count" value="17243"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1550"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100021" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="3875"/>
+			<add stat="mAtk" order="0x10" value="313"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101254" name="Bloody Helios Stormer">
+		<set name="damage_range" value="0;0;66;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_spear_pve_i00"/>
+		
+		<set name="crystal_count" value="17243"/>
+		<set name="type" value="POLE"/>
+		<set name="weight" value="2010"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100021" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="3719"/>
+			<add stat="mAtk" order="0x10" value="313"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101255" name="Bloody Helios Thrower">
+		<set name="reuse_delay" value="1500"/>
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_bow_pve_i00"/>
+		
+		<set name="crystal_count" value="17243"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100021" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="3500"/>
+			<add stat="mAtk" order="0x10" value="313"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101256" name="Bloody Helios Shooter">
+		<set name="reuse_delay" value="1350"/>
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_crossbow_pve_i00"/>
+		
+		<set name="crystal_count" value="17243"/>
+		<set name="type" value="TWOHANDCROSSBOW"/>
+		<set name="weight" value="1580"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100021" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="3500"/>
+			<add stat="mAtk" order="0x10" value="313"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101257" name="Bloody Helios Buster">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_onehand_magic_sword_pve_i00"/>
+		
+		<set name="crystal_count" value="17243"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100022" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="575"/>
+			<add stat="mAtk" order="0x10" value="3917"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101258" name="Bloody Helios Caster">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_onehand_magic_blunt_pve_i00"/>
+		
+		<set name="crystal_count" value="17243"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1080"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100022" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="575"/>
+			<add stat="mAtk" order="0x10" value="3917"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101259" name="Bloody Helios Retributer">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="is_magic_weapon" value="true"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_twohand_magic_blunt_pve_i00"/>
+		
+		<set name="crystal_count" value="17243"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="1080"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100022" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="700"/>
+			<add stat="mAtk" order="0x10" value="3959"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+			<add stat="mAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101260" name="Bloody Helios Dual Swords">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_dual_sword_pve_i00"/>
+		
+		<set name="crystal_count" value="20692"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100021" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="3875"/>
+			<add stat="mAtk" order="0x10" value="313"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101261" name="Bloody Helios Dual Daggers">
+		<set name="damage_range" value="0;0;44;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_dual_dagger_pve_i00"/>
+		
+		<set name="crystal_count" value="20692"/>
+		<set name="type" value="DUALDAGGER"/>
+		<set name="weight" value="2050"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100021" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="3719"/>
+			<add stat="mAtk" order="0x10" value="313"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101262" name="Bloody Helios Dual Blunt Weapon">
+		<set name="damage_range" value="0;0;40;120"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="crystal_type" value="R99"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_R99_dual_blunt_pve_i00"/>
+		
+		<set name="crystal_count" value="20692"/>
+		<set name="type" value="DUALBLUNT"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="item_quality" value="BLESSED"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100021" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="3875"/>
+			<add stat="mAtk" order="0x10" value="313"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+</list>

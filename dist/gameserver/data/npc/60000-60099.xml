@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+    <npc id="60000" name="Айгис" title="">
+        <set name="type" value="RaidBoss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="123"/>
+        <set name="collision_radius" value="36"/>
+        <set name="level" value="120"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="952003500.59060587002"/>
+        <set name="baseHpRate" value="2"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1777.4"/>
+        <set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="155"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="basePAtk" value="891000891.42361669366"/>
+        <set name="basePDef" value="39536586000.86144"/>
+        <set name="basePAtkSpd" value="6000"/>
+        <set name="baseMAtk" value="750.763809564873"/>
+        <set name="baseMDef" value="26114400000.94045"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="300"/>
+        <set name="shots" value="SOUL"/>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="70061" min="40" max="60" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="70019" min="25" max="40" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+			    <reward item_id="70007" min="10" max="20" chance="80"/>
+			</group>
+			<group>
+			    <reward item_id="70063" min="35" max="60" chance="80"/>
+			</group>
+			<group>
+			    <reward item_id="96623" min="40" max="60" chance="70"/>
+			</group>
+			<group>
+				<reward item_id="48910" min="1" max="1" chance="15"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="110308" min="5" max="7" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="70000" min="10" max="15" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="106527" min="2" max="3" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="20549" min="2" max="3" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="37586" min="15" max="20" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="106538" min="5" max="5" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="48603" min="6000" max="12000" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="106415" min="5200" max="6250" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="106414" min="5450" max="6950" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="70018" min="100" max="200" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="106713" min="2" max="2" chance="70"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="96613" min="1" max="1" chance="20"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="110627" min="5" max="5" chance="90"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="48215" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="28484" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="81931" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="82186" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="105303" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="82343" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+		</rewardlist>
+    </npc>
+    <npc id="60001" name="Ученица Айгис" title="">
+        <set name="type" value="Monster"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="67"/>
+        <set name="collision_radius" value="20"/>
+        <set name="level" value="120"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="9520035.59060587002"/>
+        <set name="baseHpRate" value="2"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1777.4"/>
+        <set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="155"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="basePAtk" value="891000891.42361669366"/>
+        <set name="basePDef" value="3953658600.86144"/>
+        <set name="basePAtkSpd" value="6000"/>
+        <set name="baseMAtk" value="750.763809564873"/>
+        <set name="baseMDef" value="2611440000.94045"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="300"/>
+        <set name="shots" value="SOUL"/>
+		<rewardlist type="RATE_COUNT_GROUPED">
+            <group chance="100">
+                <reward item_id="106414" min="400" max="530" chance="80"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="RATE_COUNT_GROUPED">
+            <group chance="100">
+                <reward item_id="106415" min="310" max="350" chance="80"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="RATE_COUNT_GROUPED">
+            <group chance="100">
+                <reward item_id="48603" min="270" max="340" chance="70"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="37586" min="5" max="5" chance="70"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="105250" min="1" max="1" chance="60"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="105252" min="1" max="1" chance="80"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="70019" min="5" max="6" chance="90"/>
+            </group>
+            <group>
+                <reward item_id="70061" min="7" max="8" chance="100"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="70018" min="30" max="40" chance="80"/>
+            </group>
+        </rewardlist>
+	    <rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="70038" min="4" max="4" chance="90"/>    <!--кастом итем-->
+			</group>
+		</rewardlist>	
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="106434" min="1" max="1" chance="8"/>    <!--кастом итем-->
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="70063" min="5" max="5" chance="100"/>    <!--кастом итем-->
+			</group>
+		</rewardlist>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="96623" min="5" max="5" chance="90"/>    <!--кастом итем-->
+			</group>
+		</rewardlist>	
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="106539" min="25" max="30" chance="70"/>
+            </group>
+        </rewardlist>	
+		<rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="70007" min="3" max="3" chance="100"/>
+            </group>
+			<group>
+                <reward item_id="110627" min="1" max="1" chance="80"/>
+            </group>
+			<group>
+				<reward item_id="48215" min="1" max="1" chance="30"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="28484" min="1" max="1" chance="30"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="81931" min="1" max="1" chance="30"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="82186" min="1" max="1" chance="30"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="105303" min="1" max="1" chance="30"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="82343" min="1" max="1" chance="30"/>    <!--ЛСЫ-->
+			</group>
+        </rewardlist>
+    </npc>
+    <npc id="60002" name="Хранитель Мрачного Царства" title="">
+        <set name="type" value="RaidBoss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="59"/>
+        <set name="collision_radius" value="22"/>
+        <set name="level" value="120"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="952003500.59060587002"/>
+        <set name="baseHpRate" value="2"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1777.4"/>
+        <set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="155"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+        <set name="basePCritRate" value="10"/>
+        <set name="basePAtk" value="891000891.42361669366"/>
+        <set name="basePDef" value="39536586000.86144"/>
+        <set name="basePAtkSpd" value="6000"/>
+        <set name="baseMAtk" value="750.763809564873"/>
+        <set name="baseMDef" value="26114400000.94045"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="30"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="300"/>
+        <set name="shots" value="SOUL"/>
+		<rewardlist type="NOT_RATED_GROUPED">
+			<group>
+				<reward item_id="70061" min="40" max="60" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="70019" min="25" max="40" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+			    <reward item_id="70007" min="10" max="20" chance="80"/>
+			</group>
+			<group>
+			    <reward item_id="70063" min="35" max="60" chance="80"/>
+			</group>
+			<group>
+			    <reward item_id="96623" min="40" max="60" chance="70"/>
+			</group>
+			<group>
+				<reward item_id="48910" min="1" max="1" chance="15"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="110308" min="5" max="7" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="70000" min="10" max="15" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="106527" min="2" max="3" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="20549" min="2" max="3" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="37586" min="15" max="20" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="106538" min="5" max="5" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="48603" min="6000" max="12000" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="106415" min="5200" max="6250" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="106414" min="5450" max="6950" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="70018" min="100" max="200" chance="80"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="106713" min="2" max="2" chance="70"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="96613" min="1" max="1" chance="20"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="110627" min="5" max="5" chance="90"/>    <!--кастом итем-->
+			</group>
+			<group>
+				<reward item_id="48215" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="28484" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="81931" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="82186" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="105303" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+			<group>
+				<reward item_id="82343" min="2" max="2" chance="90"/>    <!--ЛСЫ-->
+			</group>
+		</rewardlist>
+    </npc>
+	<npc id="60003" name="Mary Reed" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="62"/>
+		<set name="collision_radius" value="22"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="3766456368864"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="3389803344"/>
+		<set name="baseHpMax" value="81988389"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="53993"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="5464" level="1"/>	<!--Wind Attack-->
+			<skill id="14804" level="10"/>	<!--Damage Reflection Attack Resistance-->
+		</client_skills>
+	</npc>
+</list>

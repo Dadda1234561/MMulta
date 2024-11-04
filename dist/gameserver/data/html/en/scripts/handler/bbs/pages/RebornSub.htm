@@ -1,0 +1,184 @@
+<html>
+<body>
+<table width=750 height=505 bgcolor=0a151c>
+    <tr>
+        <td>
+            <table width=755>
+                <tr>
+                    <td>
+                        <table  width=755>
+                            <tr>
+                                <td valign="top" align="center">
+                                    <center>
+                                        <br>
+                                        <table cellpadding=0 cellspacing=0>
+                                            <tr><td height=1></td></tr>
+                                            <tr><td height=10 align=center><font color="A99876">To be reborn you need: <font color="LEVEL">›&nbsp;<?level_need?> Уровень</font> персонажа и </font><font color="LEVEL">›&nbsp;<?need_item?></font></td></tr>
+                                            <tr><td align=center><font  color="979796">Total number of available rebirths: </font><font color="LEVEL"><?max_rebirth?></font></td></tr>
+                                            <tr><td align=center><font  color="979796">Current number of rebirths: </font><font color="LEVEL"><?rebirths?></font></td></tr>
+
+                                            <tr><td align=center><font  color="979796">Cooldown time until next rebirth:	</font><font color="LEVEL"><?time_rebirth?></font></td></tr>
+                                        </table>
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                    <br>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <table cellpadding=2 cellspacing=2>
+                                            <tr>
+                                                <td>
+                                                    <img src="icon.s_ability_b_attribute_defence" width=50 height=50>
+                                                </td>
+                                                <td valign="center" align="left" width=150>
+                                                    <table width=120>
+                                                        <tr>
+                                                            <td valign="center" align="center">
+                                                                [P. Def] +3%
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="center" align="center">
+                                                                <?count_PhysDef?>/<?count_PhysDef_max?>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center">
+                                                                <button value="Accept" action="bypass _bbsskill:Reborn-14" width=70 height=17 back="Multimperia.2fiol_btn_down" fore="Multimperia.2fiol_btn">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td>
+                                                    <img src="icon.s_ability_b_attribute_defence" width=50 height=50>
+                                                </td>
+                                                <td valign="center" align="left" width=150>
+                                                    <table width=120>
+                                                        <tr>
+                                                            <td valign="center" align="center">
+                                                                [M. Def] +3%
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="center" align="center">
+                                                                <?count_MagDef?>/<?count_MagDef_max?>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center">
+                                                                <button value="Accept" action="bypass _bbsskill:Reborn-15" width=70 height=17 back="Multimperia.2fiol_btn_down" fore="Multimperia.2fiol_btn">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <br><br>
+                                        <table cellpadding=2 cellspacing=2>
+                                            <tr>
+                                                <td>
+                                                    <img src="icon.skill11511" width=50 height=50>
+                                                </td>
+                                                <td valign="center" align="left" width=150>
+                                                    <table width=120>
+                                                        <tr>
+                                                            <td valign="center" align="center">
+                                                                [P.Crit.Dmg] +2%
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="center" align="center">
+                                                                <?count_PhysCritDmg?>/<?count_PhysCritDmg_max?>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center">
+                                                                <button value="Accept" action="bypass _bbsskill:Reborn-16" width=70 height=17 back="L2UI_EPIC.NewButton_Brown" fore="L2UI_EPIC.NewButton_Brown">
+                                                            </td>
+                                                            <td valign="center" align="left" width=150>
+                                                                <table width=120>
+                                                                    <tr>
+                                                                        <td valign="center" align="center">
+                                                                            [Pvp Защита] +3%  <!-- TODO: -->
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td valign="center" align="center">
+                                                                            <?count_PvpPhysDef?>/<?count_PvpPhysDef_max?>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td align="center">
+                                                                            <button value="Accept" action="bypass _bbsskill:Reborn-22" width=70 height=17 back="Multimperia.2fiol_btn_down" fore="Multimperia.2fiol_btn">
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td>
+                                                    <img src="icon.skill11395" width=50 height=50>
+                                                </td>
+                                                <td valign="center" align="left" width=150>
+                                                    <table width=120>
+                                                        <tr>
+                                                            <td valign="center" align="center">
+                                                                [M.Crit.Dmg] +2%
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="center" align="center">
+                                                                <?count_MagCritDmg?>/<?count_MagCritDmg_max?>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center">
+                                                                <button value="Accept" action="bypass _bbsskill:Reborn-17" width=70 height=17 back="L2UI_EPIC.NewButton_Brown" fore="L2UI_EPIC.NewButton_Brown">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td>
+                                                    <img src="icon.s_ability_b_pvp_damage" width=50 height=50>
+                                                </td>
+                                                <td valign="center" align="left" width=150>
+                                                    <table width=120>
+                                                        <tr>
+                                                            <td valign="center" align="center">
+                                                                [PvP Dmg] +3%  <!-- TODO: -->
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td valign="center" align="center">
+                                                                <?count_PvpPhysDmg?>/<?count_PvpPhysDmg_max?>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td align="center">
+                                                                <button value="Accept" action="bypass _bbsskill:Reborn-20" width=70 height=17 back="Multimperia.2fiol_btn_down" fore="Multimperia.2fiol_btn">
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                        <br><br><br><br><br><br>
+
+                                        <table cellspacing=0 cellpadding=0 width=755>
+                                            <tr>
+                                                <td width=755 align=center valign=top>
+                                                    <button value="Назад" action="bypass _bbspage:SkillLearn/dopskills" width=180 height=35 back="multimperia.newnew_down" fore="multimperia.newnew">
+                                                </td>
+                                            </tr>
+                                        </table>
+                                </td>
+                            </tr>
+                        </table>
+</body>
+</html>

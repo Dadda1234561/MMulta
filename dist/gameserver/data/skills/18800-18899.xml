@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="18800" levels="2" name="Golden Orc Treasure Chest Free Effect">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18801" levels="2" name="Dancing Cat's Steps">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill_sing"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18802" levels="2" name="Blessing of Bliss Free Effect">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18803" levels="24" name="Anniversary Blessing Lv. 1">
+		<table name="#castRange">900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</table>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.ev_13th"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18804" levels="1" name="Breeze">
+		<set name="effectPoint" value="-1000"/>
+		<set name="icon" value="icon.ev_magic_flame_game_wind1"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18805" levels="1" name="Gust">
+		<set name="effectPoint" value="-1000"/>
+		<set name="icon" value="icon.ev_magic_flame_game_wind2"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18806" levels="1" name="Magic Woodpile">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18807" levels="1" name="Large Magic Woodpile">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18808" levels="1" name="Flame Games">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18809" levels="1" name="Magic Flame Festival">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18810" levels="1" name="Magic Flame">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18811" levels="1" name="Sprout for New Users">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.s_newbie_user_display"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18812" levels="1" name="Sprout for Returning Users">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.s_dormant_user_display"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18813" levels="2" name="Master's Lucky Jewelry Box">
+		<set name="icon" value="icon.bm_jewelbox_master"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18814" levels="20" name="Topaz">
+		<!-- 
+			lvl 1 = Можно использовать умение Выстрел Духа. [Топаз Ур. 1]
+			lvl 2 = Можно использовать умение Выстрел Духа. [Топаз Ур. 2]
+			lvl 3 = Можно использовать умение Выстрел Духа. [Топаз Ур. 3]
+			lvl 4 = Можно использовать умение Выстрел Духа. [Топаз Ур. 4]
+			lvl 5 = Можно использовать умение Выстрел Духа. [Топаз Ур. 5]
+			lvl 6 = Можно использовать умение Выстрел Духа. [Большой Топаз Ур. 1]
+			lvl 7 = Можно использовать умение Выстрел Духа. [Большой Топаз Ур. 2]
+			lvl 8 = Можно использовать умение Выстрел Духа. [Большой Топаз Ур. 3]
+			lvl 9 = Можно использовать умение Выстрел Духа. [Большой Топаз Ур. 4]
+			lvl 10 = Можно использовать умение Выстрел Духа. [Большой Топаз Ур. 5]
+			lvl 11 = Можно использовать умение Выстрел Духа. [Топаз Исключительного Качества Ур. 1]
+			lvl 12 = Можно использовать умение Выстрел Духа. [Топаз Исключительного Качества Ур. 2]
+			lvl 13 = Можно использовать умение Выстрел Духа. [Топаз Исключительного Качества Ур. 3]
+			lvl 14 = Можно использовать умение Выстрел Духа. [Топаз Исключительного Качества Ур. 4]
+			lvl 15 = Можно использовать умение Выстрел Духа. [Топаз Исключительного Качества Ур. 5]
+			lvl 16 = Можно использовать умение Выстрел Духа. [Топаз Исключительного Качества Ур. 6]
+			lvl 17 = Можно использовать умение Выстрел Духа. [Топаз Исключительного Качества Ур. 7]
+			lvl 18 = Можно использовать умение Выстрел Духа. [Топаз Исключительного Качества Ур. 8]
+			lvl 19 = Можно использовать умение Выстрел Духа. [Топаз Исключительного Качества Ур. 9]
+			lvl 20 = Можно использовать умение Выстрел Духа. [Топаз Исключительного Качества Ур. 10]
+		-->
+		<table name="#icon">icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.bm_jewel_absdmg_high_lv1_lavianrose icon.bm_jewel_absdmg_high_lv1_lavianrose icon.bm_jewel_absdmg_high_lv1_lavianrose icon.bm_jewel_absdmg_high_lv1_lavianrose icon.bm_jewel_absdmg_high_lv1_lavianrose icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2</table>
+		<table name="#adenaRate">0.01 0.02 0.03 0.04 0.05 0.1 0.11 0.12 0.13 0.15 0.2 0.21 0.22 0.23 0.24 0.25 0.26 0.27 0.28 0.3</table>
+		<table name="#dropRate">0 0 0 0 0 0.1 0.11 0.12 0.13 0.15 0.2 0.21 0.22 0.23 0.24 0.25 0.26 0.27 0.28 0.3</table>
+		<table name="#spoilRate">0 0 0 0 0 0.1 0.11 0.12 0.13 0.15 0.2 0.21 0.22 0.23 0.24 0.25 0.26 0.27 0.28 0.3</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="adena_rate_multiplier" order="0x40" value="#adenaRate"/>
+			<add stat="drop_count_modifier" order="0x40" value="#dropRate"/>
+			<add stat="spoil_count_modifier" order="0x40" value="#spoilRate"/>
+		</for>
+	</skill>
+	<skill id="18815" levels="20" name="Tanzanite">
+		<!-- 
+			lvl 1 = Можно использовать умение Барьер. [Танзанит Ур. 1]
+			lvl 2 = Можно использовать умение Барьер. [Танзанит Ур. 2]
+			lvl 3 = Можно использовать умение Барьер. [Танзанит Ур. 3]
+			lvl 4 = Можно использовать умение Барьер. [Танзанит Ур. 4]
+			lvl 5 = Можно использовать умение Барьер. [Танзанит Ур. 5]
+			lvl 6 = Можно использовать умение Барьер. [Большой Танзанит Ур. 1]
+			lvl 7 = Можно использовать умение Барьер. [Большой Танзанит Ур. 2]
+			lvl 8 = Можно использовать умение Барьер. [Большой Танзанит Ур. 3]
+			lvl 9 = Можно использовать умение Барьер. [Большой Танзанит Ур. 4]
+			lvl 10 = Можно использовать умение Барьер. [Большой Танзанит Ур. 5]
+			lvl 11 = Можно использовать умение Барьер. [Танзанит Исключительного Качества Ур. 1]
+			lvl 12 = Можно использовать умение Барьер. [Танзанит Исключительного Качества Ур. 2]
+			lvl 13 = Можно использовать умение Барьер. [Танзанит Исключительного Качества Ур. 3]
+			lvl 14 = Можно использовать умение Барьер. [Танзанит Исключительного Качества Ур. 4]
+			lvl 15 = Можно использовать умение Барьер. [Танзанит Исключительного Качества Ур. 5]
+			lvl 16 = Можно использовать умение Барьер. [Танзанит Исключительного Качества Ур. 6]
+			lvl 17 = Можно использовать умение Барьер. [Танзанит Исключительного Качества Ур. 7]
+			lvl 18 = Можно использовать умение Барьер. [Танзанит Исключительного Качества Ур. 8]
+			lvl 19 = Можно использовать умение Барьер. [Танзанит Исключительного Качества Ур. 9]
+			lvl 20 = Можно использовать умение Барьер. [Танзанит Исключительного Качества Ур. 10]
+		-->
+		<table name="#icon">icon.etc_bm_jewel_tanzanite icon.etc_bm_jewel_tanzanite icon.etc_bm_jewel_tanzanite icon.etc_bm_jewel_tanzanite icon.etc_bm_jewel_tanzanite icon.bm_jewel_tanzanite_high_lv1_lavianrose icon.bm_jewel_tanzanite_high_lv1_lavianrose icon.bm_jewel_tanzanite_high_lv1_lavianrose icon.bm_jewel_tanzanite_high_lv1_lavianrose icon.bm_jewel_tanzanite_high_lv1_lavianrose icon.bm_jewel_tanzanite_lv1_lavianrose_high2 icon.bm_jewel_tanzanite_lv1_lavianrose_high2 icon.bm_jewel_tanzanite_lv1_lavianrose_high2 icon.bm_jewel_tanzanite_lv1_lavianrose_high2 icon.bm_jewel_tanzanite_lv1_lavianrose_high2 icon.bm_jewel_tanzanite_lv1_lavianrose_high2 icon.bm_jewel_tanzanite_lv1_lavianrose_high2 icon.bm_jewel_tanzanite_lv1_lavianrose_high2 icon.bm_jewel_tanzanite_lv1_lavianrose_high2 icon.bm_jewel_tanzanite_lv1_lavianrose_high2</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18816" levels="1" name="Gust - Dance">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.ev_magic_flame_game_wind3"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18817" levels="1" name="Fish Chilli Stew - WIT">
+		<set name="icon" value="icon.fish_stew_residence_luc"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18818" levels="1" name="Fish Chilli Stew - INT">
+		<set name="icon" value="icon.fish_stew_residence_luc"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18819" levels="1" name="Fish Chilli Stew - MEN">
+		<set name="icon" value="icon.fish_stew_residence_luc"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18820" levels="1" name="Fish Chilli Stew - DEX">
+		<set name="icon" value="icon.fish_stew_residence_luc"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18821" levels="1" name="Fish Chilli Stew - STR">
+		<set name="icon" value="icon.fish_stew_residence_luc"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18822" levels="1" name="Fish Chilli Stew - CON">
+		<set name="icon" value="icon.fish_stew_residence_luc"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18823" levels="1" name="Fish Cream Stew - WIT">
+		<set name="icon" value="icon.fish_stew_residence_cha"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18824" levels="1" name="Fish Cream Stew - INT">
+		<set name="icon" value="icon.fish_stew_residence_cha"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18825" levels="1" name="Fish Cream Stew - MEN">
+		<set name="icon" value="icon.fish_stew_residence_cha"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18826" levels="1" name="Fish Cream Stew - DEX">
+		<set name="icon" value="icon.fish_stew_residence_cha"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18827" levels="1" name="Fish Cream Stew - STR">
+		<set name="icon" value="icon.fish_stew_residence_cha"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18828" levels="1" name="Fish Cream Stew - CON">
+		<set name="icon" value="icon.fish_stew_residence_cha"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18829" levels="1" name="The Challenger's Shaper">
+		<set name="icon" value="icon.bm_the_dagger_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18830" levels="1" name="The Challenger's Dicing Death">
+		<set name="icon" value="icon.bm_the_sword_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18831" levels="1" name="The Challenger's Slasher">
+		<set name="icon" value="icon.bm_the_two_handed_sword_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18832" levels="1" name="The Challenger's Avenger">
+		<set name="icon" value="icon.bm_the_axe_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18833" levels="1" name="The Challenger's Fighter">
+		<set name="icon" value="icon.bm_the_fist_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18834" levels="1" name="The Challenger's Stormer">
+		<set name="icon" value="icon.bm_the_pole_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18835" levels="1" name="The Challenger's Thrower">
+		<set name="icon" value="icon.bm_the_bow_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18836" levels="1" name="The Challenger's Shooter">
+		<set name="icon" value="icon.bm_infinity_shooter"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18837" levels="1" name="The Challenger's Buster">
+		<set name="icon" value="icon.bm_infinity_sword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18838" levels="1" name="The Challenger's Caster">
+		<set name="icon" value="icon.bm_the_mace_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18839" levels="1" name="The Challenger's Retributer">
+		<set name="icon" value="icon.bm_the_staff_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18840" levels="1" name="The Challenger's Dual Sword">
+		<set name="icon" value="icon.bm_the_dualsword_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18841" levels="1" name="Challenger's Dual Daggers">
+		<set name="icon" value="icon.bm_the_dualdagger_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18842" levels="1" name="The Challenger's Dual Blunt Weapon">
+		<set name="icon" value="icon.bm_the_dualblunt_of_hero_i01"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18843" levels="1" name="The Challenger's Enhanced Shaper">
+		<set name="icon" value="icon.bm_the_dagger_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18844" levels="1" name="The Challenger's Enhanced Dicing Death">
+		<set name="icon" value="icon.bm_the_sword_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18845" levels="1" name="The Challenger's Enhanced Slasher">
+		<set name="icon" value="icon.bm_the_two_handed_sword_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18846" levels="1" name="The Challenger's Enhanced Avenger">
+		<set name="icon" value="icon.bm_the_axe_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18847" levels="1" name="The Challenger's Enhanced Fighter">
+		<set name="icon" value="icon.bm_the_fist_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18848" levels="1" name="The Challenger's Enhanced Stormer">
+		<set name="icon" value="icon.bm_the_pole_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18849" levels="1" name="The Challenger's Enhanced Thrower">
+		<set name="icon" value="icon.bm_the_bow_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18850" levels="1" name="The Challenger's Enhanced Shooter">
+		<set name="icon" value="icon.bm_infinity_shooter"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18851" levels="1" name="The Challenger's Enhanced Buster">
+		<set name="icon" value="icon.bm_infinity_sword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18852" levels="1" name="The Challenger's Enhanced Caster">
+		<set name="icon" value="icon.bm_the_mace_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18853" levels="1" name="The Challenger's Enhanced Retributer">
+		<set name="icon" value="icon.bm_the_staff_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18854" levels="1" name="The Challenger's Enhanced Dual Sword">
+		<set name="icon" value="icon.bm_the_dualsword_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18855" levels="1" name="The Challenger's Enhanced Dual Dagger">
+		<set name="icon" value="icon.bm_the_dualdagger_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18856" levels="1" name="The Challenger's Enhanced Dual Blunt Weapon">
+		<set name="icon" value="icon.bm_the_dualblunt_of_hero_i02"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="18857" levels="1" name="+5 Shiny Elemental Shirt Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="18858" levels="1" name="The Challenger's Bracelet">
+		<set name="icon" value="BranchIcon.icon.bracelet_of_explorer_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+</list>

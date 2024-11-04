@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "daily_missions.dtd">
+<list>
+    <!-- Ежедневные Здания -->
+    <mission id="2001" handler="DailyHunting76_80" value="40000" min_level="76" max_level="120" minRebirth="1" clan_reputation_reward="5000" fame_reward="500"> <!-- Название: "Убийца Монстров 76-80 Ур."  ENG - "Monster Slayer 76-80 Lv." -->
+        <rewards>
+            <reward id="70065" count="50"/>
+            <reward id="93080" count="1"/>
+        </rewards>
+    </mission>
+    <mission id="2002" handler="DailyHunting81_84" value="40000" min_level="80" max_level="120" minRebirth="3" clan_reputation_reward="10000" fame_reward="1000"> <!-- Название: "Убийца Монстров 81-84 Ур."  ENG -  "Monster Slayer 81-84 Lv." -->
+        <rewards>
+            <reward id="70065" count="100"/>
+            <reward id="93080" count="2"/>
+        </rewards>
+    </mission>
+    <mission id="2003" handler="DailyHunting85" value="40000" min_level="80" max_level="120" minRebirth="5" clan_reputation_reward="10000" fame_reward="1000"> <!-- Название: "Убийца Монстров 85 Ур."  ENG -  "Monster Slayer 85 Lv." -->
+        <rewards>
+            <reward id="70065" count="200"/>
+            <reward id="93080" count="3"/>
+        </rewards>
+    </mission>
+    <mission id="2004" handler="DailyHunting90_100" value="40000" min_level="85" max_level="120" minRebirth="100" clan_reputation_reward="15000" fame_reward="1500"> <!-- Название: "Убийца Монстров 90-100 Ур." ENG -  "Monster Slayer 90-100Lv." -->
+        <rewards>
+            <reward id="70065" count="200"/>
+            <reward id="93080" count="3"/>
+        </rewards>
+    </mission>
+    <mission id="2005" handler="DailyHunting105_110" value="40000" min_level="90" max_level="120" minRebirth="100" clan_reputation_reward="20000" fame_reward="2000"> <!-- Название: "Убийца Монстров 105-120 Ур." ENG -  "Monster Slayer 100-120 Lv." -->
+        <rewards>
+            <reward id="70065" count="300"/>
+            <reward id="93080" count="5"/>
+        </rewards>
+    </mission>
+    <mission id="2016" handler="DailyHunting115_120" value="40000" min_level="90" max_level="120" minRebirth="100" clan_reputation_reward="20000" fame_reward="2000"> <!-- Название: "Убийца Монстров 115-120 Ур." ENG -  "Monster Slayer 115-120 Lv." -->
+        <rewards>
+            <reward id="70065" count="400"/>
+            <reward id="93080" count="7"/>
+        </rewards>
+    </mission>
+    <mission id="2006" handler="DailyHuntingBoss" value="30" min_level="20" max_level="120" minRebirth="5" clan_reputation_reward="10000" fame_reward="1000"> <!-- Название: "Ежедневная охота на Боссов." ENG -"Daily Boss Hunt." -->
+        <rewards>
+            <reward id="70065" count="200"/>
+            <reward id="93080" count="2"/>
+        </rewards>
+    </mission>
+    <mission id="2007" handler="DailyHuntingChampions" value="100" min_level="76" max_level="120" minRebirth="5" clan_reputation_reward="5000" fame_reward="500"> <!-- Название: "Охота на Монстров-чемпионов." ENG -"Hunting Monster Champions." -->
+        <rewards>
+            <reward id="70065" count="100"/>
+            <reward id="93080" count="1"/>
+        </rewards>
+    </mission>
+    <mission id="2008" handler="DailyHuntingPlayersPk" value="10" min_level="76" max_level="120" minRebirth="15" clan_reputation_reward="5000" fame_reward="500"> <!-- Название: Название: "Хлоднокровный Убийца "  ENG - "Cold-blooded killer " -->
+        <rewards>
+            <reward id="70065" count="50"/>
+            <reward id="93080" count="1"/>
+        </rewards>
+    </mission>
+    <mission id="2009" handler="DailyHuntingPlayersPvp" value="10" min_level="76" max_level="120" minRebirth="15" clan_reputation_reward="5000" fame_reward="500"> <!-- Название: "Жажда Дуэли"  ENG - "Thirst for Duel" -->
+        <rewards>
+            <reward id="70065" count="50"/>
+            <reward id="93080" count="1"/>
+        </rewards>
+    </mission>
+   <!-- <mission id="2010" handler="DailyHuntingBossCore" value="10000000" min_level="76" max_level="120" minRebirth="50"> &lt;!&ndash; Название: "Охота на эпического босса "Ядро"  ENG - "Hunt for the epic boss "Core" &ndash;&gt;
+        <rewards>
+            <reward id="106442" count="10"/>
+            <reward id="93080" count="5"/>
+            <reward id="70065" count="100"/>
+            <reward id="106593" count="1"/>
+        </rewards>
+    </mission>-->
+    <mission id="2011" handler="DailyHuntingBossTauti" value="100000000" min_level="76" max_level="120" minRebirth="100"> <!-- Название: "Охота на эпического босса "Королева Муравьев"  ENG - "Hunt for the epic boss "Queen Ants" -->
+        <rewards>
+            <reward id="106444" count="10"/>
+            <reward id="93080" count="5"/>
+            <reward id="70065" count="100"/>
+            <reward id="106594" count="1"/>
+        </rewards>
+    </mission>
+    <mission id="2012" handler="DailyHuntingBossHelios" value="100000000" min_level="76" max_level="120" minRebirth="100"> <!-- Название: "Охота на эпического босса "Орфен"  ENG - "Hunt for the epic boss "Orfen" -->
+        <rewards>
+            <reward id="106440" count="10"/>
+            <reward id="93080" count="5"/>
+            <reward id="70065" count="100"/>
+            <reward id="106595" count="1"/>
+        </rewards>
+    </mission>
+    <mission id="2013" handler="DailyHuntingBossKelbim" value="100000000" min_level="76" max_level="120" minRebirth="100"> <!-- Название: "Охота на эпического босса "Баюм"  ENG - "Hunt for the epic boss "Baium" -->
+        <rewards>
+            <reward id="106443" count="10"/>
+            <reward id="93080" count="5"/>
+            <reward id="70065" count="100"/>
+            <reward id="106596" count="1"/>
+        </rewards>
+    </mission>
+    <mission id="2014" handler="DailyHuntingBossLindvior" value="100000000" min_level="76" max_level="120" minRebirth="100"> <!-- Название: "Охота на эпического босса "Антарас"  ENG - "Hunt for the epic boss "Antharas" -->
+        <rewards>
+            <reward id="106441" count="10"/>
+            <reward id="93080" count="5"/>
+            <reward id="70065" count="100"/>
+            <reward id="106597" count="1"/>
+        </rewards>
+    </mission>
+    <mission id="2015" handler="DailyHuntingBossFafurion" value="100000000" min_level="76" max_level="120" minRebirth="100"> <!-- Название: "Охота на эпического босса "Валакас"  ENG - "Hunt for the epic boss "Valakas" -->
+        <rewards>
+            <reward id="106445" count="10"/>
+            <reward id="93080" count="5"/>
+            <reward id="70065" count="100"/>
+            <reward id="106598" count="1"/>
+        </rewards>
+    </mission>
+
+    <!-- Еженедельные Здания -->
+    <mission id="3000" handler="OlympiadBattle" value="20" min_level="76" max_level="120" minRebirth="10" clan_reputation_reward="10000" fame_reward="1000"> <!-- Название: "Участник Олимпиады I."  ENG - "Participant in Olympiad I -->
+        <rewards>
+            <reward id="70065" count="100"/>
+            <reward id="93080" count="3"/>
+            <reward id="70066" count="3"/>
+        </rewards>
+    </mission>
+    <mission id="3001" handler="OlympiadBattle" value="40" min_level="76" max_level="120" minRebirth="10" clan_reputation_reward="15000" fame_reward="1500"> <!-- Название: "Участник Олимпиады II."  ENG - "Participant in Olympiad II -->
+        <rewards>
+            <reward id="70065" count="500"/>
+            <reward id="93080" count="5"/>
+            <reward id="70066" count="5"/>
+        </rewards>
+    </mission>
+    <mission id="3002" handler="OlympiadWinner" value="10" min_level="76" max_level="120" minRebirth="10" clan_reputation_reward="20000" fame_reward="2000"> <!-- Название: "Победа на Олимпиаде."  ENG - "Victory at the Olympics." -->
+        <rewards>
+            <reward id="70065" count="500"/>
+            <reward id="93080" count="10"/>
+            <reward id="70066" count="10"/>
+        </rewards>
+    </mission>
+    <mission id="3003" handler="WeeklyHuntingBossLegend" value="100" min_level="20" max_level="120" minRebirth="10" clan_reputation_reward="10000" fame_reward="10000"> <!-- Название: "Легенда."  ENG - "Legend." -->
+        <rewards>
+            <reward id="70065" count="1000"/>
+            <reward id="93080" count="5"/>
+            <reward id="70066" count="5"/>
+        </rewards>
+    </mission>
+    <mission id="3004" handler="WeeklyHuntingBossMoreLegend" value="300" min_level="20" max_level="120" minRebirth="10" clan_reputation_reward="20000" fame_reward="2000"> <!-- Название: "Больше чем Легенда"  ENG - "More than a Legend" -->
+        <rewards>
+            <reward id="70065" count="2000"/>
+            <reward id="93080" count="10"/>
+            <reward id="70066" count="10"/>
+        </rewards>
+    </mission>
+    <mission id="3005" handler="InstZoneBossKiller" value="10" min_level="80" max_level="120" minRebirth="5" clan_reputation_reward="5000" fame_reward="500"> <!-- Название: "Захватчик Инстовых Зон"  ENG - "Insta Zone Invader" -->
+        <rewards>
+            <reward id="70065" count="300"/>
+            <reward id="93080" count="5"/>
+        </rewards>
+    </mission>
+
+    <mission id="3006" handler="DailyEventParticipate" value="5" min_level="76" max_level="120" minRebirth="10"> <!-- Название: "Любитель Ивентов."  ENG -"Event lover." -->
+        <rewards>
+            <reward id="70000" count="3"/> <!-- Награда: твт 3 шт (ид 70000) -->
+        </rewards>
+    </mission>
+
+    <mission id="3007" handler="DailyEventFinish" value="10" min_level="76" max_level="120" minRebirth="10"> <!-- Название: "Победитель Ивентов."  ENG - "Event Winner." -->
+        <rewards>
+            <reward id="70000" count="5"/>  <!-- Награда: твт 5 шт (ид ) -->
+        </rewards>
+    </mission>
+
+    <!-- Однократные Здания -->
+    <mission id="4000" handler="LevelUp" value="20" min_level="19" max_level="120" minRebirth="0"> <!-- Название: "Получить 20-й уровень."  ENG -  "Get level 20." -->
+        <rewards>
+            <reward id="46709" count="2"/>
+            <reward id="82076" count="2"/>
+            <reward id="48830" count="2"/>
+            <reward id="80842" count="2"/>
+        </rewards>
+    </mission>
+    <mission id="4001" handler="LevelUp" value="40" min_level="39" max_level="120" minRebirth="0"> <!-- Название: "Получить 40-й уровень."  ENG - "Get level 40." -->
+        <rewards>
+            <reward id="80842" count="10"/>
+        </rewards>
+    </mission>
+    <mission id="4002" handler="LevelUp" value="60" min_level="59" max_level="120" minRebirth="0"> <!-- Название: "Получить 60-й уровень."  ENG -  "Get level 60." -->
+        <rewards>
+            <reward id="46709" count="10"/>
+            <reward id="82076" count="10"/>
+        </rewards>
+    </mission>
+    <mission id="4003" handler="LevelUp" value="75" min_level="74" max_level="120" minRebirth="0"> <!-- Название: "Получить 75-й уровень."  ENG - "Get level 75." -->
+        <rewards>
+            <reward id="48830" count="10"/>
+        </rewards>
+    </mission>
+    <mission id="4004" handler="LevelUp" value="80" min_level="79" max_level="120" minRebirth="0"> <!-- Название: "Получить 80-й уровень."  ENG -  "Get level 80." -->
+        <rewards>
+            <reward id="70066" count="2"/>
+        </rewards>
+    </mission>
+    <mission id="4005" handler="LevelUp" value="85" min_level="84" max_level="120" minRebirth="0"> <!-- Название: "Получить 85-й уровень."  ENG - "Get level 85." -->
+        <rewards>
+            <reward id="97068" count="1"/>
+        </rewards>
+    </mission>
+
+    <mission id="4006" handler="FirstTakeNobleStatus" value="1" min_level="1" max_level="120" minRebirth="0"> <!-- Название: "Статус Дворянина"  ENG - "Nobleman Status" -->
+        <rewards>
+            <reward id="106737" count="1"/>
+            <reward id="106738" count="1"/>
+        </rewards>
+    </mission>
+    <mission id="4007" handler="FirstTake3rdProfession" value="1" min_level="76" max_level="120" minRebirth="0"> <!-- Название: "Получить 3-ю профессию"  ENG - "Get 3rd profession" -->
+        <rewards>
+            <reward id="70066" count="3"/>
+            <reward id="106713" count="1"/>
+        </rewards>
+    </mission>
+    <mission id="4008" handler="FirstTake4rdProfession" value="1" min_level="85" max_level="120" minRebirth="0"> <!-- Название: "Получить 4-ю профессию"  ENG - "Get 4th profession" -->
+        <rewards>
+            <reward id="95892" count="1"/>
+        </rewards>
+    </mission>
+    <mission id="4009" handler="FirstKillBossZaken" value="1" min_level="70" max_level="120" minRebirth="0"> <!-- Название: "Первая охота на инстового рейд-босса "Закен"  ENG - "The first hunt for the instant raid boss "Zaken" -->
+        <rewards>
+            <reward id="106739" count="1"/>
+        </rewards>
+    </mission>
+    <mission id="4010" handler="FirstHuntMonsterManeater" value="20" min_level="20" max_level="120" minRebirth="0"> <!-- Название: "Охота на Людоедов"  ENG - "Maneater Hunt" -->
+        <rewards>
+            <reward id="106740" count="1"/>
+            <reward id="106741" count="1"/>
+        </rewards>
+    </mission>
+
+
+
+
+    <!--<mission id="2001" handler="DailyHunting76_80" value="30" min_level="21" max_level="40">
+         <rewards>&lt;!&ndash; Daily Hunting I (Lv. 21-40) &ndash;&gt;
+             &lt;!&ndash; Daily mission. A reward is given for killing any 30 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+             &lt;!&ndash; Kill 30 monsters. &ndash;&gt;
+             <reward id="90907" count="3"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+             <reward id="3031" count="10"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+             <reward id="91912" count="3"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+         </rewards>
+     </mission>-->
+    <!-- <mission id="2002" handler="DailyHunting" value="60" min_level="21" max_level="40" completedMission="2001">
+        <rewards>&lt;!&ndash; Daily Hunting II (Lv. 21-40) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 60 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 60 monsters. &ndash;&gt;
+            <reward id="90907" count="3"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="10"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="3"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2003" handler="DailyHunting" value="100" min_level="21" max_level="40" completedMission="2002">
+        <rewards>&lt;!&ndash; Daily Hunting III (Lv. 21-40) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 100 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 100 monsters. &ndash;&gt;
+            <reward id="90907" count="3"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="10"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="3"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2004" handler="DailyHunting" value="130" min_level="21" max_level="40" completedMission="2003">
+        <rewards>&lt;!&ndash; Daily Hunting IV (Lv. 21-40) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 130 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 130 monsters. &ndash;&gt;
+            <reward id="90907" count="3"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="10"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="3"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2005" handler="DailyHunting" value="160" min_level="21" max_level="40" completedMission="2004">
+        <rewards>&lt;!&ndash; Daily Hunting V (Lv. 21-40) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 160 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 160 monsters. &ndash;&gt;
+            <reward id="90907" count="3"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="10"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="3"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2101" handler="DailyHunting" value="40" min_level="41" max_level="50">
+        <rewards>&lt;!&ndash; Daily Hunting I (Lv. 41-50) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 40 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 40 monsters. &ndash;&gt;
+            <reward id="90907" count="4"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="4"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2102" handler="DailyHunting" value="80" min_level="41" max_level="50" completedMission="2101">
+        <rewards>&lt;!&ndash; Daily Hunting II (Lv. 41-50) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 80 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 80 monsters. &ndash;&gt;
+            <reward id="90907" count="4"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="4"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2103" handler="DailyHunting" value="120" min_level="41" max_level="50" completedMission="2102">
+        <rewards>&lt;!&ndash; Daily Hunting III (Lv. 41-50) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 120 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 120 monsters. &ndash;&gt;
+            <reward id="90907" count="4"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="4"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2104" handler="DailyHunting" value="160" min_level="41" max_level="50" completedMission="2103">
+        <rewards>&lt;!&ndash; Daily Hunting IV (Lv. 41-50) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 160 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 160 monsters. &ndash;&gt;
+            <reward id="90907" count="4"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="4"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2105" handler="DailyHunting" value="200" min_level="41" max_level="50" completedMission="2104">
+        <rewards>&lt;!&ndash; Daily Hunting V (Lv. 41-50) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 200 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 200 monsters. &ndash;&gt;
+            <reward id="90907" count="4"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="4"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2201" handler="DailyHunting" value="50" min_level="51" max_level="60">
+        <rewards>&lt;!&ndash; Daily Hunting I (Lv. 51-60) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 50 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 50 monsters. &ndash;&gt;
+            <reward id="90907" count="5"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="5"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2202" handler="DailyHunting" value="100" min_level="51" max_level="60" completedMission="2201">
+        <rewards>&lt;!&ndash; Daily Hunting II (Lv. 51-60) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 100 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 100 monsters. &ndash;&gt;
+            <reward id="90907" count="5"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="5"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2203" handler="DailyHunting" value="150" min_level="51" max_level="60" completedMission="2202">
+        <rewards>&lt;!&ndash; Daily Hunting III (Lv. 51-60) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 150 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 150 monsters. &ndash;&gt;
+            <reward id="90907" count="5"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="5"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2204" handler="DailyHunting" value="200" min_level="51" max_level="60" completedMission="2203">
+        <rewards>&lt;!&ndash; Daily Hunting IV (Lv. 51-60) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 200 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 200 monsters. &ndash;&gt;
+            <reward id="90907" count="5"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="5"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2205" handler="DailyHunting" value="250" min_level="51" max_level="60" completedMission="2204">
+        <rewards>&lt;!&ndash; Daily Hunting V (Lv. 51-60) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 250 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 250 monsters. &ndash;&gt;
+            <reward id="90907" count="5"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="5"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2301" handler="DailyHunting" value="60" min_level="61" max_level="70">
+        <rewards>&lt;!&ndash; Daily Hunting I (Lv. 61-70) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 60 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 60 monsters. &ndash;&gt;
+            <reward id="90907" count="6"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="6"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2302" handler="DailyHunting" value="120" min_level="61" max_level="70" completedMission="2301">
+        <rewards>&lt;!&ndash; Daily Hunting II (Lv. 61-70) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 120 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 120 monsters. &ndash;&gt;
+            <reward id="90907" count="6"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="6"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2303" handler="DailyHunting" value="180" min_level="61" max_level="70" completedMission="2302">
+        <rewards>&lt;!&ndash; Daily Hunting III (Lv. 61-70) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 180 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 180 monsters. &ndash;&gt;
+            <reward id="90907" count="6"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="6"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2304" handler="DailyHunting" value="240" min_level="61" max_level="70" completedMission="2303">
+        <rewards>&lt;!&ndash; Daily Hunting IV (Lv. 61-70) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 240 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 240 monsters. &ndash;&gt;
+            <reward id="90907" count="6"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="6"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2305" handler="DailyHunting" value="300" min_level="61" max_level="70" completedMission="2304">
+        <rewards>&lt;!&ndash; Daily Hunting V (Lv. 61-70) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 300 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 300 monsters. &ndash;&gt;
+            <reward id="90907" count="6"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="20"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="6"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2401" handler="DailyHunting" value="80" min_level="71" max_level="75">
+        <rewards>&lt;!&ndash; Daily Hunting I (Lv. 71-75) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 80 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 80 monsters. &ndash;&gt;
+            <reward id="90907" count="7"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="30"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="7"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2402" handler="DailyHunting" value="150" min_level="71" max_level="75" completedMission="2401">
+        <rewards>&lt;!&ndash; Daily Hunting II (Lv. 71-75) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 150 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 150 monsters. &ndash;&gt;
+            <reward id="90907" count="7"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="30"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="7"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2403" handler="DailyHunting" value="200" min_level="71" max_level="75" completedMission="2402">
+        <rewards>&lt;!&ndash; Daily Hunting III (Lv. 71-75) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 200 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 200 monsters. &ndash;&gt;
+            <reward id="90907" count="7"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="30"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="7"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2404" handler="DailyHunting" value="300" min_level="71" max_level="75" completedMission="2403">
+        <rewards>&lt;!&ndash; Daily Hunting IV (Lv. 71-75) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 300 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 300 monsters. &ndash;&gt;
+            <reward id="90907" count="7"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="30"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="7"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2405" handler="DailyHunting" value="400" min_level="71" max_level="75" completedMission="2404">
+        <rewards>&lt;!&ndash; Daily Hunting V (Lv. 71-75) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 400 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 400 monsters. &ndash;&gt;
+            <reward id="90907" count="7"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="30"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="7"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2501" handler="DailyHunting" value="100" min_level="76">
+        <rewards>&lt;!&ndash; Daily Hunting I (Lv. 76+) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 100 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 100 monsters. &ndash;&gt;
+            <reward id="90907" count="8"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="40"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="8"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2502" handler="DailyHunting" value="200" min_level="76" completedMission="2501">
+        <rewards>&lt;!&ndash; Daily Hunting II (Lv. 76+) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 200 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 200 monsters. &ndash;&gt;
+            <reward id="90907" count="8"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="40"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="8"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2503" handler="DailyHunting" value="300" min_level="76" completedMission="2502">
+        <rewards>&lt;!&ndash; Daily Hunting III (Lv. 76+) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 300 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 300 monsters. &ndash;&gt;
+            <reward id="90907" count="8"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="40"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="8"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2504" handler="DailyHunting" value="400" min_level="76" completedMission="2503">
+        <rewards>&lt;!&ndash; Daily Hunting IV (Lv. 76+) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 400 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 400 monsters. &ndash;&gt;
+            <reward id="90907" count="8"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="40"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="8"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="2505" handler="DailyHunting" value="500" min_level="76" completedMission="2504">
+        <rewards>&lt;!&ndash; Daily Hunting V (Lv. 76+) &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing any 500 monsters. Monsters whose level is lower than the character's for more than 10 levels do not count. &ndash;&gt;
+            &lt;!&ndash; Kill 500 monsters. &ndash;&gt;
+            <reward id="90907" count="8"/>	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="40"/>	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="91912" count="8"/>	&lt;!&ndash; HP Potion &ndash;&gt;
+            <reward id="-5000" count="10"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+            <reward id="97145" count="25"/>	&lt;!&ndash; Ancient Adena &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1141" handler="HuntJourneyI" value="70" min_level="20" max_level="30">
+        <rewards>&lt;!&ndash;Adventurer's Journey I (Lv. 20-30)&ndash;&gt;
+            &lt;!&ndash;Kill 70 monsters in the following hunting zones: Ruins of Agony, Abandoned Camp.&ndash;&gt;
+            &lt;!&ndash;Kill 70 monsters in the recommended hunting zones.&ndash;&gt;
+            <reward id="91654" count="1"/>&lt;!&ndash;Adventurer's Mark Lv. 1&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1142" handler="HuntJourneyII" value="150" min_level="31" max_level="40">
+        <rewards>&lt;!&ndash;Adventurer's Journey II (Lv. 31-40)&ndash;&gt;
+            &lt;!&ndash;Kill 150 monsters in the following hunting zones: Gorgon Flower Garden, Death Pass.&ndash;&gt;
+            &lt;!&ndash;Kill 150 monsters in the recommended hunting zones.&ndash;&gt;
+            <reward id="91655" count="1"/>&lt;!&ndash;Adventurer's Mark Lv. 2&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1143" handler="HuntJourneyIII" value="500" min_level="41" max_level="60">
+        <rewards>&lt;!&ndash;Adventurer's Journey III (Lv. 41-60)&ndash;&gt;
+            &lt;!&ndash;Kill 500 monsters in the following hunting zones: Sea of Spores, Cemetery, Fields of Massacre.&ndash;&gt;
+            &lt;!&ndash;Kill 500 monsters in the recommended hunting zones.&ndash;&gt;
+            <reward id="91656" count="1"/>&lt;!&ndash;Adventurer's Mark Lv. 3&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1144" handler="HuntJourneyIV" value="700" min_level="61" max_level="75">
+        <rewards>&lt;!&ndash;Adventurer's Journey IV (Lv. 61-75)&ndash;&gt;
+            &lt;!&ndash;Kill 700 monsters in the following hunting zones: Plains of Glory, War-Torn Plains, Patriot's Necropolis, Necropolis of Devotion, Blazing Swamp, Silent Valley.&ndash;&gt;
+            &lt;!&ndash;Kill 700 monsters in the recommended hunting zones.&ndash;&gt;
+            <reward id="91657" count="1"/>&lt;!&ndash;Adventurer's Mark Lv. 4&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1145" handler="HuntJourneyV" value="1000" min_level="76">
+        <rewards>&lt;!&ndash;Adventurer's Journey V (Lv. 76+)&ndash;&gt;
+            &lt;!&ndash;Kill 1000 monsters in the following hunting zones: Plains of the Lizardmen, Dragon Valley&ndash;&gt;
+            &lt;!&ndash;Kill 1000 monsters in the recommended hunting zones.&ndash;&gt;
+            <reward id="91931" count="1"/>&lt;!&ndash;Adventurer's Mark Lv. 5&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4001" handler="LevelUp" value="20" min_level="19">
+        <rewards>&lt;!&ndash;Reach Level 20&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 20.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 20.&ndash;&gt;
+            <reward id="94269" count="2"/>&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4002" handler="LevelUp" value="30" min_level="29">
+        <rewards>&lt;!&ndash;Reach Level 30&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 30.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 30.&ndash;&gt;
+            <reward id="94269" count="3"/>&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4003" handler="LevelUp" value="40" min_level="39">
+        <rewards>&lt;!&ndash;Reach Level 40&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 40.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 40.&ndash;&gt;
+            <reward id="94269" count="4" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="1" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4004" handler="LevelUp" value="45" min_level="44">
+        <rewards>&lt;!&ndash;Reach Level 45&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 45.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 45.&ndash;&gt;
+            <reward id="94269" count="5" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="2" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="5011" handler="LevelUp" value="46" min_level="45">
+        <rewards>&lt;!&ndash;Reach Level 46&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 46.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 46. Event.&ndash;&gt;
+            <reward id="91910" count="5" />	&lt;!&ndash; Sayha's Blessing - Lv. 1-75 (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="5012" handler="LevelUp" value="47" min_level="46">
+        <rewards>&lt;!&ndash;Reach Level 47&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 47.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 47. Event.&ndash;&gt;
+            <reward id="91910" count="5" />	&lt;!&ndash; Sayha's Blessing - Lv. 1-75 (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="5013" handler="LevelUp" value="48" min_level="47">
+        <rewards>&lt;!&ndash;Reach Level 48&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 48.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 48. Event.&ndash;&gt;
+            <reward id="91910" count="5" />	&lt;!&ndash; Sayha's Blessing - Lv. 1-75 (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="5014" handler="LevelUp" value="49" min_level="48">
+        <rewards>&lt;!&ndash;Reach Level 49&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 49.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 49. Event.&ndash;&gt;
+            <reward id="91910" count="5" />	&lt;!&ndash; Sayha's Blessing - Lv. 1-75 (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4005" handler="LevelUp" value="50" min_level="49">
+        <rewards>&lt;!&ndash;Reach Level 50&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 50.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 50.&ndash;&gt;
+            <reward id="94269" count="6" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="3" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4006" handler="LevelUp" value="55" min_level="54">
+        <rewards>&lt;!&ndash;Reach Level 55&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 55.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 55.&ndash;&gt;
+            <reward id="94269" count="7" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="4" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4007" handler="LevelUp" value="60" min_level="59">
+        <rewards>&lt;!&ndash;Reach Level 60&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 60.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 60.&ndash;&gt;
+            <reward id="94269" count="8" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="5" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4008" handler="LevelUp" value="65" min_level="64">
+        <rewards>&lt;!&ndash;Reach Level 65&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 65.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 65.&ndash;&gt;
+            <reward id="94269" count="9" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="6" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4009" handler="LevelUp" value="68" min_level="67">
+        <rewards>&lt;!&ndash;Reach Level 68&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 68.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 68.&ndash;&gt;
+            <reward id="94269" count="10" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="7" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4010" handler="LevelUp" value="71" min_level="70">
+        <rewards>&lt;!&ndash;Reach Level 71&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 71.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 71.&ndash;&gt;
+            <reward id="94269" count="11" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="8" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4011" handler="LevelUp" value="74" min_level="73">
+        <rewards>&lt;!&ndash;Reach Level 74&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 74.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 74.&ndash;&gt;
+            <reward id="94269" count="12" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="9" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="2" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4012" handler="LevelUp" value="76" min_level="75">
+        <rewards>&lt;!&ndash;Reach Level 76&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 76.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 76.&ndash;&gt;
+            <reward id="94269" count="13" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="10" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="4" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4013" handler="LevelUp" value="78" min_level="77">
+        <rewards>&lt;!&ndash;Reach Level 78&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 78.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 78.&ndash;&gt;
+            <reward id="94269" count="14" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="11" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="6" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4014" handler="LevelUp" value="79" min_level="78">
+        <rewards>&lt;!&ndash;Reach Level 79&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 79.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 79.&ndash;&gt;
+            <reward id="94269" count="15" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="12" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="8" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4015" handler="LevelUp" value="80" min_level="79">
+        <rewards>&lt;!&ndash;Reach Level 80&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 80.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 80.&ndash;&gt;
+            <reward id="94269" count="16" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="13" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="10" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4016" handler="LevelUp" value="81" min_level="80">
+        <rewards>&lt;!&ndash;Reach Level 81&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 81.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 81.&ndash;&gt;
+            <reward id="94269" count="17" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="14" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="12" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4017" handler="LevelUp" value="82" min_level="81">
+        <rewards>&lt;!&ndash;Reach Level 82&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 82.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 82.&ndash;&gt;
+            <reward id="94269" count="18" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="15" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="14" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4018" handler="LevelUp" value="83" min_level="82">
+        <rewards>&lt;!&ndash;Reach Level 83&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 83.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 83.&ndash;&gt;
+            <reward id="94269" count="19" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="16" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="16" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4019" handler="LevelUp" value="84" min_level="83">
+        <rewards>&lt;!&ndash;Reach Level 84&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 84.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 84.&ndash;&gt;
+            <reward id="94269" count="20" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="17" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="18" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4020" handler="LevelUp" value="85" min_level="84">
+        <rewards>&lt;!&ndash;Reach Level 85&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 85.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 85.&ndash;&gt;
+            <reward id="94269" count="21" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="18" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="20" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+            <reward id="94777" count="1" />	&lt;!&ndash; Berserker's Scroll (Sealed) &ndash;&gt;
+            <reward id="93062" count="1" />	&lt;!&ndash; Hat of Glory (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4021" handler="LevelUp" value="86" min_level="85">
+        <rewards>&lt;!&ndash;Reach Level 86&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 86.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 86.&ndash;&gt;
+            <reward id="94269" count="22" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="19" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="22" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+            <reward id="94777" count="2" />	&lt;!&ndash; Berserker's Scroll (Sealed) &ndash;&gt;
+            <reward id="93064" count="1" />	&lt;!&ndash; Weight Limit Ticket of Glory (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4022" handler="LevelUp" value="87" min_level="86">
+        <rewards>&lt;!&ndash;Reach Level 87&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 87.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 87.&ndash;&gt;
+            <reward id="94269" count="23" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="20" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="24" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+            <reward id="94777" count="3" />	&lt;!&ndash; Berserker's Scroll (Sealed) &ndash;&gt;
+            <reward id="93059" count="1"/>	&lt;!&ndash; Spellbook: Mount Glory of Champion &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4023" handler="LevelUp" value="88" min_level="87">
+        <rewards>&lt;!&ndash;Reach Level 88&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 88.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 88.&ndash;&gt;
+            <reward id="94269" count="24" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="22" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="24" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+            <reward id="94777" count="4" />	&lt;!&ndash; Berserker's Scroll (Sealed) &ndash;&gt;
+            <reward id="93063" count="1"/>	&lt;!&ndash; Inventory Expansion Ticket of Glory &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4024" handler="LevelUp" value="89" min_level="88">
+        <rewards>&lt;!&ndash;Reach Level 89&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 89.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 89.&ndash;&gt;
+            <reward id="94269" count="24" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="24" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="24" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+            <reward id="94777" count="5" />	&lt;!&ndash; Berserker's Scroll (Sealed) &ndash;&gt;
+            <reward id="93061" count="1"/>	&lt;!&ndash; Spellbook: Mount Shining Lady &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4025" handler="LevelUp" value="90" min_level="89">
+        <rewards>&lt;!&ndash;Reach Level 90&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 90.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 90.&ndash;&gt;
+            <reward id="94269" count="24" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="24" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="24" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+            <reward id="94777" count="5" />	&lt;!&ndash; Berserker's Scroll (Sealed) &ndash;&gt;
+            <reward id="94765" count="1" />	&lt;!&ndash; Lv. 90 Achievement Reward Box (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4026" handler="LevelUp" value="91" min_level="90">
+        <rewards>&lt;!&ndash;Reach Level 91&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 91.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 91.&ndash;&gt;
+            <reward id="94269" count="30" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="30" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="30" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+            <reward id="94777" count="6" />	&lt;!&ndash; Berserker's Scroll (Sealed) &ndash;&gt;
+            <reward id="95888" count="1" />	&lt;!&ndash; Lv. 91 Achievement Reward Box (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="4027" handler="LevelUp" value="92" min_level="91">
+        <rewards>&lt;!&ndash;Reach Level 92&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when the character reaches Lv. 92.&ndash;&gt;
+            &lt;!&ndash;Reach Lv. 92.&ndash;&gt;
+            <reward id="94269" count="36" />	&lt;!&ndash; Scroll: Boost Attack (Sealed) &ndash;&gt;
+            <reward id="94271" count="36" />	&lt;!&ndash; Scroll: Boost Defense (Sealed) &ndash;&gt;
+            <reward id="49674" count="36" />	&lt;!&ndash; XP Growth Scroll (Sealed) &ndash;&gt;
+            <reward id="94777" count="7" />	&lt;!&ndash; Berserker's Scroll (Sealed) &ndash;&gt;
+            <reward id="95889" count="1" />	&lt;!&ndash; Lv. 92 Achievement Reward Box (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="3007" handler="UseSayhaBlessingPotion" value="10" min_level="45">
+        <rewards>&lt;!&ndash;Sayha's Blessing&ndash;&gt;
+            &lt;!&ndash;A reward is given for using Sayha's Blessing that is not limited by level, 10 times.&ndash;&gt;
+            &lt;!&ndash;Use Sayha's Blessing 10 times&ndash;&gt;
+            <reward id="93274" count="10"/>&lt;!&ndash;Sayha's Cookie (Event)&ndash;&gt;
+            <reward id="90907" count="30"/>&lt;!&ndash;Soulshot Ticket&ndash;&gt;
+            <reward id="3031" count="500"/>&lt;!&ndash;Spirit Ore&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1500" handler="TranscendentHunt" value="300" min_level="40">
+        <rewards>&lt;!&ndash; Hunt in Transcendent Instance Zones &ndash;&gt;
+            &lt;!&ndash;Daily mission (once per account). A reward is given for killing 300 monsters in a Transcendent Instance Zone.&ndash;&gt;
+            &lt;!&ndash;Kill 300 monsters in a Transcendent Instance Zone&ndash;&gt;
+            <reward id="93274" count="100"/>&lt;!&ndash;Sayha's Cookie (Event)&ndash;&gt;
+            <reward id="-5000" count="20"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+            <reward id="97145" count="50"/>	&lt;!&ndash; Ancient Adena &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="3019" handler="DifficultAssaultOrcFortress" min_level="60">
+        <rewards>&lt;!&ndash;Difficult Assault on the Orc Fortress&ndash;&gt;
+            &lt;!&ndash;A reward is given for killing titled monsters during the battle for the Orc Fortress.&ndash;&gt;
+            &lt;!&ndash;Kill strong monsters in the Orc Fortress.&ndash;&gt;
+            <reward id="49674" count="3"/>	&lt;!&ndash;XP Growth Scroll&ndash;&gt;
+            <reward id="93068" count="1"/>	&lt;!&ndash;Red Lantern (1st Place)&ndash;&gt;
+            <reward id="97145" count="25"/>	&lt;!&ndash; Ancient Adena &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="3020" handler="AssaultOrcFortress" value="50" min_level="60">
+        <rewards>&lt;!&ndash;Assault on Orc Fortress&ndash;&gt;
+            &lt;!&ndash;A reward is given for killing titleless monsters during the battle for the Orc Fortress.&ndash;&gt;
+            &lt;!&ndash;Kill weak monsters in the Orc Fortress.&ndash;&gt;
+            <reward id="49674" count="2"/>&lt;!&ndash;XP Growth Scroll&ndash;&gt;
+            <reward id="93070" count="5"/>&lt;!&ndash;Blue Lantern (3rd Place)&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="3013" handler="OlympiadWinner" min_level="40">
+        <rewards>&lt;!&ndash;3 vs 3 Olympiad Winner I&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given for winning a 3 vs 3 Olympiad match. Not available on Sundays.&ndash;&gt;
+            &lt;!&ndash;Win a 3 vs 3 Olympiad match.&ndash;&gt;
+            <reward id="92991" count="3"/>&lt;!&ndash;Einhasad's Blessing Scroll&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="3014" handler="OlympiadWinner" value="2" min_level="40">
+        <rewards>&lt;!&ndash;3 vs 3 Olympiad Winner II&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given for winning 2 of 3 vs 3 Olympiad matches. Not available on Sundays.&ndash;&gt;
+            &lt;!&ndash;Win 2 of 3 vs 3 Olympiad matches.&ndash;&gt;
+            <reward id="91690" count="50"/>&lt;!&ndash;Special HP Recovery Potion (Event)&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="3015" handler="OlympiadWinner" value="3" min_level="40">
+        <rewards>&lt;!&ndash;3 vs 3 Olympiad Winner III&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given for winning 3 of 3 vs 3 Olympiad matches. Not available on Sundays.&ndash;&gt;
+            &lt;!&ndash;Win 3 of 3 vs 3 Olympiad matches.&ndash;&gt;
+            <reward id="92991" count="5"/>&lt;!&ndash;Einhasad's Blessing Scroll&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="3016" handler="OlympiadWinner" value="4" min_level="40">
+        <rewards>&lt;!&ndash;3 vs 3 Olympiad Winner IV&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given for winning 4 of 3 vs 3 Olympiad matches. Not available on Sundays.&ndash;&gt;
+            &lt;!&ndash;Win 4 of 3 vs 3 Olympiad matches.&ndash;&gt;
+            <reward id="91690" count="100"/>&lt;!&ndash;Special HP Recovery Potion (Event)&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="3017" handler="OlympiadWinner" value="5" min_level="40">
+        <rewards>&lt;!&ndash;3 vs 3 Olympiad Winner V&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given for winning 5 of 3 vs 3 Olympiad matches. Not available on Sundays.&ndash;&gt;
+            &lt;!&ndash;Win 5 of 3 vs 3 Olympiad matches.&ndash;&gt;
+            <reward id="95687" count="1"/>&lt;!&ndash; Olympiad Treasure Chest (Sealed) &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="3018" handler="OlympiadBattle" value="50" min_level="40">
+        <rewards>&lt;!&ndash;3 vs 3 Olympiad Winner V&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given for winning 5 of 3 vs 3 Olympiad matches. Not available on Sundays.&ndash;&gt;
+            &lt;!&ndash;Win 5 of 3 vs 3 Olympiad matches.&ndash;&gt;
+            <reward id="95687" count="1"/>	&lt;!&ndash; Olympiad Treasure Chest (Sealed) &ndash;&gt;
+            <reward id="-5000" count="150"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1017" handler="Weekend">
+        <rewards>&lt;!&ndash;In-game Weekend&ndash;&gt;
+            &lt;!&ndash;Weekly mission. A reward is given for playing the game on Saturday or Sunday.&ndash;&gt;
+            &lt;!&ndash;Enter the game at the weekend.&ndash;&gt;
+            <reward id="94269" count="1"/>&lt;!&ndash;Scroll: Boost Attack&ndash;&gt;
+            <reward id="3031" count="50"/>&lt;!&ndash;Spirit Ore&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1023" handler="PledgeEnter">
+        <rewards>&lt;!&ndash;Join a clan.&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when joining a clan for the first time.&ndash;&gt;
+            &lt;!&ndash;Join a clan.&ndash;&gt;
+            <reward id="90768" count="1"/>&lt;!&ndash;Hair Accessory Coupon&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="9001" handler="ClanArenaWeek" min_level="40">
+        <rewards>&lt;!&ndash;Clan Raid Attack&ndash;&gt;
+            &lt;!&ndash;Weekly mission. A reward is given for defeating 1 enemy together with your clan members in the Clan Arena.&ndash;&gt;
+            &lt;!&ndash;Kill 1 enemy in the Clan Arena.&ndash;&gt;
+            <reward id="94269" count="3" />	&lt;!&ndash; Scroll: Boost Attack &ndash;&gt;
+            <reward id="3031" count="150" />	&lt;!&ndash; Spirit Ore &ndash;&gt;
+            <reward id="-6000" count="500" />	&lt;!&ndash; Clan XP &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="9002" handler="HuntDwellingSpiritsI" value="50" min_level="76">
+        <rewards>&lt;!&ndash; Dwelling of Spirits &ndash;&gt;
+            &lt;!&ndash; Weekly mission. A reward is given for defeating monsters during a clan raid to the Dwelling of Spirits. &ndash;&gt;
+            &lt;!&ndash; Defeat 50 Corrupted Fairies and Ruip in the Dwelling of Spirits. &ndash;&gt;
+            <reward id="91830" count="5" />	&lt;!&ndash; Improved Fire Attack Potion &ndash;&gt;
+            <reward id="91831" count="5" />	&lt;!&ndash; Improved Water Attack Potion &ndash;&gt;
+            <reward id="91832" count="5" />	&lt;!&ndash; Improved Wind Attack Potion &ndash;&gt;
+            <reward id="91833" count="5" />	&lt;!&ndash; Improved Earth Attack Potion &ndash;&gt;
+            <reward id="-6000" count="250" />	&lt;!&ndash; Clan XP &ndash;&gt;
+            <reward id="-5000" count="5"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="9003" handler="HuntDwellingSpiritsII" min_level="76">
+        <rewards>&lt;!&ndash; Spirit Rulers &ndash;&gt;
+            &lt;!&ndash; Weekly mission. A reward is given for defeating Ignis, Nebula, Procella or Petram during a clan raid to the Dwelling of Spirits. &ndash;&gt;
+            &lt;!&ndash; Defeat Ignis, Nebula, Procella or Petram in the Dwelling of Spirits. &ndash;&gt;
+            <reward id="91830" count="5" />	&lt;!&ndash; Improved Fire Attack Potion &ndash;&gt;
+            <reward id="91831" count="5" />	&lt;!&ndash; Improved Water Attack Potion &ndash;&gt;
+            <reward id="91832" count="5" />	&lt;!&ndash; Improved Wind Attack Potion &ndash;&gt;
+            <reward id="91833" count="5" />	&lt;!&ndash; Improved Earth Attack Potion &ndash;&gt;
+            <reward id="-6000" count="500" />	&lt;!&ndash; Clan XP &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="9004" handler="HuntFrintezza" min_level="76">
+        <rewards>&lt;!&ndash; Battle with Frintezza &ndash;&gt;
+            &lt;!&ndash; Weekly mission. A reward is given for defeating Scarlet van Halisha during a clan raid to Frintezza. &ndash;&gt;
+            &lt;!&ndash; Defeat Scarlet van Halisha during a clan raid to Frintezza. &ndash;&gt;
+            <reward id="90907" count="20" />	&lt;!&ndash; Soulshot Ticket (Sealed) &ndash;&gt;
+            <reward id="3031" count="200" />	&lt;!&ndash; Spirit Ore (Sealed) &ndash;&gt;
+            <reward id="-6000" count="500" />	&lt;!&ndash; Clan XP &ndash;&gt;
+            <reward id="94879" count="300"	/>	&lt;!&ndash; Grace Potion &ndash;&gt;
+            <reward id="-5000" count="5"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1112" handler="FireElementalThirdEvolution" min_level="40">
+        <rewards>&lt;!&ndash;Fire Spirit Lv. 3&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when evolving the Fire Spirit up to Lv. 3.&ndash;&gt;
+            &lt;!&ndash;Evolve the Fire Spirit up to Lv. 3.&ndash;&gt;
+            <reward id="91185" count="30"/>&lt;!&ndash;Mid-grade Spirit's Blessing&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1113" handler="WaterElementalThirdEvolution" min_level="40">
+        <rewards>&lt;!&ndash;Water Spirit Lv. 3&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when evolving the Water Spirit up to Lv. 3.&ndash;&gt;
+            &lt;!&ndash;Evolve the Water Spirit up to Lv. 3.&ndash;&gt;
+            <reward id="91185" count="30"/>&lt;!&ndash;Mid-grade Spirit's Blessing&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1114" handler="WindElementalThirdEvolution" min_level="40">
+        <rewards>&lt;!&ndash;Wind Spirit Lv. 3&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when evolving the Wind Spirit up to Lv. 3.&ndash;&gt;
+            &lt;!&ndash;Evolve the Wind Spirit up to Lv. 3.&ndash;&gt;
+            <reward id="91185" count="30"/>&lt;!&ndash;Mid-grade Spirit's Blessing&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1115" handler="EarthElementalThirdEvolution" min_level="40">
+        <rewards>&lt;!&ndash;Earth Spirit Lv. 3&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when evolving the Earth Spirit up to Lv. 3.&ndash;&gt;
+            &lt;!&ndash;Evolve the Earth Spirit up to Lv. 3.&ndash;&gt;
+            <reward id="91185" count="30"/>&lt;!&ndash;Mid-grade Spirit's Blessing&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1162" handler="FireElementalFiveEvolution" min_level="40">
+        <rewards>&lt;!&ndash;Fire Spirit Lv. 5&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when evolving the Fire Spirit up to Lv. 5.&ndash;&gt;
+            &lt;!&ndash;Evolve the Fire Spirit up to Lv. 5.&ndash;&gt;
+            <reward id="91186" count="30"/>&lt;!&ndash;High-grade Spirit's Blessing&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1163" handler="WaterElementalFiveEvolution" min_level="40">
+        <rewards>&lt;!&ndash;Water Spirit Lv. 5&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when evolving the Water Spirit up to Lv. 5.&ndash;&gt;
+            &lt;!&ndash;Evolve the Water Spirit up to Lv. 5.&ndash;&gt;
+            <reward id="91186" count="30"/>&lt;!&ndash;High-grade Spirit's Blessing&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1164" handler="WindElementalFiveEvolution" min_level="40">
+        <rewards>&lt;!&ndash;Wind Spirit Lv. 5&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when evolving the Wind Spirit up to Lv. 5.&ndash;&gt;
+            &lt;!&ndash;Evolve the Wind Spirit up to Lv. 5.&ndash;&gt;
+            <reward id="91186" count="30"/>&lt;!&ndash;High-grade Spirit's Blessing&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1165" handler="EarthElementalFiveEvolution" min_level="40">
+        <rewards>&lt;!&ndash;Earth Spirit Lv. 5&ndash;&gt;
+            &lt;!&ndash;One-time mission. A reward is given when evolving the Earth Spirit up to Lv. 5.&ndash;&gt;
+            &lt;!&ndash;Evolve the Earth Spirit up to Lv. 5.&ndash;&gt;
+            <reward id="91186" count="30"/>&lt;!&ndash;High-grade Spirit's Blessing&ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1116" handler="HuntElementalMonsters" value="1800" min_level="76">
+        <rewards>&lt;!&ndash;Elemental Monster Hunting&ndash;&gt;
+            &lt;!&ndash;A reward is given once a week for elemental monster hunting.&ndash;&gt;
+            &lt;!&ndash;Kill 1800 elemental monsters.&ndash;&gt;
+            <reward id="91030" count="10"/>&lt;!&ndash;Blessed Soul&ndash;&gt;
+            <reward id="-5000" count="5"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1503" handler="HuntPrimevalIsle" value="200" min_level="76">
+        <rewards>&lt;!&ndash; Explore Primeval Isle &ndash;&gt;
+            &lt;!&ndash; A reward is given for defeating 200 monsters on the Primeval Isle. &ndash;&gt;
+            &lt;!&ndash; Defeat 200 monsters on the Primeval Isle. &ndash;&gt;
+            <reward id="94879" count="50"/>	&lt;!&ndash; Grace Potion (Sealed) &ndash;&gt;
+            <reward id="-5000" count="5"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="5036" handler="HuntElmoredenTower" value="50" min_level="60" max_level="74">
+        <rewards>&lt;!&ndash; Assault on Elmoreden Tower &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing 50 monsters in the Elmoreden Tower. Required level: 60-74. &ndash;&gt;
+            &lt;!&ndash; Kill 50 monsters in the Elmoreden Tower. &ndash;&gt;
+            <reward id="91671" count="1"/>	&lt;!&ndash; Green Lantern (Time-Limited) &ndash;&gt;
+            <reward id="97247" count="1"/>	&lt;!&ndash; Asofe &ndash;&gt;
+            <reward id="-5000" count="20"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="5037" handler="HuntElmoredenTower" value="50" min_level="75" max_level="79">
+        <rewards>&lt;!&ndash; Assault on Elmoreden Tower &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing 50 monsters in the Elmoreden Tower. Required level: 75-79. &ndash;&gt;
+            &lt;!&ndash; Kill 50 monsters in the Elmoreden Tower. &ndash;&gt;
+            <reward id="91670" count="1"/>	&lt;!&ndash; Blue Lantern (Time-Limited) &ndash;&gt;
+            <reward id="97247" count="3"/>	&lt;!&ndash; Asofe &ndash;&gt;
+            <reward id="-5000" count="20"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="5038" handler="HuntElmoredenTower" value="50" min_level="80" max_level="84">
+        <rewards>&lt;!&ndash; Assault on Elmoreden Tower &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing 50 monsters in the Elmoreden Tower. Required level: 80-84. &ndash;&gt;
+            &lt;!&ndash; Kill 50 monsters in the Elmoreden Tower. &ndash;&gt;
+            <reward id="91669" count="2"/>	&lt;!&ndash; Purple Lantern (Time-Limited) &ndash;&gt;
+            <reward id="97247" count="5"/>	&lt;!&ndash; Asofe &ndash;&gt;
+            <reward id="-5000" count="20"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="5039" handler="HuntElmoredenTower" value="50" min_level="85">
+        <rewards>&lt;!&ndash; Assault on Elmoreden Tower &ndash;&gt;
+            &lt;!&ndash; Daily mission. A reward is given for killing 50 monsters in the Elmoreden Tower. Required level: 85+. &ndash;&gt;
+            &lt;!&ndash; Kill 50 monsters in the Elmoreden Tower. &ndash;&gt;
+            <reward id="91668" count="2"/>	&lt;!&ndash; Red Lantern (Time-Limited) &ndash;&gt;
+            <reward id="97247" count="7"/>	&lt;!&ndash; Asofe &ndash;&gt;
+            <reward id="-5000" count="20"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1505" handler="PurgeReward" value="1" min_level="65">
+        <rewards>&lt;!&ndash; Monster Purge &ndash;&gt;
+            &lt;!&ndash; A reward is given after receiving the reward for using the Purge system in the corresponding hunting zones. &ndash;&gt;
+            &lt;!&ndash; Get the Purge reward once. &ndash;&gt;
+            <reward id="95481" count="1"/>	&lt;!&ndash; Aden Purge Crystal &ndash;&gt;
+            <reward id="-5000" count="20"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1506" handler="HuntForgottenPrimevalGarden" value="100" min_level="76">
+        <rewards>&lt;!&ndash; Forgotten Primeval Garden I &ndash;&gt;
+            &lt;!&ndash; A reward is given for killing 100 Swift Hunter monsters in Forgotten Primeval Garden. &ndash;&gt;
+            &lt;!&ndash; Kill 100 Swift Hunter monsters. &ndash;&gt;
+            <reward id="92459" count="1"/>	&lt;!&ndash; Talisman of Speed Pack &ndash;&gt;
+            <reward id="97246" count="5"/>	&lt;!&ndash; Enria &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1507" handler="HuntForgottenPrimevalGarden" value="300" min_level="76">
+        <rewards>&lt;!&ndash; Forgotten Primeval Garden II &ndash;&gt;
+            &lt;!&ndash; A reward is given for killing 300 Swift Hunter monsters in Forgotten Primeval Garden. &ndash;&gt;
+            &lt;!&ndash; Kill 300 Swift Hunter monsters. &ndash;&gt;
+            <reward id="92459" count="2"/>	&lt;!&ndash; Talisman of Speed Pack &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1508" handler="HuntForgottenPrimevalGarden" value="1000" min_level="76">
+        <rewards>&lt;!&ndash; Forgotten Primeval Garden III &ndash;&gt;
+            &lt;!&ndash; A reward is given for killing 1000 Swift Hunter monsters in Forgotten Primeval Garden. &ndash;&gt;
+            &lt;!&ndash; Kill 1000 Swift Hunter monsters. &ndash;&gt;
+            <reward id="96787" count="4"/>	&lt;!&ndash; Enhanced Talisman of Speed Pack &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1509" handler="ExploringDreamland" value="1" min_level="76">
+        <rewards>&lt;!&ndash; Exploring Dreamland &ndash;&gt;
+            &lt;!&ndash; A reward is given for killing one of the following monsters in the Dream Dungeon: Gustav, Gustav's Steward, Gabrielle, Gabrielle's Minion, Ventus, Rekario, Tiat, Baint. &ndash;&gt;
+            &lt;!&ndash; Kill 1 raid boss in one of the four dungeons. &ndash;&gt;
+            <reward id="96925" count="1"/>	&lt;!&ndash; Dream Orb &ndash;&gt;
+            <reward id="93068" count="2"/>	&lt;!&ndash; Red Lantern - 1st Place &ndash;&gt;
+            <reward id="-5000" count="5"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+            <reward id="97145" count="100"/>	&lt;!&ndash; Ancient Adena &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1510" handler="ExploringDreamlandSecretPlaces" value="1" min_level="76">
+        <rewards>&lt;!&ndash; Exploring Dreamland's Secret Places &ndash;&gt;
+            &lt;!&ndash; A reward is given for killing Feline King or Feline Queen in the Cat Guild's Lair of the Dream Dungeon. &ndash;&gt;
+            &lt;!&ndash; Kill 1 raid boss in the Cat Guild's dungeon. &ndash;&gt;
+            <reward id="96925" count="1"/>	&lt;!&ndash; Dream Orb &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1511" handler="HuntAlligatorIsland" value="100" min_level="76">
+        <rewards>&lt;!&ndash; Exploring Alligator Island &ndash;&gt;
+            &lt;!&ndash; A reward is given for killing 100 Evolved monsters on Alligator Island. &ndash;&gt;
+            &lt;!&ndash; Kill 100 Evolved monsters. &ndash;&gt;
+            <reward id="94780" count="2"/>	&lt;!&ndash; Dream Orb &ndash;&gt;
+            <reward id="-5000" count="5"/>	&lt;!&ndash; Mission Points &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1512" handler="IncessantTraining" value="1" min_level="76">
+        <rewards>&lt;!&ndash; Incessant Training &ndash;&gt;
+            &lt;!&ndash; A reward is given for killing one of the following monsters in the Training Zone: Boojudu, Petron, Kerion, Furious Tukhak, Rilva, Ryun, Chel. &ndash;&gt;
+            &lt;!&ndash; Kill 1 raid boss in the Training Zone. &ndash;&gt;
+            <reward id="97145" count="100"/>	&lt;!&ndash; Ancient Adena &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1513" handler="BattleWithBalok" value="10" min_level="60">
+        <rewards>&lt;!&ndash; Combat on Balok Battleground &ndash;&gt;
+            &lt;!&ndash; A reward is given for killing 10 monsters on the Balok Battleground. &ndash;&gt;
+            &lt;!&ndash; Kill 10 monsters in the Battle with Balok. &ndash;&gt;
+            <reward id="97145" count="100"/>	&lt;!&ndash; Ancient Adena &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1514" handler="ExploringGoddard" value="1000" min_level="85">
+        <rewards>&lt;!&ndash; Exploring Goddard &ndash;&gt;
+            &lt;!&ndash; A reward is given for killing 1000 monsters in the Gorde Canyon, Morgos Military Base, Xilenos Fortress, Hot Springs. &ndash;&gt;
+            &lt;!&ndash; Kill 1000 monsters in Goddard's hunting zones. &ndash;&gt;
+            <reward id="97145" count="50"/>	&lt;!&ndash; Ancient Adena &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1515" handler="ExploringAntharasLair" value="300" min_level="85">
+        <rewards>&lt;!&ndash; Exploring Antharas' Lair &ndash;&gt;
+            &lt;!&ndash; A reward is given for killing 300 monsters in the Antharas' Lair. &ndash;&gt;
+            &lt;!&ndash; Kill 300 monsters in the Antharas' Lair. &ndash;&gt;
+            <reward id="97246" count="10"/>	&lt;!&ndash; Enria &ndash;&gt;
+        </rewards>
+    </mission>
+    <mission id="1516" handler="ExploringFrostLordCastle" value="300" min_level="85">
+        <rewards>&lt;!&ndash; Exploring Frost Lord's Castle &ndash;&gt;
+            &lt;!&ndash; A reward is given for killing 300 monsters in the Frost Lord's Castle. &ndash;&gt;
+            &lt;!&ndash; Kill 300 monsters in the Frost Lord's Castle. &ndash;&gt;
+            <reward id="97246" count="10"/>	&lt;!&ndash; Enria &ndash;&gt;
+        </rewards>
+    </mission>-->
+</list>

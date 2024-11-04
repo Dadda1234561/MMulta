@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+    <skill id="106000" levels="1" name="VIP 1">
+        <table name="#dropAdenaSpoil">0.02</table>
+        <table name="#pDefMDef">1.01</table>
+        <table name="#ExpSp">0.03</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.02"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.02"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+        </for>
+    </skill>
+    <skill id="106001" levels="1" name="VIP 2">
+        <table name="#dropAdenaSpoil">0.04</table>
+        <table name="#pDefMDef">1.02</table>
+        <table name="#ExpSp">0.06</table>
+        <table name="#PveDamage">1.02</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.04"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.04"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+        </for>
+    </skill>
+    <skill id="106002" levels="1" name="VIP 3">
+        <table name="#dropAdenaSpoil">0.06</table>
+        <table name="#pDefMDef">1.03</table>
+        <table name="#ExpSp">0.09</table>
+        <table name="#PveDamage">1.03</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.06"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.06"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+        </for>
+    </skill>
+    <skill id="106003" levels="1" name="VIP 4">
+        <table name="#dropAdenaSpoil">0.08</table>
+        <table name="#pDefMDef">1.04</table>
+        <table name="#ExpSp">0.12</table>
+        <table name="#PveDamage">1.04</table>
+        <set name="magicLevel" value="1"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.08"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.08"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+        </for>
+    </skill>
+    <skill id="106004" levels="1" name="VIP 5">
+        <table name="#dropAdenaSpoil">0.10</table>
+        <table name="#pDefMDef">1.05</table>
+        <table name="#ExpSp">0.15</table>
+        <table name="#PveDamage">1.05</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="U_BIGBD_DEMON_PC"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.10"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.10"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+        </for>
+    </skill>
+    <skill id="106005" levels="1" name="VIP 6">
+        <table name="#dropAdenaSpoil">0.12</table>
+        <table name="#pDefMDef">1.06</table>
+        <table name="#ExpSp">0.18</table>
+        <table name="#PveDamage">1.06</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="ARENA_UNSEAL_B"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.12"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.12"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="106006" levels="1" name="VIP 7">
+        <table name="#dropAdenaSpoil">0.14</table>
+        <table name="#pDefMDef">1.07</table>
+        <table name="#ExpSp">0.21</table>
+        <table name="#PveDamage">1.07</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="ARENA_UNSEAL_B"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.14"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.14"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="106007" levels="1" name="VIP 8">
+        <table name="#dropAdenaSpoil">0.16</table>
+        <table name="#pDefMDef">1.08</table>
+        <table name="#ExpSp">0.24</table>
+        <table name="#PveDamage">1.08</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="ARENA_UNSEAL_C"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.16"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.16"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="106008" levels="1" name="VIP 9">
+        <table name="#dropAdenaSpoil">0.18</table>
+        <table name="#pDefMDef">1.09</table>
+        <table name="#ExpSp">0.27</table>
+        <table name="#PveDamage">1.09</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="ARENA_UNSEAL_D"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.18"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.18"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="106009" levels="1" name="VIP 10">
+        <table name="#dropAdenaSpoil">0.20</table>
+        <table name="#pDefMDef">1.10</table>
+        <table name="#ExpSp">0.3</table>
+        <table name="#PveDamage">1.10</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="ARENA_UNSEAL_E"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.20"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.20"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </skill>
+    <skill id="106010" levels="1" name="Руна Почетного Дворянина 1 День">
+        <set name="effectPoint" value="1"/>
+        <set name="icon" value="icon.skill1323"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="castRange" value="400"/>
+        <set name="hitTime" value="500"/>
+        <set name="mp_consume" value="69"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="preserve_abnormal"/>
+        <set name="magicLevel" value="1"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="TARGET"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="operate_type" value="A2"/>
+        <for>
+            <effect name="p_preserve_abnormal_start"/>
+        </for>
+    </skill>
+    <skill id="106011" levels="1" name="VIP 11">
+        <table name="#dropAdenaSpoil">0.22</table>
+        <table name="#pDefMDef">1.12</table>
+        <table name="#ExpSp">0.33</table>
+        <table name="#PveDamage">1.11</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="ARENA_UNSEAL_E"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.22"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.22"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="2"/>
+            <add order="0x10" stat="DEX" value="2"/>
+            <add order="0x10" stat="CON" value="2"/>
+            <add order="0x10" stat="INT" value="2"/>
+            <add order="0x10" stat="WIT" value="2"/>
+            <add order="0x10" stat="MEN" value="2"/>
+        </for>
+    </skill>
+    <skill id="106012" levels="1" name="VIP 12">
+        <table name="#dropAdenaSpoil">0.24</table>
+        <table name="#pDefMDef">1.14</table>
+        <table name="#ExpSp">0.36</table>
+        <table name="#PveDamage">1.12</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="ARENA_UNSEAL_E"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.24"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.24"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="2"/>
+            <add order="0x10" stat="DEX" value="2"/>
+            <add order="0x10" stat="CON" value="2"/>
+            <add order="0x10" stat="INT" value="2"/>
+            <add order="0x10" stat="WIT" value="2"/>
+            <add order="0x10" stat="MEN" value="2"/>
+        </for>
+    </skill>
+    <skill id="106013" levels="1" name="VIP 13">
+        <table name="#dropAdenaSpoil">0.26</table>
+        <table name="#pDefMDef">1.16</table>
+        <table name="#ExpSp">0.39</table>
+        <table name="#PveDamage">1.13</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="ARENA_UNSEAL_E"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.26"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.26"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="2"/>
+            <add order="0x10" stat="DEX" value="2"/>
+            <add order="0x10" stat="CON" value="2"/>
+            <add order="0x10" stat="INT" value="2"/>
+            <add order="0x10" stat="WIT" value="2"/>
+            <add order="0x10" stat="MEN" value="2"/>
+        </for>
+    </skill>
+    <skill id="106014" levels="1" name="VIP 14">
+        <table name="#dropAdenaSpoil">0.28</table>
+        <table name="#pDefMDef">1.18</table>
+        <table name="#ExpSp">0.45</table>
+        <table name="#PveDamage">1.14</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="ARENA_UNSEAL_E"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.28"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.28"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="2"/>
+            <add order="0x10" stat="DEX" value="2"/>
+            <add order="0x10" stat="CON" value="2"/>
+            <add order="0x10" stat="INT" value="2"/>
+            <add order="0x10" stat="WIT" value="2"/>
+            <add order="0x10" stat="MEN" value="2"/>
+        </for>
+    </skill>
+    <skill id="106015" levels="1" name="VIP 15">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="ARENA_UNSEAL_E"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+
+    <skill id="106016" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="VIP_AURAS_COMBO_1"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106017" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="VIP_AURAS_COMBO_2"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106018" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="VIP_AURAS_COMBO_3"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106019" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="VIP_AURAS_943"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106020" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="VIP_AURAS_917"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106021" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="VIP_AURAS_COMBO_4"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106022" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="H_P_DEVIL_STANDING2_AVE"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106023" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="V_KNIGHT_SHELTER_02_AVE"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106024" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="VIP_AURAS_COMBO_5"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106025" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="V_KNIGHT_PHOENIX_AVE"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106026" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="H_DEBUFF_SELF_B_AVE"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106027" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="H_R_ORC_TITAN_AVE"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106028" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="VIP_AURAS_COMBO_6"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106029" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="H_B_PROTECTION_MANAC_AVE"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106030" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="H_B_FRAGARACH_AVE"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106031" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="H_P_OVERWHELMINGB_AVE"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106032" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="H_P_OVERWHELMINGA_AVE"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106033" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="VIP_AURAS_912"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106034" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="VIP_AURAS_COMBO_7"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+    <skill id="106035" levels="1" name="VIP">
+        <table name="#dropAdenaSpoil">0.30</table>
+        <table name="#pDefMDef">1.20</table>
+        <table name="#ExpSp">0.50</table>
+        <table name="#PveDamage">1.15</table>
+        <set name="magicLevel" value="1"/>
+        <set name="abnormal_effect" value="H_R_BERSERKER_SHIELD_BUFF_LV7_AVE"/>
+        <set name="operate_type" value="A2"/>
+        <set name="abnormal_time" value="21600"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="vip_all"/>
+        <set name="autouse_type" value="BUFF"/>
+        <set name="magicType" value="AWAKED_BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="icon" value="icon.etc_blessed_kalie_i0"/>
+        <for>
+            <add stat="adena_rate_multiplier" order="0x40" value="#dropAdenaSpoil"/>
+            <add stat="drop_count_modifier" order="0x40" value="0.30"/>
+            <add stat="spoil_count_modifier" order="0x40" value="0.30"/>
+            <mul stat="pDef" value="#pDefMDef" />
+            <mul stat="mDef" value="#pDefMDef" />
+            <add stat="exp_rate_multiplier" value="#ExpSp"/>
+            <add stat="sp_rate_multiplier" value="#ExpSp"/>
+            <mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+            <mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+            <mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+            <add order="0x10" stat="STR" value="3"/>
+            <add order="0x10" stat="DEX" value="3"/>
+            <add order="0x10" stat="CON" value="3"/>
+            <add order="0x10" stat="INT" value="3"/>
+            <add order="0x10" stat="WIT" value="3"/>
+            <add order="0x10" stat="MEN" value="3"/>
+        </for>
+    </skill>
+</list>

@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "option_data.dtd">
+<list>
+    <option_data id="42000">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.02"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.02"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.02"/>
+            <mul order="0x40" stat="pCritDamRcpt" value="1.015"/>
+            <mul order="0x40" stat="mCritDamRcpt" value="1.015"/>
+        </for>
+    </option_data>
+
+    <option_data id="42001">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.04"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.04"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.04"/>
+            <mul order="0x40" stat="pCritDamRcpt" value="1.03"/>
+            <mul order="0x40" stat="mCritDamRcpt" value="1.03"/>
+        </for>
+    </option_data>
+
+    <option_data id="42002">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.06"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.06"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.06"/>
+            <mul order="0x40" stat="pCritDamRcpt" value="1.045"/>
+            <mul order="0x40" stat="mCritDamRcpt" value="1.045"/>
+        </for>
+    </option_data>
+
+    <option_data id="42003">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.08"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.08"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.08"/>
+            <mul order="0x40" stat="pCritDamRcpt" value="1.06"/>
+            <mul order="0x40" stat="mCritDamRcpt" value="1.06"/>
+        </for>
+    </option_data>
+
+    <option_data id="42004">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="pCritDamRcpt" value="1.075"/>
+            <mul order="0x40" stat="mCritDamRcpt" value="1.075"/>
+        </for>
+    </option_data>
+
+    <option_data id="42005">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.12"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.12"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.12"/>
+            <mul order="0x40" stat="pCritDamRcpt" value="1.09"/>
+            <mul order="0x40" stat="mCritDamRcpt" value="1.09"/>
+        </for>
+    </option_data>
+
+    <option_data id="42006">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.14"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.14"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.14"/>
+            <mul order="0x40" stat="pCritDamRcpt" value="1.105"/>
+            <mul order="0x40" stat="mCritDamRcpt" value="1.105"/>
+        </for>
+    </option_data>
+    <option_data id="42007">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.16"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.16"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.16"/>
+            <mul order="0x40" stat="pCritDamRcpt" value="1.12"/>
+            <mul order="0x40" stat="mCritDamRcpt" value="1.12"/>
+        </for>
+    </option_data>
+    <option_data id="42008">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.18"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.18"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.18"/>
+            <mul order="0x40" stat="pCritDamRcpt" value="1.135"/>
+            <mul order="0x40" stat="mCritDamRcpt" value="1.135"/>
+        </for>
+    </option_data>
+
+    <option_data id="42009">
+        <for>
+            <mul order="0x40" stat="pvpPhysDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="pvpMagicSkillDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="pvpPhysSkillDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="pCritDamRcpt" value="1.15"/>
+            <mul order="0x40" stat="mCritDamRcpt" value="1.15"/>
+            <mul order="0x40" stat="mCritDamRcpt" value="1.15"/>
+        </for>
+    </option_data>
+
+    <!-- Пояс -->
+
+
+    <option_data id="42010">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.02"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.02"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.02"/>
+            <mul order="0x40" stat="mDef" value="1.02"/>
+            <mul order="0x40" stat="pDef" value="1.02"/>
+            <mul order="0x40" stat="exp_rate_multiplier" value="0.02"/>
+        </for>
+    </option_data>
+
+    <option_data id="42011">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.04"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.04"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.04"/>
+            <mul order="0x40" stat="mDef" value="1.04"/>
+            <mul order="0x40" stat="pDef" value="1.04"/>
+            <mul order="0x40" stat="exp_rate_multiplier" value="0.04"/>
+        </for>
+    </option_data>
+
+    <option_data id="42012">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.06"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.06"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.06"/>
+            <mul order="0x40" stat="mDef" value="1.06"/>
+            <mul order="0x40" stat="pDef" value="1.06"/>
+            <mul order="0x40" stat="exp_rate_multiplier" value="0.06"/>
+        </for>
+    </option_data>
+
+    <option_data id="42013">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.08"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.08"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.08"/>
+            <mul order="0x40" stat="mDef" value="1.08"/>
+            <mul order="0x40" stat="pDef" value="1.08"/>
+            <mul order="0x40" stat="exp_rate_multiplier" value="0.08"/>
+        </for>
+    </option_data>
+
+    <option_data id="42014">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.1"/>
+            <mul order="0x40" stat="mDef" value="1.1"/>
+            <mul order="0x40" stat="pDef" value="1.1"/>
+            <mul order="0x40" stat="exp_rate_multiplier" value="0.1"/>
+        </for>
+    </option_data>
+
+    <option_data id="42015">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.12"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.12"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.12"/>
+            <mul order="0x40" stat="mDef" value="1.12"/>
+            <mul order="0x40" stat="pDef" value="1.12"/>
+            <mul order="0x40" stat="exp_rate_multiplier" value="0.12"/>
+        </for>
+    </option_data>
+
+    <option_data id="42016">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.14"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.14"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.14"/>
+            <mul order="0x40" stat="mDef" value="1.14"/>
+            <mul order="0x40" stat="pDef" value="1.14"/>
+            <mul order="0x40" stat="exp_rate_multiplier" value="0.14"/>
+        </for>
+    </option_data>
+    <option_data id="42017">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.16"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.16"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.16"/>
+            <mul order="0x40" stat="mDef" value="1.16"/>
+            <mul order="0x40" stat="pDef" value="1.16"/>
+            <mul order="0x40" stat="exp_rate_multiplier" value="0.16"/>
+        </for>
+    </option_data>
+    <option_data id="42018">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.18"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.18"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.18"/>
+            <mul order="0x40" stat="mDef" value="1.18"/>
+            <mul order="0x40" stat="pDef" value="1.18"/>
+            <mul order="0x40" stat="exp_rate_multiplier" value="0.18"/>
+        </for>
+    </option_data>
+
+    <option_data id="42019">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="mDef" value="1.2"/>
+            <mul order="0x40" stat="pDef" value="1.2"/>
+            <mul order="0x40" stat="exp_rate_multiplier" value="0.2"/>
+        </for>
+    </option_data>
+
+    <!-- Рубашка -->
+
+
+
+    <option_data id="42020">
+        <for>
+            <mul stat="adena_rate_multiplier" order="0x40" value="0.015"/>
+            <mul stat="drop_chance_modifier" order="0x40" value="0.015"/>
+            <mul stat="spoil_count_modifier" order="0x40" value="0.015"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+        </for>
+    </option_data>
+
+    <option_data id="42021">
+        <for>
+            <mul stat="adena_rate_multiplier" order="0x40" value="0.03"/>
+            <mul stat="drop_chance_modifier" order="0x40" value="0.03"/>
+            <mul stat="spoil_count_modifier" order="0x40" value="0.03"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+        </for>
+    </option_data>
+
+    <option_data id="42022">
+        <for>
+            <mul stat="adena_rate_multiplier" order="0x40" value="0.03"/>
+            <mul stat="drop_chance_modifier" order="0x40" value="0.03"/>
+            <mul stat="spoil_count_modifier" order="0x40" value="0.03"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+        </for>
+    </option_data>
+
+    <option_data id="42023">
+        <for>
+            <mul stat="adena_rate_multiplier" order="0x40" value="0.03"/>
+            <mul stat="drop_chance_modifier" order="0x40" value="0.03"/>
+            <mul stat="spoil_count_modifier" order="0x40" value="0.03"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+        </for>
+    </option_data>
+
+    <option_data id="42024">
+        <for>
+            <mul stat="adena_rate_multiplier" order="0x40" value="0.03"/>
+            <mul stat="drop_chance_modifier" order="0x40" value="0.03"/>
+            <mul stat="spoil_count_modifier" order="0x40" value="0.03"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+        </for>
+    </option_data>
+
+    <option_data id="42025">
+        <for>
+            <mul stat="adena_rate_multiplier" order="0x40" value="0.03"/>
+            <mul stat="drop_chance_modifier" order="0x40" value="0.03"/>
+            <mul stat="spoil_count_modifier" order="0x40" value="0.03"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </option_data>
+
+    <option_data id="42026">
+        <for>
+            <mul stat="adena_rate_multiplier" order="0x40" value="0.03"/>
+            <mul stat="drop_chance_modifier" order="0x40" value="0.03"/>
+            <mul stat="spoil_count_modifier" order="0x40" value="0.03"/>
+            <add order="0x10" stat="STR" value="1"/>
+            <add order="0x10" stat="INT" value="1"/>
+            <add order="0x10" stat="DEX" value="1"/>
+            <add order="0x10" stat="WIT" value="1"/>
+            <add order="0x10" stat="CON" value="1"/>
+            <add order="0x10" stat="MEN" value="1"/>
+        </for>
+    </option_data>
+    <option_data id="42027">
+        <for>
+            <mul stat="adena_rate_multiplier" order="0x40" value="0.03"/>
+            <mul stat="drop_chance_modifier" order="0x40" value="0.03"/>
+            <mul stat="spoil_count_modifier" order="0x40" value="0.03"/>
+            <add order="0x10" stat="STR" value="2"/>
+            <add order="0x10" stat="INT" value="2"/>
+            <add order="0x10" stat="DEX" value="2"/>
+            <add order="0x10" stat="WIT" value="2"/>
+            <add order="0x10" stat="CON" value="2"/>
+            <add order="0x10" stat="MEN" value="2"/>
+            <add order="0x10" stat="CHA" value="2"/>
+        </for>
+    </option_data>
+    <option_data id="42028">
+        <for>
+            <mul stat="adena_rate_multiplier" order="0x40" value="0.03"/>
+            <mul stat="drop_chance_modifier" order="0x40" value="0.03"/>
+            <mul stat="spoil_count_modifier" order="0x40" value="0.03"/>
+            <add order="0x10" stat="STR" value="2"/>
+            <add order="0x10" stat="INT" value="2"/>
+            <add order="0x10" stat="DEX" value="2"/>
+            <add order="0x10" stat="WIT" value="2"/>
+            <add order="0x10" stat="CON" value="2"/>
+            <add order="0x10" stat="MEN" value="2"/>
+            <add order="0x10" stat="CHA" value="3"/>
+        </for>
+    </option_data>
+
+    <option_data id="42029">
+        <for>
+            <mul order="0x40" stat="pvePhysDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="pveMagicSkillDmgBonus" value="1.2"/>
+            <mul order="0x40" stat="pvePhysSkillDmgBonus" value="1.2"/>
+            <add order="0x40" stat="mDef" value="1.2"/>
+            <add order="0x40" stat="pDef" value="1.2"/>
+            <add order="0x40" stat="exp_rate_multiplier" value="0.2"/>
+            <add order="0x10" stat="STR" value="2"/>
+            <add order="0x10" stat="INT" value="2"/>
+            <add order="0x10" stat="DEX" value="2"/>
+            <add order="0x10" stat="WIT" value="2"/>
+            <add order="0x10" stat="CON" value="2"/>
+            <add order="0x10" stat="MEN" value="2"/>
+            <add order="0x10" stat="CHA" value="4"/>
+        </for>
+    </option_data>
+
+
+    <!-- Брошь -->
+    <option_data id="42030">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.015"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.015"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.015"/>
+            <mul order="0x40" stat="maxCp" value="1.02"/>
+            <mul order="0x40" stat="maxHp" value="1.02"/>
+            <mul order="0x40" stat="maxMp" value="1.02"/>
+            <add order="0x40" stat="attackFire" value="10"/>
+            <add order="0x40" stat="attackWater" value="10"/>
+            <add order="0x40" stat="attackWind" value="10"/>
+            <add order="0x40" stat="attackEarth" value="10"/>
+            <add order="0x40" stat="attackHoly" value="10"/>
+            <add order="0x40" stat="attackUnholy" value="10"/>
+        </for>
+    </option_data>
+
+    <option_data id="42031">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.03"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.03"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.03"/>
+            <mul order="0x40" stat="maxCp" value="1.04"/>
+            <mul order="0x40" stat="maxHp" value="1.04"/>
+            <mul order="0x40" stat="maxMp" value="1.04"/>
+            <add order="0x40" stat="attackFire" value="20"/>
+            <add order="0x40" stat="attackWater" value="20"/>
+            <add order="0x40" stat="attackWind" value="20"/>
+            <add order="0x40" stat="attackEarth" value="20"/>
+            <add order="0x40" stat="attackHoly" value="20"/>
+            <add order="0x40" stat="attackUnholy" value="20"/>
+        </for>
+    </option_data>
+
+    <option_data id="42032">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.045"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.045"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.045"/>
+            <mul order="0x40" stat="maxCp" value="1.06"/>
+            <mul order="0x40" stat="maxHp" value="1.06"/>
+            <mul order="0x40" stat="maxMp" value="1.06"/>
+            <add order="0x40" stat="attackFire" value="30"/>
+            <add order="0x40" stat="attackWater" value="30"/>
+            <add order="0x40" stat="attackWind" value="30"/>
+            <add order="0x40" stat="attackEarth" value="30"/>
+            <add order="0x40" stat="attackHoly" value="30"/>
+            <add order="0x40" stat="attackUnholy" value="30"/>
+        </for>
+    </option_data>
+
+    <option_data id="42033">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.06"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.06"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.06"/>
+            <mul order="0x40" stat="maxCp" value="1.08"/>
+            <mul order="0x40" stat="maxHp" value="1.08"/>
+            <mul order="0x40" stat="maxMp" value="1.08"/>
+            <add order="0x40" stat="attackFire" value="40"/>
+            <add order="0x40" stat="attackWater" value="40"/>
+            <add order="0x40" stat="attackWind" value="40"/>
+            <add order="0x40" stat="attackEarth" value="40"/>
+            <add order="0x40" stat="attackHoly" value="40"/>
+            <add order="0x40" stat="attackUnholy" value="40"/>
+        </for>
+    </option_data>
+
+    <option_data id="42034">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.075"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.075"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.075"/>
+            <mul order="0x40" stat="maxCp" value="1.1"/>
+            <mul order="0x40" stat="maxHp" value="1.1"/>
+            <mul order="0x40" stat="maxMp" value="1.1"/>
+            <add order="0x40" stat="attackFire" value="50"/>
+            <add order="0x40" stat="attackWater" value="50"/>
+            <add order="0x40" stat="attackWind" value="50"/>
+            <add order="0x40" stat="attackEarth" value="50"/>
+            <add order="0x40" stat="attackHoly" value="50"/>
+            <add order="0x40" stat="attackUnholy" value="50"/>
+        </for>
+    </option_data>
+
+    <option_data id="42035">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.09"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.09"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.09"/>
+            <mul order="0x40" stat="maxCp" value="1.12"/>
+            <mul order="0x40" stat="maxHp" value="1.12"/>
+            <mul order="0x40" stat="maxMp" value="1.12"/>
+            <add order="0x40" stat="attackFire" value="60"/>
+            <add order="0x40" stat="attackWater" value="60"/>
+            <add order="0x40" stat="attackWind" value="60"/>
+            <add order="0x40" stat="attackEarth" value="60"/>
+            <add order="0x40" stat="attackHoly" value="60"/>
+            <add order="0x40" stat="attackUnholy" value="60"/>
+        </for>
+    </option_data>
+
+    <option_data id="42036">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.105"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.105"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.105"/>
+            <mul order="0x40" stat="maxCp" value="1.14"/>
+            <mul order="0x40" stat="maxHp" value="1.14"/>
+            <mul order="0x40" stat="maxMp" value="1.14"/>
+            <add order="0x40" stat="attackFire" value="70"/>
+            <add order="0x40" stat="attackWater" value="70"/>
+            <add order="0x40" stat="attackWind" value="70"/>
+            <add order="0x40" stat="attackEarth" value="70"/>
+            <add order="0x40" stat="attackHoly" value="70"/>
+            <add order="0x40" stat="attackUnholy" value="70"/>
+        </for>
+    </option_data>
+    <option_data id="42037">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.12"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.12"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.12"/>
+            <mul order="0x40" stat="maxCp" value="1.16"/>
+            <mul order="0x40" stat="maxHp" value="1.16"/>
+            <mul order="0x40" stat="maxMp" value="1.16"/>
+            <add order="0x40" stat="attackFire" value="80"/>
+            <add order="0x40" stat="attackWater" value="80"/>
+            <add order="0x40" stat="attackWind" value="80"/>
+            <add order="0x40" stat="attackEarth" value="80"/>
+            <add order="0x40" stat="attackHoly" value="80"/>
+            <add order="0x40" stat="attackUnholy" value="80"/>
+        </for>
+    </option_data>
+    <option_data id="42038">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.135"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.135"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.135"/>
+            <mul order="0x40" stat="maxCp" value="1.18"/>
+            <mul order="0x40" stat="maxHp" value="1.18"/>
+            <mul order="0x40" stat="maxMp" value="1.18"/>
+            <add order="0x40" stat="attackFire" value="90"/>
+            <add order="0x40" stat="attackWater" value="90"/>
+            <add order="0x40" stat="attackWind" value="90"/>
+            <add order="0x40" stat="attackEarth" value="90"/>
+            <add order="0x40" stat="attackHoly" value="90"/>
+            <add order="0x40" stat="attackUnholy" value="90"/>
+        </for>
+    </option_data>
+
+    <option_data id="42039">
+        <for>
+            <mul order="0x40" stat="pvpPhysDefenceBonus" value="1.15"/>
+            <mul order="0x40" stat="pvpPhysSkillDefenceBonus" value="1.15"/>
+            <mul order="0x40" stat="pvpMagicSkillDefenceBonus" value="1.15"/>
+            <mul order="0x40" stat="maxCp" value="1.2"/>
+            <mul order="0x40" stat="maxHp" value="1.2"/>
+            <mul order="0x40" stat="maxMp" value="1.2"/>
+            <add order="0x40" stat="attackFire" value="100"/>
+            <add order="0x40" stat="attackWater" value="100"/>
+            <add order="0x40" stat="attackWind" value="100"/>
+            <add order="0x40" stat="attackEarth" value="100"/>
+            <add order="0x40" stat="attackHoly" value="100"/>
+            <add order="0x40" stat="attackUnholy" value="100"/>
+        </for>
+    </option_data>
+
+
+    <!-- Плащ -->
+
+    <option_data id="42040">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.015"/>
+            <mul order="0x40" stat="mAtk" value="1.02"/>
+            <add order="0x40" stat="defenceFire" value="8"/>
+            <add order="0x40" stat="defenceWater" value="8"/>
+            <add order="0x40" stat="defenceWind" value="8"/>
+            <add order="0x40" stat="defenceEarth" value="8"/>
+            <add order="0x40" stat="defenceHoly" value="8"/>
+            <add order="0x40" stat="defenceUnholy" value="8"/>
+        </for>
+    </option_data>
+
+    <option_data id="42041">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.03"/>
+            <mul order="0x40" stat="mAtk" value="1.04"/>
+            <add order="0x40" stat="defenceFire" value="16"/>
+            <add order="0x40" stat="defenceWater" value="16"/>
+            <add order="0x40" stat="defenceWind" value="16"/>
+            <add order="0x40" stat="defenceEarth" value="16"/>
+            <add order="0x40" stat="defenceHoly" value="16"/>
+            <add order="0x40" stat="defenceUnholy" value="16"/>
+        </for>
+    </option_data>
+
+    <option_data id="42042">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.045"/>
+            <mul order="0x40" stat="mAtk" value="1.06"/>
+            <add order="0x40" stat="defenceFire" value="24"/>
+            <add order="0x40" stat="defenceWater" value="24"/>
+            <add order="0x40" stat="defenceWind" value="24"/>
+            <add order="0x40" stat="defenceEarth" value="24"/>
+            <add order="0x40" stat="defenceHoly" value="24"/>
+            <add order="0x40" stat="defenceUnholy" value="24"/>
+        </for>
+    </option_data>
+
+    <option_data id="42043">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.06"/>
+            <mul order="0x40" stat="mAtk" value="1.08"/>
+            <add order="0x40" stat="defenceFire" value="32"/>
+            <add order="0x40" stat="defenceWater" value="32"/>
+            <add order="0x40" stat="defenceWind" value="32"/>
+            <add order="0x40" stat="defenceEarth" value="32"/>
+            <add order="0x40" stat="defenceHoly" value="32"/>
+            <add order="0x40" stat="defenceUnholy" value="32"/>
+        </for>
+    </option_data>
+
+    <option_data id="42044">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.075"/>
+            <mul order="0x40" stat="mAtk" value="1.1"/>
+            <add order="0x40" stat="defenceFire" value="40"/>
+            <add order="0x40" stat="defenceWater" value="40"/>
+            <add order="0x40" stat="defenceWind" value="40"/>
+            <add order="0x40" stat="defenceEarth" value="40"/>
+            <add order="0x40" stat="defenceHoly" value="40"/>
+            <add order="0x40" stat="defenceUnholy" value="40"/>
+        </for>
+    </option_data>
+
+    <option_data id="42045">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.09"/>
+            <mul order="0x40" stat="mAtk" value="1.12"/>
+            <add order="0x40" stat="defenceFire" value="48"/>
+            <add order="0x40" stat="defenceWater" value="48"/>
+            <add order="0x40" stat="defenceWind" value="48"/>
+            <add order="0x40" stat="defenceEarth" value="48"/>
+            <add order="0x40" stat="defenceHoly" value="48"/>
+            <add order="0x40" stat="defenceUnholy" value="48"/>
+        </for>
+    </option_data>
+
+    <option_data id="42046">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.105"/>
+            <mul order="0x40" stat="mAtk" value="1.14"/>
+            <add order="0x40" stat="defenceFire" value="56"/>
+            <add order="0x40" stat="defenceWater" value="56"/>
+            <add order="0x40" stat="defenceWind" value="56"/>
+            <add order="0x40" stat="defenceEarth" value="56"/>
+            <add order="0x40" stat="defenceHoly" value="56"/>
+            <add order="0x40" stat="defenceUnholy" value="56"/>
+        </for>
+    </option_data>
+    <option_data id="42047">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.12"/>
+            <mul order="0x40" stat="mAtk" value="1.16"/>
+            <add order="0x40" stat="defenceFire" value="64"/>
+            <add order="0x40" stat="defenceWater" value="64"/>
+            <add order="0x40" stat="defenceWind" value="64"/>
+            <add order="0x40" stat="defenceEarth" value="64"/>
+            <add order="0x40" stat="defenceHoly" value="64"/>
+            <add order="0x40" stat="defenceUnholy" value="64"/>
+        </for>
+    </option_data>
+    <option_data id="42048">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.135"/>
+            <mul order="0x40" stat="mAtk" value="1.18"/>
+            <add order="0x40" stat="defenceFire" value="72"/>
+            <add order="0x40" stat="defenceWater" value="72"/>
+            <add order="0x40" stat="defenceWind" value="72"/>
+            <add order="0x40" stat="defenceEarth" value="72"/>
+            <add order="0x40" stat="defenceHoly" value="72"/>
+            <add order="0x40" stat="defenceUnholy" value="72"/>
+        </for>
+    </option_data>
+
+    <option_data id="42049">
+        <for>
+            <mul order="0x40" stat="pAtk" value="1.15"/>
+            <mul order="0x40" stat="mAtk" value="1.15"/>
+            <add order="0x40" stat="defenceFire" value="80"/>
+            <add order="0x40" stat="defenceWater" value="80"/>
+            <add order="0x40" stat="defenceWind" value="80"/>
+            <add order="0x40" stat="defenceEarth" value="80"/>
+            <add order="0x40" stat="defenceHoly" value="80"/>
+            <add order="0x40" stat="defenceUnholy" value="80"/>
+        </for>
+    </option_data>
+
+    <!-- Плащ Путешественника -->
+
+    <option_data id="42050">
+        <skills>
+            <skill id="120029" level="1"/> <!--плащ путешественника-->
+        </skills>
+    </option_data>
+
+    <option_data id="42051">
+        <skills>
+            <skill id="120029" level="2"/> <!--плащ путешественника-->
+        </skills>
+    </option_data>
+
+    <option_data id="42052">
+        <skills>
+            <skill id="120029" level="3"/> <!--плащ путешественника-->
+        </skills>
+    </option_data>
+
+    <option_data id="42053">
+        <skills>
+            <skill id="120029" level="4"/> <!--плащ путешественника-->
+        </skills>
+    </option_data>
+
+    <option_data id="42054">
+        <skills>
+            <skill id="120029" level="5"/> <!--плащ путешественника-->
+        </skills>
+    </option_data>
+
+    <option_data id="42055">
+        <skills>
+            <skill id="120029" level="6"/> <!--плащ путешественника-->
+        </skills>
+    </option_data>
+
+    <option_data id="42056">
+        <skills>
+            <skill id="120029" level="7"/> <!--плащ путешественника-->
+        </skills>
+    </option_data>
+
+    <option_data id="42057">
+        <skills>
+            <skill id="120029" level="8"/> <!--плащ путешественника-->
+        </skills>
+    </option_data>
+
+    <option_data id="42058">
+        <skills>
+            <skill id="120029" level="9"/> <!--плащ путешественника-->
+        </skills>
+    </option_data>
+
+    <option_data id="42059">
+        <skills>
+            <skill id="120029" level="10"/> <!--плащ путешественника-->
+        </skills>
+    </option_data>
+
+
+    <option_data id="42060">
+        <skills>
+            <skill id="120151" level="1"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42061">
+        <skills>
+            <skill id="120151" level="2"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42062">
+        <skills>
+            <skill id="120151" level="3"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42063">
+        <skills>
+            <skill id="120151" level="4"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42064">
+        <skills>
+            <skill id="120151" level="5"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42065">
+        <skills>
+            <skill id="120151" level="6"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42066">
+        <skills>
+            <skill id="120151" level="7"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42067">
+        <skills>
+            <skill id="120151" level="8"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42068">
+        <skills>
+            <skill id="120151" level="9"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42069">
+        <skills>
+            <skill id="120151" level="10"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42070">
+        <skills>
+            <skill id="120151" level="11"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42071">
+        <skills>
+            <skill id="120151" level="12"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42072">
+        <skills>
+            <skill id="120151" level="13"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42073">
+        <skills>
+            <skill id="120151" level="14"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42074">
+        <skills>
+            <skill id="120151" level="15"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42075">
+        <skills>
+            <skill id="120151" level="16"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42076">
+        <skills>
+            <skill id="120151" level="17"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42077">
+        <skills>
+            <skill id="120151" level="18"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42078">
+        <skills>
+            <skill id="120151" level="19"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42079">
+        <skills>
+            <skill id="120151" level="20"/> <!--рубаха-->
+        </skills>
+    </option_data>
+    <option_data id="42080">
+            <for>
+                <mul order="0x60" stat="pDef" value="1"/>
+            </for>
+    </option_data>
+
+    <option_data id="42081">
+        <for>
+            <mul order="0x60" stat="pAtk" value="1.01"/>
+        </for>
+    </option_data>
+    <option_data id="42082">
+        <for>
+            <mul order="0x60" stat="pAtk" value="1.03"/>
+        </for>
+    </option_data>
+    <option_data id="42083">
+        <for>
+            <mul order="0x60" stat="pAtk" value="1.05"/>
+        </for>
+    </option_data>
+    <option_data id="42084">
+        <for>
+            <mul order="0x60" stat="mAtk" value="1.01"/>
+        </for>
+    </option_data>
+    <option_data id="42085">
+        <for>
+            <mul order="0x60" stat="mAtk" value="1.03"/>
+        </for>
+    </option_data>
+    <option_data id="42086">
+        <for>
+            <mul order="0x60" stat="mAtk" value="1.05"/>
+        </for>
+    </option_data>
+    <option_data id="42087">
+        <for>
+            <mul order="0x60" stat="pAtkSpd" value="1.02"/>
+        </for>
+    </option_data>
+    <option_data id="42088">
+        <for>
+            <mul order="0x60" stat="pAtkSpd" value="1.06"/>
+        </for>
+    </option_data>
+    <option_data id="42089">
+        <for>
+            <mul order="0x60" stat="pAtkSpd" value="1.1"/>
+        </for>
+    </option_data>
+    <option_data id="42090">
+        <for>
+            <mul order="0x60" stat="mAtkSpd" value="1.02"/>
+        </for>
+    </option_data>
+    <option_data id="42091">
+        <for>
+            <mul order="0x60" stat="mAtkSpd" value="1.06"/>
+        </for>
+    </option_data>
+    <option_data id="42092">
+        <for>
+            <mul order="0x60" stat="mAtkSpd" value="1.1"/>
+        </for>
+    </option_data>
+    <option_data id="42093">
+        <for>
+            <mul order="0x60" stat="raid_boss_damage" value="1.04"/>
+        </for>
+    </option_data>
+    <option_data id="42094">
+        <for>
+            <mul order="0x60" stat="raid_boss_damage" value="1.06"/>
+        </for>
+    </option_data>
+    <option_data id="42095">
+        <for>
+            <mul order="0x60" stat="raid_boss_damage" value="1.1"/>
+        </for>
+    </option_data>
+    <option_data id="42096">
+        <for>
+            <mul order="0x60" stat="pvePhysDmgBonus" value="1.03"/>
+            <mul order="0x60" stat="pveMagicSkillDmgBonus" value="1.03"/>
+            <mul order="0x60" stat="pvePhysSkillDmgBonus" value="1.03"/>
+        </for>
+    </option_data>
+    <option_data id="42097">
+        <for>
+            <mul order="0x60" stat="pvePhysDmgBonus" value="1.05"/>
+            <mul order="0x60" stat="pveMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x60" stat="pvePhysSkillDmgBonus" value="1.05"/>
+        </for>
+    </option_data>
+    <option_data id="42098">
+        <for>
+            <mul order="0x60" stat="pvePhysDmgBonus" value="1.1"/>
+            <mul order="0x60" stat="pveMagicSkillDmgBonus" value="1.1"/>
+            <mul order="0x60" stat="pvePhysSkillDmgBonus" value="1.1"/>
+        </for>
+    </option_data>
+    <option_data id="42099">
+        <for>
+            <mul order="0x60" stat="pvpPhysDmgBonus" value="1.03"/>
+            <mul order="0x60" stat="pvpMagicSkillDmgBonus" value="1.03"/>
+            <mul order="0x60" stat="pvpPhysSkillDmgBonus" value="1.03"/>
+        </for>
+    </option_data>
+    <option_data id="42100">
+        <for>
+            <mul order="0x60" stat="pvpPhysDmgBonus" value="1.05"/>
+            <mul order="0x60" stat="pvpMagicSkillDmgBonus" value="1.05"/>
+            <mul order="0x60" stat="pvpPhysSkillDmgBonus" value="1.05"/>
+        </for>
+    </option_data>
+    <option_data id="42101">
+        <for>
+            <mul order="0x60" stat="pvpPhysDmgBonus" value="1.1"/>
+            <mul order="0x60" stat="pvpMagicSkillDmgBonus" value="1.1"/>
+            <mul order="0x60" stat="pvpPhysSkillDmgBonus" value="1.1"/>
+        </for>
+    </option_data>
+    <option_data id="42102">
+        <for>
+            <mul order="0x60" stat="pvePhysDefenceBonus" value="1.01"/>
+            <mul order="0x60" stat="pveMagicSkillDefenceBonus" value="1.01"/>
+            <mul order="0x60" stat="pvePhysSkillDefenceBonus" value="1.01"/>
+        </for>
+    </option_data>
+    <option_data id="42103">
+        <for>
+            <mul order="0x60" stat="pvePhysDefenceBonus" value="1.03"/>
+            <mul order="0x60" stat="pveMagicSkillDefenceBonus" value="1.03"/>
+            <mul order="0x60" stat="pvePhysSkillDefenceBonus" value="1.03"/>
+        </for>
+    </option_data>
+    <option_data id="42104">
+        <for>
+            <mul order="0x60" stat="pvePhysDefenceBonus" value="1.05"/>
+            <mul order="0x60" stat="pveMagicSkillDefenceBonus" value="1.05"/>
+            <mul order="0x60" stat="pvePhysSkillDefenceBonus" value="1.05"/>
+        </for>
+    </option_data>
+    <option_data id="42105">
+        <for>
+            <mul order="0x60" stat="pvpPhysDefenceBonus" value="1.01"/>
+            <mul order="0x60" stat="pvpMagicSkillDefenceBonus" value="1.01"/>
+            <mul order="0x60" stat="pvpPhysSkillDefenceBonus" value="1.01"/>
+        </for>
+    </option_data>
+    <option_data id="42106">
+        <for>
+            <mul order="0x60" stat="pvpPhysDefenceBonus" value="1.03"/>
+            <mul order="0x60" stat="pvpMagicSkillDefenceBonus" value="1.03"/>
+            <mul order="0x60" stat="pvpPhysSkillDefenceBonus" value="1.03"/>
+        </for>
+    </option_data>
+    <option_data id="42107">
+        <for>
+            <mul order="0x60" stat="pvpPhysDefenceBonus" value="1.05"/>
+            <mul order="0x60" stat="pvpMagicSkillDefenceBonus" value="1.05"/>
+            <mul order="0x60" stat="pvpPhysSkillDefenceBonus" value="1.05"/>
+        </for>
+    </option_data>
+</list>

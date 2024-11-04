@@ -1,0 +1,3366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+	<npc id="24300" name="Lurin" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="29.4"/>
+		<set name="collision_radius" value="16.8"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2390500"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25074"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="14823" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="4"/>	<!--Danger Zone Resistance-->
+			<skill id="14622" level="1"/>	<!--Banishment Resistance-->
+			<skill id="14620" level="4"/>	<!--Aerial Yoke Resistance-->
+			<skill id="14623" level="1"/>	<!--Mutation Resistance-->
+			<skill id="4440" level="5"/>	<!--Greater Paralysis Resistance-->
+			<skill id="4441" level="5"/>	<!--Greater Mental Attack Resistance-->
+			<skill id="14617" level="1"/>	<!--Knock Down/ Knock Back Resistance-->
+			<skill id="16416" level="10"/>	<!--Bluff Resistance-->
+			<skill id="16418" level="10"/>	<!--Seduction Resistance-->
+			<skill id="14621" level="1"/>	<!--Pull Resistance-->
+			<skill id="14804" level="10"/>	<!--Damage Reflection Attack Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="24301" name="Lurin" title="Lord">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="29.4"/>
+		<set name="collision_radius" value="16.8"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="2803745"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25074"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="14823" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="4"/>	<!--Danger Zone Resistance-->
+			<skill id="14622" level="1"/>	<!--Banishment Resistance-->
+			<skill id="14620" level="4"/>	<!--Aerial Yoke Resistance-->
+			<skill id="14623" level="1"/>	<!--Mutation Resistance-->
+			<skill id="4440" level="5"/>	<!--Greater Paralysis Resistance-->
+			<skill id="4441" level="5"/>	<!--Greater Mental Attack Resistance-->
+			<skill id="14617" level="1"/>	<!--Knock Down/ Knock Back Resistance-->
+			<skill id="16416" level="10"/>	<!--Bluff Resistance-->
+			<skill id="16418" level="10"/>	<!--Seduction Resistance-->
+			<skill id="14621" level="1"/>	<!--Pull Resistance-->
+			<skill id="14804" level="10"/>	<!--Damage Reflection Attack Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="24302" name="Lurin" title="Lord">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="29.4"/>
+		<set name="collision_radius" value="16.8"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3364494"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="14823" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="4"/>	<!--Danger Zone Resistance-->
+			<skill id="14622" level="1"/>	<!--Banishment Resistance-->
+			<skill id="14620" level="4"/>	<!--Aerial Yoke Resistance-->
+			<skill id="14623" level="1"/>	<!--Mutation Resistance-->
+			<skill id="4440" level="5"/>	<!--Greater Paralysis Resistance-->
+			<skill id="4441" level="5"/>	<!--Greater Mental Attack Resistance-->
+			<skill id="14617" level="1"/>	<!--Knock Down/ Knock Back Resistance-->
+			<skill id="16416" level="10"/>	<!--Bluff Resistance-->
+			<skill id="16418" level="10"/>	<!--Seduction Resistance-->
+			<skill id="14621" level="1"/>	<!--Pull Resistance-->
+			<skill id="14804" level="10"/>	<!--Damage Reflection Attack Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="24303" name="Lurin" title="Archlord">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="29.4"/>
+		<set name="collision_radius" value="16.8"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="3925243"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="18"/>	<!--Dwarves-->
+			<skill id="5465" level="1"/>	<!--Earth Attack-->
+			<skill id="14823" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="4"/>	<!--Danger Zone Resistance-->
+			<skill id="14622" level="1"/>	<!--Banishment Resistance-->
+			<skill id="14620" level="4"/>	<!--Aerial Yoke Resistance-->
+			<skill id="14623" level="1"/>	<!--Mutation Resistance-->
+			<skill id="4440" level="5"/>	<!--Greater Paralysis Resistance-->
+			<skill id="4441" level="5"/>	<!--Greater Mental Attack Resistance-->
+			<skill id="14617" level="1"/>	<!--Knock Down/ Knock Back Resistance-->
+			<skill id="16416" level="10"/>	<!--Bluff Resistance-->
+			<skill id="16418" level="10"/>	<!--Seduction Resistance-->
+			<skill id="14621" level="1"/>	<!--Pull Resistance-->
+			<skill id="14804" level="10"/>	<!--Damage Reflection Attack Resistance-->
+		</client_skills>
+	</npc>
+	<npc id="24304" name="Groz Kropiora" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36.1"/>
+		<set name="collision_radius" value="51"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="2941100928"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="2636064"/>
+		<set name="baseHpMax" value="261623"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="2862"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="3"/>	<!--Vampiric Rage Resistance-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="4995" max="11650" chance="70"/>	<!--Adena (Адена)-->
+			 	<!--Dragon Scales (Чешуя Дракона)-->
+			<reward item_id="81217" min="1" max="1" chance="1.507"/>	<!--Oriharukon Ore (Орихаруконовая Руда)-->
+			 	<!--Angel’s Feather (Перо Ангела)-->
+			 	<!--Black Mithril (Черный Мифрил)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24305" name="Groz Krotania" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="36.1"/>
+		<set name="collision_radius" value="51"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="3307195160"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="2970250"/>
+		<set name="baseHpMax" value="261623"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="2862"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="3"/>	<!--Vampiric Rage Resistance-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="5093" max="11884" chance="70"/>	<!--Adena (Адена)-->
+			<reward item_id="81217" min="1" max="1" chance="1.549"/>	<!--Oriharukon Ore (Орихаруконовая Руда)-->
+			 	<!--Angel’s Feather (Перо Ангела)-->
+			 	<!--Dragon Scales (Чешуя Дракона)-->
+			 	<!--Black Mithril (Черный Мифрил)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24306" name="Groz Krophy" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="84.75"/>
+		<set name="collision_radius" value="54"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="3307195160"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="2970250"/>
+		<set name="baseHpMax" value="261623"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="2862"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="3"/>	<!--Vampiric Rage Resistance-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="5093" max="11884" chance="70"/>	<!--Adena (Адена)-->
+			<reward item_id="81217" min="1" max="1" chance="1.56"/>	<!--Oriharukon Ore (Орихаруконовая Руда)-->
+			 	<!--Angel’s Feather (Перо Ангела)-->
+			 	<!--Dragon Scales (Чешуя Дракона)-->
+			 	<!--Black Mithril (Черный Мифрил)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24307" name="Groz Krotany" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="80.25"/>
+		<set name="collision_radius" value="87"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="3680457000"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="3303300"/>
+		<set name="baseHpMax" value="261623"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="2862"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="3"/>	<!--Vampiric Rage Resistance-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="5708" max="13311" chance="70"/>	<!--Adena (Адена)-->
+			 	<!--Dragon Scales (Чешуя Дракона)-->
+			<reward item_id="81217" min="1" max="1" chance="1.716"/>	<!--Oriharukon Ore (Орихаруконовая Руда)-->
+			 	<!--Angel’s Feather (Перо Ангела)-->
+			 	<!--Black Mithril (Черный Мифрил)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24308" name="Groz Water Drake" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="80.5"/>
+		<set name="collision_radius" value="55"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="3680457000"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="3303300"/>
+		<set name="baseHpMax" value="261623"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="2862"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="3"/>	<!--Vampiric Rage Resistance-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="5708" max="13311" chance="70"/>	<!--Adena (Адена)-->
+			 	<!--Dragon Scales (Чешуя Дракона)-->
+			 	<!--Angel’s Feather (Перо Ангела)-->
+			<reward item_id="81217" min="1" max="1" chance="1.678"/>	<!--Oriharukon Ore (Орихаруконовая Руда)-->
+			 	<!--Black Mithril (Черный Мифрил)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24317" name="Temple Guard Captain" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="59"/>
+		<set name="collision_radius" value="30"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5559600"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="5003568"/>
+		<set name="baseHpMax" value="282184080.9219331"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="208"/>
+		<set name="baseMpMax" value="300.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="164"/>
+		<set name="baseCON" value="111"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="188"/>
+		<set name="baseMEN" value="149"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="400"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4063636000"/>
+		<set name="basePDef" value="22280000"/>
+		<set name="basePAtkSpd" value="4003"/>
+		<set name="baseMAtk" value="8"/>
+		<set name="baseMDef" value="3420000"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="540" />
+			<defence attribute="water" value="540" />
+			<defence attribute="wind" value="540" />
+			<defence attribute="earth" value="540" />
+			<defence attribute="holy" value="540" />
+			<defence attribute="unholy" value="540" />
+			<attack attribute="unholy" value="540" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="5"/>	<!--Vampiric Rage Resistance-->
+			<skill id="14818" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Resistance-->
+			<skill id="5599" level="12"/>	<!--Confusion Resistance-->
+		</client_skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="66">
+				<reward item_id="57" min="850000" max="1200000" chance="70"/>	<!--Adena-->
+			</group>
+		</rewardlist>
+		<rewardlist type="RATE_COUNT_GROUPED">
+			<group>
+				<reward item_id="70014" min="1" max="1" chance="5"/>
+				<reward item_id="70055" min="2" max="3" chance="20"/>
+				<reward item_id="70054" min="2" max="3" chance="20"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="70014" min="1" max="1" chance="2"/>
+			<reward item_id="70055" min="2" max="2" chance="10"/>
+			<reward item_id="70054" min="2" max="2" chance="10"/>
+		</rewardlist>
+	</npc>
+	<npc id="24318" name="Temple Guard Captain" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="59"/>
+		<set name="collision_radius" value="30"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5559600"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="5003568"/>
+		<set name="baseHpMax" value="282184080.9219331"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="208"/>
+		<set name="baseMpMax" value="300.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="164"/>
+		<set name="baseCON" value="111"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="188"/>
+		<set name="baseMEN" value="149"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="400"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4063636000"/>
+		<set name="basePDef" value="22280000"/>
+		<set name="basePAtkSpd" value="4003"/>
+		<set name="baseMAtk" value="8"/>
+		<set name="baseMDef" value="3420000"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="540" />
+			<defence attribute="water" value="540" />
+			<defence attribute="wind" value="540" />
+			<defence attribute="earth" value="540" />
+			<defence attribute="holy" value="540" />
+			<defence attribute="unholy" value="540" />
+			<attack attribute="unholy" value="540" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="5"/>	<!--Vampiric Rage Resistance-->
+			<skill id="14818" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Resistance-->
+			<skill id="5599" level="12"/>	<!--Confusion Resistance-->
+		</client_skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="66">
+				<reward item_id="57" min="850000" max="1200000" chance="70"/>	<!--Adena-->
+			</group>
+		</rewardlist>
+		<rewardlist type="RATE_COUNT_GROUPED">
+			<group>
+				<reward item_id="70014" min="1" max="1" chance="5"/>
+				<reward item_id="70055" min="2" max="3" chance="20"/>
+				<reward item_id="70054" min="2" max="3" chance="20"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="70014" min="1" max="1" chance="2"/>
+			<reward item_id="70055" min="2" max="2" chance="10"/>
+			<reward item_id="70054" min="2" max="2" chance="10"/>
+		</rewardlist>
+	</npc>
+	<npc id="24321" name="Temple Patrol Guard" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="49"/>
+		<set name="collision_radius" value="20"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5559600"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="5003568"/>
+		<set name="baseHpMax" value="282184080.9219331"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="208"/>
+		<set name="baseMpMax" value="300.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="164"/>
+		<set name="baseCON" value="111"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="188"/>
+		<set name="baseMEN" value="149"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="400"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4063636000"/>
+		<set name="basePDef" value="22280000"/>
+		<set name="basePAtkSpd" value="4003"/>
+		<set name="baseMAtk" value="8"/>
+		<set name="baseMDef" value="3420000"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="530" />
+			<defence attribute="water" value="530" />
+			<defence attribute="wind" value="530" />
+			<defence attribute="earth" value="530" />
+			<defence attribute="holy" value="530" />
+			<defence attribute="unholy" value="530" />
+			<attack attribute="unholy" value="530" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="5"/>	<!--Vampiric Rage Resistance-->
+			<skill id="14818" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Resistance-->
+		</client_skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="66">
+				<reward item_id="57" min="850000" max="1200000" chance="70"/>	<!--Adena-->
+			</group>
+		</rewardlist>
+		<rewardlist type="RATE_COUNT_GROUPED">
+			<group>
+				<reward item_id="70014" min="1" max="1" chance="5"/>
+				<reward item_id="70055" min="2" max="3" chance="20"/>
+				<reward item_id="70054" min="2" max="3" chance="20"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="70014" min="1" max="1" chance="2"/>
+			<reward item_id="70055" min="2" max="2" chance="10"/>
+			<reward item_id="70054" min="2" max="2" chance="10"/>
+		</rewardlist>
+	</npc>
+	<npc id="24322" name="Temple Knight Recruit" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="49"/>
+		<set name="collision_radius" value="20"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5559600"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="5003568"/>
+		<set name="baseHpMax" value="282184080.9219331"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="208"/>
+		<set name="baseMpMax" value="300.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="164"/>
+		<set name="baseCON" value="111"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="188"/>
+		<set name="baseMEN" value="149"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="400"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4063636000"/>
+		<set name="basePDef" value="22280000"/>
+		<set name="basePAtkSpd" value="4003"/>
+		<set name="baseMAtk" value="8"/>
+		<set name="baseMDef" value="3420000"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="530" />
+			<defence attribute="water" value="530" />
+			<defence attribute="wind" value="530" />
+			<defence attribute="earth" value="530" />
+			<defence attribute="holy" value="530" />
+			<defence attribute="unholy" value="530" />
+			<attack attribute="unholy" value="530" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="5"/>	<!--Vampiric Rage Resistance-->
+			<skill id="14818" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Resistance-->
+		</client_skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="66">
+				<reward item_id="57" min="850000" max="1200000" chance="70"/>	<!--Adena-->
+			</group>
+		</rewardlist>
+		<rewardlist type="RATE_COUNT_GROUPED">
+			<group>
+				<reward item_id="70014" min="1" max="1" chance="5"/>
+				<reward item_id="70055" min="2" max="3" chance="20"/>
+				<reward item_id="70054" min="2" max="3" chance="20"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="70014" min="1" max="1" chance="2"/>
+			<reward item_id="70055" min="2" max="2" chance="10"/>
+			<reward item_id="70054" min="2" max="2" chance="10"/>
+		</rewardlist>
+	</npc>
+	<npc id="24323" name="Temple Guard" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="62"/>
+		<set name="collision_radius" value="25"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5559600"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="5003568"/>
+		<set name="baseHpMax" value="282184080.9219331"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="208"/>
+		<set name="baseMpMax" value="300.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="164"/>
+		<set name="baseCON" value="111"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="188"/>
+		<set name="baseMEN" value="149"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="400"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4063636000"/>
+		<set name="basePDef" value="22280000"/>
+		<set name="basePAtkSpd" value="4003"/>
+		<set name="baseMAtk" value="8"/>
+		<set name="baseMDef" value="3420000"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="540" />
+			<defence attribute="water" value="540" />
+			<defence attribute="wind" value="540" />
+			<defence attribute="earth" value="540" />
+			<defence attribute="holy" value="540" />
+			<defence attribute="unholy" value="540" />
+			<attack attribute="unholy" value="540" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="5"/>	<!--Vampiric Rage Resistance-->
+			<skill id="14818" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Resistance-->
+		</client_skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="66">
+				<reward item_id="57" min="850000" max="1200000" chance="70"/>	<!--Adena-->
+			</group>
+		</rewardlist>
+		<rewardlist type="RATE_COUNT_GROUPED">
+			<group>
+				<reward item_id="70014" min="1" max="1" chance="5"/>
+				<reward item_id="70055" min="2" max="3" chance="20"/>
+				<reward item_id="70054" min="2" max="3" chance="20"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="70014" min="1" max="1" chance="2"/>
+			<reward item_id="70055" min="2" max="2" chance="10"/>
+			<reward item_id="70054" min="2" max="2" chance="10"/>
+		</rewardlist>
+	</npc>
+	<npc id="24324" name="Temple Guardian Warrior" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="62"/>
+		<set name="collision_radius" value="25"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5559600"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="5003568"/>
+		<set name="baseHpMax" value="282184080.9219331"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="208"/>
+		<set name="baseMpMax" value="300.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="164"/>
+		<set name="baseCON" value="111"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="188"/>
+		<set name="baseMEN" value="149"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="400"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4063636000"/>
+		<set name="basePDef" value="22280000"/>
+		<set name="basePAtkSpd" value="4003"/>
+		<set name="baseMAtk" value="8"/>
+		<set name="baseMDef" value="3420000"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="540" />
+			<defence attribute="water" value="540" />
+			<defence attribute="wind" value="540" />
+			<defence attribute="earth" value="540" />
+			<defence attribute="holy" value="540" />
+			<defence attribute="unholy" value="540" />
+			<attack attribute="unholy" value="540" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="5"/>	<!--Vampiric Rage Resistance-->
+			<skill id="14818" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Resistance-->
+		</client_skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="66">
+				<reward item_id="57" min="850000" max="1200000" chance="70"/>	<!--Adena-->
+			</group>
+		</rewardlist>
+		<rewardlist type="RATE_COUNT_GROUPED">
+			<group>
+				<reward item_id="70014" min="1" max="1" chance="5"/>
+				<reward item_id="70055" min="2" max="3" chance="20"/>
+				<reward item_id="70054" min="2" max="3" chance="20"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="70014" min="1" max="1" chance="2"/>
+			<reward item_id="70055" min="2" max="2" chance="10"/>
+			<reward item_id="70054" min="2" max="2" chance="10"/>
+		</rewardlist>
+	</npc>
+	<npc id="24325" name="Temple Wizard" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="44"/>
+		<set name="collision_radius" value="17"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5559600"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="5003568"/>
+		<set name="baseHpMax" value="282184080.9219331"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="208"/>
+		<set name="baseMpMax" value="300.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="164"/>
+		<set name="baseCON" value="111"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="188"/>
+		<set name="baseMEN" value="149"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="400"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4063636000"/>
+		<set name="basePDef" value="22280000"/>
+		<set name="basePAtkSpd" value="4003"/>
+		<set name="baseMAtk" value="8"/>
+		<set name="baseMDef" value="3420000"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="540" />
+			<defence attribute="water" value="540" />
+			<defence attribute="wind" value="540" />
+			<defence attribute="earth" value="540" />
+			<defence attribute="holy" value="540" />
+			<defence attribute="unholy" value="540" />
+			<attack attribute="unholy" value="540" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="5"/>	<!--Vampiric Rage Resistance-->
+			<skill id="14818" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Resistance-->
+			<skill id="5599" level="12"/>	<!--Confusion Resistance-->
+		</client_skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="66">
+				<reward item_id="57" min="850000" max="1200000" chance="70"/>	<!--Adena-->
+			</group>
+		</rewardlist>
+		<rewardlist type="RATE_COUNT_GROUPED">
+			<group>
+				<reward item_id="70014" min="1" max="1" chance="5"/>
+				<reward item_id="70055" min="2" max="3" chance="20"/>
+				<reward item_id="70054" min="2" max="3" chance="20"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="70014" min="1" max="1" chance="2"/>
+			<reward item_id="70055" min="2" max="2" chance="10"/>
+			<reward item_id="70054" min="2" max="2" chance="10"/>
+		</rewardlist>
+	</npc>
+	<npc id="24326" name="Temple Guardian Wizard" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="44"/>
+		<set name="collision_radius" value="17"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5559600"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="5003568"/>
+		<set name="baseHpMax" value="282184080.9219331"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="208"/>
+		<set name="baseMpMax" value="300.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="164"/>
+		<set name="baseCON" value="111"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="188"/>
+		<set name="baseMEN" value="149"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="400"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4063636000"/>
+		<set name="basePDef" value="22280000"/>
+		<set name="basePAtkSpd" value="4003"/>
+		<set name="baseMAtk" value="8"/>
+		<set name="baseMDef" value="3420000"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="540" />
+			<defence attribute="water" value="540" />
+			<defence attribute="wind" value="540" />
+			<defence attribute="earth" value="540" />
+			<defence attribute="holy" value="540" />
+			<defence attribute="unholy" value="540" />
+			<attack attribute="unholy" value="540" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="5"/>	<!--Vampiric Rage Resistance-->
+			<skill id="14818" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Resistance-->
+			<skill id="5599" level="12"/>	<!--Confusion Resistance-->
+		</client_skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="66">
+				<reward item_id="57" min="850000" max="1200000" chance="70"/>	<!--Adena-->
+			</group>
+		</rewardlist>
+		<rewardlist type="RATE_COUNT_GROUPED">
+			<group>
+				<reward item_id="70014" min="1" max="1" chance="5"/>
+				<reward item_id="70055" min="2" max="3" chance="20"/>
+				<reward item_id="70054" min="2" max="3" chance="20"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="70014" min="1" max="1" chance="2"/>
+			<reward item_id="70055" min="2" max="2" chance="10"/>
+			<reward item_id="70054" min="2" max="2" chance="10"/>
+		</rewardlist>
+	</npc>
+	<npc id="24329" name="Starving Water Dragon" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="30.6"/>
+		<set name="collision_radius" value="20.4"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="5559600"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="5003568"/>
+		<set name="baseHpMax" value="282184080.9219331"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="208"/>
+		<set name="baseMpMax" value="300.8"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="164"/>
+		<set name="baseCON" value="111"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="188"/>
+		<set name="baseMEN" value="149"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="400"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4063636000"/>
+		<set name="basePDef" value="22280000"/>
+		<set name="basePAtkSpd" value="4003"/>
+		<set name="baseMAtk" value="8"/>
+		<set name="baseMDef" value="3420000"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<attributes>
+			<defence attribute="fire" value="530" />
+			<defence attribute="water" value="530" />
+			<defence attribute="wind" value="530" />
+			<defence attribute="earth" value="530" />
+			<defence attribute="holy" value="530" />
+			<defence attribute="unholy" value="530" />
+			<attack attribute="unholy" value="530" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="10"/>	<!--Dragons-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="5"/>	<!--Vampiric Rage Resistance-->
+			<skill id="14818" level="1"/>	<!--Instant Kill Attack Resistance-->
+			<skill id="16547" level="10"/>	<!--Danger Zone Resistance-->
+		</client_skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="66">
+				<reward item_id="57" min="850000" max="1200000" chance="70"/>	<!--Adena-->
+			</group>
+		</rewardlist>
+		<rewardlist type="RATE_COUNT_GROUPED">
+			<group>
+				<reward item_id="70014" min="1" max="1" chance="5"/>
+				<reward item_id="70055" min="2" max="3" chance="20"/>
+				<reward item_id="70054" min="2" max="3" chance="20"/>
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="70014" min="1" max="1" chance="2"/>
+			<reward item_id="70055" min="2" max="2" chance="10"/>
+			<reward item_id="70054" min="2" max="2" chance="10"/>
+		</rewardlist>
+	</npc>
+	<npc id="24330" name="Ice Knight" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="31"/>
+		<set name="collision_radius" value="15"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="30"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="0"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="20"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+	</npc>
+	<npc id="24331" name="Klacias" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="67.5"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="30"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="0"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+	</npc>
+	<npc id="24332" name="Icy Breath" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="50"/>
+		<set name="collision_radius" value="20"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="30"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="0"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+	</npc>
+	<npc id="24333" name="Freya" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="55"/>
+		<set name="collision_radius" value="22"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="30"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="0"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="54"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+	</npc>
+	<npc id="24359" name="Fury Tier Weiss" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="28"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="36360"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23550"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5464" level="1"/>	<!--Wind Attack-->
+		</client_skills>
+	</npc>
+	<npc id="24360" name="Fury Tier Blanc" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="28"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="36360"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23550"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5464" level="1"/>	<!--Wind Attack-->
+		</client_skills>
+	</npc>
+	<npc id="24361" name="Fury Sylph Album" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="40"/>
+		<set name="collision_radius" value="20"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="36360"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23550"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5464" level="1"/>	<!--Wind Attack-->
+		</client_skills>
+	</npc>
+	<npc id="24362" name="Fury Tier Nero" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="28"/>
+		<set name="collision_radius" value="28"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="36360"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23550"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5464" level="1"/>	<!--Wind Attack-->
+		</client_skills>
+	</npc>
+	<npc id="24363" name="Fury Sylph Melan" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="40"/>
+		<set name="collision_radius" value="20"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="36360"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23550"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+			<skill id="5464" level="1"/>	<!--Wind Attack-->
+		</client_skills>
+	</npc>
+	<npc id="24364" name="Fury Harpy Schvar" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="27"/>
+		<set name="collision_radius" value="7"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="36360"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23550"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+			<skill id="5464" level="1"/>	<!--Wind Attack-->
+		</client_skills>
+	</npc>
+	<npc id="24366" name="Priest of Purification" title="Zariche">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="36.5"/>
+		<set name="collision_radius" value="30"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="430292"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23928"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+	</npc>
+	<npc id="24367" name="Priest of Purification" title="Zariche">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="36.5"/>
+		<set name="collision_radius" value="30"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="430292"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23928"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+	</npc>
+	<npc id="24368" name="Priest of Purification" title="Akamanah">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="36.5"/>
+		<set name="collision_radius" value="30"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="430292"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23928"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+	</npc>
+	<npc id="24369" name="Priest of Purification" title="Akamanah">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="36.5"/>
+		<set name="collision_radius" value="30"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="430292"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23928"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+	</npc>
+	<npc id="24370" name="Zariche's Treasure Chest" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="45"/>
+		<set name="collision_radius" value="22"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="176387"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23928"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+	</npc>
+	<npc id="24371" name="Akamanah's Treasure Chest" title="">
+		<set name="type" value="Npc"/>
+		<set name="ai_type" value="NpcAI"/>
+		<set name="collision_height" value="45"/>
+		<set name="collision_radius" value="22"/>
+		<set name="level" value="70"/>
+		<set name="rewardExp" value="0"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="176387"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="23928"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="688.86373"/>
+		<set name="basePDef" value="295.91597"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="470.40463"/>
+		<set name="baseMDef" value="216.53847"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+	</npc>
+	<npc id="24373" name="Dailaon Lad" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="37.3"/>
+		<set name="collision_radius" value="26"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1161546846"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1045294"/>
+		<set name="baseHpMax" value="192256"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="120000"/>
+		<set name="basePDef" value="6070"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="58000"/>
+		<set name="baseMDef" value="1609"/>
+		<set name="baseWalkSpd" value="18"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="500"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="5127"/>
+		</equip>
+		<attributes>
+			<defence attribute="fire" value="410" />
+			<defence attribute="water" value="410" />
+			<defence attribute="wind" value="410" />
+			<defence attribute="earth" value="410" />
+			<defence attribute="holy" value="410" />
+			<defence attribute="unholy" value="410" />
+			<attack attribute="unholy" value="410" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="3"/>	<!--Vampiric Rage Resistance-->
+		</client_skills>
+		<database_rewardlist>
+			 	<!--Helios Shaper (Острие Хелиоса)-->
+			 	<!--Eternal Gauntlets (Рукавицы Айдиоса)-->
+			 	<!--Eternal Boots (Сапоги Айдиоса)-->
+			 	<!--Eternal Shield (Щит Айдиоса)-->
+			 	<!--Eternal Leather Helmet (Кожаный Шлем Айдиоса)-->
+			 	<!--Eternal Leather Armor (Кожаный Доспех Айдиоса)-->
+			 	<!--Eternal Leather Leggings (Кожаные Брюки Айдиоса)-->
+			 	<!--Eternal Leather Gloves (Кожаные Перчатки Айдиоса)-->
+			 	<!--Eternal Leather Boots (Кожаные Сапоги Айдиоса)-->
+			 	<!--Eternal Circlet (Диадема Айдиоса)-->
+			 	<!--Eternal Tunic (Туника Айдиоса)-->
+			 	<!--Eternal Stockings (Штаны Айдиоса)-->
+			 	<!--Eternal Gloves (Перчатки Айдиоса)-->
+			 	<!--Eternal Shoes (Ботинки Айдиоса)-->
+			 	<!--Eternal Gaiters (Набедренники Айдиоса)-->
+			 	<!--Eternal Breastplate (Кираса Айдиоса)-->
+			 	<!--Eternal Helmet (Шлем Айдиоса)-->
+			 	<!--Helios Cutter (Резак Хелиоса)-->
+			 	<!--Helios Slasher (Эспадон Хелиоса)-->
+			 	<!--Helios Avenger (Мститель Хелиоса)-->
+			 	<!--Helios Fighter (Воитель Хелиоса)-->
+			 	<!--Helios Stormer (Буревестник Хелиоса)-->
+			 	<!--Helios Thrower (Бросок Хелиоса)-->
+			 	<!--Helios Shooter (Страж Хелиоса)-->
+			 	<!--Helios Buster (Расчленитель Хелиоса)-->
+			 	<!--Helios Caster (Заклинатель Хелиоса)-->
+			 	<!--Helios Retributer (Возмездие Хелиоса)-->
+			 	<!--Helios Dual Swords (Парные Мечи Хелиоса)-->
+			 	<!--Helios Dual Daggers (Парные Кинжалы Хелиоса)-->
+			 	<!--Helios Dual Blunt Weapon (Парные Дубины Хелиоса)-->
+			 	<!--Eternal Sigil (Символ Айдиоса)-->
+			<reward item_id="57" min="2965" max="6920" chance="70"/>	<!--Adena (Адена)-->
+			<reward item_id="81217" min="1" max="1" chance="1"/>	<!--Oriharukon Ore (Орихаруконовая Руда)-->
+			 	<!--Dragon Scales (Чешуя Дракона)-->
+			 	<!--Angel’s Feather (Перо Ангела)-->
+			 	<!--Black Mithril (Черный Мифрил)-->
+			 	<!--Aden's Treasure Chest (Сундук с Сокровищами Адена)-->
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			 	<!--Soul Crystal (Кристалл Душ)-->
+		</rewardlist>
+	</npc>
+	<npc id="24376" name="Nos Lad" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="42.0;50.8"/>
+		<set name="collision_radius" value="26.0;31.2"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1161546846"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1045294"/>
+		<set name="baseHpMax" value="192256"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="120000"/>
+		<set name="basePDef" value="6070"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="58000"/>
+		<set name="baseMDef" value="1609"/>
+		<set name="baseWalkSpd" value="18"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="128"/>
+		</equip>
+		<attributes>
+			<defence attribute="fire" value="410" />
+			<defence attribute="water" value="410" />
+			<defence attribute="wind" value="410" />
+			<defence attribute="earth" value="410" />
+			<defence attribute="holy" value="410" />
+			<defence attribute="unholy" value="410" />
+			<attack attribute="unholy" value="410" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="3"/>	<!--Vampiric Rage Resistance-->
+		</client_skills>
+		<database_rewardlist>
+			 	<!--Helios Shaper (Острие Хелиоса)-->
+			 	<!--Eternal Gauntlets (Рукавицы Айдиоса)-->
+			 	<!--Eternal Boots (Сапоги Айдиоса)-->
+			 	<!--Eternal Shield (Щит Айдиоса)-->
+			 	<!--Eternal Leather Helmet (Кожаный Шлем Айдиоса)-->
+			 	<!--Eternal Leather Armor (Кожаный Доспех Айдиоса)-->
+			 	<!--Eternal Leather Leggings (Кожаные Брюки Айдиоса)-->
+			 	<!--Eternal Leather Gloves (Кожаные Перчатки Айдиоса)-->
+			 	<!--Eternal Leather Boots (Кожаные Сапоги Айдиоса)-->
+			 	<!--Eternal Circlet (Диадема Айдиоса)-->
+			 	<!--Eternal Tunic (Туника Айдиоса)-->
+			 	<!--Eternal Stockings (Штаны Айдиоса)-->
+			 	<!--Eternal Gloves (Перчатки Айдиоса)-->
+			 	<!--Eternal Shoes (Ботинки Айдиоса)-->
+			 	<!--Eternal Gaiters (Набедренники Айдиоса)-->
+			 	<!--Eternal Breastplate (Кираса Айдиоса)-->
+			 	<!--Eternal Helmet (Шлем Айдиоса)-->
+			 	<!--Helios Cutter (Резак Хелиоса)-->
+			 	<!--Helios Slasher (Эспадон Хелиоса)-->
+			 	<!--Helios Avenger (Мститель Хелиоса)-->
+			 	<!--Helios Fighter (Воитель Хелиоса)-->
+			 	<!--Helios Stormer (Буревестник Хелиоса)-->
+			 	<!--Helios Thrower (Бросок Хелиоса)-->
+			 	<!--Helios Shooter (Страж Хелиоса)-->
+			 	<!--Helios Buster (Расчленитель Хелиоса)-->
+			 	<!--Helios Caster (Заклинатель Хелиоса)-->
+			 	<!--Helios Retributer (Возмездие Хелиоса)-->
+			 	<!--Helios Dual Swords (Парные Мечи Хелиоса)-->
+			 	<!--Helios Dual Daggers (Парные Кинжалы Хелиоса)-->
+			 	<!--Helios Dual Blunt Weapon (Парные Дубины Хелиоса)-->
+			 	<!--Eternal Sigil (Символ Айдиоса)-->
+			<reward item_id="57" min="2965" max="6920" chance="70"/>	<!--Adena (Адена)-->
+			<reward item_id="81217" min="1" max="1" chance="1"/>	<!--Oriharukon Ore (Орихаруконовая Руда)-->
+			 	<!--Dragon Scales (Чешуя Дракона)-->
+			 	<!--Angel’s Feather (Перо Ангела)-->
+			 	<!--Black Mithril (Черный Мифрил)-->
+			 	<!--Aden's Treasure Chest (Сундук с Сокровищами Адена)-->
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			 	<!--Soul Crystal (Кристалл Душ)-->
+		</rewardlist>
+	</npc>
+	<npc id="24377" name="Swamp Tribe" title="Lord of Alligator Island">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="65"/>
+		<set name="collision_radius" value="32"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="8399456352"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="7559439"/>
+		<set name="baseHpMax" value="961280"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="125000"/>
+		<set name="basePDef" value="6170"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="59000"/>
+		<set name="baseMDef" value="1709"/>
+		<set name="baseWalkSpd" value="15"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="5131"/>
+		</equip>
+		<attributes>
+			<defence attribute="fire" value="420" />
+			<defence attribute="water" value="420" />
+			<defence attribute="wind" value="420" />
+			<defence attribute="earth" value="420" />
+			<defence attribute="holy" value="420" />
+			<defence attribute="unholy" value="420" />
+			<attack attribute="unholy" value="420" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="3"/>	<!--Vampiric Rage Resistance-->
+			<skill id="32675" level="1"/>	<!--Status Effect Resistance-->
+		</client_skills>
+		<database_rewardlist>
+			 	<!--Helios Shaper (Острие Хелиоса)-->
+			 	<!--Eternal Gauntlets (Рукавицы Айдиоса)-->
+			 	<!--Eternal Boots (Сапоги Айдиоса)-->
+			 	<!--Eternal Shield (Щит Айдиоса)-->
+			 	<!--Eternal Leather Helmet (Кожаный Шлем Айдиоса)-->
+			 	<!--Eternal Leather Armor (Кожаный Доспех Айдиоса)-->
+			 	<!--Eternal Leather Leggings (Кожаные Брюки Айдиоса)-->
+			 	<!--Eternal Leather Gloves (Кожаные Перчатки Айдиоса)-->
+			 	<!--Eternal Leather Boots (Кожаные Сапоги Айдиоса)-->
+			 	<!--Eternal Circlet (Диадема Айдиоса)-->
+			 	<!--Eternal Tunic (Туника Айдиоса)-->
+			 	<!--Eternal Stockings (Штаны Айдиоса)-->
+			 	<!--Eternal Gloves (Перчатки Айдиоса)-->
+			 	<!--Eternal Shoes (Ботинки Айдиоса)-->
+			 	<!--Eternal Gaiters (Набедренники Айдиоса)-->
+			 	<!--Eternal Breastplate (Кираса Айдиоса)-->
+			 	<!--Eternal Helmet (Шлем Айдиоса)-->
+			 	<!--Helios Cutter (Резак Хелиоса)-->
+			 	<!--Helios Slasher (Эспадон Хелиоса)-->
+			 	<!--Helios Avenger (Мститель Хелиоса)-->
+			 	<!--Helios Fighter (Воитель Хелиоса)-->
+			 	<!--Helios Stormer (Буревестник Хелиоса)-->
+			 	<!--Helios Thrower (Бросок Хелиоса)-->
+			 	<!--Helios Shooter (Страж Хелиоса)-->
+			 	<!--Helios Buster (Расчленитель Хелиоса)-->
+			 	<!--Helios Caster (Заклинатель Хелиоса)-->
+			 	<!--Helios Retributer (Возмездие Хелиоса)-->
+			 	<!--Helios Dual Swords (Парные Мечи Хелиоса)-->
+			 	<!--Helios Dual Daggers (Парные Кинжалы Хелиоса)-->
+			 	<!--Helios Dual Blunt Weapon (Парные Дубины Хелиоса)-->
+			 	<!--Eternal Sigil (Символ Айдиоса)-->
+			<reward item_id="57" min="3070" max="7160" chance="70"/>	<!--Adena (Адена)-->
+			 	<!--Black Mithril (Черный Мифрил)-->
+			<reward item_id="81217" min="1" max="1" chance="1"/>	<!--Oriharukon Ore (Орихаруконовая Руда)-->
+			 	<!--Dragon Scales (Чешуя Дракона)-->
+			 	<!--Angel’s Feather (Перо Ангела)-->
+			 	<!--Aden's Treasure Chest (Сундук с Сокровищами Адена)-->
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			 	<!--Soul Crystal (Кристалл Душ)-->
+		</rewardlist>
+	</npc>
+	<npc id="24378" name="Swamp Alligator" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="45"/>
+		<set name="collision_radius" value="27"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1199922336"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1079854"/>
+		<set name="baseHpMax" value="192256"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="125000"/>
+		<set name="basePDef" value="6170"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="59000"/>
+		<set name="baseMDef" value="1709"/>
+		<set name="baseWalkSpd" value="18"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="5128"/>
+		</equip>
+		<attributes>
+			<defence attribute="fire" value="420" />
+			<defence attribute="water" value="420" />
+			<defence attribute="wind" value="420" />
+			<defence attribute="earth" value="420" />
+			<defence attribute="holy" value="420" />
+			<defence attribute="unholy" value="420" />
+			<attack attribute="unholy" value="420" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="3"/>	<!--Vampiric Rage Resistance-->
+		</client_skills>
+		<database_rewardlist>
+			 	<!--Helios Shaper (Острие Хелиоса)-->
+			 	<!--Eternal Gauntlets (Рукавицы Айдиоса)-->
+			 	<!--Eternal Boots (Сапоги Айдиоса)-->
+			 	<!--Eternal Shield (Щит Айдиоса)-->
+			 	<!--Eternal Leather Helmet (Кожаный Шлем Айдиоса)-->
+			 	<!--Eternal Leather Armor (Кожаный Доспех Айдиоса)-->
+			 	<!--Eternal Leather Leggings (Кожаные Брюки Айдиоса)-->
+			 	<!--Eternal Leather Gloves (Кожаные Перчатки Айдиоса)-->
+			 	<!--Eternal Leather Boots (Кожаные Сапоги Айдиоса)-->
+			 	<!--Eternal Circlet (Диадема Айдиоса)-->
+			 	<!--Eternal Tunic (Туника Айдиоса)-->
+			 	<!--Eternal Stockings (Штаны Айдиоса)-->
+			 	<!--Eternal Gloves (Перчатки Айдиоса)-->
+			 	<!--Eternal Shoes (Ботинки Айдиоса)-->
+			 	<!--Eternal Gaiters (Набедренники Айдиоса)-->
+			 	<!--Eternal Breastplate (Кираса Айдиоса)-->
+			 	<!--Eternal Helmet (Шлем Айдиоса)-->
+			 	<!--Helios Cutter (Резак Хелиоса)-->
+			 	<!--Helios Slasher (Эспадон Хелиоса)-->
+			 	<!--Helios Avenger (Мститель Хелиоса)-->
+			 	<!--Helios Fighter (Воитель Хелиоса)-->
+			 	<!--Helios Stormer (Буревестник Хелиоса)-->
+			 	<!--Helios Thrower (Бросок Хелиоса)-->
+			 	<!--Helios Shooter (Страж Хелиоса)-->
+			 	<!--Helios Buster (Расчленитель Хелиоса)-->
+			 	<!--Helios Caster (Заклинатель Хелиоса)-->
+			 	<!--Helios Retributer (Возмездие Хелиоса)-->
+			 	<!--Helios Dual Swords (Парные Мечи Хелиоса)-->
+			 	<!--Helios Dual Daggers (Парные Кинжалы Хелиоса)-->
+			 	<!--Helios Dual Blunt Weapon (Парные Дубины Хелиоса)-->
+			 	<!--Eternal Sigil (Символ Айдиоса)-->
+			<reward item_id="57" min="3070" max="7160" chance="70"/>	<!--Adena (Адена)-->
+			 	<!--Black Mithril (Черный Мифрил)-->
+			<reward item_id="81217" min="1" max="1" chance="1"/>	<!--Oriharukon Ore (Орихаруконовая Руда)-->
+			 	<!--Dragon Scales (Чешуя Дракона)-->
+			 	<!--Angel’s Feather (Перо Ангела)-->
+			 	<!--Aden's Treasure Chest (Сундук с Сокровищами Адена)-->
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			 	<!--Soul Crystal (Кристалл Душ)-->
+		</rewardlist>
+	</npc>
+	<npc id="24379" name="Swamp Warrior" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="43.5"/>
+		<set name="collision_radius" value="30"/>
+		<set name="level" value="85"/>
+		<set name="rewardExp" value="1199922336"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1079854"/>
+		<set name="baseHpMax" value="192256"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="25848"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="125000"/>
+		<set name="basePDef" value="6170"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="59000"/>
+		<set name="baseMDef" value="1709"/>
+		<set name="baseWalkSpd" value="18"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="5127"/>
+		</equip>
+		<attributes>
+			<defence attribute="fire" value="420" />
+			<defence attribute="water" value="420" />
+			<defence attribute="wind" value="420" />
+			<defence attribute="earth" value="420" />
+			<defence attribute="holy" value="420" />
+			<defence attribute="unholy" value="420" />
+			<attack attribute="unholy" value="420" />
+		</attributes>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="5463" level="1"/>	<!--Water Attack-->
+			<skill id="14765" level="3"/>	<!--Vampiric Rage Resistance-->
+		</client_skills>
+		<database_rewardlist>
+			 	<!--Helios Shaper (Острие Хелиоса)-->
+			 	<!--Eternal Gauntlets (Рукавицы Айдиоса)-->
+			 	<!--Eternal Boots (Сапоги Айдиоса)-->
+			 	<!--Eternal Shield (Щит Айдиоса)-->
+			 	<!--Eternal Leather Helmet (Кожаный Шлем Айдиоса)-->
+			 	<!--Eternal Leather Armor (Кожаный Доспех Айдиоса)-->
+			 	<!--Eternal Leather Leggings (Кожаные Брюки Айдиоса)-->
+			 	<!--Eternal Leather Gloves (Кожаные Перчатки Айдиоса)-->
+			 	<!--Eternal Leather Boots (Кожаные Сапоги Айдиоса)-->
+			 	<!--Eternal Circlet (Диадема Айдиоса)-->
+			 	<!--Eternal Tunic (Туника Айдиоса)-->
+			 	<!--Eternal Stockings (Штаны Айдиоса)-->
+			 	<!--Eternal Gloves (Перчатки Айдиоса)-->
+			 	<!--Eternal Shoes (Ботинки Айдиоса)-->
+			 	<!--Eternal Gaiters (Набедренники Айдиоса)-->
+			 	<!--Eternal Breastplate (Кираса Айдиоса)-->
+			 	<!--Eternal Helmet (Шлем Айдиоса)-->
+			 	<!--Helios Cutter (Резак Хелиоса)-->
+			 	<!--Helios Slasher (Эспадон Хелиоса)-->
+			 	<!--Helios Avenger (Мститель Хелиоса)-->
+			 	<!--Helios Fighter (Воитель Хелиоса)-->
+			 	<!--Helios Stormer (Буревестник Хелиоса)-->
+			 	<!--Helios Thrower (Бросок Хелиоса)-->
+			 	<!--Helios Shooter (Страж Хелиоса)-->
+			 	<!--Helios Buster (Расчленитель Хелиоса)-->
+			 	<!--Helios Caster (Заклинатель Хелиоса)-->
+			 	<!--Helios Retributer (Возмездие Хелиоса)-->
+			 	<!--Helios Dual Swords (Парные Мечи Хелиоса)-->
+			 	<!--Helios Dual Daggers (Парные Кинжалы Хелиоса)-->
+			 	<!--Helios Dual Blunt Weapon (Парные Дубины Хелиоса)-->
+			 	<!--Eternal Sigil (Символ Айдиоса)-->
+			<reward item_id="57" min="3070" max="7160" chance="70"/>	<!--Adena (Адена)-->
+			 	<!--Black Mithril (Черный Мифрил)-->
+			<reward item_id="81217" min="1" max="1" chance="1"/>	<!--Oriharukon Ore (Орихаруконовая Руда)-->
+			 	<!--Dragon Scales (Чешуя Дракона)-->
+			 	<!--Angel’s Feather (Перо Ангела)-->
+			 	<!--Aden's Treasure Chest (Сундук с Сокровищами Адена)-->
+		</database_rewardlist>
+		<rewardlist type="SWEEP">
+			 	<!--Soul Crystal (Кристалл Душ)-->
+		</rewardlist>
+	</npc>
+	<npc id="24380" name="Nasty Eye" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="43"/>
+		<set name="collision_radius" value="21"/>
+		<set name="level" value="1"/>
+		<set name="rewardExp" value="1"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="108.42254"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="84.88"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4"/>
+		<set name="basePDef" value="44.44444"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="5.78704"/>
+		<set name="baseMDef" value="32.52252"/>
+		<set name="baseWalkSpd" value="90"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magical Creatures-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="1" max="1" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24381" name="Nasty Buggle" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="30"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="1"/>
+		<set name="rewardExp" value="1"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="108.42254"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="84.88"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="4"/>
+		<set name="basePDef" value="44.44444"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="5.78704"/>
+		<set name="baseMDef" value="32.52252"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="13"/>	<!--Fairies-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="1" max="1" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24382" name="Nasty Zombie" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="27.5"/>
+		<set name="collision_radius" value="12"/>
+		<set name="level" value="10"/>
+		<set name="rewardExp" value="20"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="230.38548"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="140.88"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="9"/>
+		<set name="basePDef" value="61.82527"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="13.20506"/>
+		<set name="baseMDef" value="45.24105"/>
+		<set name="baseWalkSpd" value="15"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="2" max="5" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24383" name="Nasty Zombie Lord" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="21"/>
+		<set name="collision_radius" value="13"/>
+		<set name="level" value="10"/>
+		<set name="rewardExp" value="20"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="230.38548"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="140.88"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="9.33758"/>
+		<set name="basePDef" value="61.82527"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="13.20506"/>
+		<set name="baseMDef" value="45.24105"/>
+		<set name="baseWalkSpd" value="15"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="2" max="5" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24384" name="Carcass Bat" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="20"/>
+		<set name="rewardExp" value="46"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="342.5127"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="192"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="44.32863"/>
+		<set name="basePDef" value="86.87049"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="30.2707"/>
+		<set name="baseMDef" value="63.56806"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="150" max="330" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24385" name="Vampire" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="21.5;25.8"/>
+		<set name="collision_radius" value="6.0;7"/>
+		<set name="level" value="20"/>
+		<set name="rewardExp" value="46"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="342.5127"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="192"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="44.32863"/>
+		<set name="basePDef" value="86.87049"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="30.2707"/>
+		<set name="baseMDef" value="63.56806"/>
+		<set name="baseWalkSpd" value="64"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="946"/>
+		</equip>
+		<client_skills>
+			<skill id="4416" level="9"/>	<!--Demons-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="150" max="330" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24386" name="Skeleton Scout" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="7"/>
+		<set name="level" value="27"/>
+		<set name="rewardExp" value="82"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="515.17856"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="286.92"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="74.99121"/>
+		<set name="basePDef" value="108.28767"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="51.20928"/>
+		<set name="baseMDef" value="79.24022"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="600"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<lhand item_id="15302"/>
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="150" max="330" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24387" name="Skeleton Archer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="27"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="27"/>
+		<set name="rewardExp" value="82"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="515.17856"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="286.92"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="74.99121"/>
+		<set name="basePDef" value="108.28767"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="51.20928"/>
+		<set name="baseMDef" value="79.24022"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="600"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="14"/>
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="150" max="330" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24388" name="Skeleton Warrior" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="25.0;31"/>
+		<set name="collision_radius" value="11.0;13"/>
+		<set name="level" value="27"/>
+		<set name="rewardExp" value="82"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="515.17856"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="286.92"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="74.99121"/>
+		<set name="basePDef" value="108.28767"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="51.20928"/>
+		<set name="baseMDef" value="79.24022"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="86"/>
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="150" max="330" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24389" name="Spartoi Soldier" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="27.0;34"/>
+		<set name="collision_radius" value="11.0;13"/>
+		<set name="level" value="33"/>
+		<set name="rewardExp" value="232"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="736.96177"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="387.72"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="113.49065"/>
+		<set name="basePDef" value="129.23095"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="77.49941"/>
+		<set name="baseMDef" value="94.5656"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<rhand item_id="73"/>
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="150" max="330" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24390" name="Raging Spartoi" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="27.0;34"/>
+		<set name="collision_radius" value="11.0;13"/>
+		<set name="level" value="33"/>
+		<set name="rewardExp" value="232"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="736.96177"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="387.72"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="113.49065"/>
+		<set name="basePDef" value="129.23095"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="77.49941"/>
+		<set name="baseMDef" value="94.5656"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<equip>
+			<lhand item_id="945"/>
+			<rhand item_id="946"/>
+		</equip>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="500" max="1000" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24391" name="Sobbing Windra" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="35"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="40"/>
+		<set name="rewardExp" value="712"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="966.57792"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="478.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="176.36077"/>
+		<set name="basePDef" value="156.55035"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="120.43155"/>
+		<set name="baseMDef" value="114.55675"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="30" max="71" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24392" name="Whispering Windra" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="35"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="40"/>
+		<set name="rewardExp" value="712"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="966.57792"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="478.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="176.36077"/>
+		<set name="basePDef" value="120.43155"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="156.55035"/>
+		<set name="baseMDef" value="114.55675"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="30" max="71" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24393" name="Giggling Windra" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="35"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="40"/>
+		<set name="rewardExp" value="712"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="966.57792"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="478.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="176.36077"/>
+		<set name="basePDef" value="156.55035"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="120.43155"/>
+		<set name="baseMDef" value="114.55675"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="30" max="71" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24394" name="Fear Ratel" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="15"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="47"/>
+		<set name="rewardExp" value="1366"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="2"/>
+		<set name="baseHpMax" value="1421.00103"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="747.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="261.69549"/>
+		<set name="basePDef" value="186.63569"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="178.7041"/>
+		<set name="baseMDef" value="136.5719"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="17" max="40" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24395" name="Fear Ratel Robust" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="15"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="47"/>
+		<set name="rewardExp" value="1366"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="2"/>
+		<set name="baseHpMax" value="1421.00103"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="747.8"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="261.69549"/>
+		<set name="basePDef" value="186.63569"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="178.7041"/>
+		<set name="baseMDef" value="136.5719"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="17" max="40" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24396" name="Fear Growler" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="17"/>
+		<set name="collision_radius" value="6"/>
+		<set name="level" value="54"/>
+		<set name="rewardExp" value="3412"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="4"/>
+		<set name="baseHpMax" value="1776.58018"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="948"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="370.68904"/>
+		<set name="basePDef" value="218.89589"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="253.13256"/>
+		<set name="baseMDef" value="160.17851"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="34" max="79" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24397" name="Fear Growler Evolved" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="27"/>
+		<set name="collision_radius" value="9"/>
+		<set name="level" value="54"/>
+		<set name="rewardExp" value="3412"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="4"/>
+		<set name="baseHpMax" value="1776.58018"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="948"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="370.68904"/>
+		<set name="basePDef" value="218.89589"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="253.13256"/>
+		<set name="baseMDef" value="160.17851"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="34" max="79" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24398" name="Fear Growler Robust" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="17"/>
+		<set name="collision_radius" value="6"/>
+		<set name="level" value="54"/>
+		<set name="rewardExp" value="3412"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="4"/>
+		<set name="baseHpMax" value="1776.58018"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="948"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="370.68904"/>
+		<set name="basePDef" value="218.89589"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="253.13256"/>
+		<set name="baseMDef" value="160.17851"/>
+		<set name="baseWalkSpd" value="39"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="7"/>	<!--Spirits-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="34" max="79" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="24399" name="Fussy Leaf" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="20"/>
+		<set name="collision_radius" value="12"/>
+		<set name="level" value="61"/>
+		<set name="rewardExp" value="8149"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="8"/>
+		<set name="baseHpMax" value="2089.92274"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="7.5"/>
+		<set name="baseMpMax" value="1127.4"/>
+		<set name="baseMpReg" value="2.7"/>
+		<set name="baseSTR" value="88"/>
+		<set name="baseCON" value="82"/>
+		<set name="baseDEX" value="55"/>
+		<set name="baseINT" value="79"/>
+		<set name="baseMEN" value="78"/>
+		<set name="baseWIT" value="78"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="501.08068"/>
+		<set name="basePDef" value="252.49346"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="342.17315"/>
+		<set name="baseMDef" value="184.76376"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.6"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<client_skills>
+			<skill id="4416" level="13"/>	<!--Fairies-->
+		</client_skills>
+		<database_rewardlist>
+			<reward item_id="57" min="44" max="102" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+</list>

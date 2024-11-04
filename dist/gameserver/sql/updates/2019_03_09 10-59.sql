@@ -1,0 +1,1 @@
+ALTER TABLE `character_monsterbook` CHANGE `kills` `kills` INT UNSIGNED NOT NULL DEFAULT '0';

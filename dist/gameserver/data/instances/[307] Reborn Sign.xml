@@ -1,0 +1,204 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+	<instance id="307" name="Reborn Sign RaidBoss Instance" maxChannels="1000" collapseIfEmpty="30" timelimit="60" dispelBuffs="true">
+		<level min="85"/>
+		<party min="1" max="1"/>
+		<return loc="83496 149208 -3406"/>
+		<teleport loc="-250408 211304 -11856"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+        <quest id="0"/>
+		<reuse resetReuse="* * * * *" setUponEntry="true" sharedReuseGroup="0"/>
+		<spawns>
+			<spawn mobId="20001" type="point"  respawn="0"> <!-- RB -->
+				<coords loc="-250408 207272 -11955 58795"/>
+			</spawn>
+			<!-- Teleporter -->
+			<spawn mobId="40012" type="point"  respawn="0">
+				<coords loc="-250696 210264 -11968 65406"/>
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-251880 206696 -11960 46497" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-251816 206712 -11960 51512" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-251848 206760 -11960 6639" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-251912 207688 -11960 16766" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-251864 207656 -11960 12351" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-251928 207624 -11952 53933" /> 
+			</spawn>
+			<spawn count="1"  mobId="40539"  respawn="5"  type="point">
+				<coords loc="-251144 206952 -11960 59659" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-251160 207000 -11960 63163" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-251192 206968 -11960 22527" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-251000 207896 -11960 8430" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-251064 207880 -11960 13355" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-251032 207832 -11960 39716" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-251480 208632 -11960 19574" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-251528 208584 -11960 24715" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-251464 208552 -11960 60699" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-252200 209192 -11960 25632" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-252216 209112 -11960 47093" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-252152 209128 -11960 2555" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-251688 210168 -11960 10952" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-251752 210120 -11960 16452" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-251688 210104 -11960 62980" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-250792 209640 -11960 57809" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-250808 209688 -11960 61026" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-250808 209640 -11960 49151" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-251544 209208 -11960 40017" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-251496 209192 -11960 43610" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-251512 209256 -11960 1612" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-250760 208872 -11960 63381" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-250744 208920 -11960 13028" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-250792 208904 -11960 36123" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-249928 207000 -11960 57092" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-249864 207032 -11960 45941" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-249896 207080 -11960 9238" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-248808 206552 -11952 58162" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-248840 206632 -11960 64896" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-248904 206568 -11960 40959" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-248808 207976 -11960 13067" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-248840 207960 -11960 14832" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-248792 207880 -11960 54788" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-249992 208248 -11960 30367" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-249960 208200 -11960 35433" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-249928 208264 -11960 11547" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-249272 208504 -11960 2052" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-249352 208472 -11960 60854" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-249288 208424 -11960 58824" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-250088 208984 -11960 27886" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-250072 208920 -11960 33286" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-249992 208968 -11960 5636" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-248696 209176 -11960 10250" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-248760 209192 -11960 15491" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-248712 209128 -11960 32088" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-248920 210088 -11960 16252" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-248984 210040 -11960 22557" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-248904 209992 -11960 59899" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-249960 209992 -11960 35497" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-249944 209928 -11960 51707" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-249896 209960 -11960 56361" /> 
+			</spawn>
+			<spawn count="1" mobId="40539"  respawn="5"  type="point">
+				<coords loc="-249368 207592 -11960 39306" /> 
+			</spawn>
+			<spawn count="1" mobId="40540"  respawn="5"  type="point">
+				<coords loc="-249416 207608 -11960 32920" /> 
+			</spawn>
+			<spawn count="1" mobId="40541"  respawn="5"  type="point">
+				<coords loc="-249384 207528 -11960 52507" /> 
+			</spawn>
+
+		</spawns>
+
+	</instance>
+</list>

@@ -1,0 +1,2 @@
+DELETE FROM character_daily_missions;
+RENAME TABLE character_daily_missions TO character_pledge_missions;

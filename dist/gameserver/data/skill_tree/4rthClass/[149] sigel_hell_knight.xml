@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<normal_skill_tree>
+		<class id="149">	<!--Рыцарь Ада Сигеля-->
+			<!--<skill id="10030" level="1" name="Аура Вызова(Challenge Aura)" min_level="85"/>
+			<skill id="10028" level="1" name="Аура Провокации(Provoke Aura)" min_level="85"/>
+			<skill id="10032" level="1" name="Аура Стали(Iron Aura)" min_level="85"/>
+			<skill id="1405" level="1" name="Божественное Вдохновение(Divine Inspiration)" cost="4" min_level="85"/>
+			<skill id="1405" level="2" name="Божественное Вдохновение(Divine Inspiration)" cost="30" min_level="85"/>
+			<skill id="1405" level="3" name="Божественное Вдохновение(Divine Inspiration)" cost="100" min_level="85"/>
+			<skill id="1405" level="4" name="Божественное Вдохновение(Divine Inspiration)" min_level="85"/>
+			<skill id="10027" level="1" name="Великая Аура Агрессии(Superior Aggression Aura)" min_level="85"/>
+			<skill id="10006" level="1" name="Великий Рубеж(Grand Fortress)" min_level="85"/>
+			<skill id="10069" level="1" name="Великий Шип Мщения(Grand Thorn of Vengeance)" min_level="85"/>
+			<skill id="10001" level="1" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" min_level="85"/>
+			<skill id="10044" level="1" name="Великое Владение Стихиями(Superior Elemental Mastery)" min_level="85"/>
+			<skill id="10002" level="1" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" min_level="85"/>
+			<skill id="10003" level="1" name="Великое Владение Щитом(Superior Shield Mastery)" min_level="85"/>
+			<skill id="10004" level="1" name="Великое Магическое Сопротивление(Superior Magic Resistance)" min_level="85"/>
+			<skill id="10005" level="1" name="Великое Сопротивление Отрицательным Эффектам(Superior Mental Attack Resistance)" min_level="85"/>
+			<skill id="10013" level="1" name="Восходящий Сокрушающий Удар(Rising Smash)" min_level="85"/>
+			<skill id="10008" level="1" name="Заряд Щита(Shield Charge)" min_level="85"/>
+			<skill id="10019" level="1" name="Защита Веры(Protection of Faith)" min_level="85"/>
+			<skill id="10011" level="1" name="Импульс Щита(Shield Impact)" min_level="85"/>
+			<skill id="10010" level="1" name="Карающий Шок(Vanishing Stun)" min_level="85"/>
+			<skill id="10099" level="1" name="Клятва Мстителя(Avenger's Frenzy)" min_level="85"/>
+			<skill id="248" level="6" name="Кристаллизация(Crystallize)" min_level="85"/>
+			<skill id="150" level="3" name="Лимит Веса(Weight Limit)" min_level="85"/>
+			<skill id="10017" level="1" name="Максимальная Защита(Final Ultimate Defense)" min_level="85"/>
+			<skill id="30833" level="1" name="Обычная Гармония Фантазии(Basic Fantasia Harmony)" min_level="85"/>
+			<skill id="30824" level="1" name="Обычная Поэма Барабана(Basic Drum Melody)" min_level="85"/>
+			<skill id="30826" level="1" name="Обычная Поэма Гитары(Basic Guitar Melody)" min_level="85"/>
+			<skill id="30825" level="1" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" min_level="85"/>
+			<skill id="30823" level="1" name="Обычная Поэма Рога(Basic Horn Melody)" min_level="85"/>
+			<skill id="30827" level="1" name="Обычное Анданте Битвы(Basic Andante of Battle)" min_level="85"/>
+			<skill id="30828" level="1" name="Обычное Анданте Движения(Basic Andante of Movement)" min_level="85"/>
+			<skill id="30829" level="1" name="Обычное Анданте Расслабления(Basic Refreshing Andante)" min_level="85"/>
+			<skill id="30831" level="1" name="Обычное Сопротивление Злым Чарам(Basic Debuff Resistance)" min_level="85"/>
+			<skill id="30832" level="1" name="Обычное Сопротивление Психическим Атакам(Basic Mental Attack Resistance)" min_level="85"/>
+			<skill id="30830" level="1" name="Обычное Сопротивление Стихиям(Basic Attribute Resistance)" min_level="85"/>
+			<skill id="8600" level="1" name="Оседлать Небесного Скакуна(Summon Royal Aegis)" min_level="85"/>
+			<skill id="10021" level="1" name="Подъем Щита(Raise Shield)" min_level="85"/>
+			<skill id="10068" level="1" name="Призвать Кровавую Пантеру(Summon Blood Panther)" min_level="85"/>
+			<skill id="1370" level="1" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1370" level="2" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1370" level="3" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="800000000" min_level="85"/>
+			<skill id="1372" level="1" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="20000000" min_level="85"/>
+			<skill id="1372" level="2" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1372" level="3" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="60000000" min_level="85"/>
+			<skill id="1372" level="4" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="80000000" min_level="85"/>
+			<skill id="1372" level="5" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="100000000" min_level="85"/>
+			<skill id="1372" level="6" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="120000000" min_level="85"/>
+			<skill id="1372" level="7" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="200000000" min_level="85"/>
+			<skill id="1372" level="8" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1371" level="1" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="20000000" min_level="85"/>
+			<skill id="1371" level="2" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1371" level="3" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="60000000" min_level="85"/>
+			<skill id="1371" level="4" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="80000000" min_level="85"/>
+			<skill id="1371" level="5" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="100000000" min_level="85"/>
+			<skill id="1371" level="6" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="120000000" min_level="85"/>
+			<skill id="1371" level="7" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="200000000" min_level="85"/>
+			<skill id="1371" level="8" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1927" level="1" name="Сила Сигеля(Sigel Force)" min_level="85"/>
+			<skill id="10244" level="1" name="Стойка с Двуручным Хватом(Two-Hand Stance)" min_level="85"/>
+			<skill id="1572" level="1" name="Увеличение Веса(Weight Increase)" min_level="85"/>
+			<skill id="1571" level="1" name="Увеличение Инвентаря(Inventory Increase)" min_level="85"/>
+			<skill id="10009" level="1" name="Удар Щитом(Shield Bash)" min_level="85"/>
+			<skill id="10020" level="1" name="Фокусировка Щита(Focus Shield)" min_level="85"/>
+			<skill id="10014" level="1" name="Цепной Ливень(Chain Gust)" min_level="85"/>
+			<skill id="10015" level="1" name="Цепной Удар(Chain Strike)" min_level="85"/>
+			<skill id="10026" level="1" name="Щит-Бумеранг(Shield Boomerang)" min_level="85"/>
+			<skill id="10008" level="2" name="Заряд Щита(Shield Charge)" cost="50000" min_level="86"/>
+			<skill id="10010" level="2" name="Карающий Шок(Vanishing Stun)" cost="50000" min_level="86"/>
+			<skill id="10009" level="2" name="Удар Щитом(Shield Bash)" cost="50000" min_level="86"/>
+			<skill id="10014" level="2" name="Цепной Ливень(Chain Gust)" cost="50000" min_level="86"/>
+			<skill id="10012" level="1" name="Волна Щита(Shield Wave)" cost="60000" min_level="87"/>
+			<skill id="10013" level="2" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="60000" min_level="87"/>
+			<skill id="10015" level="2" name="Цепной Удар(Chain Strike)" cost="60000" min_level="87"/>
+			<skill id="10026" level="2" name="Щит-Бумеранг(Shield Boomerang)" cost="60000" min_level="87"/>
+			<skill id="10027" level="2" name="Великая Аура Агрессии(Superior Aggression Aura)" cost="80000" min_level="88"/>
+			<skill id="10008" level="3" name="Заряд Щита(Shield Charge)" cost="80000" min_level="88"/>
+			<skill id="10011" level="2" name="Импульс Щита(Shield Impact)" cost="80000" min_level="88"/>
+			<skill id="10010" level="3" name="Карающий Шок(Vanishing Stun)" cost="80000" min_level="88"/>
+			<skill id="10009" level="3" name="Удар Щитом(Shield Bash)" cost="80000" min_level="88"/>
+			<skill id="10014" level="3" name="Цепной Ливень(Chain Gust)" cost="80000" min_level="88"/>
+			<skill id="10012" level="2" name="Волна Щита(Shield Wave)" cost="100000" min_level="89"/>
+			<skill id="10013" level="3" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="100000" min_level="89"/>
+			<skill id="19559" level="1" name="Цепной Удар Темными Шипами(Black Thorn Chain Strike)" cost="100000" min_level="89"/>
+			<skill id="10069" level="2" name="Великий Шип Мщения(Grand Thorn of Vengeance)" cost="370000" min_level="90"/>
+			<skill id="10001" level="2" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="370000" min_level="90"/>
+			<skill id="10044" level="2" name="Великое Владение Стихиями(Superior Elemental Mastery)" cost="370000" min_level="90"/>
+			<skill id="10002" level="2" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="370000" min_level="90"/>
+			<skill id="10003" level="2" name="Великое Владение Щитом(Superior Shield Mastery)" cost="370000" min_level="90"/>
+			<skill id="10004" level="2" name="Великое Магическое Сопротивление(Superior Magic Resistance)" cost="370000" min_level="90"/>
+			<skill id="10005" level="2" name="Великое Сопротивление Отрицательным Эффектам(Superior Mental Attack Resistance)" cost="370000" min_level="90"/>
+			<skill id="10008" level="4" name="Заряд Щита(Shield Charge)" cost="370000" min_level="90"/>
+			<skill id="10010" level="4" name="Карающий Шок(Vanishing Stun)" cost="370000" min_level="90"/>
+			<skill id="10099" level="2" name="Клятва Мстителя(Avenger's Frenzy)" cost="370000" min_level="90"/>
+			<skill id="10017" level="2" name="Максимальная Защита(Final Ultimate Defense)" cost="370000" min_level="90"/>
+			<skill id="30824" level="2" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="370000" min_level="90"/>
+			<skill id="30826" level="2" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="370000" min_level="90"/>
+			<skill id="30825" level="2" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="370000" min_level="90"/>
+			<skill id="30823" level="2" name="Обычная Поэма Рога(Basic Horn Melody)" cost="370000" min_level="90"/>
+			<skill id="10021" level="2" name="Подъем Щита(Raise Shield)" cost="370000" min_level="90"/>
+			<skill id="10068" level="2" name="Призвать Кровавую Пантеру(Summon Blood Panther)" cost="370000" min_level="90"/>
+			<skill id="10244" level="2" name="Стойка с Двуручным Хватом(Two-Hand Stance)" cost="370000" min_level="90"/>
+			<skill id="10009" level="4" name="Удар Щитом(Shield Bash)" cost="370000" min_level="90"/>
+			<skill id="10020" level="2" name="Фокусировка Щита(Focus Shield)" cost="370000" min_level="90"/>
+			<skill id="10014" level="4" name="Цепной Ливень(Chain Gust)" cost="370000" min_level="90"/>
+			<skill id="10015" level="3" name="Цепной Удар(Chain Strike)" cost="370000" min_level="90"/>
+			<skill id="10026" level="3" name="Щит-Бумеранг(Shield Boomerang)" cost="370000" min_level="90"/>
+			<skill id="10018" level="1" name="Благородная Жертва(Noble Sacrifice)" cost="400000" min_level="91"/>
+			<skill id="10027" level="3" name="Великая Аура Агрессии(Superior Aggression Aura)" cost="400000" min_level="91"/>
+			<skill id="10012" level="3" name="Волна Щита(Shield Wave)" cost="400000" min_level="91"/>
+			<skill id="10013" level="4" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="400000" min_level="91"/>
+			<skill id="10011" level="3" name="Импульс Щита(Shield Impact)" cost="400000" min_level="91"/>
+			<skill id="19559" level="2" name="Цепной Удар Темными Шипами(Black Thorn Chain Strike)" cost="400000" min_level="91"/>
+			<skill id="10008" level="5" name="Заряд Щита(Shield Charge)" cost="420000" min_level="92"/>
+			<skill id="10010" level="5" name="Карающий Шок(Vanishing Stun)" cost="420000" min_level="92"/>
+			<skill id="10009" level="5" name="Удар Щитом(Shield Bash)" cost="420000" min_level="92"/>
+			<skill id="10014" level="5" name="Цепной Ливень(Chain Gust)" cost="420000" min_level="92"/>
+			<skill id="10012" level="4" name="Волна Щита(Shield Wave)" cost="440000" min_level="93"/>
+			<skill id="10013" level="5" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="440000" min_level="93"/>
+			<skill id="10015" level="4" name="Цепной Удар(Chain Strike)" cost="440000" min_level="93"/>
+			<skill id="19559" level="3" name="Цепной Удар Темными Шипами(Black Thorn Chain Strike)" cost="440000" min_level="93"/>
+			<skill id="10026" level="4" name="Щит-Бумеранг(Shield Boomerang)" cost="440000" min_level="93"/>
+			<skill id="10027" level="4" name="Великая Аура Агрессии(Superior Aggression Aura)" cost="480000" min_level="94"/>
+			<skill id="10008" level="6" name="Заряд Щита(Shield Charge)" cost="480000" min_level="94"/>
+			<skill id="10011" level="4" name="Импульс Щита(Shield Impact)" cost="480000" min_level="94"/>
+			<skill id="10010" level="6" name="Карающий Шок(Vanishing Stun)" cost="480000" min_level="94"/>
+			<skill id="10009" level="6" name="Удар Щитом(Shield Bash)" cost="480000" min_level="94"/>
+			<skill id="10014" level="6" name="Цепной Ливень(Chain Gust)" cost="480000" min_level="94"/>
+			<skill id="10069" level="3" name="Великий Шип Мщения(Grand Thorn of Vengeance)" cost="1000000" min_level="95"/>
+			<skill id="10001" level="3" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="1000000" min_level="95"/>
+			<skill id="10044" level="3" name="Великое Владение Стихиями(Superior Elemental Mastery)" cost="1000000" min_level="95"/>
+			<skill id="10002" level="3" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="1000000" min_level="95"/>
+			<skill id="10003" level="3" name="Великое Владение Щитом(Superior Shield Mastery)" cost="1000000" min_level="95"/>
+			<skill id="10004" level="3" name="Великое Магическое Сопротивление(Superior Magic Resistance)" cost="1000000" min_level="95"/>
+			<skill id="10005" level="3" name="Великое Сопротивление Отрицательным Эффектам(Superior Mental Attack Resistance)" cost="1000000" min_level="95"/>
+			<skill id="10012" level="5" name="Волна Щита(Shield Wave)" cost="1000000" min_level="95"/>
+			<skill id="10013" level="6" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="1000000" min_level="95"/>
+			<skill id="10099" level="3" name="Клятва Мстителя(Avenger's Frenzy)" cost="1000000" min_level="95"/>
+			<skill id="10017" level="3" name="Максимальная Защита(Final Ultimate Defense)" cost="1000000" min_level="95"/>
+			<skill id="30824" level="3" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="1000000" min_level="95"/>
+			<skill id="30826" level="3" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="1000000" min_level="95"/>
+			<skill id="30825" level="3" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="1000000" min_level="95"/>
+			<skill id="30823" level="3" name="Обычная Поэма Рога(Basic Horn Melody)" cost="1000000" min_level="95"/>
+			<skill id="10021" level="3" name="Подъем Щита(Raise Shield)" cost="1000000" min_level="95"/>
+			<skill id="10068" level="3" name="Призвать Кровавую Пантеру(Summon Blood Panther)" cost="1000000" min_level="95"/>
+			<skill id="10244" level="3" name="Стойка с Двуручным Хватом(Two-Hand Stance)" cost="1000000" min_level="95"/>
+			<skill id="10020" level="3" name="Фокусировка Щита(Focus Shield)" cost="1000000" min_level="95"/>
+			<skill id="19559" level="4" name="Цепной Удар Темными Шипами(Black Thorn Chain Strike)" cost="1000000" min_level="95"/>
+			<skill id="19553" level="1" name="Шипы Мести(Revenging Thorn)" cost="1000000" min_level="95"/>
+			<skill id="10018" level="2" name="Благородная Жертва(Noble Sacrifice)" cost="4970000" min_level="96"/>
+			<skill id="10008" level="7" name="Заряд Щита(Shield Charge)" cost="4970000" min_level="96"/>
+			<skill id="10010" level="7" name="Карающий Шок(Vanishing Stun)" cost="4970000" min_level="96"/>
+			<skill id="10009" level="7" name="Удар Щитом(Shield Bash)" cost="4970000" min_level="96"/>
+			<skill id="10014" level="7" name="Цепной Ливень(Chain Gust)" cost="4970000" min_level="96"/>
+			<skill id="10015" level="5" name="Цепной Удар(Chain Strike)" cost="4970000" min_level="96"/>
+			<skill id="10026" level="5" name="Щит-Бумеранг(Shield Boomerang)" cost="4970000" min_level="96"/>
+			<skill id="10027" level="5" name="Великая Аура Агрессии(Superior Aggression Aura)" cost="4980000" min_level="97"/>
+			<skill id="10012" level="6" name="Волна Щита(Shield Wave)" cost="4980000" min_level="97"/>
+			<skill id="10013" level="7" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="4980000" min_level="97"/>
+			<skill id="10019" level="2" name="Защита Веры(Protection of Faith)" cost="4980000" min_level="97"/>
+			<skill id="10011" level="5" name="Импульс Щита(Shield Impact)" cost="4980000" min_level="97"/>
+			<skill id="10102" level="1" name="Ночная Охота(Shadow Hunt)" cost="4980000" min_level="97"/>
+			<skill id="19559" level="5" name="Цепной Удар Темными Шипами(Black Thorn Chain Strike)" cost="4980000" min_level="97"/>
+			<skill id="10008" level="8" name="Заряд Щита(Shield Charge)" cost="4990000" min_level="98"/>
+			<skill id="10010" level="8" name="Карающий Шок(Vanishing Stun)" cost="4990000" min_level="98"/>
+			<skill id="10102" level="2" name="Ночная Охота(Shadow Hunt)" cost="4990000" min_level="98"/>
+			<skill id="10009" level="8" name="Удар Щитом(Shield Bash)" cost="4990000" min_level="98"/>
+			<skill id="10014" level="8" name="Цепной Ливень(Chain Gust)" cost="4990000" min_level="98"/>
+			<skill id="19553" level="2" name="Шипы Мести(Revenging Thorn)" cost="4990000" min_level="98"/>
+			<skill id="1405" level="5" name="Божественное Вдохновение(Divine Inspiration)" item_id="40064" cost="5000000" min_level="99"/>
+			<skill id="1405" level="6" name="Божественное Вдохновение(Divine Inspiration)" item_id="40065" cost="5000000" min_level="99"/>
+			<skill id="10069" level="4" name="Великий Шип Мщения(Grand Thorn of Vengeance)" cost="5000000" min_level="99"/>
+			<skill id="10001" level="4" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="5000000" min_level="99"/>
+			<skill id="10044" level="4" name="Великое Владение Стихиями(Superior Elemental Mastery)" cost="5000000" min_level="99"/>
+			<skill id="10002" level="4" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="5000000" min_level="99"/>
+			<skill id="10003" level="4" name="Великое Владение Щитом(Superior Shield Mastery)" cost="5000000" min_level="99"/>
+			<skill id="10004" level="4" name="Великое Магическое Сопротивление(Superior Magic Resistance)" cost="5000000" min_level="99"/>
+			<skill id="10005" level="4" name="Великое Сопротивление Отрицательным Эффектам(Superior Mental Attack Resistance)" cost="5000000" min_level="99"/>
+			<skill id="10012" level="7" name="Волна Щита(Shield Wave)" cost="5000000" min_level="99"/>
+			<skill id="10013" level="8" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="5000000" min_level="99"/>
+			<skill id="10024" level="1" name="Девятая Эгида(Nine Aegis)" cost="5000000" min_level="99"/>
+			<skill id="10099" level="4" name="Клятва Мстителя(Avenger's Frenzy)" cost="5000000" min_level="99"/>
+			<skill id="10017" level="4" name="Максимальная Защита(Final Ultimate Defense)" cost="5000000" min_level="99"/>
+			<skill id="10102" level="3" name="Ночная Охота(Shadow Hunt)" item_id="39738" item_count="4" cost="5000000" min_level="99"/>
+			<skill id="30824" level="4" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="5000000" min_level="99"/>
+			<skill id="30826" level="4" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="5000000" min_level="99"/>
+			<skill id="30825" level="4" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="5000000" min_level="99"/>
+			<skill id="30823" level="4" name="Обычная Поэма Рога(Basic Horn Melody)" cost="5000000" min_level="99"/>
+			<skill id="10021" level="4" name="Подъем Щита(Raise Shield)" cost="5000000" min_level="99"/>
+			<skill id="10068" level="4" name="Призвать Кровавую Пантеру(Summon Blood Panther)" cost="5000000" min_level="99"/>
+			<skill id="10020" level="4" name="Фокусировка Щита(Focus Shield)" cost="5000000" min_level="99"/>
+			<skill id="10015" level="6" name="Цепной Удар(Chain Strike)" cost="5000000" min_level="99"/>
+			<skill id="19559" level="6" name="Цепной Удар Темными Шипами(Black Thorn Chain Strike)" cost="5000000" min_level="99"/>
+			<skill id="10026" level="6" name="Щит-Бумеранг(Shield Boomerang)" cost="5000000" min_level="99"/>
+			<skill id="10001" level="5" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="88099899" min_level="100"/>
+			<skill id="10044" level="5" name="Великое Владение Стихиями(Superior Elemental Mastery)" cost="88099899" min_level="100"/>
+			<skill id="10002" level="5" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="88099899" min_level="100"/>
+			<skill id="10003" level="5" name="Великое Владение Щитом(Superior Shield Mastery)" cost="88099899" min_level="100"/>
+			<skill id="10004" level="5" name="Великое Магическое Сопротивление(Superior Magic Resistance)" cost="88099899" min_level="100"/>
+			<skill id="10005" level="5" name="Великое Сопротивление Отрицательным Эффектам(Superior Mental Attack Resistance)" cost="88099899" min_level="100"/>
+			<skill id="10019" level="3" name="Защита Веры(Protection of Faith)" cost="88099899" min_level="100"/>
+			<skill id="10017" level="5" name="Максимальная Защита(Final Ultimate Defense)" cost="88099899" min_level="100"/>
+			<skill id="10021" level="5" name="Подъем Щита(Raise Shield)" cost="88099899" min_level="100"/>
+			<skill id="10956" level="1" name="Распространение Божественности(Divine Expansion)" item_id="39738" item_count="8" cost="88099899" min_level="100"/>
+			<skill id="10020" level="5" name="Фокусировка Щита(Focus Shield)" cost="88099899" min_level="100"/>
+			<skill id="10105" level="1" name="Аура Мстителя(Avenger's Aura)" item_id="39738" item_count="8" cost="211440000" min_level="101"/>
+			<skill id="10027" level="6" name="Великая Аура Агрессии(Superior Aggression Aura)" cost="211440000" min_level="101"/>
+			<skill id="10012" level="8" name="Волна Щита(Shield Wave)" cost="211440000" min_level="101"/>
+			<skill id="10013" level="9" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="211440000" min_level="101"/>
+			<skill id="10008" level="9" name="Заряд Щита(Shield Charge)" cost="211440000" min_level="101"/>
+			<skill id="10011" level="6" name="Импульс Щита(Shield Impact)" cost="211440000" min_level="101"/>
+			<skill id="10010" level="9" name="Карающий Шок(Vanishing Stun)" cost="211440000" min_level="101"/>
+			<skill id="10102" level="4" name="Ночная Охота(Shadow Hunt)" item_id="39738" item_count="8" cost="211440000" min_level="101"/>
+			<skill id="10068" level="5" name="Призвать Кровавую Пантеру(Summon Blood Panther)" cost="211440000" min_level="101"/>
+			<skill id="10009" level="9" name="Удар Щитом(Shield Bash)" cost="211440000" min_level="101"/>
+			<skill id="10014" level="9" name="Цепной Ливень(Chain Gust)" cost="211440000" min_level="101"/>
+			<skill id="10015" level="7" name="Цепной Удар(Chain Strike)" cost="211440000" min_level="101"/>
+			<skill id="19559" level="7" name="Цепной Удар Темными Шипами(Black Thorn Chain Strike)" cost="211440000" min_level="101"/>
+			<skill id="19553" level="3" name="Шипы Мести(Revenging Thorn)" cost="211440000" min_level="101"/>
+			<skill id="10026" level="7" name="Щит-Бумеранг(Shield Boomerang)" cost="211440000" min_level="101"/>
+			<skill id="10001" level="6" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="507455418" min_level="102"/>
+			<skill id="10044" level="6" name="Великое Владение Стихиями(Superior Elemental Mastery)" cost="507455418" min_level="102"/>
+			<skill id="10002" level="6" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="507455418" min_level="102"/>
+			<skill id="10003" level="6" name="Великое Владение Щитом(Superior Shield Mastery)" cost="507455418" min_level="102"/>
+			<skill id="10004" level="6" name="Великое Магическое Сопротивление(Superior Magic Resistance)" cost="507455418" min_level="102"/>
+			<skill id="10005" level="6" name="Великое Сопротивление Отрицательным Эффектам(Superior Mental Attack Resistance)" cost="507455418" min_level="102"/>
+			<skill id="10019" level="4" name="Защита Веры(Protection of Faith)" cost="507455418" min_level="102"/>
+			<skill id="10017" level="6" name="Максимальная Защита(Final Ultimate Defense)" cost="507455418" min_level="102"/>
+			<skill id="10021" level="6" name="Подъем Щита(Raise Shield)" cost="507455418" min_level="102"/>
+			<skill id="10020" level="6" name="Фокусировка Щита(Focus Shield)" cost="507455418" min_level="102"/>
+			<skill id="10018" level="3" name="Благородная Жертва(Noble Sacrifice)" cost="608946501" min_level="103"/>
+			<skill id="10027" level="7" name="Великая Аура Агрессии(Superior Aggression Aura)" cost="608946501" min_level="103"/>
+			<skill id="10012" level="9" name="Волна Щита(Shield Wave)" cost="608946501" min_level="103"/>
+			<skill id="10013" level="10" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="608946501" min_level="103"/>
+			<skill id="10008" level="10" name="Заряд Щита(Shield Charge)" cost="608946501" min_level="103"/>
+			<skill id="10011" level="7" name="Импульс Щита(Shield Impact)" cost="608946501" min_level="103"/>
+			<skill id="10010" level="10" name="Карающий Шок(Vanishing Stun)" cost="608946501" min_level="103"/>
+			<skill id="10102" level="5" name="Ночная Охота(Shadow Hunt)" item_id="39738" item_count="8" cost="608946501" min_level="103"/>
+			<skill id="10068" level="6" name="Призвать Кровавую Пантеру(Summon Blood Panther)" cost="608946501" min_level="103"/>
+			<skill id="10009" level="10" name="Удар Щитом(Shield Bash)" cost="608946501" min_level="103"/>
+			<skill id="10014" level="10" name="Цепной Ливень(Chain Gust)" cost="608946501" min_level="103"/>
+			<skill id="10015" level="8" name="Цепной Удар(Chain Strike)" cost="608946501" min_level="103"/>
+			<skill id="19559" level="8" name="Цепной Удар Темными Шипами(Black Thorn Chain Strike)" cost="608946501" min_level="103"/>
+			<skill id="19553" level="4" name="Шипы Мести(Revenging Thorn)" cost="608946501" min_level="103"/>
+			<skill id="10026" level="8" name="Щит-Бумеранг(Shield Boomerang)" cost="608946501" min_level="103"/>
+			<skill id="10001" level="7" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="10044" level="7" name="Великое Владение Стихиями(Superior Elemental Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="10002" level="7" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="10003" level="7" name="Великое Владение Щитом(Superior Shield Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="10004" level="7" name="Великое Магическое Сопротивление(Superior Magic Resistance)" cost="1461471604" min_level="104"/>
+			<skill id="10005" level="7" name="Великое Сопротивление Отрицательным Эффектам(Superior Mental Attack Resistance)" cost="1461471604" min_level="104"/>
+			<skill id="10019" level="5" name="Защита Веры(Protection of Faith)" cost="1461471604" min_level="104"/>
+			<skill id="10017" level="7" name="Максимальная Защита(Final Ultimate Defense)" cost="1461471604" min_level="104"/>
+			<skill id="10021" level="7" name="Подъем Щита(Raise Shield)" cost="1461471604" min_level="104"/>
+			<skill id="10020" level="7" name="Фокусировка Щита(Focus Shield)" cost="1461471604" min_level="104"/>
+			<skill id="10027" level="8" name="Великая Аура Агрессии(Superior Aggression Aura)" cost="1753765925" min_level="105"/>
+			<skill id="10012" level="10" name="Волна Щита(Shield Wave)" cost="1753765925" min_level="105"/>
+			<skill id="10013" level="11" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="1753765925" min_level="105"/>
+			<skill id="10008" level="11" name="Заряд Щита(Shield Charge)" cost="1753765925" min_level="105"/>
+			<skill id="10011" level="8" name="Импульс Щита(Shield Impact)" cost="1753765925" min_level="105"/>
+			<skill id="10010" level="11" name="Карающий Шок(Vanishing Stun)" cost="1753765925" min_level="105"/>
+			<skill id="10102" level="6" name="Ночная Охота(Shadow Hunt)" item_id="39738" item_count="8" cost="1753765925" min_level="105"/>
+			<skill id="10068" level="7" name="Призвать Кровавую Пантеру(Summon Blood Panther)" cost="1753765925" min_level="105"/>
+			<skill id="10009" level="11" name="Удар Щитом(Shield Bash)" cost="1753765925" min_level="105"/>
+			<skill id="10014" level="11" name="Цепной Ливень(Chain Gust)" cost="1753765925" min_level="105"/>
+			<skill id="10015" level="9" name="Цепной Удар(Chain Strike)" cost="1753765925" min_level="105"/>
+			<skill id="19559" level="9" name="Цепной Удар Темными Шипами(Black Thorn Chain Strike)" cost="1753765925" min_level="105"/>
+			<skill id="19553" level="5" name="Шипы Мести(Revenging Thorn)" cost="1753765925" min_level="105"/>
+			<skill id="10026" level="9" name="Щит-Бумеранг(Shield Boomerang)" cost="1753765925" min_level="105"/>
+			<skill id="10001" level="8" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="10044" level="8" name="Великое Владение Стихиями(Superior Elemental Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="10002" level="8" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="10003" level="8" name="Великое Владение Щитом(Superior Shield Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="10004" level="8" name="Великое Магическое Сопротивление(Superior Magic Resistance)" cost="2104519110" min_level="106"/>
+			<skill id="10005" level="8" name="Великое Сопротивление Отрицательным Эффектам(Superior Mental Attack Resistance)" cost="2104519110" min_level="106"/>
+			<skill id="10027" level="9" name="Великая Аура Агрессии(Superior Aggression Aura)" cost="2525422932" min_level="107"/>
+			<skill id="10012" level="11" name="Волна Щита(Shield Wave)" cost="2525422932" min_level="107"/>
+			<skill id="10013" level="12" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="2525422932" min_level="107"/>
+			<skill id="10008" level="12" name="Заряд Щита(Shield Charge)" cost="2525422932" min_level="107"/>
+			<skill id="10019" level="6" name="Защита Веры(Protection of Faith)" cost="2525422932" min_level="107"/>
+			<skill id="10011" level="9" name="Импульс Щита(Shield Impact)" cost="2525422932" min_level="107"/>
+			<skill id="10010" level="12" name="Карающий Шок(Vanishing Stun)" cost="2525422932" min_level="107"/>
+			<skill id="10017" level="8" name="Максимальная Защита(Final Ultimate Defense)" cost="2525422932" min_level="107"/>
+			<skill id="10102" level="7" name="Ночная Охота(Shadow Hunt)" item_id="39738" item_count="8" cost="2525422932" min_level="107"/>
+			<skill id="10009" level="12" name="Удар Щитом(Shield Bash)" cost="2525422932" min_level="107"/>
+			<skill id="10014" level="12" name="Цепной Ливень(Chain Gust)" cost="2525422932" min_level="107"/>
+			<skill id="10015" level="10" name="Цепной Удар(Chain Strike)" cost="2525422932" min_level="107"/>
+			<skill id="19559" level="10" name="Цепной Удар Темными Шипами(Black Thorn Chain Strike)" cost="2525422932" min_level="107"/>
+			<skill id="19553" level="6" name="Шипы Мести(Revenging Thorn)" cost="2525422932" min_level="107"/>
+			<skill id="10026" level="10" name="Щит-Бумеранг(Shield Boomerang)" cost="2525422932" min_level="107"/>
+			<skill id="10001" level="9" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="10044" level="9" name="Великое Владение Стихиями(Superior Elemental Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="10002" level="9" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="10003" level="9" name="Великое Владение Щитом(Superior Shield Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="10004" level="9" name="Великое Магическое Сопротивление(Superior Magic Resistance)" cost="6061015038" min_level="108"/>
+			<skill id="10005" level="9" name="Великое Сопротивление Отрицательным Эффектам(Superior Mental Attack Resistance)" cost="6061015038" min_level="108"/>
+			<skill id="10027" level="10" name="Великая Аура Агрессии(Superior Aggression Aura)" cost="7273218046" min_level="109"/>
+			<skill id="10012" level="12" name="Волна Щита(Shield Wave)" cost="7273218046" min_level="109"/>
+			<skill id="10013" level="13" name="Восходящий Сокрушающий Удар(Rising Smash)" cost="7273218046" min_level="109"/>
+			<skill id="10008" level="13" name="Заряд Щита(Shield Charge)" cost="7273218046" min_level="109"/>
+			<skill id="10011" level="10" name="Импульс Щита(Shield Impact)" cost="7273218046" min_level="109"/>
+			<skill id="10010" level="13" name="Карающий Шок(Vanishing Stun)" cost="7273218046" min_level="109"/>
+			<skill id="10102" level="8" name="Ночная Охота(Shadow Hunt)" item_id="39738" item_count="8" cost="7273218046" min_level="109"/>
+			<skill id="10009" level="13" name="Удар Щитом(Shield Bash)" cost="7273218046" min_level="109"/>
+			<skill id="10014" level="13" name="Цепной Ливень(Chain Gust)" cost="7273218046" min_level="109"/>
+			<skill id="10015" level="11" name="Цепной Удар(Chain Strike)" cost="7273218046" min_level="109"/>
+			<skill id="19559" level="11" name="Цепной Удар Темными Шипами(Black Thorn Chain Strike)" cost="7273218046" min_level="109"/>
+			<skill id="19553" level="7" name="Шипы Мести(Revenging Thorn)" cost="7273218046" min_level="109"/>
+			<skill id="10026" level="11" name="Щит-Бумеранг(Shield Boomerang)" cost="7273218046" min_level="109"/>
+			<skill id="30849" level="1" name="Великая Аура Провокации" cost="17455723311" item_id="81453" min_level="110"/>
+			<skill id="10001" level="10" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="10044" level="10" name="Великое Владение Стихиями(Superior Elemental Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="10002" level="10" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="10003" level="10" name="Великое Владение Щитом(Superior Shield Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="10004" level="10" name="Великое Магическое Сопротивление(Superior Magic Resistance)" cost="17455723311" min_level="110"/>
+			<skill id="10005" level="10" name="Великое Сопротивление Отрицательным Эффектам(Superior Mental Attack Resistance)" cost="17455723311" min_level="110"/>
+			<skill id="10019" level="7" name="Защита Веры(Protection of Faith)" cost="17455723311" min_level="110"/>
+			<skill id="10099" level="5" name="Клятва Мстителя(Avenger's Frenzy)" cost="17455723311" min_level="110"/>
+			<skill id="10017" level="9" name="Максимальная Защита(Final Ultimate Defense)" cost="17455723311" min_level="110"/>-->
+		</class>
+	</normal_skill_tree>
+</list>

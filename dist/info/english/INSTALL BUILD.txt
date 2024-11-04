@@ -1,0 +1,25 @@
+Installing L2-scripts assemblies on Windows server:
+
+1. Install the software:
+ - jdk-8u181 (8 versions of JDK)
+- mysql-installer-community-8.0.27.0 or any other analog (we install only the server part if you don't need anything except the muscle itself)
+ - Install Navicat for database management (Or equivalent)
+
+2. Unpack the build archive, in front of you are 2 folders authserver and Gameserver
+3. Copy files from the login and game folders from here Configs/default to here: Configs/default
+4. Install the login and game database. To do this, open the files in both folders with a text editor (we recommend using Notepad++ or analogs to edit any assembly files): sql/db_settings.conf or similar file with the extension.bat depending on the version of our build. Before you open the database connection settings, specify all the data from your database there, save the file. Run the Install file.bat and wait for the installation to complete, and if everything is fine, check through the navicate that all tables have been installed. Don't forget that Install.bat needs to be run in both the outserver folder and the gameserver folder.
+5. Next, configure 2 files for connecting the server to your database: config/authserver.properties, also here you can enable account autoregistration and password encryption method, and much more.
+   The second file is similar in the game here: config/server.properties
+   
+6. Open the file Hostconfig.xml and we set up our network data there , if you have an assembly with a binding, then it is necessary to register the IP of your binding here:
+   <host id="1" address="YOUR EXTERNAL BINDING ADDRESS" port="7777" key="ENTER_RANDOM_KEY">   everything else is configured depending on your network configuration.
+   
+If you have done everything correctly, then your build will start. If this manual did not help you, then you need to contact L2-scripts technical support or order a turnkey assembly installation service.
+
+Contacts:
+
+Skype: Urchika
+
+Telegram: https://t.me/L2scripts
+
+Whatsapp, Viber: +1 (916) 226 1910

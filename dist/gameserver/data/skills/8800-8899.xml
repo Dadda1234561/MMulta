@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="8800" levels="1" name="Top-grade Royal Guard Ring - Innadril">
+		<set name="icon" value="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceHoly" value="15"/>
+		</for>
+	</skill>
+	<skill id="8801" levels="1" name="Top-grade Royal Guard Ring - Goddard">
+		<set name="icon" value="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceUnholy" value="15"/>
+		</for>
+	</skill>
+	<skill id="8802" levels="1" name="Top-grade Royal Guard Ring - Rune">
+		<set name="icon" value="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceWind" value="15"/>
+		</for>
+	</skill>
+	<skill id="8803" levels="1" name="Top-grade Royal Guard Ring - Schuttgart">
+		<set name="icon" value="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="defenceUnholy" value="15"/>
+		</for>
+	</skill>
+	<skill id="8804" levels="1" name="Enhanced Tauti's Bracelet">
+		<set name="icon" value="icon.accessory_bangel_of_tauti_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="1"/>
+			<add order="0x10" stat="INT" value="1"/>
+		</for>
+	</skill>
+	<skill id="8805" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.03"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.03"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.03"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8806" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.08"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.08"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.08"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8807" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.05"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.05"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.05"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8808" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8809" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8810" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.03"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.03"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.03"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8811" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.08"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.08"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.08"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8812" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.05"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.05"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.05"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8813" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8814" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8815" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.03"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.03"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.03"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8816" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.08"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.08"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.08"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8817" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.05"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.05"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.05"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8818" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8819" levels="1" name="Unique Effect - Defense in PvP">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.02"/>
+			<mul stat="pvpPhysDmgBonus" value="1.01"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.01"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8820" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8821" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8822" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8823" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8824" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8825" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8826" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8827" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8828" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8829" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8830" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8831" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8832" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8833" levels="1" name="PvP Damage Increase">
+		<set name="icon" value="icon.karma"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="8834" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.03"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.03"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="8835" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.08"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.08"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.08"/>
+		</for>
+	</skill>
+	<skill id="8836" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.05"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.05"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="8837" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.02"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="8838" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.02"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="8839" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.03"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.03"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="8840" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.08"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.08"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.08"/>
+		</for>
+	</skill>
+	<skill id="8841" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.05"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.05"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="8842" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.02"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="8843" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.02"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="8844" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.03"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.03"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="8845" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.08"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.08"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.08"/>
+		</for>
+	</skill>
+	<skill id="8846" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.05"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.05"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="8847" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.02"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="8848" levels="1" name="PvE Defense">
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="1.02"/>
+			<mul stat="pvePhysSkillDefenceBonus" value="1.02"/>
+			<mul stat="pveMagicSkillDefenceBonus" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="8849" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15% -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8850" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8851" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8852" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8853" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8854" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8855" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8856" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8857" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8858" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8859" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8860" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8861" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8862" levels="1" name="PvE Damage Increase">
+		<!-- Урон в PvE +15%. -->
+		<set name="icon" value="icon.pk"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="1.15"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="8863" levels="1" name="Tauti's Bracelet">
+		<set name="icon" value="icon.accessory_bracelet_of_tauti_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="8864" levels="8" name="Talisman of Infinity">
+		<!-- 
+			lvl 1 = Макс. HP/ MP/ CP +100, Физ./ Маг. Точность +1, Физ./ Маг. Уклонение +1, эффект Гнева Вампира +2%, Скор. Атк./ Скор. Маг. +10. [Талисман Бессмертия]
+			lvl 2 = Макс. HP/ MP/ CP +100, Физ./ Маг. Точность +2, Физ./ Маг. Уклонение +2, эффект Гнева Вампира +2%, Скор. Атк./ Скор. Маг. +10, шанс Крит. Атк. для обычных атак +30, шанс Крит. Атк. маг. умений +10. [Талисман Разрушения]
+			lvl 3 = Макс. HP/ MP/ CP +300, Физ./ Маг. Точность +2, Физ./ Маг. Уклонение +2, эффект Гнева Вампира +3%, Скор. Атк./ Скор. Маг. +20, шанс Крит. Атк. для обычных атак +30, шанс Крит. Атк. маг. умений +10, Физ. Атк. +103, Маг. Атк. +156. [Талисман Уничтожения]
+			lvl 4 = Макс. HP/ MP/ CP +400, Физ./ Маг. Точность +2, Физ./ Маг. Уклонение +2, эффект Гнева Вампира +3%, Скор. Атк./ Скор. Маг. +30, шанс Крит. Атк. для обычных атак +30, шанс Крит. Атк. маг. умений +10, Физ. Атк. +103, Маг. Атк. +156, мощность физ./ маг. умений +1%, сопротивление отражению урона +10%, Физ./ Маг. Защ. +20. [Талисман Адского Пламени]
+			lvl 5 = Макс. HP/ MP/ CP +500, Физ./ Маг. Точность +2, Физ./ Маг. Уклонение +2, эффект Гнева Вампира +3%, Скор. Атк./ Скор. Маг. +40, шанс Крит. Атк. для обычных атак +30, шанс Крит. Атк. маг. умений +10, Физ. Атк. +203, Маг. Атк. +256, мощность физ./ маг. умений +2%, сопротивление отражению урона +20%, Физ./ Маг. Защ. +40. Расход MP для умений -1%. [Талисман Желания]
+			lvl 6 = Макс. HP/ MP/ CP +600, Физ./ Маг. Точность +2, Физ./ Маг. Уклонение +2, эффект Гнева Вампира +3%, Скор. Атк./ Скор. Маг. +50, шанс Крит. Атк. для обычных атак +30, шанс Крит. Атк. маг. умений +10, Физ. Атк. +303, Маг. Атк. +356, мощность физ./ маг. умений +4%, сопротивление отражению урона +30%, Физ./ Маг. Защ. +60. СИЛ/ ИНТ/ ВЫН/ ДУХ/ ЛВК/ МДР +2. Расход MP для умений -3%. [Талисман Вожделения]
+			lvl 7 = Макс. HP/ MP/ CP +800, Физ./ Маг. Точность +2, Физ./ Маг. Уклонение +2, эффект Гнева Вампира +5%, Скор. Атк. +60, Скор. Маг. +60, шанс Крит. Атк. для обычных атак +30, шанс Крит. Атк. маг. умений +10, Физ. Атк. +638, Маг. Атк. +742, мощность физ./ маг. умений +5%, сопротивление отражению урона +30%, Физ. Защ. +563, Маг. Защ. +368, расход MP для умений -3%. СИЛ/ ИНТ/ ВЫН/ ДУХ/ ЛВК/ МДР/ ХАР/ УДЧ +2, сопротивление фиксированному урону +10%, время перезарядки умений -3%. [Талисман Золотого Древа]
+			lvl 8 = Макс. HP/ MP/ CP +7%, Физ./ Маг. Точность +2, Физ./ Маг. Уклонение +2, Гнев Вампира +5%, Скор. Атк./ Скор. Маг. +70, шанс Физ. Крит. Атк. +30, шанс Крит. Атк. маг. умений +10, Физ. Атк. +3%, Маг. Атк. +3%, мощность физ./ маг. умений +7%, сопротивление отражению урона +40, сопротивление фиксированному урону +15%, Физ. Защ. +750, Маг. Защ. +750, все характеристики +3, расход MP для умений -3%, время перезарядки умений -3%. [Небесный Талисман]
+		-->
+		<table name="#icon">icon.accessory_immortal_talisman_i01 icon.accessory_destruction_talisman_i01 icon.accessory_extermination_talisman_i01 icon.accessory_hellfire_talisman_i01 icon.accessory_ocean_talisman_i01 icon.accessory_longing_talisman_i01 icon.accessory_punishment_talisman_i01 icon.accessory_heaven_talisman</table>
+		<table name="#max2">1.02 1.03 1.05 1.07 1.09 1.12 1.15</table>
+		<table name="#baseStats">1 1 2 2 3 3 3 5</table>
+		<table name="#baseStats1">0 1 1 2 2 3 3 5</table>
+		<table name="#PVPdmg">1.04 1.08 1.12 1.16 1.20 1.25 1.30</table>
+		<table name="#abnormalEffect">D_TALI_DECO_P D_TALI_DECO_C D_TALI_DECO_D D_TALI_DECO_E D_TALI_DECO_F TALI_DECO_BAIUM SEED_TALISMAN8 SEED_TALISMAN8</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<set name="abnormal_effect" value="#abnormalEffect"/>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="#PVPdmg"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#PVPdmg"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#PVPdmg"/>
+			<mul stat="maxCp" order="0x10" value="#max2"/>
+			<mul stat="maxHp" order="0x10" value="#max2"/>
+			<mul stat="maxMp" order="0x10" value="#max2"/>
+			<add order="0x10" stat="STR" value="#baseStats"/>
+			<add order="0x10" stat="INT" value="#baseStats"/>
+			<add order="0x10" stat="CON" value="#baseStats1"/>
+			<add order="0x10" stat="MEN" value="#baseStats1"/>
+			<add order="0x10" stat="DEX" value="#baseStats1"/>
+			<add order="0x10" stat="WIT" value="#baseStats1"/>
+			<add order="0x10" stat="CHA" value="#baseStats1"/>
+		</for>
+	</skill>
+	<skill id="8870" levels="1" name="Tauti's Ring">
+		<set name="icon" value="icon.accessary_tauti_ring"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_critical_damage value="15" type="PER"/>
+			<mul stat="p_skill_power" value="1.05"/>
+			<mul stat="pvpPhysDmgBonus" value="1.05"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.05"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.05"/>
+			<p_defence_trait name="deport" value="10"/>
+			<p_defence_trait name="airbind" value="10"/>
+			<p_defence_trait name="paralyze" value="10"/>
+			<mul stat="resistRelectDam" value="1.05"/>
+			<add stat="defenceFire" value="25"/>
+			<add stat="defenceUnholy" value="25"/>
+			<!--TODO: сопротивление вампиризму +5-->
+			<add stat="basePCritRate" value="54">
+				<using kind="Blunt, Big Blunt"/>
+			</add>
+			<mul stat="pvpPhysDefenceBonus" value="1.05"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.05"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="8871" levels="1" name="Glorious T-shirt">
+		<set name="icon" value="icon.skill0211"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="maxHp" value="465"/>
+		</for>
+	</skill>
+	<skill id="8872" levels="1" name="Refined Romantic Chapeau containing the GM's Sincerity">
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="8873" levels="1" name="Refined Romantic Chapeau containing the GM's Sincerity">
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="8874" levels="1" name="Refined Romantic Chapeau containing the GM's Sincerity">
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="MEN" value="3"/>
+		</for>
+	</skill>
+	<skill id="8875" levels="1" name="Refined Romantic Chapeau containing the GM's Blessing">
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.05"/>
+			<add stat="basePCritRate" value="50"/>
+		</for>
+	</skill>
+	<skill id="8876" levels="1" name="Refined Romantic Chapeau containing the GM's Blessing">
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="INT" value="3"/>
+			<mul stat="mAtk" value="1.01"/>
+		</for>
+	</skill>
+	<skill id="8877" levels="1" name="Refined Romantic Chapeau containing the GM's Blessing">
+		<set name="icon" value="icon.accessory_archer_hat2_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="MEN" value="3"/>
+			<add stat="WIT" value="3"/>
+		</for>
+	</skill>
+	<skill id="8878" levels="2" name="Tauti's One-handed Axe">
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<set name="magicLevel" value="85"/>
+		<table name="#icon">icon.weapon_tauti_one_hand_axe_i01 icon.tauti_weapon_one_hand_axe_high</table>
+		<table name="#p_skill_power">1 1.05</table>
+		<table name="#att">0 150</table>
+		<for>
+			<mul stat="pAtkSpd" value="1.15"/>
+			<add stat="basePCritRate" value="150"/>
+			<mul stat="maxHp" value="1.25"/>			
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>			
+			<mul stat="pAtk" value="1.1"/>		
+			<add stat="basePCritRate" value="150"/>
+			<mul stat="p_skill_power" value="#p_skill_power"/>
+			<add stat="attackFire" value="#att"/>
+			<add stat="attackWater" value="#att"/>
+			<add stat="attackWind" value="#att"/>
+			<add stat="attackEarth" value="#att"/>
+			<add stat="attackHoly" value="#att"/>
+			<add stat="attackUnholy" value="#att"/>
+		</for>
+	</skill>
+	<skill id="8879" levels="2" name="Tauti's Two-handed Axe">
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<set name="magicLevel" value="85"/>
+		<table name="#icon">icon.weapon_tauti_one_hand_magic_axe_i01 icon.tauti_weapon_two_hand_axe_high</table>
+		<table name="#p_skill_power">1 1.05</table>
+		<table name="#att">0 150</table>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.25"/>
+			<mul stat="pAtk" value="1.1"/>	
+			<mul stat="pAtkSpd" value="1.15"/>
+			<add stat="basePCritRate" value="150"/>
+			<mul stat="p_skill_power" value="#p_skill_power"/>
+			<add stat="attackFire" value="#att"/>
+			<add stat="attackWater" value="#att"/>
+			<add stat="attackWind" value="#att"/>
+			<add stat="attackEarth" value="#att"/>
+			<add stat="attackHoly" value="#att"/>
+			<add stat="attackUnholy" value="#att"/>
+		</for>
+	</skill>
+	<skill id="8880" levels="2" name="Tauti's Dual Axe">
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<set name="magicLevel" value="85"/>
+		<table name="#icon">icon.weapon_tauti_dual_axe_i01 icon.tauti_weapon_dual_axe_high</table>
+		<table name="#p_skill_power">1 1.05</table>
+		<table name="#att">0 150</table>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.25"/>
+			<mul stat="pAtk" value="1.1"/>	
+			<mul stat="pAtkSpd" value="1.15"/>
+			<add stat="basePCritRate" value="150"/>
+			<mul stat="p_skill_power" value="#p_skill_power"/>
+			<add stat="attackFire" value="#att"/>
+			<add stat="attackWater" value="#att"/>
+			<add stat="attackWind" value="#att"/>
+			<add stat="attackEarth" value="#att"/>
+			<add stat="attackHoly" value="#att"/>
+			<add stat="attackUnholy" value="#att"/>
+		</for>
+	</skill>
+	<skill id="8881" levels="1" name="Top-grade Resistance Earring - Stun">
+		<set name="icon" value="icon.accessary_inferno_earing_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="shock" value="20"/>
+			<p_attack_trait name="shock" value="20"/>
+		</for>
+	</skill>
+	<skill id="8882" levels="1" name="Top-grade Resistance Earring - Hold">
+		<set name="icon" value="icon.accessary_inferno_earing_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="hold" value="20"/>
+			<p_attack_trait name="hold" value="20"/>
+		</for>
+	</skill>
+	<skill id="8883" levels="1" name="Top-grade Resistance Earring - Bleed">
+		<set name="icon" value="icon.accessary_inferno_earing_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="bleed" value="20"/>
+			<p_attack_trait name="bleed" value="20"/>
+		</for>
+	</skill>
+	<skill id="8884" levels="1" name="Top-grade Resistance Earring - Paralysis">
+		<set name="icon" value="icon.accessary_inferno_earing_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="paralyze" value="20"/>
+			<p_attack_trait name="paralyze" value="20"/>
+		</for>
+	</skill>
+	<skill id="8885" levels="1" name="Top-grade Resistance Earring - Mental Attack">
+		<set name="icon" value="icon.accessary_inferno_earing_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="derangement" value="20"/>
+			<p_attack_trait name="derangement" value="20"/>
+		</for>
+	</skill>
+	<skill id="8886" levels="1" name="Top-grade Resistance Earring - Sleep">
+		<set name="icon" value="icon.accessary_inferno_earing_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="sleep" value="20"/>
+			<p_attack_trait name="sleep" value="20"/>
+		</for>
+	</skill>
+	<skill id="8887" levels="1" name="Top-grade Resistance Earring - Poison">
+		<set name="icon" value="icon.accessary_inferno_earing_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="poison" value="20"/>
+			<p_attack_trait name="poison" value="20"/>
+		</for>
+	</skill>
+	<skill id="8888" levels="1" name="Top-grade Resistance Earring - Knock Back/ Knock Down">
+		<set name="icon" value="icon.accessary_inferno_earing_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="knockdown" value="20"/>
+			<p_attack_trait name="knockdown" value="20"/>
+		</for>
+	</skill>
+	<skill id="8889" levels="1" name="Top-grade Resistance Earring - Aerial Yoke">
+		<set name="icon" value="icon.accessary_inferno_earing_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="airbind" value="20"/>
+			<p_attack_trait name="airbind" value="20"/>
+		</for>
+	</skill>
+	<skill id="8890" levels="1" name="Dignity">
+		<!-- На 2 мин. Скорость +100. Делает персонажа неуязвимым для всех отрицательных эффектов. Потребляет 1 ед. Крови Дракона. Нельзя использовать на Олимпиаде/ Фестивале Хаоса. Время перезарядки: 10 мин. -->
+		<set name="olympiad_use" value="false"/>
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill5662"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="36415"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="useSS" value="false"/>
+		<for>
+			<effect name="p_block_debuff">
+				<add stat="runSpd" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8891" levels="1" name="Worship">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-330"/>
+		<set name="icon" value="icon.skill10026"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8892" levels="1" name="Bleed">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0096"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8893" levels="1" name="Antharas' Breath">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-418"/>
+		<set name="icon" value="icon.item_gragonskill_i02"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="36415"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="affect_range" value="250"/>
+		<set name="trait" value="PARALYZE"/>
+		<for>
+			<effect>
+				<triggers>
+					<trigger id="5459" level="1" type="ON_FINISH_EFFECT"/>
+				</triggers>
+				<mul stat="pAtkSpd" value="0.1"/>
+				<mul stat="mAtkSpd" value="0.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8894" levels="1" name="Paralyzing Breath">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill1170"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8895" levels="1" name="Antharas' Lash">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-405"/>
+		<set name="icon" value="icon.item_gragonskill_i04"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="36415"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="affect_range" value="250"/>
+		<for>
+			<effect>
+				<mul stat="maxCp" value="0.6"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8896" levels="1" name="Valakas' Breath">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-418"/>
+		<set name="icon" value="icon.skill4683"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="36415"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="affect_range" value="250"/>
+		<set name="trait" value="PARALYZE"/>
+		<for>
+			<effect>
+				<triggers>
+					<trigger id="5459" level="1" type="ON_FINISH_EFFECT"/>
+				</triggers>
+				<mul stat="pAtkSpd" value="0.1"/>
+				<mul stat="mAtkSpd" value="0.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8897" levels="1" name="Valakas' Bite">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-405"/>
+		<set name="icon" value="icon.skill1467"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="36415"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="affect_range" value="250"/>
+		<for>
+			<effect>
+				<mul stat="maxCp" value="0.6"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8898" levels="1" name="Lindvior's Breath">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-418"/>
+		<set name="icon" value="icon.item_gragonskill_i03"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="36415"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="affect_range" value="250"/>
+		<set name="trait" value="PARALYZE"/>
+		<for>
+			<effect>
+				<triggers>
+					<trigger id="5459" level="1" type="ON_FINISH_EFFECT"/>
+				</triggers>
+				<mul stat="pAtkSpd" value="0.1"/>
+				<mul stat="mAtkSpd" value="0.1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8899" levels="1" name="Lindvior's Wingbeat">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-405"/>
+		<set name="icon" value="icon.item_gragonskill_i05"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="itemConsumeId" value="36415"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="affect_range" value="250"/>
+		<for>
+			<effect>
+				<mul stat="maxCp" value="0.6"/>
+			</effect>
+		</for>
+	</skill>
+</list>

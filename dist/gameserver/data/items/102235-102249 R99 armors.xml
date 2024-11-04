@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		R99 Armors
+	-->
+	<armor id="102235" name="R 99 Helmet" add_name="Attack Type / Heavy">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_helmet_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="114"/>
+		</for>
+	</armor>
+	<armor id="102236" name="R 99 Breastplate" add_name="Attack Type / Heavy">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t501_u_i00"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="7520"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="272"/>
+		</for>
+	</armor>
+	<armor id="102237" name="R 99 Gaiters" add_name="Attack Type / Heavy">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t501_l_i00"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="3170"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="171"/>
+		</for>
+	</armor>
+	<armor id="102238" name="R 99 Gauntlets" add_name="Attack Type / Heavy">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t501_g_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="74"/>
+		</for>
+	</armor>
+	<armor id="102239" name="R 99 Boots" add_name="Attack Type / Heavy">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t501_b_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="74"/>
+		</for>
+	</armor>
+	<armor id="102240" name="R 99 Leather Helmet" add_name="Assassin Type / Light">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="114"/>
+		</for>
+	</armor>
+	<armor id="102241" name="R 99 Leather Armor" add_name="Assassin Type / Light">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t502_u_i00"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4140"/>
+		
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="mEvasRate" order="0x10" value="5"/>
+			<add stat="pEvasRate" order="0x10" value="5"/>
+			<add stat="pDef" order="0x10" value="204"/>
+		</for>
+	</armor>
+	<armor id="102242" name="R 99 Leather Leggings" add_name="Assassin Type / Light">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t502_l_i00"/>
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1320"/>
+		
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="mEvasRate" order="0x10" value="3"/>
+			<add stat="pEvasRate" order="0x10" value="3"/>
+			<add stat="pDef" order="0x10" value="128"/>
+		</for>
+	</armor>
+	<armor id="102243" name="R 99 Leather Gloves" add_name="Assassin Type / Light">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t502_g_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="78"/>
+		</for>
+	</armor>
+	<armor id="102244" name="R 99 Leather Boots" add_name="Assassin Type / Light">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t502_b_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="78"/>
+		</for>
+	</armor>
+	<armor id="102245" name="R 99 Circlet" add_name="Magic Type / Robe">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_circlet_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="530"/>
+		
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="114"/>
+		</for>
+	</armor>
+	<armor id="102246" name="R 99 Tunic" add_name="Magic Type / Robe">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t503_u_i00"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1750"/>
+		
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="136"/>
+			<add stat="maxMp" order="0x60" value="649"/>
+		</for>
+	</armor>
+	<armor id="102247" name="R 99 Stockings" add_name="Magic Type / Robe">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t503_l_i00"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="850"/>
+		
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="85"/>
+			<add stat="maxMp" order="0x60" value="427"/>
+		</for>
+	</armor>
+	<armor id="102248" name="R 99 Gloves" add_name="Magic Type / Robe">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t503_g_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="510"/>
+		
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="74"/>
+		</for>
+	</armor>
+	<armor id="102249" name="R 99 Shoes" add_name="Magic Type / Robe">
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.armor_t503_b_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1070"/>
+		
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="74"/>
+		</for>
+	</armor>
+</list>

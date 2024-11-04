@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		C Armors
+	-->
+	<!-- Хеви сет -->
+	<armor id="102046" name="Full Plate Helmet Lv.1">
+		<set name="grind_commission" value="80400"/>
+		<set name="grind_point" value="268000"/>
+		<set name="crystal_count" value="214"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="600"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="58"/>
+		</for>
+	</armor>
+	<armor id="102047" name="Full Plate Helmet Lv.2">
+		<set name="grind_commission" value="80400"/>
+		<set name="grind_point" value="268000"/>
+		<set name="crystal_count" value="214"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="600"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="58"/>
+		</for>
+	</armor>
+	<armor id="102048" name="Full Plate Helmet Lv.3">
+		<set name="grind_commission" value="80400"/>
+		<set name="grind_point" value="268000"/>
+		<set name="crystal_count" value="214"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="600"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="58"/>
+		</for>
+	</armor>
+	<armor id="102049" name="Full Plate Armor Lv.1">
+		<set name="grind_commission" value="313500"/>
+		<set name="grind_point" value="1045000"/>
+		<set name="crystal_count" value="836"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t62_ul_i00"/>
+		
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="10480"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="239"/>
+		</for>
+	</armor>
+	<armor id="102050" name="Full Plate Armor Lv.2">
+		<set name="grind_commission" value="313500"/>
+		<set name="grind_point" value="1045000"/>
+		<set name="crystal_count" value="836"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t62_ul_i00"/>
+		
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="10480"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="239"/>
+		</for>
+	</armor>
+	<armor id="102051" name="Full Plate Armor Lv.3">
+		<set name="grind_commission" value="313500"/>
+		<set name="grind_point" value="1045000"/>
+		<set name="crystal_count" value="836"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t62_ul_i00"/>
+		
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="10480"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="239"/>
+		</for>
+	</armor>
+	<!-- Лайт сет -->
+	<armor id="102052" name="Manticore Skin Shirt Lv.1">
+		<set name="grind_commission" value="33600"/>
+		<set name="grind_point" value="112000"/>
+		<set name="crystal_count" value="407"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.armor_t42_u_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4520"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="77"/>
+		</for>
+	</armor>
+	<armor id="102053" name="Manticore Skin Shirt Lv.2">
+		<set name="grind_commission" value="33600"/>
+		<set name="grind_point" value="112000"/>
+		<set name="crystal_count" value="407"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.armor_t42_u_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4520"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="77"/>
+		</for>
+	</armor>
+	<armor id="102054" name="Manticore Skin Shirt Lv.3">
+		<set name="grind_commission" value="33600"/>
+		<set name="grind_point" value="112000"/>
+		<set name="crystal_count" value="407"/>
+		<set name="crystal_type" value="D"/>
+		<set name="icon" value="icon.armor_t42_u_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4520"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="77"/>
+		</for>
+	</armor>
+	<armor id="102055" name="Plated Leather Armor Lv.1">
+		<set name="grind_commission" value="66900"/>
+		<set name="grind_point" value="223000"/>
+		<set name="crystal_count" value="178"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t47_u_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4450"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="94"/>
+		</for>
+	</armor>
+	<armor id="102056" name="Plated Leather Armor Lv.2">
+		<set name="grind_commission" value="66900"/>
+		<set name="grind_point" value="223000"/>
+		<set name="crystal_count" value="178"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t47_u_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4450"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="94"/>
+		</for>
+	</armor>
+	<armor id="102057" name="Plated Leather Armor Lv.3">
+		<set name="grind_commission" value="66900"/>
+		<set name="grind_point" value="223000"/>
+		<set name="crystal_count" value="178"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t47_u_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4450"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="94"/>
+		</for>
+	</armor>
+	<armor id="102058" name="Plated Leather Boots Lv.1">
+		<set name="grind_commission" value="18900"/>
+		<set name="grind_point" value="63000"/>
+		<set name="crystal_count" value="50"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t47_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1220"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<armor id="102059" name="Plated Leather Boots Lv.2">
+		<set name="grind_commission" value="18900"/>
+		<set name="grind_point" value="63000"/>
+		<set name="crystal_count" value="50"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t47_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1220"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<armor id="102060" name="Plated Leather Boots Lv.3">
+		<set name="grind_commission" value="18900"/>
+		<set name="grind_point" value="63000"/>
+		<set name="crystal_count" value="50"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t47_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1220"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<!-- Маг сет -->
+	<armor id="102061" name="Karmian Tunic Lv.1">
+		<set name="grind_commission" value="56850"/>
+		<set name="grind_point" value="189500"/>
+		<set name="crystal_count" value="151"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t53_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1980"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<add stat="maxMp" order="0x60" value="225"/>
+		</for>
+	</armor>
+	<armor id="102062" name="Karmian Tunic Lv.2">
+		<set name="grind_commission" value="56850"/>
+		<set name="grind_point" value="189500"/>
+		<set name="crystal_count" value="151"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t53_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1980"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<add stat="maxMp" order="0x60" value="225"/>
+		</for>
+	</armor>
+	<armor id="102063" name="Karmian Tunic Lv.3">
+		<set name="grind_commission" value="56850"/>
+		<set name="grind_point" value="189500"/>
+		<set name="crystal_count" value="151"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t53_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1980"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="60"/>
+			<add stat="maxMp" order="0x60" value="225"/>
+		</for>
+	</armor>
+	<armor id="102064" name="Karmian Stockings Lv.1">
+		<set name="grind_commission" value="35550"/>
+		<set name="grind_point" value="118500"/>
+		<set name="crystal_count" value="94"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t53_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="970"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="37"/>
+			<add stat="maxMp" order="0x60" value="141"/>
+		</for>
+	</armor>
+	<armor id="102065" name="Karmian Stockings Lv.2">
+		<set name="grind_commission" value="35550"/>
+		<set name="grind_point" value="118500"/>
+		<set name="crystal_count" value="94"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t53_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="970"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="37"/>
+			<add stat="maxMp" order="0x60" value="141"/>
+		</for>
+	</armor>
+	<armor id="102066" name="Karmian Stockings Lv.3">
+		<set name="grind_commission" value="35550"/>
+		<set name="grind_point" value="118500"/>
+		<set name="crystal_count" value="94"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t53_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="970"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="37"/>
+			<add stat="maxMp" order="0x60" value="141"/>
+		</for>
+	</armor>
+	<armor id="102067" name="Karmian Gloves Lv.1">
+		<set name="grind_commission" value="18900"/>
+		<set name="grind_point" value="63000"/>
+		<set name="crystal_count" value="50"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t53_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="620"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<armor id="102068" name="Karmian Gloves Lv.2">
+		<set name="grind_commission" value="18900"/>
+		<set name="grind_point" value="63000"/>
+		<set name="crystal_count" value="50"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t53_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="620"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<armor id="102069" name="Karmian Gloves Lv.3">
+		<set name="grind_commission" value="18900"/>
+		<set name="grind_point" value="63000"/>
+		<set name="crystal_count" value="50"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t53_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="620"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="32"/>
+		</for>
+	</armor>
+	<!-- Маг сет 2 -->
+	<armor id="102070" name="Demon's Tunic Lv.1">
+		<set name="grind_commission" value="110400"/>
+		<set name="grind_point" value="368000"/>
+		<set name="crystal_count" value="294"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t54_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1990"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="69"/>
+			<add stat="maxMp" order="0x60" value="284"/>
+		</for>
+	</armor>
+	<armor id="102071" name="Demon's Tunic Lv.2">
+		<set name="grind_commission" value="110400"/>
+		<set name="grind_point" value="368000"/>
+		<set name="crystal_count" value="294"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t54_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1990"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="69"/>
+			<add stat="maxMp" order="0x60" value="284"/>
+		</for>
+	</armor>
+	<armor id="102072" name="Demon's Tunic Lv.3">
+		<set name="grind_commission" value="110400"/>
+		<set name="grind_point" value="368000"/>
+		<set name="crystal_count" value="294"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t54_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1990"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="69"/>
+			<add stat="maxMp" order="0x60" value="284"/>
+		</for>
+	</armor>
+	<armor id="102073" name="Demon's Stockings Lv.1">
+		<set name="grind_commission" value="69000"/>
+		<set name="grind_point" value="230000"/>
+		<set name="crystal_count" value="184"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t54_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="980"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="43"/>
+			<add stat="maxMp" order="0x60" value="177"/>
+		</for>
+	</armor>
+	<armor id="102074" name="Demon's Stockings Lv.2">
+		<set name="grind_commission" value="69000"/>
+		<set name="grind_point" value="230000"/>
+		<set name="crystal_count" value="184"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t54_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="980"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="43"/>
+			<add stat="maxMp" order="0x60" value="177"/>
+		</for>
+	</armor>
+	<armor id="102075" name="Demon's Stockings Lv.3">
+		<set name="grind_commission" value="69000"/>
+		<set name="grind_point" value="230000"/>
+		<set name="crystal_count" value="184"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t54_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="980"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="43"/>
+			<add stat="maxMp" order="0x60" value="177"/>
+		</for>
+	</armor>
+	<armor id="102076" name="Demon's Gloves Lv.1">
+		<set name="grind_commission" value="36750"/>
+		<set name="grind_point" value="122500"/>
+		<set name="crystal_count" value="98"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t54_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="610"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="36"/>
+		</for>
+	</armor>
+	<armor id="102077" name="Demon's Gloves Lv.2">
+		<set name="grind_commission" value="36750"/>
+		<set name="grind_point" value="122500"/>
+		<set name="crystal_count" value="98"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t54_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="610"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="36"/>
+		</for>
+	</armor>
+	<armor id="102078" name="Demon's Gloves Lv.3">
+		<set name="grind_commission" value="36750"/>
+		<set name="grind_point" value="122500"/>
+		<set name="crystal_count" value="98"/>
+		<set name="crystal_type" value="C"/>
+		<set name="icon" value="icon.armor_t54_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="610"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="36"/>
+		</for>
+	</armor>
+</list>

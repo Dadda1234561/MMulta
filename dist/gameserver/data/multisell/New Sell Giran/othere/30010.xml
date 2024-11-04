@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+    <config no_tax="true" type="CHANCED"/>
+
+    <!-- Браслеты -->
+
+    <item>
+        <production id="105500" count="1" chance="100000000" /> <!-- Браслеты 1 ур. -->
+
+        <ingredient id="15312" count="1"/>
+        <ingredient id="1894" count="10000"/>
+        <ingredient id="5220" count="5000"/>
+        <ingredient id="70004" count="300"/>
+        <ingredient id="70000" count="2"/>
+        <ingredient id="70018" count="1"/>
+    </item>
+
+    <item>
+        <production id="105501" count="1" chance="100000000" /> <!-- Браслеты 2 ур. -->
+
+        <ingredient id="105500" count="1"/>
+
+        <ingredient id="2134" count="1000"/>
+        <ingredient id="1890" count="1000"/>
+        <ingredient id="1888" count="1000"/>
+        <ingredient id="70004" count="500"/>
+        <ingredient id="106436" count="5"/>
+        <ingredient id="70000" count="3"/>
+        <ingredient id="70018" count="3"/>
+    </item>
+
+    <item>
+        <production id="105502" count="1" chance="100000000" /> <!-- Браслеты 3 ур. -->
+
+        <ingredient id="105501" count="1"/>
+
+        <ingredient id="9682" count="10000"/>
+        <ingredient id="9599" count="10000"/>
+        <ingredient id="14052" count="1000"/>
+        <ingredient id="70004" count="1000"/>
+        <ingredient id="106436" count="7"/>
+        <ingredient id="70000" count="5"/>
+        <ingredient id="70021" count="500"/>
+        <ingredient id="70018" count="5"/>
+    </item>
+
+    <item>
+        <production id="105503" count="1" chance="100000000" /> <!-- Браслеты 4 ур. -->
+
+        <ingredient id="105502" count="1"/>
+
+        <ingredient id="15486" count="2000"/>
+        <ingredient id="106420" count="750"/>
+        <ingredient id="106437" count="1000"/>
+        <ingredient id="70004" count="2000"/>
+        <ingredient id="106436" count="10"/>
+        <ingredient id="70000" count="7"/>
+        <ingredient id="106414" count="750"/>
+        <ingredient id="70021" count="1000"/>
+        <ingredient id="70018" count="10"/>
+    </item>
+
+    <item>
+        <production id="105504" count="1" chance="100000000" /> <!-- Браслеты 5 ур. -->
+
+        <ingredient id="105503" count="1"/>
+
+        <ingredient id="15486" count="3000"/>
+        <ingredient id="106420" count="1500"/>
+        <ingredient id="106437" count="3000"/>
+        <ingredient id="70004" count="3000"/>
+        <ingredient id="106436" count="15"/>
+        <ingredient id="70000" count="10"/>
+        <ingredient id="106414" count="1500"/>
+        <ingredient id="70021" count="3000"/>
+        <ingredient id="70018" count="20"/>
+    </item>
+
+
+    <item>
+        <production id="107000" count="1" chance="100000000" />
+
+        <ingredient id="5553" count="50"/>
+        <ingredient id="5552" count="50"/>
+        <ingredient id="70004" count="300"/>
+        <ingredient id="70000" count="2"/>
+        <ingredient id="70018" count="1"/>
+    </item>
+    <item>
+        <production id="107001" count="1" chance="100000000" />
+
+        <ingredient id="107000" count="1"/>
+        <ingredient id="5553" count="100"/>
+        <ingredient id="5552" count="100"/>
+        <ingredient id="70004" count="500"/>
+        <ingredient id="106436" count="5"/>
+        <ingredient id="70000" count="3"/>
+        <ingredient id="70018" count="3"/>
+    </item>
+    <item>
+        <production id="107002" count="1" chance="100000000" />
+
+        <ingredient id="107001" count="1"/>
+        <ingredient id="9682" count="10000"/>
+        <ingredient id="9599" count="10000"/>
+        <ingredient id="14052" count="1000"/>
+        <ingredient id="70004" count="1000"/>
+        <ingredient id="106436" count="7"/>
+        <ingredient id="70000" count="5"/>
+        <ingredient id="70021" count="500"/>
+        <ingredient id="70018" count="5"/>
+    </item>
+    <item>
+        <production id="107003" count="1" chance="100000000" />
+
+        <ingredient id="107002" count="1"/>
+        <ingredient id="15486" count="2000"/>
+        <ingredient id="106420" count="750"/>
+        <ingredient id="106437" count="1000"/>
+        <ingredient id="70004" count="2000"/>
+        <ingredient id="106436" count="10"/>
+        <ingredient id="70000" count="7"/>
+        <ingredient id="106414" count="750"/>
+        <ingredient id="70021" count="1000"/>
+        <ingredient id="70018" count="10"/>
+    </item>
+    <item>
+        <production id="107004" count="1" chance="100000000" />
+
+        <ingredient id="107003" count="1"/>
+        <ingredient id="15486" count="3000"/>
+        <ingredient id="106420" count="1500"/>
+        <ingredient id="106436" count="15"/>
+		<ingredient id="106437" count="3000"/>
+        <ingredient id="70004" count="3000"/>
+        <ingredient id="70000" count="10"/>
+        <ingredient id="106414" count="1500"/>
+        <ingredient id="70021" count="3000"/>
+        <ingredient id="70018" count="20"/>
+    </item>
+
+
+    <item>
+        <production id="107005" count="1" chance="100000000" />
+		
+        <ingredient id="5553" count="50"/>
+        <ingredient id="5552" count="50"/>
+        <ingredient id="70004" count="300"/>
+        <ingredient id="70000" count="2"/>
+        <ingredient id="70018" count="1"/>
+    </item>
+    <item>
+        <production id="107006" count="1" chance="100000000" />
+
+        <ingredient id="107005" count="1"/>       
+        <ingredient id="5553" count="100"/>
+        <ingredient id="5552" count="100"/>
+        <ingredient id="70004" count="500"/>
+        <ingredient id="106436" count="5"/>
+        <ingredient id="70000" count="3"/>
+        <ingredient id="70018" count="3"/>
+    </item>
+    <item>
+        <production id="107007" count="1" chance="100000000" />
+
+        <ingredient id="107006" count="1"/>
+        <ingredient id="9682" count="10000"/>
+        <ingredient id="9599" count="10000"/>
+        <ingredient id="14052" count="1000"/>
+        <ingredient id="70004" count="1000"/>
+        <ingredient id="106436" count="7"/>
+        <ingredient id="70000" count="5"/>
+        <ingredient id="70021" count="500"/>
+        <ingredient id="70018" count="5"/>
+    </item>
+    <item>
+        <production id="107008" count="1" chance="100000000" />
+
+        <ingredient id="107007" count="1"/>
+        <ingredient id="15486" count="2000"/>
+        <ingredient id="106420" count="750"/>
+        <ingredient id="106437" count="1000"/>
+        <ingredient id="70004" count="2000"/>
+        <ingredient id="106436" count="10"/>
+        <ingredient id="70000" count="7"/>
+        <ingredient id="106414" count="750"/>
+        <ingredient id="70021" count="1000"/>
+        <ingredient id="70018" count="10"/>
+    </item>
+    <item>
+        <production id="107009" count="1" chance="100000000" />
+		
+        <ingredient id="107008" count="1"/>
+        <ingredient id="15486" count="3000"/>
+        <ingredient id="106420" count="1500"/>
+        <ingredient id="106437" count="3000"/>
+        <ingredient id="70004" count="3000"/>
+        <ingredient id="106436" count="15"/>
+        <ingredient id="70000" count="10"/>
+        <ingredient id="106414" count="1500"/>
+        <ingredient id="70021" count="3000"/>
+        <ingredient id="70018" count="20"/>
+
+    </item>
+</list>

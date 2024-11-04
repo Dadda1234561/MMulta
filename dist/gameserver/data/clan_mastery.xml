@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "clan_mastery.dtd">
+<list>
+	<!--Clan Specialty level 1-->
+	<mastery id="1" clan_level="5" clan_reputation="10000">
+		<skill id="19543" level="1"/><!--Clan Combat-->
+		<skill id="19544" level="1"/><!--Clan Will-->
+		<skill id="19545" level="1"/><!--Clan Condition-->
+		<skill id="391" level="1"/><!--Clan Imperium-->
+	</mastery>
+	<!--Clan Specialty level 2-->
+	<mastery id="2" clan_level="6" clan_reputation="10000" previous_mastery="1">
+		<skill id="19543" level="2"/><!--Clan Combat-->
+		<skill id="19544" level="1"/><!--Clan Will-->
+		<skill id="19545" level="2"/><!--Clan Condition-->
+		<skill id="19007" level="1"/><!--Clan Summon-->
+	</mastery>
+	<!--Clan Specialty level 3-->
+	<mastery id="3" clan_level="7" clan_reputation="10000" previous_mastery="2">
+		<skill id="19543" level="3"/><!--Clan Combat-->
+		<skill id="19544" level="3"/><!--Clan Will-->
+		<skill id="19545" level="3"/><!--Clan Condition-->
+		<skill id="19112" level="1"/><!--Clan Escape-->
+	</mastery>
+	<!--Clan Specialty level 4-->
+	<mastery id="4" clan_level="11" clan_reputation="50000" previous_mastery="9" previous_mastery_alt="14">
+		<skill id="19543" level="4"/><!--Clan Combat-->
+		<skill id="19544" level="4"/><!--Clan Will-->
+		<skill id="19545" level="4"/><!--Clan Condition-->
+		<skill id="19008" level="1"/><!--Clan Rebirth-->
+	</mastery>
+	<!--Clan Specialty level 5-->
+	<mastery id="5" clan_level="14" clan_reputation="100000" previous_mastery="11" previous_mastery_alt="16">
+		<skill id="19543" level="5"/><!--Clan Combat-->
+		<skill id="19544" level="5"/><!--Clan Will-->
+		<skill id="19545" level="5"/><!--Clan Condition-->
+	</mastery>
+	<!--Clan Specialty level 6-->
+	<mastery id="6" clan_level="15" clan_reputation="100000" previous_mastery="5">
+		<skill id="19543" level="6"/><!--Clan Combat-->
+		<skill id="19544" level="6"/><!--Clan Will-->
+		<skill id="19545" level="6"/><!--Clan Condition-->
+	</mastery>
+	<!--Combat Specialty level 1-->
+	<mastery id="7" clan_level="8" clan_reputation="30000" previous_mastery="3">
+		<skill id="19531" level="1"/><!--Clan Hunter-->
+		<skill id="19532" level="1"/><!--Clan Elemental-->
+	</mastery>
+	<!--Combat Specialty level 2-->
+	<mastery id="8" clan_level="9" clan_reputation="30000" previous_mastery="7">
+		<skill id="19531" level="2"/><!--Clan Hunter-->
+		<skill id="19532" level="2"/><!--Clan Elemental-->
+	</mastery>
+	<!--Combat Specialty level 3-->
+	<mastery id="9" clan_level="10" clan_reputation="30000" previous_mastery="8">
+		<skill id="19531" level="3"/><!--Clan Hunter-->
+		<skill id="19532" level="3"/><!--Clan Elemental-->
+		<skill id="19533" level="1"/><!--Clan Rating-->
+	</mastery>
+	<!--Combat Specialty level 4-->
+	<mastery id="10" clan_level="12" clan_reputation="50000" previous_mastery="4">
+		<skill id="19531" level="4"/><!--Clan Hunter-->
+		<skill id="19534" level="1"/><!--Clan Barrier-->
+	</mastery>
+	<!--Combat Specialty level 5-->
+	<mastery id="11" clan_level="13" clan_reputation="50000" previous_mastery="10">
+		<skill id="19534" level="2"/><!--Clan Barrier-->
+	</mastery>
+	<!--War Specialty level 1-->
+	<mastery id="12" clan_level="8" clan_reputation="30000" previous_mastery="3">
+		<skill id="19013" level="1"/><!--Clan Purge-->
+		<skill id="19535" level="1"/><!--Clan Resistance-->
+	</mastery>
+	<!--War Specialty level 2-->
+	<mastery id="13" clan_level="9" clan_reputation="30000" previous_mastery="12">
+		<skill id="19113" level="1"/><!--Clan Block-->
+		<skill id="19535" level="2"/><!--Clan Resistance-->
+	</mastery>
+	<!--War Specialty level 3-->
+	<mastery id="14" clan_level="10" clan_reputation="30000" previous_mastery="13">
+		<skill id="19114" level="1"/><!--Clan Exclusion-->
+		<skill id="19535" level="3"/><!--Clan Resistance-->
+		<skill id="19536" level="1"/><!--Clan Battlefield-->
+	</mastery>
+	<!--War Specialty level 4-->
+	<mastery id="15" clan_level="12" clan_reputation="50000" previous_mastery="4">
+		<skill id="15094" level="1"/><!--Clan Flag-->
+		<skill id="19537" level="1"/><!--Clan Iron-->
+	</mastery>
+	<!--War Specialty level 5-->
+	<mastery id="16" clan_level="13" clan_reputation="50000" previous_mastery="15">
+		<skill id="19537" level="2"/><!--Clan Iron-->
+	</mastery>
+</list>

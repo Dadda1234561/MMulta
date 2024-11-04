@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+    <config no_tax="true" type="CHANCED"/>
+
+    <!-- Диадемы -->
+
+    <item>
+        <production id="48202" count="1" chance="100000000" /> <!-- Диадема Берсерка 1 ур. -->
+
+        <ingredient id="106402" count="1"/>
+		
+		<ingredient id="48212" count="5000"/>
+        <ingredient id="70004" count="10000"/>
+		<ingredient id="70019" count="30"/>
+		<ingredient id="106414" count="10000"/>
+		<ingredient id="70000" count="20"/>
+		<ingredient id="70009" count="5000"/>
+		<ingredient id="17371" count="3000"/>
+		<ingredient id="70018" count="150"/>
+    </item>
+    <item>
+        <production id="48205" count="1" chance="100000000" /> <!-- Диадема Мага 1 ур. -->
+
+        <ingredient id="106402" count="1"/>
+		
+        <ingredient id="48212" count="5000"/>
+        <ingredient id="70004" count="10000"/>
+		<ingredient id="70019" count="30"/>
+		<ingredient id="106414" count="10000"/>
+		<ingredient id="70000" count="20"/>
+		<ingredient id="70009" count="5000"/>
+		<ingredient id="17371" count="3000"/>
+		<ingredient id="70018" count="150"/>
+    </item>
+    <item>
+        <production id="48208" count="1" chance="100000000" /> <!-- Диадема Стража 1 ур. -->
+
+        <ingredient id="106402" count="1"/>
+
+        <ingredient id="48212" count="5000"/>
+        <ingredient id="70004" count="10000"/>
+		<ingredient id="70019" count="30"/>
+		<ingredient id="106414" count="10000"/>
+		<ingredient id="70000" count="20"/>
+		<ingredient id="70009" count="5000"/>
+		<ingredient id="17371" count="3000"/>
+		<ingredient id="70018" count="150"/>
+    </item>
+
+    <item>
+        <production id="48203" count="1" chance="100000000" /> <!-- Диадема Берсерка 2 ур. -->
+
+        <ingredient id="48202" count="1"/>
+
+        <ingredient id="48212" count="10000"/>
+        <ingredient id="70004" count="20000"/>
+		<ingredient id="70019" count="50"/>
+		<ingredient id="106414" count="15000"/>
+		<ingredient id="70000" count="30"/>
+		<ingredient id="70009" count="10000"/>
+		<ingredient id="17371" count="10000"/>
+		<ingredient id="70018" count="300"/>
+    </item>
+    <item>
+        <production id="48206" count="1" chance="100000000" /> <!-- Диадема Мага 2 ур. -->
+
+        <ingredient id="48205" count="1"/>
+
+        <ingredient id="48212" count="10000"/>
+        <ingredient id="70004" count="20000"/>
+		<ingredient id="70019" count="50"/>
+		<ingredient id="106414" count="15000"/>
+		<ingredient id="70000" count="30"/>
+		<ingredient id="70009" count="10000"/>
+		<ingredient id="17371" count="10000"/>
+		<ingredient id="70018" count="300"/>
+    </item>
+    <item>
+        <production id="48209" count="1" chance="100000000" /> <!-- Диадема Стража 2 ур. -->
+
+        <ingredient id="48208" count="1"/>
+
+        <ingredient id="48212" count="10000"/>
+        <ingredient id="70004" count="20000"/>
+		<ingredient id="70019" count="50"/>
+		<ingredient id="106414" count="15000"/>
+		<ingredient id="70000" count="30"/>
+		<ingredient id="70009" count="10000"/>
+		<ingredient id="17371" count="10000"/>
+		<ingredient id="70018" count="300"/>
+    </item>
+
+    <item>
+        <production id="48204" count="1" chance="100000000" /> <!-- Диадема Берсерка 3 ур. -->
+
+        <ingredient id="48203" count="1"/>
+
+        <ingredient id="48213" count="200"/>
+        <ingredient id="70004" count="30000"/>
+		<ingredient id="70019" count="100"/>
+		<ingredient id="106414" count="20000"/>
+		<ingredient id="70000" count="50"/>
+		<ingredient id="70009" count="30000"/>
+		<ingredient id="17371" count="30000"/>
+		<ingredient id="70018" count="500"/>
+    </item>
+    <item>
+        <production id="48207" count="1" chance="100000000" /> <!-- Диадема Мага 3 ур. -->
+
+        <ingredient id="48206" count="1"/>
+
+        <ingredient id="48213" count="200"/>
+        <ingredient id="70004" count="30000"/>
+		<ingredient id="70019" count="100"/>
+		<ingredient id="106414" count="20000"/>
+		<ingredient id="70000" count="50"/>
+		<ingredient id="70009" count="30000"/>
+		<ingredient id="17371" count="30000"/>
+		<ingredient id="70018" count="500"/>
+    </item>
+    <item>
+        <production id="48210" count="1" chance="100000000" /> <!-- Диадема Стража 3 ур. -->
+
+        <ingredient id="48209" count="1"/>
+
+        <ingredient id="48213" count="200"/>
+        <ingredient id="70004" count="30000"/>
+		<ingredient id="70019" count="100"/>
+		<ingredient id="106414" count="20000"/>
+		<ingredient id="70000" count="50"/>
+		<ingredient id="70009" count="30000"/>
+		<ingredient id="17371" count="30000"/>
+		<ingredient id="70018" count="500"/>
+    </item>
+
+    <item>
+        <production id="106589" count="1" chance="100000000" /> <!-- точка -->
+
+        <ingredient id="48212" count="500"/>
+        <ingredient id="70034" count="200"/>
+		<ingredient id="70019" count="2"/>
+		<ingredient id="17371" count="300"/>
+		<ingredient id="70018" count="20"/>
+    </item>
+
+    <item>
+        <production id="106590" count="1" chance="100000000" /> <!-- точка -->
+
+        <ingredient id="48212" count="1000"/>
+        <ingredient id="70034" count="300"/>
+		<ingredient id="70019" count="3"/>
+		<ingredient id="17371" count="500"/>
+		<ingredient id="70018" count="30"/>
+    </item>
+
+    <item>
+        <production id="48211" count="1" chance="100000000" /> <!-- точка -->
+
+        <ingredient id="48212" count="2000"/>
+        <ingredient id="70034" count="500"/>
+		<ingredient id="70019" count="5"/>
+		<ingredient id="17371" count="1000"/>
+		<ingredient id="70018" count="50"/>
+    </item>
+</list>

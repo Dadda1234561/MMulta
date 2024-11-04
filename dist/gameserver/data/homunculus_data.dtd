@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT list (homunculus)*>
+
+	<!ELEMENT homunculus (#PCDATA)*>
+	<!ATTLIST homunculus
+		id CDATA #REQUIRED
+		type CDATA #REQUIRED
+		basic_skill CDATA #REQUIRED
+		basic_skill_level CDATA #REQUIRED
+		skill1_id CDATA #REQUIRED
+		skill2_id CDATA #REQUIRED
+		skill3_id CDATA #REQUIRED
+		skill4_id CDATA #REQUIRED
+		skill5_id CDATA #REQUIRED
+		hpLevel1 CDATA #REQUIRED
+		atkLevel1 CDATA #REQUIRED
+		defLevel1 CDATA #REQUIRED
+		expToLevel2 CDATA #REQUIRED
+		hpLevel2 CDATA #REQUIRED
+		atkLevel2 CDATA #REQUIRED
+		defLevel2 CDATA #REQUIRED
+		expToLevel3 CDATA #REQUIRED
+		hpLevel3 CDATA #REQUIRED
+		atkLevel3 CDATA #REQUIRED
+		defLevel3 CDATA #REQUIRED
+		expToLevel4 CDATA #REQUIRED
+		hpLevel4 CDATA #REQUIRED
+		atkLevel4 CDATA #REQUIRED
+		defLevel4 CDATA #REQUIRED
+		expToLevel5 CDATA #REQUIRED
+		hpLevel5 CDATA #REQUIRED
+		atkLevel5 CDATA #REQUIRED
+		defLevel5 CDATA #REQUIRED
+		expToLevel6 CDATA #REQUIRED
+		critRate CDATA #REQUIRED>

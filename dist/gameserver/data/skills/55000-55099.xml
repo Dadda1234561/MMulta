@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="55031" levels="1" name="Report Status">
+		<set name="icon" value="icon.skill6038"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="55099" levels="1" name="Benusta's Reward Box">
+	<!-- Custom Skills -->
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="magicLevel" value="1"/>
+        <set name="magicType" value="SPECIAL"/>
+        <set name="itemConsumeId" value="81151"/>
+        <set name="itemConsumeCount" value="1"/>
+        <set name="target" value="TARGET_SELF"/>
+        <set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+        <set name="isHandler" value="true"/>
+        <restoration level="1">
+            <group chance="60">
+                <item id="57" min_count="3000000" max_count="3000000"/>
+            </group>
+			<group chance="1">
+                <item id="48418" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="45931" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="45932" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="28484" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="48215" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="36731" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="46151" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="46150" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="30297" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="30298" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="17527" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="17526" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="47494" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="48860" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="29067" min_count="1" max_count="1"/>
+            </group>
+			<group chance="1">
+                <item id="47420" min_count="1" max_count="1"/>
+            </group>
+            <group chance="1">
+                <item id="36186" min_count="1" max_count="1"/>
+            </group>
+            <group chance="1">
+                <item id="80964" min_count="1" max_count="1"/>
+            </group>
+            <group chance="1">
+                <item id="48831" min_count="1" max_count="1"/>
+            </group>
+        </restoration>
+	</skill>
+</list>

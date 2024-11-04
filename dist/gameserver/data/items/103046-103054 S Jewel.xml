@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		S Set-1 Jewel
+	-->
+	<armor id="103046" name="Blue Diamond Necklace Lv.1">
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="90"/>
+			<mul stat="pAtk" order="0x60" value="1.12"/>
+			<mul stat="mAtk" order="0x60" value="1.13"/>
+			<mul stat="critical_damage" order="0x30" value="1.04"/>
+			<mul stat="magic_critical_dmg" order="0x30" value="1.04"/>
+		</for>
+	</armor>
+	<armor id="103047" name="Blue Diamond Necklace Lv.2">
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="90"/>
+			<mul stat="pAtk" order="0x60" value="1.13"/>
+			<mul stat="mAtk" order="0x60" value="1.14"/>
+			<mul stat="critical_damage" order="0x30" value="1.05"/>
+			<mul stat="magic_critical_dmg" order="0x30" value="1.05"/>
+		</for>
+	</armor>
+	<armor id="103048" name="Blue Diamond Necklace Lv.3">
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_blue_diamond_necklace_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="90"/>
+			<mul stat="pAtk" order="0x60" value="1.14"/>
+			<mul stat="mAtk" order="0x60" value="1.15"/>
+			<mul stat="critical_damage" order="0x30" value="1.06"/>
+			<mul stat="magic_critical_dmg" order="0x30" value="1.06"/>
+		</for>
+	</armor>
+	<armor id="103049" name="Coral Earring Lv.1">
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_coral_earing_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="67"/>
+			<mul stat="maxHp" order="0x60" value="1.11"/>
+			<mul stat="maxMp" order="0x60" value="1.11"/>
+			<mul stat="pAtkSpd" order="0x60" value="1.06"/>
+			<mul stat="mAtkSpd" order="0x60" value="1.06"/>
+		</for>
+	</armor>
+	<armor id="103050" name="Coral Earring Lv.2">
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_coral_earing_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="67"/>
+			<mul stat="maxHp" order="0x60" value="1.12"/>
+			<mul stat="maxMp" order="0x60" value="1.12"/>
+			<mul stat="pAtkSpd" order="0x60" value="1.08"/>
+			<mul stat="mAtkSpd" order="0x60" value="1.08"/>
+		</for>
+	</armor>
+	<armor id="103051" name="Coral Earring Lv.3">
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_coral_earing_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="67"/>
+			<mul stat="maxHp" order="0x60" value="1.12"/>
+			<mul stat="maxMp" order="0x60" value="1.12"/>
+			<mul stat="pAtkSpd" order="0x60" value="1.1"/>
+			<mul stat="mAtkSpd" order="0x60" value="1.1"/>
+		</for>
+	</armor>
+	<armor id="103052" name="Blue Coral Ring Lv.1">
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="45"/>
+			<mul stat="pDef" order="0x60" value="1.1"/>
+			<mul stat="mDef" order="0x60" value="1.07"/>
+			<mul stat="pCritRate" order="0x60" value="1.06"/>
+			<mul stat="mCritRate" order="0x60" value="1.04"/>
+		</for>
+	</armor>
+	<armor id="103053" name="Blue Coral Ring Lv.2">
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="45"/>
+			<mul stat="pDef" order="0x60" value="1.11"/>
+			<mul stat="mDef" order="0x60" value="1.11"/>
+			<mul stat="pCritRate" order="0x60" value="1.07"/>
+			<mul stat="mCritRate" order="0x60" value="1.05"/>
+		</for>
+	</armor>
+	<armor id="103054" name="Blue Coral Ring Lv.3">
+		<set name="crystal_type" value="S"/>
+		<set name="icon" value="icon.accessary_blue_coral_ring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="45"/>
+			<mul stat="pDef" order="0x60" value="1.12"/>
+			<mul stat="mDef" order="0x60" value="1.12"/>
+			<mul stat="pCritRate" order="0x60" value="1.08"/>
+			<mul stat="mCritRate" order="0x60" value="1.05"/>
+		</for>
+	</armor>
+</list>

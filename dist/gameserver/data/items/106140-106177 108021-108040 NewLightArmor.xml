@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <!--
+        Лайт Armors
+    -->
+    <!-- NG -->
+
+    <armor id="106140" name="Wooden Breastplate">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.armor_t06_u_i00"/>
+        <set name="price" value="1224"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="4820"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="47"/>
+        </for>
+    </armor>
+
+    <armor id="106141" name="Wooden Gaiters">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.armor_t06_l_i00"/>
+        <set name="price" value="764"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="1670"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="29"/>
+        </for>
+    </armor>
+
+    <!-- D -->
+    <armor id="106142" name="Clan Oath Brigandine">
+        <set name="crystal_count" value="47"/>
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.armor_t1002_ul_i00"/>
+        <set name="price" value="38080"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="5400"/>
+        <equip>
+            <slot id="FULL_ARMOR"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="119"/>
+        </for>
+    </armor>
+
+    <armor id="106143" name="Clan Oath Leather Gloves" add_name="Light armor">
+        <set name="crystal_count" value="10"/>
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.armor_t1002_g_i00"/>
+        <set name="price" value="7820"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="640"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="24"/>
+        </for>
+    </armor>
+
+    <armor id="106144" name="Clan Oath Boots" add_name="Light armor">
+        <set name="crystal_count" value="10"/>
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.armor_t1002_b_i00"/>
+        <set name="price" value="7820"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1280"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="24"/>
+        </for>
+    </armor>
+
+    <!-- C -->
+
+    <armor id="106145" name="Drake Leather Armor">
+        <set name="crystal_count" value="72"/>
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.armor_t21_ul_i00"/>
+        <set name="price" value="268200"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="5800"/>
+        <equip>
+            <slot id="FULL_ARMOR"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="179"/>
+        </for>
+    </armor>
+
+    <armor id="106146" name="Drake Leather Boots">
+        <set name="crystal_count" value="15"/>
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.armor_t21_b_i00"/>
+        <set name="price" value="55020"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1210"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="39"/>
+        </for>
+    </armor>
+
+    <armor id="106147" name="Drake Leather Gloves">
+        <set name="crystal_count" value="15"/>
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.armor_t21_g_i00"/>
+        <set name="price" value="55020"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="600"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="39"/>
+        </for>
+    </armor>
+
+
+    <!-- B -->
+
+    <armor id="106148" name="Doom Leather Armor">
+        <set name="crystal_count" value="54"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.armor_t72_ul_i00"/>
+        <set name="price" value="603400"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="5500"/>
+        <equip>
+            <slot id="FULL_ARMOR"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="202"/>
+        </for>
+    </armor>
+
+    <armor id="106149" name="Doom Gloves" add_name="Light armor">
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.armor_t72_g_i00"/>
+        <set name="price" value="123760"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="580"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="44"/>
+        </for>
+    </armor>
+
+    <armor id="106150" name="Doom Boots" add_name="Light armor">
+        <set name="crystal_count" value="11"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.armor_t72_b_i00"/>
+        <set name="price" value="123760"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1130"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="44"/>
+        </for>
+    </armor>
+
+    <!-- A -->
+
+    <armor id="106151" name="Apella Brigandine">
+        <set name="crystal_count" value="347"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.armor_t1005_ul_i00"/>
+        <set name="price" value="4341000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="5400"/>
+        <equip>
+            <slot id="FULL_ARMOR"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="209"/>
+        </for>
+    </armor>
+    <armor id="106152" name="Apella Leather Gloves" add_name="Light armor">
+        <set name="crystal_count" value="71"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.armor_t1005_g_i00"/>
+        <set name="price" value="890000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="580"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="46"/>
+        </for>
+    </armor>
+    <armor id="106153" name="Apella Boots" add_name="Light armor">
+        <set name="crystal_count" value="71"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.armor_t1005_b_i00"/>
+        <set name="price" value="890000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1130"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="46"/>
+        </for>
+    </armor>
+
+    <!-- S Dino -->
+
+    <armor id="106154" name="Dynasty Leather Armor">
+        <set name="crystal_count" value="585"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.armor_t92_u_i00"/>
+        <set name="price" value="18298000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="4180"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="170"/>
+        </for>
+    </armor>
+
+    <armor id="106155" name="Dynasty Leather Leggings">
+        <set name="crystal_count" value="365"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.armor_t92_l_i00"/>
+        <set name="price" value="11436000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="1370"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="106"/>
+        </for>
+    </armor>
+
+    <armor id="106156" name="Dynasty Leather Gloves" add_name="Light armor">
+        <set name="crystal_count" value="195"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.armor_t92_g_i00"/>
+        <set name="price" value="6099000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="520"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="61"/>
+        </for>
+    </armor>
+    <armor id="106157" name="Dynasty Leather Boots" add_name="Light armor">
+        <set name="crystal_count" value="195"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.armor_t92_b_i00"/>
+        <set name="price" value="6099000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1090"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="61"/>
+        </for>
+    </armor>
+
+    <!-- S MARAI -->
+
+    <armor id="106158" name="Moirai Leather Breastplate">
+        <set name="crystal_count" value="808"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.armor_t101_u_i00"/>
+        <set name="price" value="25255000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="4140"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="178"/>
+        </for>
+    </armor>
+
+    <armor id="106159" name="Moirai Leather Leggings">
+        <set name="crystal_count" value="505"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.armor_t101_l_i00"/>
+        <set name="price" value="15784000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="1320"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="111"/>
+        </for>
+    </armor>
+
+    <armor id="106160" name="Moirai Leather Gloves">
+        <set name="crystal_count" value="269"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.armor_t101_g_i00"/>
+        <set name="price" value="8418000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="510"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="64"/>
+        </for>
+    </armor>
+
+    <armor id="106161" name="Moirai Leather Boots">
+        <set name="crystal_count" value="269"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.armor_t101_b_i00"/>
+        <set name="price" value="8418000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1070"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="64"/>
+        </for>
+    </armor>
+
+    <!-- R - Бессмертия -->
+    <armor id="106162" name="Бессмертия Breastplate">
+        <set name="crystal_count" value="1120"/>
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.armor_t95_u_i00"/>
+        <set name="price" value="35000000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="4140"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="187"/>
+        </for>
+    </armor>
+
+    <armor id="106163" name="Бессмертия Leggings">
+        <set name="crystal_count" value="700"/>
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.armor_t95_l_i00"/>
+        <set name="price" value="21876000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="1320"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="117"/>
+        </for>
+    </armor>
+    <armor id="106164" name="Бессмертия Gloves">
+        <set name="crystal_count" value="373"/>
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.armor_t95_g_i00"/>
+        <set name="price" value="11667000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="510"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="68"/>
+        </for>
+    </armor>
+    <armor id="106165" name="Vesper LeatherБессмертия Boots">
+        <set name="crystal_count" value="373"/>
+        <set name="crystal_type" value="R"/>
+        <set name="icon" value="icon.armor_t95_b_i00"/>
+        <set name="price" value="11667000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1070"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="68"/>
+        </for>
+    </armor>
+
+    <!-- R99 - Кровавый Айдиос -->
+    <armor id="106166" name="Кровавый Айдиос Leather Breastplate">
+        <set name="crystal_count" value="1340"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t95_u_i01"/>
+        <set name="price" value="41880000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="4140"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="207"/>
+        </for>
+    </armor>
+    <armor id="106167" name="Кровавый Айдиос Leather Leggings">
+        <set name="crystal_count" value="837"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t95_l_i01"/>
+        <set name="price" value="26175000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="1320"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="131"/>
+        </for>
+    </armor>
+    <armor id="106168" name="Кровавый Айдиос Leather Gloves">
+        <set name="crystal_count" value="446"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t95_g_i01"/>
+        <set name="price" value="13960000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="510"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="81"/>
+        </for>
+    </armor>
+    <armor id="106169" name="Кровавый Айдиос Leather Boots">
+        <set name="crystal_count" value="446"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t95_b_i01"/>
+        <set name="price" value="13960000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1070"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="81"/>
+        </for>
+    </armor>
+
+    <!-- R99 - Темный Айдиос  -->
+    <armor id="106170" name="Темный Айдиос Leather Breastplate">
+        <set name="crystal_count" value="1340"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t95_u_i03"/>
+        <set name="price" value="41880000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="4140"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="211"/>
+        </for>
+    </armor>
+    <armor id="106171" name="Темный Айдиос Leather Leggings">
+        <set name="crystal_count" value="837"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t95_l_i03"/>
+        <set name="price" value="26175000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="1320"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="134"/>
+        </for>
+    </armor>
+    <armor id="106172" name="Темный Айдиос Leather Gloves">
+        <set name="crystal_count" value="446"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t95_g_i03"/>
+        <set name="price" value="13960000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="510"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="84"/>
+        </for>
+    </armor>
+    <armor id="106173" name="Темный Айдиос Leather Boots">
+        <set name="crystal_count" value="446"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t95_b_i03"/>
+        <set name="price" value="13960000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1070"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="84"/>
+        </for>
+    </armor>
+
+
+
+    <!--  R99- Бесподобный Айдиос  -->
+    <armor id="106174" name="Бесподобный Айдиос Leather Breastplate">
+        <set name="crystal_count" value="1606"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t98_u_i00"/>
+        <set name="price" value="50215000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="4140"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="214"/>
+        </for>
+    </armor>
+    <armor id="106175" name="Бесподобный Айдиос Leather Leggings">
+        <set name="crystal_count" value="1004"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t98_l_i00"/>
+        <set name="price" value="31384000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="1320"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="137"/>
+        </for>
+    </armor>
+    <armor id="106176" name="Бесподобный Айдиос Leather Gloves">
+        <set name="crystal_count" value="535"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t98_g_i00"/>
+        <set name="price" value="16738000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="510"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="87"/>
+        </for>
+    </armor>
+    <armor id="106177" name="Бесподобный Айдиос Leather Boots">
+        <set name="crystal_count" value="535"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t98_b_i00"/>
+        <set name="price" value="16738000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1070"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="87"/>
+        </for>
+    </armor>
+
+    <!-- R99 - Совершенный Айдиос  -->
+    <armor id="108021" name="Совершенный Айдиос Leather Breastplate">
+        <set name="crystal_count" value="1606"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t98_u_i00"/>
+        <set name="price" value="50215000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="4140"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="218"/>
+        </for>
+    </armor>
+    <armor id="108022" name="Совершенный Айдиос Leather Leggings">
+        <set name="crystal_count" value="1004"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t98_l_i00"/>
+        <set name="price" value="31384000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="1320"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="141"/>
+        </for>
+    </armor>
+    <armor id="108023" name="Совершенный Айдиос Leather Gloves">
+        <set name="crystal_count" value="535"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t98_g_i00"/>
+        <set name="price" value="16738000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="510"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="91"/>
+        </for>
+    </armor>
+    <armor id="108024" name="Совершенный Айдиос Leather Boots">
+        <set name="crystal_count" value="535"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="icon" value="icon.armor_t98_b_i00"/>
+        <set name="price" value="16738000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1070"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="91"/>
+        </for>
+    </armor>
+
+    <!-- R110 - Предельный Левиафан  -->
+    <armor id="108025" name="Предельный Левиафан Leather Breastplate">
+        <set name="crystal_count" value="1606"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t98_u_i00"/>
+        <set name="price" value="50215000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="4140"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="223"/>
+        </for>
+    </armor>
+    <armor id="108026" name="Предельный Левиафан Leather Leggings">
+        <set name="crystal_count" value="1004"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t98_l_i00"/>
+        <set name="price" value="31384000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="1320"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="145"/>
+        </for>
+    </armor>
+    <armor id="108027" name="Предельный Левиафан Leather Gloves">
+        <set name="crystal_count" value="535"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t98_g_i00"/>
+        <set name="price" value="16738000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="510"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="95"/>
+        </for>
+    </armor>
+    <armor id="108028" name="Предельный Левиафан Leather Boots">
+        <set name="crystal_count" value="535"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t98_b_i00"/>
+        <set name="price" value="16738000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1070"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="95"/>
+        </for>
+    </armor>
+
+    <!-- L - Доспехи Превосходства  -->
+    <armor id="108029" name="Доспехи Превосходства Leather Breastplate">
+        <set name="crystal_count" value="1606"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t98_u_i00"/>
+        <set name="price" value="50215000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="4140"/>
+        <equip>
+            <slot id="CHEST"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="214"/>
+        </for>
+    </armor>
+    <armor id="108030" name="Доспехи Превосходства Leather Leggings">
+        <set name="crystal_count" value="1004"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t98_l_i00"/>
+        <set name="price" value="31384000"/>
+        <set name="type" value="LIGHT"/>
+        <set name="weight" value="1320"/>
+        <equip>
+            <slot id="LEGS"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="137"/>
+        </for>
+    </armor>
+    <armor id="108031" name="Доспехи Превосходства Leather Gloves">
+        <set name="crystal_count" value="535"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t98_g_i00"/>
+        <set name="price" value="16738000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="510"/>
+        <equip>
+            <slot id="GLOVES"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="87"/>
+        </for>
+    </armor>
+    <armor id="108032" name="Доспехи Превосходства Leather Boots">
+        <set name="crystal_count" value="535"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="icon" value="icon.armor_t98_b_i00"/>
+        <set name="price" value="16738000"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="1070"/>
+        <equip>
+            <slot id="FEET"/>
+        </equip>
+        <for>
+            <add stat="pDef" order="0x10" value="87"/>
+        </for>
+    </armor>
+</list>

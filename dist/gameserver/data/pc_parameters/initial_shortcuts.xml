@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "initial_shortcuts.dtd">
+<!--AUTHOR: L2jUnity, reworked by Bonux-->
+<list>
+	<!--Global shortcuts-->
+	<shortcuts>
+		<page id="0">
+			<shortcut slot="0" type="ACTION" id="2"/><!--Attack-->
+			<shortcut slot="3" type="ACTION" id="5"/><!--Pick Up-->
+			<shortcut slot="4" type="ACTION" id="4"/><!--Next Target-->
+			<shortcut slot="5" type="ACTION" id="92"/><!--Previous Target-->
+			<shortcut slot="10" type="ACTION" id="0"/><!--Sit/Stand-->
+		</page>
+		<page id="1">
+			<shortcut slot="8" type="ITEM" id="110667"/>
+			<shortcut slot="9" type="SKILL" id="90002" level="1" /> <!-- Skiller -->
+			<shortcut slot="10" type="SKILL" id="90003" level="1" /> <!-- Healler -->
+			<shortcut slot="11" type="SKILL" id="90004" level="1" /> <!-- BuffStore -->
+		</page>
+		<page id="20"><!--Fly transform-->
+			<shortcut slot="0" type="SKILL" id="911" level="1"/><!--Energy Burst-->
+			<shortcut slot="3" type="SKILL" id="884" level="1"/><!--Air Assault-->
+			<shortcut slot="4" type="SKILL" id="885" level="1"/><!--Air Blink-->
+		</page>
+		<page id="21"><!--Airship-->
+			<shortcut slot="0" type="ACTION" id="70"/><!--Exit Airship-->
+		</page>
+		<!--Custom example-->
+		<page id="1">
+			<shortcut slot="0" type="MACRO" id="10000"/> <!-- Buff Store -->
+		</page>
+	</shortcuts>
+	<!--Human Fighter-->
+	<shortcuts race="HUMAN" type="FIGHTER">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="30798" level="1" /> <!-- Power Strike -->
+		</page>
+	</shortcuts>
+	<!-- Elven Fighter -->
+	<shortcuts race="ELF" type="FIGHTER">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="30798" level="1" /> <!-- Power Strike -->
+		</page>
+	</shortcuts>
+	<!-- Dark Fighter -->
+	<shortcuts race="DARKELF" type="FIGHTER">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="30798" level="1" /> <!-- Power Strike -->
+		</page>
+	</shortcuts>
+	<!-- Orc Fighter -->
+	<shortcuts race="ORC" type="FIGHTER">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="30798" level="1" /> <!-- Power Strike -->
+		</page>
+	</shortcuts>
+	<!--Orc Mystic-->
+	<shortcuts race="ORC" type="MYSTIC">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="30798" level="1" /> <!-- Power Strike -->
+		</page>
+	</shortcuts>
+	<!-- Dwarf Fighter -->
+	<shortcuts race="DWARF" type="FIGHTER">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="30798" level="1" /> <!-- Power Strike -->
+		</page>
+	</shortcuts>
+	<!-- Kamael Fighter -->
+	<shortcuts race="KAMAEL" type="FIGHTER">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="30798" level="1" /> <!-- Power Strike -->
+		</page>
+	</shortcuts>
+	<!-- Kamael Mystic -->
+	<shortcuts race="KAMAEL" type="MYSTIC">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="30798" level="1" /> <!-- Power Strike -->
+		</page>
+	</shortcuts>
+	<!--Ertheia Wizard-->
+	<shortcuts race="ERTHEIA" type="MYSTIC">
+		<page id="0">
+			<shortcut slot="1" type="SKILL" id="30001" level="1"/><!--Hydro Attack-->
+		</page>
+	</shortcuts>
+	<!--Macro presets-->
+	<macroses>
+		<!-- BuffStore Macro -->
+		<macro id="10000" icon="222" name="BuffStore" description="Sell buffs" acronym="BUFF" enabled="false"> <!--Macro ID must be over 1000, use higher values to avoid conflicts with already existing macros.-->
+			<command type="TEXT">.buffstore</command> <!--To define a command, just include the string as if it was typed in-game.-->
+		</macro>
+	</macroses>
+</list>

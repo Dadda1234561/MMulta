@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT list (teleport)*>
+
+<!ELEMENT teleport (#PCDATA)*>
+<!ATTLIST teleport
+	id CDATA #REQUIRED
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED
+	z CDATA #REQUIRED
+	price CDATA #REQUIRED>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!-- AUTHOR: Edoo -->
+<list>
+	<spawn count="1" respawn="5" respawn_random="0" period_of_day="none">
+		<point x="17328" y="170574" z="-3496" h="56099" />
+		<npc id="30767"><!--Управляющий Аукциона-->
+			<set name="town" value="floran"/>
+		</npc>
+	</spawn>
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="30078" />
+      <point x="16970" y="170391" z="-3496" h="61440" />
+	</spawn> <!-- Pano -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="30079" />
+      <point x="17836" y="169853" z="-3496" h="20000" />
+	</spawn> <!-- Barder -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="30609" />
+      <point x="17475" y="169556" z="-3496" h="57344" />
+	</spawn> <!-- Creta -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="31571" />
+      <point x="17232" y="170528" z="-3496" h="53000" />
+	</spawn> <!-- Hufs -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="31773" />
+      <point x="17788" y="169842" z="-3496" h="20000" />
+	</spawn> <!-- Sonin -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="36737" />
+      <point x="17278" y="169747" z="-3480" h="49153" />
+	</spawn> <!-- Gairin -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="36738" />
+      <point x="17262" y="169863" z="-3496" h="16857" />
+	</spawn> <!-- Ludina -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="36739" />
+      <point x="17870" y="170644" z="-3488" h="15086" />
+	</spawn> <!-- Flon -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="36740" />
+      <point x="17883" y="170537" z="-3504" h="52191" />
+	</spawn> <!-- Danif -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="30981" />
+      <point x="15520" y="174572" z="-3624" h="57344" />
+	</spawn> <!-- Dark Judge -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="30291" />
+      <point x="20943" y="171358" z="-3552" h="12288" />
+	</spawn> <!-- Alex -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="30633" />
+      <point x="13258" y="169790" z="-3704" h="1000" />
+	</spawn> <!-- Evert -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="30626" />
+      <point x="15734" y="174805" z="-3632" />
+	</spawn> <!-- Hamil -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="30728" />
+      <point x="10699" y="171474" z="-3560" />
+	</spawn> <!-- Leirynn -->
+	<spawn count="1" respawn="10" respawn_random="0" period_of_day="none">
+			<npc id="31031" />
+      <point x="17264" y="170160" z="-3496" h="16384" />
+	</spawn> <!-- Broadcasting Tower -->
+</list>

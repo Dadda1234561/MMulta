@@ -1,0 +1,18 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+    <instance id="2006" name="Lilit Reborn" maxChannels="1000" collapseIfEmpty="30" timelimit="60" dispelBuffs="true">
+        <level min="80"/>
+        <party min="1" max="35"/>
+        <return loc="-118696 213320 -8682"/>
+        <teleport loc="-118696 213320 -8682"/>
+        <remove itemId="0" count="0" necessary="false"/>
+        <give itemId="0" count="0"/>
+        <quest id="0"/>
+        <reuse resetReuse="30 6 * * *" setUponEntry="false" sharedReuseGroup="0"/>
+        <spawns>
+            <spawn mobId="25283" type="point" respawn="0">
+                <coords loc="-118328 212952 -8684 0"/>
+            </spawn>
+        </spawns>
+    </instance>
+</list>

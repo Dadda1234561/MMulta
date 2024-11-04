@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Fields of Massacre" min_level="56" max_level="66">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="184424 -13912 -4000 -1000"/>
+				<coords loc="159944 -20136 -4000 -1000"/>
+				<coords loc="159992 -2936 -4000 -1000"/>
+				<coords loc="185032 40 -4000 -1000"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="183496 -15016 -2768"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</go_to_town>
+</farm>

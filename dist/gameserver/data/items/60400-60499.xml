@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <etcitem id="60490" name="Набор Припасов Орвена" add_name="">
+        <set name="commissionable" value="false"/>
+        <set name="icon" value="icon.etc_treasure_box_i00"/>
+        <set name="weight" value="10"/>
+        <set name="stackable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="type" value="EXTRACTABLE"/>
+        <capsuled_items>
+            <capsuled_item id="48642" min_count="2" max_count="2" chance="100.0"/>
+            <capsuled_item id="46709" min_count="10" max_count="10" chance="100.0"/>
+            <capsuled_item id="82076" min_count="10" max_count="10" chance="100.0"/>
+            <capsuled_item id="80842" min_count="10" max_count="10" chance="100.0"/>
+            <capsuled_item id="48830" min_count="10" max_count="10" chance="100.0"/>
+        </capsuled_items>
+    </etcitem>
+</list>

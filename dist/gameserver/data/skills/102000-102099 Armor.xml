@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<!-- 
+		NG
+	-->
+	<skill id="102001" levels="3" name="Set Effect Light - NG">
+		<table name="#pDef">50 100 150</table>
+		<table name="#pAtk">50 100 150</table>
+		<table name="#pAtkSpd">50 100 150</table>
+		<table name="#maxHp">50 100 150</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="#pAtk"/>
+			<add stat="pAtkSpd" value="#pAtkSpd"/>
+			<add stat="maxHp" value="#maxHp"/>
+			<add stat="pDef" value="#pDef"/>
+		</for>
+	</skill>
+	<skill id="102002" levels="3" name="Set Effect Robe - NG">
+		<table name="#mAtk">100 150 200</table>
+		<table name="#mAtkSpd">100 100 200</table>
+		<table name="#pDef">50 100 150</table>
+		<table name="#maxHpMp">200 250 300</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAtk" value="#mAtk"/>
+			<add stat="mAtkSpd" value="#mAtkSpd"/>
+			<add stat="pDef" value="#pDef"/>
+			<add stat="maxHp" value="#maxHpMp"/>
+			<add stat="maxMp" value="#maxHpMp"/>
+		</for>
+	</skill>
+	<!-- 
+		D
+	-->
+	<skill id="102003" levels="3" name="Set Effect Heavy - D">
+		<table name="#pAtk">150 150 150</table>
+		<table name="#pAtkSpd">50 50 50</table>
+		<table name="#maxHp">1.03 1.04 1.05</table>
+		<table name="#pDef">1.03 1.04 1.05</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtk" value="#pAtk"/>
+			<add stat="pAtkSpd" value="#pAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="pDef" value="#pDef"/>
+		</for>
+	</skill>
+	<skill id="102004" levels="3" name="Set Effect Light - D">
+		<table name="#pAtk">1.03 1.04 1.05</table>
+		<table name="#pAtkSpd">1.04 1.05 1.06</table>
+		<table name="#maxHp">1.03 1.04 1.05</table>
+		<table name="#crit">40 40 50</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<add stat="pCritRate" value="#crit"/>
+			<!-- <p_critical_damage value="#crit" type="DIFF"/> -->
+		</for>
+	</skill>
+	<skill id="102005" levels="3" name="Set Effect Robe - D">
+		<table name="#mAtk">1.05 1.06 1.07</table>
+		<table name="#mAtkSpd">200 200 200</table>
+		<table name="#maxHp">1.03 1.04 1.05</table>
+		<table name="#mCritRate">1.05 1.07 1.1</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<add stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="mCritRate" value="#mCritRate"/>
+		</for>
+	</skill>
+	<!-- 
+		C
+	-->
+	<skill id="102006" levels="3" name="Set Effect Heavy - С">
+		<table name="#pAtk">1.03 1.04 1.05</table>
+		<table name="#pAtkSpd">1.03 1.04 1.05</table>
+		<table name="#maxHp">1.06 1.07 1.08</table>
+		<table name="#pmDef">1.06 1.07 1.08</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="pDef" value="#pmDef"/>
+			<mul stat="mDef" value="#pmDef"/>
+		</for>
+	</skill>
+	<skill id="102007" levels="3" name="Set Effect Light - С">
+		<table name="#pAtk">1.06 1.07 1.08</table>
+		<table name="#pAtkSpd">1.07 1.08 1.09</table>
+		<table name="#maxHp">1.06 1.07 1.08</table>
+		<table name="#pDef">1.1 1.1 1.1</table>
+		<table name="#crit">50 50 50</table>
+		<table name="#critDam">1.03 1.04 1.05</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<mul stat="pDef" value="#pDef"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<add stat="pCritRate" value="#crit"/>
+			<p_critical_damage value="#critDam" type="PER"/>
+		</for>
+	</skill>
+	<skill id="102008" levels="3" name="Set Effect Robe - С">
+		<table name="#mAtk">1.08 1.09 1.1</table>
+		<table name="#mAtkSpd">1.1 1.12 1.15</table>
+		<table name="#maxHp">1.06 1.07 1.08</table>
+		<table name="#mCritRate">1.02 1.02 1.02</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="mCritRate" value="#mCritRate"/>
+		</for>
+	</skill>
+	<skill id="102009" levels="3" name="Set Effect Robe 2 - С">
+		<table name="#mAtk">1.1 1.12 1.15</table>
+		<table name="#mAtkSpd">1.08 1.09 1.1</table>
+		<table name="#maxHp">1.06 1.07 1.08</table>
+		<table name="#mCritRate">1.02 1.02 1.02</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="mCritRate" value="#mCritRate"/>
+		</for>
+	</skill>
+	<!-- 
+		B
+	-->
+	<skill id="102010" levels="3" name="Set Effect Heavy - B">
+		<table name="#pAtk">1.06 1.07 1.08</table>
+		<table name="#pAtkSpd">1.06 1.07 1.08</table>
+		<table name="#maxHp">1.09 1.1 1.11</table>
+		<table name="#pmDef">1.09 1.1 1.11</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="pDef" value="#pmDef"/>
+			<mul stat="mDef" value="#pmDef"/>
+		</for>
+	</skill>
+	<skill id="102011" levels="3" name="Set Effect Light - B">
+		<table name="#pAtk">1.09 1.1 1.11</table>
+		<table name="#pAtkSpd">1.1 1.11 1.12</table>
+		<table name="#maxHp">1.09 1.1 1.11</table>
+		<table name="#pDef">1.1 1.1 1.1</table>
+		<table name="#crit">50 50 50</table>
+		<table name="#critDam">1.06 1.07 1.08</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="pDef" value="#pDef"/>
+			<add stat="pCritRate" value="#crit"/>
+			<p_critical_damage value="#critDam" type="PER"/>
+		</for>
+	</skill>
+	<skill id="102012" levels="3" name="Set Effect Robe - B">
+		<table name="#mAtk">1.11 1.12 1.13</table>
+		<table name="#mAtkSpd">1.16 1.18 1.2</table>
+		<table name="#maxHp">1.09 1.1 1.11</table>
+		<table name="#mCritRate">1.02 1.02 1.02</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="mCritRate" value="#mCritRate"/>
+		</for>
+	</skill>
+	<skill id="102013" levels="3" name="Set Effect Robe 2 - B">
+		<table name="#mAtk">1.16 1.18 1.2</table>
+		<table name="#mAtkSpd">1.11 1.12 1.13</table>
+		<table name="#maxHp">1.09 1.1 1.11</table>
+		<table name="#mCritRate">1.02 1.02 1.02</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="mCritRate" value="#mCritRate"/>
+		</for>
+	</skill>
+	<!-- 
+		A
+	-->
+	<skill id="102014" levels="3" name="Set Effect Heavy - A">
+		<table name="#pAtk">1.1 1.11 1.12</table>
+		<table name="#pAtkSpd">1.1 1.11 1.12</table>
+		<table name="#maxHp">1.12 1.13 1.14</table>
+		<table name="#pmDef">1.12 1.13 1.14</table>
+		<table name="#CON">1 2 3</table>
+		<table name="#runSpd">10 10 10</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="pDef" value="#pmDef"/>
+			<mul stat="mDef" value="#pmDef"/>
+			<add stat="CON" value="#CON"/>
+			<add stat="runSpd" value="#runSpd"/>
+		</for>
+	</skill>
+	<skill id="102015" levels="3" name="Set Effect Light - A">
+		<table name="#pAtk">1.13 1.14 1.15</table>
+		<table name="#pAtkSpd">1.13 1.14 1.15</table>
+		<table name="#maxHp">1.12 1.13 1.14</table>
+		<table name="#crit">50 50 50</table>
+		<table name="#critDam">1.09 1.1 1.1</table>
+		<table name="#STR">1 2 3</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<add stat="pCritRate" value="#crit"/>
+			<p_critical_damage value="#critDam" type="PER"/>
+			<add stat="STR" value="#STR"/>
+		</for>
+	</skill>
+	<skill id="102016" levels="3" name="Set Effect Robe - A">
+		<table name="#mAtk">1.15 1.17 1.2</table>
+		<table name="#mAtkSpd">1.2 1.2 1.2</table>
+		<table name="#maxHp">1.12 1.13 1.14</table>
+		<table name="#mCritRate">1.02 1.02 1.02</table>
+		<table name="#INTWIT">0 1 2</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="mCritRate" value="#mCritRate"/>
+			<add stat="INT" value="#INTWIT"/>
+			<add stat="WIT" value="#INTWIT"/>
+		</for>
+	</skill>
+	<!-- 
+		S
+	-->
+	<skill id="102017" levels="3" name="Set Effect Heavy - S">
+		<table name="#pAtk">1.13 1.14 1.15</table>
+		<table name="#pAtkSpd">1.13 1.14 1.15</table>
+		<table name="#maxHp">1.16 1.18 1.2</table>
+		<table name="#pmDef">1.16 1.18 1.2</table>
+		<table name="#STR">3 5 6</table>
+		<table name="#runSpd">10 10 10</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="pDef" value="#pmDef"/>
+			<mul stat="mDef" value="#pmDef"/>
+			<add stat="STR" value="#STR"/>
+			<add stat="runSpd" value="#runSpd"/>
+		</for>
+	</skill>
+	<skill id="102018" levels="3" name="Set Effect Light - S">
+		<table name="#pAtk">1.16 1.18 1.2</table>
+		<table name="#pAtkSpd">1.16 1.18 1.2</table>
+		<table name="#maxHp">1.15 1.16 1.17</table>
+		<table name="#crit">50 50 50</table>
+		<table name="#critDam">10 10 10</table>
+		<table name="#STR">3 5 6</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="pAtkSpd" value="#pAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<add stat="pCritRate" value="#crit"/>
+			<p_critical_damage value="#critDam" type="PER"/>
+			<add stat="STR" value="#STR"/>
+		</for>
+	</skill>
+	<skill id="102019" levels="3" name="Set Effect Robe - S">
+		<table name="#mAtk">1.21 1.23 1.25</table>
+		<table name="#mAtkSpd">1.21 1.23 1.25</table>
+		<table name="#maxHp">1.15 1.16 1.17</table>
+		<table name="#mCritRate">1.02 1.02 1.02</table>
+		<table name="#INTWIT">3 4 5</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="#mAtk"/>
+			<mul stat="mAtkSpd" value="#mAtkSpd"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<mul stat="mCritRate" value="#mCritRate"/>
+			<add stat="INT" value="#INTWIT"/>
+			<add stat="WIT" value="#INTWIT"/>
+		</for>
+	</skill>
+	<!-- 
+		R
+	-->
+	<skill id="102020" levels="1" name="Set Effect Heavy - R">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.2"/>
+			<mul stat="mDef" value="1.2"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.1"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.1"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.1"/>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<add stat="STR" value="18"/>
+			<add stat="CON" value="9"/>
+		</for>
+	</skill>
+	<skill id="102021" levels="1" name="Set Effect Light - R">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.15"/>
+			<p_critical_damage value="20" type="PER"/>
+			<mul stat="pDef" value="1.1"/>
+			<mul stat="mDef" value="1.1"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.1"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.1"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.1"/>
+			<add stat="STR" value="18"/>
+			<add stat="DEX" value="9"/>
+		</for>
+	</skill>
+	<skill id="102022" levels="1" name="Set Effect Robe - R">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_magic_critical_dmg value="20" type="PER"/>
+			<mul stat="mAtk" value="1.2"/>
+			<mul stat="pDef" value="1.1"/>
+			<mul stat="mDef" value="1.1"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.10"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.10"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.10"/>
+			<add stat="INT" value="18"/>
+			<add stat="WIT" value="9"/>
+		</for>
+	</skill>
+	<!-- 
+		R95
+	-->
+	<skill id="102023" levels="1" name="Set Effect Heavy - R95">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.23"/>
+			<mul stat="mDef" value="1.23"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.15"/>
+			<mul stat="maxHp" value="1.15"/>
+			<mul stat="maxMp" value="1.15"/>
+			<mul stat="maxCp" value="1.15"/>
+			<add stat="STR" value="20"/>
+			<add stat="CON" value="10"/>
+		</for>
+	</skill>
+	<skill id="102024" levels="1" name="Set Effect Light - R95">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.17"/>
+			<p_critical_damage value="23" type="PER"/>
+			<mul stat="pDef" value="1.15"/>
+			<mul stat="mDef" value="1.15"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.15"/>
+			<add stat="STR" value="20"/>
+			<add stat="DEX" value="10"/>
+		</for>
+	</skill>
+	<skill id="102025" levels="1" name="Set Effect Robe - R95">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_magic_critical_dmg value="23" type="PER"/>
+			<mul stat="mAtk" value="1.23"/>
+			<mul stat="pDef" value="1.15"/>
+			<mul stat="mDef" value="1.15"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.15"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.15"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.15"/>
+			<add stat="INT" value="20"/>
+			<add stat="WIT" value="10"/>
+		</for>
+	</skill>
+	<!-- 
+		R99
+	-->
+	<skill id="102026" levels="1" name="Set Effect Heavy - R99">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.26"/>
+			<mul stat="mDef" value="1.26"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.20"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.20"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.20"/>
+			<mul stat="maxHp" value="1.20"/>
+			<mul stat="maxMp" value="1.20"/>
+			<mul stat="maxCp" value="1.20"/>
+			<add stat="STR" value="22"/>
+			<add stat="CON" value="11"/>
+		</for>
+	</skill>
+	<skill id="102027" levels="1" name="Set Effect Light - R99">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.19"/>
+			<p_critical_damage value="26" type="PER"/>
+			<mul stat="pDef" value="1.20"/>
+			<mul stat="mDef" value="1.20"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.20"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.20"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.20"/>
+			<add stat="STR" value="22"/>
+			<add stat="DEX" value="11"/>
+		</for>
+	</skill>
+	<skill id="102028" levels="1" name="Set Effect Robe - R99">
+		<table name="#mAtk">1.15</table>
+		<table name="#mAtkSpd">1.15</table>
+		<table name="#pDef">1.05</table>
+		<table name="#maxHpMp">1.15</table>
+		<table name="#concentration">0.95</table>
+		<table name="#WIT">2</table>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_magic_critical_dmg value="26" type="PER"/>
+			<mul stat="mAtk" value="1.26"/>
+			<mul stat="pDef" value="1.20"/>
+			<mul stat="mDef" value="1.20"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.20"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.20"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.20"/>
+			<add stat="INT" value="22"/>
+			<add stat="WIT" value="11"/>
+		</for>
+	</skill>
+	<!-- 
+		R110
+	-->
+	<skill id="102029" levels="1" name="Set Effect Heavy - R110">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.35"/>
+			<mul stat="pAtkSpd" value="1.3"/>
+			<mul stat="pDef" value="1.6"/>
+			<mul stat="mDef" value="1.3"/>
+			<add stat="CON" value="1"/>
+			<add stat="runSpd" value="45"/>
+		</for>
+	</skill>
+	<skill id="102030" levels="1" name="Set Effect Light - R110">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.45"/>
+			<mul stat="pAtkSpd" value="1.35"/>
+			<mul stat="pDef" value="1.5"/>
+			<mul stat="mDef" value="1.25"/>
+			<add stat="STR" value="11"/>
+			<add stat="DEX" value="11"/>
+		</for>
+	</skill>
+	<skill id="102031" levels="1" name="Set Effect Robe - R110">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.7"/>
+			<mul stat="mAtkSpd" value="1.35"/>
+			<mul stat="pDef" value="1.5"/>
+			<mul stat="mDef" value="1.25"/>
+			<add stat="INT" value="11"/>
+			<add stat="WIT" value="11"/>
+		</for>
+	</skill>
+	<!-- 
+		R110
+	-->
+	<skill id="102032" levels="1" name="Set Effect Heavy - R110">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.45"/>
+			<mul stat="pAtkSpd" value="1.35"/>
+			<mul stat="pDef" value="1.7"/>
+			<mul stat="mDef" value="1.35"/>
+			<add stat="CON" value="13"/>
+			<add stat="runSpd" value="60"/>
+		</for>
+	</skill>
+	<skill id="102033" levels="1" name="Set Effect Light - R110">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.55"/>
+			<mul stat="pAtkSpd" value="1.4"/>
+			<mul stat="pDef" value="1.6"/>
+			<mul stat="mDef" value="1.3"/>
+			<add stat="STR" value="13"/>
+			<add stat="DEX" value="13"/>
+		</for>
+	</skill>
+	<skill id="102034" levels="1" name="Set Effect Robe - R110">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.85"/>
+			<mul stat="mAtkSpd" value="1.4"/>
+			<mul stat="pDef" value="1.6"/>
+			<mul stat="mDef" value="1.3"/>
+			<add stat="INT" value="13"/>
+			<add stat="WIT" value="13"/>
+		</for>
+	</skill>
+	<skill id="102035" levels="1" name="Антарас">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.6"/>
+			<mul stat="pAtkSpd" value="1.5"/>
+			<mul stat="pDef" value="1.85"/>
+			<mul stat="mDef" value="1.5"/>
+			<add stat="CON" value="16"/>
+			<add stat="runSpd" value="80"/>
+		</for>
+	</skill>
+	<skill id="102036" levels="1" name="Валакас">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.7"/>
+			<mul stat="pAtkSpd" value="1.55"/>
+			<mul stat="pDef" value="1.75"/>
+			<mul stat="mDef" value="1.45"/>
+			<add stat="STR" value="16"/>
+			<add stat="DEX" value="16"/>
+		</for>
+	</skill>
+	<skill id="102037" levels="1" name="Фунфырион">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="2.0"/>
+			<mul stat="mAtkSpd" value="1.5"/>
+			<mul stat="pDef" value="1.75"/>
+			<mul stat="mDef" value="1.45"/>
+			<add stat="INT" value="16"/>
+			<add stat="WIT" value="16"/>
+		</for>
+	</skill>
+</list>

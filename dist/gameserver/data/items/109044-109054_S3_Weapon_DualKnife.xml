@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <weapon id="109044" name="Оружие Реквиема - Парные Кинжалы">
+        <set name="icon" value="icon.dual_dagger_i00"/>
+        <set name="crystal_type" value="R"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="3896"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2100"/>
+        <skills>
+            <skill id="100029" level="1"/>	<!-- Умение Парных Кинжалов Ур.1 -->
+            <skill id="120204" level="1"/>
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="363"/>
+            <add stat="mAtk" order="0x10" value="163"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="109045" name="Оружие Апокалипсиса - Парные Кинжалы">
+        <set name="icon" value="icon.dual_dagger_i00"/>
+        <set name="crystal_type" value="R"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="5488"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <skills>
+            <skill id="100029" level="2"/>	<!-- Умение Парных Кинжалов Ур.2 -->
+            <skill id="120204" level="1"/>
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="396"/>
+            <add stat="mAtk" order="0x10" value="176"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="109046" name="Оружие Фантазмы - Парные Кинжалы">
+        <set name="icon" value="icon.dual_dagger_i00"/>
+        <set name="crystal_type" value="R95"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="6581"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <skills>
+            <skill id="100029" level="3"/>	<!-- Умение Парных Кинжалов Ур.3 -->
+            <skill id="120204" level="1"/>
+            <skill id="120205" level="1"/>
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="415"/>
+            <add stat="mAtk" order="0x10" value="183"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="109047" name="Оружие Хелиоса - Парные Кинжалы">
+        <set name="icon" value="icon.dual_dagger_i00"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="7613"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <skills>
+            <skill id="100029" level="4"/>	<!-- Умение Парных Кинжалов Ур.4 -->
+            <skill id="120204" level="1"/>
+            <skill id="120205" level="1"/>
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="437"/>
+            <add stat="mAtk" order="0x10" value="192"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="109048" name="Оружие Хелиоса PVE - Парные Кинжалы">
+        <set name="icon" value="icon.weapon_r_dualdagger_i00"/>
+        <set name="crystal_type" value="R99"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="4092"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100029" level="5"/>	<!-- Умение Парных Кинжалов Ур.5 -->
+            <skill id="120204" level="1"/>
+            <skill id="120205" level="1"/>
+            <skill id="120206" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="530"/>
+            <add stat="mAtk" order="0x10" value="219"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="109049" name="Оружие Хелиоса PVP - Парные Кинжалы">
+        <set name="icon" value="icon.weapon_r_dualdagger_i00"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100029" level="6"/>	<!-- Умение Парных Кинжалов Ур.6 -->
+            <skill id="120204" level="1"/>
+            <skill id="120205" level="1"/>
+            <skill id="120206" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="580"/>
+            <add stat="mAtk" order="0x10" value="254"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="109050" name="Оружие Безмятежного - Парные Кинжалы">
+        <set name="icon" value="icon.weapon_r_dualdagger_i00"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="16553"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100029" level="7"/>	<!-- Умение Парных Кинжалов Ур.7 -->
+            <skill id="120204" level="1"/>
+            <skill id="120205" level="1"/>
+            <skill id="120206" level="1"/>
+            <skill id="120201" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="630"/>
+            <add stat="mAtk" order="0x10" value="278"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="109051" name="Оружие Усиленного Безмятежного - Парные Кинжалы">
+        <set name="icon" value="icon.weapon_r_dualdagger_i00"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="16553"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100029" level="8"/>	<!-- Умение Парных Кинжалов Ур.8 -->
+            <skill id="120204" level="1"/>
+            <skill id="120205" level="1"/>
+            <skill id="120206" level="1"/>
+            <skill id="120201" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="750"/>
+            <add stat="mAtk" order="0x10" value="278"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="109052" name="Оружие Темного Безмятежного - Парные Кинжалы">
+        <set name="icon" value="icon.weapon_r_dualdagger_i00"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="16553"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100029" level="9"/>	<!-- Умение Парных Кинжалов Ур.9 -->
+            <skill id="120204" level="1"/>
+            <skill id="120205" level="1"/>
+            <skill id="120206" level="1"/>
+            <skill id="120201" level="1"/>
+            <skill id="120203" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="870"/>
+            <add stat="mAtk" order="0x10" value="278"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="109053" name="Оружие Предельного Безмятежного - Парные Кинжалы">
+        <set name="icon" value="icon.weapon_r_dualdagger_i00"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="16553"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100029" level="10"/>	<!-- Умение Парных Кинжалов Ур.10 -->
+            <skill id="120204" level="1"/>
+            <skill id="120205" level="1"/>
+            <skill id="120206" level="1"/>
+            <skill id="120201" level="1"/>
+            <skill id="120203" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="990"/>
+            <add stat="mAtk" order="0x10" value="278"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="109054" name="Оружие Бессмертия Безмятежного - Парные Кинжалы">
+        <set name="icon" value="icon.weapon_r_dualdagger_i00"/>
+        <set name="crystal_type" value="R110"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="crystal_count" value="16553"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="100029" level="11"/>	<!-- Умение Парных Кинжалов Ур.11 -->
+            <skill id="120204" level="1"/>
+            <skill id="120205" level="1"/>
+            <skill id="120206" level="1"/>
+            <skill id="120201" level="1"/>
+            <skill id="120203" level="1"/>
+            <skill id="120246" level="1"/>
+        </skills>
+        <for>
+            <add stat="pAtk" order="0x10" value="1100"/>
+            <add stat="mAtk" order="0x10" value="278"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+</list>

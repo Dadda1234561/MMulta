@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "agathions.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<agathion npc_id="16028" id="1"/>
+	<agathion npc_id="16027" id="2"/>
+	<agathion npc_id="16026" id="3"/>
+	<agathion npc_id="16029" id="4"/>
+	<agathion npc_id="16031" id="5"/>
+	<agathion npc_id="16032" id="6"/>
+	<agathion npc_id="16033" id="7"/>
+	<agathion npc_id="16049" id="8"/>
+	<agathion npc_id="16054" id="9"/>
+	<agathion npc_id="16055" id="10"/>
+	<agathion npc_id="16056" id="11"/>
+	<agathion npc_id="16057" id="12"/>
+	<agathion npc_id="16058" id="13"/>
+	<agathion npc_id="16059" id="14"/>
+	<agathion npc_id="16060" id="15"/>
+	<agathion npc_id="16061" id="16"/>
+	<agathion npc_id="16062" id="17"/>
+	<agathion npc_id="16063" id="18" delay="300" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="6121" level="1" target_type="MASTER" delay="600"/>	<!--Agathion's New Year's Gift 1-->
+		<time_skill id="6122" level="1" target_type="MASTER" delay="4200"/>	<!--Agathion's New Year's Gift 2-->
+		<time_skill id="6123" level="1" target_type="MASTER" delay="660"/>	<!--Agathion's New Year's Wish-->
+	</agathion>
+	<agathion npc_id="16064" id="19"/>
+	<agathion npc_id="16065" id="20"/>
+	<agathion npc_id="16066" id="21"/>
+	<agathion npc_id="16069" id="22"/>
+	<agathion npc_id="16070" id="23" delay="300" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="6239" level="1" target_type="MASTER" delay="1800"/>	<!--Proof of Space and Time-->
+	</agathion>
+	<agathion npc_id="16073" id="24" delay="300" max_count="30000" use_up="INCREASE_DELAY" power="1026" target_type="MASTER"/>
+	<agathion npc_id="16074" id="25" delay="300" max_count="30000" use_up="INCREASE_DELAY" power="1026" target_type="MASTER"/>
+	<agathion npc_id="16075" id="26" delay="300" max_count="30000" use_up="INCREASE_DELAY" power="1026" target_type="MASTER"/>
+	<agathion npc_id="16076" id="27" delay="300" max_count="30000" use_up="INCREASE_DELAY" power="1026" target_type="MASTER"/>
+	<agathion npc_id="16077" id="28"/>
+	<agathion npc_id="16078" id="29"/>
+	<agathion npc_id="16079" id="30"/>
+	<agathion npc_id="16080" id="31"/>
+	<agathion npc_id="16082" id="32" delay="300" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="9235" level="1" target_type="MASTER" delay="600" reuse="DAILY"/>	<!--Gift of Tersi's Light 1-->
+		<time_skill id="9236" level="1" target_type="MASTER" delay="1800" reuse="DAILY"/>	<!--Gift of Tersi's Light 2-->
+		<time_skill id="9237" level="1" target_type="MASTER" delay="3600" reuse="DAILY"/>	<!--Gift of Tersi's Light 3-->
+		<time_skill id="9238" level="1" target_type="MASTER" delay="5400" reuse="DAILY"/>	<!--Gift of Tersi's Light 4-->
+		<time_skill id="9239" level="1" target_type="MASTER" delay="7200" reuse="DAILY"/>	<!--Gift of Tersi's Light 5-->
+	</agathion>
+	<agathion npc_id="16083" id="33" delay="300" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="9315" level="1" target_type="MASTER" delay="3600" reuse="DAILY"/>	<!--Agathion's Gift 1-->
+		<time_skill id="9316" level="1" target_type="MASTER" delay="7200" reuse="DAILY"/>	<!--Agathion's Gift 2-->
+		<time_skill id="9317" level="1" target_type="MASTER" delay="10800" reuse="DAILY"/>	<!--Agathion's Gift 3-->
+	</agathion>
+	<agathion npc_id="16084" id="34" delay="300" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="9315" level="1" target_type="MASTER" delay="3600" reuse="DAILY"/>	<!--Agathion's Gift 1-->
+		<time_skill id="9316" level="1" target_type="MASTER" delay="7200" reuse="DAILY"/>	<!--Agathion's Gift 2-->
+		<time_skill id="9317" level="1" target_type="MASTER" delay="10800" reuse="DAILY"/>	<!--Agathion's Gift 3-->
+	</agathion>
+	<agathion npc_id="16085" id="35" delay="300" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="9315" level="1" target_type="MASTER" delay="3600" reuse="DAILY"/>	<!--Agathion's Gift 1-->
+		<time_skill id="9316" level="1" target_type="MASTER" delay="7200" reuse="DAILY"/>	<!--Agathion's Gift 2-->
+		<time_skill id="9317" level="1" target_type="MASTER" delay="10800" reuse="DAILY"/>	<!--Agathion's Gift 3-->
+	</agathion>
+	<agathion npc_id="16086" id="36" delay="300" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="9315" level="1" target_type="MASTER" delay="3600" reuse="DAILY"/>	<!--Agathion's Gift 1-->
+		<time_skill id="9316" level="1" target_type="MASTER" delay="7200" reuse="DAILY"/>	<!--Agathion's Gift 2-->
+		<time_skill id="9317" level="1" target_type="MASTER" delay="10800" reuse="DAILY"/>	<!--Agathion's Gift 3-->
+	</agathion>
+	<agathion npc_id="16087" id="37" delay="1" max_count="30000" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="13376" level="1" target_type="MASTER" delay="250"/>	<!--XP Bottle's Divine Power-->
+	</agathion>
+	<agathion npc_id="16088" id="38"/>
+	<agathion npc_id="16089" id="39"/>
+	<agathion npc_id="16090" id="40"/>
+	<agathion npc_id="16091" id="41"/>
+	<agathion npc_id="16092" id="42"/>
+	<agathion npc_id="16093" id="43" target_type="MASTER">
+		<time_skill id="15209" level="1" target_type="MASTER" delay="1800" reuse="DAILY"/>	<!--Pa'agrio's Gift 1-->
+		<time_skill id="15210" level="1" target_type="MASTER" delay="3600" reuse="DAILY"/>	<!--Pa'agrio's Gift 2-->
+		<time_skill id="15211" level="1" target_type="MASTER" delay="5400" reuse="DAILY"/>	<!--Pa'agrio's Gift 3-->
+		<time_skill id="15212" level="1" target_type="MASTER" delay="7200" reuse="DAILY"/>	<!--Pa'agrio's Gift 4-->
+	</agathion>
+	<agathion npc_id="16098" id="44" delay="1" max_count="30000" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="15325" level="1" target_type="MASTER" delay="250"/>	<!--Hour of Penitence-->
+	</agathion>
+	<agathion npc_id="16099" id="45" delay="1" max_count="30000" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="15326" level="1" target_type="MASTER" delay="250"/>	<!--Hour of Penitence-->
+	</agathion>
+	<agathion npc_id="16100" id="46" delay="1" max_count="30000" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="15327" level="1" target_type="MASTER" delay="250"/>	<!--Hour of Penitence-->
+	</agathion>
+	<agathion npc_id="16101" id="47" delay="1" max_count="30000" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="15328" level="1" target_type="MASTER" delay="250"/>	<!--Hour of Penitence-->
+	</agathion>
+	<agathion npc_id="16102" id="48" delay="1" max_count="30000" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="15329" level="1" target_type="MASTER" delay="250"/>	<!--Hour of Penitence-->
+	</agathion>
+	<agathion npc_id="1501" id="501"/>
+	<agathion npc_id="1502" id="502"/>
+	<agathion npc_id="1503" id="503"/>
+	<agathion npc_id="1504" id="504"/>
+	<agathion npc_id="1505" id="505"/>
+	<agathion npc_id="1506" id="506"/>
+	<agathion npc_id="1507" id="507"/>
+	<agathion npc_id="1508" id="508"/>
+	<agathion npc_id="1509" id="509"/>
+	<agathion npc_id="1510" id="510"/>
+	<agathion npc_id="1511" id="511"/>
+	<agathion npc_id="1512" id="512"/>
+	<agathion npc_id="1513" id="513"/>
+	<agathion npc_id="1514" id="514"/>
+	<agathion npc_id="1515" id="515"/>
+	<agathion npc_id="1516" id="516"/>
+	<agathion npc_id="1517" id="517"/>
+	<agathion npc_id="1518" id="518"/>
+	<agathion npc_id="1519" id="519"/>
+	<agathion npc_id="1520" id="520"/>
+	<agathion npc_id="1521" id="521"/>
+	<agathion npc_id="1522" id="522"/>
+	<agathion npc_id="1523" id="523"/>
+	<agathion npc_id="1524" id="524"/>
+	<agathion npc_id="1525" id="525"/>
+	<agathion npc_id="1526" id="526"/>
+	<agathion npc_id="1527" id="527"/>
+	<agathion npc_id="1528" id="528"/>
+	<agathion npc_id="1529" id="529"/>
+	<agathion npc_id="1530" id="530"/>
+	<agathion npc_id="1531" id="531"/>
+	<agathion npc_id="1532" id="532"/>
+	<agathion npc_id="1533" id="533"/>
+	<agathion npc_id="1534" id="534"/>
+	<agathion npc_id="1535" id="535"/>
+	<agathion npc_id="1536" id="536"/>
+	<agathion npc_id="1537" id="537"/>
+	<agathion npc_id="1539" id="539" item_ids="20818" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1540" id="540" item_ids="20820" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1541" id="541" item_ids="20822" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1542" id="542" item_ids="20824" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1543" id="543" item_ids="20826" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1544" id="544" item_ids="20828" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1545" id="545" item_ids="20830" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1546" id="546" item_ids="20832" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1547" id="547" item_ids="20834" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1548" id="548" item_ids="20836" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1549" id="549" item_ids="20838" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1550" id="550" item_ids="20840" energy="100000" max_energy="100000"/>
+	<agathion npc_id="1551" id="551"/>
+	<agathion npc_id="1552" id="552" delay="13" max_count="300" use_up="INCREASE_DELAY" power="0" target_type="HEAL">
+		<skill chance="100" id="23126" level="1">  <!--Gwanseum Nyang Nyang Agathion Special Skill - Blessing of Mercy-->
+			<chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+			<chance min_hp_percent="31" max_hp_percent="60" value="33"/>
+			<chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+		</skill>
+	</agathion>
+	<agathion npc_id="1553" id="553" delay="13" max_count="300" use_up="INCREASE_DELAY" power="0" target_type="HEAL">
+		<skill chance="100" id="23128" level="1">  <!--Blue Opera Agathion Special Skill - Sword of Recovery-->
+			<chance min_hp_percent="0" max_hp_percent="30" value="53"/>
+			<chance min_hp_percent="31" max_hp_percent="60" value="33"/>
+			<chance min_hp_percent="61" max_hp_percent="90" value="13"/>
+		</skill>
+	</agathion>
+	<agathion npc_id="1554" id="554" delay="10" max_count="300" use_up="INCREASE_DELAY" power="82" target_type="TARGET">
+		<op_cond type="GREATER" hp_percent="33" hp="1000"/>
+		<skill chance="100" id="23131" level="1" use_chance="12"/>  <!--Red Opera Agathion Special Skill - Spear of Flames-->
+	</agathion>
+	<agathion npc_id="1555" id="555"/>
+	<agathion npc_id="1556" id="556"/>
+	<agathion npc_id="1557" id="557"/>
+	<agathion npc_id="1558" id="558"/>
+	<agathion npc_id="1559" id="559"/>
+	<agathion npc_id="1560" id="560" delay="10" max_count="300" use_up="INCREASE_DELAY" power="82" target_type="TARGET">
+		<op_cond type="GREATER" hp_percent="33" hp="1000"/>
+		<skill chance="100" id="23129" level="1" use_chance="12"/>  <!--Blue Opera Agathion Special Skill - Sword of Water-->
+	</agathion>
+	<agathion npc_id="1574" id="574"/>
+	<agathion npc_id="1575" id="575" delay="300" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="23448" level="1" target_type="MASTER" delay="600" reuse="DAILY"/>	<!--Blessed Three-headed Dragon's Egg-->
+	</agathion>
+	<agathion npc_id="1576" id="576" item_ids="20983" energy="1000" max_energy="1000"/>
+	<agathion npc_id="1577" id="577" item_ids="20984" energy="1000" max_energy="1000"/>
+	<agathion npc_id="1578" id="578" item_ids="20985" energy="1000" max_energy="1000"/>
+	<agathion npc_id="1579" id="579" item_ids="20986" energy="1000" max_energy="1000"/>
+	<agathion npc_id="1580" id="580" item_ids="20987" energy="1000" max_energy="1000"/>
+	<agathion npc_id="1581" id="581" item_ids="20988" energy="1000" max_energy="1000"/>
+	<agathion npc_id="1582" id="582" item_ids="20989" energy="1000" max_energy="1000"/>
+	<agathion npc_id="1583" id="583" item_ids="20990" energy="1000" max_energy="1000"/>
+	<agathion npc_id="1584" id="584" item_ids="20991" energy="1000" max_energy="1000"/>
+	<agathion npc_id="1585" id="585"/>
+	<agathion npc_id="1586" id="586"/>
+	<agathion npc_id="1587" id="587"/>
+	<agathion npc_id="1588" id="588"/>
+	<agathion npc_id="1589" id="589"/>
+	<agathion npc_id="1590" id="590"/>
+	<agathion npc_id="1591" id="591"/>
+	<agathion npc_id="1592" id="592"/>
+	<agathion npc_id="1593" id="593"/>
+	<agathion npc_id="1594" id="594"/>
+	<agathion npc_id="1595" id="595"/>
+	<agathion npc_id="1596" id="596"/>
+	<agathion npc_id="1597" id="597"/>
+	<agathion npc_id="1598" id="598" delay="600" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="23297" level="1" target_type="MASTER" delay="600"/>	<!--Santa Claus's Blessing-->
+	</agathion>
+	<agathion npc_id="1599" id="599"/>
+	<agathion npc_id="1600" id="600"/>
+	<agathion npc_id="1604" id="601" delay="300" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="23329" level="1" target_type="MASTER" delay="600" reuse="DAILY"/>	<!--Lantern Agathion's Gift1-->
+		<time_skill id="23330" level="1" target_type="MASTER" delay="4200" reuse="DAILY"/>	<!--Lantern Agathion's Gift2-->
+		<time_skill id="23333" level="1" target_type="MASTER" delay="660" reuse="DAILY"/>	<!--Agathion's New Year's Wish-->
+		<time_skill id="23331" level="1" target_type="MASTER" delay="7800" reuse="DAILY"/>	<!--Lantern Agathion's Gift3-->
+		<time_skill id="23332" level="1" target_type="MASTER" delay="11400" reuse="DAILY"/>	<!--Lantern Agathion's Gift4-->
+	</agathion>
+	<agathion npc_id="1605" id="605" delay="300" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="23337" level="1" target_type="MASTER" delay="600" reuse="DAILY"/>	<!--Juju Agathion's Gift 1-->
+		<time_skill id="23338" level="1" target_type="MASTER" delay="4200" reuse="DAILY"/>	<!--Juju Agathion's Gift 2-->
+		<time_skill id="23335" level="1" target_type="MASTER" delay="660" reuse="DAILY"/>	<!--Agathion's New Year's Wish-->
+		<time_skill id="23339" level="1" target_type="MASTER" delay="7800" reuse="DAILY"/>	<!--Juju Agathion's Gift 3-->
+		<time_skill id="23340" level="1" target_type="MASTER" delay="11400" reuse="DAILY"/>	<!--Juju Agathion's Gift 4-->
+	</agathion>
+	<agathion npc_id="1606" id="606"/>
+	<agathion npc_id="1607" id="607"/>
+	<agathion npc_id="1608" id="608"/>
+	<agathion npc_id="1609" id="609"/>
+	<agathion npc_id="1610" id="610"/>
+	<agathion npc_id="1611" id="611"/>
+	<agathion npc_id="1612" id="612"/>
+	<agathion npc_id="1539" id="613" item_ids="23152" energy="200000" max_energy="200000"/>
+	<agathion npc_id="1540" id="614" item_ids="23153" energy="200000" max_energy="200000"/>
+	<agathion npc_id="1541" id="615" item_ids="23154" energy="200000" max_energy="200000"/>
+	<agathion npc_id="1542" id="616" item_ids="23155" energy="200000" max_energy="200000"/>
+	<agathion npc_id="1543" id="617" item_ids="23156" energy="200000" max_energy="200000"/>
+	<agathion npc_id="1544" id="618" item_ids="23157" energy="200000" max_energy="200000"/>
+	<agathion npc_id="1545" id="619" item_ids="23158" energy="200000" max_energy="200000"/>
+	<agathion npc_id="1546" id="620" item_ids="23159" energy="200000" max_energy="200000"/>
+	<agathion npc_id="1547" id="621" item_ids="23160" energy="200000" max_energy="200000"/>
+	<agathion npc_id="1548" id="622" item_ids="23161" energy="200000" max_energy="200000"/>
+	<agathion npc_id="1549" id="623" item_ids="23162" energy="200000" max_energy="200000"/>
+	<agathion npc_id="1550" id="624" item_ids="23163" energy="200000" max_energy="200000"/>
+	<agathion npc_id="16055" id="625" delay="300" max_count="300" use_up="INCREASE_DELAY" power="1026" target_type="MASTER">
+		<time_skill id="23566" level="1" target_type="MASTER" delay="600" reuse="DAILY"/>	<!--Blessed Griffin Egg-->
+	</agathion>
+	<agathion npc_id="8537" id="626"/>
+	<agathion npc_id="8550" id="8550"/>
+	<agathion npc_id="8579" id="8579"/>
+	<agathion npc_id="8580" id="8580"/>
+	<agathion npc_id="8581" id="8581"/>
+	<agathion npc_id="8582" id="8582"/>
+	<agathion npc_id="8583" id="8583"/>
+	<agathion npc_id="8584" id="8584"/>
+	<agathion npc_id="8585" id="8585"/>
+	<agathion npc_id="8586" id="8586"/>
+	<agathion npc_id="8587" id="8587"/>
+	<agathion npc_id="8588" id="8588"/>
+	<agathion npc_id="8589" id="8589"/>
+	<agathion npc_id="8590" id="8590"/>
+	<agathion npc_id="8591" id="8591"/>
+	<agathion npc_id="8592" id="8592"/>
+	<agathion npc_id="8593" id="8593"/>
+	<agathion npc_id="8594" id="8594"/>
+	<agathion npc_id="8595" id="8595"/>
+	<agathion npc_id="8596" id="8596"/>
+	<agathion npc_id="8597" id="8597"/>
+	<agathion npc_id="8598" id="8598"/>
+	<agathion npc_id="8599" id="8599"/>
+	<agathion npc_id="8600" id="8600"/>
+	<agathion npc_id="8601" id="8601"/>
+	<agathion npc_id="8602" id="8602"/>
+	<agathion npc_id="8603" id="8603"/>
+	<agathion npc_id="8604" id="8604"/>
+	<agathion npc_id="8605" id="8605"/>
+	<agathion npc_id="8606" id="8606"/>
+	<agathion npc_id="8607" id="8607"/>
+	<agathion npc_id="8608" id="8608"/>
+	<agathion npc_id="8609" id="8609"/>
+	<agathion npc_id="8610" id="8610"/>
+	<agathion npc_id="8611" id="8611"/>
+	<agathion npc_id="8612" id="8612"/>
+	<agathion npc_id="8613" id="8613"/>
+	<agathion npc_id="8614" id="8614"/>
+	<agathion npc_id="10000" id="10000" delete_on_masters_death="false" />
+	<agathion npc_id="13407" id="13407"/>
+	<agathion npc_id="13408" id="13408"/>
+	<agathion npc_id="13409" id="13409"/>
+	<agathion npc_id="13410" id="13410"/>
+	<agathion npc_id="13411" id="13411"/>
+	<agathion npc_id="13412" id="13412"/>
+	<agathion npc_id="13414" id="13414"/>
+	<agathion npc_id="13415" id="13415"/>
+	<agathion npc_id="13416" id="13416"/>
+	<agathion npc_id="13417" id="13417"/>
+	<agathion npc_id="13418" id="13418"/>
+	<agathion npc_id="13446" id="13446"/>
+	<agathion npc_id="13447" id="13447"/>
+</list>

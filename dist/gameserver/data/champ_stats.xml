@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE list SYSTEM "champ_stats.dtd">
+<list>
+    <!-- Additional drop configuration -->
+    <!-- Remove npc_list if white list is not required -->
+    <!-- Min and Max levels are 1 and 99 by default -->
+
+
+    <!-- Настройка ХФ Чемпионов  -->
+    <champion level="1">
+        <mul stat="maxHp" value="5"/>
+        <mul stat="maxMp" value="2"/>
+        <mul stat="mAtk" value="2"/>
+        <mul stat="pAtk" value="3"/>
+        <mul stat="pDef" value="1"/>
+        <mul stat="mDef" value="1"/>
+        <mul stat="exp_rate_multiplier" value="2"/>
+        <mul stat="sp_rate_multiplier" value="2"/>
+        <mul stat="adena_rate_multiplier" value="5"/>
+        <mul stat="drop_count_modifier" value="5"/>
+        <mul stat="spoil_count_modifier" value="5"/>
+    </champion>
+    <champion level="2">
+        <mul stat="maxHp" value="15"/>
+        <mul stat="maxMp" value="4"/>
+        <mul stat="mAtk" value="4"/>
+        <mul stat="pAtk" value="15"/>
+        <mul stat="pDef" value="1"/>
+        <mul stat="mDef" value="1"/>
+        <mul stat="exp_rate_multiplier" value="10"/>
+        <mul stat="sp_rate_multiplier" value="10"/>
+        <mul stat="adena_rate_multiplier" value="10"/>
+        <mul stat="drop_count_modifier" value="10"/>
+        <mul stat="spoil_count_modifier" value="10"/>
+    </champion>
+    <champion level="3">
+        <mul stat="maxHp" value="30"/>
+        <mul stat="maxMp" value="6"/>
+        <mul stat="mAtk" value="6"/>
+        <mul stat="pAtk" value="25"/>
+        <mul stat="pDef" value="1.5"/>
+        <mul stat="mDef" value="1.5"/>
+        <mul stat="exp_rate_multiplier" value="15"/>
+        <mul stat="sp_rate_multiplier" value="15"/>
+        <mul stat="adena_rate_multiplier" value="15"/>
+        <mul stat="drop_count_modifier" value="15"/>
+        <mul stat="spoil_count_modifier" value="15"/>
+    </champion>
+    <champion level="4">
+        <mul stat="maxHp" value="40"/>
+        <mul stat="maxMp" value="15"/>
+        <mul stat="mAtk" value="15"/>
+        <mul stat="pAtk" value="35"/>
+        <mul stat="pDef" value="1.5"/>
+        <mul stat="mDef" value="1.5"/>
+        <mul stat="exp_rate_multiplier" value="15"/>
+        <mul stat="sp_rate_multiplier" value="15"/>
+        <mul stat="adena_rate_multiplier" value="20"/>
+        <mul stat="drop_count_modifier" value="20"/>
+        <mul stat="spoil_count_modifier" value="20"/>
+    </champion>
+    <champion level="5">
+        <mul stat="maxHp" value="55"/>
+        <mul stat="maxMp" value="20"/>
+        <mul stat="mAtk" value="20"/>
+        <mul stat="pAtk" value="45"/>
+        <mul stat="pDef" value="2"/>
+        <mul stat="mDef" value="2"/>
+        <mul stat="exp_rate_multiplier" value="20"/>
+        <mul stat="sp_rate_multiplier" value="20"/>
+        <mul stat="adena_rate_multiplier" value="30"/>
+        <mul stat="drop_count_modifier" value="30"/>
+        <mul stat="spoil_count_modifier" value="30"/>
+    </champion>
+
+    <!-- Настройка Мейн Чемпионов  -->
+    <champion level="11">
+        <mul stat="maxHp" value="2"/>
+        <mul stat="maxMp" value="2"/>
+        <mul stat="mAtk" value="2"/>
+        <mul stat="pAtk" value="3"/>
+        <mul stat="pDef" value="1"/>
+        <mul stat="mDef" value="1"/>
+        <mul stat="exp_rate_multiplier" value="2"/>
+        <mul stat="sp_rate_multiplier" value="2"/>
+        <mul stat="adena_rate_multiplier" value="2"/>
+        <mul stat="drop_count_modifier" value="2"/>
+        <mul stat="spoil_count_modifier" value="2"/>
+    </champion>
+    <champion level="12">
+        <mul stat="maxHp" value="4"/>
+        <mul stat="maxMp" value="4"/>
+        <mul stat="mAtk" value="4"/>
+        <mul stat="pAtk" value="15"/>
+        <mul stat="pDef" value="1"/>
+        <mul stat="mDef" value="1"/>
+        <mul stat="exp_rate_multiplier" value="4"/>
+        <mul stat="sp_rate_multiplier" value="4"/>
+        <mul stat="adena_rate_multiplier" value="4"/>
+        <mul stat="drop_count_modifier" value="4"/>
+        <mul stat="spoil_count_modifier" value="4"/>
+    </champion>
+    <champion level="13">
+        <mul stat="maxHp" value="7"/>
+        <mul stat="maxMp" value="6"/>
+        <mul stat="mAtk" value="6"/>
+        <mul stat="pAtk" value="25"/>
+        <mul stat="pDef" value="1"/>
+        <mul stat="mDef" value="1"/>
+        <mul stat="exp_rate_multiplier" value="7"/>
+        <mul stat="sp_rate_multiplier" value="7"/>
+        <mul stat="adena_rate_multiplier" value="7"/>
+        <mul stat="drop_count_modifier" value="7"/>
+        <mul stat="spoil_count_modifier" value="7"/>
+    </champion>
+    <champion level="14">
+        <mul stat="maxHp" value="15"/>
+        <mul stat="maxMp" value="15"/>
+        <mul stat="mAtk" value="15"/>
+        <mul stat="pAtk" value="35"/>
+        <mul stat="pDef" value="1"/>
+        <mul stat="mDef" value="1"/>
+        <mul stat="exp_rate_multiplier" value="15"/>
+        <mul stat="sp_rate_multiplier" value="15"/>
+        <mul stat="adena_rate_multiplier" value="15"/>
+        <mul stat="drop_count_modifier" value="15"/>
+        <mul stat="spoil_count_modifier" value="15"/>
+    </champion>
+    <champion level="15">
+        <mul stat="maxHp" value="25"/>
+        <mul stat="maxMp" value="20"/>
+        <mul stat="mAtk" value="20"/>
+        <mul stat="pAtk" value="45"/>
+        <mul stat="pDef" value="1"/>
+        <mul stat="mDef" value="1"/>
+        <mul stat="exp_rate_multiplier" value="25"/>
+        <mul stat="sp_rate_multiplier" value="25"/>
+        <mul stat="adena_rate_multiplier" value="25"/>
+        <mul stat="drop_count_modifier" value="25"/>
+        <mul stat="spoil_count_modifier" value="25"/>
+    </champion>
+
+    <additional_drop>
+        <champion level="1">
+        </champion>
+        <champion level="2">
+            <item id="106452" min_cnt="7" max_cnt="15" chance="800000" min_level="70" max_level="80" npc_list="22634;22635;22636;22637;22638;22639;22640;22641;22642;22643;22644;22645;22646;22647;22648;22649;21396;21397;21398;21399;21400;21401;21402;21403;21404;21405;21406;21407;21408;21409;21410;21411;21412;21413;21414;21415;21416;21417;21418;21419;21420;21421;21422;21423;21424;21425;21426;21427;21428;21429;21430;21431;21432;21433;21798;21799;21800" />
+            <item id="106453" min_cnt="15" max_cnt="20" chance="800000" min_level="70" max_level="99" npc_list="24655;24651;24657;24656;24653;24654;24652;24658"/>
+        </champion>
+        <champion level="3">
+            <item id="106455" min_cnt="12" max_cnt="15" chance="800000" min_level="1" max_level="99" npc_list="22752;22749;22746;22747;22748;22750;22751;22753;22754;22755;22757;22759;22758;22756;22760;22762;22761;22763;22765;22764"/>
+            <item id="106453" min_cnt="25" max_cnt="30" chance="800000" min_level="1" max_level="99" npc_list="22822;22824;22826;22852;22861"/>
+            <item id="106454" min_cnt="11" max_cnt="14" chance="800000" min_level="1" max_level="99" npc_list="22661;22662;22663;22664;22665;22668;22669"/>
+			<item id="106454" min_cnt="8" max_cnt="11" chance="800000" min_level="1" max_level="99" npc_list="22839;22840;22841;22838;22844;22843;22842"/> 
+        </champion>
+        <champion level="4">
+            <item id="106455" min_cnt="17" max_cnt="20" chance="800000" min_level="1" max_level="99" npc_list="22752;22749;22746;22747;22748;22750;22751;22753;22754;22755;22757;22759;22758;22756;22760;22762;22761;22763;22765;22764"/>
+            <item id="106456" min_cnt="10" max_cnt="15" chance="800000" min_level="1" max_level="99" npc_list="24578;24579;24840;24577"/>
+            <item id="106454" min_cnt="16" max_cnt="20" chance="800000" min_level="1" max_level="99" npc_list="22661;22662;22663;22664;22665;22668;22669"/>
+			<item id="106454" min_cnt="12" max_cnt="15" chance="800000" min_level="1" max_level="99" npc_list="22839;22840;22841;22838;22844;22843;22842"/>
+        </champion>
+        <champion level="5">
+            <item id="106456" min_cnt="17" max_cnt="25" chance="800000" min_level="1" max_level="99" npc_list="24578;24579;24840;24577"/>
+            <item id="106455" min_cnt="23" max_cnt="25" chance="800000" min_level="1" max_level="99" npc_list="22752;22749;22746;22747;22748;22750;22751;22753;22754;22755;22757;22759;22758;22756;22760;22762;22761;22763;22765;22764"/>
+            <item id="106454" min_cnt="15" max_cnt="18" chance="800000" min_level="1" max_level="99" npc_list="22839;22840;22841;22838;22844;22843;22842"/>
+        </champion>
+        <champion level="11">
+        </champion>
+        <champion level="12">
+        </champion>
+        <champion level="13">
+            <item id="70015" min_cnt="5" max_cnt="10" chance="800000" min_level="86" max_level="120" npc_list="40523;40526;40525;40524;40522"/>
+            <item id="70040" min_cnt="4" max_cnt="8" chance="800000" min_level="86" max_level="120" npc_list="23507;23509;23508;23506;23505;23510;23511;23512"/>
+            <item id="70014" min_cnt="3" max_cnt="6" chance="800000" min_level="86" max_level="120" npc_list="40503;40505;40504"/>
+            <item id="70044" min_cnt="5" max_cnt="10" chance="800000" min_level="86" max_level="120" npc_list="40538;40537;40536"/>
+            <item id="70045" min_cnt="4" max_cnt="8" chance="800000" min_level="86" max_level="120" npc_list="40528;40530;40527;40529"/>
+            <item id="70030" min_cnt="3" max_cnt="6" chance="800000" min_level="86" max_level="120" npc_list="40518;40520;40516;40519;40517"/>
+        </champion>
+        <champion level="14">
+            <item id="70015" min_cnt="10" max_cnt="15" chance="800000" min_level="86" max_level="120" npc_list="40523;40526;40525;40524;40522"/>
+            <item id="70040" min_cnt="9" max_cnt="13" chance="800000" min_level="86" max_level="120" npc_list="23507;23509;23508;23506;23505;23510;23511;23512"/>
+            <item id="70014" min_cnt="8" max_cnt="11" chance="800000" min_level="86" max_level="120" npc_list="40503;40505;40504"/>
+            <item id="70044" min_cnt="10" max_cnt="15" chance="800000" min_level="86" max_level="120" npc_list="40538;40537;40536"/>
+            <item id="70045" min_cnt="9" max_cnt="13" chance="800000" min_level="86" max_level="120" npc_list="40528;40530;40527;40529"/>
+            <item id="70030" min_cnt="8" max_cnt="11" chance="800000" min_level="86" max_level="120" npc_list="40518;40520;40516;40519;40517"/>
+			<item id="110625" min_cnt="3" max_cnt="5" chance="800000" min_level="86" max_level="120" npc_list="40560;40561;40563"/>
+			<item id="110626" min_cnt="3" max_cnt="5" chance="800000" min_level="86" max_level="120" npc_list="40506;40508;40509"/>
+        </champion>
+        <champion level="15">
+            <item id="70015" min_cnt="20" max_cnt="30" chance="800000" min_level="86" max_level="120" npc_list="40523;40526;40525;40524;40522"/>
+            <item id="70040" min_cnt="19" max_cnt="28" chance="800000" min_level="86" max_level="120" npc_list="23507;23509;23508;23506;23505;23510;23511;23512"/>
+            <item id="70014" min_cnt="18" max_cnt="26" chance="800000" min_level="86" max_level="120" npc_list="40503;40505;40504"/>
+            <item id="70044" min_cnt="20" max_cnt="30" chance="800000" min_level="86" max_level="120" npc_list="40538;40537;40536"/>
+            <item id="70045" min_cnt="19" max_cnt="28" chance="800000" min_level="86" max_level="120" npc_list="40528;40530;40527;40529"/>
+            <item id="70030" min_cnt="18" max_cnt="26" chance="800000" min_level="86" max_level="120" npc_list="40518;40520;40516;40519;40517"/>
+			<item id="110625" min_cnt="5" max_cnt="7" chance="800000" min_level="86" max_level="120" npc_list="40560;40561;40563"/>
+			<item id="110626" min_cnt="5" max_cnt="7" chance="800000" min_level="86" max_level="120" npc_list="40506;40508;40509"/>
+        </champion>
+    </additional_drop>
+</list>

@@ -1,0 +1,1955 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<list>
+    <!--
+    &lt;!&ndash; NPC &ndash;&gt;
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83400" y="181560" z="-10096" h="26205" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83768" y="181640" z="-10096" h="2371" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84488" y="181592" z="-10096" h="64864" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84616" y="180936" z="-10088" h="51223" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84632" y="180360" z="-10096" h="49433" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84040" y="180344" z="-10096" h="44973" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83496" y="180328" z="-10096" h="33074" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83496" y="180888" z="-10088" h="15616" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84008" y="180936" z="-10088" h="1081" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84200" y="181256" z="-10096" h="10688" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83768" y="181288" z="-10096" h="31925" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83768" y="180616" z="-10096" h="49052" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84296" y="180632" z="-10096" h="315" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84584" y="180632" z="-10096" h="8" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84600" y="181368" z="-10096" h="16082" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84040" y="182232" z="-10096" h="17353" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83464" y="182248" z="-10096" h="32368" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83464" y="182776" z="-10088" h="16383" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83432" y="183496" z="-10096" h="16839" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84696" y="183528" z="-10096" h="7" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84744" y="183112" z="-10096" h="49709" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84712" y="182360" z="-10096" h="48590" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84328" y="182360" z="-10096" h="32952" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84120" y="182920" z="-10088" h="20195" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84088" y="183384" z="-10096" h="15904" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83816" y="183080" z="-10088" h="41538" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83768" y="182648" z="-10096" h="47906" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84312" y="182696" z="-10088" h="990" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84344" y="183224" z="-10096" h="889" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81752" y="182504" z="-10096" h="49221" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81416" y="182552" z="-10096" h="31419" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80872" y="182472" z="-10096" h="34246" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80728" y="182808" z="-10096" h="20607" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80760" y="183048" z="-10096" h="15141" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80712" y="183240" z="-10096" h="18866" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80872" y="183368" z="-10096" h="7398" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81080" y="183464" z="-10096" h="4573" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81336" y="183416" z="-10096" h="63602" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81560" y="183464" z="-10096" h="2201" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81752" y="183368" z="-10096" h="60921" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81800" y="183128" z="-10096" h="51210" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81672" y="182904" z="-10096" h="46416" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81368" y="182888" z="-10096" h="33316" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81192" y="182744" z="-10096" h="39772" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81032" y="182888" z="-10096" h="26113" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81080" y="183128" z="-10096" h="14325" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81320" y="183160" z="-10096" h="12775" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81528" y="183064" z="-10096" h="61025" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81544" y="182696" z="-10096" h="49605" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81112" y="182504" z="-10096" h="38993" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80792" y="182248" z="-10096" h="39805" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80616" y="182520" z="-10096" h="22374" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81000" y="183976" z="-10096" h="36597" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80728" y="184056" z="-10096" h="29877" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80680" y="184248" z="-10096" h="19202" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80728" y="184552" z="-10096" h="14750" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80696" y="184824" z="-10096" h="17605" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80872" y="185000" z="-10096" h="17555" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81160" y="185112" z="-10096" h="4053" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81432" y="185064" z="-10096" h="3986" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81656" y="185144" z="-10096" h="63795" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81688" y="184856" z="-10096" h="50306" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81576" y="184552" z="-10096" h="45547" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81720" y="184232" z="-10096" h="45631" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81656" y="183976" z="-10096" h="46596" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81384" y="184040" z="-10096" h="30084" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81144" y="184232" z="-10096" h="25443" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80904" y="184232" z="-10096" h="32767" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80952" y="184504" z="-10096" h="14562" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81032" y="184808" z="-10096" h="13700" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81304" y="184952" z="-10096" h="5078" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81480" y="184808" z="-10096" h="59110" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81352" y="184568" z="-10096" h="44041" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81192" y="184440" z="-10096" h="39869" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81480" y="184248" z="-10096" h="59246" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81208" y="183272" z="-10096" h="46596" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81192" y="182920" z="-10096" h="46542" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81576" y="178936" z="-10112" h="54566" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81560" y="178472" z="-10112" h="43448" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81144" y="178360" z="-10112" h="32271" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80952" y="178392" z="-10112" h="31415" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80632" y="178232" z="-10112" h="31410" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80376" y="178392" z="-10112" h="33900" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80328" y="178744" z="-10112" h="17797" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80408" y="179016" z="-10112" h="13481" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80248" y="179336" z="-10112" h="22666" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80344" y="179656" z="-10112" h="13343" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80712" y="179624" z="-10112" h="13438" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81016" y="179464" z="-10112" h="60503" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81304" y="179608" z="-10112" h="60330" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81608" y="179592" z="-10112" h="4764" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81496" y="179224" z="-10112" h="46070" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81304" y="179096" z="-10112" h="46279" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81288" y="178840" z="-10112" h="38867" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81048" y="178792" z="-10112" h="35098" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80792" y="178584" z="-10112" h="41941" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80552" y="178776" z="-10112" h="25582" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80680" y="179048" z="-10112" h="25850" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80616" y="179384" z="-10112" h="10344" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80984" y="179208" z="-10112" h="60699" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80952" y="178968" z="-10112" h="47851" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80776" y="179272" z="-10112" h="25508" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78152" y="184648" z="-10096" h="44470" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="77864" y="184744" z="-10096" h="29412" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="77800" y="184552" z="-10096" h="42061" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="77912" y="184328" z="-10096" h="53754" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="77784" y="184072" z="-10096" h="44315" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="77880" y="183848" z="-10096" h="53375" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="77864" y="183608" z="-10096" h="48568" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78136" y="183752" z="-10096" h="50599" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78280" y="183896" z="-10096" h="8101" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78536" y="183832" z="-10096" h="62980" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78744" y="183752" z="-10096" h="61764" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78856" y="183960" z="-10096" h="10915" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78760" y="184184" z="-10096" h="20607" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78856" y="184392" z="-10096" h="20433" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78920" y="184632" z="-10096" h="13665" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78680" y="184696" z="-10096" h="30049" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78440" y="184632" z="-10096" h="35751" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78488" y="184408" z="-10096" h="35657" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78264" y="184408" z="-10096" h="32767" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78120" y="184232" z="-10096" h="41999" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78216" y="184072" z="-10096" h="54788" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78392" y="184152" z="-10096" h="4449" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78504" y="184280" z="-10096" h="8790" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78632" y="184152" z="-10096" h="57343" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78648" y="183976" z="-10096" h="50097" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78248" y="187928" z="-10096" h="18939" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="77928" y="187880" z="-10096" h="34248" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="77832" y="188104" z="-10096" h="19961" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="77816" y="188392" z="-10096" h="16932" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="77704" y="188680" z="-10096" h="20458" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="77896" y="188792" z="-10096" h="6412" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78168" y="188744" z="-10096" h="1313" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78440" y="188648" z="-10096" h="63889" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78616" y="188824" z="-10096" h="62046" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78872" y="188840" z="-10096" h="651" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78888" y="188552" z="-10096" h="57482" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78952" y="188264" z="-10096" h="51432" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78872" y="188088" z="-10096" h="44597" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78920" y="187784" z="-10096" h="44674" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78600" y="187896" z="-10096" h="29256" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78472" y="188120" z="-10096" h="21798" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78232" y="188104" z="-10096" h="22016" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78024" y="188312" z="-10096" h="24575" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78024" y="188600" z="-10096" h="15771" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78296" y="188456" z="-10096" h="60457" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78552" y="188264" z="-10096" h="58824" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78744" y="188392" z="-10096" h="6133" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78664" y="188568" z="-10096" h="18470" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78472" y="188488" z="-10096" h="26120" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="78392" y="188248" z="-10096" h="45796" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81496" y="187016" z="-10096" h="29714" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81112" y="187016" z="-10096" h="32848" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81016" y="187192" z="-10096" h="21947" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81112" y="187496" z="-10096" h="13193" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81000" y="187800" z="-10096" h="20065" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81160" y="188072" z="-10096" h="15246" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81464" y="188040" z="-10096" h="64442" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81720" y="188152" z="-10096" h="64662" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81960" y="188072" z="-10096" h="4231" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="82200" y="188168" z="-10096" h="3730" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="82184" y="187928" z="-10096" h="54304" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="82072" y="187624" z="-10096" h="45660" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="82200" y="187368" z="-10096" h="45676" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="82152" y="187048" z="-10096" h="47775" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81880" y="187096" z="-10096" h="31216" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81576" y="187256" z="-10096" h="27714" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81320" y="187288" z="-10096" h="31470" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81352" y="187560" z="-10096" h="20599" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81352" y="187784" z="-10096" h="16383" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81608" y="187832" z="-10096" h="1933" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81784" y="187960" z="-10096" h="2139" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81944" y="187800" z="-10096" h="57343" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81896" y="187544" z="-10096" h="47330" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81848" y="187320" z="-10096" h="46786" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81656" y="187464" z="-10096" h="26056" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="82072" y="188728" z="-10096" h="13210" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81784" y="188728" z="-10096" h="32767" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81528" y="188584" z="-10096" h="27294" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81256" y="188744" z="-10096" h="39117" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81016" y="188680" z="-10096" h="35486" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81016" y="188936" z="-10096" h="16383" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="80968" y="189208" z="-10096" h="18345" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81096" y="189432" z="-10096" h="11117" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81000" y="189624" z="-10096" h="21220" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81192" y="189768" z="-10096" h="6749" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81432" y="189592" z="-10096" h="58936" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81768" y="189528" z="-10096" h="63481" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81896" y="189704" z="-10096" h="63529" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="82136" y="189624" z="-10096" h="61997" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="82184" y="189384" z="-10096" h="49673" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="82216" y="189208" z="-10096" h="49869" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="82024" y="189000" z="-10096" h="36123" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81704" y="189032" z="-10096" h="31728" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81432" y="188952" z="-10096" h="31832" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81224" y="189208" z="-10096" h="23635" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81384" y="189336" z="-10096" h="7037" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81672" y="189304" z="-10096" h="61025" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81880" y="189400" z="-10096" h="61096" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81992" y="189240" z="-10096" h="57508" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="81880" y="189048" z="-10096" h="43643" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83304" y="192696" z="-10232" h="16005" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83176" y="192840" z="-10232" h="23963" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83272" y="192968" z="-10232" h="13960" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83448" y="192920" z="-10232" h="63387" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83592" y="192968" z="-10232" h="3207" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83720" y="192904" z="-10232" h="61093" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83832" y="192792" z="-10232" h="57343" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83784" y="192632" z="-10232" h="46111" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83848" y="192472" z="-10232" h="52951" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83768" y="192328" z="-10232" h="44128" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83592" y="192296" z="-10232" h="34643" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83416" y="192216" z="-10232" h="37135" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83224" y="192264" z="-10232" h="30212" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83064" y="192184" z="-10232" h="37604" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="82984" y="192312" z="-10232" h="28187" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83032" y="192456" z="-10232" h="13028" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83016" y="192632" z="-10232" h="17329" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83064" y="192792" z="-10232" h="13513" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83064" y="193000" z="-10232" h="16383" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83208" y="193080" z="-10232" h="6174" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83448" y="192792" z="-10232" h="56398" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83592" y="192712" z="-10232" h="60246" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83624" y="192568" z="-10232" h="51432" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83480" y="192456" z="-10232" h="39662" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="83304" y="192472" z="-10232" h="31822" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84744" y="189864" z="-10232" h="14888" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84968" y="189784" z="-10232" h="61958" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="85128" y="189928" z="-10232" h="7460" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="85192" y="190168" z="-10232" h="13499" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="85240" y="190360" z="-10232" h="13817" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="85144" y="190520" z="-10232" h="21838" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84984" y="190472" z="-10232" h="35808" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84808" y="190520" z="-10232" h="30145" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84632" y="190472" z="-10232" h="35409" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84632" y="190296" z="-10232" h="49151" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84536" y="190104" z="-10232" h="44456" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84760" y="190088" z="-10232" h="64792" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84920" y="190184" z="-10232" h="5525" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="85736" y="189880" z="-10232" h="62322" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="85928" y="189736" z="-10232" h="58696" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86088" y="189832" z="-10232" h="58753" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86328" y="189800" z="-10232" h="64153" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86456" y="189976" z="-10232" h="9825" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86440" y="190168" z="-10232" h="17126" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86392" y="190360" z="-10232" h="18939" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86392" y="190552" z="-10232" h="16383" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86216" y="190536" z="-10232" h="33316" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86072" y="190440" z="-10232" h="39248" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="85848" y="190504" z="-10232" h="29865" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="85752" y="190376" z="-10232" h="40025" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="85800" y="190200" z="-10232" h="51587" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="85976" y="190152" z="-10232" h="62504" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86168" y="190120" z="-10232" h="63813" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86856" y="190376" z="-10232" h="2770" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86920" y="190552" z="-10232" h="12459" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87112" y="190536" z="-10232" h="623" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87320" y="190600" z="-10232" h="3113" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87576" y="190536" z="-10232" h="2979" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87720" y="190376" z="-10232" h="57013" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87720" y="190120" z="-10232" h="49151" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87736" y="189864" z="-10232" h="49803" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87528" y="189880" z="-10232" h="31967" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87320" y="189816" z="-10232" h="35881" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87080" y="189896" z="-10232" h="29666" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="86968" y="190040" z="-10232" h="23278" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87128" y="190200" z="-10232" h="8191" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87192" y="190392" z="-10232" h="13028" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87416" y="190392" z="-10232" h="0" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87464" y="190152" z="-10232" h="51210" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84456" y="189784" z="-10232" h="34065" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="84456" y="189752" z="-10232" h="42677" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88936" y="192248" z="-10232" h="17018" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88664" y="192296" z="-10232" h="30946" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88408" y="192216" z="-10232" h="33525" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88328" y="192360" z="-10232" h="25475" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88312" y="192600" z="-10232" h="17078" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88392" y="192792" z="-10232" h="12266" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88344" y="193000" z="-10232" h="12369" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88552" y="193016" z="-10232" h="10347" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88760" y="192952" z="-10232" h="62422" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="89000" y="193064" z="-10232" h="62569" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="89160" y="192936" z="-10232" h="58498" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="89112" y="192712" z="-10232" h="46950" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="89192" y="192536" z="-10232" h="53662" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="89144" y="192344" z="-10232" h="45183" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88968" y="192440" z="-10232" h="27559" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88776" y="192424" z="-10232" h="33635" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88664" y="192472" z="-10232" h="27931" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88472" y="192472" z="-10232" h="35048" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88488" y="192664" z="-10232" h="15516" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88600" y="192808" z="-10232" h="9929" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88792" y="192824" z="-10232" h="867" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88984" y="192936" z="-10232" h="13028" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88984" y="192936" z="-10232" h="7348" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88984" y="192696" z="-10232" h="63753" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88808" y="192568" z="-10232" h="39326" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90600" y="186936" z="-10096" h="20394" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90200" y="186968" z="-10096" h="31935" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="89992" y="187112" z="-10096" h="26610" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90104" y="187448" z="-10096" h="13028" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90088" y="187848" z="-10096" h="13203" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90312" y="188104" z="-10096" h="8992" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90856" y="188072" z="-10096" h="39807" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90648" y="187992" z="-10096" h="36597" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90568" y="187816" z="-10096" h="44578" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90440" y="187624" z="-10096" h="43106" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90424" y="187400" z="-10096" h="48304" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90696" y="187304" z="-10096" h="61997" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90904" y="187128" z="-10096" h="58211" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91128" y="187304" z="-10096" h="6946" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91032" y="187624" z="-10096" h="12228" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91112" y="187944" z="-10096" h="13920" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91048" y="188552" z="-10096" h="15678" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90808" y="188616" z="-10096" h="30049" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90520" y="188600" z="-10096" h="33346" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90280" y="188728" z="-10096" h="27689" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90072" y="188664" z="-10096" h="37217" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90056" y="188888" z="-10096" h="35011" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90120" y="189144" z="-10096" h="13400" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="89992" y="189368" z="-10096" h="13421" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90040" y="189608" z="-10096" h="13481" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90232" y="189544" z="-10096" h="571" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90488" y="189448" z="-10096" h="61793" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90744" y="189592" z="-10096" h="61808" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91016" y="189736" z="-10096" h="5078" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91064" y="189560" z="-10096" h="237" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91160" y="189368" z="-10096" h="54115" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91144" y="189016" z="-10096" h="50139" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90568" y="189064" z="-10096" h="29784" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90808" y="188776" z="-10096" h="29412" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90456" y="188904" z="-10096" h="28812" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90888" y="189192" z="-10096" h="14529" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90344" y="189288" z="-10096" h="30946" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93976" y="184456" z="-10096" h="50745" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94136" y="184392" z="-10096" h="61567" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94312" y="184376" z="-10096" h="64410" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94408" y="184200" z="-10096" h="54581" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94424" y="184008" z="-10096" h="50019" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94248" y="183928" z="-10096" h="37732" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93992" y="183912" z="-10096" h="33419" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93800" y="183784" z="-10096" h="38901" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93608" y="183656" z="-10096" h="38901" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93560" y="183768" z="-10096" h="31527" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93416" y="183848" z="-10096" h="27198" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93432" y="184072" z="-10096" h="15866" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93320" y="184264" z="-10096" h="21722" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93320" y="184472" z="-10096" h="16551" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93496" y="184536" z="-10096" h="3637" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93624" y="184712" z="-10096" h="9714" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93864" y="184792" z="-10096" h="3355" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94072" y="184680" z="-10096" h="60384" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94280" y="184760" z="-10096" h="3829" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94472" y="184696" z="-10096" h="62438" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94504" y="184424" z="-10096" h="50373" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94168" y="184184" z="-10096" h="39364" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93816" y="184152" z="-10096" h="33713" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93816" y="183992" z="-10096" h="47199" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93608" y="184056" z="-10096" h="35618" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93816" y="187816" z="-10096" h="18585" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93560" y="187784" z="-10096" h="34065" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93368" y="187912" z="-10096" h="26763" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93384" y="188088" z="-10096" h="15636" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93304" y="188296" z="-10096" h="20213" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93352" y="188520" z="-10096" h="14182" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93272" y="188712" z="-10096" h="14318" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93432" y="188808" z="-10096" h="8832" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93688" y="188664" z="-10096" h="60806" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93960" y="188728" z="-10096" h="2410" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94168" y="188840" z="-10096" h="5151" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94312" y="188968" z="-10096" h="7579" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94520" y="188824" z="-10096" h="59219" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94472" y="188584" z="-10096" h="54081" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94536" y="188360" z="-10096" h="52054" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94440" y="188136" z="-10096" h="44928" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94536" y="187944" z="-10096" h="45069" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94392" y="187816" z="-10096" h="41755" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94152" y="187912" z="-10096" h="30825" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93960" y="188056" z="-10096" h="26168" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93720" y="188056" z="-10096" h="34289" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93560" y="188168" z="-10096" h="26597" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93608" y="188408" z="-10096" h="14324" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="93960" y="188408" z="-10096" h="5483" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="94136" y="188520" z="-10096" h="5859" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91528" y="184280" z="-10096" h="49596" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91560" y="184024" z="-10096" h="50666" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91160" y="184040" z="-10096" h="32351" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90648" y="184040" z="-10096" h="32759" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90392" y="184136" z="-10096" h="29100" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90424" y="184440" z="-10080" h="15393" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90584" y="184712" z="-10096" h="10837" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90440" y="184776" z="-10096" h="20581" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90776" y="184984" z="-10096" h="5781" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91112" y="185080" z="-10096" h="2902" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91448" y="185176" z="-10096" h="3036" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91416" y="184840" z="-10096" h="48775" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91208" y="184632" z="-10096" h="40959" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91160" y="184376" z="-10096" h="49771" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90856" y="184440" z="-10096" h="30603" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90728" y="184280" z="-10096" h="42114" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90904" y="184168" z="-10096" h="59624" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90824" y="183512" z="-10096" h="44041" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90488" y="183432" z="-10096" h="39752" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90488" y="183192" z="-10096" h="49151" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90344" y="182968" z="-10096" h="43192" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90504" y="182792" z="-10096" h="56847" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90504" y="182536" z="-10096" h="56731" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90568" y="182296" z="-10096" h="51870" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90776" y="182472" z="-10096" h="7324" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91064" y="182584" z="-10096" h="3506" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91256" y="182376" z="-10096" h="56927" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91512" y="182504" z="-10096" h="57520" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91384" y="182808" z="-10096" h="20607" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91480" y="183144" z="-10096" h="20122" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91416" y="183448" z="-10096" h="18357" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91144" y="183320" z="-10096" h="37355" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90952" y="183064" z="-10096" h="42440" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90680" y="182952" z="-10096" h="42387" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90888" y="182712" z="-10096" h="56399" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88424" y="182152" z="-10096" h="63255" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88680" y="182376" z="-10096" h="7497" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88728" y="182632" z="-10096" h="14661" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88584" y="182792" z="-10088" h="14358" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88664" y="183080" z="-10088" h="13557" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88728" y="183368" z="-10096" h="14103" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88424" y="183496" z="-10096" h="15109" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88136" y="183368" z="-10096" h="28395" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87864" y="183480" z="-10096" h="27353" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87560" y="183384" z="-10096" h="28035" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87576" y="183192" z="-10096" h="35759" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87576" y="182808" z="-10088" h="52863" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87480" y="182424" z="-10096" h="45039" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87768" y="182216" z="-10096" h="47643" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87912" y="182280" z="-10096" h="4587" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88344" y="182408" z="-10096" h="4471" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88328" y="182680" z="-10088" h="14348" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88136" y="182872" z="-10088" h="24575" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88168" y="183112" z="-10088" h="15570" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87880" y="183064" z="-10088" h="34401" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88024" y="181688" z="-10096" h="41489" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87752" y="181608" z="-10096" h="35808" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87544" y="181416" z="-10096" h="41456" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87496" y="181096" z="-10088" h="40112" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87480" y="180888" z="-10088" h="48112" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87416" y="180472" z="-10096" h="48121" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87624" y="180344" z="-10096" h="47595" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87864" y="180200" z="-10096" h="60260" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88120" y="180296" z="-10096" h="60243" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88424" y="180248" z="-10096" h="3900" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88744" y="180360" z="-10096" h="62383" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88744" y="180728" z="-10096" h="3402" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88632" y="181016" z="-10088" h="20458" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88760" y="181304" z="-10096" h="12021" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88680" y="181592" z="-10096" h="19210" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88392" y="181496" z="-10096" h="36009" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88120" y="181240" z="-10088" h="40644" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88072" y="180952" z="-10088" h="40566" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="88232" y="180648" z="-10088" h="54205" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87880" y="180664" z="-10096" h="51337" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90536" y="178888" z="-10112" h="64916" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90488" y="178632" z="-10112" h="61836" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90664" y="178408" z="-10112" h="48329" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90904" y="178456" z="-10112" h="55933" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91208" y="178376" z="-10112" h="62852" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91416" y="178472" z="-10112" h="4364" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91688" y="178280" z="-10112" h="59011" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91688" y="178552" z="-10112" h="59279" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91608" y="178840" z="-10112" h="19210" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91736" y="179096" z="-10112" h="11775" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91704" y="179384" z="-10112" h="11721" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91384" y="179384" z="-10112" h="32767" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91016" y="179416" z="-10112" h="31900" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90808" y="179592" z="-10112" h="31596" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90584" y="179384" z="-10112" h="40573" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90792" y="179128" z="-10112" h="56189" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91096" y="179080" z="-10112" h="56108" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91272" y="178840" z="-10112" h="529" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91128" y="178632" z="-10112" h="42835" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="90840" y="178760" z="-10112" h="28496" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91240" y="178712" z="-10112" h="64290" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91464" y="178744" z="-10112" h="9923" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91400" y="179048" z="-10112" h="18616" />
+        <npc id="23642" />&lt;!&ndash;Unit 3 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91160" y="179192" z="-10112" h="18520" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91192" y="179512" z="-10112" h="15591" />
+        <npc id="23643" />&lt;!&ndash;Unit 4 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="91608" y="179512" z="-10112" h="0" />
+        <npc id="23640" />&lt;!&ndash;Unit 1 Elite Soldier&ndash;&gt;
+    </spawn>
+    <spawn group="ADEN_SIEGE_INSTANCE" count="1" respawn="5" respawn_random="0" period_of_day="none">
+        <point x="87352" y="181736" z="-10096" h="25607" />
+        <npc id="23641" />&lt;!&ndash;Unit 2 Elite Soldier&ndash;&gt;
+    </spawn>
+-->
+</list>

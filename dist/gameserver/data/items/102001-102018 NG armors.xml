@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		NG Armors
+	-->
+	<armor id="102001" name="Wooden Helmet Lv.1">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="660"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="19"/>
+		</for>
+	</armor>
+	<armor id="102002" name="Wooden Helmet Lv.2">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="660"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="19"/>
+		</for>
+	</armor>
+	<armor id="102003" name="Wooden Helmet Lv.3">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="660"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="19"/>
+		</for>
+	</armor>
+	<armor id="102004" name="Wooden Breastplate Lv.1">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t06_u_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4820"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="47"/>
+		</for>
+	</armor>
+	<armor id="102005" name="Wooden Breastplate Lv.2">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t06_u_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4820"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="47"/>
+		</for>
+	</armor>
+	<armor id="102006" name="Wooden Breastplate Lv.3">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t06_u_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="4820"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="47"/>
+		</for>
+	</armor>
+	<armor id="102007" name="Wooden Gaiters Lv.1">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t06_l_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1670"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="29"/>
+		</for>
+	</armor>
+	<armor id="102008" name="Wooden Gaiters Lv.2">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t06_l_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1670"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="29"/>
+		</for>
+	</armor>	
+	<armor id="102009" name="Wooden Gaiters Lv.3">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t06_l_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="1670"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="29"/>
+		</for>
+	</armor>
+	<!-- Маг сет -->
+	<armor id="102010" name="Leather Helmet Lv.1">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="650"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="23"/>
+		</for>
+	</armor>
+	<armor id="102011" name="Leather Helmet Lv.2">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="650"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="23"/>
+		</for>
+	</armor>
+	<armor id="102012" name="Leather Helmet Lv.3">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="650"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="23"/>
+		</for>
+	</armor>
+	<armor id="102013" name="Tunic of Devotion Lv.1">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="2090"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="30"/>
+			<add stat="maxMp" order="0x60" value="67"/>
+		</for>
+	</armor>
+	<armor id="102014" name="Tunic of Devotion Lv.2">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="2090"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="30"/>
+			<add stat="maxMp" order="0x60" value="67"/>
+		</for>
+	</armor>
+	<armor id="102015" name="Tunic of Devotion Lv.3">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="2090"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="30"/>
+			<add stat="maxMp" order="0x60" value="67"/>
+		</for>
+	</armor>
+	<armor id="102016" name="Stockings of Devotion Lv.1">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t55_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1040"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="19"/>
+			<add stat="maxMp" order="0x60" value="42"/>
+		</for>
+	</armor>
+	<armor id="102017" name="Stockings of Devotion Lv.2">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t55_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1040"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="19"/>
+			<add stat="maxMp" order="0x60" value="42"/>
+		</for>
+	</armor>
+	<armor id="102018" name="Stockings of Devotion Lv.3">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t55_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1040"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="19"/>
+			<add stat="maxMp" order="0x60" value="42"/>
+		</for>
+	</armor>
+</list>

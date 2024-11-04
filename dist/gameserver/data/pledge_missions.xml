@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "pledge_missions.dtd">
+<list>
+																		<!-- Категория: 1 -->
+	<!--<mission id="10001" handler="DailyHunting" category="GENERAL" repeatable="true" min_player_level="76" max_player_level="80" goal_count="40000" clan_reputation_reward="5000" fame_reward="500" is_all_lvl="true">
+		&lt;!&ndash; Убийца Монстров 76-80 Ур &ndash;&gt;
+		&lt;!&ndash;Убейте 40000 монстров в любой зоне охоты.\n(Засчитывается только при получении очков опыта.)&ndash;&gt;
+		<reward_items>
+			<item id="70065" count="50"/>&lt;!&ndash;Монета Добра&ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10002" handler="DailyHunting" category="GENERAL" repeatable="true" min_player_level="81" max_player_level="84" goal_count="40000" clan_reputation_reward="10000" fame_reward="1000" is_all_lvl="true">
+		&lt;!&ndash; Убийца Монстров 81-84 Ур &ndash;&gt;
+		&lt;!&ndash;Убейте 40000 монстров в любой зоне охоты.\n(Засчитывается только при получении очков опыта.)&ndash;&gt;
+		<reward_items>
+			<item id="70065" count="50"/>&lt;!&ndash;Монета Добра&ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10003" handler="DailyHunting" category="GENERAL" repeatable="true" min_player_level="85" max_player_level="85" goal_count="40000" clan_reputation_reward="15000" fame_reward="1500" is_all_lvl="true">
+		&lt;!&ndash; Убийца Монстров 85 Ур &ndash;&gt;
+		&lt;!&ndash;Убейте 40000 монстров в любой зоне охоты.\n(Засчитывается только при получении очков опыта.)&ndash;&gt;
+		<reward_items>
+			<item id="70065" count="50"/>&lt;!&ndash;Монета Добра&ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10004" handler="DailyHunting" category="GENERAL" repeatable="true" min_player_level="86" max_player_level="86" goal_count="40000" clan_reputation_reward="30000" fame_reward="3000" is_all_lvl="true">
+		&lt;!&ndash; Убийца Монстров 86 Ур &ndash;&gt;
+		&lt;!&ndash;Убейте 40000 монстров в любой зоне охоты.\n(Засчитывается только при получении очков опыта.)&ndash;&gt;
+		<reward_items>
+			<item id="70065" count="100"/>&lt;!&ndash;Монета Добра&ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10005" handler="DailyHunting" category="GENERAL" repeatable="true" min_player_level="87" max_player_level="87" goal_count="40000" clan_reputation_reward="40000" fame_reward="4000" is_all_lvl="true">
+		&lt;!&ndash; Убийца Монстров 87 Ур &ndash;&gt;
+		&lt;!&ndash;Убейте 40000 монстров в любой зоне охоты.\n(Засчитывается только при получении очков опыта.)&ndash;&gt;
+		<reward_items>
+			<item id="70065" count="100"/>&lt;!&ndash;Монета Добра&ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10006" handler="DailyHunting" category="GENERAL" repeatable="true" min_player_level="88" max_player_level="88" goal_count="40000" clan_reputation_reward="50000" fame_reward="5000" is_all_lvl="true">
+		&lt;!&ndash; Убийца Монстров 88 Ур &ndash;&gt;
+		&lt;!&ndash;Убейте 40000 монстров в любой зоне охоты.\n(Засчитывается только при получении очков опыта.)&ndash;&gt;
+		<reward_items>
+			<item id="70065" count="100"/>&lt;!&ndash;Монета Добра&ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10007" handler="OlympiadWinner" category="GENERAL" repeatable="true"  goal_count="20" clan_reputation_reward="10000" fame_reward="1000">
+		&lt;!&ndash;Участие в Олимпиаде&ndash;&gt;
+		&lt;!&ndash;Примите участие в Олимпиаде 20 раз.&ndash;&gt;
+		<reward_items>
+			<item id="106532" count="2"/>&lt;!&ndash; чето &ndash;&gt;
+			<item id="70066" count="3"/>&lt;!&ndash; Коробка с Зельями &ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10008" handler="OlympiadWinner" category="GENERAL" repeatable="true"  goal_count="30" clan_reputation_reward="15000" fame_reward="1500">
+		&lt;!&ndash;Участие в Олимпиаде&ndash;&gt;
+		&lt;!&ndash;Примите участие в Олимпиаде 30 раз.&ndash;&gt;
+		<reward_items>
+			<item id="106532" count="3"/>&lt;!&ndash; чето &ndash;&gt;
+			<item id="70066" count="5"/>&lt;!&ndash; Коробка с Зельями &ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10009" handler="OlympiadWinner" category="GENERAL" repeatable="true"  goal_count="40" clan_reputation_reward="20000" fame_reward="2000">
+		&lt;!&ndash;Участие в Олимпиаде&ndash;&gt;
+		&lt;!&ndash;Примите участие в Олимпиаде 40 раз.&ndash;&gt;
+		<reward_items>
+			<item id="106532" count="5"/>&lt;!&ndash; чето &ndash;&gt;
+			<item id="70066" count="10"/>&lt;!&ndash; Коробка с Зельями &ndash;&gt;
+		</reward_items>
+	</mission>
+
+																			&lt;!&ndash; Категория: Уровень 2 &ndash;&gt;
+	<mission id="10010" handler="_10010_KillRaidBossCount" category="GENERAL" repeatable="true" min_player_level="76" goal_count="50">
+		&lt;!&ndash; Убить Рейдовых Боссов 50 шт &ndash;&gt;
+		<reward_items>
+			<item id="70065" count="300"/>&lt;!&ndash;Монета Добра&ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10011" handler="DailyHunting" category="GENERAL" repeatable="true" min_player_level="1" goal_count="30000">
+		&lt;!&ndash;Убейте 30000 монстров в любой зоне охоты.\n(Засчитывается только при получении очков опыта.)&ndash;&gt;
+		<reward_items>
+			<item id="70065" count="200"/>&lt;!&ndash;Монета Добра&ndash;&gt;
+		</reward_items>
+	</mission>
+
+																			&lt;!&ndash; Категория: Уровень 3 &ndash;&gt;
+	<mission id="10012" handler="LevelUp" category="GENERAL" repeatable="false" min_player_level="1" goal_count="20">
+		&lt;!&ndash;Получить 20 уровень.&ndash;&gt;
+		<reward_items>
+			<item id="46709" count="2"/>
+			<item id="82076" count="2"/>
+			<item id="48830" count="2"/>
+			<item id="80842" count="2"/>
+		</reward_items>
+	</mission>
+	<mission id="10013" handler="LevelUp" category="GENERAL" repeatable="false" min_player_level="1" goal_count="40">
+		&lt;!&ndash;Получить 40 уровень.&ndash;&gt;
+		<reward_items>
+			<item id="80842" count="10"/>&lt;!&ndash;  &ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10014" handler="LevelUp" category="GENERAL" repeatable="false" min_player_level="1" goal_count="60">
+		&lt;!&ndash;Получить 60 уровень.&ndash;&gt;
+		<reward_items>
+			<item id="46709" count="10"/>&lt;!&ndash; Набор Зелий &ndash;&gt;
+			<item id="82076" count="10"/>&lt;!&ndash;  &ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10015" handler="LevelUp" category="GENERAL" repeatable="false" min_player_level="1" goal_count="75">
+		&lt;!&ndash;Получить 75 уровень.&ndash;&gt;
+		<reward_items>
+			<item id="48830" count="10"/>&lt;!&ndash;  &ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10016" handler="LevelUp" category="GENERAL" repeatable="false" min_player_level="1" goal_count="80">
+		&lt;!&ndash;Получить 80 уровень.&ndash;&gt;
+		<reward_items>
+			<item id="70066" count="1"/>
+		</reward_items>
+	</mission>
+	<mission id="10017" handler="LevelUp" category="GENERAL" repeatable="false" min_player_level="1" goal_count="85">
+		&lt;!&ndash;Получить 85 уровень.&ndash;&gt;
+		<reward_items>
+			<item id="97068" count="1"/>&lt;!&ndash;  &ndash;&gt;
+		</reward_items>
+	</mission>
+
+																&lt;!&ndash; Категория: Уровень 4 &ndash;&gt;
+	<mission id="10018" handler="_10010_KillRaidBossCount" category="GENERAL" repeatable="true" min_player_level="1" goal_count="300" clan_reputation_reward="100000" fame_reward="10000">
+		<reward_items>
+			<item id="70065" count="1000"/>&lt;!&ndash;Монета Добра&ndash;&gt;
+			<item id="70066" count="10"/>&lt;!&ndash;Коробка с Зельями&ndash;&gt;
+		</reward_items>
+	</mission>
+	<mission id="10019" handler="_10010_KillRaidBossCount" category="GENERAL" repeatable="true" min_player_level="1" goal_count="1000" clan_reputation_reward="200000" fame_reward="20000">
+		<reward_items>
+			<item id="70065" count="2000"/>&lt;!&ndash;Монета Добра&ndash;&gt;
+			<item id="70066" count="20"/>&lt;!&ndash;Коробка с Зельями&ndash;&gt;
+		</reward_items>
+	</mission>-->
+</list>

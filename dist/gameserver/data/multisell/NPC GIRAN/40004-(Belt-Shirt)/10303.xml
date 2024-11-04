@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+	<config show_all="true" no_tax="true" keep_enchanted="false" />
+	<!-- Пояс -->
+	<item>
+		<production id="104016" count="1"/>
+		<ingredient id="1874" count="200"/>
+		<ingredient id="1884" count="1000"/>
+		<ingredient id="1873" count="1000"/>
+		<ingredient id="57" count="20000000"/>
+		<ingredient id="70004" count="100"/>
+	</item>
+	<item>
+		<production id="104017" count="1"/>
+		<ingredient id="104016" count="1"/>
+		<ingredient id="70034" count="1000"/>
+		<ingredient id="70009" count="1000"/>
+		<ingredient id="70016" count="1000"/>
+		<ingredient id="70005" count="1000"/>
+		<ingredient id="70018" count="2"/>
+		<ingredient id="70000" count="5"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70004" count="500"/>
+	</item>
+	<item>
+		<production id="104018" count="1"/>
+		<ingredient id="104017" count="1"/>
+		<ingredient id="70034" count="5000"/>
+		<ingredient id="70009" count="2000"/>
+		<ingredient id="70016" count="2000"/>
+		<ingredient id="70005" count="3000"/>
+		<ingredient id="70018" count="10"/>
+		<ingredient id="70000" count="10"/>
+		<ingredient id="70001" count="30"/>
+		<ingredient id="70004" count="1500"/>
+	</item>
+	<item>
+		<production id="104019" count="1"/>
+		<ingredient id="104018" count="1"/>
+		<ingredient id="70041" count="3000"/>
+		<ingredient id="70034" count="15000"/>
+		<ingredient id="70021" count="3000"/>
+		<ingredient id="70022" count="3000"/>
+		<ingredient id="70035" count="5000"/>
+		<ingredient id="70018" count="50"/>
+		<ingredient id="70000" count="15"/>
+		<ingredient id="70001" count="30"/>
+		<ingredient id="36515" count="5"/>
+		<ingredient id="70004" count="5000"/>
+	</item>
+	<item>
+		<production id="104020" count="1"/>
+		<ingredient id="104019" count="1"/>
+		<ingredient id="70041" count="7000"/>
+		<ingredient id="70034" count="30000"/>
+		<ingredient id="70021" count="7000"/>
+		<ingredient id="70022" count="7000"/>
+		<ingredient id="70035" count="10000"/>
+		<ingredient id="70018" count="100"/>
+		<ingredient id="70000" count="30"/>
+		<ingredient id="70001" count="150"/>
+		<ingredient id="36515" count="10"/>
+		<ingredient id="70004" count="10000"/>
+	</item>
+</list>

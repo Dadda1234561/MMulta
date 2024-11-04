@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<normal_skill_tree>
+		<class id="177">	<!--Мастер Стихий Веньо-->
+			<!--<skill id="11310" level="1" name="Бессмертие Слуги(Servitor Immortality)" min_level="85"/>
+			<skill id="11297" level="1" name="Благословение Гиганта(Blessing of the Giants)" min_level="85"/>
+			<skill id="1405" level="1" name="Божественное Вдохновение(Divine Inspiration)" cost="4" min_level="85"/>
+			<skill id="1405" level="2" name="Божественное Вдохновение(Divine Inspiration)" cost="30" min_level="85"/>
+			<skill id="1405" level="3" name="Божественное Вдохновение(Divine Inspiration)" cost="100" min_level="85"/>
+			<skill id="1405" level="4" name="Божественное Вдохновение(Divine Inspiration)" min_level="85"/>
+			<skill id="11255" level="1" name="Великое Владение Духом(Superior Spirit Mastery)" min_level="85"/>
+			<skill id="11295" level="1" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" min_level="85"/>
+			<skill id="11253" level="1" name="Великое Владение Магией(Superior Magic Mastery)" min_level="85"/>
+			<skill id="11252" level="1" name="Великое Владение Магической Броней(Superior Robe Mastery)" min_level="85"/>
+			<skill id="11251" level="1" name="Великое Владение Оружием(Superior Weapon Mastery)" min_level="85"/>
+			<skill id="11254" level="1" name="Великое Владение Призывом(Superior Summon Mastery)" min_level="85"/>
+			<skill id="11287" level="1" name="Великое Сопротивление(Superior Resistance)" min_level="85"/>
+			<skill id="11353" level="1" name="Гнев Стихий(Elemental Rage)" min_level="85"/>
+			<skill id="11270" level="1" name="Избавление от Боли(Ultimate Transfer Pain)" min_level="85"/>
+			<skill id="11273" level="1" name="Изгнание(Exile)" min_level="85"/>
+			<skill id="11298" level="1" name="Клеймо Огня(Mark of Fire)" min_level="85"/>
+			<skill id="11260" level="1" name="Клеймо Пустоты(Mark of Void)" min_level="85"/>
+			<skill id="11259" level="1" name="Клеймо Слабости(Mark of Weakness)" min_level="85"/>
+			<skill id="11262" level="1" name="Клеймо Хитрости(Mark of Trick)" min_level="85"/>
+			<skill id="11261" level="1" name="Клеймо Чумы(Mark of Plague)" min_level="85"/>
+			<skill id="248" level="6" name="Кристаллизация(Crystallize)" min_level="85"/>
+			<skill id="150" level="3" name="Лимит Веса(Weight Limit)" min_level="85"/>
+			<skill id="11309" level="1" name="Массовое Благословение Слуги(Mass Servitor Blessing)" min_level="85"/>
+			<skill id="11306" level="1" name="Массовое Воодушевление Слуги(Mass Servitor Empower)" min_level="85"/>
+			<skill id="11296" level="1" name="Массовое Изгнание(Mass Exile)" min_level="85"/>
+			<skill id="11307" level="1" name="Массовое Могущество Слуги(Mass Servitor Might)" min_level="85"/>
+			<skill id="11308" level="1" name="Массовое Ускорение Передвижения Слуги(Mass Servitor Wind Walk)" min_level="85"/>
+			<skill id="11304" level="1" name="Массовое Ускорение Слуги(Mass Servitor Haste)" min_level="85"/>
+			<skill id="11303" level="1" name="Массовый Магический Щит Слуги(Mass Servitor Magic Barrier)" min_level="85"/>
+			<skill id="11305" level="1" name="Массовый Щит Слуги(Mass Servitor Shield)" min_level="85"/>
+			<skill id="30833" level="1" name="Обычная Гармония Фантазии(Basic Fantasia Harmony)" min_level="85"/>
+			<skill id="30824" level="1" name="Обычная Поэма Барабана(Basic Drum Melody)" min_level="85"/>
+			<skill id="30826" level="1" name="Обычная Поэма Гитары(Basic Guitar Melody)" min_level="85"/>
+			<skill id="30825" level="1" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" min_level="85"/>
+			<skill id="30823" level="1" name="Обычная Поэма Рога(Basic Horn Melody)" min_level="85"/>
+			<skill id="30827" level="1" name="Обычное Анданте Битвы(Basic Andante of Battle)" min_level="85"/>
+			<skill id="30828" level="1" name="Обычное Анданте Движения(Basic Andante of Movement)" min_level="85"/>
+			<skill id="30829" level="1" name="Обычное Анданте Расслабления(Basic Refreshing Andante)" min_level="85"/>
+			<skill id="30831" level="1" name="Обычное Сопротивление Злым Чарам(Basic Debuff Resistance)" min_level="85"/>
+			<skill id="30832" level="1" name="Обычное Сопротивление Психическим Атакам(Basic Mental Attack Resistance)" min_level="85"/>
+			<skill id="30830" level="1" name="Обычное Сопротивление Стихиям(Basic Attribute Resistance)" min_level="85"/>
+			<skill id="8605" level="1" name="Оседлать Белое Крыло(Summon White Wing)" min_level="85"/>
+			<skill id="11302" level="1" name="Основное Лечение Слуги(Servitor Major Heal)" min_level="85"/>
+			<skill id="11288" level="1" name="Последнее Разделение Судьбы(Ultimate Servitor Share)" min_level="85"/>
+			<skill id="11268" level="1" name="Призвать Карающий Кубик(Summon Avenging Cubic)" min_level="85"/>
+			<skill id="11330" level="1" name="Призвать Магнуса Веньо(Summon Wynn Magnus)" min_level="85"/>
+			<skill id="11329" level="1" name="Призвать Мэрроу Веньо(Summon Wynn Merrow)" min_level="85"/>
+			<skill id="11331" level="1" name="Призвать Серафима Веньо(Summon Wynn Seraphim)" min_level="85"/>
+			<skill id="11274" level="1" name="Призыв Барьера(Summon Barrier)" min_level="85"/>
+			<skill id="11316" level="1" name="Призыв Зарядов Души(Summon Soulshots)" min_level="85"/>
+			<skill id="11265" level="1" name="Призыв Соратника(Summon Team Mate)" min_level="85"/>
+			<skill id="11269" level="1" name="Разделение Маны(Mass Servitor Heal)" min_level="85"/>
+			<skill id="1370" level="1" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1370" level="2" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1370" level="3" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="800000000" min_level="85"/>
+			<skill id="1372" level="1" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="20000000" min_level="85"/>
+			<skill id="1372" level="2" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1372" level="3" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="60000000" min_level="85"/>
+			<skill id="1372" level="4" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="80000000" min_level="85"/>
+			<skill id="1372" level="5" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="100000000" min_level="85"/>
+			<skill id="1372" level="6" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="120000000" min_level="85"/>
+			<skill id="1372" level="7" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="200000000" min_level="85"/>
+			<skill id="1372" level="8" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1371" level="1" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="20000000" min_level="85"/>
+			<skill id="1371" level="2" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1371" level="3" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="60000000" min_level="85"/>
+			<skill id="1371" level="4" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="80000000" min_level="85"/>
+			<skill id="1371" level="5" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="100000000" min_level="85"/>
+			<skill id="1371" level="6" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="120000000" min_level="85"/>
+			<skill id="1371" level="7" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="200000000" min_level="85"/>
+			<skill id="1371" level="8" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1937" level="1" name="Сила Веньо(Wynn Force)" min_level="85"/>
+			<skill id="11271" level="1" name="Снятие Клейма(Mark Retriever)" min_level="85"/>
+			<skill id="1597" level="1" name="Увеличение Веса(Weight Increase)" min_level="85"/>
+			<skill id="1571" level="1" name="Увеличение Инвентаря(Inventory Increase)" min_level="85"/>
+			<skill id="11348" level="1" name="Шепот Смерти Слуги Героя(Servitor Death Whisper)" min_level="85"/>
+			<skill id="11298" level="2" name="Клеймо Огня(Mark of Fire)" cost="50000" min_level="86"/>
+			<skill id="11262" level="2" name="Клеймо Хитрости(Mark of Trick)" cost="50000" min_level="86"/>
+			<skill id="11302" level="2" name="Основное Лечение Слуги(Servitor Major Heal)" cost="50000" min_level="86"/>
+			<skill id="11268" level="2" name="Призвать Карающий Кубик(Summon Avenging Cubic)" cost="50000" min_level="86"/>
+			<skill id="11271" level="2" name="Снятие Клейма(Mark Retriever)" cost="50000" min_level="86"/>
+			<skill id="11259" level="2" name="Клеймо Слабости(Mark of Weakness)" cost="60000" min_level="87"/>
+			<skill id="11261" level="2" name="Клеймо Чумы(Mark of Plague)" cost="60000" min_level="87"/>
+			<skill id="11296" level="2" name="Массовое Изгнание(Mass Exile)" cost="60000" min_level="87"/>
+			<skill id="11330" level="2" name="Призвать Магнуса Веньо(Summon Wynn Magnus)" cost="60000" min_level="87"/>
+			<skill id="11329" level="2" name="Призвать Мэрроу Веньо(Summon Wynn Merrow)" cost="60000" min_level="87"/>
+			<skill id="11331" level="2" name="Призвать Серафима Веньо(Summon Wynn Seraphim)" cost="60000" min_level="87"/>
+			<skill id="11263" level="1" name="Созвать(Invoke)" cost="60000" min_level="87"/>
+			<skill id="11273" level="2" name="Изгнание(Exile)" cost="80000" min_level="88"/>
+			<skill id="11298" level="3" name="Клеймо Огня(Mark of Fire)" cost="80000" min_level="88"/>
+			<skill id="11260" level="2" name="Клеймо Пустоты(Mark of Void)" cost="80000" min_level="88"/>
+			<skill id="11302" level="3" name="Основное Лечение Слуги(Servitor Major Heal)" cost="80000" min_level="88"/>
+			<skill id="11268" level="3" name="Призвать Карающий Кубик(Summon Avenging Cubic)" cost="80000" min_level="88"/>
+			<skill id="11271" level="3" name="Снятие Клейма(Mark Retriever)" cost="80000" min_level="88"/>
+			<skill id="11264" level="1" name="Жажда(Strong Will)" cost="100000" min_level="89"/>
+			<skill id="11259" level="3" name="Клеймо Слабости(Mark of Weakness)" cost="100000" min_level="89"/>
+			<skill id="11262" level="3" name="Клеймо Хитрости(Mark of Trick)" cost="100000" min_level="89"/>
+			<skill id="11330" level="3" name="Призвать Магнуса Веньо(Summon Wynn Magnus)" cost="100000" min_level="89"/>
+			<skill id="11329" level="3" name="Призвать Мэрроу Веньо(Summon Wynn Merrow)" cost="100000" min_level="89"/>
+			<skill id="11331" level="3" name="Призвать Серафима Веньо(Summon Wynn Seraphim)" cost="100000" min_level="89"/>
+			<skill id="11263" level="2" name="Созвать(Invoke)" cost="100000" min_level="89"/>
+			<skill id="11297" level="2" name="Благословение Гиганта(Blessing of the Giants)" cost="370000" min_level="90"/>
+			<skill id="11295" level="2" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="370000" min_level="90"/>
+			<skill id="11253" level="2" name="Великое Владение Магией(Superior Magic Mastery)" cost="370000" min_level="90"/>
+			<skill id="11252" level="2" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="370000" min_level="90"/>
+			<skill id="11251" level="2" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="370000" min_level="90"/>
+			<skill id="11254" level="2" name="Великое Владение Призывом(Superior Summon Mastery)" cost="370000" min_level="90"/>
+			<skill id="11287" level="2" name="Великое Сопротивление(Superior Resistance)" cost="370000" min_level="90"/>
+			<skill id="11353" level="2" name="Гнев Стихий(Elemental Rage)" cost="370000" min_level="90"/>
+			<skill id="11270" level="2" name="Избавление от Боли(Ultimate Transfer Pain)" cost="370000" min_level="90"/>
+			<skill id="11298" level="4" name="Клеймо Огня(Mark of Fire)" cost="370000" min_level="90"/>
+			<skill id="11261" level="3" name="Клеймо Чумы(Mark of Plague)" cost="370000" min_level="90"/>
+			<skill id="11296" level="3" name="Массовое Изгнание(Mass Exile)" cost="370000" min_level="90"/>
+			<skill id="30824" level="2" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="370000" min_level="90"/>
+			<skill id="30826" level="2" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="370000" min_level="90"/>
+			<skill id="30825" level="2" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="370000" min_level="90"/>
+			<skill id="30823" level="2" name="Обычная Поэма Рога(Basic Horn Melody)" cost="370000" min_level="90"/>
+			<skill id="11302" level="4" name="Основное Лечение Слуги(Servitor Major Heal)" cost="370000" min_level="90"/>
+			<skill id="11288" level="2" name="Последнее Разделение Судьбы(Ultimate Servitor Share)" cost="370000" min_level="90"/>
+			<skill id="11268" level="4" name="Призвать Карающий Кубик(Summon Avenging Cubic)" cost="370000" min_level="90"/>
+			<skill id="11274" level="2" name="Призыв Барьера(Summon Barrier)" cost="370000" min_level="90"/>
+			<skill id="11269" level="2" name="Разделение Маны(Mass Servitor Heal)" cost="370000" min_level="90"/>
+			<skill id="11271" level="4" name="Снятие Клейма(Mark Retriever)" cost="370000" min_level="90"/>
+			<skill id="11348" level="2" name="Шепот Смерти Слуги Героя(Servitor Death Whisper)" cost="370000" min_level="90"/>
+			<skill id="11299" level="1" name="Баланс Жизни Слуги(Servitor Balance Life)" cost="400000" min_level="91"/>
+			<skill id="11273" level="3" name="Изгнание(Exile)" cost="400000" min_level="91"/>
+			<skill id="11260" level="3" name="Клеймо Пустоты(Mark of Void)" cost="400000" min_level="91"/>
+			<skill id="11259" level="4" name="Клеймо Слабости(Mark of Weakness)" cost="400000" min_level="91"/>
+			<skill id="11330" level="4" name="Призвать Магнуса Веньо(Summon Wynn Magnus)" cost="400000" min_level="91"/>
+			<skill id="11329" level="4" name="Призвать Мэрроу Веньо(Summon Wynn Merrow)" cost="400000" min_level="91"/>
+			<skill id="11331" level="4" name="Призвать Серафима Веньо(Summon Wynn Seraphim)" cost="400000" min_level="91"/>
+			<skill id="11263" level="3" name="Созвать(Invoke)" cost="400000" min_level="91"/>
+			<skill id="11264" level="2" name="Жажда(Strong Will)" cost="420000" min_level="92"/>
+			<skill id="11298" level="5" name="Клеймо Огня(Mark of Fire)" cost="420000" min_level="92"/>
+			<skill id="11262" level="4" name="Клеймо Хитрости(Mark of Trick)" cost="420000" min_level="92"/>
+			<skill id="11302" level="5" name="Основное Лечение Слуги(Servitor Major Heal)" cost="420000" min_level="92"/>
+			<skill id="11268" level="5" name="Призвать Карающий Кубик(Summon Avenging Cubic)" cost="420000" min_level="92"/>
+			<skill id="11271" level="5" name="Снятие Клейма(Mark Retriever)" cost="420000" min_level="92"/>
+			<skill id="11259" level="5" name="Клеймо Слабости(Mark of Weakness)" cost="440000" min_level="93"/>
+			<skill id="11261" level="4" name="Клеймо Чумы(Mark of Plague)" cost="440000" min_level="93"/>
+			<skill id="11296" level="4" name="Массовое Изгнание(Mass Exile)" cost="440000" min_level="93"/>
+			<skill id="11330" level="5" name="Призвать Магнуса Веньо(Summon Wynn Magnus)" cost="440000" min_level="93"/>
+			<skill id="11329" level="5" name="Призвать Мэрроу Веньо(Summon Wynn Merrow)" cost="440000" min_level="93"/>
+			<skill id="11331" level="5" name="Призвать Серафима Веньо(Summon Wynn Seraphim)" cost="440000" min_level="93"/>
+			<skill id="11276" level="1" name="Пространственные Оковы(Dimensional Binding)" cost="440000" min_level="93"/>
+			<skill id="11263" level="4" name="Созвать(Invoke)" cost="440000" min_level="93"/>
+			<skill id="11273" level="4" name="Изгнание(Exile)" cost="480000" min_level="94"/>
+			<skill id="11298" level="6" name="Клеймо Огня(Mark of Fire)" cost="480000" min_level="94"/>
+			<skill id="11260" level="4" name="Клеймо Пустоты(Mark of Void)" cost="480000" min_level="94"/>
+			<skill id="11302" level="6" name="Основное Лечение Слуги(Servitor Major Heal)" cost="480000" min_level="94"/>
+			<skill id="11268" level="6" name="Призвать Карающий Кубик(Summon Avenging Cubic)" cost="480000" min_level="94"/>
+			<skill id="11271" level="6" name="Снятие Клейма(Mark Retriever)" cost="480000" min_level="94"/>
+			<skill id="11297" level="3" name="Благословение Гиганта(Blessing of the Giants)" cost="1000000" min_level="95"/>
+			<skill id="11295" level="3" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="1000000" min_level="95"/>
+			<skill id="11253" level="3" name="Великое Владение Магией(Superior Magic Mastery)" cost="1000000" min_level="95"/>
+			<skill id="11252" level="3" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="1000000" min_level="95"/>
+			<skill id="11251" level="3" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="1000000" min_level="95"/>
+			<skill id="11254" level="3" name="Великое Владение Призывом(Superior Summon Mastery)" cost="1000000" min_level="95"/>
+			<skill id="11287" level="3" name="Великое Сопротивление(Superior Resistance)" cost="1000000" min_level="95"/>
+			<skill id="11353" level="3" name="Гнев Стихий(Elemental Rage)" cost="1000000" min_level="95"/>
+			<skill id="11267" level="1" name="Дух Набиаропа(Spirit of Naviarope)" cost="1000000" min_level="95"/>
+			<skill id="11264" level="3" name="Жажда(Strong Will)" cost="1000000" min_level="95"/>
+			<skill id="11270" level="3" name="Избавление от Боли(Ultimate Transfer Pain)" cost="1000000" min_level="95"/>
+			<skill id="11259" level="6" name="Клеймо Слабости(Mark of Weakness)" cost="1000000" min_level="95"/>
+			<skill id="11262" level="5" name="Клеймо Хитрости(Mark of Trick)" cost="1000000" min_level="95"/>
+			<skill id="30824" level="3" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="1000000" min_level="95"/>
+			<skill id="30826" level="3" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="1000000" min_level="95"/>
+			<skill id="30825" level="3" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="1000000" min_level="95"/>
+			<skill id="30823" level="3" name="Обычная Поэма Рога(Basic Horn Melody)" cost="1000000" min_level="95"/>
+			<skill id="11288" level="3" name="Последнее Разделение Судьбы(Ultimate Servitor Share)" cost="1000000" min_level="95"/>
+			<skill id="11330" level="6" name="Призвать Магнуса Веньо(Summon Wynn Magnus)" cost="1000000" min_level="95"/>
+			<skill id="11329" level="6" name="Призвать Мэрроу Веньо(Summon Wynn Merrow)" cost="1000000" min_level="95"/>
+			<skill id="11331" level="6" name="Призвать Серафима Веньо(Summon Wynn Seraphim)" cost="1000000" min_level="95"/>
+			<skill id="11274" level="3" name="Призыв Барьера(Summon Barrier)" cost="1000000" min_level="95"/>
+			<skill id="11269" level="3" name="Разделение Маны(Mass Servitor Heal)" cost="1000000" min_level="95"/>
+			<skill id="11263" level="5" name="Созвать(Invoke)" cost="1000000" min_level="95"/>
+			<skill id="11348" level="3" name="Шепот Смерти Слуги Героя(Servitor Death Whisper)" cost="1000000" min_level="95"/>
+			<skill id="11298" level="7" name="Клеймо Огня(Mark of Fire)" cost="4970000" min_level="96"/>
+			<skill id="11261" level="5" name="Клеймо Чумы(Mark of Plague)" cost="4970000" min_level="96"/>
+			<skill id="11296" level="5" name="Массовое Изгнание(Mass Exile)" cost="4970000" min_level="96"/>
+			<skill id="11302" level="7" name="Основное Лечение Слуги(Servitor Major Heal)" cost="4970000" min_level="96"/>
+			<skill id="11268" level="7" name="Призвать Карающий Кубик(Summon Avenging Cubic)" cost="4970000" min_level="96"/>
+			<skill id="11276" level="2" name="Пространственные Оковы(Dimensional Binding)" cost="4970000" min_level="96"/>
+			<skill id="11271" level="7" name="Снятие Клейма(Mark Retriever)" cost="4970000" min_level="96"/>
+			<skill id="11299" level="2" name="Баланс Жизни Слуги(Servitor Balance Life)" cost="4980000" min_level="97"/>
+			<skill id="11267" level="2" name="Дух Набиаропа(Spirit of Naviarope)" cost="4980000" min_level="97"/>
+			<skill id="11273" level="5" name="Изгнание(Exile)" cost="4980000" min_level="97"/>
+			<skill id="11260" level="5" name="Клеймо Пустоты(Mark of Void)" cost="4980000" min_level="97"/>
+			<skill id="11259" level="7" name="Клеймо Слабости(Mark of Weakness)" cost="4980000" min_level="97"/>
+			<skill id="11272" level="1" name="Перемена Мест(Replace)" cost="4980000" min_level="97"/>
+			<skill id="11330" level="7" name="Призвать Магнуса Веньо(Summon Wynn Magnus)" cost="4980000" min_level="97"/>
+			<skill id="11329" level="7" name="Призвать Мэрроу Веньо(Summon Wynn Merrow)" cost="4980000" min_level="97"/>
+			<skill id="11331" level="7" name="Призвать Серафима Веньо(Summon Wynn Seraphim)" cost="4980000" min_level="97"/>
+			<skill id="11263" level="6" name="Созвать(Invoke)" cost="4980000" min_level="97"/>
+			<skill id="11264" level="4" name="Жажда(Strong Will)" cost="4990000" min_level="98"/>
+			<skill id="11298" level="8" name="Клеймо Огня(Mark of Fire)" cost="4990000" min_level="98"/>
+			<skill id="11262" level="6" name="Клеймо Хитрости(Mark of Trick)" cost="4990000" min_level="98"/>
+			<skill id="11302" level="8" name="Основное Лечение Слуги(Servitor Major Heal)" cost="4990000" min_level="98"/>
+			<skill id="11268" level="8" name="Призвать Карающий Кубик(Summon Avenging Cubic)" cost="4990000" min_level="98"/>
+			<skill id="11271" level="8" name="Снятие Клейма(Mark Retriever)" cost="4990000" min_level="98"/>
+			<skill id="11297" level="4" name="Благословение Гиганта(Blessing of the Giants)" cost="5000000" min_level="99"/>
+			<skill id="1405" level="5" name="Божественное Вдохновение(Divine Inspiration)" item_id="40064" cost="5000000" min_level="99"/>
+			<skill id="1405" level="6" name="Божественное Вдохновение(Divine Inspiration)" item_id="40065" cost="5000000" min_level="99"/>
+			<skill id="11295" level="4" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="5000000" min_level="99"/>
+			<skill id="11253" level="4" name="Великое Владение Магией(Superior Magic Mastery)" cost="5000000" min_level="99"/>
+			<skill id="11252" level="4" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="5000000" min_level="99"/>
+			<skill id="11251" level="4" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="5000000" min_level="99"/>
+			<skill id="11254" level="4" name="Великое Владение Призывом(Superior Summon Mastery)" cost="5000000" min_level="99"/>
+			<skill id="11287" level="4" name="Великое Сопротивление(Superior Resistance)" cost="5000000" min_level="99"/>
+			<skill id="11353" level="4" name="Гнев Стихий(Elemental Rage)" cost="5000000" min_level="99"/>
+			<skill id="11267" level="3" name="Дух Набиаропа(Spirit of Naviarope)" cost="5000000" min_level="99"/>
+			<skill id="11393" level="1" name="Дыхание Холода(Freezing Invoke)" item_id="39738" item_count="4" cost="5000000" min_level="99"/>
+			<skill id="11270" level="4" name="Избавление от Боли(Ultimate Transfer Pain)" cost="5000000" min_level="99"/>
+			<skill id="11259" level="8" name="Клеймо Слабости(Mark of Weakness)" cost="5000000" min_level="99"/>
+			<skill id="11261" level="6" name="Клеймо Чумы(Mark of Plague)" cost="5000000" min_level="99"/>
+			<skill id="11296" level="6" name="Массовое Изгнание(Mass Exile)" cost="5000000" min_level="99"/>
+			<skill id="11363" level="1" name="Мгновенное Перемещение(Instant Teleport)" item_id="39738" item_count="4" cost="5000000" min_level="99"/>
+			<skill id="30824" level="4" name="Обычная Поэма Барабана(Basic Drum Melody)" cost="5000000" min_level="99"/>
+			<skill id="30826" level="4" name="Обычная Поэма Гитары(Basic Guitar Melody)" cost="5000000" min_level="99"/>
+			<skill id="30825" level="4" name="Обычная Поэма Органа(Basic Pipe Organ Melody)" cost="5000000" min_level="99"/>
+			<skill id="30823" level="4" name="Обычная Поэма Рога(Basic Horn Melody)" cost="5000000" min_level="99"/>
+			<skill id="11266" level="1" name="Призвать Врата Смерти(Summon Death Gate)" cost="5000000" min_level="99"/>
+			<skill id="11330" level="8" name="Призвать Магнуса Веньо(Summon Wynn Magnus)" cost="5000000" min_level="99"/>
+			<skill id="11329" level="8" name="Призвать Мэрроу Веньо(Summon Wynn Merrow)" cost="5000000" min_level="99"/>
+			<skill id="11331" level="8" name="Призвать Серафима Веньо(Summon Wynn Seraphim)" cost="5000000" min_level="99"/>
+			<skill id="11274" level="4" name="Призыв Барьера(Summon Barrier)" cost="5000000" min_level="99"/>
+			<skill id="11361" level="1" name="Призыв Портала Мгновенного Перемещения(Summon Moving Portal)" item_id="39738" item_count="4" cost="5000000" min_level="99"/>
+			<skill id="11276" level="3" name="Пространственные Оковы(Dimensional Binding)" cost="5000000" min_level="99"/>
+			<skill id="11269" level="4" name="Разделение Маны(Mass Servitor Heal)" cost="5000000" min_level="99"/>
+			<skill id="19220" level="1" name="Разделение Снаряжения(Sharing Equipment)" item_id="39738" item_count="8" cost="5000000" min_level="99"/>
+			<skill id="11263" level="7" name="Созвать(Invoke)" cost="5000000" min_level="99"/>
+			<skill id="11348" level="4" name="Шепот Смерти Слуги Героя(Servitor Death Whisper)" cost="5000000" min_level="99"/>
+			<skill id="11295" level="5" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="88099899" min_level="100"/>
+			<skill id="11253" level="5" name="Великое Владение Магией(Superior Magic Mastery)" cost="88099899" min_level="100"/>
+			<skill id="11252" level="5" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="88099899" min_level="100"/>
+			<skill id="11251" level="5" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="88099899" min_level="100"/>
+			<skill id="11287" level="5" name="Великое Сопротивление(Superior Resistance)" cost="88099899" min_level="100"/>
+			<skill id="11371" level="1" name="Призвать Лансера(Summon Unicorn Lancer)" cost="88099899" min_level="100"/>
+			<skill id="11372" level="1" name="Призвать Херувима(Summon Unicorn Cherub)" cost="88099899" min_level="100"/>
+			<skill id="10956" level="1" name="Распространение Божественности(Divine Expansion)" item_id="39738" item_count="8" cost="88099899" min_level="100"/>
+			<skill id="11310" level="2" name="Бессмертие Слуги(Servitor Immortality)" cost="211440000" min_level="101"/>
+			<skill id="11353" level="5" name="Гнев Стихий(Elemental Rage)" cost="211440000" min_level="101"/>
+			<skill id="11393" level="2" name="Дыхание Холода(Freezing Invoke)" item_id="39738" item_count="4" cost="211440000" min_level="101"/>
+			<skill id="11389" level="1" name="Зов Стихий(Elemental's Call)" item_id="39738" item_count="8" cost="211440000" min_level="101"/>
+			<skill id="11273" level="6" name="Изгнание(Exile)" cost="211440000" min_level="101"/>
+			<skill id="11298" level="9" name="Клеймо Огня(Mark of Fire)" cost="211440000" min_level="101"/>
+			<skill id="11260" level="6" name="Клеймо Пустоты(Mark of Void)" cost="211440000" min_level="101"/>
+			<skill id="11259" level="9" name="Клеймо Слабости(Mark of Weakness)" cost="211440000" min_level="101"/>
+			<skill id="11262" level="7" name="Клеймо Хитрости(Mark of Trick)" cost="211440000" min_level="101"/>
+			<skill id="11261" level="7" name="Клеймо Чумы(Mark of Plague)" cost="211440000" min_level="101"/>
+			<skill id="11296" level="7" name="Массовое Изгнание(Mass Exile)" cost="211440000" min_level="101"/>
+			<skill id="11302" level="9" name="Основное Лечение Слуги(Servitor Major Heal)" cost="211440000" min_level="101"/>
+			<skill id="11288" level="4" name="Последнее Разделение Судьбы(Ultimate Servitor Share)" cost="211440000" min_level="101"/>
+			<skill id="11266" level="2" name="Призвать Врата Смерти(Summon Death Gate)" cost="211440000" min_level="101"/>
+			<skill id="11268" level="9" name="Призвать Карающий Кубик(Summon Avenging Cubic)" cost="211440000" min_level="101"/>
+			<skill id="11371" level="2" name="Призвать Лансера(Summon Unicorn Lancer)" cost="211440000" min_level="101"/>
+			<skill id="11372" level="2" name="Призвать Херувима(Summon Unicorn Cherub)" cost="211440000" min_level="101"/>
+			<skill id="11361" level="2" name="Призыв Портала Мгновенного Перемещения(Summon Moving Portal)" item_id="39738" item_count="4" cost="211440000" min_level="101"/>
+			<skill id="11276" level="4" name="Пространственные Оковы(Dimensional Binding)" cost="211440000" min_level="101"/>
+			<skill id="11269" level="5" name="Разделение Маны(Mass Servitor Heal)" cost="211440000" min_level="101"/>
+			<skill id="11271" level="9" name="Снятие Клейма(Mark Retriever)" cost="211440000" min_level="101"/>
+			<skill id="11263" level="8" name="Созвать(Invoke)" cost="211440000" min_level="101"/>
+			<skill id="11348" level="5" name="Шепот Смерти Слуги Героя(Greater Servitor Death Whisper)" cost="211440000" min_level="101"/>
+			<skill id="11295" level="6" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="507455418" min_level="102"/>
+			<skill id="11253" level="6" name="Великое Владение Магией(Superior Magic Mastery)" cost="507455418" min_level="102"/>
+			<skill id="11252" level="6" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="507455418" min_level="102"/>
+			<skill id="11251" level="6" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="507455418" min_level="102"/>
+			<skill id="11287" level="6" name="Великое Сопротивление(Superior Resistance)" cost="507455418" min_level="102"/>
+			<skill id="11371" level="3" name="Призвать Лансера(Summon Unicorn Lancer)" cost="507455418" min_level="102"/>
+			<skill id="11372" level="3" name="Призвать Херувима(Summon Unicorn Cherub)" cost="507455418" min_level="102"/>
+			<skill id="11353" level="6" name="Гнев Стихий(Elemental Rage)" cost="608946501" min_level="103"/>
+			<skill id="11393" level="3" name="Дыхание Холода(Freezing Invoke)" item_id="39738" item_count="8" cost="608946501" min_level="103"/>
+			<skill id="11273" level="7" name="Изгнание(Exile)" cost="608946501" min_level="103"/>
+			<skill id="11298" level="10" name="Клеймо Огня(Mark of Fire)" cost="608946501" min_level="103"/>
+			<skill id="11260" level="7" name="Клеймо Пустоты(Mark of Void)" cost="608946501" min_level="103"/>
+			<skill id="11259" level="10" name="Клеймо Слабости(Mark of Weakness)" cost="608946501" min_level="103"/>
+			<skill id="11262" level="8" name="Клеймо Хитрости(Mark of Trick)" cost="608946501" min_level="103"/>
+			<skill id="11261" level="8" name="Клеймо Чумы(Mark of Plague)" cost="608946501" min_level="103"/>
+			<skill id="11296" level="8" name="Массовое Изгнание(Mass Exile)" cost="608946501" min_level="103"/>
+			<skill id="11302" level="10" name="Основное Лечение Слуги(Servitor Major Heal)" cost="608946501" min_level="103"/>
+			<skill id="11266" level="3" name="Призвать Врата Смерти(Summon Death Gate)" cost="608946501" min_level="103"/>
+			<skill id="11268" level="10" name="Призвать Карающий Кубик(Summon Avenging Cubic)" cost="608946501" min_level="103"/>
+			<skill id="11371" level="4" name="Призвать Лансера(Summon Unicorn Lancer)" cost="608946501" min_level="103"/>
+			<skill id="11372" level="4" name="Призвать Херувима(Summon Unicorn Cherub)" cost="608946501" min_level="103"/>
+			<skill id="11276" level="5" name="Пространственные Оковы(Dimensional Binding)" cost="608946501" min_level="103"/>
+			<skill id="11269" level="6" name="Разделение Маны(Mass Servitor Heal)" cost="608946501" min_level="103"/>
+			<skill id="11271" level="10" name="Снятие Клейма(Mark Retriever)" cost="608946501" min_level="103"/>
+			<skill id="11263" level="9" name="Созвать(Invoke)" cost="608946501" min_level="103"/>
+			<skill id="11348" level="6" name="Шепот Смерти Слуги Героя(Greater Servitor Death Whisper)" cost="608946501" min_level="103"/>
+			<skill id="11295" level="7" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="11253" level="7" name="Великое Владение Магией(Superior Magic Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="11252" level="7" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="11251" level="7" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="11287" level="7" name="Великое Сопротивление(Superior Resistance)" cost="1461471604" min_level="104"/>
+			<skill id="11371" level="5" name="Призвать Лансера(Summon Unicorn Lancer)" cost="1461471604" min_level="104"/>
+			<skill id="11372" level="5" name="Призвать Херувима(Summon Unicorn Cherub)" cost="1461471604" min_level="104"/>
+			<skill id="11353" level="7" name="Гнев Стихий(Elemental Rage)" cost="1753765925" min_level="105"/>
+			<skill id="11393" level="4" name="Дыхание Холода(Freezing Invoke)" item_id="39738" item_count="8" cost="1753765925" min_level="105"/>
+			<skill id="11273" level="8" name="Изгнание(Exile)" cost="1753765925" min_level="105"/>
+			<skill id="11298" level="11" name="Клеймо Огня(Mark of Fire)" cost="1753765925" min_level="105"/>
+			<skill id="11260" level="8" name="Клеймо Пустоты(Mark of Void)" cost="1753765925" min_level="105"/>
+			<skill id="11259" level="11" name="Клеймо Слабости(Mark of Weakness)" cost="1753765925" min_level="105"/>
+			<skill id="11262" level="9" name="Клеймо Хитрости(Mark of Trick)" cost="1753765925" min_level="105"/>
+			<skill id="11261" level="9" name="Клеймо Чумы(Mark of Plague)" cost="1753765925" min_level="105"/>
+			<skill id="11296" level="9" name="Массовое Изгнание(Mass Exile)" cost="1753765925" min_level="105"/>
+			<skill id="11302" level="11" name="Основное Лечение Слуги(Servitor Major Heal)" cost="1753765925" min_level="105"/>
+			<skill id="11266" level="4" name="Призвать Врата Смерти(Summon Death Gate)" cost="1753765925" min_level="105"/>
+			<skill id="11268" level="11" name="Призвать Карающий Кубик(Summon Avenging Cubic)" cost="1753765925" min_level="105"/>
+			<skill id="11371" level="6" name="Призвать Лансера(Summon Unicorn Lancer)" cost="1753765925" min_level="105"/>
+			<skill id="11372" level="6" name="Призвать Херувима(Summon Unicorn Cherub)" cost="1753765925" min_level="105"/>
+			<skill id="11276" level="6" name="Пространственные Оковы(Dimensional Binding)" cost="1753765925" min_level="105"/>
+			<skill id="11269" level="7" name="Разделение Маны(Mass Servitor Heal)" cost="1753765925" min_level="105"/>
+			<skill id="11271" level="11" name="Снятие Клейма(Mark Retriever)" cost="1753765925" min_level="105"/>
+			<skill id="11263" level="10" name="Созвать(Invoke)" cost="1753765925" min_level="105"/>
+			<skill id="11348" level="7" name="Шепот Смерти Слуги Героя(Greater Servitor Death Whisper)" cost="1753765925" min_level="105"/>
+			<skill id="11295" level="8" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="11253" level="8" name="Великое Владение Магией(Superior Magic Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="11252" level="8" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="11251" level="8" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="11287" level="8" name="Великое Сопротивление(Superior Resistance)" cost="2104519110" min_level="106"/>
+			<skill id="11371" level="7" name="Призвать Лансера(Summon Unicorn Lancer)" cost="2104519110" min_level="106"/>
+			<skill id="11372" level="7" name="Призвать Херувима(Summon Unicorn Cherub)" cost="2104519110" min_level="106"/>
+			<skill id="11353" level="8" name="Гнев Стихий(Elemental Rage)" cost="2525422932" min_level="107"/>
+			<skill id="11393" level="5" name="Дыхание Холода(Freezing Invoke)" item_id="39738" item_count="8" cost="2525422932" min_level="107"/>
+			<skill id="11273" level="9" name="Изгнание(Exile)" cost="2525422932" min_level="107"/>
+			<skill id="11298" level="12" name="Клеймо Огня(Mark of Fire)" cost="2525422932" min_level="107"/>
+			<skill id="11260" level="9" name="Клеймо Пустоты(Mark of Void)" cost="2525422932" min_level="107"/>
+			<skill id="11259" level="12" name="Клеймо Слабости(Mark of Weakness)" cost="2525422932" min_level="107"/>
+			<skill id="11262" level="10" name="Клеймо Хитрости(Mark of Trick)" cost="2525422932" min_level="107"/>
+			<skill id="11261" level="10" name="Клеймо Чумы(Mark of Plague)" cost="2525422932" min_level="107"/>
+			<skill id="11296" level="10" name="Массовое Изгнание(Mass Exile)" cost="2525422932" min_level="107"/>
+			<skill id="11302" level="12" name="Основное Лечение Слуги(Servitor Major Heal)" cost="2525422932" min_level="107"/>
+			<skill id="11266" level="5" name="Призвать Врата Смерти(Summon Death Gate)" cost="2525422932" min_level="107"/>
+			<skill id="11371" level="8" name="Призвать Лансера(Summon Unicorn Lancer)" cost="2525422932" min_level="107"/>
+			<skill id="11372" level="8" name="Призвать Херувима(Summon Unicorn Cherub)" cost="2525422932" min_level="107"/>
+			<skill id="11276" level="7" name="Пространственные Оковы(Dimensional Binding)" cost="2525422932" min_level="107"/>
+			<skill id="11269" level="8" name="Разделение Маны(Mass Servitor Heal)" cost="2525422932" min_level="107"/>
+			<skill id="11271" level="12" name="Снятие Клейма(Mark Retriever)" cost="2525422932" min_level="107"/>
+			<skill id="11263" level="11" name="Созвать(Invoke)" cost="2525422932" min_level="107"/>
+			<skill id="11295" level="9" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="11253" level="9" name="Великое Владение Магией(Superior Magic Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="11252" level="9" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="11251" level="9" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="11287" level="9" name="Великое Сопротивление(Superior Resistance)" cost="6061015038" min_level="108"/>
+			<skill id="11371" level="9" name="Призвать Лансера(Summon Unicorn Lancer)" cost="6061015038" min_level="108"/>
+			<skill id="11372" level="9" name="Призвать Херувима(Summon Unicorn Cherub)" cost="6061015038" min_level="108"/>
+			<skill id="11353" level="9" name="Гнев Стихий(Elemental Rage)" cost="7273218046" min_level="109"/>
+			<skill id="11393" level="6" name="Дыхание Холода(Freezing Invoke)" item_id="39738" item_count="8" cost="7273218046" min_level="109"/>
+			<skill id="11273" level="10" name="Изгнание(Exile)" cost="7273218046" min_level="109"/>
+			<skill id="11298" level="13" name="Клеймо Огня(Mark of Fire)" cost="7273218046" min_level="109"/>
+			<skill id="11260" level="10" name="Клеймо Пустоты(Mark of Void)" cost="7273218046" min_level="109"/>
+			<skill id="11259" level="13" name="Клеймо Слабости(Mark of Weakness)" cost="7273218046" min_level="109"/>
+			<skill id="11262" level="11" name="Клеймо Хитрости(Mark of Trick)" cost="7273218046" min_level="109"/>
+			<skill id="11261" level="11" name="Клеймо Чумы(Mark of Plague)" cost="7273218046" min_level="109"/>
+			<skill id="11296" level="11" name="Массовое Изгнание(Mass Exile)" cost="7273218046" min_level="109"/>
+			<skill id="11302" level="13" name="Основное Лечение Слуги(Servitor Major Heal)" cost="7273218046" min_level="109"/>
+			<skill id="11266" level="6" name="Призвать Врата Смерти(Summon Death Gate)" cost="7273218046" min_level="109"/>
+			<skill id="11371" level="10" name="Призвать Лансера(Summon Unicorn Lancer)" cost="7273218046" min_level="109"/>
+			<skill id="11372" level="10" name="Призвать Херувима(Summon Unicorn Cherub)" cost="7273218046" min_level="109"/>
+			<skill id="11276" level="8" name="Пространственные Оковы(Dimensional Binding)" cost="7273218046" min_level="109"/>
+			<skill id="11269" level="9" name="Разделение Маны(Mass Servitor Heal)" cost="7273218046" min_level="109"/>
+			<skill id="11271" level="13" name="Снятие Клейма(Mark Retriever)" cost="7273218046" min_level="109"/>
+			<skill id="11263" level="12" name="Созвать(Invoke)" cost="7273218046" min_level="109"/>
+			<skill id="11348" level="8" name="Шепот Смерти Слуги Героя(Servitor Death Whisper)" cost="7273218046" min_level="109"/>
+			<skill id="11295" level="10" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="11253" level="10" name="Великое Владение Магией(Superior Magic Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="11252" level="10" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="11251" level="10" name="Великое Владение Оружием(Superior Weapon Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="11287" level="10" name="Великое Сопротивление(Superior Resistance)" cost="17455723311" min_level="110"/>
+			<skill id="11389" level="2" name="Зов Стихий(Elemental's Call)" item_id="39738" item_count="8" cost="17455723311" min_level="110"/>
+			<skill id="30857" level="1" name="Максимальный Всплеск Силы Слуги" item_id="81453" cost="17455723311" min_level="110"/>
+			<skill id="11371" level="11" name="Призвать Лансера(Summon Unicorn Lancer)" cost="17455723311" min_level="110"/>
+			<skill id="11372" level="11" name="Призвать Херувима(Summon Unicorn Cherub)" cost="17455723311" min_level="110"/>-->
+		</class>
+	</normal_skill_tree>
+</list>

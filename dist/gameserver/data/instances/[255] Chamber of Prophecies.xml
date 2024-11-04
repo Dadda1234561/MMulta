@@ -1,0 +1,32 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--Wind's of Fate: Choices-->
+	<instance id="255" name="Chamber of Prophecies" maxChannels="20" collapseIfEmpty="1" dispelBuffs="false">
+		<level min="85"/>
+		<return loc="-78664 251032 -2966"/>
+		<teleport loc="-88504 186552 -10476"/>
+		<remove itemId="0" count="0" necessary="false"/>
+		<give itemId="0" count="0"/>
+
+		<reuse resetReuse="* * * * *" setUponEntry="true" sharedReuseGroup="0"/>
+		<spawns>
+			<group name="cop_halter_1" spawned="true"/>
+			<group name="cop_halter_2" spawned="false"/>
+			<group name="cop_grail" spawned="false"/>
+			<group name="cop_wizard" spawned="false"/>
+			<group name="cop_room1" spawned="false"/>
+			<group name="cop_room2" spawned="false"/>
+			<group name="cop_room2_1" spawned="false"/>
+			<group name="cop_room3" spawned="false"/>
+			<group name="cop_room3_2" spawned="false"/>
+			<group name="cop_room4" spawned="false"/>
+		</spawns>
+		<doors>
+			<door id="17230101" opened="false"/>
+			<door id="17230102" opened="false"/>
+			<door id="17230103" opened="false"/>
+			<door id="17230104" opened="false"/>
+		</doors>
+	</instance>
+</list>

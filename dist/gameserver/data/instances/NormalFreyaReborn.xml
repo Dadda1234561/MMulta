@@ -1,0 +1,23 @@
+<!DOCTYPE list SYSTEM "instances.dtd">
+<list>
+    <!-- Freya Castle - Normal Mode -->
+    <instance id="2000" name="Фрея" maxChannels="1000" collapseIfEmpty="30" timelimit="60" dispelBuffs="true">
+        <level min="85"/>
+        <party min="1" max="7"/>
+        <return loc="82488 149224 -3472"/>
+        <teleport loc="152584 -149480 -11560"/>
+        <remove itemId="0" count="0" necessary="false"/>
+        <give itemId="0" count="0"/>
+        <quest id="0"/>
+        <reuse resetReuse="30 6 * * 3,6" setUponEntry="true" sharedReuseGroup="0"/>
+        <spawns>
+            <spawn mobId="34266" type="point" respawn="0"> <!-- RB -->
+                <coords loc="153272 -148536 -11560 0"/>
+            </spawn>
+            <!-- Teleporter -->
+            <spawn mobId="40012" type="point" respawn="0">
+                <coords loc="152472 -149016 -11560 0"/>
+            </spawn>
+        </spawns>
+    </instance>
+</list>

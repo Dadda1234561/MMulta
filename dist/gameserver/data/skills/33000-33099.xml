@@ -1,0 +1,1058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="33000" levels="3" name="Tana's Basic Skill">
+		<!-- With a certain chance, P. Atk. +$s1%%\nafter a regular attack. -->
+		<table name="#level"> 1 2 3 </table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="33088" level="#level" type="ATTACK" chance="3">
+				<player damage="100;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="33001" levels="3" name="Pallo's Basic Skill">
+		<!-- With a certain chance, Def. +$s1%%\nwhen hit. -->
+		<table name="#level"> 1 2 3 </table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="33089" level="#level" type="RECEIVE_DAMAGE" chance="3">
+				<player damage="100;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="33002" levels="3" name="Ayri's Basic Skill">
+		<!-- With a certain chance, Skill Power +$s1%%\nwhen using skills. -->
+		<table name="#level"> 1 2 3 </table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="33090" level="#level" type="ON_CAST_SKILL" chance="3"/>
+		</triggers>
+	</skill>
+	<skill id="33003" levels="3" name="Churing's Basic Skill">
+		<!-- With a certain chance, M. Atk. +$s1%%\nafter a magical attack. -->
+		<table name="#level"> 1 2 3 </table>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<triggers>
+			<trigger id="33091" level="#level" type="ON_CAST_SKILL" chance="3"/>
+		</triggers>
+	</skill>
+	<skill id="33004" levels="3" name="Chuchu Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">1 1 1</table>
+		<table name="#CON">1 1 1</table>
+		<table name="#LUC">0 1 1</table>
+		<table name="#CHA">0 0 1</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33005" levels="3" name="Tana Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">1 1 1</table>
+		<table name="#CON">1 1 1</table>
+		<table name="#LUC">0 1 1</table>
+		<table name="#CHA">0 0 1</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33006" levels="3" name="Pallo Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">1 1 1</table>
+		<table name="#CON">1 1 1</table>
+		<table name="#LUC">0 1 1</table>
+		<table name="#CHA">0 0 1</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33007" levels="3" name="Ayri Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">1 1 1</table>
+		<table name="#CON">1 1 1</table>
+		<table name="#LUC">0 1 1</table>
+		<table name="#CHA">0 0 1</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33008" levels="3" name="Churing Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">1 1 1</table>
+		<table name="#CON">1 1 1</table>
+		<table name="#LUC">0 1 1</table>
+		<table name="#CHA">0 0 1</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33009" levels="3" name="Chuchu Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.01 1.02 1.03</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33010" levels="3" name="Tana Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.01 1.02 1.03</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33011" levels="3" name="Pallo Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.01 1.02 1.03</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33012" levels="3" name="Ayri Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.01 1.02 1.03</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33013" levels="3" name="Churing Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.01 1.02 1.03</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33014" levels="3" name="Chuchu Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#vitality_consume">0.99 0.98 0.97</table>
+		<for>
+			<mul stat="vitality_consume" value="#vitality_consume"/>
+		</for>
+	</skill>
+	<skill id="33015" levels="3" name="Tana Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">10 20 30</table>
+		<for>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33016" levels="3" name="Pallo Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">10 20 30</table>
+		<for>
+			<add stat="defenceFire" value="#power"/>
+			<add stat="defenceWater" value="#power"/>
+			<add stat="defenceWind" value="#power"/>
+			<add stat="defenceEarth" value="#power"/>
+			<add stat="defenceHoly" value="#power"/>
+			<add stat="defenceUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33017" levels="3" name="Ayri Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">10 20 30</table>
+		<for>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33018" levels="3" name="Churing Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">10 20 30</table>
+		<for>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33019" levels="3" name="Chuchu Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">0.01 0.02 0.03</table>
+		<for>
+			<add stat="exp_rate_multiplier" value="#power"/>
+			<add stat="sp_rate_multiplier" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33020" levels="3" name="Tana Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.01 1.02 1.03</table>
+		<for>
+			<mul stat="pAtk" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33021" levels="3" name="Pallo Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.01 1.02 1.03</table>
+		<for>
+			<mul stat="pDef" value="#power"/>
+			<mul stat="mDef" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33022" levels="3" name="Ayri Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.01 1.02 1.03</table>
+		<for>
+			<mul stat="p_skill_power" value="#power"/> 
+			<mul stat="mSkillPower" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33023" levels="3" name="Churing Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.01 1.02 1.03</table>
+		<for>
+			<mul stat="mAtk" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33024" levels="3" name="Chuchu Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="33025" levels="3" name="Tana Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1 2 3</table>
+		<for>
+			<p_critical_damage value="#power" type="PER"/>
+		</for>
+	</skill>
+	<skill id="33026" levels="3" name="Pallo Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">0.99 0.98 0.97</table>
+		<for>
+			<mul stat="pCritDamRcpt" value="#power"/>
+			<mul stat="mCritDamRcpt" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33027" levels="3" name="Ayri Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">0.99 0.98 0.97</table>
+		<for>
+			<mul stat="mReuse" value="#power"/>
+			<mul stat="pReuse" value="#power"/>
+			<mul stat="musicReuse" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33028" levels="3" name="Churing Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1 2 3</table>
+		<for>
+			<p_magic_critical_dmg value="#power" type="PER"/>
+		</for>
+	</skill>
+	<skill id="33029" levels="3" name="Water Chuchu Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">2 2 2</table>
+		<table name="#CON">2 2 2</table>
+		<table name="#LUC">0 2 2</table>
+		<table name="#CHA">0 0 2</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33030" levels="3" name="Water Tana Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">2 2 2</table>
+		<table name="#CON">2 2 2</table>
+		<table name="#LUC">0 2 2</table>
+		<table name="#CHA">0 0 2</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33031" levels="3" name="Water Pallo Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">2 2 2</table>
+		<table name="#CON">2 2 2</table>
+		<table name="#LUC">0 2 2</table>
+		<table name="#CHA">0 0 2</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33032" levels="3" name="Water Ayri Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">2 2 2</table>
+		<table name="#CON">2 2 2</table>
+		<table name="#LUC">0 2 2</table>
+		<table name="#CHA">0 0 2</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33033" levels="3" name="Water Churing Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">2 2 2</table>
+		<table name="#CON">2 2 2</table>
+		<table name="#LUC">0 2 2</table>
+		<table name="#CHA">0 0 2</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33034" levels="3" name="Water Chuchu Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.02 1.03 1.04</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33035" levels="3" name="Water Tana Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.02 1.03 1.04</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33036" levels="3" name="Water Pallo Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.02 1.03 1.04</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33037" levels="3" name="Water Ayri Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.02 1.03 1.04</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33038" levels="3" name="Water Churing Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.02 1.03 1.04</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33039" levels="3" name="Water Chuchu Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#vitality_consume">0.98 0.97 0.96</table>
+		<for>
+			<mul stat="vitality_consume" value="#vitality_consume"/>
+		</for>
+	</skill>
+	<skill id="33040" levels="3" name="Water Tana Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">20 30 40</table>
+		<for>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33041" levels="3" name="Water Pallo Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">20 30 40</table>
+		<for>
+			<add stat="defenceFire" value="#power"/>
+			<add stat="defenceWater" value="#power"/>
+			<add stat="defenceWind" value="#power"/>
+			<add stat="defenceEarth" value="#power"/>
+			<add stat="defenceHoly" value="#power"/>
+			<add stat="defenceUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33042" levels="3" name="Water Ayri Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">20 30 40</table>
+		<for>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33043" levels="3" name="Water Churing Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">20 30 40</table>
+		<for>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33044" levels="3" name="Water Chuchu Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">0.02 0.03 0.04</table>
+		<for>
+			<add stat="exp_rate_multiplier" value="#power"/>
+			<add stat="sp_rate_multiplier" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33045" levels="3" name="Water Tana Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.02 1.03 1.04</table>
+		<for>
+			<mul stat="pAtk" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33046" levels="3" name="Water Pallo Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.02 1.03 1.04</table>
+		<for>
+			<mul stat="pDef" value="#power"/>
+			<mul stat="mDef" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33047" levels="3" name="Water Ayri Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.02 1.03 1.04</table>
+		<for>
+			<mul stat="p_skill_power" value="#power"/> 
+			<mul stat="mSkillPower" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33048" levels="3" name="Water Churing Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.02 1.03 1.04</table>
+		<for>
+			<mul stat="mAtk" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33049" levels="3" name="Water Chuchu Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="33050" levels="3" name="Water Tana Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">2 3 4</table>
+		<for>
+			<p_critical_damage value="#power" type="PER"/>
+		</for>
+	</skill>
+	<skill id="33051" levels="3" name="Water Pallo Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">0.98 0.97 0.96</table>
+		<for>
+			<mul stat="pCritDamRcpt" value="#power"/>
+			<mul stat="mCritDamRcpt" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33052" levels="3" name="Water Ayri Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">0.98 0.97 0.96</table>
+		<for>
+			<mul stat="mReuse" value="#power"/>
+			<mul stat="pReuse" value="#power"/>
+			<mul stat="musicReuse" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33053" levels="3" name="Water Churing Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">2 3 4</table>
+		<for>
+			<p_magic_critical_dmg value="#power" type="PER"/>
+		</for>
+	</skill>
+	<skill id="33054" levels="3" name="Luminous Chuchu Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">3 3 3</table>
+		<table name="#CON">3 3 3</table>
+		<table name="#LUC">0 3 3</table>
+		<table name="#CHA">0 0 3</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33055" levels="3" name="Luminous Tana Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">3 3 3</table>
+		<table name="#CON">3 3 3</table>
+		<table name="#LUC">0 3 3</table>
+		<table name="#CHA">0 0 3</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33056" levels="3" name="Luminous Pallo Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">3 3 3</table>
+		<table name="#CON">3 3 3</table>
+		<table name="#LUC">0 3 3</table>
+		<table name="#CHA">0 0 3</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33057" levels="3" name="Luminous Ayri Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">3 3 3</table>
+		<table name="#CON">3 3 3</table>
+		<table name="#LUC">0 3 3</table>
+		<table name="#CHA">0 0 3</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33058" levels="3" name="Luminous Churing Lv. 1 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#MEN">3 3 3</table>
+		<table name="#CON">3 3 3</table>
+		<table name="#LUC">0 3 3</table>
+		<table name="#CHA">0 0 3</table>
+		<for>
+			<add order="0x10" stat="MEN" value="#MEN"/>
+			<add order="0x10" stat="CON" value="#CON"/>
+			<add order="0x10" stat="LUC" value="#LUC"/>
+			<add order="0x10" stat="CHA" value="#CHA"/>
+		</for>
+	</skill>
+	<skill id="33059" levels="3" name="Luminous Chuchu Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.03 1.04 1.05</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33060" levels="3" name="Luminous Tana Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.03 1.04 1.05</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33061" levels="3" name="Luminous Pallo Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.03 1.04 1.05</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33062" levels="3" name="Luminous Ayri Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.03 1.04 1.05</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33063" levels="3" name="Luminous Churing Lv. 2 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#hp">1.03 1.04 1.05</table>
+		<for>
+			<mul stat="maxHp" value="#hp"/>
+			<mul stat="maxMp" value="#hp"/>
+		</for>
+	</skill>
+	<skill id="33064" levels="3" name="Luminous Chuchu Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#vitality_consume">0.97 0.96 0.95</table>
+		<for>
+			<mul stat="vitality_consume" value="#vitality_consume"/>
+		</for>
+	</skill>
+	<skill id="33065" levels="3" name="Luminous Tana Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">30 40 50</table>
+		<for>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33066" levels="3" name="Luminous Pallo Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">30 40 50</table>
+		<for>
+			<add stat="defenceFire" value="#power"/>
+			<add stat="defenceWater" value="#power"/>
+			<add stat="defenceWind" value="#power"/>
+			<add stat="defenceEarth" value="#power"/>
+			<add stat="defenceHoly" value="#power"/>
+			<add stat="defenceUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33067" levels="3" name="Luminous Ayri Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">30 40 50</table>
+		<for>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33068" levels="3" name="Luminous Churing Lv. 3 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">30 40 50</table>
+		<for>
+			<add stat="attackFire" value="#power"/>
+			<add stat="attackWater" value="#power"/>
+			<add stat="attackWind" value="#power"/>
+			<add stat="attackEarth" value="#power"/>
+			<add stat="attackHoly" value="#power"/>
+			<add stat="attackUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33069" levels="3" name="Luminous Chuchu Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">0.03 0.04 0.05</table>
+		<for>
+			<add stat="exp_rate_multiplier" value="#power"/>
+			<add stat="sp_rate_multiplier" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33070" levels="3" name="Luminous Tana Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.03 1.04 1.05</table>
+		<for>
+			<mul stat="pAtk" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33071" levels="3" name="Luminous Pallo Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.03 1.04 1.05</table>
+		<for>
+			<mul stat="pDef" value="#power"/>
+			<mul stat="mDef" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33072" levels="3" name="Luminous Ayri Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.03 1.04 1.05</table>
+		<for>
+			<mul stat="p_skill_power" value="#power"/> 
+			<mul stat="mSkillPower" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33073" levels="3" name="Luminous Churing Lv. 4 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">1.03 1.04 1.05</table>
+		<for>
+			<mul stat="mAtk" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33074" levels="3" name="Luminous Chuchu Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="33075" levels="3" name="Luminous Tana Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">3 4 5</table>
+		<for>
+			<p_critical_damage value="#power" type="PER"/>
+		</for>
+	</skill>
+	<skill id="33076" levels="3" name="Luminous Pallo Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">0.97 0.96 0.95</table>
+		<for>
+			<mul stat="pCritDamRcpt" value="#power"/>
+			<mul stat="mCritDamRcpt" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33077" levels="3" name="Luminous Ayri Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">0.97 0.96 0.95</table>
+		<for>
+			<mul stat="mReuse" value="#power"/>
+			<mul stat="pReuse" value="#power"/>
+			<mul stat="musicReuse" value="#power"/>
+		</for>
+	</skill>
+	<skill id="33078" levels="3" name="Luminous Churing Lv. 5 - Link Lv. 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="P"/>
+		<table name="#power">3 4 5</table>
+		<for>
+			<p_magic_critical_dmg value="#power" type="PER"/>
+		</for>
+	</skill>
+	<skill id="33079" levels="1" name="Vicious Strike">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33080" levels="1" name="Vicious Bleed">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0509"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33081" levels="1" name="Vicious Mass Stun">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-700"/>
+		<set name="icon" value="icon.skill10265"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="800"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33082" levels="1" name="Vicious Energy Burst">
+		<set name="effectPoint" value="-1000"/>
+		<set name="icon" value="icon.skill1417"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33083" levels="1" name="Slow Poison">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0096"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33084" levels="1" name="Curse of Swamp">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill1422"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33085" levels="1" name="Energy of Screams">
+		<set name="icon" value="icon.skill0335"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33086" levels="3" name="Dragon Scale">
+		<set name="icon" value="icon.skill0539"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33087" levels="3" name="Chuchu's Blessing">
+		<!-- Vitality Recovery -->
+		<table name="#power"> 0.1 0.2 0.3 </table>
+		<set name="icon" value="icon.homun_skill_icon"/>
+		<set name="reuseDelay" value="120000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="power" value="#power"/>
+		<set name="isHandler" value="true"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="VITALITY_HEAL"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33088" levels="3" name="Tana's Blessing">
+		<!-- P. Atk. +$s1 for 15 sec. -->
+		<table name="#pAtk"> 1.01 1.03 1.05 </table>
+		<set name="icon" value="icon.homun_skill_icon"/>
+		<set name="reuseDelay" value="120000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="isTrigger" value="true"/>
+		<for>
+			<effect>
+				<mul stat="pAtk" value="#pAtk"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="33089" levels="3" name="Pallo's Blessing">
+		<!-- P./ M. Def. +$s1 for 15 sec. -->
+		<table name="#pDef"> 1.01 1.03 1.05 </table>
+		<set name="icon" value="icon.homun_skill_icon"/>
+		<set name="reuseDelay" value="120000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="isTrigger" value="true"/>
+		<for>
+			<effect>
+				<mul stat="pDef" value="#pDef"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="33090" levels="3" name="Ayri's Blessing">
+		<!-- For 15 sec., P./ M. Skill Power +$s1. -->
+		<table name="#skillPower"> 1.01 1.02 1.03 </table>
+		<set name="icon" value="icon.homun_skill_icon"/>
+		<set name="reuseDelay" value="120000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="isTrigger" value="true"/>
+		<for>
+			<effect>
+				<mul stat="p_skill_power" value="#skillPower"/>
+				<mul stat="mSkillPower" value="#skillPower"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="33091" levels="3" name="Churing's Blessing">
+		<!-- For 15 sec., M. Atk. +$s1. -->
+		<table name="#mAtk"> 1.01 1.03 1.05 </table>
+		<set name="icon" value="icon.homun_skill_icon"/>
+		<set name="reuseDelay" value="120000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="isTrigger" value="true"/>
+		<for>
+			<effect>
+				<mul stat="mAtk" value="#mAtk"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="33092" levels="25" name="Happy Year of the Rat Lv.1">
+		<table name="#castRange">900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</table>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.christmas_card_box1"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33093" levels="1" name="Happy Year of the Rat's Reward">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33094" levels="4" name="Enchantment Chance Increase - Test">
+		<set name="icon" value="icon.race_ranking_1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33095" levels="4" name="Enchantment Chance Increase - Test">
+		<set name="icon" value="icon.artifact_book_00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="33096" levels="1" name="Critical Strike">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33097" levels="1" name="Unavoidable Bite">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33098" levels="1" name="Unavoidable Claw">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="33099" levels="1" name="Critical Defense">
+		<set name="icon" value="icon.skill0142"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="35300" levels="1" name="Krishna Fighter Special Ability">
+		<set name="icon" value="icon.weapon_r110_fist_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.02"/>
+			<p_critical_damage value="2" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35301" levels="1" name="Krishna Stormer Special Ability">
+		<set name="icon" value="icon.weapon_r110_spear_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.02"/>
+			<add stat="poleTargetCount" value="5"/>
+		</for>
+	</skill>
+	<skill id="35302" levels="1" name="Krishna Dual Sword Special Ability">
+		<set name="icon" value="icon.weapon_r110_dual_sword_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.02"/>
+			<mul stat="p_skill_power" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="35303" levels="1" name="Krishna Dual Blunt Weapon Special Ability">
+		<set name="icon" value="icon.weapon_r110_dual_blunt_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.02"/>
+			<mul stat="maxHp" value="1.04"/>
+		</for>
+	</skill>
+	<skill id="35304" levels="1" name="Krishna Dual Dagger Special Ability">
+		<set name="icon" value="icon.weapon_r110_dual_dagger_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.02"/>
+			<p_vampiric_attack value="2" chance="30"/>
+		</for>
+	</skill>
+	<skill id="35305" levels="1" name="Krishna Thrower Special Ability">
+		<set name="icon" value="icon.weapon_r110_bow_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.02"/>
+			<mul stat="pAtkSpd" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="35306" levels="1" name="Krishna Shooter Special Ability">
+		<set name="icon" value="icon.weapon_r110_crossbow_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.02"/>
+			<mul stat="p_skill_power" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="35307" levels="1" name="Krishna Buster Special Ability">
+		<set name="icon" value="icon.weapon_r110_onehand_magic_sword_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAccCombat" value="4"/>
+			<mul stat="mSkillPower" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="35308" levels="1" name="Krishna Caster Special Ability">
+		<set name="icon" value="icon.weapon_r110_onehand_magic_blunt_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mAccCombat" value="4"/>
+			<mul stat="mAtkSpd" value="1.02"/>
+		</for>
+	</skill>
+	<skill id="35309" levels="1" name="Krishna Retributer Special Ability">
+		<set name="icon" value="icon.weapon_r110_twohand_magic_blunt_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mAtk" value="1.03"/>
+			<p_magic_critical_dmg value="2" type="PER"/>
+		</for>
+	</skill>
+	<skill id="35310" levels="4" name="Superior Augment Effect - P. Atk.">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35311" levels="4" name="Superior Augment Effect - P. Def.">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35312" levels="4" name="Superior Augment Effect - Standard Attack Critical Rate">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35313" levels="4" name="Superior Augment Effect - Atk. Spd.">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35314" levels="4" name="Superior Augment Effect - Speed">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35315" levels="4" name="Superior Augment Effect - M. Atk.">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35316" levels="4" name="Superior Augment Effect - M. Def.">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35317" levels="4" name="Superior Augment Effect - M. Skill Critical Rate">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35318" levels="4" name="Superior Augment Effect - Casting Spd.">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35319" levels="4" name="Superior Augment Effect - Max HP">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35320" levels="4" name="Superior Augment Effect - Max MP">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35321" levels="1" name="Superior Augment Effect - STR">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35322" levels="1" name="Superior Augment Effect - DEX">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35323" levels="1" name="Superior Augment Effect - CON">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35324" levels="1" name="Superior Augment Effect - INT">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35325" levels="1" name="Superior Augment Effect - WIT">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35326" levels="1" name="Superior Augment Effect - MEN">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35327" levels="1" name="Superior Augment Effect - LUC">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35328" levels="1" name="Superior Augment Effect - CHA">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35329" levels="5" name="Superior Augment Effect - Attribute Attack">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35330" levels="5" name="Superior Augment Effect - Attribute Resistance">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35331" levels="5" name="Superior Augment Effect - P. Critical Damage">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35332" levels="5" name="Superior Augment Effect - P. Skill Critical Damage">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35333" levels="5" name="Superior Augment Effect - M. Skill Critical Damage">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35334" levels="5" name="Superior Augment Effect - P. Def. Increase">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35335" levels="5" name="Superior Augment Effect - M. Def. Increase">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35336" levels="5" name="Superior Augment Effect: Ranged Attack Resistance">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35337" levels="5" name="Superior Augment Effect - Dagger/ Dual Daggers Resistance">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35338" levels="5" name="Superior Augment Effect - Sword/ Dual Sword Resistance">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35339" levels="5" name="Superior Augment Effect - Debuff Resistance">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35340" levels="5" name="Superior Augment Effect - Received Healing">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35341" levels="5" name="Superior Augment Effect - Skill Cooldown">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35342" levels="5" name="Superior Augment Effect - Acquired XP/ SP">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35343" levels="2" name="Superior Augment Effect - P. Skill Power">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35344" levels="2" name="Superior Augment Effect - M. Skill Power">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35345" levels="2" name="Superior Augment Effect - P. Critical Damage Increase">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35346" levels="2" name="Superior Augment Effect - P. Skill Critical Damage Increase">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35347" levels="2" name="Superior Augment Effect - M. Skill Critical Damage Increase">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35348" levels="2" name="Superior Augment Effect - Fixed Damage Resistance">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35349" levels="1" name="Superior Augment Effect - Received Damage When Immobilized">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35350" levels="1" name="Superior Augment Effect - Damage Increase">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35351" levels="1" name="Superior Augment Effect - Received Damage">
+		<set name="icon" value="icon.skill3238"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35352" levels="1" name="Paulina Twilight Bracelet">
+		<set name="icon" value="icon.r2_bracelet_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="5"/>
+			<add order="0x10" stat="STR" value="1"/>
+			<add order="0x10" stat="CON" value="1"/>
+			<add order="0x10" stat="DEX" value="1"/>
+			<add order="0x10" stat="INT" value="1"/>
+			<add order="0x10" stat="MEN" value="1"/>
+			<add order="0x10" stat="WIT" value="1"/>
+		</for>
+	</skill>
+	<skill id="35353" levels="1" name="Bloody Cloak">
+		<!-- Все характеристики +1. -->
+		<set name="icon" value="BranchSys2.Icon.7anni_cloack_i01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add order="0x10" stat="STR" value="1"/>
+			<add order="0x10" stat="CON" value="1"/>
+			<add order="0x10" stat="DEX" value="1"/>
+			<add order="0x10" stat="INT" value="1"/>
+			<add order="0x10" stat="MEN" value="1"/>
+			<add order="0x10" stat="WIT" value="1"/>
+		</for>
+	</skill>
+	<skill id="35354" levels="12" name="Dragon's Necklace">
+		<table name="#trait">0 15 20 25 25 25 25 25 25 25 25</table>
+		<table name="#STR">0 1 2 3 3 3 3 3 3 3 3</table>
+		<table name="#reflect">0 5 7 10 11 12 13 14 15 16 17</table>
+		<table name="#TabrunSpd">0 1 2 3 4 5 6 7 8 9 10</table>
+		<table name="#skillpower">1 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12</table>
+		<table name="#atkdef">1 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12</table>
+		<table name="#power">0 10 20 30 40 50 60 70 80 90 100</table>
+		<table name="#reuse">1 0.95 0.93 0.9 0.89 0.88 0.87 0.86 0.85 0.84 0.83</table>
+		<set name="icon" value="icon.dragon_accessary_necklace"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="shock" value="#trait"/>
+			<p_attack_trait name="shock" value="#trait"/>
+			<p_defence_trait name="paralyze" value="#trait"/>
+			<p_attack_trait name="paralyze" value="#trait"/>
+			<p_defence_trait name="poison" value="#trait"/>
+			<p_attack_trait name="poison" value="#trait"/>
+			<p_defence_trait name="bleed" value="#trait"/>
+			<p_attack_trait name="bleed" value="#trait"/>
+			<add order="0x10" stat="LUC" value="#STR"/>
+			<add order="0x10" stat="CHA" value="#STR"/>
+			<add stat="reflectDam" value="#reflect"/>
+			<add stat="reflectBowDam" value="#reflect"/>
+			<add stat="reflectPSkillDam" value="#reflect"/>
+			<add stat="reflectMSkillDam" value="#reflect"/>
+			<add stat="runSpd" value="#TabrunSpd"/>
+			<mul stat="p_skill_power" value="#skillpower"/>
+			<mul stat="mSkillPower" value="#skillpower"/>
+			<mul stat="pDef" value="#atkdef"/>
+			<mul stat="mDef" value="#atkdef"/>
+			<mul stat="pAtk" value="#atkdef"/>
+			<mul stat="mAtk" value="#atkdef"/>
+			<add stat="defenceFire" value="#power"/>
+			<add stat="defenceWater" value="#power"/>
+			<add stat="defenceWind" value="#power"/>
+			<add stat="defenceEarth" value="#power"/>
+			<add stat="defenceHoly" value="#power"/>
+			<add stat="defenceUnholy" value="#power"/>
+			<mul stat="mReuse" value="#reuse"/>
+			<mul stat="pReuse" value="#reuse"/>
+			<mul stat="musicReuse" value="#reuse"/>
+		</for>
+	</skill>
+	<skill id="35355" levels="12" name="Dragon's Earring">
+		<table name="#trait">0 15 20 25 25 25 25 25 25 25 25</table>
+		<table name="#STR">0 1 2 3 3 3 3 3 3 3 3</table>
+		<table name="#hpEff">0 5 7 10 11 12 13 14 15 16 17</table>
+		<table name="#TabrunSpd">0 1 2 3 4 5 6 7 8 9 10</table>
+		<table name="#TababsorbDam">0 3 4 5 6 7 8 9 10 11 12</table>
+		<table name="#skillpower">1 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12</table>
+		<table name="#atkspd">1 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12</table>
+		<table name="#power">0 10 20 30 40 50 60 70 80 90 100</table>
+		<table name="#mp">1 0.95 0.93 0.9 0.89 0.88 0.87 0.86 0.85 0.84 0.83</table>
+		<table name="#critical_damage">1 0.95 0.93 0.9 0.89 0.88 0.87 0.86 0.85 0.84 0.83</table>
+		<set name="icon" value="icon.dragon_accessary_earring"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="shock" value="#trait"/>
+			<p_attack_trait name="shock" value="#trait"/>
+			<p_defence_trait name="sleep" value="#trait"/>
+			<p_attack_trait name="sleep" value="#trait"/>
+			<p_defence_trait name="pull" value="#trait"/>
+			<p_attack_trait name="pull" value="#trait"/>
+			<add order="0x10" stat="LUC" value="#STR"/>
+			<add order="0x10" stat="CHA" value="#STR"/>
+			<p_heal_effect value="#hpEff" type="PER"/>
+			<add stat="runSpd" value="#TabrunSpd"/>
+			<p_vampiric_attack value="#TababsorbDam" chance="30"/>
+			<mul stat="pAtkSpd" value="#atkspd"/>
+			<mul stat="mAtkSpd" value="#atkspd"/>
+			<mul stat="p_skill_power" value="#skillpower"/>
+			<mul stat="mSkillPower" value="#skillpower"/>
+			<mul stat="mpConsum" value="#mp"/>
+			<mul stat="mpConsumePhysical" value="#mp"/>
+			<mul stat="mpDanceConsume" value="#mp"/>
+			<mul stat="pCritDamRcpt" value="#critical_damage"/>
+			<mul stat="mCritDamRcpt" value="#critical_damage"/>
+			<add stat="defenceFire" value="#power"/>
+			<add stat="defenceWater" value="#power"/>
+			<add stat="defenceWind" value="#power"/>
+			<add stat="defenceEarth" value="#power"/>
+			<add stat="defenceHoly" value="#power"/>
+			<add stat="defenceUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="35356" levels="12" name="Dragon's Ring">
+		<table name="#trait">0 15 20 25 25 25 25 25 25 25 25</table>
+		<table name="#STR">0 1 2 3 3 3 3 3 3 3 3</table>
+		<table name="#atkspd">1 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12</table>
+		<table name="#acc">0 3 4 5 6 7 8 9 10 11 12</table>
+		<table name="#TabrunSpd">0 1 2 3 4 5 6 7 8 9 10</table>
+		<table name="#skillpower">1 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1 1.11 1.12</table>
+		<table name="#critical_damage">0 5 10 15 16 17 18 19 20 21 22</table>
+		<table name="#dmg">1 1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.1</table>
+		<table name="#power">0 10 20 30 40 50 60 70 80 90 100</table>
+		<set name="icon" value="icon.dragon_accessary_ring"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_defence_trait name="shock" value="#trait"/>
+			<p_attack_trait name="shock" value="#trait"/>
+			<p_defence_trait name="derangement" value="#trait"/>
+			<p_attack_trait name="derangement" value="#trait"/>
+			<p_defence_trait name="knockback" value="#trait"/>
+			<p_attack_trait name="knockback" value="#trait"/>
+			<p_defence_trait name="knockdown" value="#trait"/>
+			<p_attack_trait name="knockdown" value="#trait"/>
+			<p_defence_trait name="airbind" value="#trait"/>
+			<p_attack_trait name="airbind" value="#trait"/>
+			<add order="0x10" stat="LUC" value="#STR"/>
+			<add order="0x10" stat="CHA" value="#STR"/>
+			<mul stat="pAtkSpd" value="#atkspd"/>
+			<mul stat="mAtkSpd" value="#atkspd"/>
+			<add stat="pAccCombat" value="#acc"/>
+			<add stat="mAccCombat" value="#acc"/>
+			<add stat="runSpd" value="#TabrunSpd"/>
+			<mul stat="p_skill_power" value="#skillpower"/>
+			<mul stat="mSkillPower" value="#skillpower"/>
+			<p_critical_damage value="#critical_damage" type="PER"/>
+			<p_skill_critical_damage value="#critical_damage" type="PER"/>
+			<p_magic_critical_dmg value="#critical_damage" type="PER"/>
+			<mul stat="damageToImmobilized" value="#dmg"/>
+			<add stat="defenceFire" value="#power"/>
+			<add stat="defenceWater" value="#power"/>
+			<add stat="defenceWind" value="#power"/>
+			<add stat="defenceEarth" value="#power"/>
+			<add stat="defenceHoly" value="#power"/>
+			<add stat="defenceUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="35357" levels="1" name="Bloody Magic Necklace">
+		<!-- Скорость +3, отражение урона +4%, время перезарядки умений -10%. -->
+		<set name="icon" value="icon.r991_necklace_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="runSpd" value="3"/>
+			<add stat="reflectDam" value="4"/>
+			<add stat="reflectBowDam" value="4"/>
+			<add stat="reflectPSkillDam" value="4"/>
+			<add stat="reflectMSkillDam" value="4"/>
+			<mul stat="mReuse" value="0.90"/>
+			<mul stat="pReuse" value="0.90"/>
+		</for>
+	</skill>
+	<skill id="35358" levels="1" name="Bloody Magic Earring - Vampiric Rage">
+		<!-- Эффективность получаемого лечения +10%, эффект Гнева Вампира +4%. -->
+		<set name="icon" value="icon.r991_earring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_heal_effect value="10" type="PER"/>
+			<p_vampiric_attack value="4" chance="30"/>
+		</for>
+	</skill>
+	<skill id="35359" levels="1" name="Bloody Magic Earring - MP Consumption">
+		<!-- Эффективность получаемого лечения +10%, расход МP -4%. -->
+		<set name="icon" value="icon.r991_earring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_heal_effect value="10" type="PER"/>
+			<mul stat="mpConsum" value="0.96"/>
+			<mul stat="mpConsumePhysical" value="0.96"/>
+			<mul stat="mpDanceConsume" value="0.96"/>
+		</for>
+	</skill>
+	<skill id="35360" levels="1" name="Bloody Magic Ring - Speed">
+		<!-- Сила Физ. Крит. Атк. и сила Крит. Атк. физ./ маг. умений +15%, Скор. Атк./ Скор. Маг. +4%. -->
+		<set name="icon" value="icon.r991_ring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_magic_critical_dmg value="15" type="PER"/>
+			<p_skill_critical_damage value="15" type="PER"/>
+			<p_magic_critical_dmg value="15" type="PER"/>
+			<mul stat="pAtkSpd" value="1.04"/>
+			<mul stat="mAtkSpd" value="1.04"/>
+		</for>
+	</skill>
+	<skill id="35361" levels="1" name="Bloody Magic Ring - Critical">
+		<!-- Сила Физ. Крит. Атк. и сила Крит. Атк. физ./ маг. умений +15%, шанс Физ. Крит. Атк. и шанс Крит. Атк. маг. умений +20. -->
+		<set name="icon" value="icon.r991_ring_i00"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_magic_critical_dmg value="15" type="PER"/>
+			<p_skill_critical_damage value="15" type="PER"/>
+			<p_magic_critical_dmg value="15" type="PER"/>
+			<add stat="pCritRate" value="20"/>
+			<add stat="mCritRate" value="20"/>
+		</for>
+	</skill>
+	<skill id="35362" levels="1" name="Stun">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0100"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="castRange" value="40"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35363" levels="1" name="Anakim's Protection Rune">
+		<set name="icon" value="icon.bm_freya_dark_rune"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35364" levels="11" name="Artifact - Standard Attack Critical Damage">
+		<set name="icon" value="icon.artifact_d_crt_dmg"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35365" levels="11" name="Artifact - P. Skill Critical Damage">
+		<set name="icon" value="icon.artifact_d_skill_crt_dmg"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35366" levels="11" name="Artifact - M. Skill Critical Damage">
+		<set name="icon" value="icon.artifact_d_spell_crt_dmg"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35367" levels="11" name="Artifact - Attribute Attack">
+		<set name="icon" value="icon.artifact_b_attribute_att_up"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35368" levels="11" name="Artifact - P. Skill Power">
+		<set name="icon" value="icon.artifact_b_skill_power"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35369" levels="11" name="Artifact - M. Skill Power">
+		<set name="icon" value="icon.artifact_b_spell_power"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35370" levels="11" name="Artifact - Bow Resistance">
+		<set name="icon" value="icon.artifact_c_resist_bow"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35371" levels="11" name="Artifact - Dagger Resistance">
+		<set name="icon" value="icon.artifact_c_resist_dagger"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35372" levels="11" name="Artifact - Sword Resistance">
+		<set name="icon" value="icon.artifact_c_resist_sword"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35373" levels="11" name="Artifact - Attribute Resistance">
+		<set name="icon" value="icon.artifact_c_attribute_def_up"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35374" levels="11" name="Artifact - Received Damage When Immobilized">
+		<set name="icon" value="icon.artifact_c_block_act_dmg"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35375" levels="11" name="Artifact - Debuff Resistance">
+		<set name="icon" value="icon.artifact_a_pa"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35376" levels="11" name="Artifact - Vitality Bonus">
+		<set name="icon" value="icon.artifact_b_vital_bonus"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35377" levels="11" name="Artifact - Vitality Consumption">
+		<set name="icon" value="icon.artifact_b_vital_sub"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35378" levels="11" name="Artifact - MP Consumption">
+		<set name="icon" value="icon.artifact_b_skill_mp_cost"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35379" levels="11" name="Artifact - Skill Cooldown">
+		<set name="icon" value="icon.artifact_a_pa"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35380" levels="11" name="Artifact - Recovery Potions' Effect">
+		<set name="icon" value="icon.artifact_d_hp_special"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35381" levels="11" name="Artifact - Fixed Damage Resistance">
+		<set name="icon" value="icon.artifact_d_dmg_by_atk"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35382" levels="11" name="Artifact - P. Def.">
+		<set name="icon" value="icon.artifact_a_phy_def"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35383" levels="11" name="Artifact - M. Def.">
+		<set name="icon" value="icon.artifact_a_mag_def"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35384" levels="11" name="Artifact - Standard Attack Critical Damage">
+		<set name="icon" value="icon.artifact_a_crt_dmg"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35385" levels="11" name="Artifact - P. Skill Critical Damage">
+		<set name="icon" value="icon.artifact_a_crt_skill_dmg"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35386" levels="11" name="Artifact - M. Skill Critical Damage">
+		<set name="icon" value="icon.artifact_a_crt_mag_dmg"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35387" levels="11" name="Artifact - Atk. Spd.">
+		<set name="icon" value="icon.artifact_a_pa_speed"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35388" levels="11" name="Artifact - Casting Spd.">
+		<set name="icon" value="icon.artifact_a_ma_speed"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35389" levels="11" name="Artifact - Speed">
+		<set name="icon" value="icon.artifact_a_pa"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35390" levels="11" name="Artifact - Acquired XP/ SP">
+		<set name="icon" value="icon.artifact_a_pa"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35391" levels="11" name="Artifact - Vitality Bonus">
+		<set name="icon" value="icon.artifact_a_vital_bonus"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35392" levels="11" name="Artifact - Vitality Consumption">
+		<set name="icon" value="icon.artifact_a_pa"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35393" levels="11" name="Artifact - Debuff Resistance">
+		<set name="icon" value="icon.artifact_a_pa"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35394" levels="11" name="Artifact - Received Healing">
+		<set name="icon" value="icon.artifact_a_heal_effect"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35395" levels="11" name="Artifact - MP Consumption">
+		<set name="icon" value="icon.artifact_a_skill_mp_cost"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35396" levels="11" name="Artifact - Fishing XP">
+		<set name="icon" value="icon.artifact_a_pa"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="35397" levels="20" name="Talisman of Protection">
+		<table name="#pdef">220 440 890 1340 1790 2240 2690 3140 3590 4040</table>
+		<table name="#mdef">146 286 578 872 1164 1456 1748 2042 2334 2626</table>
+		<table name="#power">10 20 30 40 70 80 90 100 120 150</table>
+		<set name="icon" value="icon.bm_defend_talisman"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="#pdef"/>
+			<mul stat="mDef" value="#mdef"/>
+			<add stat="defenceFire" value="#power"/>
+			<add stat="defenceWater" value="#power"/>
+			<add stat="defenceWind" value="#power"/>
+			<add stat="defenceEarth" value="#power"/>
+			<add stat="defenceHoly" value="#power"/>
+			<add stat="defenceUnholy" value="#power"/>
+		</for>
+	</skill>
+	<skill id="35398" levels="1" name="Soul of Sword - Zariche">
+		<set name="icon" value="icon.die_effect_zariche1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="35399" levels="1" name="Soul of Sword - Akamanah">
+		<set name="icon" value="icon.die_effect_aka_manaf1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

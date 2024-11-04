@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<!--
+		A Weapon
+	-->
+	<config no_tax="true"/>
+	<!-- Темный Легион -->
+	<item>
+		<production id="101121" count="1"/>
+		<ingredient id="101087" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101122" count="1"/>
+		<ingredient id="101121" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8678" count="1"/>
+	</item>
+	<item>
+		<production id="101123" count="1"/>
+		<ingredient id="101122" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="70001" count="15"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8678" count="1"/>
+	</item>
+	<!-- Убийца Драконов -->
+	<item>
+		<production id="101124" count="1"/>
+		<ingredient id="101090" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101125" count="1"/>
+		<ingredient id="101124" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8679" count="1"/>
+	</item>
+	<item>
+		<production id="101126" count="1"/>
+		<ingredient id="101125" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="70001" count="15"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8679" count="1"/>
+	</item>
+	<!-- Элизиум -->
+	<item>
+		<production id="101127" count="1"/>
+		<ingredient id="101093" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101128" count="1"/>
+		<ingredient id="101127" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8680" count="1"/>
+	</item>
+	<item>
+		<production id="101129" count="1"/>
+		<ingredient id="101128" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="70001" count="15"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8680" count="1"/>
+	</item>
+	<!-- Трезубец Чудовища -->
+	<item>
+		<production id="101130" count="1"/>
+		<ingredient id="101096" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101131" count="1"/>
+		<ingredient id="101130" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8681" count="1"/>
+	</item>
+	<item>
+		<production id="101132" count="1"/>
+		<ingredient id="101131" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="70001" count="15"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8681" count="1"/>
+	</item>
+	<!-- Душегуб -->
+	<item>
+		<production id="101133" count="1"/>
+		<ingredient id="101099" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101134" count="1"/>
+		<ingredient id="101133" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8682" count="1"/>
+	</item>
+	<item>
+		<production id="101135" count="1"/>
+		<ingredient id="101134" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="70001" count="15"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8682" count="1"/>
+	</item>
+	<!-- Погибель Дракона -->
+	<item>
+		<production id="101136" count="1"/>
+		<ingredient id="101102" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101137" count="1"/>
+		<ingredient id="101136" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8685" count="1"/>
+	</item>
+	<item>
+		<production id="101138" count="1"/>
+		<ingredient id="101137" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="70001" count="15"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8685" count="1"/>
+	</item>
+	<!-- Копье Тифона -->
+	<item>
+		<production id="101139" count="1"/>
+		<ingredient id="101105" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101140" count="1"/>
+		<ingredient id="101139" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8683" count="1"/>
+	</item>
+	<item>
+		<production id="101141" count="1"/>
+		<ingredient id="101140" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="70001" count="15"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8683" count="1"/>
+	</item>
+	<!-- Дамаскус*2 -->
+	<item>
+		<production id="101142" count="1"/>
+		<ingredient id="101108" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101143" count="1"/>
+		<ingredient id="101142" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8678" count="1"/>
+	</item>
+	<item>
+		<production id="101144" count="1"/>
+		<ingredient id="101143" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8678" count="1"/>
+	</item>
+	<!-- Кровавый Лук -->
+	<item>
+		<production id="101145" count="1"/>
+		<ingredient id="101111" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101146" count="1"/>
+		<ingredient id="101145" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8684" count="1"/>
+	</item>
+	<item>
+		<production id="101147" count="1"/>
+		<ingredient id="101146" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="70001" count="15"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8684" count="1"/>
+	</item>
+	<!-- Легендарный Меч -->
+	<item>
+		<production id="101148" count="1"/>
+		<ingredient id="101114" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101149" count="1"/>
+		<ingredient id="101148" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8687" count="1"/>
+	</item>
+	<item>
+		<production id="101150" count="1"/>
+		<ingredient id="101149" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="70001" count="15"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8687" count="1"/>
+	</item>
+	<!-- Кристалл Деймона -->
+	<item>
+		<production id="101151" count="1"/>
+		<ingredient id="101117" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101152" count="1"/>
+		<ingredient id="101151" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8688" count="1"/>
+	</item>
+	<item>
+		<production id="101153" count="1"/>
+		<ingredient id="101152" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8688" count="1"/>
+	</item>
+	<!-- Парные Топоры Затмения х2 -->
+	<item>
+		<production id="101154" count="1"/>
+		<ingredient id="101120" count="1"/>
+		<ingredient id="5550" count="500"/>
+		<ingredient id="1888" count="500"/>
+		<ingredient id="1877" count="300"/>
+		<ingredient id="5902" count="200"/>
+		<ingredient id="4045" count="30"/>
+		<ingredient id="70001" count="5"/>
+		<ingredient id="70000" count="1"/>
+		<ingredient id="70079" count="10"/>
+	</item>
+	<item>
+		<production id="101155" count="1"/>
+		<ingredient id="101154" count="1"/>
+		<ingredient id="5550" count="750"/>
+		<ingredient id="1888" count="750"/>
+		<ingredient id="1877" count="500"/>
+		<ingredient id="4045" count="50"/>
+		<ingredient id="5902" count="300"/>
+		<ingredient id="70001" count="10"/>
+		<ingredient id="70000" count="2"/>
+		<ingredient id="70079" count="20"/>
+		<ingredient id="8680" count="1"/>
+	</item>
+	<item>
+		<production id="101156" count="1"/>
+		<ingredient id="101155" count="1"/>
+		<ingredient id="5550" count="1000"/>
+		<ingredient id="1888" count="1000"/>
+		<ingredient id="1877" count="700"/>
+		<ingredient id="5902" count="500"/>
+		<ingredient id="4045" count="70"/>
+		<ingredient id="70001" count="15"/>
+		<ingredient id="70000" count="3"/>
+		<ingredient id="70079" count="30"/>
+		<ingredient id="8680" count="1"/>
+	</item>
+</list>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT list (class)*>
+
+	<!ELEMENT class (#PCDATA)*>
+	<!ATTLIST class
+		id CDATA #REQUIRED
+		skill1_id CDATA #REQUIRED
+		skill2_id CDATA #REQUIRED
+		skill3_id CDATA #REQUIRED>

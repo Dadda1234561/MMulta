@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		R110 Weapons
+	-->
+	<weapon id="101263" name="Krishna Shaper">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_dagger_i00"/>
+		
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100023" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="5208"/>
+			<add stat="mAtk" order="0x10" value="352"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101264" name="Krishna Cutter">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_onehand_sword_i00"/>
+		
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100023" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="5309"/>
+			<add stat="mAtk" order="0x10" value="352"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101265" name="Krishna Slasher">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_twohand_sword_i00"/>
+		
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100023" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="5484"/>
+			<add stat="mAtk" order="0x10" value="352"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101266" name="Krishna Avenger">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_onehand_blunt_i00"/>
+		
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100023" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="5309"/>
+			<add stat="mAtk" order="0x10" value="352"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101267" name="Krishna Fighter">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_fist_i00"/>
+		
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1550"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100023" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="5484"/>
+			<add stat="mAtk" order="0x10" value="352"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101268" name="Krishna Stormer">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_spear_i00"/>
+		
+		<set name="type" value="POLE"/>
+		<set name="weight" value="2010"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100023" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="5309"/>
+			<add stat="mAtk" order="0x10" value="352"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101269" name="Krishna Thrower">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_bow_i00"/>
+		
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100023" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="4200"/>
+			<add stat="mAtk" order="0x10" value="352"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101270" name="Krishna Shooter">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_crossbow_i00"/>
+		
+		<set name="type" value="CROSSBOW"/>
+		<set name="weight" value="1580"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100023" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="4200"/>
+			<add stat="mAtk" order="0x10" value="352"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101271" name="Krishna Buster">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_onehand_magic_sword_i00"/>
+		
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100024" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="647"/>
+			<add stat="mAtk" order="0x10" value="5970"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101272" name="Krishna Caster">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_onehand_magic_blunt_i00"/>
+		
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1080"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100024" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="647"/>
+			<add stat="mAtk" order="0x10" value="5970"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101273" name="Krishna Retributer">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_twohand_magic_blunt_i00"/>
+		
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="1080"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100024" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="788"/>
+			<add stat="mAtk" order="0x10" value="6017"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+			<add stat="mAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="101274" name="Krishna Dual Swords">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_dual_sword_i00"/>
+		
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100023" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="5484"/>
+			<add stat="mAtk" order="0x10" value="352"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="101275" name="Krishna Dual Daggers">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_dual_dagger_i00"/>
+		
+		<set name="type" value="DUALDAGGER"/>
+		<set name="weight" value="2050"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100023" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="5309"/>
+			<add stat="mAtk" order="0x10" value="352"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="101276" name="Krishna Dual Blunt Weapon">
+		<set name="crystal_type" value="R110"/>
+		<set name="variation_group_id" value="1"/>
+		<set name="icon" value="icon.weapon_r110_dual_blunt_i00"/>
+		
+		<set name="type" value="DUALBLUNT"/>
+		<set name="weight" value="1740"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="crystal_count" value="34485"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<skills>
+			<skill id="100023" level="1"/>
+		</skills>
+		<for>
+			<add stat="pAtk" order="0x10" value="5484"/>
+			<add stat="mAtk" order="0x10" value="352"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+</list>

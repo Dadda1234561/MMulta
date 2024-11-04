@@ -1,0 +1,17 @@
+<project name="InterfaceSource" default="compile" basedir=".">
+    <property name="batch.file" value="2CompileInterfaceIDE.bat" />
+    <property name="batch.file.strip" value="2StripInterfaceIDE.bat" />
+    <property name="batch.directory" value="E:\Multiproff388Scripts\interface\L2Editor" /> <!-- Change the path to your corresponding location -->
+
+    <target name="compile">
+        <exec executable="cmd" dir="${batch.directory}">
+            <arg line="/c ${batch.file}" />
+        </exec>
+    </target>
+
+    <target name="strip">
+        <exec executable="cmd" dir="${batch.directory}">
+            <arg line="/c ${batch.file.strip}" />
+        </exec>
+    </target>
+</project>

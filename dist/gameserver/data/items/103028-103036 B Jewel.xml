@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		B Set Jewel
+	-->
+	<armor id="103028" name="Black Ore Diamond Necklace Lv.1">
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.accessary_Black Ore_diamond_necklace_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="76"/>
+			<mul stat="pAtk" order="0x60" value="1.06"/>
+			<mul stat="mAtk" order="0x60" value="1.08"/>
+		</for>
+	</armor>
+	<armor id="103029" name="Black Ore Diamond Necklace Lv.2">
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.accessary_Black Ore_diamond_necklace_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="76"/>
+			<mul stat="pAtk" order="0x60" value="1.07"/>
+			<mul stat="mAtk" order="0x60" value="1.09"/>
+		</for>
+	</armor>
+	<armor id="103030" name="Black Ore Diamond Necklace Lv.3">
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.accessary_Black Ore_diamond_necklace_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="NECKLACE"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="76"/>
+			<mul stat="pAtk" order="0x60" value="1.08"/>
+			<mul stat="mAtk" order="0x60" value="1.1"/>
+		</for>
+	</armor>
+	<armor id="103031" name="Earring Lv.1">
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.accessary_coral_earing_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="57"/>
+			<mul stat="maxHp" order="0x60" value="1.05"/>
+			<mul stat="maxMp" order="0x60" value="1.05"/>
+			<mul stat="pAtkSpd" order="0x60" value="1.03"/>
+			<mul stat="mAtkSpd" order="0x60" value="1.03"/>
+		</for>
+	</armor>
+	<armor id="103032" name="Earring Lv.2">
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.accessary_coral_earing_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="45"/>
+			<mul stat="maxHp" order="0x60" value="1.06"/>
+			<mul stat="maxMp" order="0x60" value="1.06"/>
+			<mul stat="pAtkSpd" order="0x60" value="1.04"/>
+			<mul stat="mAtkSpd" order="0x60" value="1.04"/>
+		</for>
+	</armor>
+	<armor id="103033" name="Earring Lv.3">
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.accessary_coral_earing_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_EAR"/>
+			<slot id="LEFT_EAR"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="45"/>
+			<mul stat="maxHp" order="0x60" value="1.07"/>
+			<mul stat="maxMp" order="0x60" value="1.07"/>
+			<mul stat="pAtkSpd" order="0x60" value="1.05"/>
+			<mul stat="mAtkSpd" order="0x60" value="1.05"/>
+		</for>
+	</armor>
+	<armor id="103034" name="Black Ore Ring Lv.1">
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.accessary_Black Ore_coral_ring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="38"/>
+			<mul stat="pDef" order="0x60" value="1.04"/>
+			<mul stat="mDef" order="0x60" value="1.04"/>
+		</for>
+	</armor>
+	<armor id="103035" name="Black Ore Ring Lv.2">
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.accessary_Black Ore_coral_ring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="38"/>
+			<mul stat="pDef" order="0x60" value="1.05"/>
+			<mul stat="mDef" order="0x60" value="1.05"/>
+		</for>
+	</armor>
+	<armor id="103036" name="Black Ore Ring Lv.3">
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.accessary_Black Ore_coral_ring_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<equip>
+			<slot id="RIGHT_FINGER"/>
+			<slot id="LEFT_FINGER"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="38"/>
+			<mul stat="pDef" order="0x60" value="1.06"/>
+			<mul stat="mDef" order="0x60" value="1.06"/>
+		</for>
+	</armor>
+</list>

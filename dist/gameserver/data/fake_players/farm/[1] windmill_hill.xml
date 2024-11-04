@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Windmill Hill" min_level="20" max_level="25">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="-79544 162648 -5000 -2000"/>
+				<coords loc="-76088 156616 -5000 -2000"/>
+				<coords loc="-72792 157928 -5000 -2000"/>
+				<coords loc="-63432 159672 -5000 -2000"/>
+				<coords loc="-62408 165464 -5000 -2000"/>
+				<coords loc="-62440 183432 -5000 -2000"/>
+				<coords loc="-70312 177064 -5000 -2000"/>
+				<coords loc="-75688 170664 -5000 -2000"/>
+				<coords loc="-78680 165064 -5000 -2000"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="-74880 168726 -3504"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</go_to_town>
+</farm>

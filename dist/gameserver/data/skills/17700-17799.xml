@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="17701" levels="20" name="Topaz - Spiritshot">
+		<!--
+			lvl 1 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 1062. [Топаз Ур. 1]
+			lvl 2 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 3717. [Топаз Ур. 2]
+			lvl 3 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 6903. [Топаз Ур. 3]
+			lvl 4 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 10089. [Топаз Ур. 4]
+			lvl 5 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 13275. [Топаз Ур. 5]
+			lvl 6 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 13275. С низкой вероятностью наносит противнику смертельный удар. [Большой Топаз Ур. 1]
+			lvl 7 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 14868. С низкой вероятностью наносит противнику смертельный удар. [Большой Топаз Ур. 2]
+			lvl 8 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 16461. С низкой вероятностью наносит противнику смертельный удар. [Большой Топаз Ур. 3]
+			lvl 9 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 18054. С низкой вероятностью наносит противнику смертельный удар. [Большой Топаз Ур. 4]
+			lvl 10 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 19647. С низкой вероятностью наносит противнику смертельный удар. [Большой Топаз Ур. 5]
+			lvl 11 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 22005. [Топаз Исключительного Качества Ур. 1]
+			lvl 12 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 24362. [Топаз Исключительного Качества Ур. 2]
+			lvl 13 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 26720. [Топаз Исключительного Качества Ур. 3]
+			lvl 14 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 29078. [Топаз Исключительного Качества Ур. 4]
+			lvl 15 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 31435. [Топаз Исключительного Качества Ур. 5]
+			lvl 16 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 33793. [Топаз Исключительного Качества Ур. 6]
+			lvl 17 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 36150. [Топаз Исключительного Качества Ур. 7]
+			lvl 18 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 38508. [Топаз Исключительного Качества Ур. 8]
+			lvl 19 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 40866. [Топаз Исключительного Качества Ур. 9]
+			lvl 20 = Прерывает применение умений цели. В PvP игнорирует CP противника и наносит фиксированный урон 43223. [Топаз Исключительного Качества Ур. 10]
+		-->
+		<table name="#icon">icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.etc_bm_jewel_topaz_i00 icon.bm_jewel_absdmg_high_lv1_lavianrose icon.bm_jewel_absdmg_high_lv1_lavianrose icon.bm_jewel_absdmg_high_lv1_lavianrose icon.bm_jewel_absdmg_high_lv1_lavianrose icon.bm_jewel_absdmg_high_lv1_lavianrose icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2 icon.bm_jewel_absdmg_lv1_lavianrose_high2</table>
+		<table name="#power">1062 3717 6903 10089 13275 13275 14868 16461 18054 19647 22005 24362 26720 29078 31435 33793 36150 38508 40866 43223</table>
+		<table name="#chance">0 0 0 0 0 3 4 5 7 9 0 0 0 0 0 0 0 0 0 0</table>
+		<set name="effectPoint" value="-1000"/>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="power" value="#power"/>
+		<set name="static" value="true"/>
+		<set name="directHp" value="true"/>
+		<set name="lethal2" value="#chance"/>
+		<set name="operate_type" value="A2"/>
+		<set name="magicType" value="SPECIAL"/>	<!--TODO: Check this.-->
+		<set name="useSS" value="false"/>	<!--TODO: Check this.-->
+		<set name="isSkillTimePermanent" value="true"/>	<!--TODO: Check this.-->
+		<set name="isReuseDelayPermanent" value="true"/>	<!--TODO: Check this.-->
+		<set name="damageForPlayerOnly" value="true" />
+		<for>
+			<effect instant="true" name="Interrupt"/>
+		</for>
+	</skill>
+	<skill id="17704" levels="20" name="Obsidian">
+		<!-- 
+			lvl 1 = Получаемый урон в PvP -1%. [Обсидиан Ур. 1]
+			lvl 2 = Получаемый урон в PvP -3%. [Обсидиан Ур. 2]
+			lvl 3 = Получаемый урон в PvP -7%. [Обсидиан Ур. 3]
+			lvl 4 = Получаемый урон в PvP -11%. [Обсидиан Ур. 4]
+			lvl 5 = Получаемый урон в PvP -15%. [Обсидиан Ур. 5]
+			lvl 6 = Получаемый урон в PvP -15%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. [Большой Обсидиан Ур. 1]
+			lvl 7 = Получаемый урон в PvP -15%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +1%. [Большой Обсидиан Ур. 2]
+			lvl 8 = Получаемый урон в PvP -15%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +2%. [Большой Обсидиан Ур. 3]
+			lvl 9 = Получаемый урон в PvP -15%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +3%. [Большой Обсидиан Ур. 4]
+			lvl 10 = Получаемый урон в PvP -15%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +5%. [Большой Обсидиан Ур. 5]
+			lvl 11 = Получаемый урон в PvP -18%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +5%. [Обсидиан Исключительного Качества Ур. 1]
+			lvl 12 = Получаемый урон в PvP -18%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +6%. [Обсидиан Исключительного Качества Ур. 2]
+			lvl 13 = Получаемый урон в PvP -18%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +7%. [Обсидиан Исключительного Качества Ур. 3]
+			lvl 14 = Получаемый урон в PvP -18%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +8%. [Обсидиан Исключительного Качества Ур. 4]
+			lvl 15 = Получаемый урон в PvP -18%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +10%. [Обсидиан Исключительного Качества Ур. 5]
+			lvl 16 = Получаемый урон в PvP -18%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +11%. [Обсидиан Исключительного Качества Ур. 6]
+			lvl 17 = Получаемый урон в PvP -18%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +12%. [Обсидиан Исключительного Качества Ур. 7]
+			lvl 18 = Получаемый урон в PvP -18%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +13%. [Обсидиан Исключительного Качества Ур. 8]
+			lvl 19 = Получаемый урон в PvP -18%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +14%. [Обсидиан Исключительного Качества Ур. 9]
+			lvl 20 = Получаемый урон в PvP -18%. При получении урона сбрасывает цель атакующего противника. Время перезарядки: 15 сек. Дополнительно Физ./ Маг. Защ. +15%. [Обсидиан Исключительного Качества Ур. 10]
+		-->
+		<table name="#icon">icon.etc_bm_jewel_obsidian_i00 icon.etc_bm_jewel_obsidian_i00 icon.etc_bm_jewel_obsidian_i00 icon.etc_bm_jewel_obsidian_i00 icon.etc_bm_jewel_obsidian_i00 icon.bm_jewel_pvpdef_high_lv1_lavianrose icon.bm_jewel_pvpdef_high_lv1_lavianrose icon.bm_jewel_pvpdef_high_lv1_lavianrose icon.bm_jewel_pvpdef_high_lv1_lavianrose icon.bm_jewel_pvpdef_high_lv1_lavianrose icon.bm_jewel_pvpdef_lv1_lavianrose_high2 icon.bm_jewel_pvpdef_lv1_lavianrose_high2 icon.bm_jewel_pvpdef_lv1_lavianrose_high2 icon.bm_jewel_pvpdef_lv1_lavianrose_high2 icon.bm_jewel_pvpdef_lv1_lavianrose_high2 icon.bm_jewel_pvpdef_lv1_lavianrose_high2 icon.bm_jewel_pvpdef_lv1_lavianrose_high2 icon.bm_jewel_pvpdef_lv1_lavianrose_high2 icon.bm_jewel_pvpdef_lv1_lavianrose_high2 icon.bm_jewel_pvpdef_lv1_lavianrose_high2</table>
+		<table name="#pvpDefenceBonus">1.02 1.04 1.06 1.08 1.1 1.13 1.16 1.19 1.22 1.25 1.3 1.33 1.36 1.39 1.42 1.45 1.48 1.51 1.55 1.6</table>
+		<table name="#triggerLevel">0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1</table>
+		<table name="#def">1 1 1 1 1 1 1.01 1.02 1.03 1.05 1.05 1.06 1.07 1.08 1.10 1.11 1.12 1.13 1.14 1.15</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvpPhysDefenceBonus" value="#pvpDefenceBonus"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="#pvpDefenceBonus"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="#pvpDefenceBonus"/>
+			<mul stat="pDef" value="#def"/>
+			<mul stat="mDef" value="#def"/>
+		</for>
+		<triggers>
+			<trigger id="18720" level="#triggerLevel" type="RECEIVE_DAMAGE" chance="100" delay="15"/>
+		</triggers>
+	</skill>
+	<skill id="17705" levels="20" name="Opal">
+		<!-- 
+			lvl 1 = Атака стихией +10. [Опал Ур. 1]
+			lvl 2 = Атака стихией +20. [Опал Ур. 2]
+			lvl 3 = Атака стихией +40. [Опал Ур. 3]
+			lvl 4 = Атака стихией +70. [Опал Ур. 4]
+			lvl 5 = Атака стихией +120. [Опал Ур. 5]
+			lvl 6 = Атака стихией +120, сопротивление всем стихиям +70. [Большой Опал Ур. 1]
+			lvl 7 = Атака стихией +120, сопротивление всем стихиям +80. [Большой Опал Ур. 2]
+			lvl 8 = Атака стихией +120, сопротивление всем стихиям +90. [Большой Опал Ур. 3]
+			lvl 9 = Атака стихией +120, сопротивление всем стихиям +100. [Большой Опал Ур. 4]
+			lvl 10 = Атака стихией +120, сопротивление всем стихиям +120. [Большой Опал Ур. 5]
+			lvl 11 = Атака стихией +130, сопротивление всем стихиям +130. [Опал Исключительного Качества Ур. 1]
+			lvl 12 = Атака стихией +140, сопротивление всем стихиям +140. [Опал Исключительного Качества Ур. 2]
+			lvl 13 = Атака стихией +160, сопротивление всем стихиям +160. [Опал Исключительного Качества Ур. 3]
+			lvl 14 = Атака стихией +180, сопротивление всем стихиям +180. [Опал Исключительного Качества Ур. 4]
+			lvl 15 = Атака стихией +200, сопротивление всем стихиям +200. [Опал Исключительного Качества Ур. 5]
+			lvl 16 = Атака стихией +220, сопротивление всем стихиям +220. [Опал Исключительного Качества Ур. 6]
+			lvl 17 = Атака стихией +240, сопротивление всем стихиям +240. [Опал Исключительного Качества Ур. 7]
+			lvl 18 = Атака стихией +260, сопротивление всем стихиям +260. [Опал Исключительного Качества Ур. 8]
+			lvl 19 = Атака стихией +280, сопротивление всем стихиям +280. [Опал Исключительного Качества Ур. 9]
+			lvl 20 = Атака стихией +300, сопротивление всем стихиям +300. [Опал Исключительного Качества Ур. 10]
+		-->
+		<table name="#icon">icon.etc_bm_jewel_opal_i00 icon.etc_bm_jewel_opal_i00 icon.etc_bm_jewel_opal_i00 icon.etc_bm_jewel_opal_i00 icon.etc_bm_jewel_opal_i00 icon.bm_jewel_atkeleup_high_lv1_lavianrose icon.bm_jewel_atkeleup_high_lv1_lavianrose icon.bm_jewel_atkeleup_high_lv1_lavianrose icon.bm_jewel_atkeleup_high_lv1_lavianrose icon.bm_jewel_atkeleup_high_lv1_lavianrose icon.bm_jewel_atkeleup_lv1_lavianrose_high2 icon.bm_jewel_atkeleup_lv1_lavianrose_high2 icon.bm_jewel_atkeleup_lv1_lavianrose_high2 icon.bm_jewel_atkeleup_lv1_lavianrose_high2 icon.bm_jewel_atkeleup_lv1_lavianrose_high2 icon.bm_jewel_atkeleup_lv1_lavianrose_high2 icon.bm_jewel_atkeleup_lv1_lavianrose_high2 icon.bm_jewel_atkeleup_lv1_lavianrose_high2 icon.bm_jewel_atkeleup_lv1_lavianrose_high2 icon.bm_jewel_atkeleup_lv1_lavianrose_high2</table>
+		<table name="#elementPower">10 20 40 70 120 140 160 180 200 220 250 270 290 310 330 350 370 390 410 450</table>
+		<table name="#defence">0 0 0 0 0 70 80 90 100 120 130 140 160 180 200 220 240 260 280 300</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="attackFire" value="#elementPower"/>
+			<add stat="attackWater" value="#elementPower"/>
+			<add stat="attackWind" value="#elementPower"/>
+			<add stat="attackEarth" value="#elementPower"/>
+			<add stat="attackHoly" value="#elementPower"/>
+			<add stat="attackUnholy" value="#elementPower"/>
+			<add stat="defenceFire" value="#defence"/>
+			<add stat="defenceWater" value="#defence"/>
+			<add stat="defenceWind" value="#defence"/>
+			<add stat="defenceEarth" value="#defence"/>
+			<add stat="defenceHoly" value="#defence"/>
+			<add stat="defenceUnholy" value="#defence"/>
+		</for>
+	</skill>
+	<skill id="17708" levels="20" name="Diamond">
+		<!-- 
+			lvl 1 = Физ. Защ. +283, получаемый крит. урон от обычных атак -1%. [Бриллиант Ур. 1]
+			lvl 2 = Физ. Защ. +567, получаемый крит. урон от обычных атак -2%. [Бриллиант Ур. 2]
+			lvl 3 = Физ. Защ. +945, получаемый крит. урон от обычных атак -3%. [Бриллиант Ур. 3]
+			lvl 4 = Физ. Защ. +1418, получаемый крит. урон от обычных атак -4%. [Бриллиант Ур. 4]
+			lvl 5 = Физ. Защ. +1986, получаемый крит. урон от обычных атак -5%. [Бриллиант Ур. 5]
+			lvl 6 = Физ. Защ. +1986, получаемый крит. урон от обычных атак -5%. Дополнительно Физ. Защ. +10%. [Большой Бриллиант Ур. 1]
+			lvl 7 = Физ. Защ. +2128, получаемый крит. урон от обычных атак -6%. Дополнительно Физ. Защ. +10%. [Большой Бриллиант Ур. 2]
+			lvl 8 = Физ. Защ. +2317, получаемый крит. урон от обычных атак -7%. Дополнительно Физ. Защ. +10%. [Большой Бриллиант Ур. 3]
+			lvl 9 = Физ. Защ. +2558, получаемый крит. урон от обычных атак -8%. Дополнительно Физ. Защ. +10%. [Большой Бриллиант Ур. 4]
+			lvl 10 = Физ. Защ. +2837, получаемый крит. урон от обычных атак -10%. Дополнительно Физ. Защ. +10%. [Большой Бриллиант Ур. 5]
+			lvl 11 = Физ. Защ. +2837, получаемый крит. урон от обычных атак -10%. Дополнительно Физ. Защ. +15%. [Бриллиант Исключительного Качества Ур. 1]
+			lvl 12 = Физ. Защ. +3121, получаемый крит. урон от обычных атак -11%. Дополнительно Физ. Защ. +15%. [Бриллиант Исключительного Качества Ур. 2]
+			lvl 13 = Физ. Защ. +3433, получаемый крит. урон от обычных атак -12%. Дополнительно Физ. Защ. +15%. [Бриллиант Исключительного Качества Ур. 3]
+			lvl 14 = Физ. Защ. +3776, получаемый крит. урон от обычных атак -13%. Дополнительно Физ. Защ. +15%. [Бриллиант Исключительного Качества Ур. 4]
+			lvl 15 = Физ. Защ. +4154, получаемый крит. урон от обычных атак -15%. Дополнительно Физ. Защ. +15%. [Бриллиант Исключительного Качества Ур. 5]
+			lvl 16 = Физ. Защ. +4569, получаемый крит. урон от обычных атак -16%. Дополнительно Физ. Защ. +15%. [Бриллиант Исключительного Качества Ур. 6]
+			lvl 17 = Физ. Защ. +5026, получаемый крит. урон от обычных атак -17%. Дополнительно Физ. Защ. +15%. [Бриллиант Исключительного Качества Ур. 7]
+			lvl 18 = Физ. Защ. +5529, получаемый крит. урон от обычных атак -18%. Дополнительно Физ. Защ. +15%. [Бриллиант Исключительного Качества Ур. 8]
+			lvl 19 = Физ. Защ. +6082, получаемый крит. урон от обычных атак -19%. Дополнительно Физ. Защ. +15%. [Бриллиант Исключительного Качества Ур. 9]
+			lvl 20 = Физ. Защ. +6690, получаемый крит. урон от обычных атак -20%. Дополнительно Физ. Защ. +15%. [Бриллиант Исключительного Качества Ур. 10]
+		-->
+		<table name="#icon">icon.etc_bm_jewel_diamond_i00 icon.etc_bm_jewel_diamond_i00 icon.etc_bm_jewel_diamond_i00 icon.etc_bm_jewel_diamond_i00 icon.etc_bm_jewel_diamond_i00 icon.bm_jewel_phydef_high_lv1_lavianrose icon.bm_jewel_phydef_high_lv1_lavianrose icon.bm_jewel_phydef_high_lv1_lavianrose icon.bm_jewel_phydef_high_lv1_lavianrose icon.bm_jewel_phydef_high_lv1_lavianrose icon.bm_jewel_phydef_lv1_lavianrose_high2 icon.bm_jewel_phydef_lv1_lavianrose_high2 icon.bm_jewel_phydef_lv1_lavianrose_high2 icon.bm_jewel_phydef_lv1_lavianrose_high2 icon.bm_jewel_phydef_lv1_lavianrose_high2 icon.bm_jewel_phydef_lv1_lavianrose_high2 icon.bm_jewel_phydef_lv1_lavianrose_high2 icon.bm_jewel_phydef_lv1_lavianrose_high2 icon.bm_jewel_phydef_lv1_lavianrose_high2 icon.bm_jewel_phydef_lv1_lavianrose_high2</table>
+		<table name="#pDef">500 700 1200 1800 2500 2128 2317 2558 2837 2837 3121 3433 3776 4154 4569 5026 5529 6082 6690</table>
+		<table name="#pCritDamRcpt">0.99 0.98 0.97 0.96 0.95 0.94 0.93 0.92 0.91 0.90 0.85 0.84 0.83 0.82 0.81 0.80 0.79 0.78 0.77 0.75</table>
+		<table name="#pDef2">1 1 1 1 1 1.15 1.17 1.19 1.21 1.23 1.3 1.32 1.34 1.36 1.38 1.4 1.42 1.44 1.46 1.50</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pDef" value="#pDef"/>
+			<mul stat="pCritDamRcpt" value="#pCritDamRcpt"/>
+			<mul stat="pDef" value="#pDef2"/>
+		</for>
+	</skill>
+	<skill id="17709" levels="20" name="Pearl">
+		<!-- 
+			lvl 1 = Маг. Защ. +163, получаемый урон от Крит. Атк. маг. умений -1%. [Жемчуг Ур. 1]
+			lvl 2 = Маг. Защ. +328, получаемый урон от Крит. Атк. маг. умений -2%. [Жемчуг Ур. 2]
+			lvl 3 = Маг. Защ. +548, получаемый урон от Крит. Атк. маг. умений -3%. [Жемчуг Ур. 3]
+			lvl 4 = Маг. Защ. +821, получаемый урон от Крит. Атк. маг. умений -4%. [Жемчуг Ур. 4]
+			lvl 5 = Маг. Защ. +1150, получаемый урон от Крит. Атк. маг. умений -5%. [Жемчуг Ур. 5]
+			lvl 6 = Маг. Защ. +1150, получаемый урон от Крит. Атк. маг. умений -5%. Дополнительно Маг. Защ. +10%. [Большой Жемчуг Ур. 1]
+			lvl 7 = Маг. Защ. +1375, получаемый урон от Крит. Атк. маг. умений -6%. Дополнительно Маг. Защ. +10%. [Большой Жемчуг Ур. 2]
+			lvl 8 = Маг. Защ. +1485, получаемый урон от Крит. Атк. маг. умений -7%. Дополнительно Маг. Защ. +10%. [Большой Жемчуг Ур. 3]
+			lvl 9 = Маг. Защ. +1621, получаемый урон от Крит. Атк. маг. умений -8%. Дополнительно Маг. Защ. +10%. [Большой Жемчуг Ур. 4]
+			lvl 10 = Маг. Защ. +1785, получаемый урон от Крит. Атк. маг. умений -10%. Дополнительно Маг. Защ. +10%. [Большой Жемчуг Ур. 5]
+			lvl 11 = Маг. Защ. +1785, получаемый урон от Крит. Атк. маг. умений -10%. Дополнительно Маг. Защ. +15%. [Жемчуг Исключительного Качества Ур. 1]
+			lvl 12 = Маг. Защ. +1964, получаемый урон от Крит. Атк. маг. умений -11%. Дополнительно Маг. Защ. +15%. [Жемчуг Исключительного Качества Ур. 2]
+			lvl 13 = Маг. Защ. +2160, получаемый урон от Крит. Атк. маг. умений -12%. Дополнительно Маг. Защ. +15%. [Жемчуг Исключительного Качества Ур. 3]
+			lvl 14 = Маг. Защ. +2376, получаемый урон от Крит. Атк. маг. умений -13%. Дополнительно Маг. Защ. +15%. [Жемчуг Исключительного Качества Ур. 4]
+			lvl 15 = Маг. Защ. +2614, получаемый урон от Крит. Атк. маг. умений -15%. Дополнительно Маг. Защ. +15%. [Жемчуг Исключительного Качества Ур. 5]
+			lvl 16 = Маг. Защ. +2875, получаемый урон от Крит. Атк. маг. умений -16%. Дополнительно Маг. Защ. +15%. [Жемчуг Исключительного Качества Ур. 6]
+			lvl 17 = Маг. Защ. +3163, получаемый урон от Крит. Атк. маг. умений -17%. Дополнительно Маг. Защ. +15%. [Жемчуг Исключительного Качества Ур. 7]
+			lvl 18 = Маг. Защ. +3479, получаемый урон от Крит. Атк. маг. умений -18%. Дополнительно Маг. Защ. +15%. [Жемчуг Исключительного Качества Ур. 8]
+			lvl 19 = Маг. Защ. +3827, получаемый урон от Крит. Атк. маг. умений -19%. Дополнительно Маг. Защ. +15%. [Жемчуг Исключительного Качества Ур. 9]
+			lvl 20 = Маг. Защ. +4210, получаемый урон от Крит. Атк. маг. умений -20%. Дополнительно Маг. Защ. +15%. [Жемчуг Исключительного Качества Ур. 10]
+		-->
+		<table name="#icon">icon.etc_bm_jewel_pearl_i00 icon.etc_bm_jewel_pearl_i00 icon.etc_bm_jewel_pearl_i00 icon.etc_bm_jewel_pearl_i00 icon.etc_bm_jewel_pearl_i00 icon.bm_jewel_magdef_high_lv1_lavianrose icon.bm_jewel_magdef_high_lv1_lavianrose icon.bm_jewel_magdef_high_lv1_lavianrose icon.bm_jewel_magdef_high_lv1_lavianrose icon.bm_jewel_magdef_high_lv1_lavianrose icon.bm_jewel_magdef_lv1_lavianrose_high2 icon.bm_jewel_magdef_lv1_lavianrose_high2 icon.bm_jewel_magdef_lv1_lavianrose_high2 icon.bm_jewel_magdef_lv1_lavianrose_high2 icon.bm_jewel_magdef_lv1_lavianrose_high2 icon.bm_jewel_magdef_lv1_lavianrose_high2 icon.bm_jewel_magdef_lv1_lavianrose_high2 icon.bm_jewel_magdef_lv1_lavianrose_high2 icon.bm_jewel_magdef_lv1_lavianrose_high2 icon.bm_jewel_magdef_lv1_lavianrose_high2</table>
+		<table name="#mDef">500 700 1200 1800 2500 1150 1375 1485 1621 1785 1785 1964 2160 2376 2614 2875 3163 3479 3827 4210</table>
+		<table name="#mCritDamRcpt">0.99 0.98 0.97 0.96 0.95 0.94 0.93 0.92 0.91 0.90 0.85 0.84 0.83 0.82 0.81 0.80 0.79 0.78 0.77 0.75</table>
+		<table name="#mDef2">1 1 1 1 1 1.15 1.17 1.19 1.21 1.23 1.3 1.32 1.34 1.36 1.38 1.4 1.42 1.44 1.46 1.50</table>
+		<set name="icon" value="#icon"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="mDef" value="#mDef"/>
+			<mul stat="mCritDamRcpt" value="#mCritDamRcpt"/>
+			<mul stat="mDef" value="#mDef2"/>
+		</for>
+	</skill>
+	<skill id="17710" levels="1" name="10th Anniversary Blessing Effect (Free)">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="37727"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="15">
+				<item id="37732" min_count="1" max_count="1"/> <!-- ITEM -->
+			</group>
+			<group chance="15">
+				<item id="37733" min_count="1" max_count="1"/> <!-- ITEM --> 
+			</group>
+			<group chance="15">
+				<item id="37734" min_count="1" max_count="1"/> <!-- ITEM --> 
+			</group>
+			<group chance="15">
+				<item id="37735" min_count="1" max_count="1"/> <!-- ITEM --> 
+			</group>
+			<group chance="15">
+				<item id="37736" min_count="1" max_count="1"/> <!-- ITEM --> 
+			</group>
+			<group chance="25">
+				<item id="37737" min_count="1" max_count="1"/> <!-- ITEM --> 
+			</group>
+		</restoration>
+	</skill>
+	<skill id="17711" levels="24" name="10th Anniversary Blessing - Lv. 1">
+		<table name="#castRange">900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</table>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.ev_10th"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17712" levels="1" name="10th Anniversary Blessing Effect (Paid)">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17713" levels="24" name="10th Anniversary Special Blessing Lv. 1">
+		<table name="#castRange">900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1</table>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.ev_10th"/>
+		<set name="castRange" value="#castRange"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17714" levels="1" name="Dancing Cat's Steps">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill_sing"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17715" levels="1" name="Spirit Hit Lv. 1">
+		<set name="effectPoint" value="-1000"/>
+		<set name="icon" value="icon.skill3260"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17716" levels="1" name="Spirit Hit Lv. 2">
+		<set name="effectPoint" value="-1000"/>
+		<set name="icon" value="icon.skill3260"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17717" levels="1" name="Spirit Hit Lv. 3">
+		<set name="effectPoint" value="-1000"/>
+		<set name="icon" value="icon.skill3260"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17718" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17719" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17720" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17721" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17722" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17723" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17724" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17725" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17726" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17727" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17728" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17729" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17730" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17731" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17732" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17733" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17734" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17735" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17736" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17737" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17738" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17739" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17740" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17741" levels="1" name="Dandy's Breath">
+		<set name="icon" value="icon.ev_10th_dandi1"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="17742" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17743" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17744" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17745" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17746" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17747" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17748" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17749" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17750" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17751" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17752" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17753" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17754" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17755" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17756" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17757" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17758" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17759" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17760" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17761" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17762" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17763" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17764" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17765" levels="1" name="Dandy's Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17766" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17767" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17768" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17769" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17770" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17771" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17772" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17773" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17774" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17775" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17776" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17777" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17778" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17779" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17780" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17781" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17782" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17783" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17784" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17785" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17786" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17787" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17788" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17789" levels="1" name="Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17790" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17791" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17792" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17793" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17794" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17795" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17796" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17797" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17798" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="17799" levels="1" name="Great Assisting Strength">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+</list>

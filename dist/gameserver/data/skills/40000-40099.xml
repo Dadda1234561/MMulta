@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+<skill id="40086" levels="1" name="Craft Points +1,000,000">
+    <set name="icon" value="icon.skill0000"/>
+    <set name="target_type" value="SELF"/>
+    <set name="affect_scope" value="SINGLE"/>
+    <set name="affect_object" value="FRIEND"/>
+    <set name="target" value="TARGET_SELF"/>
+    <set name="operate_type" value="A2"/>
+    <for>
+        <effect name="i_add_random_craft_points" value="1000000" />
+    </for>
+</skill>
+</list>

@@ -1,0 +1,2285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <!--
+        NG Weapons
+    -->
+    <weapon id="106214" name="Falchion Lv.1">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.weapon_falchion_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1530"/>
+        <skills>
+            <skill id="110104" level="1"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="31"/>
+            <add stat="mAtk" order="0x10" value="21"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106215" name="Compound Bow Lv.1">
+        <set name="damage_range" value="0;0;10;0"/>
+        <set name="reuse_delay" value="1500"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.weapon_composition_bow_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1880"/>
+        <skills>
+            <skill id="110104" level="1"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="31"/>
+            <add stat="mAtk" order="0x10" value="21"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106216" name="Zweihander Lv.1">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.weapon_zweihander_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="1530"/>
+        <skills>
+            <skill id="110104" level="1"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="31"/>
+            <add stat="mAtk" order="0x10" value="21"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106217" name="Sword Breaker Lv.1">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.weapon_sword_breaker_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1110"/>
+        <skills>
+            <skill id="110104" level="1"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="31"/>
+            <add stat="mAtk" order="0x10" value="21"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106218" name="Iron Gloves Lv.1">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.weapon_vipers_canine_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1560"/>
+        <skills>
+            <skill id="110104" level="1"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="31"/>
+            <add stat="mAtk" order="0x10" value="21"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106219" name="Crucifix of Blessing">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.weapon_crucifix_of_blessing_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="620"/>
+        <skills>
+            <skill id="110105" level="1"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="25"/>
+            <add stat="mAtk" order="0x10" value="28"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106220" name="Apprentice's Staff">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.weapon_apprentices_staff_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="1070"/>
+        <skills>
+            <skill id="110105" level="1"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="25"/>
+            <add stat="mAtk" order="0x10" value="28"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+
+
+        <!--
+            D Weapons
+        -->
+
+
+    <weapon id="106221" name="Elven Long Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="crystal_count" value="342"/>
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.weapon_elven_long_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1440"/>
+        <skills>
+            <skill id="110104" level="2"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="92"/>
+            <add stat="mAtk" order="0x10" value="54"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106222" name="Light Bow">
+        <set name="damage_range" value="0;0;10;0"/>
+        <set name="reuse_delay" value="1500"/>
+        <set name="crystal_count" value="342"/>
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.weapon_cyclone_bow_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1810"/>
+        <skills>
+            <skill id="110104" level="2"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="92"/>
+            <add stat="mAtk" order="0x10" value="54"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106223" name="Claymore">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="crystal_count" value="342"/>
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.weapon_claymore_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="2090"/>
+        <skills>
+            <skill id="110104" level="2"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="92"/>
+            <add stat="mAtk" order="0x10" value="54"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106224" name="Mithril Dagger">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="crystal_count" value="342"/>
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.weapon_mithril_dagger_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1060"/>
+        <skills>
+            <skill id="110104" level="2"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="92"/>
+            <add stat="mAtk" order="0x10" value="54"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106225" name="Scallop Jamadhr">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="crystal_count" value="342"/>
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.weapon_scallop_jamadhr_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="2"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="92"/>
+            <add stat="mAtk" order="0x10" value="54"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106226" name="Staff of Life">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="342"/>
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.weapon_life_stick_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1180"/>
+        <skills>
+            <skill id="110105" level="2"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="90"/>
+            <add stat="mAtk" order="0x10" value="79"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106227" name="Atuba Mace">
+        <set name="damage_range" value="0;0;46;120"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="342"/>
+        <set name="crystal_type" value="D"/>
+        <set name="icon" value="icon.weapon_atuba_mace_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="1010"/>
+        <skills>
+            <skill id="110105" level="2"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="90"/>
+            <add stat="mAtk" order="0x10" value="79"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <!--
+        C Grade
+        -->
+
+    <weapon id="106228" name="Samurai Long Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="252"/>
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.weapon_samurai_longsword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1380"/>
+        <skills>
+            <skill id="110104" level="3"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="156"/>
+            <add stat="mAtk" order="0x10" value="83"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106229" name="Лук Превосходства UPGRADE/Eminence Bow UPGRADE">
+        <set name="damage_range" value="0;0;10;0"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="reuse_delay" value="1500"/>
+        <set name="crystal_count" value="252"/>
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.weapon_eminence_bow_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1720"/>
+        <skills>
+            <skill id="110104" level="3"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="156"/>
+            <add stat="mAtk" order="0x10" value="83"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106230" name="Berserker Blade">
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="252"/>
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.weapon_berserker_blade_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="1380"/>
+        <skills>
+            <skill id="110104" level="3"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="156"/>
+            <add stat="mAtk" order="0x10" value="83"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106231" name="Dark Elven Dagger">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="94"/>
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.weapon_darkelven_dagger_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1050"/>
+        <skills>
+            <skill id="110104" level="3"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="156"/>
+            <add stat="mAtk" order="0x10" value="83"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106232" name="Great Pata UPDATE">
+        <set name="damage_range" value="0;0;46;90"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="252"/>
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.weapon_great_pata_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1460"/>
+        <skills>
+            <skill id="110104" level="3"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="156"/>
+            <add stat="mAtk" order="0x10" value="83"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106233" name="Mace of Underworld">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="177"/>
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.weapon_mace_of_underworld_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1090"/>
+        <skills>
+            <skill id="110105" level="3"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="152"/>
+            <add stat="mAtk" order="0x10" value="122"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106234" name="Посох Демона UPGRADE/Demon Staff UPGRADE">
+        <set name="damage_range" value="0;0;46;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="252"/>
+        <set name="crystal_type" value="C"/>
+        <set name="icon" value="icon.weapon_demons_staff_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="990"/>
+        <skills>
+            <skill id="110105" level="3"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="152"/>
+            <add stat="mAtk" order="0x10" value="122"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <!--
+        B Grade
+        -->
+
+    <weapon id="106235" name="Damascus Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="180"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.weapon_sword_of_damascus_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1350"/>
+        <skills>
+            <skill id="110104" level="4"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="194"/>
+            <add stat="mAtk" order="0x10" value="99"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106236" name="Guardian's Sword">
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="180"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.weapon_guardians_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="1930"/>
+        <skills>
+            <skill id="110104" level="4"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="194"/>
+            <add stat="mAtk" order="0x10" value="99"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106237" name="Demon's Dagger">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="180"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.weapon_demons_sword_i00"/>
+        <set name="price" value="0"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="970"/>
+        <skills>
+            <skill id="110104" level="4"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="194"/>
+            <add stat="mAtk" order="0x10" value="99"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106238" name="Bellion Cestus UPDATE">
+        <set name="damage_range" value="0;0;32;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="180"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.weapon_bellion_cestus_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1390"/>
+        <skills>
+            <skill id="110104" level="4"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="194"/>
+            <add stat="mAtk" order="0x10" value="99"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106239" name="Samurai Long Sword*Samurai Long Sword">
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="180"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="2080"/>
+        <skills>
+            <skill id="110104" level="4"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="194"/>
+            <add stat="mAtk" order="0x10" value="99"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106240" name="Bow of Peril">
+        <set name="damage_range" value="0;0;10;0"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="reuse_delay" value="1500"/>
+        <set name="crystal_count" value="180"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.weapon_hazard_bow_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1700"/>
+        <skills>
+            <skill id="110104" level="4"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="194"/>
+            <add stat="mAtk" order="0x10" value="99"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106241" name="Wizard's Tear">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="180"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.weapon_tears_of_wizard_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1350"/>
+        <skills>
+            <skill id="110105" level="4"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="189"/>
+            <add stat="mAtk" order="0x10" value="145"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <!--
+      A Grade
+      -->
+
+    <weapon id="106242" name="Dark Legion's Edge">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="1106"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.weapon_dark_legions_edge_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1320"/>
+        <skills>
+            <skill id="110104" level="5"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="232"/>
+            <add stat="mAtk" order="0x10" value="114"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106243" name="Dragon Slayer">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="1106"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.weapon_dragon_slayer_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="1840"/>
+        <skills>
+            <skill id="110104" level="5"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="232"/>
+            <add stat="mAtk" order="0x10" value="114"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106244" name="Soul Separator">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="1106"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.weapon_soul_separator_i00"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="950"/>
+        <skills>
+            <skill id="110104" level="5"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="232"/>
+            <add stat="mAtk" order="0x10" value="114"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106245" name="Dragon Grinder UPDATE">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="1106"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.weapon_dragon_grinder_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1350"/>
+        <skills>
+            <skill id="110104" level="5"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="232"/>
+            <add stat="mAtk" order="0x10" value="114"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106246" name="Damascus*Damascus">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="1106"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="2080"/>
+        <skills>
+            <skill id="110104" level="5"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="232"/>
+            <add stat="mAtk" order="0x10" value="114"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106247" name="Carnage Bow">
+        <set name="damage_range" value="0;0;40;0"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="reuse_delay" value="1500"/>
+        <set name="crystal_count" value="751"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.weapon_carnium_bow_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1670"/>
+        <skills>
+            <skill id="110104" level="5"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="232"/>
+            <add stat="mAtk" order="0x10" value="114"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106248" name="Sword of Miracles">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="1106"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.weapon_sword_of_miracle_i00"/>
+        <set name="price" value="0"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="840"/>
+        <skills>
+            <skill id="110105" level="5"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="220"/>
+            <add stat="mAtk" order="0x10" value="177"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106249" name="Daimon Crystal">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="1438"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.weapon_crystal_of_deamon_i00"/>
+        <set name="price" value="0"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="880"/>
+        <skills>
+            <skill id="110105" level="5"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="220"/>
+            <add stat="mAtk" order="0x10" value="177"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <!--
+    S Grade
+    -->
+
+    <weapon id="106250" name="Forgotten Blade">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="1368"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_forgotten_blade_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <skills>
+            <skill id="110104" level="6"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="281"/>
+            <add stat="mAtk" order="0x10" value="132"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106251" name="Heaven's Divider">
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="1368"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_heavens_divider_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="1380"/>
+        <skills>
+            <skill id="110104" level="6"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="281"/>
+            <add stat="mAtk" order="0x10" value="132"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106252" name="Angel Slayer">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="1368"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_angel_slayer_i00"/>
+        <set name="price" value="0"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="950"/>
+        <skills>
+            <skill id="110104" level="6"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="281"/>
+            <add stat="mAtk" order="0x10" value="132"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106253" name="Demon Splinter">
+        <set name="damage_range" value="0;0;32;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="1368"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_demon_splinter_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1350"/>
+        <skills>
+            <skill id="110104" level="6"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="281"/>
+            <add stat="mAtk" order="0x10" value="132"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106254" name="Tallum Blade*Dark Legion's Edge">
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="1368"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="2080"/>
+        <skills>
+            <skill id="110104" level="6"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="281"/>
+            <add stat="mAtk" order="0x10" value="132"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106255" name="Draconic Bow">
+        <set name="damage_range" value="0;0;10;0"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="reuse_delay" value="1500"/>
+        <set name="crystal_count" value="1368"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_draconic_bow_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1650"/>
+        <skills>
+            <skill id="110104" level="6"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="281"/>
+            <add stat="mAtk" order="0x10" value="132"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106256" name="Arcana Mace">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="1368"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_arcana_mace_i00"/>
+        <set name="price" value="0"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1300"/>
+        <skills>
+            <skill id="110105" level="6"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="274"/>
+            <add stat="mAtk" order="0x10" value="193"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106257" name="Imperial Staff">
+        <set name="damage_range" value="0;0;46;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="1368"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_imperial_staff_i00"/>
+        <set name="price" value="0"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="910"/>
+        <skills>
+            <skill id="110105" level="6"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="274"/>
+            <add stat="mAtk" order="0x10" value="193"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <!--
+      S+
+      -->
+
+    <weapon id="106258" name="Dynasty Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="2398"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_dynasty_blade_i00"/>
+        <set name="kamael_convert" value="9376"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="7"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="333"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106259" name="Dynasty Blade">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="2398"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_dynasty_twohand_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="1740"/>
+        <skills>
+            <skill id="110104" level="7"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="333"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="106260" name="Dynasty Phantom">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="2398"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_dynasty_magic_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110105" level="7"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="325"/>
+            <add stat="mAtk" order="0x10" value="222"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="106261" name="Dynasty Bow">
+        <set name="damage_range" value="0;0;10;0"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="reuse_delay" value="1500"/>
+        <set name="crystal_count" value="2398"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_dynasty_bow_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="7"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="333"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="106262" name="Dynasty Knife">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="2398"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_dynasty_dagger_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="7"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="333"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106263" name="Dynasty Bagh-Nakh">
+        <set name="damage_range" value="0;0;32;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="2398"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_dynasty_jamadhr_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1550"/>
+        <skills>
+            <skill id="110104" level="7"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="333"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106264" name="Dynasty Dual Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="2398"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="7"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="333"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106265" name="Dynasty Staff">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="2398"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_dynasty_twohand_staff_i00"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="1080"/>
+        <skills>
+            <skill id="110105" level="7"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="325"/>
+            <add stat="mAtk" order="0x10" value="222"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106266" name="Dynasty Dual Dagger">
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="2812"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.dual_dagger_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2150"/>
+        <skills>
+            <skill id="110104" level="7"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="333"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <!--
+    S80
+    -->
+
+    <weapon id="106267" name="Icarus Sawsword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="3310"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_icarus_sowsword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="8"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="363"/>
+            <add stat="mAtk" order="0x10" value="163"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="106268" name="Icarus Disperser">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="3310"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_icarus_disperser_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="8"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="363"/>
+            <add stat="mAtk" order="0x10" value="163"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="106269" name="Icarus Spirit">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="3310"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_icarus_spirits_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110105" level="8"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="325"/>
+            <add stat="mAtk" order="0x10" value="222"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="106270" name="Icarus Heavy Arms">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="3310"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_icarus_heavy_arms_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="1740"/>
+        <skills>
+            <skill id="110104" level="8"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="363"/>
+            <add stat="mAtk" order="0x10" value="163"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106271" name="Icarus Hand">
+        <set name="damage_range" value="0;0;32;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="3310"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_icarus_knuckle_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1550"/>
+        <skills>
+            <skill id="110104" level="8"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="363"/>
+            <add stat="mAtk" order="0x10" value="163"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106272" name="Icarus Spitter">
+        <set name="damage_range" value="0;0;10;0"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="reuse_delay" value="1500"/>
+        <set name="crystal_count" value="3310"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_icarus_spiter_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="8"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="363"/>
+            <add stat="mAtk" order="0x10" value="163"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106273" name="Icarus Dual Swords">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="3310"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="8"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="363"/>
+            <add stat="mAtk" order="0x10" value="163"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106274" name="Icarus Dual Dagger">
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="3896"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.dual_dagger_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2100"/>
+        <skills>
+            <skill id="110104" level="8"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="363"/>
+            <add stat="mAtk" order="0x10" value="163"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106275" name="Dynasty Staff">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="2398"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_dynasty_twohand_staff_i00"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="1080"/>
+        <skills>
+            <skill id="110105" level="8"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="325"/>
+            <add stat="mAtk" order="0x10" value="222"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <!--
+    S84
+    -->
+
+    <weapon id="106276" name="Vesper Cutter">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="4587"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_vesper_cutter_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="9"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="396"/>
+            <add stat="mAtk" order="0x10" value="176"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106277" name="Vesper Dual Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="4587"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="9"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="396"/>
+            <add stat="mAtk" order="0x10" value="176"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106278" name="Vesper Slasher">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="4587"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_vesper_slasher_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="1740"/>
+        <skills>
+            <skill id="110104" level="9"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="396"/>
+            <add stat="mAtk" order="0x10" value="176"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106279" name="Vesper Buster">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="4587"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_vesper_burster_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110105" level="9"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="386"/>
+            <add stat="mAtk" order="0x10" value="257"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="106280" name="Vesper Shaper">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="4587"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_vesper_shaper_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="9"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="396"/>
+            <add stat="mAtk" order="0x10" value="176"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="106281" name="Vesper Fighter">
+        <set name="damage_range" value="0;0;32;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="4587"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_vesper_fighter_i00"/>
+        <set name="price" value="0"/>
+        <set name="rnd_dam" value="5"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1550"/>
+        <skills>
+            <skill id="110104" level="9"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="482"/>
+            <add stat="mAtk" order="0x10" value="176"/>
+            <set stat="basePCritRate" order="0x08" value="60"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <add stat="pAccCombat" order="0x10" value="8"/>
+        </for>
+    </weapon>
+
+    <weapon id="106282" name="Vesper Singer">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="4587"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_vesper_singer_i00"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="1080"/>
+        <skills>
+            <skill id="110105" level="9"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="386"/>
+            <add stat="mAtk" order="0x10" value="257"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+    <weapon id="106283" name="Vesper Thrower">
+        <set name="damage_range" value="0;0;10;0"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="reuse_delay" value="1500"/>
+        <set name="crystal_count" value="4587"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_vesper_thrower_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="9"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="396"/>
+            <add stat="mAtk" order="0x10" value="176"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106284" name="Vesper Dual Dagger">
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="5488"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.dual_dagger_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <skills>
+            <skill id="110104" level="9"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="396"/>
+            <add stat="mAtk" order="0x10" value="176"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <!--
+    S84 (2)
+    -->
+
+    <weapon id="106285" name="Periel Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="5488"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_periwing_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="10"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="415"/>
+            <add stat="mAtk" order="0x10" value="183"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106286" name="Feather Eye Blade">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="5488"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_feathereye_blade_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="1740"/>
+        <skills>
+            <skill id="110104" level="10"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="415"/>
+            <add stat="mAtk" order="0x10" value="183"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106287" name="Skull Edge">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="5488"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_skulledge_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="10"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="415"/>
+            <add stat="mAtk" order="0x10" value="183"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106288" name="Skull Edge Dual Dagger">
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="6581"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.dual_dagger_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <skills>
+            <skill id="110104" level="10"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="415"/>
+            <add stat="mAtk" order="0x10" value="183"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106289" name="Skull Carnium Bow">
+        <set name="damage_range" value="0;0;10;0"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="reuse_delay" value="1500"/>
+        <set name="crystal_count" value="5488"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_skullgrove_bow_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="10"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="415"/>
+            <add stat="mAtk" order="0x10" value="183"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106290" name="Octo Claw">
+        <set name="damage_range" value="0;0;32;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="5488"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_octoclaw_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1550"/>
+        <skills>
+            <skill id="110104" level="10"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="415"/>
+            <add stat="mAtk" order="0x10" value="183"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106291" name="Periel Dual Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="5488"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="10"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="415"/>
+            <add stat="mAtk" order="0x10" value="183"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106292" name="Veniplant Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="5488"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_veniplant_sword_i00"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110105" level="10"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="404"/>
+            <add stat="mAtk" order="0x10" value="268"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106293" name="Black Visage">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="5488"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_blackvisage_i00"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="1080"/>
+        <skills>
+            <skill id="110105" level="10"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="404"/>
+            <add stat="mAtk" order="0x10" value="268"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <!--
+    S-TOP
+    -->
+
+    <weapon id="106294" name="Eternal Core Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="6581"/>
+        <set name="crystal_type" value="S"/>
+        <set name="icon" value="icon.weapon_incessantcore_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="11"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="437"/>
+            <add stat="mAtk" order="0x10" value="192"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106295" name="Eternal Core Dual Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="6581"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_dual_sword_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="11"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="437"/>
+            <add stat="mAtk" order="0x10" value="192"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106296" name="Lava Saw">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="6581"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_lavamond_saw_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="1740"/>
+        <skills>
+            <skill id="110104" level="11"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="437"/>
+            <add stat="mAtk" order="0x10" value="192"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106297" name="Mamba Edge">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="6581"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_mambaedge_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="11"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="437"/>
+            <add stat="mAtk" order="0x10" value="192"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106298" name="Recurve Thorne Bow">
+        <set name="damage_range" value="0;0;10;0"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="reuse_delay" value="1500"/>
+        <set name="crystal_count" value="6581"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_recurvethorne_bow_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110104" level="11"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="437"/>
+            <add stat="mAtk" order="0x10" value="192"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106299" name="Jade Claw">
+        <set name="damage_range" value="0;0;32;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="6581"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_jademice_claw_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1550"/>
+        <skills>
+            <skill id="110104" level="11"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="437"/>
+            <add stat="mAtk" order="0x10" value="192"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106300" name="Mamba Edge Dual Dagger">
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="crystal_count" value="7613"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.dual_dagger_i00"/>
+        <set name="rnd_dam" value="10"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="DUALDAGGER"/>
+        <set name="weight" value="2050"/>
+        <skills>
+            <skill id="110104" level="11"/>	<!--Физ Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="437"/>
+            <add stat="mAtk" order="0x10" value="192"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106301" name="Archangel Sword">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="6581"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_archangel_sword_i00"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1520"/>
+        <skills>
+            <skill id="110105" level="11"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="426"/>
+            <add stat="mAtk" order="0x10" value="281"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+
+    <weapon id="106302" name="Cyclic Cane">
+        <set name="damage_range" value="0;0;40;120"/>
+        <set name="variation_group_id" value="1"/>
+        <set name="is_magic_weapon" value="true"/>
+        <set name="crystal_count" value="6581"/>
+        <set name="crystal_type" value="S80"/>
+        <set name="icon" value="icon.weapon_psyskilt_cane_i00"/>
+        <set name="rnd_dam" value="20"/>
+        <set name="soulshots" value="1"/>
+        <set name="spiritshots" value="1"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="1080"/>
+        <skills>
+            <skill id="110105" level="11"/>	<!--Маг Пуха-->
+        </skills>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="426"/>
+            <add stat="mAtk" order="0x10" value="281"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+        </for>
+    </weapon>
+</list>

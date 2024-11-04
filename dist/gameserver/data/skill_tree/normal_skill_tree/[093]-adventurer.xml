@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--Create by Agares|feroom -->
+<list>
+	<normal_skill_tree>
+		<class id="93"> <!--adventurer-->
+			<skill id="328" level="1" cost="12500000" name="Wisdom" min_level="76"/>
+			<skill id="344" level="1" cost="12500000" name="Lethal Blow" min_level="76"/>
+			<skill id="358" level="1" cost="14670000" name="Bluff" min_level="77"/>
+			<skill id="330" level="1" cost="14670000" name="Skill Mastery" min_level="77">
+				<item item_id="106472" item_count="1"/>
+				<item item_id="70007" item_count="10"/>
+			</skill>
+			<skill id="432" level="1" cost="16000000" name="Assassination" min_level="78">
+				<item item_id="106472" item_count="1"/>
+				<item item_id="70007" item_count="10"/>
+			</skill>
+			<skill id="334" level="1" cost="16000000" name="Focus Skill Mastery" min_level="78">
+				<item item_id="106472" item_count="2"/>
+				<item item_id="70007" item_count="10"/>
+			</skill>
+			<skill id="357" level="1" cost="16000000" name="Focus Power" min_level="78">
+				<item item_id="106472" item_count="2"/>
+				<item item_id="70007" item_count="10"/>
+			</skill>
+			<skill id="356" level="1" cost="16000000" name="Focus Chance" min_level="78">
+				<item item_id="106472" item_count="2"/>
+				<item item_id="70007" item_count="10"/>
+			</skill>
+			<skill id="445" level="1" cost="60000000" name="Mirage" min_level="79">
+				<item item_id="106472" item_count="2"/>
+				<item item_id="70007" item_count="10"/>
+			</skill>
+			<skill id="923" level="1" cost="0" name="Dual Dagger Mastery" min_level="81" item_id="14210" item_count="1" />
+			<skill id="758" level="1" cost="0" name="Fighter's Will" min_level="81" item_id="10552" item_count="1" />
+			<skill id="759" level="1" cost="0" name="Archer's Will" min_level="81" item_id="10553" item_count="1" />
+			<skill id="766" level="1" cost="0" name="Sixth Sense" min_level="81" item_id="10559" item_count="1" />
+			<skill id="757" level="1" cost="0" name="Protection of Alignment" min_level="82" item_id="10551" item_count="1" />
+			<skill id="755" level="1" cost="0" name="Protection of Rune" min_level="82" item_id="10549" item_count="1" />
+			<skill id="756" level="1" cost="0" name="Protection of Elemental" min_level="82" item_id="10550" item_count="1" />
+			<skill id="768" level="1" cost="0" name="Exciting Adventure" min_level="83" item_id="14175" item_count="1" />
+		</class>
+	</normal_skill_tree>
+</list>

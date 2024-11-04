@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <!--
+        Талисманы
+    -->
+    <armor id="105520" name="Талисман Древней Магии 1">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_defend_talisman"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104106;-1;0"/>
+                    <using slotitem="104107;-1;0"/>
+                    <using slotitem="104108;-1;0"/>
+                    <using slotitem="104109;-1;0"/>
+                    <using slotitem="104110;-1;0"/>
+                    <using slotitem="104111;-1;0"/>
+                    <using slotitem="104112;-1;0"/>
+                    <using slotitem="104113;-1;0"/>
+                    <using slotitem="104114;-1;0"/>
+                    <using slotitem="104115;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120004" level="1"/>
+        </skills>
+    </armor>
+
+    <armor id="105521" name="Талисман Древней Магии 2">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_defend_talisman"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104106;-1;0"/>
+                    <using slotitem="104107;-1;0"/>
+                    <using slotitem="104108;-1;0"/>
+                    <using slotitem="104109;-1;0"/>
+                    <using slotitem="104110;-1;0"/>
+                    <using slotitem="104111;-1;0"/>
+                    <using slotitem="104112;-1;0"/>
+                    <using slotitem="104113;-1;0"/>
+                    <using slotitem="104114;-1;0"/>
+                    <using slotitem="104115;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120004" level="2"/>
+        </skills>
+    </armor>
+
+    <armor id="105522" name="Талисман Древней Магии 3">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_defend_talisman"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104106;-1;0"/>
+                    <using slotitem="104107;-1;0"/>
+                    <using slotitem="104108;-1;0"/>
+                    <using slotitem="104109;-1;0"/>
+                    <using slotitem="104110;-1;0"/>
+                    <using slotitem="104111;-1;0"/>
+                    <using slotitem="104112;-1;0"/>
+                    <using slotitem="104113;-1;0"/>
+                    <using slotitem="104114;-1;0"/>
+                    <using slotitem="104115;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120004" level="3"/>
+        </skills>
+    </armor>
+
+    <armor id="105523" name="Талисман Древней Магии 4">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_defend_talisman"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104106;-1;0"/>
+                    <using slotitem="104107;-1;0"/>
+                    <using slotitem="104108;-1;0"/>
+                    <using slotitem="104109;-1;0"/>
+                    <using slotitem="104110;-1;0"/>
+                    <using slotitem="104111;-1;0"/>
+                    <using slotitem="104112;-1;0"/>
+                    <using slotitem="104113;-1;0"/>
+                    <using slotitem="104114;-1;0"/>
+                    <using slotitem="104115;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120004" level="4"/>
+        </skills>
+    </armor>
+
+    <armor id="105524" name="Талисман Древней Магии 5">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.bm_defend_talisman"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104106;-1;0"/>
+                    <using slotitem="104107;-1;0"/>
+                    <using slotitem="104108;-1;0"/>
+                    <using slotitem="104109;-1;0"/>
+                    <using slotitem="104110;-1;0"/>
+                    <using slotitem="104111;-1;0"/>
+                    <using slotitem="104112;-1;0"/>
+                    <using slotitem="104113;-1;0"/>
+                    <using slotitem="104114;-1;0"/>
+                    <using slotitem="104115;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120004" level="5"/>
+        </skills>
+    </armor>
+
+
+
+
+
+
+    <armor id="105525" name="Талисман Защиты 1">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i03"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104076;-1;0"/>
+                    <using slotitem="104077;-1;0"/>
+                    <using slotitem="104078;-1;0"/>
+                    <using slotitem="104079;-1;0"/>
+                    <using slotitem="104080;-1;0"/>
+                    <using slotitem="104081;-1;0"/>
+                    <using slotitem="104082;-1;0"/>
+                    <using slotitem="104083;-1;0"/>
+                    <using slotitem="104084;-1;0"/>
+                    <using slotitem="104085;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120005" level="1"/>
+        </skills>
+    </armor>
+
+    <armor id="105526" name="Талисман Защиты 2">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i03"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104076;-1;0"/>
+                    <using slotitem="104077;-1;0"/>
+                    <using slotitem="104078;-1;0"/>
+                    <using slotitem="104079;-1;0"/>
+                    <using slotitem="104080;-1;0"/>
+                    <using slotitem="104081;-1;0"/>
+                    <using slotitem="104082;-1;0"/>
+                    <using slotitem="104083;-1;0"/>
+                    <using slotitem="104084;-1;0"/>
+                    <using slotitem="104085;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120005" level="2"/>
+        </skills>
+    </armor>
+
+    <armor id="105527" name="Талисман Защиты 3">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i03"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104076;-1;0"/>
+                    <using slotitem="104077;-1;0"/>
+                    <using slotitem="104078;-1;0"/>
+                    <using slotitem="104079;-1;0"/>
+                    <using slotitem="104080;-1;0"/>
+                    <using slotitem="104081;-1;0"/>
+                    <using slotitem="104082;-1;0"/>
+                    <using slotitem="104083;-1;0"/>
+                    <using slotitem="104084;-1;0"/>
+                    <using slotitem="104085;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120005" level="3"/>
+        </skills>
+    </armor>
+    <armor id="105528" name="Талисман Защиты 4">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i03"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104076;-1;0"/>
+                    <using slotitem="104077;-1;0"/>
+                    <using slotitem="104078;-1;0"/>
+                    <using slotitem="104079;-1;0"/>
+                    <using slotitem="104080;-1;0"/>
+                    <using slotitem="104081;-1;0"/>
+                    <using slotitem="104082;-1;0"/>
+                    <using slotitem="104083;-1;0"/>
+                    <using slotitem="104084;-1;0"/>
+                    <using slotitem="104085;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120005" level="4"/>
+        </skills>
+    </armor>
+    <armor id="105529" name="Талисман Защиты 5">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i03"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104076;-1;0"/>
+                    <using slotitem="104077;-1;0"/>
+                    <using slotitem="104078;-1;0"/>
+                    <using slotitem="104079;-1;0"/>
+                    <using slotitem="104080;-1;0"/>
+                    <using slotitem="104081;-1;0"/>
+                    <using slotitem="104082;-1;0"/>
+                    <using slotitem="104083;-1;0"/>
+                    <using slotitem="104084;-1;0"/>
+                    <using slotitem="104085;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120005" level="5"/>
+        </skills>
+    </armor>
+
+
+    <armor id="105530" name="Талисман Берсерка 1">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i06"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104086;-1;0"/>
+                    <using slotitem="104087;-1;0"/>
+                    <using slotitem="104088;-1;0"/>
+                    <using slotitem="104089;-1;0"/>
+                    <using slotitem="104090;-1;0"/>
+                    <using slotitem="104091;-1;0"/>
+                    <using slotitem="104092;-1;0"/>
+                    <using slotitem="104093;-1;0"/>
+                    <using slotitem="104094;-1;0"/>
+                    <using slotitem="104095;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120006" level="1"/>
+        </skills>
+    </armor>
+
+    <armor id="105531" name="Талисман Берсерка 2">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i06"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104086;-1;0"/>
+                    <using slotitem="104087;-1;0"/>
+                    <using slotitem="104088;-1;0"/>
+                    <using slotitem="104089;-1;0"/>
+                    <using slotitem="104090;-1;0"/>
+                    <using slotitem="104091;-1;0"/>
+                    <using slotitem="104092;-1;0"/>
+                    <using slotitem="104093;-1;0"/>
+                    <using slotitem="104094;-1;0"/>
+                    <using slotitem="104095;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120006" level="2"/>
+        </skills>
+    </armor>
+
+    <armor id="105532" name="Талисман Берсерка 3">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i06"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104086;-1;0"/>
+                    <using slotitem="104087;-1;0"/>
+                    <using slotitem="104088;-1;0"/>
+                    <using slotitem="104089;-1;0"/>
+                    <using slotitem="104090;-1;0"/>
+                    <using slotitem="104091;-1;0"/>
+                    <using slotitem="104092;-1;0"/>
+                    <using slotitem="104093;-1;0"/>
+                    <using slotitem="104094;-1;0"/>
+                    <using slotitem="104095;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120006" level="3"/>
+        </skills>
+    </armor>
+
+    <armor id="105533" name="Талисман Берсерка 4">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i06"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104086;-1;0"/>
+                    <using slotitem="104087;-1;0"/>
+                    <using slotitem="104088;-1;0"/>
+                    <using slotitem="104089;-1;0"/>
+                    <using slotitem="104090;-1;0"/>
+                    <using slotitem="104091;-1;0"/>
+                    <using slotitem="104092;-1;0"/>
+                    <using slotitem="104093;-1;0"/>
+                    <using slotitem="104094;-1;0"/>
+                    <using slotitem="104095;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120006" level="4"/>
+        </skills>
+    </armor>
+
+    <armor id="105534" name="Талисман Берсерка 5">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i06"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104086;-1;0"/>
+                    <using slotitem="104087;-1;0"/>
+                    <using slotitem="104088;-1;0"/>
+                    <using slotitem="104089;-1;0"/>
+                    <using slotitem="104090;-1;0"/>
+                    <using slotitem="104091;-1;0"/>
+                    <using slotitem="104092;-1;0"/>
+                    <using slotitem="104093;-1;0"/>
+                    <using slotitem="104094;-1;0"/>
+                    <using slotitem="104095;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120006" level="5"/>
+        </skills>
+    </armor>
+
+    <!-- Талик скрытой Силы -->
+
+    <armor id="105535" name="Талисман Скрытой Силы 1">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i01"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104066;-1;0"/>
+                    <using slotitem="104067;-1;0"/>
+                    <using slotitem="104068;-1;0"/>
+                    <using slotitem="104069;-1;0"/>
+                    <using slotitem="104070;-1;0"/>
+                    <using slotitem="104071;-1;0"/>
+                    <using slotitem="104072;-1;0"/>
+                    <using slotitem="104073;-1;0"/>
+                    <using slotitem="104074;-1;0"/>
+                    <using slotitem="104075;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120007" level="1"/>
+        </skills>
+    </armor>
+
+    <armor id="105536" name="Талисман Скрытой Силы 2">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i01"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104066;-1;0"/>
+                    <using slotitem="104067;-1;0"/>
+                    <using slotitem="104068;-1;0"/>
+                    <using slotitem="104069;-1;0"/>
+                    <using slotitem="104070;-1;0"/>
+                    <using slotitem="104071;-1;0"/>
+                    <using slotitem="104072;-1;0"/>
+                    <using slotitem="104073;-1;0"/>
+                    <using slotitem="104074;-1;0"/>
+                    <using slotitem="104075;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120007" level="2"/>
+        </skills>
+    </armor>
+    <armor id="105537" name="Талисман Скрытой Силы 3">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i01"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104066;-1;0"/>
+                    <using slotitem="104067;-1;0"/>
+                    <using slotitem="104068;-1;0"/>
+                    <using slotitem="104069;-1;0"/>
+                    <using slotitem="104070;-1;0"/>
+                    <using slotitem="104071;-1;0"/>
+                    <using slotitem="104072;-1;0"/>
+                    <using slotitem="104073;-1;0"/>
+                    <using slotitem="104074;-1;0"/>
+                    <using slotitem="104075;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120007" level="3"/>
+        </skills>
+    </armor>
+
+    <armor id="105538" name="Талисман Скрытой Силы 4">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i01"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104066;-1;0"/>
+                    <using slotitem="104067;-1;0"/>
+                    <using slotitem="104068;-1;0"/>
+                    <using slotitem="104069;-1;0"/>
+                    <using slotitem="104070;-1;0"/>
+                    <using slotitem="104071;-1;0"/>
+                    <using slotitem="104072;-1;0"/>
+                    <using slotitem="104073;-1;0"/>
+                    <using slotitem="104074;-1;0"/>
+                    <using slotitem="104075;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120007" level="4"/>
+        </skills>
+    </armor>
+
+    <armor id="105539" name="Талисман Скрытой Силы 5">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.etc_talisman_i01"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="150"/>
+        <cond msgId="1518">
+            <not>
+                <or>
+                    <using slotitem="104066;-1;0"/>
+                    <using slotitem="104067;-1;0"/>
+                    <using slotitem="104068;-1;0"/>
+                    <using slotitem="104069;-1;0"/>
+                    <using slotitem="104070;-1;0"/>
+                    <using slotitem="104071;-1;0"/>
+                    <using slotitem="104072;-1;0"/>
+                    <using slotitem="104073;-1;0"/>
+                    <using slotitem="104074;-1;0"/>
+                    <using slotitem="104075;-1;0"/>
+                </or>
+            </not>
+        </cond>
+        <equip>
+            <slot id="TALISMAN"/>
+        </equip>
+        <skills>
+            <skill id="120007" level="5"/>
+        </skills>
+    </armor>
+
+
+
+
+
+
+
+
+</list>

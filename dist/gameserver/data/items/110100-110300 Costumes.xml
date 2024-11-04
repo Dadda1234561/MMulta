@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <armor id="96270" name="Dragon Slayer Outfit - Not Available">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.dragon_slayer_suit"/>
+        <set name="type" value="HEAVY"/>
+        <set name="sellable" value="false"/>
+        <set name="mailable" value="false"/>
+        <equip>
+            <slot id="FORMAL_WEAR"/>
+        </equip>
+        <for>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+        </for>
+    </armor>
+    <armor id="91261" name="Dragon Slayer Outfit - Not Available">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.dragon_slayer_suit"/>
+        <set name="type" value="HEAVY"/>
+        <set name="sellable" value="false"/>
+        <set name="mailable" value="false"/>
+        <equip>
+            <slot id="FORMAL_WEAR"/>
+        </equip>
+        <for>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+        </for>
+    </armor>
+    <armor id="97503" name="Dragon Slayer Outfit - Not Available">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.dragon_slayer_suit"/>
+        <set name="type" value="HEAVY"/>
+        <set name="sellable" value="false"/>
+        <set name="mailable" value="false"/>
+        <equip>
+            <slot id="FORMAL_WEAR"/>
+        </equip>
+        <for>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+        </for>
+    </armor>
+    <armor id="95847" name="Dragon Slayer Outfit - Not Available">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.dragon_slayer_suit"/>
+        <set name="type" value="HEAVY"/>
+        <set name="sellable" value="false"/>
+        <set name="mailable" value="false"/>
+        <equip>
+            <slot id="FORMAL_WEAR"/>
+        </equip>
+        <for>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+        </for>
+    </armor>
+    <armor id="94813" name="Dragon Slayer Outfit - Not Available">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.dragon_slayer_suit"/>
+        <set name="type" value="HEAVY"/>
+        <set name="sellable" value="false"/>
+        <set name="mailable" value="false"/>
+        <equip>
+            <slot id="FORMAL_WEAR"/>
+        </equip>
+        <for>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+        </for>
+    </armor>
+    <armor id="94812" name="Dragon Slayer Outfit - Not Available">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.dragon_slayer_suit"/>
+        <set name="type" value="HEAVY"/>
+        <set name="sellable" value="false"/>
+        <set name="mailable" value="false"/>
+        <equip>
+            <slot id="FORMAL_WEAR"/>
+        </equip>
+        <for>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+        </for>
+    </armor>
+    <armor id="91746" name="Dragon Slayer Outfit - Not Available">
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.dragon_slayer_suit"/>
+        <set name="type" value="HEAVY"/>
+        <set name="sellable" value="false"/>
+        <set name="mailable" value="false"/>
+        <equip>
+            <slot id="FORMAL_WEAR"/>
+        </equip>
+        <for>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+            <mul stat="mDef" order="0x60" value="2.03"/>
+        </for>
+    </armor>
+    <weapon id="95725" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="95726" name="Frost Lord's Two-handed Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_two_hand_sword"/>
+        <set name="type" value="BIGSWORD"/>
+        <set name="weight" value="1820"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+
+        <for>
+            <add stat="pAtk" order="0x10" value="340"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="95727" name="Frost Lord's Axe">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_blunt"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1550"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="19"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="60"/>
+            <add stat="pAccCombat" order="0x10" value="8"/>
+        </for>
+    </weapon>
+    <weapon id="95728" name="Frost Lord's Dagger">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_dagger"/>
+        <set name="type" value="DAGGER"/>
+        <set name="weight" value="930"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="5"/>
+        <set name="freightable" value="true"/>
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+
+        <for>
+            <add stat="pAtk" order="0x10" value="245"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="433"/>
+            <set stat="basePCritRate" order="0x08" value="120"/>
+            <add stat="pAccCombat" order="0x10" value="-3.75"/>
+        </for>
+    </weapon>
+    <weapon id="95729" name="Frost Lord's Spear">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_pole"/>
+        <set name="type" value="POLE"/>
+        <set name="weight" value="1820"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+        <skills>
+            <skill id="3599" level="1"/>
+        </skills>
+
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+            <add stat="pAccCombat" order="0x10" value="-3.75"/>
+        </for>
+    </weapon>
+    <weapon id="95730" name="Frost Lord's Bow">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_bow"/>
+        <set name="type" value="BOW"/>
+        <set name="weight" value="1640"/>
+        <set name="soulshots" value="3"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="5"/>
+        <set name="mp_consume" value="5"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+
+        <for>
+            <add stat="pAtk" order="0x10" value="634"/>
+            <add stat="mAtk" order="0x10" value="166"/>
+            <set stat="basePAtkSpd" order="0x08" value="293"/>
+            <set stat="basePCritRate" order="0x08" value="120"/>
+            <add stat="pAccCombat" order="0x10" value="-3.75"/>
+        </for>
+    </weapon>
+    <weapon id="95731" name="Frost Lord's Blade Fists">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_dualfist"/>
+        <set name="type" value="DUALFIST"/>
+        <set name="weight" value="1330"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="5"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+
+        <for>
+            <add stat="pAtk" order="0x10" value="340"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <set stat="basePCritRate" order="0x08" value="60"/>
+            <add stat="pAccCombat" order="0x10" value="8"/>
+        </for>
+    </weapon>
+    <weapon id="95732" name="Frost Lord's Magic Blunt Weapon">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_staff"/>
+        <set name="type" value="BLUNT"/>
+        <set name="weight" value="1510"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="19"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+
+        <for>
+            <add stat="pAtk" order="0x10" value="222"/>
+            <add stat="mAtk" order="0x10" value="204"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="60"/>
+            <add stat="pAccCombat" order="0x10" value="8"/>
+        </for>
+    </weapon>
+    <weapon id="95733" name="Frost Lord's Staff">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_two_hand_staff"/>
+        <set name="type" value="BIGBLUNT"/>
+        <set name="weight" value="880"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="19"/>
+        <set name="freightable" value="true"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+
+        <for>
+            <add stat="pAtk" order="0x10" value="270"/>
+            <add stat="mAtk" order="0x10" value="224"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <set stat="basePCritRate" order="0x08" value="60"/>
+            <add stat="pAccCombat" order="0x10" value="8"/>
+        </for>
+    </weapon>
+
+    <weapon id="95737" name="Frost Lord's Dual Swords">
+        <!--As with two-handed swords/blunts and fist weapons, dual swords have a greater increase in P. Atk. when enchanted than one-handed swords.-->
+        <set name="variation_group_id" value="1"/>
+        <set name="damage_range" value="0;0;44;120"/>
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_dual_sword"/>
+        <set name="type" value="DUAL"/>
+        <set name="weight" value="1890"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <equip>
+            <slot id="LEFT_RIGHT_HAND"/>
+        </equip>
+
+        <for>
+            <add stat="pAtk" order="0x10" value="340"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="325"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+
+
+
+    <weapon id="81940" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81942" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81943" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81944" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81945" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81946" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81948" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81950" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81951" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81952" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81953" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81954" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+    <weapon id="81955" name="Frost Lord's Sword">
+        <set name="crystal_type" value="A"/>
+        <set name="icon" value="icon.frozen_weapon_sword"/>
+        <set name="type" value="SWORD"/>
+        <set name="weight" value="1300"/>
+        <set name="soulshots" value="2"/>
+        <set name="spiritshots" value="2"/>
+        <set name="random_damage" value="10"/>
+        <set name="freightable" value="true"/>
+        <set name="commissionable" value="false" />
+        <equip>
+            <slot id="RIGHT_HAND"/>
+        </equip>
+        <for>
+            <add stat="pAtk" order="0x10" value="279"/>
+            <add stat="mAtk" order="0x10" value="151"/>
+            <set stat="basePAtkSpd" order="0x08" value="379"/>
+            <set stat="basePCritRate" order="0x08" value="80"/>
+        </for>
+    </weapon>
+
+    <armor id="98208" name="Cloak Lv.1">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="220"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+    <armor id="98246" name="Cloak Lv.1">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="220"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+    <armor id="98247" name="Cloak Lv.1">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="220"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+    <armor id="98248" name="Cloak Lv.1">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="220"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+    <armor id="98470" name="Cloak Lv.1">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="220"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+    <armor id="97596" name="Cloak Lv.1">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="220"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+    <armor id="97595" name="Cloak Lv.1">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="220"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+    <armor id="97587" name="Cloak Lv.1">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="220"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+    <armor id="92318" name="Cloak Lv.1">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="220"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+    <armor id="94373" name="Cloak Lv.1">
+        <set name="sellable" value="true"/>
+        <set name="privatestoreable" value="true"/>
+        <set name="dropable" value="true"/>
+        <set name="tradeable" value="true"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="BranchSys2.Icon.br_zaken_cloak_i00"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="220"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+    <armor id="81962" name="Cloak of Cold Darkness">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.amor_evilness_cloak"/>	<!--TODO: Fix it!-->
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+    <armor id="81982" name="Cloak of Cold Darkness">
+        <set name="commissionable" value="false"/>
+        <set name="sellable" value="false"/>
+        <set name="privatestoreable" value="false"/>
+        <set name="dropable" value="false"/>
+        <set name="tradeable" value="false"/>
+        <set name="crystal_type" value="NONE"/>
+        <set name="icon" value="icon.amor_evilness_cloak"/>	<!--TODO: Fix it!-->
+        <set name="type" value="NONE"/>
+        <equip>
+            <slot id="BACK"/>
+        </equip>
+    </armor>
+
+    <!-- Щиты -->
+
+    <weapon id="81956" name="Shield of Valor">
+        <set name="crystal_count" value="12"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.shield_small_shield_i00"/>
+        <set name="price" value="129960"/>
+        <set name="rnd_dam" value="0"/>
+        <set name="soulshots" value="0"/>
+        <set name="spiritshots" value="0"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="720"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+    </weapon>
+
+    <weapon id="81977" name="Shield of Valor">
+        <set name="crystal_count" value="12"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.shield_small_shield_i00"/>
+        <set name="price" value="129960"/>
+        <set name="rnd_dam" value="0"/>
+        <set name="soulshots" value="0"/>
+        <set name="spiritshots" value="0"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="720"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+    </weapon>
+
+    <weapon id="97524" name="Shield of Valor">
+        <set name="crystal_count" value="12"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.shield_small_shield_i00"/>
+        <set name="price" value="129960"/>
+        <set name="rnd_dam" value="0"/>
+        <set name="soulshots" value="0"/>
+        <set name="spiritshots" value="0"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="720"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+    </weapon>
+
+    <weapon id="97239" name="Shield of Valor">
+        <set name="crystal_count" value="12"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.shield_small_shield_i00"/>
+        <set name="price" value="129960"/>
+        <set name="rnd_dam" value="0"/>
+        <set name="soulshots" value="0"/>
+        <set name="spiritshots" value="0"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="720"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+    </weapon>
+
+    <weapon id="96936" name="Shield of Valor">
+        <set name="crystal_count" value="12"/>
+        <set name="crystal_type" value="B"/>
+        <set name="icon" value="icon.shield_small_shield_i00"/>
+        <set name="price" value="129960"/>
+        <set name="rnd_dam" value="0"/>
+        <set name="soulshots" value="0"/>
+        <set name="spiritshots" value="0"/>
+        <set name="type" value="NONE"/>
+        <set name="weight" value="720"/>
+        <equip>
+            <slot id="LEFT_HAND"/>
+        </equip>
+    </weapon>
+</list>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "spawn.dtd">
+<!-- AUTHOR: Edoo -->
+<list>
+    <spawn count="1" respawn="21600" respawn_random="1800" announce_before_spawn="30" announce_type="WORLD" period_of_day="none">
+        <point x="157016" y="-52328" z="-2752" h="0" />
+        <npc id="26432" /><!--босс-->
+    </spawn>
+    <spawn count="1" respawn="21600" respawn_random="1800" announce_before_spawn="30" announce_type="WORLD" period_of_day="none">
+        <point x="154552" y="-18712" z="-1696" h="0" />
+        <npc id="25892" /><!--босс-->
+    </spawn>
+    <spawn count="1" respawn="21600" respawn_random="1800" announce_before_spawn="30" announce_type="WORLD" period_of_day="none">
+        <point x="-119496" y="55496" z="-1536" h="0" />
+        <npc id="26445" /><!--босс-->
+    </spawn>
+    <spawn count="1" respawn="21600" respawn_random="1800" announce_before_spawn="30" announce_type="WORLD" period_of_day="none">
+        <point x="-17880" y="252280" z="-3360" h="0" />
+        <npc id="26126" /><!--босс-->
+    </spawn>
+    <spawn count="1" respawn="21600" respawn_random="1800" announce_before_spawn="30" announce_type="WORLD" period_of_day="none">
+        <point x="95288" y="-131128" z="-3008" h="0" />
+        <npc id="25887" /><!--босс-->
+    </spawn>
+
+    <spawn count="1" respawn="7200" respawn_random="600" period_of_day="none">
+        <point x="150952" y="67640" z="-3616" h="1110" />
+        <npc id="25460" /><!--Deadman Ereve-->
+    </spawn>
+
+
+</list>

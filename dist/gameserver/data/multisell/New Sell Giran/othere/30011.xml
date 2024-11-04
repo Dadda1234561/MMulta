@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+    <config no_tax="true" type="CHANCED"/>
+
+    <!-- Куклы -->
+
+    <item>
+        <production id="106538" count="1" chance="100000000" /> <!-- Сундук со случайной куклой 1 ур. -->
+        <ingredient id="106539" count="100"/>
+    </item>
+	<item>
+        <production id="110628" count="1" chance="100000000" /> <!-- Кукла Хранителя -->
+        <ingredient id="110627" count="10"/>
+    </item>
+	<item>
+        <production id="110629" count="1" chance="100000000" /> <!-- Кукла Хранителя -->
+        <ingredient id="110627" count="20"/>
+		<ingredient id="110628" count="1"/>
+    </item>
+	<item>
+        <production id="110630" count="1" chance="100000000" /> <!-- Кукла Хранителя -->
+        <ingredient id="110627" count="30"/>
+		<ingredient id="110629" count="1"/>
+    </item>
+	<item>
+        <production id="110631" count="1" chance="100000000" /> <!-- Кукла Хранителя -->
+        <ingredient id="110627" count="40"/>
+		<ingredient id="110630" count="1"/>
+    </item>
+	<item>
+        <production id="110632" count="1" chance="100000000" /> <!-- Кукла Хранителя -->
+        <ingredient id="110627" count="50"/>
+		<ingredient id="110631" count="1"/>
+    </item>
+	<item>
+        <production id="110633" count="1" chance="100000000" /> <!-- Кукла Айгис -->
+        <ingredient id="110627" count="10"/>
+    </item>
+	<item>
+        <production id="110634" count="1" chance="100000000" /> <!-- Кукла Айгис -->
+        <ingredient id="110627" count="20"/>
+		<ingredient id="110633" count="1"/>
+    </item>
+	<item>
+        <production id="110635" count="1" chance="100000000" /> <!-- Кукла Айгис -->
+        <ingredient id="110627" count="30"/>
+		<ingredient id="110634" count="1"/>
+    </item>
+	<item>
+        <production id="110636" count="1" chance="100000000" /> <!-- Кукла Айгис -->
+        <ingredient id="110627" count="40"/>
+		<ingredient id="110635" count="1"/>
+    </item>
+	<item>
+        <production id="110637" count="1" chance="100000000" /> <!-- Кукла Айгис -->
+        <ingredient id="110627" count="50"/>
+		<ingredient id="110636" count="1"/>
+    </item>
+	
+</list>

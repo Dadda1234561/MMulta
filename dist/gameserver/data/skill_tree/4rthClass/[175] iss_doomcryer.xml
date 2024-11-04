@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE list SYSTEM "tree.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<normal_skill_tree>
+		<class id="175">	<!--Глас Судьбы Иса-->
+			<!--<skill id="11509" level="1" name="Атака Штурмом(Crippling Attack)" min_level="85"/>
+			<skill id="19444" level="1" name="Барабанный Бой Битвы(War Drum)" min_level="85"/>
+			<skill id="19445" level="1" name="Барабанный Бой Движения(Marching Drum)" min_level="85"/>
+			<skill id="19446" level="1" name="Барабанный Бой Расслабления(Soothing Drum)" min_level="85"/>
+			<skill id="1405" level="1" name="Божественное Вдохновение(Divine Inspiration)" cost="4" min_level="85"/>
+			<skill id="1405" level="2" name="Божественное Вдохновение(Divine Inspiration)" cost="30" min_level="85"/>
+			<skill id="1405" level="3" name="Божественное Вдохновение(Divine Inspiration)" cost="100" min_level="85"/>
+			<skill id="1405" level="4" name="Божественное Вдохновение(Divine Inspiration)" min_level="85"/>
+			<skill id="11563" level="1" name="Быстрое Возвращение(Quick Return)" min_level="85"/>
+			<skill id="11505" level="1" name="Великая Антимагия(Superior Anti Magic)" min_level="85"/>
+			<skill id="11548" level="1" name="Великая Перезарядка(Superior Quick Recovery)" min_level="85"/>
+			<skill id="11553" level="1" name="Великая Фокусировка Разума(Superior Focus Mind)" min_level="85"/>
+			<skill id="19441" level="1" name="Великий Крик Души(Grand Soul Cry)" min_level="85"/>
+			<skill id="11552" level="1" name="Великое Божественное Знание(Superior Divine Lore)" min_level="85"/>
+			<skill id="11555" level="1" name="Великое Быстрое Чтение Заклинаний(Superior Fast Spell Casting)" min_level="85"/>
+			<skill id="11503" level="1" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" min_level="85"/>
+			<skill id="11502" level="1" name="Великое Владение Магической Броней(Superior Robe Mastery)" min_level="85"/>
+			<skill id="11526" level="1" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" min_level="85"/>
+			<skill id="11501" level="1" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" min_level="85"/>
+			<skill id="11504" level="1" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" min_level="85"/>
+			<skill id="11549" level="1" name="Великое Воровство Маны(Superior Mana Steal)" min_level="85"/>
+			<skill id="11547" level="1" name="Великое Восстановление HP(Superior HP Recovery)" min_level="85"/>
+			<skill id="11551" level="1" name="Великое Сопротивление Стихиям(Superior Mental Attack Resistance)" min_level="85"/>
+			<skill id="11507" level="1" name="Великое Увеличение Маны(Superior MP Boost)" min_level="85"/>
+			<skill id="11506" level="1" name="Великое Усиление Тела(Superior HP Boost)" min_level="85"/>
+			<skill id="11554" level="1" name="Великое Шестое Чувство(Superior Sixth Sense)" min_level="85"/>
+			<skill id="11564" level="1" name="Воскрешение Ангела(Angel's Resurrection)" min_level="85"/>
+			<skill id="30812" level="1" name="Гармония Фантазии(Fantasia Harmony)" min_level="85"/>
+			<skill id="11561" level="1" name="Гигантские Корни(Giant Root)" min_level="85"/>
+			<skill id="11562" level="1" name="Движение Зла(Devil's Movement)" min_level="85"/>
+			<skill id="30790" level="1" name="Замораживающее Пламя(Freezing Flame)" min_level="85"/>
+			<skill id="11537" level="1" name="Искажение(Transform)" min_level="85"/>
+			<skill id="248" level="6" name="Кристаллизация(Crystallize)" min_level="85"/>
+			<skill id="150" level="3" name="Лимит Веса(Weight Limit)" min_level="85"/>
+			<skill id="11538" level="1" name="Массовые Гигантские Корни(Mass Giant Root)" min_level="85"/>
+			<skill id="11540" level="1" name="Милая Хрюшка(Quick Escape)" min_level="85"/>
+			<skill id="11560" level="1" name="Непобедимость(Celestial Aegis)" min_level="85"/>
+			<skill id="11536" level="1" name="Оглушение Штурмом(Stunning Assault)" min_level="85"/>
+			<skill id="11541" level="1" name="Одинокий Камень(Polymorph)" min_level="85"/>
+			<skill id="8606" level="1" name="Оседлать Скоростную Звезду(Summon Swift Melody)" min_level="85"/>
+			<skill id="11518" level="1" name="Поэма Барабана(Drum Melody)" min_level="85"/>
+			<skill id="11571" level="1" name="Поэма Восстановления(Recovery Melody)" min_level="85"/>
+			<skill id="11520" level="1" name="Поэма Гитары(Guitar Melody)" min_level="85"/>
+			<skill id="11519" level="1" name="Поэма Органа(Pipe Organ Melody)" min_level="85"/>
+			<skill id="11517" level="1" name="Поэма Рога(Horn Melody)" min_level="85"/>
+			<skill id="11570" level="1" name="Поэма Усиления(Healing Melody)" min_level="85"/>
+			<skill id="11539" level="1" name="Превращение в Камень(Petrify)" min_level="85"/>
+			<skill id="11510" level="1" name="Разрушение Штурмом(Crushing Assault)" min_level="85"/>
+			<skill id="1370" level="1" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1370" level="2" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1370" level="3" name="Развитая Торговля(Expand Trade)" cost="0" item_id="57" item_count="800000000" min_level="85"/>
+			<skill id="1372" level="1" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="20000000" min_level="85"/>
+			<skill id="1372" level="2" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1372" level="3" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="60000000" min_level="85"/>
+			<skill id="1372" level="4" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="80000000" min_level="85"/>
+			<skill id="1372" level="5" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="100000000" min_level="85"/>
+			<skill id="1372" level="6" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="120000000" min_level="85"/>
+			<skill id="1372" level="7" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="200000000" min_level="85"/>
+			<skill id="1372" level="8" name="Расширенный Инвентарь(Expand Inventory)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="1371" level="1" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="20000000" min_level="85"/>
+			<skill id="1371" level="2" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="40000000" min_level="85"/>
+			<skill id="1371" level="3" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="60000000" min_level="85"/>
+			<skill id="1371" level="4" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="80000000" min_level="85"/>
+			<skill id="1371" level="5" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="100000000" min_level="85"/>
+			<skill id="1371" level="6" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="120000000" min_level="85"/>
+			<skill id="1371" level="7" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="200000000" min_level="85"/>
+			<skill id="1371" level="8" name="Расширенный Склад(Expand Warehouse)" cost="0" item_id="57" item_count="400000000" min_level="85"/>
+			<skill id="11566" level="1" name="Сопротивление Злым Чарам(Debuff Resistance)" min_level="85"/>
+			<skill id="11567" level="1" name="Сопротивление Психическим Атакам(Mental Resistance)" min_level="85"/>
+			<skill id="11565" level="1" name="Сопротивление Стихиям(Attribute Resistance)" min_level="85"/>
+			<skill id="11508" level="1" name="Стремительный Бросок Штурма(Dash Assault)" min_level="85"/>
+			<skill id="1572" level="1" name="Увеличение Веса(Weight Increase)" min_level="85"/>
+			<skill id="1571" level="1" name="Увеличение Инвентаря(Inventory Increase)" min_level="85"/>
+			<skill id="11509" level="2" name="Атака Штурмом(Crippling Attack)" cost="50000" min_level="86"/>
+			<skill id="11537" level="2" name="Искажение(Transform)" cost="50000" min_level="86"/>
+			<skill id="11536" level="2" name="Оглушение Штурмом(Stunning Assault)" cost="50000" min_level="86"/>
+			<skill id="11539" level="2" name="Превращение в Камень(Petrify)" cost="60000" min_level="87"/>
+			<skill id="11510" level="2" name="Разрушение Штурмом(Crushing Assault)" cost="60000" min_level="87"/>
+			<skill id="11534" level="1" name="Руки Ангела(Angel's Touch)" cost="60000" min_level="87"/>
+			<skill id="11508" level="2" name="Стремительный Бросок Штурма(Dash Assault)" cost="60000" min_level="87"/>
+			<skill id="11509" level="3" name="Атака Штурмом(Crippling Attack)" cost="80000" min_level="88"/>
+			<skill id="11537" level="3" name="Искажение(Transform)" cost="80000" min_level="88"/>
+			<skill id="11536" level="3" name="Оглушение Штурмом(Stunning Assault)" cost="100000" min_level="89"/>
+			<skill id="11539" level="3" name="Превращение в Камень(Petrify)" cost="100000" min_level="89"/>
+			<skill id="11510" level="3" name="Разрушение Штурмом(Crushing Assault)" cost="100000" min_level="89"/>
+			<skill id="11544" level="1" name="Рапсодия Битвы(Battle Rhapsody)" cost="100000" min_level="89"/>
+			<skill id="11509" level="4" name="Атака Штурмом(Crippling Attack)" cost="370000" min_level="90"/>
+			<skill id="11505" level="2" name="Великая Антимагия(Superior Anti Magic)" cost="370000" min_level="90"/>
+			<skill id="19441" level="2" name="Великий Крик Души(Grand Soul Cry)" cost="370000" min_level="90"/>
+			<skill id="11503" level="2" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="370000" min_level="90"/>
+			<skill id="11502" level="2" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="370000" min_level="90"/>
+			<skill id="11526" level="2" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="370000" min_level="90"/>
+			<skill id="11501" level="2" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="370000" min_level="90"/>
+			<skill id="11504" level="2" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="370000" min_level="90"/>
+			<skill id="11547" level="2" name="Великое Восстановление HP(Superior HP Recovery)" cost="370000" min_level="90"/>
+			<skill id="11507" level="2" name="Великое Увеличение Маны(Superior MP Boost)" cost="370000" min_level="90"/>
+			<skill id="11506" level="2" name="Великое Усиление Тела(Superior HP Boost)" cost="370000" min_level="90"/>
+			<skill id="11564" level="2" name="Воскрешение Ангела(Angel's Resurrection)" cost="370000" min_level="90"/>
+			<skill id="11561" level="2" name="Гигантские Корни(Giant Root)" cost="370000" min_level="90"/>
+			<skill id="30790" level="2" name="Замораживающее Пламя(Freezing Flame)" cost="370000" min_level="90"/>
+			<skill id="11538" level="2" name="Массовые Гигантские Корни(Mass Giant Root)" cost="370000" min_level="90"/>
+			<skill id="11540" level="2" name="Милая Хрюшка(Quick Escape)" cost="370000" min_level="90"/>
+			<skill id="11518" level="2" name="Поэма Барабана(Drum Melody)" cost="370000" min_level="90"/>
+			<skill id="11520" level="2" name="Поэма Гитары(Guitar Melody)" cost="370000" min_level="90"/>
+			<skill id="11519" level="2" name="Поэма Органа(Pipe Organ Melody)" cost="370000" min_level="90"/>
+			<skill id="11517" level="2" name="Поэма Рога(Horn Melody)" cost="370000" min_level="90"/>
+			<skill id="11534" level="2" name="Руки Ангела(Angel's Touch)" cost="370000" min_level="90"/>
+			<skill id="11508" level="3" name="Стремительный Бросок Штурма(Dash Assault)" cost="370000" min_level="90"/>
+			<skill id="11537" level="4" name="Искажение(Transform)" cost="400000" min_level="91"/>
+			<skill id="11539" level="4" name="Превращение в Камень(Petrify)" cost="400000" min_level="91"/>
+			<skill id="11510" level="4" name="Разрушение Штурмом(Crushing Assault)" cost="400000" min_level="91"/>
+			<skill id="11509" level="5" name="Атака Штурмом(Crippling Attack)" cost="420000" min_level="92"/>
+			<skill id="11536" level="4" name="Оглушение Штурмом(Stunning Assault)" cost="420000" min_level="92"/>
+			<skill id="11539" level="5" name="Превращение в Камень(Petrify)" cost="440000" min_level="93"/>
+			<skill id="11510" level="5" name="Разрушение Штурмом(Crushing Assault)" cost="440000" min_level="93"/>
+			<skill id="11543" level="1" name="Реорганизация(Disperse)" cost="440000" min_level="93"/>
+			<skill id="11534" level="3" name="Руки Ангела(Angel's Touch)" cost="440000" min_level="93"/>
+			<skill id="11508" level="4" name="Стремительный Бросок Штурма(Dash Assault)" cost="440000" min_level="93"/>
+			<skill id="11509" level="6" name="Атака Штурмом(Crippling Attack)" cost="480000" min_level="94"/>
+			<skill id="11537" level="5" name="Искажение(Transform)" cost="480000" min_level="94"/>
+			<skill id="11505" level="3" name="Великая Антимагия(Superior Anti Magic)" cost="1000000" min_level="95"/>
+			<skill id="19441" level="3" name="Великий Крик Души(Grand Soul Cry)" cost="1000000" min_level="95"/>
+			<skill id="11503" level="3" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="1000000" min_level="95"/>
+			<skill id="11502" level="3" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="1000000" min_level="95"/>
+			<skill id="11526" level="3" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="1000000" min_level="95"/>
+			<skill id="11501" level="3" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="1000000" min_level="95"/>
+			<skill id="11504" level="3" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="1000000" min_level="95"/>
+			<skill id="11547" level="3" name="Великое Восстановление HP(Superior HP Recovery)" cost="1000000" min_level="95"/>
+			<skill id="11507" level="3" name="Великое Увеличение Маны(Superior MP Boost)" cost="1000000" min_level="95"/>
+			<skill id="11506" level="3" name="Великое Усиление Тела(Superior HP Boost)" cost="1000000" min_level="95"/>
+			<skill id="11564" level="3" name="Воскрешение Ангела(Angel's Resurrection)" cost="1000000" min_level="95"/>
+			<skill id="11561" level="3" name="Гигантские Корни(Giant Root)" cost="1000000" min_level="95"/>
+			<skill id="30790" level="3" name="Замораживающее Пламя(Freezing Flame)" cost="1000000" min_level="95"/>
+			<skill id="11538" level="3" name="Массовые Гигантские Корни(Mass Giant Root)" cost="1000000" min_level="95"/>
+			<skill id="11540" level="3" name="Милая Хрюшка(Quick Escape)" cost="1000000" min_level="95"/>
+			<skill id="11545" level="1" name="Ноктюрн Безумия(Crazy Nocturne)" cost="1000000" min_level="95"/>
+			<skill id="11536" level="5" name="Оглушение Штурмом(Stunning Assault)" cost="1000000" min_level="95"/>
+			<skill id="11518" level="3" name="Поэма Барабана(Drum Melody)" cost="1000000" min_level="95"/>
+			<skill id="11520" level="3" name="Поэма Гитары(Guitar Melody)" cost="1000000" min_level="95"/>
+			<skill id="11519" level="3" name="Поэма Органа(Pipe Organ Melody)" cost="1000000" min_level="95"/>
+			<skill id="11517" level="3" name="Поэма Рога(Horn Melody)" cost="1000000" min_level="95"/>
+			<skill id="11539" level="6" name="Превращение в Камень(Petrify)" cost="1000000" min_level="95"/>
+			<skill id="11510" level="6" name="Разрушение Штурмом(Crushing Assault)" cost="1000000" min_level="95"/>
+			<skill id="11509" level="7" name="Атака Штурмом(Crippling Attack)" cost="4970000" min_level="96"/>
+			<skill id="11543" level="2" name="Реорганизация(Disperse)" cost="4970000" min_level="96"/>
+			<skill id="11534" level="4" name="Руки Ангела(Angel's Touch)" cost="4970000" min_level="96"/>
+			<skill id="11508" level="5" name="Стремительный Бросок Штурма(Dash Assault)" cost="4970000" min_level="96"/>
+			<skill id="11537" level="6" name="Искажение(Transform)" cost="4980000" min_level="97"/>
+			<skill id="11539" level="7" name="Превращение в Камень(Petrify)" cost="4980000" min_level="97"/>
+			<skill id="11510" level="7" name="Разрушение Штурмом(Crushing Assault)" cost="4980000" min_level="97"/>
+			<skill id="11533" level="1" name="Реквием Крови(Blood Requiem)" cost="4980000" min_level="97"/>
+			<skill id="11509" level="8" name="Атака Штурмом(Crippling Attack)" cost="4990000" min_level="98"/>
+			<skill id="11536" level="6" name="Оглушение Штурмом(Stunning Assault)" cost="4990000" min_level="98"/>
+			<skill id="11621" level="1" name="Барьер Благословения(Blessing Barrier)" item_id="39738" item_count="4" cost="5000000" min_level="99"/>
+			<skill id="1405" level="5" name="Божественное Вдохновение(Divine Inspiration)" item_id="40064" cost="5000000" min_level="99"/>
+			<skill id="1405" level="6" name="Божественное Вдохновение(Divine Inspiration)" item_id="40065" cost="5000000" min_level="99"/>
+			<skill id="11505" level="4" name="Великая Антимагия(Superior Anti Magic)" cost="5000000" min_level="99"/>
+			<skill id="19441" level="4" name="Великий Крик Души(Grand Soul Cry)" cost="5000000" min_level="99"/>
+			<skill id="11503" level="4" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="5000000" min_level="99"/>
+			<skill id="11502" level="4" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="5000000" min_level="99"/>
+			<skill id="11526" level="4" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="5000000" min_level="99"/>
+			<skill id="11501" level="4" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="5000000" min_level="99"/>
+			<skill id="11504" level="4" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="5000000" min_level="99"/>
+			<skill id="11547" level="4" name="Великое Восстановление HP(Superior HP Recovery)" cost="5000000" min_level="99"/>
+			<skill id="11507" level="4" name="Великое Увеличение Маны(Superior MP Boost)" cost="5000000" min_level="99"/>
+			<skill id="11506" level="4" name="Великое Усиление Тела(Superior HP Boost)" cost="5000000" min_level="99"/>
+			<skill id="11564" level="4" name="Воскрешение Ангела(Angel's Resurrection)" cost="5000000" min_level="99"/>
+			<skill id="11561" level="4" name="Гигантские Корни(Giant Root)" cost="5000000" min_level="99"/>
+			<skill id="30790" level="4" name="Замораживающее Пламя(Freezing Flame)" cost="5000000" min_level="99"/>
+			<skill id="19425" level="1" name="Иммунитет к Сумасшествию(Immune Derangement)" cost="5000000" min_level="99"/>
+			<skill id="11537" level="7" name="Искажение(Transform)" cost="5000000" min_level="99"/>
+			<skill id="11538" level="4" name="Массовые Гигантские Корни(Mass Giant Root)" cost="5000000" min_level="99"/>
+			<skill id="30815" level="1" name="Мелодия Фантазии(Fantasia Melody)" item_id="39738" item_count="8" cost="5000000" min_level="99"/>
+			<skill id="11540" level="4" name="Милая Хрюшка(Quick Escape)" cost="5000000" min_level="99"/>
+			<skill id="11560" level="2" name="Непобедимость(Celestial Aegis)" cost="5000000" min_level="99"/>
+			<skill id="11518" level="4" name="Поэма Барабана(Drum Melody)" cost="5000000" min_level="99"/>
+			<skill id="11520" level="4" name="Поэма Гитары(Guitar Melody)" cost="5000000" min_level="99"/>
+			<skill id="11519" level="4" name="Поэма Органа(Pipe Organ Melody)" cost="5000000" min_level="99"/>
+			<skill id="11517" level="4" name="Поэма Рога(Horn Melody)" cost="5000000" min_level="99"/>
+			<skill id="11539" level="8" name="Превращение в Камень(Petrify)" cost="5000000" min_level="99"/>
+			<skill id="11510" level="8" name="Разрушение Штурмом(Crushing Assault)" cost="5000000" min_level="99"/>
+			<skill id="11543" level="3" name="Реорганизация(Disperse)" cost="5000000" min_level="99"/>
+			<skill id="11534" level="5" name="Руки Ангела(Angel's Touch)" cost="5000000" min_level="99"/>
+			<skill id="11546" level="1" name="Симфония Соблазна(Chaos Symphony)" cost="5000000" min_level="99"/>
+			<skill id="11508" level="6" name="Стремительный Бросок Штурма(Dash Assault)" cost="5000000" min_level="99"/>
+			<skill id="11505" level="5" name="Великая Антимагия(Superior Anti Magic)" cost="88099899" min_level="100"/>
+			<skill id="11503" level="5" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="88099899" min_level="100"/>
+			<skill id="11502" level="5" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="88099899" min_level="100"/>
+			<skill id="11526" level="5" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="88099899" min_level="100"/>
+			<skill id="11501" level="5" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="88099899" min_level="100"/>
+			<skill id="11504" level="5" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="88099899" min_level="100"/>
+			<skill id="11547" level="5" name="Великое Восстановление HP(Superior HP Recovery)" cost="88099899" min_level="100"/>
+			<skill id="11507" level="5" name="Великое Увеличение Маны(Superior MP Boost)" cost="88099899" min_level="100"/>
+			<skill id="11506" level="5" name="Великое Усиление Тела(Superior HP Boost)" cost="88099899" min_level="100"/>
+			<skill id="10956" level="1" name="Распространение Божественности(Divine Expansion)" item_id="39738" item_count="8" cost="88099899" min_level="100"/>
+			<skill id="11509" level="9" name="Атака Штурмом(Crippling Attack)" cost="211440000" min_level="101"/>
+			<skill id="11564" level="5" name="Воскрешение Ангела(Angel's Resurrection)" cost="211440000" min_level="101"/>
+			<skill id="11561" level="5" name="Гигантские Корни(Giant Root)" cost="211440000" min_level="101"/>
+			<skill id="30790" level="5" name="Замораживающее Пламя(Freezing Flame)" cost="211440000" min_level="101"/>
+			<skill id="11537" level="8" name="Искажение(Transform)" cost="211440000" min_level="101"/>
+			<skill id="11538" level="5" name="Массовые Гигантские Корни(Mass Giant Root)" cost="211440000" min_level="101"/>
+			<skill id="11540" level="5" name="Милая Хрюшка(Quick Escape)" cost="211440000" min_level="101"/>
+			<skill id="19207" level="1" name="Напев Бизона(Chant of Bison)" item_id="39738" item_count="8" cost="211440000" min_level="101"/>
+			<skill id="11536" level="7" name="Оглушение Штурмом(Stunning Assault)" cost="211440000" min_level="101"/>
+			<skill id="11539" level="9" name="Превращение в Камень(Petrify)" cost="211440000" min_level="101"/>
+			<skill id="11510" level="9" name="Разрушение Штурмом(Crushing Assault)" cost="211440000" min_level="101"/>
+			<skill id="11543" level="4" name="Реорганизация(Disperse)" cost="211440000" min_level="101"/>
+			<skill id="11534" level="6" name="Руки Ангела(Angel's Touch)" cost="211440000" min_level="101"/>
+			<skill id="11546" level="2" name="Симфония Соблазна(Chaos Symphony)" cost="211440000" min_level="101"/>
+			<skill id="11508" level="7" name="Стремительный Бросок Штурма(Dash Assault)" cost="211440000" min_level="101"/>
+			<skill id="19438" level="1" name="Тройная Перебивка(Triple Stroke)" item_id="39738" item_count="4" cost="211440000" min_level="101"/>
+			<skill id="11505" level="6" name="Великая Антимагия(Superior Anti Magic)" cost="507455418" min_level="102"/>
+			<skill id="11503" level="6" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="507455418" min_level="102"/>
+			<skill id="11502" level="6" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="507455418" min_level="102"/>
+			<skill id="11526" level="6" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="507455418" min_level="102"/>
+			<skill id="11501" level="6" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="507455418" min_level="102"/>
+			<skill id="11504" level="6" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="507455418" min_level="102"/>
+			<skill id="11547" level="6" name="Великое Восстановление HP(Superior HP Recovery)" cost="507455418" min_level="102"/>
+			<skill id="11507" level="6" name="Великое Увеличение Маны(Superior MP Boost)" cost="507455418" min_level="102"/>
+			<skill id="11506" level="6" name="Великое Усиление Тела(Superior HP Boost)" cost="507455418" min_level="102"/>
+			<skill id="11509" level="10" name="Атака Штурмом(Crippling Attack)" cost="608946501" min_level="103"/>
+			<skill id="30812" level="2" name="Гармония Фантазии(Fantasia Harmony)" item_id="39738" item_count="8" cost="608946501" min_level="103"/>
+			<skill id="11561" level="6" name="Гигантские Корни(Giant Root)" cost="608946501" min_level="103"/>
+			<skill id="30790" level="6" name="Замораживающее Пламя(Freezing Flame)" cost="608946501" min_level="103"/>
+			<skill id="11537" level="9" name="Искажение(Transform)" cost="608946501" min_level="103"/>
+			<skill id="11538" level="6" name="Массовые Гигантские Корни(Mass Giant Root)" cost="608946501" min_level="103"/>
+			<skill id="11540" level="6" name="Милая Хрюшка(Quick Escape)" cost="608946501" min_level="103"/>
+			<skill id="11536" level="8" name="Оглушение Штурмом(Stunning Assault)" cost="608946501" min_level="103"/>
+			<skill id="19421" level="1" name="Поэма Ансамбля(Ensemble Melody)" item_id="39738" item_count="4" cost="608946501" min_level="103"/>
+			<skill id="11539" level="10" name="Превращение в Камень(Petrify)" cost="608946501" min_level="103"/>
+			<skill id="11510" level="10" name="Разрушение Штурмом(Crushing Assault)" cost="608946501" min_level="103"/>
+			<skill id="11543" level="5" name="Реорганизация(Disperse)" cost="608946501" min_level="103"/>
+			<skill id="11546" level="3" name="Симфония Соблазна(Chaos Symphony)" cost="608946501" min_level="103"/>
+			<skill id="11508" level="8" name="Стремительный Бросок Штурма(Dash Assault)" cost="608946501" min_level="103"/>
+			<skill id="11505" level="7" name="Великая Антимагия(Superior Anti Magic)" cost="1461471604" min_level="104"/>
+			<skill id="11503" level="7" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="11502" level="7" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="11526" level="7" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="11501" level="7" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="11504" level="7" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="1461471604" min_level="104"/>
+			<skill id="11547" level="7" name="Великое Восстановление HP(Superior HP Recovery)" cost="1461471604" min_level="104"/>
+			<skill id="11507" level="7" name="Великое Увеличение Маны(Superior MP Boost)" cost="1461471604" min_level="104"/>
+			<skill id="11506" level="7" name="Великое Усиление Тела(Superior HP Boost)" cost="1461471604" min_level="104"/>
+			<skill id="11509" level="11" name="Атака Штурмом(Crippling Attack)" cost="1753765925" min_level="105"/>
+			<skill id="11561" level="7" name="Гигантские Корни(Giant Root)" cost="1753765925" min_level="105"/>
+			<skill id="30790" level="7" name="Замораживающее Пламя(Freezing Flame)" cost="1753765925" min_level="105"/>
+			<skill id="11537" level="10" name="Искажение(Transform)" cost="1753765925" min_level="105"/>
+			<skill id="11538" level="7" name="Массовые Гигантские Корни(Mass Giant Root)" cost="1753765925" min_level="105"/>
+			<skill id="11540" level="7" name="Милая Хрюшка(Quick Escape)" cost="1753765925" min_level="105"/>
+			<skill id="11536" level="9" name="Оглушение Штурмом(Stunning Assault)" cost="1753765925" min_level="105"/>
+			<skill id="11518" level="5" name="Поэма Барабана(Drum Melody)" cost="1753765925" min_level="105"/>
+			<skill id="11520" level="5" name="Поэма Гитары(Guitar Melody)" cost="1753765925" min_level="105"/>
+			<skill id="11519" level="5" name="Поэма Органа(Pipe Organ Melody)" cost="1753765925" min_level="105"/>
+			<skill id="11517" level="5" name="Поэма Рога(Horn Melody)" cost="1753765925" min_level="105"/>
+			<skill id="11539" level="11" name="Превращение в Камень(Petrify)" cost="1753765925" min_level="105"/>
+			<skill id="11510" level="11" name="Разрушение Штурмом(Crushing Assault)" cost="1753765925" min_level="105"/>
+			<skill id="11543" level="6" name="Реорганизация(Disperse)" cost="1753765925" min_level="105"/>
+			<skill id="11546" level="4" name="Симфония Соблазна(Chaos Symphony)" cost="1753765925" min_level="105"/>
+			<skill id="11508" level="9" name="Стремительный Бросок Штурма(Dash Assault)" cost="1753765925" min_level="105"/>
+			<skill id="11505" level="8" name="Великая Антимагия(Superior Anti Magic)" cost="2104519110" min_level="106"/>
+			<skill id="11503" level="8" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="11502" level="8" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="11526" level="8" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="11501" level="8" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="11504" level="8" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="2104519110" min_level="106"/>
+			<skill id="11547" level="8" name="Великое Восстановление HP(Superior HP Recovery)" cost="2104519110" min_level="106"/>
+			<skill id="11507" level="8" name="Великое Увеличение Маны(Superior MP Boost)" cost="2104519110" min_level="106"/>
+			<skill id="11506" level="8" name="Великое Усиление Тела(Superior HP Boost)" cost="2104519110" min_level="106"/>
+			<skill id="11509" level="12" name="Атака Штурмом(Crippling Attack)" cost="2525422932" min_level="107"/>
+			<skill id="11561" level="8" name="Гигантские Корни(Giant Root)" cost="2525422932" min_level="107"/>
+			<skill id="30790" level="8" name="Замораживающее Пламя(Freezing Flame)" cost="2525422932" min_level="107"/>
+			<skill id="11537" level="11" name="Искажение(Transform)" cost="2525422932" min_level="107"/>
+			<skill id="11538" level="8" name="Массовые Гигантские Корни(Mass Giant Root)" cost="2525422932" min_level="107"/>
+			<skill id="11540" level="8" name="Милая Хрюшка(Quick Escape)" cost="2525422932" min_level="107"/>
+			<skill id="11536" level="10" name="Оглушение Штурмом(Stunning Assault)" cost="2525422932" min_level="107"/>
+			<skill id="11539" level="12" name="Превращение в Камень(Petrify)" cost="2525422932" min_level="107"/>
+			<skill id="11510" level="12" name="Разрушение Штурмом(Crushing Assault)" cost="2525422932" min_level="107"/>
+			<skill id="11543" level="7" name="Реорганизация(Disperse)" cost="2525422932" min_level="107"/>
+			<skill id="11546" level="5" name="Симфония Соблазна(Chaos Symphony)" cost="2525422932" min_level="107"/>
+			<skill id="11505" level="9" name="Великая Антимагия(Superior Anti Magic)" cost="6061015038" min_level="108"/>
+			<skill id="11503" level="9" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="11502" level="9" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="11526" level="9" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="11501" level="9" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="11504" level="9" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="6061015038" min_level="108"/>
+			<skill id="11547" level="9" name="Великое Восстановление HP(Superior HP Recovery)" cost="6061015038" min_level="108"/>
+			<skill id="11507" level="9" name="Великое Увеличение Маны(Superior MP Boost)" cost="6061015038" min_level="108"/>
+			<skill id="11506" level="9" name="Великое Усиление Тела(Superior HP Boost)" cost="6061015038" min_level="108"/>
+			<skill id="11509" level="13" name="Атака Штурмом(Crippling Attack)" cost="7273218046" min_level="109"/>
+			<skill id="11561" level="9" name="Гигантские Корни(Giant Root)" cost="7273218046" min_level="109"/>
+			<skill id="30790" level="9" name="Замораживающее Пламя(Freezing Flame)" cost="7273218046" min_level="109"/>
+			<skill id="11537" level="12" name="Искажение(Transform)" cost="7273218046" min_level="109"/>
+			<skill id="11538" level="9" name="Массовые Гигантские Корни(Mass Giant Root)" cost="7273218046" min_level="109"/>
+			<skill id="11540" level="9" name="Милая Хрюшка(Quick Escape)" cost="7273218046" min_level="109"/>
+			<skill id="11536" level="11" name="Оглушение Штурмом(Stunning Assault)" cost="7273218046" min_level="109"/>
+			<skill id="11539" level="13" name="Превращение в Камень(Petrify)" cost="7273218046" min_level="109"/>
+			<skill id="11510" level="13" name="Разрушение Штурмом(Crushing Assault)" cost="7273218046" min_level="109"/>
+			<skill id="11543" level="8" name="Реорганизация(Disperse)" cost="7273218046" min_level="109"/>
+			<skill id="11546" level="6" name="Симфония Соблазна(Chaos Symphony)" cost="7273218046" min_level="109"/>
+			<skill id="11505" level="10" name="Великая Антимагия(Superior Anti Magic)" cost="17455723311" min_level="110"/>
+			<skill id="11503" level="10" name="Великое Владение Легкой Броней(Superior Light Armor Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="11502" level="10" name="Великое Владение Магической Броней(Superior Robe Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="11526" level="10" name="Великое Владение Мечом / Дробящим Оружием(Superior Sword / Blunt Weapon Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="11501" level="10" name="Великое Владение Парным Оружием(Superior Dual Weapon Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="11504" level="10" name="Великое Владение Тяжелой Броней(Superior Heavy Armor Mastery)" cost="17455723311" min_level="110"/>
+			<skill id="11547" level="10" name="Великое Восстановление HP(Superior HP Recovery)" cost="17455723311" min_level="110"/>
+			<skill id="11507" level="10" name="Великое Увеличение Маны(Superior MP Boost)" cost="17455723311" min_level="110"/>
+			<skill id="11506" level="10" name="Великое Усиление Тела(Superior HP Boost)" cost="17455723311" min_level="110"/>
+			<skill id="30856" level="1" name="Интенсивный Ноктюрн Безумия(Deep Crazy Nocturne)" item_id="81453" cost="17455723311" min_level="110"/>-->
+		</class>
+	</normal_skill_tree>
+</list>

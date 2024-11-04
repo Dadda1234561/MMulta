@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		Brooch
+	-->
+	<armor id="104051" name="Brooch Lv. 1">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_brooch_lavianrose_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="BROOCH"/>
+		</equip>
+		<skills>
+			<skill id="103004" level="1"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="17"/>
+		</for>
+	</armor>
+	<armor id="104052" name="Brooch Lv. 2">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_brooch_lavianrose_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<equip>
+			<slot id="BROOCH"/>
+		</equip>
+		<skills>
+			<skill id="103004" level="2"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="17"/>
+		</for>
+	</armor>
+	<armor id="104053" name="Brooch Lv. 3">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_brooch_lavianrose_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="BROOCH"/>
+		</equip>
+		<skills>
+			<skill id="103004" level="3"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="17"/>
+		</for>
+	</armor>
+	<armor id="104054" name="Brooch Lv. 4">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_brooch_lavianrose_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="BROOCH"/>
+		</equip>
+		<skills>
+			<skill id="103004" level="4"/>
+		</skills>
+		<for>
+			<add stat="mDef" order="0x10" value="17"/>
+		</for>
+	</armor>
+	<armor id="104055" name="Brooch Lv. 5">
+		<set name="commissionable" value="false"/>
+		<set name="sellable" value="true"/>
+		<set name="privatestoreable" value="true"/>
+		<set name="dropable" value="true"/>
+		<set name="tradeable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_brooch_lavianrose_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="BROOCH"/>
+		</equip>
+		<skills>
+			<skill id="103004" level="5"/>
+		</skills>
+		<enchant_options>
+			<level value="1">
+				<option id="42201"/>
+			</level>
+			<level value="2">
+				<option id="42202"/>
+			</level>
+			<level value="3">
+				<option id="42203"/>
+			</level>
+			<level value="4">
+				<option id="42204"/>
+			</level>
+			<level value="5">
+				<option id="42205"/>
+			</level>
+			<level value="6">
+				<option id="42206"/>
+			</level>
+			<level value="7">
+				<option id="42207"/>
+			</level>
+			<level value="8">
+				<option id="42208"/>
+			</level>
+			<level value="9">
+				<option id="42209"/>
+			</level>
+			<level value="10">
+				<option id="42210"/>
+			</level>
+		</enchant_options>
+		<for>
+			<add stat="mDef" order="0x10" value="17"/>
+		</for>
+	</armor>
+	
+</list>

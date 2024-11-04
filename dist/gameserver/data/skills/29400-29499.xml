@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="29400" levels="1" name="Freya's Fortune Stick">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29401" levels="1" name="Rice Cake">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29402" levels="1" name="Vitality Maintaining Rune">
+		<set name="icon" value="icon.ev_charge_run"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29403" levels="1" name="Amulet: Prosperity">
+		<set name="icon" value="BranchSys3.lcon.g_rune_itemdrop_up"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29404" levels="1" name="Glowing Dragon's Attribute Potion (XP)">
+		<!-- На 30 мин. атака стихией +70, сопротивление всем стихиям +70, бонус опыта и SP +30%. Эффект сохраняется в случае смерти. -->
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_dragon_posion_special"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="BR_EVENT_BUF2"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<for>
+			<effect>
+				<add stat="attackFire" value="70"/>
+				<add stat="attackWater" value="70"/>
+				<add stat="attackWind" value="70"/>
+				<add stat="attackEarth" value="70"/>
+				<add stat="attackHoly" value="70"/>
+				<add stat="attackUnholy" value="70"/>
+				<add stat="defenceWater" value="70"/>
+				<add stat="defenceFire" value="70"/>
+				<add stat="defenceWind" value="70"/>
+				<add stat="defenceEarth" value="70"/>
+				<add stat="defenceHoly" value="70"/>
+				<add stat="defenceUnholy" value="70"/>
+				<add stat="exp_rate_multiplier" value="0.3"/>
+				<add stat="sp_rate_multiplier" value="0.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="29405" levels="1" name="Freya's Ice Rose">
+		<!-- На 30 мин. Макс. HP/ MP/ CP +30%, Физ. Атк./ Маг. Атк./ Физ. Защ./ Маг. Защ. +30%, Скор. Атк./ Скор. Маг. +10%, Скорость +20, атака стихиями/ защита от стихий +100, урон +10%, мощность физ./ маг. умений +10%, бонус опыта и SP +30%, получаемый урон -10%, расход MP для умений -15%. Эффект сохраняется после смерти. -->
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_ice_rose"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="br_event_buf1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="29789"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="isHandler" value="true"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="cancelable" value="false"/>
+		<set name="buff_slot_type" value="2"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.30"/>
+				<mul stat="maxMp" value="1.30"/>
+				<mul stat="maxCp" value="1.30"/>
+				<mul stat="pAtk" value="1.30"/>
+				<mul stat="mAtk" value="1.30"/>
+				<mul stat="pDef" value="1.30"/>
+				<mul stat="mDef" value="1.30"/>
+				<mul stat="pAtkSpd" value="1.10"/>
+				<mul stat="mAtkSpd" value="1.10"/>
+				<add stat="runSpd" value="20"/>
+				<add stat="attackFire" value="100"/>
+				<add stat="attackWater" value="100"/>
+				<add stat="attackWind" value="100"/>
+				<add stat="attackEarth" value="100"/>
+				<add stat="attackHoly" value="100"/>
+				<add stat="attackUnholy" value="100"/>
+				<add stat="defenceWater" value="100"/>
+				<add stat="defenceFire" value="100"/>
+				<add stat="defenceWind" value="100"/>
+				<add stat="defenceEarth" value="100"/>
+				<add stat="defenceHoly" value="100"/>
+				<add stat="defenceUnholy" value="100"/>
+				<mul stat="pvpPhysDmgBonus" value="1.10"/>
+				<mul stat="pvpPhysSkillDmgBonus" value="1.10"/>
+				<mul stat="pvpMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysDmgBonus" value="1.10"/>
+				<mul stat="pveMagicSkillDmgBonus" value="1.10"/>
+				<mul stat="pvePhysSkillDmgBonus" value="1.10"/>
+				<mul stat="p_skill_power" value="1.10"/>
+				<mul stat="mSkillPower" value="1.10"/>
+				<add stat="exp_rate_multiplier" value="0.30"/>
+				<add stat="sp_rate_multiplier" value="0.30"/>
+				<mul stat="pvpPhysDefenceBonus" value="1.10"/>
+				<mul stat="pvpPhysSkillDefenceBonus" value="1.10"/>
+				<mul stat="pvpMagicSkillDefenceBonus" value="1.10"/>
+				<mul stat="pvePhysDefenceBonus" value="1.10"/>
+				<mul stat="pvePhysSkillDefenceBonus" value="1.10"/>
+				<mul stat="pveMagicSkillDefenceBonus" value="1.10"/>
+				<mul stat="mpConsum" value="0.85"/>
+				<mul stat="mpConsumePhysical" value="0.85"/>
+				<mul stat="mpDanceConsume" value="0.85"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="29406" levels="1" name="Emperor's Special Cocktail">
+		<set name="icon" value="icon.bm_special_cocktail_of_king_p"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29409" levels="10" name="Superior Amethyst">
+		<!-- 
+			lvl 1 = Урон в PvP +26%. Шанс получения физ. крит. урона -30%. [Аметист Исключительного Качества Ур. 1]
+			lvl 2 = Урон в PvP +26%. Шанс получения физ. крит. урона -30%. [Аметист Исключительного Качества Ур. 2]
+			lvl 3 = Урон в PvP +26%. Шанс получения физ. крит. урона -30%. [Аметист Исключительного Качества Ур. 3]
+			lvl 4 = Урон в PvP +27%. Шанс получения физ. крит. урона -30%. [Аметист Исключительного Качества Ур. 4]
+			lvl 5 = Урон в PvP +27%. Шанс получения физ. крит. урона -30%. [Аметист Исключительного Качества Ур. 5]
+			lvl 6 = Урон в PvP +27%. Шанс получения физ. крит. урона -30%. [Аметист Исключительного Качества Ур. 6]
+			lvl 7 = Урон в PvP +28%. Шанс получения физ. крит. урона -30%. [Аметист Исключительного Качества Ур. 7]
+			lvl 8 = Урон в PvP +28%. Шанс получения физ. крит. урона -30%. [Аметист Исключительного Качества Ур. 8]
+			lvl 9 = Урон в PvP +29%. Шанс получения физ. крит. урона -30%. [Аметист Исключительного Качества Ур. 9]
+			lvl 10 = Урон в PvP +30%. Шанс получения физ. крит. урона -30%. [Аметист Исключительного Качества Ур. 10]
+		-->
+		<set name="icon" value="BranchIcon.Icon.etc_bm_jewel_amethyst_i00"/>
+		<set name="operate_type" value="P"/>
+		<table name="#value">1.6 1.66 1.72 1.78 1.84 1.9 1.96 2.02 2.1 2.2</table>
+		<table name="#value2">0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7 0.7</table>
+		<for>
+			<mul stat="pvpPhysDmgBonus" value="#value"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#value"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#value"/>
+			<mul stat="pCritChanceRcpt" value="#value2"/>
+		</for>
+	</skill>
+	<skill id="29411" levels="10" name="Superior Cat's Eye">
+		<!-- 
+			lvl 1 = Сопротивление отражению урона +70%. С вероятностью 21% отражает на противника отрицательные эффекты. [Кошачий Глаз Исключительного Качества Ур. 1]
+			lvl 2 = Сопротивление отражению урона +70%. С вероятностью 22% отражает на противника отрицательные эффекты. [Кошачий Глаз Исключительного Качества Ур. 2]
+			lvl 3 = Сопротивление отражению урона +70%. С вероятностью 23% отражает на противника отрицательные эффекты. [Кошачий Глаз Исключительного Качества Ур. 3]
+			lvl 4 = Сопротивление отражению урона +70%. С вероятностью 24% отражает на противника отрицательные эффекты. [Кошачий Глаз Исключительного Качества Ур. 4]
+			lvl 5 = Сопротивление отражению урона +70%. С вероятностью 25% отражает на противника отрицательные эффекты. [Кошачий Глаз Исключительного Качества Ур. 5]
+			lvl 6 = Сопротивление отражению урона +70%. С вероятностью 26% отражает на противника отрицательные эффекты. [Кошачий Глаз Исключительного Качества Ур. 6]
+			lvl 7 = Сопротивление отражению урона +70%. С вероятностью 27% отражает на противника отрицательные эффекты. [Кошачий Глаз Исключительного Качества Ур. 7]
+			lvl 8 = Сопротивление отражению урона +70%. С вероятностью 28% отражает на противника отрицательные эффекты. [Кошачий Глаз Исключительного Качества Ур. 8]
+			lvl 9 = Сопротивление отражению урона +70%. С вероятностью 29% отражает на противника отрицательные эффекты. [Кошачий Глаз Исключительного Качества Ур. 9]
+			lvl 10 = Сопротивление отражению урона +70%. С вероятностью 30% отражает на противника отрицательные эффекты. [Кошачий Глаз Исключительного Качества Ур. 10]
+		-->
+		<set name="icon" value="BranchIcon.Icon.etc_bm_jewel_catseye_i00"/>
+		<set name="operate_type" value="P"/>
+		<table name="#value">1.70 1.70 1.70 1.70 1.70 1.70 1.70 1.70 1.70 1.70</table>
+		<table name="#value2">21 22 23 24 25 26 27 28 29 30</table>
+		<for>
+			<mul stat="resistRelectDam" value="#value"/>
+			<add stat="reflectMagicDebuff" value="#value2"/>
+			<add stat="reflectPhysicDebuff" value="#value2"/>
+		</for>
+	</skill>
+	<skill id="29412" levels="1" name="Monster Power Potion">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.bm_soul_of_undead"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29413" levels="4" name="Einhasad Overseeing">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29414" levels="1" name="Einhasad's Chains">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29415" levels="1" name="Vitality Maintaining Rune">
+		<set name="icon" value="icon.ev_charge_run"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29416" levels="1" name="Vitality Maintaining Rune">
+		<set name="icon" value="icon.ev_charge_run"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29417" levels="1" name="Vitality Maintaining Rune">
+		<set name="icon" value="icon.ev_charge_run"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="29418" levels="1" name="Thankful Heart">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="BranchSys3.g_blessing_of_angel_cat_i00"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29419" levels="1" name="Roa's Support">
+		<set name="icon" value="icon.skill5661"/>
+		<set name="castRange" value="900"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29420" levels="1" name="Roa's Appreciation">
+		<set name="icon" value="icon.skill5661"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="castRange" value="400"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29421" levels="1" name="Mysterious Attribute Potion">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="Icon.ev_invasion_vp_hub"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="hitTime" value="100"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29422" levels="1" name="Freya's Growth Rune">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29423" levels="1" name="Heir's Radiance Lv. 5">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29424" levels="1" name="Heir's Radiance Lv. 6">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29425" levels="1" name="Heir's Radiance Lv. 7">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29426" levels="1" name="Heir's Radiance Lv. 5">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29427" levels="1" name="Heir's Radiance Lv. 6">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29428" levels="1" name="Heir's Radiance Lv. 7">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29429" levels="5" name="Heir's Radiance - PvE Lv. 2">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29430" levels="5" name="Heir's Radiance - PvP Lv. 2">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29431" levels="5" name="Heir's Radiance - PvE Lv. 3">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29432" levels="5" name="Heir's Radiance - PvP Lv. 3">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29433" levels="5" name="Heir's Radiance - PvE Lv. 4">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29434" levels="5" name="Heir's Radiance - PvP Lv. 4">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29435" levels="1" name="+18 Supreme Krishna Weapon Pack">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29436" levels="1" name="+20 Supreme Krishna Weapon Pack">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29437" levels="1" name="+10 Supreme Leviathan Heavy Armor Set Pack">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29438" levels="1" name="+10 Supreme Leviathan Light Armor Set Pack">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29439" levels="1" name="+10 Supreme Leviathan Robe Set Pack">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29440" levels="1" name="Freya's Ice Rose - Event">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29441" levels="1" name="Lucky Gift Coupon (1-hour)">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29442" levels="1" name="Freya's Lucky Pouch">
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="29495" levels="1" name="PVE Руна 15">
+		<table name="#pve">1.15</table>
+		<table name="#magicLevel">1</table>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="#pve"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pve"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pve"/>
+		</for>
+	</skill>
+	<skill id="29496" levels="1" name="PVE Руна 30">
+		<table name="#pve">1.3</table>
+		<table name="#magicLevel">1</table>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDmgBonus" value="#pve"/>
+			<mul stat="pveMagicSkillDmgBonus" value="#pve"/>
+			<mul stat="pvePhysSkillDmgBonus" value="#pve"/>
+		</for>
+	</skill>
+</list>

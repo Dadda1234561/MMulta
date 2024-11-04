@@ -1,0 +1,949 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="39600" levels="1" name="PA Event Potion of Appearance - Alice">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39601" levels="1" name="PA Event Appearance Potion - Steampunk">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39602" levels="1" name="Potion of Appearance for PA Event - Lovely Hanbok">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39603" levels="1" name="PA Event Potion of Appearance - Jester">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39604" levels="1" name="Pink's Style Potion - Elite Knight">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39605" levels="1" name="Potion of Appearance for PA Event - Red Dragon Knight">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39606" levels="1" name="PA Event Potion of Appearance - Assassin">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39607" levels="1" name="Potion of Appearance for PA Event - Yellow Nymph">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39608" levels="1" name="Freya's Scroll of Storm">
+		<!-- На 10 мин. во время охоты расход энергии +150%, бонус опыта и SP +150%. Эффект сохраняется после смерти. Время перезарядки: 9 мин. -->
+		<set name="icon" value="icon.bm_freya_storm_scroll"/>
+		<set name="reuseDelay" value="540000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="EVENT_BUF3"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<for>
+			<effect>
+				<add stat="exp_rate_multiplier" value="1.5"/>
+				<add stat="sp_rate_multiplier" value="1.5"/>
+				<mul stat="vitality_consume" value="2.5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="39609" levels="1" name="Festival Fairy's Style Cancelling Oil">
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39610" levels="1" name="Freya's Scroll of Storm">
+		<!-- На 10 мин. во время охоты расход энергии +150%, бонус опыта и SP +150%. Эффект сохраняется после смерти. Время перезарядки: 9 мин. -->
+		<set name="icon" value="icon.bm_freya_storm_scroll"/>
+		<set name="reuseDelay" value="540000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="EVENT_BUF3"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<for>
+			<effect>
+				<add stat="exp_rate_multiplier" value="1.5"/>
+				<add stat="sp_rate_multiplier" value="1.5"/>
+				<mul stat="vitality_consume" value="2.5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="39611" levels="1" name="Assassin Suit Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39612" levels="1" name="Santiago’s Sea Wind Scroll">
+		<set name="icon" value="icon.freya_scroll"/>
+		<set name="reuseDelay" value="540000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39613" levels="1" name="+6 Angel's Ring Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39614" levels="1" name="+8 Angel's Ring Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39615" levels="1" name="Vitality Maintaining Rune - 7 d.">
+		<!-- При наличии в инвентаре поддерживает энергию. -->
+		<set name="icon" value="icon.ev_charge_run"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="vitality_consume" value="0"/>
+		</for>
+	</skill>
+	<skill id="39616" levels="1" name="Scroll: Enchant Expert’s Mask">
+		<set name="icon" value="icon.episode_scrl_of_ench_hair"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39617" levels="1" name="Scroll: Enchant Atlas’ Earring">
+		<set name="icon" value="icon.episode_scrl_of_ench_hair"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39618" levels="1" name="Time Stone of Abandoned Coal Mines">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="target_type" value="SELF" />
+		<set name="affect_scope" value="SINGLE" />
+		<set name="affect_object" value="FRIEND" />
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_restore_time_restrict_field" value="11" />
+		</for>
+	</skill>
+	<skill id="39619" levels="1" name="Blessed Scroll: Enchant Brooch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39620" levels="3" name="Craft Effect - Charisma Lv. 1">
+		<set name="icon" value="icon.rare_acc_smith_piece"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39621" levels="1" name="Honey Rice Cakes">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39622" levels="1" name="Lovely Hanbok Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39623" levels="3" name="Craft Effect - Battle Lv. 1">
+		<set name="icon" value="icon.rare_acc_smith_piece"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39624" levels="3" name="Craft Effect - Guardian Lv. 1">
+		<set name="icon" value="icon.rare_acc_smith_piece"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39625" levels="3" name="Craft Effect - Potential Lv. 1">
+		<set name="icon" value="icon.rare_acc_smith_piece"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39626" levels="3" name="Craft Effect - Assault Lv. 1">
+		<set name="icon" value="icon.rare_acc_smith_piece"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39627" levels="3" name="Craft Effect - Security Lv. 1">
+		<set name="icon" value="icon.rare_acc_smith_piece"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39628" levels="3" name="Craft Effect - Elements Lv. 1">
+		<set name="icon" value="icon.rare_acc_smith_piece"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39629" levels="1" name="+8 Blessed Eternal Heavy Armor Set Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39630" levels="1" name="+8 Blessed Eternal Light Armor Set Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39631" levels="1" name="+8 Blessed Eternal Robe Set Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39632" levels="1" name="+10 Blessed Eternal Heavy Armor Set Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39633" levels="1" name="+10 Blessed Eternal Light Armor Set Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39634" levels="1" name="+10 Blessed Eternal Robe Set Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39635" levels="1" name="+14 Blessed Helios Shaper Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39636" levels="1" name="+14 Blessed Helios Cutter Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39637" levels="1" name="+14 Blessed Helios Slasher Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39638" levels="1" name="+14 Blessed Helios Avenger Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39639" levels="1" name="+14 Blessed Helios Fighter Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39640" levels="1" name="+14 Blessed Helios Stormer Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39641" levels="1" name="+14 Blessed Helios Thrower Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39642" levels="1" name="+14 Blessed Helios Shooter Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39643" levels="1" name="+14 Blessed Helios Buster Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39644" levels="1" name="+14 Blessed Helios Caster Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39645" levels="1" name="+14 Blessed Helios Retributer Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39646" levels="1" name="+14 Blessed Helios Dual Swords Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39647" levels="1" name="+14 Blessed Helios Dual Daggers Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39648" levels="1" name="+14 Blessed Helios Dual Blunt Weapon Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39649" levels="1" name="Festival Fairy's Potion - Red Assassin">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39650" levels="1" name="Festival Fairy's Potion - Blue Assassin">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39651" levels="1" name="Festival Fairy's Potion - Pink Assassin">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39652" levels="1" name="Festival Fairy's Potion - Demon Priest">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.armor_t2000_b_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39653" levels="1" name="Divine Book of Growth: Agathion Dragon">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39654" levels="1" name="Jack O'Lantern's Potion">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.ev_jack_ghost_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39655" levels="1" name="Craft Effect - Life">
+		<set name="icon" value="icon.rare_acc_smith_piece"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39656" levels="1" name="Honey Dark Beer">	
+	<!-- При использовании все характеристики +3, бонус энергии +30%. Эффект сохраняется после смерти. Время перезарядки: 5 мин. Нельзя использовать на Олимпиаде. -->
+		<set name="icon" value="icon.bm_royal_black_beer"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="G_EV_BUFF1"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<for>
+			<effect>
+				<add order="0x10" stat="STR" value="3"/> <!-- СИЛ(STR) -->
+				<add order="0x10" stat="DEX" value="3"/> <!-- ЛВК(DEX) -->
+				<add order="0x10" stat="CON" value="3"/> <!-- ВЫН(CON) -->
+				<add order="0x10" stat="INT" value="3"/> <!-- ИНТ(INT) -->
+				<add order="0x10" stat="WIT" value="3"/> <!-- МДР(WIT) -->
+				<add order="0x10" stat="MEN" value="3"/> <!-- ДУХ(MEN) -->
+				<add order="0x10" stat="LUC" value="3"/> <!-- УДЧ(LUC) -->
+				<add order="0x10" stat="CHA" value="3"/> <!-- ХАР(CHA) -->
+				<add stat="exp_rate_multiplier" value="0.30">
+					<player has_vitality="true"/>
+				</add>
+			</effect>
+		</for>	
+	</skill>
+	<skill id="39657" levels="1" name="Tower of Insolence's Prolongation Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="target_type" value="SELF" />
+		<set name="affect_scope" value="SINGLE" />
+		<set name="affect_object" value="FRIEND" />
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_restore_time_restrict_field" value="8" />
+		</for>
+	</skill>
+	<skill id="39658" levels="1" name="Superior Ruby">
+		<set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_soul_shot">
+				<def name="power" value="123"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="39659" levels="1" name="Superior Ruby">
+		<set name="icon" value="icon.bm_jewel_ssdmg_high_lv1_lavianrose"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+	</skill>
+	<skill id="39660" levels="2" name="Superior Sapphire">
+		<set name="icon" value="icon.bm_jewel_spsdmg_high_lv1_lavianrose"/>
+		<table name="#power">120 320</table>
+		<table name="#unk_spiritshot_parameter">40 40</table>	<!--TODO: Check.-->
+		<table name="#heal_bonus">1.0 2.4</table>	<!--TODO: Check.-->
+		<set name="icon" value="icon.etc_bm_jewel_sapphire_i00"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<for>
+			<effect name="i_spirit_shot">
+				<def name="power" value="#power"/>
+				<def name="unk_spiritshot_parameter" value="#unk_spiritshot_parameter"/>
+				<def name="heal_bonus" value="#heal_bonus"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="39662" levels="1" name="Загадочное Зелье">
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="MISTERY_POTION"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="hitCancelTime" value="100"/>
+		<set name="hitTime" value="100"/>
+		<set name="isHandler" value="true"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<for>
+			<effect>
+					<mul stat="maxHp" value="1.05"/>
+					<mul stat="maxMp" value="1.05"/>
+					<mul stat="maxCp" value="1.05"/>
+					<mul stat="pAtk" value="1.05"/>
+					<mul stat="mAtk" value="1.05"/>
+					<mul stat="pAtkSpd" value="1.05"/>
+					<mul stat="mAtkSpd" value="1.05"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="39663" levels="1" name="Red Assassin Suit Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39664" levels="1" name="Blue Assassin Suit Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39665" levels="1" name="Pink Assassin Suit Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39666" levels="1" name="Steward Outfit Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39667" levels="1" name="Alice's Costume Appearance Stone">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39668" levels="1" name="Lilly's Special Anniversary Transformation Candy">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.etc_whiteday_candy"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39669" levels="1" name="Maphr's Wind Scroll">
+		<!-- На 10 мин. во время охоты расход энергии +30%, количество выпадающих аден +30%. Эффект сохраняется после смерти. Время перезарядки: 9 мин. Можно использовать только при наличии 1 и более деления энергии. Нельзя использовать на Олимпиаде. Не действует одновременно с эффектами Свиток Ветра Фреи, Свиток Шторма Фреи, Свиток Шторма Мафр. -->
+		<set name="icon" value="icon.bm_maphr_scroll"/>
+		<set name="reuseDelay" value="540000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="EVENT_BUF3"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<for>
+			<effect>
+				<add stat="adena_rate_multiplier" order="0x40" value="0.30"/>
+				<mul stat="vitality_consume" value="1.30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="39670" levels="1" name="Maphr's Scroll of Storm">
+		<!-- На 10 мин. во время охоты расход энергии +50%, количество выпадающих аден +50%. Эффект сохраняется после смерти. Время перезарядки: 9 мин. Можно использовать только при наличии 1 и более деления энергии. Нельзя использовать на Олимпиаде. Не действует одновременно с эффектом Свиток Шторма Фреи. -->
+		<set name="icon" value="icon.bm_maphr_scroll_up"/>
+		<set name="reuseDelay" value="540000"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="abnormal_time" value="600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="EVENT_BUF3"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<for>
+			<effect>
+				<add stat="adena_rate_multiplier" order="0x40" value="0.50"/>
+				<mul stat="vitality_consume" value="1.5"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="39671" levels="1" name="Essence of Time">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39672" levels="1" name="Essence of Time (test)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39673" levels="1" name="Milk of Vitality">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39674" levels="3" name="Lucky Pumpkin Cheese">
+		<table name="#reuseDelay">3000 1000 1000</table>
+		<table name="#hitTime">1000 0 0</table>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="#hitTime"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39675" levels="1" name="Magic Dumpling Soup">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.ev_stew_of_pray"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39676" levels="3" name="White Day Chocolate 56%">
+		<table name="#icon">BranchSys.icon.br_valentine_darkchoco_i00 BranchSys.icon.br_valentine_deco_i00 icon.etc_whiteday_choco</table>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39677" levels="1" name="Enchant Effect: Improved Artifact Book">
+		<set name="icon" value="icon.artifact_book_01"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.05"/>
+			<mul stat="maxMp" value="1.05"/>
+			<mul stat="maxCp" value="1.05"/>
+			<add order="0x10" stat="STR" value="2"/>
+			<add order="0x10" stat="INT" value="2"/>
+			<add order="0x10" stat="CON" value="2"/>
+			<add order="0x10" stat="MEN" value="2"/>
+			<add order="0x10" stat="DEX" value="2"/>
+			<add order="0x10" stat="WIT" value="2"/>
+			<add order="0x10" stat="CHA" value="2"/>
+			<add order="0x10" stat="LUC" value="2"/>
+		</for>
+	</skill>
+	<skill id="39678" levels="1" name="Enchant Effect: Unique Artifact Book">
+		<set name="icon" value="icon.artifact_book_02"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxHp" value="1.1"/>
+			<mul stat="maxMp" value="1.1"/>
+			<mul stat="maxCp" value="1.1"/>
+			<add order="0x10" stat="STR" value="3"/>
+			<add order="0x10" stat="INT" value="3"/>
+			<add order="0x10" stat="CON" value="3"/>
+			<add order="0x10" stat="MEN" value="3"/>
+			<add order="0x10" stat="DEX" value="3"/>
+			<add order="0x10" stat="WIT" value="3"/>
+			<add order="0x10" stat="CHA" value="3"/>
+			<add order="0x10" stat="LUC" value="3"/>
+		</for>
+	</skill>
+	<skill id="39679" levels="1" name="Blessed Scroll: Enchant Artifact Book">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39680" levels="1" name="Royal Gold Save Ticket">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39681" levels="1" name="Royal Black Save Ticket">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39682" levels="1" name="Камень Продления Замка Монарха Льда">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="target_type" value="SELF" />
+		<set name="affect_scope" value="SINGLE" />
+		<set name="affect_object" value="FRIEND" />
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="restore_time" value="15"/>
+		<for>
+			<effect name="i_restore_time_restrict_field" value="18" />
+		</for>
+	</skill>
+	<skill id="39683" levels="1" name="Elysian Style Candy - White Daily">
+		<set name="effectPoint" value="780"/>
+		<set name="icon" value="icon.etc_whiteday_candy"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39684" levels="1" name="Scroll: Enchant Superior Seed Bracelet Lv. 4">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39685" levels="1" name="Festival Fairy's Energy Scroll">
+		<set name="icon" value="icon.etc_charm_of_luck_i01"/>
+		<set name="reuseDelay" value="540000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39686" levels="1" name="+6 Leviathan Heavy Armor Set Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39687" levels="1" name="+6 Leviathan Light Armor Set Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39688" levels="1" name="+6 Leviathan Robe Set Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39689" levels="1" name="+14 Krishna Shaper Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39690" levels="1" name="+14 Krishna Cutter Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39691" levels="1" name="+14 Krishna Slasher Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39692" levels="1" name="+14 Krishna Avenger Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39693" levels="1" name="+14 Krishna Fighter Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39694" levels="1" name="+14 Krishna Stormer Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39695" levels="1" name="+14 Krishna Thrower Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39696" levels="1" name="+14 Krishna Shooter Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39697" levels="1" name="+14 Krishna Buster Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39698" levels="1" name="+14 Krishna Caster Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39699" levels="1" name="+14 Krishna Retributer Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

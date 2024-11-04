@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="26600" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Отражение Отрицательных Эффектов +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="reflectPhysicDebuff" value="1.03"/>
+			<mul stat="reflectMagicDebuff" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="26601" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Сопротивление отражению урона +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="resistRelectDam" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="26602" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Сопротивление атакам из лука / арбалета +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<p_defence_trait name="bow" value="3"/>
+			<p_defence_trait name="crossbow" value="3"/>
+		</for>
+	</skill>
+	<skill id="26603" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Физ. Защ. +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="pDef" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="26604" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Маг. Защ. +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="mDef" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="26605" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Сопротивление всем стихиям +5 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<add stat="defenceFire" value="5"/>
+			<add stat="defenceWater" value="5"/>
+			<add stat="defenceWind" value="5"/>
+			<add stat="defenceEarth" value="5"/>
+			<add stat="defenceHoly" value="5"/>
+			<add stat="defenceUnholy" value="5"/>
+		</for>
+	</skill>
+	<skill id="26606" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Эффективность получаемого лечения +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<p_heal_effect value="3" type="PER"/>
+		</for>
+	</skill>
+	<skill id="26607" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Макс. HP +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="maxHp" value="1.03"/> <!-- Макс. HP +3% -->
+		</for>
+	</skill>
+	<skill id="26608" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Макс. MP +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<mul stat="maxMp" value="1.03"/> <!-- Макс. MP +3% -->
+		</for>
+	</skill>
+	<skill id="26609" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Макс. CP +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<mul stat="maxCp" value="1.03"/> <!-- Макс. CP +3% -->
+		</for>
+	</skill>
+	<skill id="26610" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Скорость +3 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="runSpd" value="3"/>
+		</for>
+	</skill>
+	<skill id="26611" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Бонус Восстановления HP +5 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="regHp" value="5"/>
+		</for>
+	</skill>
+	<skill id="26612" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Бонус Восстановления MP +5 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="regMp" value="5"/>
+		</for>
+	</skill>
+	<skill id="26613" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Низкое качество / Физ. / Маг. Уклонение +3 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="pEvasRate" value="3"/>
+			<add stat="mEvasRate" value="3"/>
+		</for>
+	</skill>
+	<skill id="26614" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Низкое качество / Опция 15 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26615" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Низкое качество / Опция 16 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26616" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Низкое качество / Опция 17 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26617" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Низкое качество / Опция 18 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26618" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Низкое качество / Опция 19 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26619" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Низкое качество / Опция 20 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26620" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Отражение отрицательных эффектов +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="reflectPhysicDebuff" value="1.05"/>
+			<mul stat="reflectMagicDebuff" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="26621" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Сопротивление отражению урона +7% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="resistRelectDam" value="1.07"/>
+		</for>
+	</skill>
+	<skill id="26622" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Сопротивление атакам из лука / арбалета +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<p_defence_trait name="bow" value="5"/>
+			<p_defence_trait name="crossbow" value="5"/>
+		</for>
+	</skill>
+	<skill id="26623" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Физ. Защ. +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="pDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="26624" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Маг. Защ. +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="mDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="26625" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Сопротивление всем стихиям +7 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<add stat="defenceFire" value="7"/>
+			<add stat="defenceWater" value="7"/>
+			<add stat="defenceWind" value="7"/>
+			<add stat="defenceEarth" value="7"/>
+			<add stat="defenceHoly" value="7"/>
+			<add stat="defenceUnholy" value="7"/>
+		</for>
+	</skill>
+	<skill id="26626" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Эффективность получаемого лечения +7% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<p_heal_effect value="7" type="PER"/>
+		</for>
+	</skill>
+	<skill id="26627" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Макс. HP +7% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="maxHp" value="1.07"/> <!-- Макс. HP +7% -->
+		</for>
+	</skill>
+	<skill id="26628" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Макс. MP +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<mul stat="maxMp" value="1.05"/> <!-- Макс. MP +5% -->
+		</for>
+	</skill>
+	<skill id="26629" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Макс. CP +7% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<mul stat="maxCp" value="1.07"/> <!-- Макс. CP +7% -->
+		</for>
+	</skill>
+	<skill id="26630" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Скорость +7 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="runSpd" value="7"/>
+		</for>
+	</skill>
+	<skill id="26631" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Бонус Восстановления HP +8 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="regHp" value="8"/>
+		</for>
+	</skill>
+	<skill id="26632" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Бонус Восстановления MP +4 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="regMp" value="4"/>
+		</for>
+	</skill>
+	<skill id="26633" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Среднее качество / Физ. / Маг. Уклонение +4 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="pEvasRate" value="4"/>
+			<add stat="mEvasRate" value="4"/>
+		</for>
+	</skill>
+	<skill id="26634" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Среднее качество / Опция 15 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26635" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Среднее качество / Опция 16 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26636" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Среднее качество / Опция 17 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26637" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Среднее качество / Опция 18 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26638" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Среднее качество / Опция 19 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26639" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Среднее качество / Опция 20 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26640" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Отражение отрицательных эффектов +10% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="reflectPhysicDebuff" value="1.1"/>
+			<mul stat="reflectMagicDebuff" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="26641" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Сопротивление отражению урона +15% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="resistRelectDam" value="1.15"/>
+		</for>
+	</skill>
+	<skill id="26642" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Сопротивление атакам из лука / арбалета +10% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<p_defence_trait name="bow" value="10"/>
+			<p_defence_trait name="crossbow" value="10"/>
+		</for>
+	</skill>
+	<skill id="26643" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Физ. Защ. +10% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="pDef" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="26644" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Маг. Защ. +10% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="mDef" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="26645" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Сопротивление всем стихиям +15 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<add stat="defenceFire" value="15"/>
+			<add stat="defenceWater" value="15"/>
+			<add stat="defenceWind" value="15"/>
+			<add stat="defenceEarth" value="15"/>
+			<add stat="defenceHoly" value="15"/>
+			<add stat="defenceUnholy" value="15"/>
+		</for>
+	</skill>
+	<skill id="26646" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Эффективность получаемого лечения +15% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<p_heal_effect value="15" type="PER"/>
+		</for>
+	</skill>
+	<skill id="26647" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Макс. HP +15% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="maxHp" value="1.15"/> <!-- Макс. HP +15% -->
+		</for>
+	</skill>
+	<skill id="26648" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Макс. MP +10% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<mul stat="maxMp" value="1.1"/> <!-- Макс. MP +10% -->
+		</for>
+	</skill>
+	<skill id="26649" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Макс. CP +15% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<mul stat="maxCp" value="1.15"/> <!-- Макс. CP +15% -->
+		</for>
+	</skill>
+	<skill id="26650" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Скорость +15 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="runSpd" value="15"/>
+		</for>
+	</skill>
+	<skill id="26651" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Бонус Восстановления HP +16 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="regHp" value="16"/>
+		</for>
+	</skill>
+	<skill id="26652" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Бонус Восстановления MP +8 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="regMp" value="8"/>
+		</for>
+	</skill>
+	<skill id="26653" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Высокое качество / Физ. / Маг. Уклонение +8 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="pEvasRate" value="8"/>
+			<add stat="mEvasRate" value="8"/>
+		</for>
+	</skill>
+	<skill id="26654" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Высокое качество / Опция 15 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26655" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Высокое качество / Опция 16 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26656" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Высокое качество / Опция 17 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26657" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Высокое качество / Опция 18 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26658" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Высокое качество / Опция 19 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26659" levels="1" name="Beach Swimsuit Appearance Stone">
+	<!-- Камень Обработки Пляжного Купального Костюма / Эффект Высокое качество / Опция 20 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26660" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Отражение Отрицательных Эффектов +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="reflectPhysicDebuff" value="1.03"/>
+			<mul stat="reflectMagicDebuff" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="26661" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Сопротивление отражению урона +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="resistRelectDam" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="26662" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Сопротивление атакам из лука / арбалета +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<p_defence_trait name="bow" value="3"/>
+			<p_defence_trait name="crossbow" value="3"/>
+		</for>
+	</skill>
+	<skill id="26663" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Физ. Защ. +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="pDef" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="26664" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Маг. Защ. +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="mDef" value="1.03"/>
+		</for>
+	</skill>
+	<skill id="26665" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Сопротивление всем стихиям +5 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<add stat="defenceFire" value="5"/>
+			<add stat="defenceWater" value="5"/>
+			<add stat="defenceWind" value="5"/>
+			<add stat="defenceEarth" value="5"/>
+			<add stat="defenceHoly" value="5"/>
+			<add stat="defenceUnholy" value="5"/>
+		</for>
+	</skill>
+	<skill id="26666" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Эффективность получаемого лечения +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<p_heal_effect value="3" type="PER"/>
+		</for>
+	</skill>
+	<skill id="26667" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Макс. HP +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="maxHp" value="1.03"/> <!-- Макс. HP +3% -->
+		</for>
+	</skill>
+	<skill id="26668" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Макс. MP +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<mul stat="maxMp" value="1.03"/> <!-- Макс. MP +3% -->
+		</for>
+	</skill>
+	<skill id="26669" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Макс. CP +3% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<mul stat="maxCp" value="1.03"/> <!-- Макс. CP +3% -->
+		</for>
+	</skill>
+	<skill id="26670" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Скорость +3 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="runSpd" value="3"/>
+		</for>
+	</skill>
+	<skill id="26671" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Бонус Восстановления HP +5 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="regHp" value="5"/>
+		</for>
+	</skill>
+	<skill id="26672" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Бонус Восстановления MP +5 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="regMp" value="5"/>
+		</for>
+	</skill>
+	<skill id="26673" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Низкое качество / Физ. / Маг. Уклонение +3 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="pEvasRate" value="3"/>
+			<add stat="mEvasRate" value="3"/>
+		</for>
+	</skill>
+	<skill id="26674" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Низкое качество / Опция 15 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26675" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Низкое качество / Опция 16 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26676" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Низкое качество / Опция 17 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26677" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Низкое качество / Опция 18 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26678" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Низкое качество / Опция 19 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26679" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Низкое качество / Опция 20 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26680" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Отражение отрицательных эффектов +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="reflectPhysicDebuff" value="1.05"/>
+			<mul stat="reflectMagicDebuff" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="26681" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Сопротивление отражению урона +7% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="resistRelectDam" value="1.07"/>
+		</for>
+	</skill>
+	<skill id="26682" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Сопротивление атакам из лука / арбалета +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<p_defence_trait name="bow" value="5"/>
+			<p_defence_trait name="crossbow" value="5"/>
+		</for>
+	</skill>
+	<skill id="26683" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Физ. Защ. +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="pDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="26684" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Маг. Защ. +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="mDef" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="26685" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Сопротивление всем стихиям +7 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<add stat="defenceFire" value="7"/>
+			<add stat="defenceWater" value="7"/>
+			<add stat="defenceWind" value="7"/>
+			<add stat="defenceEarth" value="7"/>
+			<add stat="defenceHoly" value="7"/>
+			<add stat="defenceUnholy" value="7"/>
+		</for>
+	</skill>
+	<skill id="26686" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Эффективность получаемого лечения +7% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<p_heal_effect value="7" type="PER"/>
+		</for>
+	</skill>
+	<skill id="26687" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Макс. HP +7% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>		
+		<for>	
+			<mul stat="maxHp" value="1.07"/> <!-- Макс. HP +7% -->
+		</for>
+	</skill>
+	<skill id="26688" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Макс. MP +5% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<mul stat="maxMp" value="1.05"/> <!-- Макс. MP +5% -->
+		</for>
+	</skill>
+	<skill id="26689" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Макс. CP +7% -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<mul stat="maxCp" value="1.07"/> <!-- Макс. CP +7% -->
+		</for>
+	</skill>
+	<skill id="26690" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Скорость +7 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="runSpd" value="7"/>
+		</for>
+	</skill>
+	<skill id="26691" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Бонус Восстановления HP +8 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="regHp" value="8"/>
+		</for>
+	</skill>
+	<skill id="26692" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Бонус Восстановления MP +4 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="regMp" value="4"/>
+		</for>
+	</skill>
+	<skill id="26693" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Среднее качество / Физ./ Маг. Уклонение +4 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="operate_type" value="A2"/>
+		<for>	
+			<add stat="pEvasRate" value="4"/>
+			<add stat="mEvasRate" value="4"/>
+		</for>
+	</skill>
+	<skill id="26694" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Среднее качество / Опция 15 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26695" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Среднее качество / Опция 16 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26696" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Среднее качество / Опция 17 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26697" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Среднее качество / Опция 18 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26698" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Среднее качество / Опция 19 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="26699" levels="1" name="Alluring Swimsuit Appearance Stone">
+	<!-- Камень Обработки Купальника Очарования / Эффект Среднее качество / Опция 20 -->
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

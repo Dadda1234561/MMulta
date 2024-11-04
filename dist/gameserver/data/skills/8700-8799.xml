@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="8700" levels="1" name="Special R95-grade Talisman - Shield Defense (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_pd_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="sDef" value="1515"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8701" levels="1" name="Special R99-grade Talisman - Shield Defense (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_pd_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="sDef" value="1638"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8702" levels="1" name="Special R-grade Talisman - Momentum">
+		<set name="icon" value="icon.r85_talisman_md_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8703" levels="1" name="Special R90-grade Talisman - Momentum">
+		<set name="icon" value="icon.r85_talisman_md_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8704" levels="1" name="Special R95-grade Talisman - Momentum">
+		<set name="icon" value="icon.r85_talisman_md_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8705" levels="1" name="Special R99-grade Talisman - Momentum">
+		<set name="icon" value="icon.r85_talisman_md_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8706" levels="1" name="Special R-grade Talisman - Momentum (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_md_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="CHARGE"/>
+		<set name="fullCharge" value="true"/>
+		<set name="charges" value="5"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8707" levels="1" name="Special R90-grade Talisman - Momentum (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_md_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="CHARGE"/>
+		<set name="fullCharge" value="true"/>
+		<set name="charges" value="5"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8708" levels="1" name="Special R95-grade Talisman - Momentum (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_md_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="CHARGE"/>
+		<set name="fullCharge" value="true"/>
+		<set name="charges" value="5"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8709" levels="1" name="Special R99-grade Talisman - Momentum (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_md_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="CHARGE"/>
+		<set name="fullCharge" value="true"/>
+		<set name="charges" value="5"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8710" levels="1" name="Special R-grade Talisman - Mana Drain (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r_talisman_mh_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<triggers>
+			<trigger id="8714" level="1" type="ATTACK" chance="10">
+				<player damage="50;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="8711" levels="1" name="Special R90-grade Talisman - Mana Drain (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r_talisman_mh_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<triggers>
+			<trigger id="8715" level="1" type="ATTACK" chance="10">
+				<player damage="50;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="8712" levels="1" name="Special R95-grade Talisman - Mana Drain (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r_talisman_mh_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<triggers>
+			<trigger id="8716" level="1" type="ATTACK" chance="10">
+				<player damage="50;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="8713" levels="1" name="Special R99-grade Talisman - Mana Drain (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r_talisman_mh_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<triggers>
+			<trigger id="8717" level="1" type="ATTACK" chance="10">
+				<player damage="50;0"/>
+			</trigger>
+		</triggers>
+	</skill>
+	<skill id="8714" levels="1" name="Steal Mana">
+		<set name="icon" value="icon.r_talisman_mh_up_active"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="magicLevel" value="46"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreMP" value="41"/>
+		</for>
+	</skill>
+	<skill id="8715" levels="1" name="Steal Mana">
+		<set name="icon" value="icon.r_talisman_mh_up_active"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="magicLevel" value="46"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreMP" value="51"/>
+		</for>
+	</skill>
+	<skill id="8716" levels="1" name="Steal Mana">
+		<set name="icon" value="icon.r_talisman_mh_up_active"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="magicLevel" value="46"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreMP" value="59"/>
+		</for>
+	</skill>
+	<skill id="8717" levels="1" name="Steal Mana">
+		<set name="icon" value="icon.r_talisman_mh_up_active"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="magicLevel" value="46"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreMP" value="70"/>
+		</for>
+	</skill>
+	<skill id="8718" levels="1" name="Special R-grade Talisman - Blood Siphon (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r_talisman_cr_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_vampiric_attack value="1" chance="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8719" levels="1" name="Special R90-grade Talisman - Blood Siphon (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r_talisman_cr_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_vampiric_attack value="1" chance="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8720" levels="1" name="Special R95-grade Talisman - Blood Siphon (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r_talisman_cr_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_vampiric_attack value="1" chance="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8721" levels="1" name="Special R99-grade Talisman - Blood Siphon (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r_talisman_cr_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_vampiric_attack value="1" chance="30"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8722" levels="1" name="Special R-grade Talisman - Increase Range">
+		<set name="icon" value="icon.r85_talisman_pa_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtkRange" value="10" >
+				<using kind="Bow, Crossbow, Two Hand Crossbow"/>
+			</add>
+		</for>
+	</skill>
+	<skill id="8723" levels="1" name="Special R90-grade Talisman - Increase Range">
+		<set name="icon" value="icon.r85_talisman_pa_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtkRange" value="10" >
+				<using kind="Bow, Crossbow, Two Hand Crossbow"/>
+			</add>
+		</for>
+	</skill>
+	<skill id="8724" levels="1" name="Special R95-grade Talisman - Increase Range">
+		<set name="icon" value="icon.r85_talisman_pa_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtkRange" value="10" >
+				<using kind="Bow, Crossbow, Two Hand Crossbow"/>
+			</add>
+		</for>
+	</skill>
+	<skill id="8725" levels="1" name="Special R99-grade Talisman - Increase Range">
+		<set name="icon" value="icon.r85_talisman_pa_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="pAtkRange" value="10" >
+				<using kind="Bow, Crossbow, Two Hand Crossbow"/>
+			</add>
+		</for>
+	</skill>
+	<skill id="8726" levels="1" name="Special R-grade Talisman - Increase Range (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_pa_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAtkRange" value="20" >
+					<using kind="Bow, Crossbow, Two Hand Crossbow"/>
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8727" levels="1" name="Special R90-grade Talisman - Increase Range (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_pa_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAtkRange" value="20" >
+					<using kind="Bow, Crossbow, Two Hand Crossbow"/>
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8728" levels="1" name="Special R95-grade Talisman - Increase Range (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_pa_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAtkRange" value="20" >
+					<using kind="Bow, Crossbow, Two Hand Crossbow"/>
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8729" levels="1" name="Special R99-grade Talisman - Increase Range (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_pa_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="pAtkRange" value="20" >
+					<using kind="Bow, Crossbow, Two Hand Crossbow"/>
+				</add>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8730" levels="1" name="Special R-grade Talisman - Increase Servitor Enhancement (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_sp_talisman_sm_st_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_ONE_SUMMON"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxHp" value="120"/>
+				<add stat="maxMp" value="170"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8731" levels="1" name="Special R90-grade Talisman - Increase Servitor Enhancement (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r90_sp_talisman_sm_st_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_ONE_SUMMON"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxHp" value="210"/>
+				<add stat="maxMp" value="290"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8732" levels="1" name="Special R95-grade Talisman - Increase Servitor Enhancement (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r95_sp_talisman_sm_st_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_ONE_SUMMON"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxHp" value="287"/>
+				<add stat="maxMp" value="350"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8733" levels="1" name="Special R99-grade Talisman - Increase Servitor Enhancement (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r99_sp_talisman_sm_st_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_ONE_SUMMON"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="maxHp" value="357"/>
+				<add stat="maxMp" value="432"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8734" levels="1" name="Special R99-grade Talisman - Increase Servitor Enhancement (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r_sp_talisman_sm_rt_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_ONE_SUMMON"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect instant="true" name="RestoreHP" value="100">
+				<def name="percent" value="true"/>
+			</effect>
+			<effect instant="true" name="RestoreMP" value="100">
+				<def name="percent" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8735" levels="1" name="Special R-grade Talisman - Interrupt Casting">
+		<set name="icon" value="icon.r85_talisman_ma_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="cancelResist" value="10"/>
+		</for>
+	</skill>
+	<skill id="8736" levels="1" name="Special R-grade Talisman - Interrupt Casting (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_ma_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="cancelResist" value="20"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8737" levels="1" name="Special R-grade Talisman - MP Recovery">
+		<set name="icon" value="icon.r85_talisman_mp_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="regMp" value="0.66"/>
+		</for>
+	</skill>
+	<skill id="8738" levels="1" name="Special R90-grade Talisman - MP Recovery">
+		<set name="icon" value="icon.r85_talisman_mp_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="regMp" value="0.68"/>
+		</for>
+	</skill>
+	<skill id="8739" levels="1" name="Special R95-grade Talisman - MP Recovery">
+		<set name="icon" value="icon.r85_talisman_mp_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="regMp" value="0.70"/>
+		</for>
+	</skill>
+	<skill id="8740" levels="1" name="Special R99-grade Talisman - MP Recovery">
+		<set name="icon" value="icon.r85_talisman_mp_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="regMp" value="0.72"/>
+		</for>
+	</skill>
+	<skill id="8741" levels="1" name="Special R-grade Talisman - Decrease MP Consumption">
+		<set name="icon" value="icon.r85_talisman_mp_up_active"/>
+		<set name="magicLevel" value="99"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mpConsum" value="0.85"/>
+			<mul stat="mpConsumePhysical" value="0.85"/>
+		</for>
+	</skill>
+	<skill id="8742" levels="1" name="Special R-grade Talisman - Enhance Heal">
+		<set name="icon" value="icon.r85_talisman_hp_up_passive"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_heal_effect value="75" type="DIFF"/>
+		</for>
+	</skill>
+	<skill id="8743" levels="1" name="Special R90-grade Talisman - Enhance Heal">
+		<set name="icon" value="icon.r85_talisman_hp_up_passive"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_heal_effect value="82" type="DIFF"/>
+		</for>
+	</skill>
+	<skill id="8744" levels="1" name="Special R95-grade Talisman - Enhance Heal">
+		<set name="icon" value="icon.r85_talisman_hp_up_passive"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_heal_effect value="90" type="DIFF"/>
+		</for>
+	</skill>
+	<skill id="8745" levels="1" name="Special R99-grade Talisman - Enhance Heal">
+		<set name="icon" value="icon.r85_talisman_hp_up_passive"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<p_heal_effect value="96" type="DIFF"/>
+		</for>
+	</skill>
+	<skill id="8746" levels="1" name="Special R-grade Talisman - Increase Heal Enhancement (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_hp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_heal_effect value="225" type="DIFF"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8747" levels="1" name="Special R90-grade Talisman - Increase Heal Enhancement (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_hp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="90"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_heal_effect value="246" type="DIFF"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8748" levels="1" name="Special R95-grade Talisman - Increase Heal Enhancement (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_hp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="95"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_heal_effect value="270" type="DIFF"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8749" levels="1" name="Special R99-grade Talisman - Increase Heal Enhancement (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_hp_up_active"/>
+		<set name="reuseDelay" value="360000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="99"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_heal_effect value="288" type="DIFF"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8750" levels="1" name="Infinity Cutter Special Ability">
+		<set name="icon" value="icon.weapon_the_sword_of_hero_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8751" levels="1" name="Decrease P. Def.">
+		<set name="debuff" value="true"/>
+		<set name="icon" value="icon.skill0122"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="pd_down"/>
+		<set name="magicLevel" value="85"/>
+		<set name="lv_bonus_rate" value="20"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target_type" value="ENEMY_ONLY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8752" levels="1" name="Infinity Avenger Special Ability">
+		<set name="icon" value="icon.weapon_the_axe_of_hero_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8753" levels="1" name="Discord">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8754" levels="1" name="Infinity Slasher Special Ability">
+		<set name="icon" value="icon.weapon_the_two_handed_sword_of_hero_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8755" levels="1" name="Infinity Crusher Special Ability">
+		<set name="icon" value="icon.weapon_the_hammer_of_hero_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8756" levels="1" name="Stun">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0100"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="85"/>
+		<set name="lv_bonus_rate" value="20"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target_type" value="ENEMY_ONLY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8757" levels="1" name="Infinity Dual Special Ability">
+		<set name="icon" value="icon.weapon_the_dualsword_of_hero_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8758" levels="1" name="Restrain Physical Skills">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill1064"/>
+		<set name="abnormal_effect" value="SILENCE"/>
+		<set name="abnormal_time" value="60"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="silence_physical"/>
+		<set name="magicLevel" value="85"/>
+		<set name="lv_bonus_rate" value="20"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<set name="target_type" value="ENEMY_ONLY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8759" levels="1" name="Infinity Fighter Special Ability">
+		<set name="icon" value="icon.weapon_the_fist_of_hero_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8760" levels="1" name="Stun">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0100"/>
+		<set name="abnormal_effect" value="STUN"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="stun"/>
+		<set name="magicLevel" value="85"/>
+		<set name="lv_bonus_rate" value="20"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target_type" value="ENEMY_ONLY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8761" levels="1" name="Infinity Dagger Special Ability">
+		<set name="icon" value="icon.weapon_the_dagger_of_hero_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8762" levels="1" name="Restrain Magic Skills">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill1064"/>
+		<set name="abnormal_effect" value="SILENCE"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="silence"/>
+		<set name="magicLevel" value="85"/>
+		<set name="lv_bonus_rate" value="20"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="trait" value="DERANGEMENT"/>
+		<set name="target_type" value="ENEMY_ONLY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8763" levels="1" name="Infinity Stormer Special Ability">
+		<set name="icon" value="icon.weapon_the_pole_of_hero_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8764" levels="1" name="Dispel">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_buff"/>
+				<def name="dispel_chance" value="5"/>
+				<def name="max_count" value="2"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8765" levels="1" name="Infinity Thrower Special Ability">
+		<set name="icon" value="icon.weapon_the_bow_of_hero_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8766" levels="1" name="Decrease Speed">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill1160"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="speed_down"/>
+		<set name="magicLevel" value="85"/>
+		<set name="lv_bonus_rate" value="20"/>
+		<set name="basic_property" value="magic_abnormal_resist"/>
+		<set name="target_type" value="ENEMY_ONLY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8767" levels="1" name="Infinity Retributer Special Ability">
+		<set name="icon" value="icon.weapon_the_staff_of_hero_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8768" levels="1" name="Full Recovery">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="ENEMY_NOT"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8769" levels="1" name="Infinity Magic Special Ability">
+		<set name="icon" value="icon.weapon_the_mace_of_hero_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8770" levels="1" name="Full Recovery">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="ENEMY_NOT"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="8771" levels="1" name="Infinity Rapier Special Ability">
+		<set name="icon" value="icon.weapon_infinity_rapier_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8772" levels="1" name="Infinity Sword Special Ability">
+		<set name="icon" value="icon.weapon_infinity_sword_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8773" levels="1" name="Infinity Shooter Special Ability">
+		<set name="icon" value="icon.weapon_infinity_shooter_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="8774" levels="1" name="Special R-grade Talisman - Cancel Debuff (Active)">
+		<set name="effectPoint" value="532"/>
+		<set name="icon" value="icon.r85_talisman_ma_up_active"/>
+		<set name="reuseDelay" value="320000"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="50"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="talisman"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="i_dispel_by_category">
+				<def name="abnormal_category" value="slot_debuff"/>
+				<def name="dispel_chance" value="100"/>
+				<def name="max_count" value="10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="8775" levels="1" name="Immortal Bracelet">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="8776" levels="1" name="Twilight Bracelet">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="8777" levels="1" name="Seraph Bracelet">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="8778" levels="1" name="Eternal Bracelet">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="8779" levels="1" name="Istina's Bracelet">
+		<set name="icon" value="icon.istina_bracelet_i00"/>
+		<set name="magicLevel" value="80"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="8780" levels="1" name="Octavis' Bracelet">
+		<set name="icon" value="icon.octavis_bracelet_i00"/>
+		<set name="magicLevel" value="80"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<add stat="talismansLimit" value="5"/>
+		</for>
+	</skill>
+	<skill id="8781" levels="1" name="Equip Shield">
+		<set name="icon" value="icon.weapon_sacon_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="rShld" value="1.05"/>
+		</for>
+	</skill>
+	<skill id="8782" levels="1" name="Equip Shield">
+		<set name="icon" value="icon.kratere_i00"/>
+		<set name="magicLevel" value="90"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="rShld" value="1.06"/>
+		</for>
+	</skill>
+	<skill id="8783" levels="1" name="Equip Shield">
+		<set name="icon" value="icon.beranka_i00"/>
+		<set name="magicLevel" value="95"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="rShld" value="1.07"/>
+		</for>
+	</skill>
+	<skill id="8784" levels="1" name="Equip Shield">
+		<set name="icon" value="icon.weapon_akra_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="rShld" value="1.08"/>
+		</for>
+	</skill>
+	<skill id="8785" levels="1" name="Equip Shield">
+		<set name="icon" value="icon.heavengate_shield_i00"/>
+		<set name="magicLevel" value="99"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="rShld" value="1.08"/>
+		</for>
+	</skill>
+	<skill id="8786" levels="1" name="Top-grade Royal Guard Earring - Gludio">
+		<set name="icon" value="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="bleed" value="15"/>
+			<p_attack_trait name="shock" value="15"/>
+			<add stat="defenceWater" value="10"/>
+		</for>
+	</skill>
+	<skill id="8787" levels="1" name="Top-grade Royal Guard Earring - Dion">
+		<set name="icon" value="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="poison" value="15"/>
+			<p_attack_trait name="hold" value="15"/>
+			<add stat="defenceWater" value="10"/>
+		</for>
+	</skill>
+	<skill id="8788" levels="1" name="Top-grade Royal Guard Earring - Giran">
+		<set name="icon" value="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="paralyze" value="15"/>
+			<p_attack_trait name="bleed" value="15"/>
+			<add stat="defenceWind" value="10"/>
+		</for>
+	</skill>
+	<skill id="8789" levels="1" name="Top-grade Royal Guard Earring - Oren">
+		<set name="icon" value="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="hold" value="15"/>
+			<p_attack_trait name="paralyze" value="15"/>
+			<add stat="defenceUnholy" value="10"/>
+		</for>
+	</skill>
+	<skill id="8790" levels="1" name="Top-grade Royal Guard Earring - Aden">
+		<set name="icon" value="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="shock" value="15"/>
+			<p_attack_trait name="derangement" value="15"/>
+			<add stat="defenceEarth" value="10"/>
+		</for>
+	</skill>
+	<skill id="8791" levels="1" name="Top-grade Royal Guard Earring - Innadril">
+		<set name="icon" value="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="shock" value="15"/>
+			<p_attack_trait name="sleep" value="15"/>
+			<add stat="defenceWater" value="10"/>
+		</for>
+	</skill>
+	<skill id="8792" levels="1" name="Top-grade Royal Guard Earring - Goddard">
+		<set name="icon" value="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="sleep" value="15"/>
+			<p_attack_trait name="shock" value="15"/>
+			<add stat="defenceFire" value="10"/>
+		</for>
+	</skill>
+	<skill id="8793" levels="1" name="Top-grade Royal Guard Earring - Rune">
+		<set name="icon" value="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="hold" value="15"/>
+			<p_attack_trait name="poison" value="15"/>
+			<add stat="defenceFire" value="10"/>
+		</for>
+	</skill>
+	<skill id="8794" levels="1" name="Top-grade Royal Guard Earring - Schuttgart">
+		<set name="icon" value="icon.accessory_earring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<mul stat="maxCp" value="1.05"/>
+			<p_defence_trait name="derangement" value="15"/>
+			<p_attack_trait name="hold" value="15"/>
+			<add stat="defenceWind" value="10"/>
+		</for>
+	</skill>
+	<skill id="8795" levels="1" name="Top-grade Royal Guard Ring - Gludio">
+		<set name="icon" value="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<add stat="defenceWind" value="15"/>
+		</for>
+	</skill>
+	<skill id="8796" levels="1" name="Top-grade Royal Guard Ring - Dion">
+		<set name="icon" value="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<add stat="defenceWater" value="15"/>
+		</for>
+	</skill>
+	<skill id="8797" levels="1" name="Top-grade Royal Guard Ring - Giran">
+		<set name="icon" value="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<add stat="defenceFire" value="15"/>
+		</for>
+	</skill>
+	<skill id="8798" levels="1" name="Top-grade Royal Guard Ring - Oren">
+		<set name="icon" value="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<add stat="defenceEarth" value="15"/>
+		</for>
+	</skill>
+	<skill id="8799" levels="1" name="Top-grade Royal Guard Ring - Aden">
+		<set name="icon" value="icon.accessory_ring_of_domi_protection_i00"/>
+		<set name="magicLevel" value="85"/>
+		<set name="operate_type" value="P"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<for>
+			<add stat="defenceHoly" value="15"/>
+		</for>
+	</skill>
+</list>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT list (champion|additional_drop)*>
+<!ELEMENT champion (mul|sub|add|div|item)*>
+<!ATTLIST champion
+        level CDATA #REQUIRED>
+<!ELEMENT add (#PCDATA)>
+<!ATTLIST add
+        order CDATA #IMPLIED
+        stat CDATA #REQUIRED
+        value CDATA #REQUIRED>
+
+<!ELEMENT div (#PCDATA)>
+<!ATTLIST div
+        order CDATA #IMPLIED
+        stat CDATA #REQUIRED
+        value CDATA #REQUIRED>
+
+<!ELEMENT sub (#PCDATA)>
+<!ATTLIST sub
+        order CDATA #IMPLIED
+        stat CDATA #REQUIRED
+        value CDATA #REQUIRED>
+
+<!ELEMENT mul (#PCDATA)>
+<!ATTLIST mul
+        stat CDATA #REQUIRED
+        order CDATA #IMPLIED
+        value CDATA #REQUIRED>
+
+<!ELEMENT additional_drop (champion)*>
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+        id CDATA #REQUIRED
+        min_cnt CDATA #REQUIRED
+        max_cnt CDATA #REQUIRED
+        chance CDATA #REQUIRED
+        npc_list CDATA #IMPLIED
+        min_level CDATA #IMPLIED
+        max_level CDATA #IMPLIED>

@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "upgrade_system.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<rare_upgrade id="2500" item_id="48243" enchant_level="5" price="300168000" location_id="0">	<!--Clan Cloak - Combat Lv. 3-->
+		<required_items>
+			<item id="48263" count="1"/>	<!--Clan Cloak - Combat Upgrade Stone Lv. 3-->
+		</required_items>
+		<result_item id="48244"/>	<!--Clan Cloak - Combat Lv. 4-->
+	</rare_upgrade>
+	<rare_upgrade id="2501" item_id="48491" enchant_level="5" price="1000">	<!--Dragon Skin Shirt-->
+		<required_items>
+			<item id="48495" count="1"/>	<!--Noble Leather Upgrade Stone-->
+		</required_items>
+		<result_item id="48492"/>	<!--Dragon Leather Shirt-->
+	</rare_upgrade>
+	<rare_upgrade id="2502" item_id="48492" enchant_level="5" price="1000">	<!--Dragon Leather Shirt-->
+		<required_items>
+			<item id="48496" count="1"/>	<!--Radiant Rind Upgrade Stone-->
+		</required_items>
+		<result_item id="48493"/>	<!--Dragon Rind Leather Shirt-->
+	</rare_upgrade>
+	<rare_upgrade id="2503" item_id="18069" enchant_level="7" price="194364846">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="49953"/>	<!--R-grade Crystal-->
+			<item id="19440" count="128"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="365"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="5"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2504" item_id="18069" enchant_level="8" price="416770634">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="84664"/>	<!--R-grade Crystal-->
+			<item id="19440" count="187"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="626"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="6"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2505" item_id="18069" enchant_level="9" price="639176423">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="119376"/>	<!--R-grade Crystal-->
+			<item id="19440" count="246"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="886"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="7"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2506" item_id="18069" enchant_level="10" price="861582211">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="154087"/>	<!--R-grade Crystal-->
+			<item id="19440" count="306"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1147"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="8"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2507" item_id="18069" enchant_level="11" price="1083987999">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="188799"/>	<!--R-grade Crystal-->
+			<item id="19440" count="365"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1407"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="9"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2508" item_id="18069" enchant_level="12" price="1306393787">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="223511"/>	<!--R-grade Crystal-->
+			<item id="19440" count="424"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1668"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="10"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2509" item_id="18069" enchant_level="13" price="1528799576">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="258222"/>	<!--R-grade Crystal-->
+			<item id="19440" count="484"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1928"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="11"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2510" item_id="18069" enchant_level="14" price="1751205364">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="292934"/>	<!--R-grade Crystal-->
+			<item id="19440" count="543"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2189"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="12"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2511" item_id="18069" enchant_level="15" price="1973611152">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="327645"/>	<!--R-grade Crystal-->
+			<item id="19440" count="602"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2449"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="13"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2512" item_id="18069" enchant_level="16" price="2196016941">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="362357"/>	<!--R-grade Crystal-->
+			<item id="19440" count="661"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2710"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="14"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2513" item_id="18069" enchant_level="17" price="2418422729">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="397068"/>	<!--R-grade Crystal-->
+			<item id="19440" count="721"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2970"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="15"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2514" item_id="18069" enchant_level="18" price="2640828517">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="431780"/>	<!--R-grade Crystal-->
+			<item id="19440" count="780"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="3231"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="16"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2515" item_id="18069" enchant_level="19" price="2863234305">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="466491"/>	<!--R-grade Crystal-->
+			<item id="19440" count="839"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="3491"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="17"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2516" item_id="18069" enchant_level="20" price="3085640094">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="501203"/>	<!--R-grade Crystal-->
+			<item id="19440" count="899"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="3752"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="18"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2517" item_id="18069" enchant_level="21" price="3308045882">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="535915"/>	<!--R-grade Crystal-->
+			<item id="19440" count="958"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4012"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="19"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2518" item_id="18069" enchant_level="22" price="3530451670">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="570626"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1017"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4273"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="20"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2519" item_id="18069" enchant_level="23" price="3752857458">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="605338"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1076"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4533"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="21"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2520" item_id="18069" enchant_level="24" price="3975263247">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="640049"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1136"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4794"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="22"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2521" item_id="18069" enchant_level="25" price="4197669035">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="674761"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1195"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5054"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="23"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2522" item_id="18069" enchant_level="26" price="4420074823">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="709472"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1254"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5315"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="24"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2523" item_id="18069" enchant_level="27" price="4642480612">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="744184"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1314"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5575"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="25"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2524" item_id="18069" enchant_level="28" price="4864886400">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="778896"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1373"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5836"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="26"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2525" item_id="18069" enchant_level="29" price="5087292188">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="813607"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1432"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6096"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="27"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2526" item_id="18069" enchant_level="30" price="5309697976">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="848319"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1491"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6357"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="28"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2527" item_id="18069" enchant_level="31" price="5532103765">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="883030"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1551"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6618"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="29"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2528" item_id="18069" enchant_level="32" price="5754509553">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="917742"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1610"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6878"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="30"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2529" item_id="18069" enchant_level="33" price="5976915341">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="952453"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1669"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7139"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="31"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2530" item_id="18069" enchant_level="34" price="6199321130">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="987165"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1728"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7399"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="32"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2531" item_id="18069" enchant_level="35" price="6421726918">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="1021876"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1788"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7660"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="33"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2532" item_id="18069" enchant_level="36" price="6644132706">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="1056588"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1847"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7920"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="34"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2533" item_id="18069" enchant_level="37" price="6866538494">	<!--Blessed Helios Shaper-->
+		<required_items>
+			<item id="17371" count="1091300"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1906"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="8181"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80090" enchant="35"/>	<!--Krishna Shaper-->
+	</rare_upgrade>
+	<rare_upgrade id="2534" item_id="18070" enchant_level="7" price="194364846">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="49953"/>	<!--R-grade Crystal-->
+			<item id="19440" count="128"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="365"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="5"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2535" item_id="18070" enchant_level="8" price="416770634">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="84664"/>	<!--R-grade Crystal-->
+			<item id="19440" count="187"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="626"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="6"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2536" item_id="18070" enchant_level="9" price="639176423">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="119376"/>	<!--R-grade Crystal-->
+			<item id="19440" count="246"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="886"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="7"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2537" item_id="18070" enchant_level="10" price="861582211">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="154087"/>	<!--R-grade Crystal-->
+			<item id="19440" count="306"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1147"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="8"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2538" item_id="18070" enchant_level="11" price="1083987999">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="188799"/>	<!--R-grade Crystal-->
+			<item id="19440" count="365"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1407"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="9"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2539" item_id="18070" enchant_level="12" price="1306393787">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="223511"/>	<!--R-grade Crystal-->
+			<item id="19440" count="424"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1668"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="10"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2540" item_id="18070" enchant_level="13" price="1528799576">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="258222"/>	<!--R-grade Crystal-->
+			<item id="19440" count="484"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1928"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="11"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2541" item_id="18070" enchant_level="14" price="1751205364">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="292934"/>	<!--R-grade Crystal-->
+			<item id="19440" count="543"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2189"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="12"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2542" item_id="18070" enchant_level="15" price="1973611152">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="327645"/>	<!--R-grade Crystal-->
+			<item id="19440" count="602"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2449"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="13"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2543" item_id="18070" enchant_level="16" price="2196016941">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="362357"/>	<!--R-grade Crystal-->
+			<item id="19440" count="661"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2710"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="14"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2544" item_id="18070" enchant_level="17" price="2418422729">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="397068"/>	<!--R-grade Crystal-->
+			<item id="19440" count="721"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2970"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="15"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2545" item_id="18070" enchant_level="18" price="2640828517">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="431780"/>	<!--R-grade Crystal-->
+			<item id="19440" count="780"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="3231"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="16"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2546" item_id="18070" enchant_level="19" price="2863234305">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="466491"/>	<!--R-grade Crystal-->
+			<item id="19440" count="839"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="3491"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="17"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2547" item_id="18070" enchant_level="20" price="3085640094">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="501203"/>	<!--R-grade Crystal-->
+			<item id="19440" count="899"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="3752"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="18"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2548" item_id="18070" enchant_level="21" price="3308045882">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="535915"/>	<!--R-grade Crystal-->
+			<item id="19440" count="958"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4012"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="19"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2549" item_id="18070" enchant_level="22" price="3530451670">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="570626"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1017"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4273"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="20"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2550" item_id="18070" enchant_level="23" price="3752857458">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="605338"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1076"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4533"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="21"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2551" item_id="18070" enchant_level="24" price="3975263247">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="640049"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1136"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4794"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="22"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2552" item_id="18070" enchant_level="25" price="4197669035">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="674761"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1195"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5054"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="23"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2553" item_id="18070" enchant_level="26" price="4420074823">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="709472"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1254"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5315"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="24"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2554" item_id="18070" enchant_level="27" price="4642480612">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="744184"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1314"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5575"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="25"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2555" item_id="18070" enchant_level="28" price="4864886400">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="778896"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1373"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5836"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="26"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2556" item_id="18070" enchant_level="29" price="5087292188">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="813607"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1432"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6096"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="27"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2557" item_id="18070" enchant_level="30" price="5309697976">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="848319"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1491"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6357"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="28"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2558" item_id="18070" enchant_level="31" price="5532103765">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="883030"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1551"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6618"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="29"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2559" item_id="18070" enchant_level="32" price="5754509553">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="917742"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1610"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6878"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="30"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2560" item_id="18070" enchant_level="33" price="5976915341">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="952453"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1669"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7139"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="31"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2561" item_id="18070" enchant_level="34" price="6199321130">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="987165"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1728"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7399"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="32"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2562" item_id="18070" enchant_level="35" price="6421726918">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="1021876"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1788"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7660"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="33"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2563" item_id="18070" enchant_level="36" price="6644132706">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="1056588"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1847"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7920"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="34"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2564" item_id="18070" enchant_level="37" price="6866538494">	<!--Blessed Helios Cutter-->
+		<required_items>
+			<item id="17371" count="1091300"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1906"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="8181"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80091" enchant="35"/>	<!--Krishna Cutter-->
+	</rare_upgrade>
+	<rare_upgrade id="2565" item_id="18071" enchant_level="7" price="194364846">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="49953"/>	<!--R-grade Crystal-->
+			<item id="19440" count="128"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="365"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="5"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2566" item_id="18071" enchant_level="8" price="416770634">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="84664"/>	<!--R-grade Crystal-->
+			<item id="19440" count="187"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="626"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="6"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2567" item_id="18071" enchant_level="9" price="639176423">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="119376"/>	<!--R-grade Crystal-->
+			<item id="19440" count="246"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="886"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="7"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2568" item_id="18071" enchant_level="10" price="861582211">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="154087"/>	<!--R-grade Crystal-->
+			<item id="19440" count="306"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1147"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="8"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2569" item_id="18071" enchant_level="11" price="1083987999">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="188799"/>	<!--R-grade Crystal-->
+			<item id="19440" count="365"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1407"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="9"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2570" item_id="18071" enchant_level="12" price="1306393787">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="223511"/>	<!--R-grade Crystal-->
+			<item id="19440" count="424"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1668"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="10"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2571" item_id="18071" enchant_level="13" price="1528799576">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="258222"/>	<!--R-grade Crystal-->
+			<item id="19440" count="484"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1928"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="11"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2572" item_id="18071" enchant_level="14" price="1751205364">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="292934"/>	<!--R-grade Crystal-->
+			<item id="19440" count="543"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2189"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="12"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2573" item_id="18071" enchant_level="15" price="1973611152">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="327645"/>	<!--R-grade Crystal-->
+			<item id="19440" count="602"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2449"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="13"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2574" item_id="18071" enchant_level="16" price="2196016941">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="362357"/>	<!--R-grade Crystal-->
+			<item id="19440" count="661"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2710"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="14"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2575" item_id="18071" enchant_level="17" price="2418422729">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="397068"/>	<!--R-grade Crystal-->
+			<item id="19440" count="721"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="2970"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="15"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2576" item_id="18071" enchant_level="18" price="2640828517">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="431780"/>	<!--R-grade Crystal-->
+			<item id="19440" count="780"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="3231"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="16"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2577" item_id="18071" enchant_level="19" price="2863234305">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="466491"/>	<!--R-grade Crystal-->
+			<item id="19440" count="839"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="3491"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="17"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2578" item_id="18071" enchant_level="20" price="3085640094">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="501203"/>	<!--R-grade Crystal-->
+			<item id="19440" count="899"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="3752"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="18"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2579" item_id="18071" enchant_level="21" price="3308045882">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="535915"/>	<!--R-grade Crystal-->
+			<item id="19440" count="958"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4012"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="19"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2580" item_id="18071" enchant_level="22" price="3530451670">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="570626"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1017"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4273"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="20"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2581" item_id="18071" enchant_level="23" price="3752857458">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="605338"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1076"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4533"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="21"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2582" item_id="18071" enchant_level="24" price="3975263247">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="640049"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1136"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="4794"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="22"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2583" item_id="18071" enchant_level="25" price="4197669035">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="674761"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1195"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5054"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="23"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2584" item_id="18071" enchant_level="26" price="4420074823">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="709472"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1254"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5315"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="24"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2585" item_id="18071" enchant_level="27" price="4642480612">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="744184"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1314"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5575"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="25"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2586" item_id="18071" enchant_level="28" price="4864886400">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="778896"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1373"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="5836"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="26"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2587" item_id="18071" enchant_level="29" price="5087292188">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="813607"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1432"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6096"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="27"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2588" item_id="18071" enchant_level="30" price="5309697976">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="848319"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1491"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6357"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="28"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2589" item_id="18071" enchant_level="31" price="5532103765">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="883030"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1551"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6618"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="29"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2590" item_id="18071" enchant_level="32" price="5754509553">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="917742"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1610"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="6878"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="30"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2591" item_id="18071" enchant_level="33" price="5976915341">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="952453"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1669"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7139"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="31"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2592" item_id="18071" enchant_level="34" price="6199321130">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="987165"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1728"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7399"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="32"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2593" item_id="18071" enchant_level="35" price="6421726918">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="1021876"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1788"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7660"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="33"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2594" item_id="18071" enchant_level="36" price="6644132706">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="1056588"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1847"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="7920"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="34"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2595" item_id="18071" enchant_level="37" price="6866538494">	<!--Blessed Helios Slasher-->
+		<required_items>
+			<item id="17371" count="1091300"/>	<!--R-grade Crystal-->
+			<item id="19440" count="1906"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="8181"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80092" enchant="35"/>	<!--Krishna Slasher-->
+	</rare_upgrade>
+	<rare_upgrade id="2596" item_id="18072" enchant_level="7" price="194364846">	<!--Blessed Helios Avenger-->
+		<required_items>
+			<item id="17371" count="49953"/>	<!--R-grade Crystal-->
+			<item id="19440" count="128"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="365"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80093" enchant="5"/>	<!--Krishna Avenger-->
+	</rare_upgrade>
+	<rare_upgrade id="2597" item_id="18072" enchant_level="8" price="416770634">	<!--Blessed Helios Avenger-->
+		<required_items>
+			<item id="17371" count="84664"/>	<!--R-grade Crystal-->
+			<item id="19440" count="187"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="626"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80093" enchant="6"/>	<!--Krishna Avenger-->
+	</rare_upgrade>
+	<rare_upgrade id="2598" item_id="18072" enchant_level="9" price="639176423">	<!--Blessed Helios Avenger-->
+		<required_items>
+			<item id="17371" count="119376"/>	<!--R-grade Crystal-->
+			<item id="19440" count="246"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="886"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80093" enchant="7"/>	<!--Krishna Avenger-->
+	</rare_upgrade>
+	<rare_upgrade id="2599" item_id="18072" enchant_level="10" price="861582211">	<!--Blessed Helios Avenger-->
+		<required_items>
+			<item id="17371" count="154087"/>	<!--R-grade Crystal-->
+			<item id="19440" count="306"/>	<!--R-grade Gemstone-->
+			<item id="47951" count="1147"/>	<!--Crystal of Determination-->
+		</required_items>
+		<result_item id="80093" enchant="8"/>	<!--Krishna Avenger-->
+	</rare_upgrade>
+</list>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "upgrade_system.dtd">
+<!--AUTHOR: Bonux-->
+<list>
+	<normal_upgrade id="1" type="1" item_id="36946" enchant_level="2" price="100000000">	<!--Lindvior's Earring-->
+		<required_items>
+			<item id="47494" count="100"/>	<!--Selenite-->
+			<item id="17371" count="100"/>	<!--R-grade Crystal-->
+		</required_items>
+		<results>
+			<success chance="100">
+				<item id="47490" count="1" enchant="50"/>	<!--Lindvior's Earring-->
+				<item id="47491" count="1" enchant="50"/>	<!--Lindvior's Earring-->
+			</success>
+			<bonus chance="10">
+				<item id="47494" count="10"/>	<!--Selenite-->
+			</bonus>
+		</results>
+	</normal_upgrade>
+	<normal_upgrade id="2" type="1" item_id="36946" enchant_level="5" price="100000000">	<!--Lindvior's Earring-->
+		<required_items>
+			<item id="47494" count="500"/>	<!--Selenite-->
+			<item id="17371" count="100"/>	<!--R-grade Crystal-->
+		</required_items>
+		<results>
+			<success chance="50">
+				<item id="47490" count="5" enchant="50"/>	<!--Lindvior's Earring-->
+				<item id="47491" count="5" enchant="50"/>	<!--Lindvior's Earring-->
+			</success>
+			<fail chance="50">
+				<item id="17371" count="100"/>	<!--R-grade Crystal-->
+			</fail>
+		</results>
+	</normal_upgrade>
+</list>

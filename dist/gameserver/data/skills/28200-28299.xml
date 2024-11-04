@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="28200" levels="1" name="Adventurer's Circlet">
+		<set name="icon" value="BranchSys.icon.br_valkyrie_cap_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28201" levels="1" name="Adventurer's Bracelet">
+		<set name="icon" value="BranchIcon.icon.bracelet_of_explorer_i00"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28202" levels="1" name="T-shirt Pack">
+		<set name="icon" value="icon.bm_strongbox"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28203" levels="1" name="Greater Garnet - Purge">
+		<set name="icon" value="icon.bm_jewel_garnet_high_lv1_lavianrose"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28204" levels="1" name="Box Containing War God's Soul">
+		<set name="icon" value="icon.bm_strongbox"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28205" levels="1" name="Anniversary Rune 100%">
+		<set name="icon" value="br_cashtex.skill.br_cash_rune_of_exp_buff_5"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28206" levels="1" name="Stable Book of Growth: Starlight Agathion Charm">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28207" levels="1" name="+7 Elmoreden Cloak Box">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28208" levels="1" name="Summon Agathion Minion Eye">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28209" levels="1" name="+7 Elmore Cloak Box">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28210" levels="1" name="+7 Ferios Cloak Box">
+		<set name="icon" value="icon.skill_agathion_cute"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28211" levels="1" name="Reconstruction Society's Enchantment Pack">
+		<set name="effectPoint" value="689"/>
+		<set name="icon" value="icon.skill_transform_buff"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28212" levels="1" name="Hut on Chicken Legs' Blessing - Meditation">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill1430"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28213" levels="1" name="Hut on Chicken Legs' Blessing - Decrease Weight">
+		<set name="icon" value="icon.skill0332"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28214" levels="1" name="Hut on Chicken Legs' Teleport: Aden">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28215" levels="1" name="Hut on Chicken Legs' Teleport: Rune">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28216" levels="1" name="Hut on Chicken Legs' Teleport: Giran">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28217" levels="1" name="Minion Eye's Encouragement">
+		<set name="icon" value="icon.skill_agathion_cute"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28218" levels="1" name="Minion Eye's Blessing - Resurrection">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill_agathion_special"/>
+		<set name="reuseDelay" value="3600000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28219" levels="1" name="Matryoshka's Gift">
+		<set name="icon" value="icon.etc_pi_gift_box_i02"/>
+		<set name="reuseDelay" value="43200000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28220" levels="1" name="Matryoshka's Blessing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.exp_bottle_scroll"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28221" levels="1" name="Matryoshka Teleport: Talking Island Village">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28222" levels="1" name="Matryoshka Teleport: Town of Aden">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28223" levels="1" name="Matryoshka Teleport: Magmeld">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28224" levels="1" name="Matryoshka Teleport: Keucereus Alliance Base">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28225" levels="1" name="+7 Elmoreden Cloak Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28226" levels="1" name="+7 Aden Cloak Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28227" levels="1" name="+7 Elmore Cloak Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28228" levels="1" name="+7 Ferios Cloak Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28229" levels="1" name="Reconstruction Society's Enchantment Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28230" levels="1" name="Agathion Summon - Gnosian">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28231" levels="1" name="Agathion Summon - Orodriel">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28232" levels="1" name="Agathion Summon - Penalty Kick">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28233" levels="1" name="Agathion's Cute Trick">
+		<set name="icon" value="icon.skill_agathion_cute"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28234" levels="1" name="Freya's Deluxe Shopping Bag">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28235" levels="3" name="Freya Special Card">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28236" levels="1" name="Sibi's Suspicious Supplies">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28237" levels="1" name="Water Dragon's Treasure Chest">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28238" levels="1" name="Summon Agathion Meliodas">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28239" levels="1" name="Summon Agathion Elizabeth">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28240" levels="1" name="Summon Agathion Hawk">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28241" levels="1" name="Summon Agathion Ban">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28242" levels="1" name="Summon Agathion Diane">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28243" levels="1" name="Summon Agathion King">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28244" levels="1" name="Summon Agathion Merlin">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28245" levels="1" name="Summon Agathion Gowther">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28246" levels="1" name="Summon Agathion Escanor">
+		<set name="icon" value="icon.etc_summon_aga_agit_i00"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28247" levels="9" name="Seven Deadly Sins - Meliodas">
+		<set name="icon" value="BranchIcon.icon.g_bm_meliodas_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28248" levels="9" name="Seven Deadly Sins - Elizabeth">
+		<set name="icon" value="BranchIcon.icon.g_bm_elizabeth_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28249" levels="9" name="Seven Deadly Sins - Hawk">
+		<set name="icon" value="BranchIcon.icon.g_bm_hawk_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28250" levels="9" name="Seven Deadly Sins - Ban">
+		<set name="icon" value="BranchIcon.icon.g_bm_ban_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28251" levels="9" name="Seven Deadly Sins - Diane">
+		<set name="icon" value="BranchIcon.icon.g_bm_diane_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28252" levels="9" name="Seven Deadly Sins - King">
+		<set name="icon" value="BranchIcon.icon.g_bm_king_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28253" levels="9" name="Seven Deadly Sins - Merlin">
+		<set name="icon" value="BranchIcon.icon.g_bm_merlin_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28254" levels="9" name="Seven Deadly Sins - Gowther">
+		<set name="icon" value="BranchIcon.icon.g_bm_gowther_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28255" levels="9" name="Seven Deadly Sins - Escanor">
+		<set name="icon" value="BranchIcon.icon.g_bm_escanor_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28256" levels="9" name="Sin of Wrath">
+		<set name="icon" value="BranchIcon.icon.g_bm_meliodas_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28257" levels="9" name="Divine Family Power">
+		<set name="icon" value="BranchIcon.icon.g_bm_elizabeth_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28258" levels="8" name="Boar Hat Pub Pig Mark">
+		<set name="icon" value="BranchIcon.icon.g_bm_hawk_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28259" levels="8" name="Sin of Greed">
+		<set name="icon" value="BranchIcon.icon.g_bm_ban_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28260" levels="8" name="Sin of Envy">
+		<set name="icon" value="BranchIcon.icon.g_bm_diane_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28261" levels="8" name="Sin of Sloth">
+		<set name="icon" value="BranchIcon.icon.g_bm_king_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28262" levels="8" name="Sin of Gluttony">
+		<set name="icon" value="BranchIcon.icon.g_bm_merlin_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28263" levels="8" name="Sin of Lust">
+		<set name="icon" value="BranchIcon.icon.g_bm_gowther_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28264" levels="8" name="Sin of Pride">
+		<set name="icon" value="BranchIcon.icon.g_bm_escanor_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28265" levels="8" name="Demon Sword Lostvayne Power">
+		<set name="icon" value="BranchIcon.icon.g_bm_meliodas_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28266" levels="8" name="Tranquility Magic Power">
+		<set name="icon" value="BranchIcon.icon.g_bm_elizabeth_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28267" levels="8" name="Leftover Cleaning Knights' Power">
+		<set name="icon" value="BranchIcon.icon.g_bm_hawk_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28268" levels="8" name="Holy Staff Courechouse Power">
+		<set name="icon" value="BranchIcon.icon.g_bm_ban_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28269" levels="8" name="War Hammer Gideon Power">
+		<set name="icon" value="BranchIcon.icon.g_bm_diane_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28270" levels="8" name="Spirit Spear Chastiefol Power">
+		<set name="icon" value="BranchIcon.icon.g_bm_king_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28271" levels="8" name="Morning Star Aldan Power">
+		<set name="icon" value="BranchIcon.icon.g_bm_merlin_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28272" levels="8" name="Twin Bow Herritt Power">
+		<set name="icon" value="BranchIcon.icon.g_bm_gowther_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28273" levels="8" name="Divine Axe Rhitta Power">
+		<set name="icon" value="BranchIcon.icon.g_bm_escanor_agathion_charm_lv1_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28274" levels="1" name="Seven Deadly Sins Agathion's Book of Growth">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28275" levels="1" name="Merlin's Magical Bracelet">
+		<set name="icon" value="BranchIcon.icon.g_bm_7th_sins_lbracelet_30d_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28276" levels="1" name="Seven Deadly Sins Card Pouch">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28277" levels="1" name="Legendary Knights Card - Seven Deadly Sins">
+		<set name="icon" value="BranchIcon.icon.icon_card_sin_meli_legend"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28278" levels="1" name="Animate Appearance Stone Random Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28279" levels="1" name="+5 Agathion Hawk Lv. 3 (7-day) Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28280" levels="1" name="New User Sprout">
+		<set name="icon" value="icon.s_newbie_user_display"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28281" levels="1" name="Goddess Eva's Treasure Chest">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28282" levels="2" name="Peeves' Red Potion">
+		<table name="#icon">BranchIcon.etc_sign_agathion_feed_red_i00 BranchIcon.etc_sign_agathion_feed_purple_i00</table>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28283" levels="1" name="Peeves' Yellow Potion">
+		<set name="icon" value="BranchIcon.etc_sign_agathion_feed_yellow_i00"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28284" levels="4" name="Peeves' Blue Potion">
+		<set name="icon" value="BranchIcon.etc_sign_agathion_feed_blue_i00"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="coolTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28285" levels="1" name="Honey Rose Beer">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="BranchSys3.Icon1.g_beerfestival_bavarian_beer"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28286" levels="1" name="Honey Rose Beer">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="BranchSys3.Icon1.g_beerfestival_bavarian_beer"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28287" levels="1" name="Lv. 4 Jewel Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28288" levels="1" name="Lv. 5 Jewel Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28289" levels="1" name="Paulina's Magic Bracelet">
+		<set name="icon" value="BranchIcon.icon.g_bm_7th_sins_lbracelet_30d_jp"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="28290" levels="3" name="Sealed Artifact Pack">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28291" levels="1" name="Water Spirit's Gift">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28292" levels="1" name="Ancient Relic">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28293" levels="1" name="Ancient Relic Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28294" levels="1" name="Shining Ancient Relic Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28295" levels="1" name="Ultimate Jewelry Box Lv. 3">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="29401"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="6.25">
+				<item id="38887" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="26504" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38892" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="46677" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38897" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38882" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="46672" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="26499" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="47679" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38872" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38877" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38857" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38929" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="47684" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="46682" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38852" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="28296" levels="1" name="Ultimate Jewelry Box Lv. 4">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="29402"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="6.25">
+				<item id="38888" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="26505" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38893" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="46678" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38898" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38883" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="46673" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="26500" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="47680" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38873" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38878" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38858" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38930" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="47685" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="46683" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38853" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="28297" levels="1" name="Ultimate Jewelry Box Lv. 5">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="itemConsumeId" value="29403"/>
+		<set name="itemConsumeCount" value="1"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isHandler" value="true"/>
+		<restoration level="1">
+			<group chance="6.25">
+				<item id="38889" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="26506" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38894" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="46679" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38899" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38884" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="46674" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="26501" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="47681" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38874" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38879" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38859" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38931" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="47686" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="46684" min_count="1" max_count="1"/>
+			</group>
+			<group chance="6.25">
+				<item id="38854" min_count="1" max_count="1"/>
+			</group>
+		</restoration>
+	</skill>
+	<skill id="28298" levels="1" name="Jewel Box Lv. 3">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="28299" levels="1" name="Transformation Scroll: Kat the Cat">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

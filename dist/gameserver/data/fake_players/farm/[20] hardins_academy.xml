@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Hardin's Academy" min_level="29" max_level="39">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="106010 109714 -5000 -2000"/>
+				<coords loc="92088 103704 -5000 -2000"/>
+				<coords loc="92344 96696 -5000 -2000"/>
+				<coords loc="117640 106520 -5000 -2000"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="106010 109714 -3216"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</go_to_town>
+</farm>

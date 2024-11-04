@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<!-- 
+		B Armors
+	-->
+	<!-- Хеви сет -->
+	<armor id="102079" name="Doom Helmet Lv.1" add_name="Heavy">
+		<set name="grind_commission" value="181500"/>
+		<set name="grind_point" value="605000"/>
+		<set name="crystal_count" value="161"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+		</for>
+	</armor>
+	<armor id="102080" name="Doom Helmet Lv.2" add_name="Heavy">
+		<set name="grind_commission" value="181500"/>
+		<set name="grind_point" value="605000"/>
+		<set name="crystal_count" value="161"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+		</for>
+	</armor>
+	<armor id="102081" name="Doom Helmet Lv.3" add_name="Heavy">
+		<set name="grind_commission" value="181500"/>
+		<set name="grind_point" value="605000"/>
+		<set name="crystal_count" value="161"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+		</for>
+	</armor>
+	<armor id="102082" name="Doom Plate Armor Lv.1">
+		<set name="grind_commission" value="706500"/>
+		<set name="grind_point" value="2355000"/>
+		<set name="crystal_count" value="628"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t71_ul_i00"/>
+		
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="9980"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="270"/>
+		</for>
+	</armor>
+	<armor id="102083" name="Doom Plate Armor Lv.2">
+		<set name="grind_commission" value="706500"/>
+		<set name="grind_point" value="2355000"/>
+		<set name="crystal_count" value="628"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t71_ul_i00"/>
+		
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="9980"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="270"/>
+		</for>
+	</armor>
+	<armor id="102084" name="Doom Plate Armor Lv.3">
+		<set name="grind_commission" value="706500"/>
+		<set name="grind_point" value="2355000"/>
+		<set name="crystal_count" value="628"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t71_ul_i00"/>
+		
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="9980"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="270"/>
+		</for>
+	</armor>
+	<armor id="102085" name="Doom Gloves Lv.1" add_name="Heavy Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t71_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102086" name="Doom Gloves Lv.2" add_name="Heavy Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t71_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102087" name="Doom Gloves Lv.3" add_name="Heavy Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t71_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102088" name="Doom Boots Lv.1" add_name="Heavy Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t71_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1130"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102089" name="Doom Boots Lv.2" add_name="Heavy Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t71_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1130"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102090" name="Doom Boots Lv.3" add_name="Heavy Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t71_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1130"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<!-- Лайт сет -->
+	<armor id="102091" name="Blue Wolf Helmet Lv.1" add_name="Light">
+		<set name="grind_commission" value="181500"/>
+		<set name="grind_point" value="605000"/>
+		<set name="crystal_count" value="161"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+		</for>
+	</armor>
+	<armor id="102092" name="Blue Wolf Helmet Lv.2" add_name="Light">
+		<set name="grind_commission" value="181500"/>
+		<set name="grind_point" value="605000"/>
+		<set name="crystal_count" value="161"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+		</for>
+	</armor>
+	<armor id="102093" name="Blue Wolf Helmet Lv.3" add_name="Light">
+		<set name="grind_commission" value="181500"/>
+		<set name="grind_point" value="605000"/>
+		<set name="crystal_count" value="161"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+		</for>
+	</armor>
+	<armor id="102094" name="Blue Wolf Leather Armor Lv.1">
+		<set name="grind_commission" value="529500"/>
+		<set name="grind_point" value="1765000"/>
+		<set name="crystal_count" value="470"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t69_ul_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="5500"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="202"/>
+		</for>
+	</armor>
+	<armor id="102095" name="Blue Wolf Leather Armor Lv.2">
+		<set name="grind_commission" value="529500"/>
+		<set name="grind_point" value="1765000"/>
+		<set name="crystal_count" value="470"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t69_ul_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="5500"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="202"/>
+		</for>
+	</armor>
+	<armor id="102096" name="Blue Wolf Leather Armor Lv.3">
+		<set name="grind_commission" value="529500"/>
+		<set name="grind_point" value="1765000"/>
+		<set name="crystal_count" value="470"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t69_ul_i00"/>
+		
+		<set name="type" value="LIGHT"/>
+		<set name="weight" value="5500"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="202"/>
+		</for>
+	</armor>
+	<armor id="102097" name="Blue Wolf Gloves Lv.1" add_name="Light Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t69_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="590"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102098" name="Blue Wolf Gloves Lv.2" add_name="Light Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t69_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="590"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102099" name="Blue Wolf Gloves Lv.3" add_name="Light Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t69_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="590"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102100" name="Blue Wolf Boots Lv.1" add_name="Light Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t69_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1130"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102101" name="Blue Wolf Boots Lv.2" add_name="Light Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t69_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1130"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102102" name="Blue Wolf Boots Lv.3" add_name="Light Armor">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t69_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1130"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<!-- Маг сет -->
+	<armor id="102103" name="Avadon Circlet Lv.1" add_name="Robe">
+		<set name="grind_commission" value="116700"/>
+		<set name="grind_point" value="389000"/>
+		<set name="crystal_count" value="103"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="590"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="62"/>
+		</for>
+	</armor>
+	<armor id="102104" name="Avadon Circlet Lv.2" add_name="Robe">
+		<set name="grind_commission" value="116700"/>
+		<set name="grind_point" value="389000"/>
+		<set name="crystal_count" value="103"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="590"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="62"/>
+		</for>
+	</armor>
+	<armor id="102105" name="Avadon Circlet Lv.3" add_name="Robe">
+		<set name="grind_commission" value="116700"/>
+		<set name="grind_point" value="389000"/>
+		<set name="crystal_count" value="103"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="590"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="62"/>
+		</for>
+	</armor>
+	<armor id="102106" name="Avadon Robe Lv.1">
+		<set name="grind_commission" value="342000"/>
+		<set name="grind_point" value="1140000"/>
+		<set name="crystal_count" value="304"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t59_ul_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="2540"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="127"/>
+			<add stat="maxMp" order="0x60" value="561"/>
+		</for>
+	</armor>
+	<armor id="102107" name="Avadon Robe Lv.2">
+		<set name="grind_commission" value="342000"/>
+		<set name="grind_point" value="1140000"/>
+		<set name="crystal_count" value="304"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t59_ul_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="2540"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="127"/>
+			<add stat="maxMp" order="0x60" value="561"/>
+		</for>
+	</armor>
+	<armor id="102108" name="Avadon Robe Lv.3">
+		<set name="grind_commission" value="342000"/>
+		<set name="grind_point" value="1140000"/>
+		<set name="crystal_count" value="304"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t59_ul_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="2540"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FULL_ARMOR"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="127"/>
+			<add stat="maxMp" order="0x60" value="561"/>
+		</for>
+	</armor>
+	<armor id="102109" name="Avadon Gloves Lv.1" add_name="Robe">
+		<set name="grind_commission" value="77850"/>
+		<set name="grind_point" value="259500"/>
+		<set name="crystal_count" value="53"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t59_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="590"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+		</for>
+	</armor>
+	<armor id="102110" name="Avadon Gloves Lv.2" add_name="Robe">
+		<set name="grind_commission" value="77850"/>
+		<set name="grind_point" value="259500"/>
+		<set name="crystal_count" value="53"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t59_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="590"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+		</for>
+	</armor>
+	<armor id="102111" name="Avadon Gloves Lv.3" add_name="Robe">
+		<set name="grind_commission" value="77850"/>
+		<set name="grind_point" value="259500"/>
+		<set name="crystal_count" value="53"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t59_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="590"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+		</for>
+	</armor>
+	<armor id="102112" name="Avadon Boots Lv.1" add_name="Robe">
+		<set name="grind_commission" value="77850"/>
+		<set name="grind_point" value="259500"/>
+		<set name="crystal_count" value="53"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t59_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1180"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+		</for>
+	</armor>
+	<armor id="102113" name="Avadon Boots Lv.2" add_name="Robe">
+		<set name="grind_commission" value="77850"/>
+		<set name="grind_point" value="259500"/>
+		<set name="crystal_count" value="53"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t59_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1180"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+		</for>
+	</armor>
+	<armor id="102114" name="Avadon Boots Lv.3" add_name="Robe">
+		<set name="grind_commission" value="77850"/>
+		<set name="grind_point" value="259500"/>
+		<set name="crystal_count" value="53"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t59_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1180"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="41"/>
+		</for>
+	</armor>
+	<!-- Маг сет 2 -->
+	<armor id="102115" name="Doom Helmet Lv.1" add_name="Robe">
+		<set name="grind_commission" value="181500"/>
+		<set name="grind_point" value="605000"/>
+		<set name="crystal_count" value="161"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+		</for>
+	</armor>
+	<armor id="102116" name="Doom Helmet Lv.2" add_name="Robe">
+		<set name="grind_commission" value="181500"/>
+		<set name="grind_point" value="605000"/>
+		<set name="crystal_count" value="161"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+		</for>
+	</armor>
+	<armor id="102117" name="Doom Helmet Lv.3" add_name="Robe">
+		<set name="grind_commission" value="181500"/>
+		<set name="grind_point" value="605000"/>
+		<set name="crystal_count" value="161"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="66"/>
+		</for>
+	</armor>
+	<armor id="102118" name="Tunic of Doom Lv.1">
+		<set name="grind_commission" value="361500"/>
+		<set name="grind_point" value="1205000"/>
+		<set name="crystal_count" value="321"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1900"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+			<add stat="maxMp" order="0x60" value="377"/>
+		</for>
+	</armor>
+	<armor id="102119" name="Tunic of Doom Lv.2">
+		<set name="grind_commission" value="361500"/>
+		<set name="grind_point" value="1205000"/>
+		<set name="crystal_count" value="321"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1900"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+			<add stat="maxMp" order="0x60" value="377"/>
+		</for>
+	</armor>
+	<armor id="102120" name="Tunic of Doom Lv.3">
+		<set name="grind_commission" value="361500"/>
+		<set name="grind_point" value="1205000"/>
+		<set name="crystal_count" value="321"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_u_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1900"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="83"/>
+			<add stat="maxMp" order="0x60" value="377"/>
+		</for>
+	</armor>
+	<armor id="102121" name="Stockings of Doom Lv.1">
+		<set name="grind_commission" value="226500"/>
+		<set name="grind_point" value="755000"/>
+		<set name="crystal_count" value="201"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="910"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="52"/>
+			<add stat="maxMp" order="0x60" value="236"/>
+		</for>
+	</armor>
+	<armor id="102122" name="Stockings of Doom Lv.2">
+		<set name="grind_commission" value="226500"/>
+		<set name="grind_point" value="755000"/>
+		<set name="crystal_count" value="201"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="910"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="52"/>
+			<add stat="maxMp" order="0x60" value="236"/>
+		</for>
+	</armor>
+	<armor id="102123" name="Stockings of Doom Lv.3">
+		<set name="grind_commission" value="226500"/>
+		<set name="grind_point" value="755000"/>
+		<set name="crystal_count" value="201"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_l_i00"/>
+		
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="910"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="52"/>
+			<add stat="maxMp" order="0x60" value="236"/>
+		</for>
+	</armor>
+	<armor id="102124" name="Doom Gloves Lv.1" add_name="Robe">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102125" name="Doom Gloves Lv.2" add_name="Robe">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102126" name="Doom Gloves Lv.3" add_name="Robe">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_g_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="580"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102127" name="Doom Boots Lv.1" add_name="Robe">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1130"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102128" name="Doom Boots Lv.2" add_name="Robe">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1130"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+	<armor id="102129" name="Doom Boots Lv.3" add_name="Robe">
+		<set name="grind_commission" value="120600"/>
+		<set name="grind_point" value="402000"/>
+		<set name="crystal_count" value="83"/>
+		<set name="crystal_type" value="B"/>
+		<set name="icon" value="icon.armor_t73_b_i00"/>
+		
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1130"/>
+		<set name="variation_group_id" value="1"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="44"/>
+		</for>
+	</armor>
+</list>

@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<etcitem id="80600" name="Anniversary Cube">
+		<set name="icon" value="icon.ev_15th_cube"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<armor id="80601" name="Anniversary Talisman">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_L2_soul_ore"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="LEFT_BRACELET"/>
+		</equip>
+	</armor>
+	<etcitem id="80602" name="Anniversary Mini Cake">
+		<set name="icon" value="icon.ev_15th_cake"/>
+		<set name="weight" value="10"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="autouse_type" value="BUFF"/>
+	</etcitem>
+	<etcitem id="80603" name="Anniversary Magic Fork">
+		<set name="icon" value="icon.ev_15th_foke"/>
+		<set name="weight" value="1"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80604" name="Anniversary Firecracker">
+		<set name="icon" value="icon.ev_15th_firework"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80605" name="Anniversary Gift Box">
+		<set name="icon" value="icon.etc_elite_marguene_collection_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80606" name="Anniversary Gift Box">
+		<set name="icon" value="icon.etc_elite_marguene_collection_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80607" name="Anniversary Attendance Box">
+		<set name="icon" value="icon.etc_elite_marguene_collection_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80608" name="Anniversary Attendance Box">
+		<set name="icon" value="icon.etc_elite_marguene_collection_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80609" name="Anniversary Firecracker Box">
+		<set name="icon" value="icon.etc_treasure_box_i08"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80610" name="Ultimate Jewelry Box Lv. 3" add_name="Event">
+		<set name="icon" value="icon.bm_sayha_blessed_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80611" name="Ultimate Jewelry Box Lv. 1" add_name="Event">
+		<set name="icon" value="icon.bm_sayha_blessed_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80612" name="Freya's Ice Rose" add_name="Event">
+		<!-- На 30 мин. Макс. HP/ MP/ CP +30%, Физ. Атк./ Маг. Атк./ Физ. Защ./ Маг. Защ. +30%, Скор. Атк./ Скор. Маг. +10%, Скорость +20, атака стихией/ защита от стихий +100, урон +10%, мощность физ./ маг. умений +10%, бонус опыта и SP +30%, получаемый урон -10%, расход MP для умений -15%.\n\nЭффект сохраняется после смерти. Время перезарядки: 5 мин. Не действует одновременно с эффектами Запредельное Искушение и Благословение Паагрио. Нельзя использовать на Олимпиаде. -->
+		<set name="icon" value="icon.bm_freya_ice_rose"/>
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="weight" value="1"/>
+		<set name="stackable" value="true"/>
+		<set name="reuse_delay" value="300000"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<set name="autouse_type" value="BUFF"/>
+		<skills>
+			<skill id="39470" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="80613" name="Anniversary Earring Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80614" name="Anniversary Ring Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80615" name="Anniversary Necklace Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80616" name="Anniversary Soul Crystal Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80617" name="+7 Agathion Anniversary Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80618" name="Lv. 5 Jewel Anniversary Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80619" name="Dark/ Bloody Weapon Enhancement Stone Gift Box" add_name="Event">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80620" name="Anniversary Talisman Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80621" name="Anniversary Rare Accessory Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80622" name="Anniversary Soul Crystal Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80623" name="+3 Agathion Anniversary Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80624" name="Anniversary Seed Bracelet Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80625" name="Anniversary Talisman Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80626" name="+5 Zodiac Agathion Anniversary Gift Box">
+		<set name="icon" value="icon.event_orc_coinbox"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80627" name="Soul Crystal Box Lv. 1" add_name="Event">
+		<set name="icon" value="icon.etc_treasure_box_i08"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="type" value="EXTRACTABLE"/>
+		<capsuled_items rewardType="WEIGHTED_RANDOM">
+			<capsuled_item id="46444" min_count="1" max_count="1" chance="25.0"/>
+			<capsuled_item id="46474" min_count="1" max_count="1" chance="25.0"/>
+			<capsuled_item id="46489" min_count="1" max_count="1" chance="25.0"/>
+			<capsuled_item id="46459" min_count="1" max_count="1" chance="25.0"/>
+		</capsuled_items>
+	</etcitem>
+	<weapon id="80628" name="Master Fishing Rod Lv. 5" add_name="7-day">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.fishing_rod05"/>
+		<set name="type" value="DUALDAGGER"/>
+		<set name="weight" value="1000"/>
+		<set name="rnd_dam" value="1"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1"/>
+			<add stat="mAtk" order="0x10" value="1"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<etcitem id="80629" name="Shunaiman's Circlet Enchantment Box">
+		<set name="icon" value="icon.bm_aden_renewal_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80630" name="Shunaiman's Secret Box">
+		<set name="icon" value="icon.bm_circlet_upgrade_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80631" name="Freya's Fortune Stick">
+		<set name="icon" value="icon.bm_freya_wand"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80632" name="Snowman's Fortune Box">
+		<set name="icon" value="icon.bm_freya_snowman_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80633" name="Sirra's Fortune Box">
+		<set name="icon" value="icon.bm_freya_sirr_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80634" name="Freya's Fortune Box">
+		<set name="icon" value="icon.bm_freya_gift_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80635" name="Freya's Summoning Stick">
+		<set name="icon" value="icon.bm_freya_summon_stick"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80636" name="Artifact Crystal">
+		<set name="icon" value="icon.bm_artifact_stone"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<armor id="80637" name="Talisman of Protection Lv. 1">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_defend_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="80638" name="Talisman of Protection Lv. 2">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_defend_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="80639" name="Talisman of Protection Lv. 3">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_defend_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="80640" name="Talisman of Protection Lv. 4">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_defend_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="80641" name="Talisman of Protection Lv. 5">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_defend_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="80642" name="Talisman of Protection Lv. 6">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_defend_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="80643" name="Talisman of Protection Lv. 7">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_defend_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="80644" name="Talisman of Protection Lv. 8">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_defend_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="80645" name="Talisman of Protection Lv. 9">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_defend_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="80646" name="Talisman of Protection Lv. 10">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_defend_talisman"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="150"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="TALISMAN"/>
+		</equip>
+	</armor>
+	<armor id="80647" name="Artifact - Standard Attack Critical Damage" add_name="Attack">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_d_crt_dmg"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="ATTACK"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="33944"/>
+			</level>
+			<level value="1">
+				<option id="33945"/>
+			</level>
+			<level value="2">
+				<option id="33946"/>
+			</level>
+			<level value="3">
+				<option id="33947"/>
+			</level>
+			<level value="4">
+				<option id="33948"/>
+			</level>
+			<level value="5">
+				<option id="33949"/>
+			</level>
+			<level value="6">
+				<option id="33950"/>
+			</level>
+			<level value="7">
+				<option id="33951"/>
+			</level>
+			<level value="8">
+				<option id="33952"/>
+			</level>
+			<level value="9">
+				<option id="33953"/>
+			</level>
+			<level value="10">
+				<option id="33954"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80648" name="Artifact - P. Skill Critical Damage" add_name="Attack">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_d_skill_crt_dmg"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="ATTACK"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="33955"/>
+			</level>
+			<level value="1">
+				<option id="33956"/>
+			</level>
+			<level value="2">
+				<option id="33957"/>
+			</level>
+			<level value="3">
+				<option id="33958"/>
+			</level>
+			<level value="4">
+				<option id="33959"/>
+			</level>
+			<level value="5">
+				<option id="33960"/>
+			</level>
+			<level value="6">
+				<option id="33961"/>
+			</level>
+			<level value="7">
+				<option id="33962"/>
+			</level>
+			<level value="8">
+				<option id="33963"/>
+			</level>
+			<level value="9">
+				<option id="33964"/>
+			</level>
+			<level value="10">
+				<option id="33965"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80649" name="Artifact - M. Skill Critical Damage" add_name="Attack">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_d_spell_crt_dmg"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="ATTACK"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="33966"/>
+			</level>
+			<level value="1">
+				<option id="33967"/>
+			</level>
+			<level value="2">
+				<option id="33968"/>
+			</level>
+			<level value="3">
+				<option id="33969"/>
+			</level>
+			<level value="4">
+				<option id="33970"/>
+			</level>
+			<level value="5">
+				<option id="33971"/>
+			</level>
+			<level value="6">
+				<option id="33972"/>
+			</level>
+			<level value="7">
+				<option id="33973"/>
+			</level>
+			<level value="8">
+				<option id="33974"/>
+			</level>
+			<level value="9">
+				<option id="33975"/>
+			</level>
+			<level value="10">
+				<option id="33976"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80650" name="Artifact - Bow Resistance" add_name="Protection">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_c_resist_bow"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="PROTECTION"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="33977"/>
+			</level>
+			<level value="1">
+				<option id="33978"/>
+			</level>
+			<level value="2">
+				<option id="33979"/>
+			</level>
+			<level value="3">
+				<option id="33980"/>
+			</level>
+			<level value="4">
+				<option id="33981"/>
+			</level>
+			<level value="5">
+				<option id="33982"/>
+			</level>
+			<level value="6">
+				<option id="33983"/>
+			</level>
+			<level value="7">
+				<option id="33984"/>
+			</level>
+			<level value="8">
+				<option id="33985"/>
+			</level>
+			<level value="9">
+				<option id="33986"/>
+			</level>
+			<level value="10">
+				<option id="33987"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80651" name="Artifact - Dagger Resistance" add_name="Protection">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_c_resist_dagger"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="PROTECTION"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="33988"/>
+			</level>
+			<level value="1">
+				<option id="33989"/>
+			</level>
+			<level value="2">
+				<option id="33990"/>
+			</level>
+			<level value="3">
+				<option id="33991"/>
+			</level>
+			<level value="4">
+				<option id="33992"/>
+			</level>
+			<level value="5">
+				<option id="33993"/>
+			</level>
+			<level value="6">
+				<option id="33994"/>
+			</level>
+			<level value="7">
+				<option id="33995"/>
+			</level>
+			<level value="8">
+				<option id="33996"/>
+			</level>
+			<level value="9">
+				<option id="33997"/>
+			</level>
+			<level value="10">
+				<option id="33998"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80652" name="Artifact - Sword Resistance" add_name="Protection">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_c_resist_sword"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="PROTECTION"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="33999"/>
+			</level>
+			<level value="1">
+				<option id="34000"/>
+			</level>
+			<level value="2">
+				<option id="34001"/>
+			</level>
+			<level value="3">
+				<option id="34002"/>
+			</level>
+			<level value="4">
+				<option id="34003"/>
+			</level>
+			<level value="5">
+				<option id="34004"/>
+			</level>
+			<level value="6">
+				<option id="34005"/>
+			</level>
+			<level value="7">
+				<option id="34006"/>
+			</level>
+			<level value="8">
+				<option id="34007"/>
+			</level>
+			<level value="9">
+				<option id="34008"/>
+			</level>
+			<level value="10">
+				<option id="34009"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80653" name="Artifact - Vitality Bonus" add_name="Support">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_b_vital_bonus"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="SUPPORT"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="34010"/>
+			</level>
+			<level value="1">
+				<option id="34011"/>
+			</level>
+			<level value="2">
+				<option id="34012"/>
+			</level>
+			<level value="3">
+				<option id="34013"/>
+			</level>
+			<level value="4">
+				<option id="34014"/>
+			</level>
+			<level value="5">
+				<option id="34015"/>
+			</level>
+			<level value="6">
+				<option id="34016"/>
+			</level>
+			<level value="7">
+				<option id="34017"/>
+			</level>
+			<level value="8">
+				<option id="34018"/>
+			</level>
+			<level value="9">
+				<option id="34019"/>
+			</level>
+			<level value="10">
+				<option id="34020"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80654" name="Artifact - Vitality Consumption" add_name="Support">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_b_vital_sub"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="SUPPORT"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="34021"/>
+			</level>
+			<level value="1">
+				<option id="34022"/>
+			</level>
+			<level value="2">
+				<option id="34023"/>
+			</level>
+			<level value="3">
+				<option id="34024"/>
+			</level>
+			<level value="4">
+				<option id="34025"/>
+			</level>
+			<level value="5">
+				<option id="34026"/>
+			</level>
+			<level value="6">
+				<option id="34027"/>
+			</level>
+			<level value="7">
+				<option id="34028"/>
+			</level>
+			<level value="8">
+				<option id="34029"/>
+			</level>
+			<level value="9">
+				<option id="34030"/>
+			</level>
+			<level value="10">
+				<option id="34031"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80655" name="Artifact - Skill MP Consumption" add_name="Support">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_b_skill_mp_cost"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="SUPPORT"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="34032"/>
+			</level>
+			<level value="1">
+				<option id="34033"/>
+			</level>
+			<level value="2">
+				<option id="34034"/>
+			</level>
+			<level value="3">
+				<option id="34035"/>
+			</level>
+			<level value="4">
+				<option id="34036"/>
+			</level>
+			<level value="5">
+				<option id="34037"/>
+			</level>
+			<level value="6">
+				<option id="34038"/>
+			</level>
+			<level value="7">
+				<option id="34039"/>
+			</level>
+			<level value="8">
+				<option id="34040"/>
+			</level>
+			<level value="9">
+				<option id="34041"/>
+			</level>
+			<level value="10">
+				<option id="34042"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80656" name="Artifact - P. Def." add_name="Balance">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_a_phy_def"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="BALANCE"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="34043"/>
+			</level>
+			<level value="1">
+				<option id="34044"/>
+			</level>
+			<level value="2">
+				<option id="34045"/>
+			</level>
+			<level value="3">
+				<option id="34046"/>
+			</level>
+			<level value="4">
+				<option id="34047"/>
+			</level>
+			<level value="5">
+				<option id="34048"/>
+			</level>
+			<level value="6">
+				<option id="34049"/>
+			</level>
+			<level value="7">
+				<option id="34050"/>
+			</level>
+			<level value="8">
+				<option id="34051"/>
+			</level>
+			<level value="9">
+				<option id="34052"/>
+			</level>
+			<level value="10">
+				<option id="34053"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80657" name="Artifact - M. Def." add_name="Balance">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_a_mag_def"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="BALANCE"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="34054"/>
+			</level>
+			<level value="1">
+				<option id="34055"/>
+			</level>
+			<level value="2">
+				<option id="34056"/>
+			</level>
+			<level value="3">
+				<option id="34057"/>
+			</level>
+			<level value="4">
+				<option id="34058"/>
+			</level>
+			<level value="5">
+				<option id="34059"/>
+			</level>
+			<level value="6">
+				<option id="34060"/>
+			</level>
+			<level value="7">
+				<option id="34061"/>
+			</level>
+			<level value="8">
+				<option id="34062"/>
+			</level>
+			<level value="9">
+				<option id="34063"/>
+			</level>
+			<level value="10">
+				<option id="34064"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80658" name="Artifact - Standard Attack Critical Damage" add_name="Balance">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_a_crt_dmg"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="BALANCE"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="34065"/>
+			</level>
+			<level value="1">
+				<option id="34066"/>
+			</level>
+			<level value="2">
+				<option id="34067"/>
+			</level>
+			<level value="3">
+				<option id="34068"/>
+			</level>
+			<level value="4">
+				<option id="34069"/>
+			</level>
+			<level value="5">
+				<option id="34070"/>
+			</level>
+			<level value="6">
+				<option id="34071"/>
+			</level>
+			<level value="7">
+				<option id="34072"/>
+			</level>
+			<level value="8">
+				<option id="34073"/>
+			</level>
+			<level value="9">
+				<option id="34074"/>
+			</level>
+			<level value="10">
+				<option id="34075"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80659" name="Artifact - P. Skill Critical Damage" add_name="Balance">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_a_crt_skill_dmg"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="BALANCE"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="34076"/>
+			</level>
+			<level value="1">
+				<option id="34077"/>
+			</level>
+			<level value="2">
+				<option id="34078"/>
+			</level>
+			<level value="3">
+				<option id="34079"/>
+			</level>
+			<level value="4">
+				<option id="34080"/>
+			</level>
+			<level value="5">
+				<option id="34081"/>
+			</level>
+			<level value="6">
+				<option id="34082"/>
+			</level>
+			<level value="7">
+				<option id="34083"/>
+			</level>
+			<level value="8">
+				<option id="34084"/>
+			</level>
+			<level value="9">
+				<option id="34085"/>
+			</level>
+			<level value="10">
+				<option id="34086"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80660" name="Artifact - M. Skill Critical Damage" add_name="Balance">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_a_crt_mag_dmg"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="BALANCE"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="34087"/>
+			</level>
+			<level value="1">
+				<option id="34088"/>
+			</level>
+			<level value="2">
+				<option id="34089"/>
+			</level>
+			<level value="3">
+				<option id="34090"/>
+			</level>
+			<level value="4">
+				<option id="34091"/>
+			</level>
+			<level value="5">
+				<option id="34092"/>
+			</level>
+			<level value="6">
+				<option id="34093"/>
+			</level>
+			<level value="7">
+				<option id="34094"/>
+			</level>
+			<level value="8">
+				<option id="34095"/>
+			</level>
+			<level value="9">
+				<option id="34096"/>
+			</level>
+			<level value="10">
+				<option id="34097"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80661" name="Artifact - Atk. Spd." add_name="Balance">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_a_pa_speed"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="BALANCE"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="34098"/>
+			</level>
+			<level value="1">
+				<option id="34099"/>
+			</level>
+			<level value="2">
+				<option id="34100"/>
+			</level>
+			<level value="3">
+				<option id="34101"/>
+			</level>
+			<level value="4">
+				<option id="34102"/>
+			</level>
+			<level value="5">
+				<option id="34103"/>
+			</level>
+			<level value="6">
+				<option id="34104"/>
+			</level>
+			<level value="7">
+				<option id="34105"/>
+			</level>
+			<level value="8">
+				<option id="34106"/>
+			</level>
+			<level value="9">
+				<option id="34107"/>
+			</level>
+			<level value="10">
+				<option id="34108"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<armor id="80662" name="Artifact - Casting Spd." add_name="Balance">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.artifact_a_ma_speed"/>
+		<set name="type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="artifact_slot" value="BALANCE"/>
+		<equip>
+			<slot id="ARTIFACT"/>
+		</equip>
+		<enchant_options>
+			<level value="0">
+				<option id="34109"/>
+			</level>
+			<level value="1">
+				<option id="34110"/>
+			</level>
+			<level value="2">
+				<option id="34111"/>
+			</level>
+			<level value="3">
+				<option id="34112"/>
+			</level>
+			<level value="4">
+				<option id="34113"/>
+			</level>
+			<level value="5">
+				<option id="34114"/>
+			</level>
+			<level value="6">
+				<option id="34115"/>
+			</level>
+			<level value="7">
+				<option id="34116"/>
+			</level>
+			<level value="8">
+				<option id="34117"/>
+			</level>
+			<level value="9">
+				<option id="34118"/>
+			</level>
+			<level value="10">
+				<option id="34119"/>
+			</level>
+		</enchant_options>
+	</armor>
+	<etcitem id="80663" name="Dragon Weapon Pack (Advanced)">
+		<set name="icon" value="BranchSys2.G-latus_box"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80664" name="Key to Etina's Grand Temple">
+		<set name="icon" value="icon.key_of_etina_temple_01"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80665" name="Abyssal Invitation">
+		<set name="icon" value="icon.etc_ticket_red_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80666" name="Fried Fish" add_name="P. Atk.">
+		<set name="commissionable" value="false"/>
+		<set name="icon" value="icon.fishing_buff_p_dmg"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="autouse_type" value="BUFF"/>
+	</etcitem>
+	<etcitem id="80667" name="Steamed Fish" add_name="M. Atk.">
+		<set name="commissionable" value="false"/>
+		<set name="icon" value="icon.fishing_buff_m_dmg"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="autouse_type" value="BUFF"/>
+	</etcitem>
+	<etcitem id="80668" name="Grilled Fish" add_name="Atk. Spd./ Casting Spd.">
+		<set name="commissionable" value="false"/>
+		<set name="icon" value="icon.fishing_buff_pm_speed"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="autouse_type" value="BUFF"/>
+	</etcitem>
+	<etcitem id="80669" name="Braised Fish" add_name="Max HP/ MP">
+		<set name="commissionable" value="false"/>
+		<set name="icon" value="icon.fishing_buff_hp_mp"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="autouse_type" value="BUFF"/>
+	</etcitem>
+	<etcitem id="80670" name="Royal Santiago’s Soup">
+		<set name="icon" value="icon.fish_stew_residence_luc"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="autouse_type" value="BUFF"/>
+	</etcitem>
+	<etcitem id="80671" name="Secret Material">
+		<set name="icon" value="icon.etc_claw_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80672" name="Breath of Death">
+		<set name="icon" value="icon.etc_ashes_black_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80673" name="Corrupted Energy">
+		<set name="icon" value="icon.etc_crystal_piece_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80674" name="Embedded Shard">
+		<set name="icon" value="icon.etc_piece_holy_light"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80675" name="Orc Empowering Potion">
+		<set name="icon" value="icon.etc_ev_draco_purple_bottle"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80676" name="Ketra Order">
+		<set name="icon" value="icon.etc_ketra_badge_captn_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="type" value="QUEST"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="destroyable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="80677" name="Scroll of Escape: Tarti">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<skills>
+			<skill id="39480" level="1" /> <!-- Scroll of Escape: Tarti -->
+		</skills>
+	</etcitem>
+	<etcitem id="80678" name="Scroll of Escape: Silvan">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<skills>
+			<skill id="39481" level="1" /> <!-- Scroll of Escape: Silvan -->
+		</skills>
+	</etcitem>
+	<etcitem id="80679" name="Scroll of Escape: Kallesin">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<skills>
+			<skill id="39482" level="1" /> <!-- Scroll of Escape: Kallesin -->
+		</skills>
+	</etcitem>
+	<etcitem id="80680" name="Scroll of Escape: Zenath">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<skills>
+			<skill id="39483" level="1" /> <!-- Scroll of Escape: Zenath -->
+		</skills>
+	</etcitem>
+	<etcitem id="80681" name="Scroll of Escape: Pio">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<skills>
+			<skill id="39484" level="1" /> <!-- Scroll of Escape: Pio -->
+		</skills>
+	</etcitem>
+	<etcitem id="80682" name="Scroll of Escape: Reclous">
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="type" value="SCROLL"/>
+		<set name="icon" value="icon.etc_scroll_of_return_i03"/>
+		<set name="weight" value="30"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<skills>
+			<skill id="39485" level="1" /> <!-- Scroll of Escape: Reclous -->
+		</skills>
+	</etcitem>
+	<weapon id="80683" name="Sword Breaker" add_name="For Apprentice Adventurer">
+		<set name="damage_range" value="0;0;40;120" />
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_sword_breaker_i00"/>
+		<set name="type" value="DAGGER"/>
+		<set name="weight" value="1110"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="16"/>
+			<add stat="mAtk" order="0x10" value="16"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="80684" name="Falchion" add_name="For Apprentice Adventurer">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_falchion_i00"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1530"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="16"/>
+			<add stat="mAtk" order="0x10" value="16"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="80685" name="Zweihander" add_name="For Apprentice Adventurer">
+		<set name="damage_range" value="0;0;40;120" />
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_zweihander_i00"/>
+		<set name="type" value="BIGSWORD"/>
+		<set name="weight" value="1530"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="38"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+	<weapon id="80686" name="Mage Staff" add_name="For Apprentice Adventurer">
+		<set name="damage_range" value="0;0;40;120" />
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_apprentices_staff_i00"/>
+		<set name="type" value="BIGBLUNT"/>
+		<set name="weight" value="1050"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="16"/>
+			<add stat="mAtk" order="0x10" value="16"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="80687" name="Compound Bow" add_name="For Apprentice Adventurer">
+		<set name="damage_range" value="0;0;10;0"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_composition_bow_i00"/>
+		<set name="type" value="BOW"/>
+		<set name="weight" value="1880"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="mp_consume" value="1"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="16"/>
+			<add stat="mAtk" order="0x10" value="16"/>
+			<set stat="basePAtkSpd" order="0x08" value="293"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+			<add stat="pAtkRange" order="0x40" value="500"/>
+		</for>
+	</weapon>
+	<weapon id="80688" name="Viper Fang" add_name="For Apprentice Adventurer">
+		<set name="damage_range" value="0;0;32;120" />
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_vipers_canine_i00"/>
+		<set name="type" value="DUALFIST"/>
+		<set name="weight" value="1560"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="LEFT_RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="38"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePAtkSpd" order="0x08" value="325"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<weapon id="80689" name="Flanged Mace" add_name="For Apprentice Adventurer">
+		<set name="damage_range" value="0;0;66;120" />
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.weapon_buzdygan_i00"/>
+		<set name="type" value="BLUNT"/>
+		<set name="weight" value="1800"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="20"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="RIGHT_HAND"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="31"/>
+			<add stat="mAtk" order="0x10" value="21"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="60"/>
+			<add stat="pAccCombat" order="0x10" value="8"/>
+		</for>
+	</weapon>
+	<armor id="80690" name="Durable Leather Helmet" add_name="For Apprentice Adventurer">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="640"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="26"/>
+		</for>
+	</armor>
+	<armor id="80691" name="Bronze Breastplate" add_name="For Apprentice Adventurer">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t34_u_i00"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="8920"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="68"/>
+		</for>
+	</armor>
+	<armor id="80692" name="Bronze Gaiters" add_name="For Apprentice Adventurer">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t34_l_i00"/>
+		<set name="type" value="HEAVY"/>
+		<set name="weight" value="3960"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="43"/>
+		</for>
+	</armor>
+	<armor id="80693" name="Bracer" add_name="For Apprentice Adventurer">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t30_g_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="650"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="17"/>
+		</for>
+	</armor>
+	<armor id="80694" name="Boots" add_name="For Apprentice Adventurer">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t30_b_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="1310"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="FEET"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="17"/>
+		</for>
+	</armor>
+	<armor id="80695" name="Leather Helmet" add_name="For Apprentice Adventurer">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_leather_helmet_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="650"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="HEAD"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="23"/>
+		</for>
+	</armor>
+	<armor id="80696" name="Tunic of Devotion" add_name="For Apprentice Adventurer">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="2090"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="CHEST"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="30"/>
+			<add stat="maxMp" order="0x60" value="67"/>
+		</for>
+	</armor>
+	<armor id="80697" name="Stockings of Devotion" add_name="For Apprentice Adventurer">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.armor_t55_l_i00"/>
+		<set name="type" value="MAGIC"/>
+		<set name="weight" value="1040"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="LEGS"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="19"/>
+			<add stat="maxMp" order="0x60" value="42"/>
+		</for>
+	</armor>
+	<weapon id="80698" name="Bloodthirsty Zariche Shaper">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.zariche_shaper_1"/>
+		<set name="type" value="DUAL"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="5"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1039"/>
+			<add stat="mAtk" order="0x10" value="517"/>
+			<set stat="basePAtkSpd" order="0x08" value="433"/>
+			<set stat="basePCritRate" order="0x08" value="120"/>
+			<add stat="pAccCombat" order="0x10" value="-3.75"/>
+		</for>
+	</weapon>
+	<weapon id="80699" name="Bloodthirsty Zariche Cutter">
+		<set name="crystal_type" value="R"/>
+		<set name="icon" value="icon.zariche_cutter_1"/>
+		<set name="type" value="SWORD"/>
+		<set name="weight" value="1520"/>
+		<set name="soulshots" value="1"/>
+		<set name="spiritshots" value="1"/>
+		<set name="rnd_dam" value="10"/>
+		<set name="sellable" value="false"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+		<for>
+			<add stat="pAtk" order="0x10" value="1188"/>
+			<add stat="mAtk" order="0x10" value="517"/>
+			<set stat="basePAtkSpd" order="0x08" value="379"/>
+			<set stat="basePCritRate" order="0x08" value="80"/>
+		</for>
+	</weapon>
+</list>

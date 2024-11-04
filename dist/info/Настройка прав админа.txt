@@ -1,0 +1,68 @@
+1. В базе данных ничего менять не нужно, никакие акцесслевел 100 и тд это делать НЕ НАДО
+
+2. Открываете папку:  config\GMAccess.d
+
+3. В ней уже лежат  заготовки по базовым конфигурациям админов, ГМов
+
+4. В этой папке можете создать свой файл, называете его как хотите, можете по нику персонажа, например - Urchik.xml , копируете в него полную струкруту файла подходящего вам по настройкам, например полный админ Full.
+
+5. И подставляете туда чарИД вашего персонажа, берете этот ID и таблицы характерс, пример:  	<PlayerID set="13645337463"/>
+
+Структура файла будет такой:  
+
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- Используется для настройки EVERYBODY_HAS_ADMIN_RIGHTS -->
+	<char>
+		<PlayerID set="13645337463"/>
+		<!-- По умолчанию FALSE для всех игроков -->
+		<IsGM set="true"/>
+		<!-- разрешает использование амин команд. -->
+		<CanUseGMCommand set="true"/>
+		<CanAnnounce set="true"/>
+		<CanBan set="true"/>
+		<CanBanChat set="true"/>
+		<UseGMShop set="true"/>
+		<CanDelete set="true"/>
+		<CanKick set="true"/>
+		<Menu set="true"/>
+		<GodMode set="true"/>
+		<CanEditCharAll set="true"/>
+		<CanEditChar set="true"/>
+		<CanEditPledge set="true"/>
+		<CanViewChar set="true"/>
+		<CanEditNPC set="true"/>
+		<CanViewNPC set="true"/>
+		<CanTeleport set="true"/>
+		<CanRestart set="true"/>
+		<MonsterRace set="true"/>
+		<Rider set="true"/>
+		<FastUnstuck set="true"/>
+		<ResurectFixed set="true"/>
+		<Door set="true"/>
+		<Res set="true"/>
+		<PeaceAttack set="true"/>
+		<Heal set="true"/>
+		<Unblock set="true"/>
+		<CanChangeClass set="false"/>
+		<!-- блокирует взятие предметов из инвентаря, возможен только дестрой предмета. По умолчанию FALSE -->
+		<BlockInventory set="false"/>
+		<CanGmEdit set="true"/>
+		<IsEventGm set="true"/>
+		<CanReload set="true"/>
+		<CanRename set="true"/>
+		<CanJail set="true"/>
+		<CanPolymorph set="true"/>
+		<!-- По умолчанию TRUE для всех игроков -->
+		<UseInventory set="true"/>
+		<UseTrade set="true"/>
+		<CanAttack set="true"/>
+		<CanEvaluate set="true"/>
+		<CanJoinParty set="true"/>
+		<CanJoinClan set="true"/>
+		<UseWarehouse set="true"/>
+		<UseShop set="true"/>
+	</char>
+</list>
+
+6. Перезагружаете геймсервер, или если у вас уже есть админ чар, то через него команда //reload  и выбираете опцию перезагрузить права.

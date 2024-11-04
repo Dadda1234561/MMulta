@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+    <etcitem id="96617" name="STR Dye" add_name="Lv. 0">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +1 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96618" name="CON Dye" add_name="Lv. 0">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +1 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96619" name="DEX Dye" add_name="Lv. 0">
+        <!-- Required for applying DEX Pattern. Applying the pattern requires 1 dye. <Effect> DEX +1 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon3.g_premium_dye_attribute_holy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96620" name="INT Dye" add_name="Lv. 0">
+        <!-- Required for applying INT Pattern. Applying the pattern requires 1 dye. <Effect> INT +1 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon2.g_premium_dye_attribute_water" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96621" name="MEN Dye" add_name="Lv. 0">
+        <!-- Required for applying MEN Pattern. Applying the pattern requires 1 dye. <Effect> MEN +1 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon6.g_premium_dye_attribute_wind" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96622" name="WIT Dye" add_name="Lv. 0">
+        <!-- Required for applying WIT Pattern. Applying the pattern requires 1 dye. <Effect> WIT +1 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power is not available. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon4.g_premium_dye_attribute_earth" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96623" name="Dye Powder">
+        <!-- Required for upgrading patterns and dyes. <font color=eeaa22>Used with patterns/ dyes of Lv. 0-10. Hidden power upgrade is available.</font> -->
+        <set name="icon" value="icon.dye_charge_meal" />
+        <set name="crystal_type" value="NONE" />
+        <set name="material" value="PAPER" />
+        <set name="dropable" value="false" />
+        <set name="stackable" value="true" />
+        <set name="commissionable" value="false"/>
+        <set name="tradable" value="true" />
+    </etcitem>
+    <etcitem id="96630" name="Enhanced Dye Powder">
+        <!-- Required for upgrading patterns and dyes. <font color=eeaa22>Used with patterns/ dyes of Lv. 11-19. Hidden power upgrade is available.</font> -->
+        <set name="icon" value="icon.dye_charge_meal" />
+        <set name="crystal_type" value="NONE" />
+        <set name="material" value="PAPER" />
+        <set name="dropable" value="false" />
+        <set name="stackable" value="true" />
+        <set name="commissionable" value="false"/>
+        <set name="tradable" value="true" />
+    </etcitem>
+    <etcitem id="96355" name="STR Dye" add_name="Lv. 1">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +2 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 1. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96356" name="STR Dye" add_name="Lv. 2">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +3 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 2. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96357" name="STR Dye" add_name="Lv. 3">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +4 <Additional effect> P. Atk. +25 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 3. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96358" name="STR Dye" add_name="Lv. 4">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +4 <Additional effect> P. Atk. +50 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 4. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96359" name="STR Dye" add_name="Lv. 5">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +4 <Additional effect> P. Atk. +75 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 5. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96360" name="STR Dye" add_name="Lv. 6">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +4 <Additional effect> P. Atk. +100 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 6. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96361" name="Краска СИЛ (Ур. 7)/STR Dye (Lv. 7)" add_name="Lv. 7">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +4 <Additional effect> P. Atk. +125 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 7. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96362" name="STR Dye" add_name="Lv. 8">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +4 <Additional effect> P. Atk. +150 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 8. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96363" name="STR Dye" add_name="Lv. 9">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +4 <Additional effect> P. Atk. +175 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 9. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96364" name="STR Dye" add_name="Lv. 10">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +4 <Additional effect> P. Atk. +200 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 10. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96365" name="STR Dye" add_name="Lv. 11">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +5 <Additional effect> P. Atk. +225 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 11. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96366" name="STR Dye" add_name="Lv. 12">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +5 <Additional effect> P. Atk. +250 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 12. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96367" name="STR Dye" add_name="Lv. 13">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +5 <Additional effect> P. Atk. +275 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 13. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96368" name="STR Dye" add_name="Lv. 14">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +5 <Additional effect> P. Atk. +300 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 14. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96369" name="STR Dye" add_name="Lv. 15">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +5 <Additional effect> P. Atk. +325 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 15. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96370" name="STR Dye" add_name="Lv. 16">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +5 <Additional effect> P. Atk. +350 P. Skill Critical Rate +0.5% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 16. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96371" name="STR Dye" add_name="Lv. 17">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +5 <Additional effect> P. Atk. +375 P. Skill Critical Rate +1% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 17. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96372" name="STR Dye" add_name="Lv. 18">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +5 <Additional effect> P. Atk. +400 P. Skill Critical Rate +1.5% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 18. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96373" name="STR Dye" add_name="Lv. 19">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +5 <Additional effect> P. Atk. +425 P. Skill Critical Rate +2% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 19. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96374" name="STR Dye" add_name="Lv. 20">
+        <!-- Required for applying STR Pattern. Applying the pattern requires 1 dye. <Effect> STR +5 <Additional effect> P. Atk. +450 P. Skill Critical Rate +3% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96375" name="CON Dye" add_name="Lv. 1">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +2 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 1. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96376" name="CON Dye" add_name="Lv. 2">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +3 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 2. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96377" name="CON Dye" add_name="Lv. 3">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +4 <Additional effect> P. Def. +32 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 3. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96378" name="CON Dye" add_name="Lv. 4">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +4 <Additional effect> P. Def. +65 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 4. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96379" name="CON Dye" add_name="Lv. 5">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +4 <Additional effect> P. Def. +97 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 5. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96380" name="CON Dye" add_name="Lv. 6">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +4 <Additional effect> P. Def. +130 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 6. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96381" name="Краска ВЫН (Ур. 7)/CON Dye (Lv. 7)" add_name="Lv. 7">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +4 <Additional effect> P. Def. +162 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 7. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96382" name="CON Dye" add_name="Lv. 8">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +4 <Additional effect> P. Def. +195 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 8. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96383" name="CON Dye" add_name="Lv. 9">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +4 <Additional effect> P. Def. +227 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 9. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96384" name="CON Dye" add_name="Lv. 10">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +4 <Additional effect> P. Def. +260 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 10. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96385" name="CON Dye" add_name="Lv. 11">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +5 <Additional effect> P. Def. +292 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 11. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96386" name="CON Dye" add_name="Lv. 12">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +5 <Additional effect> P. Def. +325 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 12. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96387" name="CON Dye" add_name="Lv. 13">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +5 <Additional effect> P. Def. +357 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 13. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96388" name="CON Dye" add_name="Lv. 14">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +5 <Additional effect> P. Def. +390 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 14. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96389" name="CON Dye" add_name="Lv. 15">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +5 <Additional effect> P. Def. +422 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 15. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96390" name="CON Dye" add_name="Lv. 16">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +5 <Additional effect> P. Def. +455 Received P. Skill Damage -1% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 16. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96391" name="CON Dye" add_name="Lv. 17">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +5 <Additional effect> P. Def. +487 Received P. Skill Damage -1.5% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 17. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96392" name="CON Dye" add_name="Lv. 18">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +5 <Additional effect> P. Def. +520 Received P. Skill Damage -2% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 18. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96393" name="CON Dye" add_name="Lv. 19">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +5 <Additional effect> P. Def. +552 Received P. Skill Damage -3% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 19. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96394" name="CON Dye" add_name="Lv. 20">
+        <!-- Required for applying CON Pattern. Applying the pattern requires 1 dye. <Effect> CON +5 <Additional effect> P. Def. +585 Received P. Skill Damage -5% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon5.g_premium_dye_attribute_fire" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96395" name="DEX Dye" add_name="Lv. 1">
+        <!-- Required for applying DEX Pattern. Applying the pattern requires 1 dye. <Effect> DEX +2 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 1. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon3.g_premium_dye_attribute_holy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96396" name="DEX Dye" add_name="Lv. 2">
+        <!-- Required for applying DEX Pattern. Applying the pattern requires 1 dye. <Effect> DEX +3 <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 2. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. -->
+        <set name="icon" value="BranchSys3.icon3.g_premium_dye_attribute_holy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96397" name="DEX Dye" add_name="Lv. 3">
+        <!-- Required for applying DEX Pattern. Applying the pattern requires 1 dye. <Effect> DEX +4 <Additional effect> Received P. Skill Critical Rate -0.4% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 3. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon3.g_premium_dye_attribute_holy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96398" name="DEX Dye" add_name="Lv. 4">
+        <!-- Required for applying DEX Pattern. Applying the pattern requires 1 dye. <Effect> DEX +4 <Additional effect> Received P. Skill Critical Rate -0.8% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 4. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon3.g_premium_dye_attribute_holy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+    <etcitem id="96399" name="DEX Dye" add_name="Lv. 5">
+        <!-- Required for applying DEX Pattern. Applying the pattern requires 1 dye. <Effect> DEX +4 <Additional effect> Received P. Skill Critical Rate -1.2% <font color=ff6666>Note!</font> Requirements: all classes after the 1st class change. Hidden power: Lv. 5. Patterns and dyes can be upgraded through compounding. Costs for upgrading patterns and dyes differ. <font color=eeaa22>Additional effects of similar applied patterns do not stack.</font> -->
+        <set name="icon" value="BranchSys3.icon3.g_premium_dye_attribute_holy" />
+        <set name="crystal_type" value="NONE" />
+        <set name="type" value="MATERIAL"/>
+        <set name="weight" value="1" />
+        <set name="price" value="240000" />
+        <set name="dropable" value="false" />
+        <set name="sellable" value="false" />
+        <set name="tradable" value="true" />
+        <set name="stackable" value="true" />
+        <set name="privatestoreable" value="false"/>
+        <set name="commissionable" value="false"/>
+    </etcitem>
+</list>

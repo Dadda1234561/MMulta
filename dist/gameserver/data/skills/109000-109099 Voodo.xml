@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="109000" levels="3" name="Queen Ant's Doll Spell">
+		<set name="icon" value="icon.bm_queen_ant_doll_30d"/>
+		<set name="operate_type" value="P"/>
+		<table name="#pAtk">1.03 1.06 1.1</table>
+		<table name="#maxHp">1.04 1.09 1.15</table>
+		<table name="#pCritDamage">2 4 8</table>
+		<for>
+			<mul stat="pAtk" value="#pAtk"/>
+			<mul stat="maxHp" value="#maxHp"/>
+			<p_critical_damage value="#pCritDamage" type="PER"/>
+		</for>
+	</skill>
+	<skill id="109001" levels="3" name="Core Doll Spell">
+		<set name="icon" value="icon.bm_core_doll"/>
+		<set name="operate_type" value="P"/>
+		<table name="#CritDamRcpt">0.97 0.94 0.90</table>
+		<table name="#PVP">1.02 1.05 1.10</table>
+		<for>
+			<mul stat="pCritDamRcpt" value="#CritDamRcpt"/>
+			<mul stat="mCritDamRcpt" value="#CritDamRcpt"/>
+			<mul stat="pvpPhysDefenceBonus" value="#PVP"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="#PVP"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="#PVP"/>
+		</for>
+	</skill>
+	<skill id="109002" levels="3" name="Orfen Doll Spell">
+		<set name="icon" value="icon.bm_orfen_doll_30d"/>
+		<set name="operate_type" value="P"/>
+		<table name="#mAtk">1.04 1.09 1.15</table>
+		<table name="#p_magic_critical_dmg">2 4 8</table>
+		<table name="#maxMp">1.04 1.09 1.15</table>
+		<for>
+			<mul stat="maxMp" value="#maxMp"/>
+			<mul stat="mAtk" value="#mAtk"/>
+			<p_magic_critical_dmg value="#p_magic_critical_dmg" type="PER"/>
+		</for>
+	</skill>
+	<skill id="109003" levels="3" name="Zaken Doll Spell">
+		<set name="icon" value="icon.bm_zaken_doll"/>
+		<set name="operate_type" value="P"/>
+		<table name="#crit">3 6 10</table>
+		<table name="#PVP">1.02 1.05 1.10</table>
+		<for>
+			<p_magic_critical_dmg value="#crit" type="PER"/>
+			<p_critical_damage value="#crit" type="PER"/>
+			<mul stat="pvpPhysDmgBonus" value="#PVP"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="#PVP"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="#PVP"/>
+		</for>
+	</skill>
+	<skill id="109004" levels="3" name="Frintezza Doll Spell">
+		<set name="icon" value="icon.bm_doll_frintessa_30d"/>
+		<set name="operate_type" value="P"/>
+		<table name="#Stat2">0 2 3</table>
+		<table name="#Stat">1 2 3</table>
+		<for>
+			<add order="0x10" stat="STR" value="#Stat"/>
+			<add order="0x10" stat="INT" value="#Stat"/>
+			<add order="0x10" stat="CON" value="#Stat"/>
+			<add order="0x10" stat="DEX" value="#Stat2"/>
+			<add order="0x10" stat="WIT" value="#Stat2"/>
+			<add order="0x10" stat="CHA" value="#Stat2"/>
+		</for>
+	</skill>
+	<skill id="109005" levels="3" name="Baium Doll Spell">
+		<set name="icon" value="icon.bm_baium_doll_30d"/>
+		<set name="operate_type" value="P"/>
+		<table name="#TabDef">1.02 1.4 1.10</table>
+		<table name="#reuse">0.98 0.96 0.93</table>
+		<for>
+			<mul stat="mReuse" value="#reuse"/>
+			<mul stat="pReuse" value="#reuse"/>
+			<mul stat="pDef" value="#TabDef"/>
+			<mul stat="mDef" value="#TabDef"/>
+		</for>
+	</skill>
+</list>

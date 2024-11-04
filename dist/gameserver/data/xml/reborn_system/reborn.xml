@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Настрока системы реборна
+id - номер перерождения
+level_need - какой уровень нужно для перерождения
+reset_level -  на какой лвл сбрасывается после перерождения
+needItem - какие итемы нужно для перерождения
+giveReward - какие итемы выдаються после перерождения giveReward ="57,555;57,777"
+reset_time - откат на перерождение в часах
+rate_exp - рейт Експы после перерождения
+rate_sp -  рейт СП после перерождения
+staticrate - при условии true берет статическое значение rate_exp rate_sp, при условии false рейт идет по формуле рейт с конфига * на (rate_exp или rate_sp)
+-->
+<list>
+    <configs enable="true" 
+                maxSTR="20"
+                maxINT="20"
+                maxDEX="20"
+                maxWIT="20"
+                maxCON="20"
+                maxMEN="20"
+                maxCHA="20"
+                maxPvePhysDmg="10"
+                maxPveMagDmg="10"
+                maxMaxCP="10"
+                maxMaxHP="10"
+                maxMaxMP="10"
+                maxPhysDmg="10"
+                maxMagDmg="10"
+                maxPhysDef="10"
+                maxMagDef="10"
+                maxMagCritDmg="20"
+                maxPhysCritDmg="10"
+                maxPhysCritRate="10"
+                maxMagCritRate="10"
+                maxPvpPhysDmg="10"
+                maxPvpMagDmg="10"
+                maxPvpPhysDef="10"
+                maxPvpMagDef="10"
+                maxMReuse="10"
+                maxAdenaRate="10"
+                maxExpRate="10"
+                maxDropRate="10"
+                maxSoulShotPowerRate="10"
+                maxSpiritShotPowerRate="10"
+    staticrate="false"/>
+	<!-- 1 / 20 -->
+    <reborn id="1" level_need="78" reset_level="1" needItem="57,5000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="2" level_need="78" reset_level="1" needItem="57,7000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="3" level_need="78" reset_level="1" needItem="57,10000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="4" level_need="83" reset_level="1" needItem="57,12000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="5" level_need="83" reset_level="1" needItem="57,14000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="6" level_need="85" reset_level="1" needItem="57,16000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="7" level_need="85" reset_level="1" needItem="57,18000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="8" level_need="85" reset_level="1" needItem="57,20000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="9" level_need="85" reset_level="1" needItem="57,22000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="10" level_need="85" reset_level="1" needItem="57,24000000,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+
+	<reborn id="11" level_need="85" reset_level="1" needItem="57,30000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="12" level_need="85" reset_level="1" needItem="57,32000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="13" level_need="85" reset_level="1" needItem="57,34000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="14" level_need="85" reset_level="1" needItem="57,36000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="15" level_need="85" reset_level="1" needItem="57,38000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+	<reborn id="16" level_need="85" reset_level="1" needItem="57,40000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="17" level_need="85" reset_level="1" needItem="57,42000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="18" level_need="85" reset_level="1" needItem="57,44000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="19" level_need="85" reset_level="1" needItem="57,46000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="20" level_need="85" reset_level="1" needItem="57,48000000,0"   reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+
+	<reborn id="21" level_need="85" reset_level="1" needItem="57,50000000,0;110384,1,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="22" level_need="85" reset_level="1" needItem="57,52000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="23" level_need="85" reset_level="1" needItem="57,54000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="24" level_need="85" reset_level="1" needItem="57,56000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="25" level_need="85" reset_level="1" needItem="57,58000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+	<reborn id="26" level_need="85" reset_level="1" needItem="57,60000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="27" level_need="85" reset_level="1" needItem="57,62000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="28" level_need="85" reset_level="1" needItem="57,64000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="29" level_need="85" reset_level="1" needItem="57,66000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="30" level_need="85" reset_level="1" needItem="57,68000000,0"   reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+	<reborn id="31" level_need="85" reset_level="1" needItem="57,70000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="32" level_need="85" reset_level="1" needItem="57,72000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="33" level_need="85" reset_level="1" needItem="57,74000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="34" level_need="85" reset_level="1" needItem="57,76000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="35" level_need="85" reset_level="1" needItem="57,78000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+	<reborn id="36" level_need="85" reset_level="1" needItem="57,80000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="37" level_need="85" reset_level="1" needItem="57,82000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="38" level_need="85" reset_level="1" needItem="57,84000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="39" level_need="85" reset_level="1" needItem="57,86000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="40" level_need="85" reset_level="1" needItem="57,88000000,0"   reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+
+	<reborn id="41" level_need="85" reset_level="1" needItem="57,90000000,0;110385,1,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="42" level_need="85" reset_level="1" needItem="57,100000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="43" level_need="85" reset_level="1" needItem="57,105000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="44" level_need="85" reset_level="1" needItem="57,110000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="45" level_need="85" reset_level="1" needItem="57,115000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+	<reborn id="46" level_need="85" reset_level="1" needItem="57,120000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="47" level_need="85" reset_level="1" needItem="57,125000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="48" level_need="85" reset_level="1" needItem="57,130000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="49" level_need="85" reset_level="1" needItem="57,135000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="50" level_need="85" reset_level="1" needItem="57,140000000,0"   reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+	<reborn id="51" level_need="85" reset_level="1" needItem="57,150000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="52" level_need="85" reset_level="1" needItem="57,160000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="53" level_need="85" reset_level="1" needItem="57,170000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="54" level_need="85" reset_level="1" needItem="57,180000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="55" level_need="85" reset_level="1" needItem="57,190000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+	<reborn id="56" level_need="85" reset_level="1" needItem="57,200000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="57" level_need="85" reset_level="1" needItem="57,210000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="58" level_need="85" reset_level="1" needItem="57,220000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="59" level_need="85" reset_level="1" needItem="57,230000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="60" level_need="85" reset_level="1" needItem="57,240000000,0"   reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+
+
+	<reborn id="61" level_need="85" reset_level="1" needItem="57,250000000;110386,1,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="62" level_need="85" reset_level="1" needItem="57,260000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="63" level_need="85" reset_level="1" needItem="57,270000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="64" level_need="85" reset_level="1" needItem="57,280000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="65" level_need="85" reset_level="1" needItem="57,290000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+	<reborn id="66" level_need="85" reset_level="1" needItem="57,300000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="67" level_need="85" reset_level="1" needItem="57,310000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="68" level_need="85" reset_level="1" needItem="57,320000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="69" level_need="85" reset_level="1" needItem="57,330000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="70" level_need="85" reset_level="1" needItem="57,340000000,0"   reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+	<reborn id="71" level_need="85" reset_level="1" needItem="57,350000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="72" level_need="85" reset_level="1" needItem="57,360000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="73" level_need="85" reset_level="1" needItem="57,370000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="74" level_need="85" reset_level="1" needItem="57,380000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="75" level_need="85" reset_level="1" needItem="57,390000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+	<reborn id="76" level_need="85" reset_level="1" needItem="57,400000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="77" level_need="85" reset_level="1" needItem="57,410000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="78" level_need="85" reset_level="1" needItem="57,420000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="79" level_need="85" reset_level="1" needItem="57,430000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="80" level_need="85" reset_level="1" needItem="57,440000000,0"   reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+	<!-- 81 / 100 -->
+	<reborn id="81" level_need="85" reset_level="1" needItem="57,450000000;110387,1,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="82" level_need="85" reset_level="1" needItem="57,460000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="83" level_need="85" reset_level="1" needItem="57,470000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="84" level_need="85" reset_level="1" needItem="57,480000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="85" level_need="85" reset_level="1" needItem="57,490000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+	<reborn id="86" level_need="85" reset_level="1" needItem="57,500000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="87" level_need="85" reset_level="1" needItem="57,510000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="88" level_need="85" reset_level="1" needItem="57,520000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="89" level_need="85" reset_level="1" needItem="57,530000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="90" level_need="85" reset_level="1" needItem="57,540000000,0"   reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+
+	<reborn id="91" level_need="85" reset_level="1" needItem="57,550000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="92" level_need="85" reset_level="1" needItem="57,560000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="93" level_need="85" reset_level="1" needItem="57,570000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="94" level_need="85" reset_level="1" needItem="57,580000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="95" level_need="85" reset_level="1" needItem="57,590000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+	<reborn id="96" level_need="85" reset_level="1" needItem="57,600000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="97" level_need="85" reset_level="1" needItem="57,610000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="98" level_need="85" reset_level="1" needItem="57,620000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="99" level_need="85" reset_level="1" needItem="57,630000000,0"   reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="100" level_need="85" reset_level="1" needItem="57,640000000,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+
+    <reborn id="101" level_need="90" reset_level="85" needItem="57,650000000,0;110388,1,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="102" level_need="91" reset_level="85" needItem="57,660000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="103" level_need="92" reset_level="85" needItem="57,670000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="104" level_need="93" reset_level="85" needItem="57,680000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="105" level_need="94" reset_level="85" needItem="57,690000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="106" level_need="95" reset_level="85" needItem="57,700000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="107" level_need="95" reset_level="85" needItem="57,710000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="108" level_need="95" reset_level="85" needItem="57,720000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="109" level_need="95" reset_level="85" needItem="57,730000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="110" level_need="95" reset_level="85" needItem="57,740000000,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="111" level_need="95" reset_level="85" needItem="57,750000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="112" level_need="95" reset_level="85" needItem="57,760000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="113" level_need="95" reset_level="85" needItem="57,770000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="114" level_need="95" reset_level="85" needItem="57,780000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="115" level_need="95" reset_level="85" needItem="57,790000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="116" level_need="95" reset_level="85" needItem="57,800000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="117" level_need="95" reset_level="85" needItem="57,810000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="118" level_need="95" reset_level="85" needItem="57,820000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="119" level_need="95" reset_level="85" needItem="57,830000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="120" level_need="95" reset_level="85" needItem="57,840000000,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+
+    <reborn id="121" level_need="96" reset_level="85" needItem="57,850000000;110389,1,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="122" level_need="97" reset_level="85" needItem="57,860000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="123" level_need="98" reset_level="85" needItem="57,870000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="124" level_need="99" reset_level="85" needItem="57,880000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="125" level_need="100" reset_level="85" needItem="57,890000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="126" level_need="100" reset_level="85" needItem="57,900000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="127" level_need="100" reset_level="85" needItem="57,910000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="128" level_need="100" reset_level="85" needItem="57,920000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="129" level_need="100" reset_level="85" needItem="57,930000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="130" level_need="100" reset_level="85" needItem="57,940000000,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="131" level_need="101" reset_level="85" needItem="57,950000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="132" level_need="102" reset_level="85" needItem="57,960000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="133" level_need="103" reset_level="85" needItem="57,970000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="134" level_need="104" reset_level="85" needItem="57,980000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="135" level_need="105" reset_level="85" needItem="57,990000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="136" level_need="105" reset_level="85" needItem="57,1000000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="137" level_need="105" reset_level="85" needItem="57,1100000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="138" level_need="105" reset_level="85" needItem="57,1200000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="139" level_need="105" reset_level="85" needItem="57,1300000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="140" level_need="105" reset_level="85" needItem="57,1400000000,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="141" level_need="105" reset_level="85" needItem="57,1500000000,0;110390,1,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="142" level_need="105" reset_level="85" needItem="57,1600000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="143" level_need="105" reset_level="85" needItem="57,1700000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="144" level_need="105" reset_level="85" needItem="57,1800000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="145" level_need="105" reset_level="85" needItem="57,1900000000,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="146" level_need="105" reset_level="85" needItem="70018,20,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="147" level_need="105" reset_level="85" needItem="70018,21,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="148" level_need="105" reset_level="85" needItem="70018,22,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="149" level_need="105" reset_level="85" needItem="70018,23,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="150" level_need="105" reset_level="85" needItem="70018,24,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="151" level_need="105" reset_level="85" needItem="70018,25,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="152" level_need="105" reset_level="85" needItem="70018,26,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="153" level_need="105" reset_level="85" needItem="70018,27,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="154" level_need="105" reset_level="85" needItem="70018,28,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="155" level_need="105" reset_level="85" needItem="70018,29,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="156" level_need="105" reset_level="85" needItem="70018,30,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="157" level_need="105" reset_level="85" needItem="70018,31,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="158" level_need="105" reset_level="85" needItem="70018,32,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="159" level_need="105" reset_level="85" needItem="70018,33,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="160" level_need="105" reset_level="85" needItem="70018,34,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+
+    <reborn id="161" level_need="105" reset_level="85" needItem="70018,35,0;110391,1,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+    <reborn id="162" level_need="106" reset_level="85" needItem="70018,36,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="163" level_need="106" reset_level="85" needItem="70018,37,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="164" level_need="107" reset_level="85" needItem="70018,38,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="165" level_need="108" reset_level="85" needItem="70018,39,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="166" level_need="109" reset_level="85" needItem="70018,40,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="167" level_need="110" reset_level="85" needItem="70018,41,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="168" level_need="110" reset_level="85" needItem="70018,42,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="169" level_need="110" reset_level="85" needItem="70018,43,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="170" level_need="110" reset_level="85" needItem="70018,44,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="171" level_need="110" reset_level="85" needItem="70018,45,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="172" level_need="110" reset_level="85" needItem="70018,46,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="173" level_need="110" reset_level="85" needItem="70018,47,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="174" level_need="110" reset_level="85" needItem="70018,48,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="175" level_need="110" reset_level="85" needItem="70018,49,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="176" level_need="110" reset_level="85" needItem="70018,50,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="177" level_need="110" reset_level="85" needItem="70018,51,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="178" level_need="110" reset_level="85" needItem="70018,52,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="179" level_need="110" reset_level="85" needItem="70018,53,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="180" level_need="110" reset_level="85" needItem="70018,54,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="181" level_need="110" reset_level="85" needItem="70018,55,0;110392,1,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="182" level_need="110" reset_level="85" needItem="70018,56,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="183" level_need="110" reset_level="85" needItem="70018,57,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="184" level_need="110" reset_level="85" needItem="70018,58,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="185" level_need="110" reset_level="85" needItem="70018,59,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="186" level_need="110" reset_level="85" needItem="70018,60,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="187" level_need="110" reset_level="85" needItem="70018,61,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="188" level_need="110" reset_level="85" needItem="70018,62,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="189" level_need="110" reset_level="85" needItem="70018,63,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="190" level_need="110" reset_level="85" needItem="70018,64,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="191" level_need="110" reset_level="85" needItem="70018,65,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="192" level_need="110" reset_level="85" needItem="70018,66,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="193" level_need="110" reset_level="85" needItem="70018,67,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="194" level_need="110" reset_level="85" needItem="70018,68,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="195" level_need="110" reset_level="85" needItem="70018,69,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="196" level_need="110" reset_level="85" needItem="70018,70,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="197" level_need="110" reset_level="85" needItem="70018,71,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="198" level_need="110" reset_level="85" needItem="70018,72,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="199" level_need="110" reset_level="85" needItem="70018,73,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="200" level_need="110" reset_level="85" needItem="70018,74,0"  reset_time="0"  giveReward="110383,1;106479,1;106478,1" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="201" level_need="110" reset_level="85" needItem="70018,75,0;110393,1,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="202" level_need="110" reset_level="85" needItem="70018,76,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="203" level_need="110" reset_level="85" needItem="70018,77,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="204" level_need="110" reset_level="85" needItem="70018,78,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="205" level_need="110" reset_level="85" needItem="70018,79,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="206" level_need="110" reset_level="85" needItem="70018,80,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="207" level_need="110" reset_level="85" needItem="70018,81,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="208" level_need="110" reset_level="85" needItem="70018,82,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="209" level_need="110" reset_level="85" needItem="70018,83,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="210" level_need="110" reset_level="85" needItem="70018,84,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="211" level_need="111" reset_level="85" needItem="70018,85,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="212" level_need="112" reset_level="85" needItem="70018,86,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="213" level_need="113" reset_level="85" needItem="70018,87,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="214" level_need="114" reset_level="85" needItem="70018,88,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="215" level_need="115" reset_level="85" needItem="70018,89,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="216" level_need="115" reset_level="85" needItem="70018,90,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="217" level_need="115" reset_level="85" needItem="70018,91,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="218" level_need="115" reset_level="85" needItem="70018,92,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="219" level_need="115" reset_level="85" needItem="70018,93,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="220" level_need="115" reset_level="85" needItem="70018,94,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="221" level_need="116" reset_level="85" needItem="70018,95,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="222" level_need="117" reset_level="85" needItem="70018,96,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="223" level_need="118" reset_level="85" needItem="70018,97,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="224" level_need="119" reset_level="85" needItem="70018,98,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="225" level_need="120" reset_level="85" needItem="70018,99,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="226" level_need="120" reset_level="85" needItem="70018,100,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="227" level_need="120" reset_level="85" needItem="70018,101,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="228" level_need="120" reset_level="85" needItem="70018,102,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="229" level_need="120" reset_level="85" needItem="70018,103,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="230" level_need="120" reset_level="85" needItem="70018,104,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="231" level_need="120" reset_level="85" needItem="70018,105,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="232" level_need="120" reset_level="85" needItem="70018,106,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="233" level_need="120" reset_level="85" needItem="70018,107,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="234" level_need="120" reset_level="85" needItem="70018,108,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="235" level_need="120" reset_level="85" needItem="70018,109,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="236" level_need="120" reset_level="85" needItem="70018,110,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="237" level_need="120" reset_level="85" needItem="70018,111,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="238" level_need="120" reset_level="85" needItem="70018,112,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="239" level_need="120" reset_level="85" needItem="70018,113,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="240" level_need="120" reset_level="85" needItem="70018,114,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="241" level_need="120" reset_level="85" needItem="70018,115,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="242" level_need="120" reset_level="85" needItem="70018,116,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="243" level_need="120" reset_level="85" needItem="70018,117,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="244" level_need="120" reset_level="85" needItem="70018,118,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="245" level_need="120" reset_level="85" needItem="70018,119,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="246" level_need="120" reset_level="85" needItem="70018,120,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="247" level_need="120" reset_level="85" needItem="70018,121,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="248" level_need="120" reset_level="85" needItem="70018,122,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="249" level_need="120" reset_level="85" needItem="70018,123,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="250" level_need="120" reset_level="85" needItem="70018,124,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="251" level_need="120" reset_level="85" needItem="70018,125,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="252" level_need="120" reset_level="85" needItem="70018,126,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="253" level_need="120" reset_level="85" needItem="70018,127,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="254" level_need="120" reset_level="85" needItem="70018,128,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="255" level_need="120" reset_level="85" needItem="70018,129,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="256" level_need="120" reset_level="85" needItem="70018,130,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="257" level_need="120" reset_level="85" needItem="70018,131,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="258" level_need="120" reset_level="85" needItem="70018,132,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="259" level_need="120" reset_level="85" needItem="70018,133,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="260" level_need="120" reset_level="85" needItem="70018,134,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+,0
+    <reborn id="261" level_need="120" reset_level="85" needItem="70018,135,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="262" level_need="120" reset_level="85" needItem="70018,136,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="263" level_need="120" reset_level="85" needItem="70018,137,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="264" level_need="120" reset_level="85" needItem="70018,138,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="265" level_need="120" reset_level="85" needItem="70018,139,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="266" level_need="120" reset_level="85" needItem="70018,140,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="267" level_need="120" reset_level="85" needItem="70018,141,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="268" level_need="120" reset_level="85" needItem="70018,142,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="269" level_need="120" reset_level="85" needItem="70018,143,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="270" level_need="120" reset_level="85" needItem="70018,144,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+    <reborn id="271" level_need="130" reset_level="85" needItem="70018,144,0"  reset_time="0"  giveReward="110383,1,0;106479,1,0" str="1" int="1" dex="1" wit="1" con="1" men="1"/>
+
+
+        <!--<reborn id="271" level_need="85" reset_level="1" needItem="70018,145;13139,1;13434,1;13444,1;"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="272" level_need="85" reset_level="1" needItem="70018,146"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="273" level_need="85" reset_level="1" needItem="70018,147"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="274" level_need="85" reset_level="1" needItem="70018,148"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="275" level_need="85" reset_level="1" needItem="70018,149"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="276" level_need="85" reset_level="1" needItem="70018,150"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="277" level_need="85" reset_level="1" needItem="70018,151"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="278" level_need="85" reset_level="1" needItem="70018,152"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="279" level_need="85" reset_level="1" needItem="70018,153"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="280" level_need="85" reset_level="1" needItem="70018,154"  reset_time="0"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="281" level_need="85" reset_level="1" needItem="70018,155;106702,1"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="282" level_need="85" reset_level="1" needItem="70018,156"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="283" level_need="85" reset_level="1" needItem="70018,157"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="284" level_need="85" reset_level="1" needItem="70018,158"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="285" level_need="85" reset_level="1" needItem="70018,159"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="286" level_need="85" reset_level="1" needItem="70018,160"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="287" level_need="85" reset_level="1" needItem="70018,161"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="288" level_need="85" reset_level="1" needItem="70018,162"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="289" level_need="85" reset_level="1" needItem="70018,163"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="290" level_need="85" reset_level="1" needItem="70018,164"  reset_time="24"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="291" level_need="85" reset_level="1" needItem="70018,165;9912,500000;106420,5000;106431,10000"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="292" level_need="85" reset_level="1" needItem="70018,166"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="293" level_need="85" reset_level="1" needItem="70018,167"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="294" level_need="85" reset_level="1" needItem="70018,168"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="295" level_need="85" reset_level="1" needItem="70018,169"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="296" level_need="85" reset_level="1" needItem="70018,170"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="297" level_need="85" reset_level="1" needItem="70018,171"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="298" level_need="85" reset_level="1" needItem="70018,172"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="299" level_need="85" reset_level="1" needItem="70018,173"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="300" level_need="85" reset_level="1" needItem="70018,174"  reset_time="24"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="301" level_need="85" reset_level="1" needItem="70018,175;106414,10000;70124,1;70134,1;70144,1"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="302" level_need="85" reset_level="1" needItem="70018,176"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="303" level_need="85" reset_level="1" needItem="70018,177"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="304" level_need="85" reset_level="1" needItem="70018,178"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="305" level_need="85" reset_level="1" needItem="70018,179"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="306" level_need="85" reset_level="1" needItem="70018,180"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="307" level_need="85" reset_level="1" needItem="70018,181"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="308" level_need="85" reset_level="1" needItem="70018,182"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="309" level_need="85" reset_level="1" needItem="70018,183"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="310" level_need="85" reset_level="1" needItem="70018,184"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="311" level_need="85" reset_level="1" needItem="70018,185;70001,50;70000,20;70004,10000"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="312" level_need="85" reset_level="1" needItem="70018,186"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="313" level_need="85" reset_level="1" needItem="70018,187"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="314" level_need="85" reset_level="1" needItem="70018,188"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="315" level_need="85" reset_level="1" needItem="70018,189"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="316" level_need="85" reset_level="1" needItem="70018,190"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="317" level_need="85" reset_level="1" needItem="70018,191"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="318" level_need="85" reset_level="1" needItem="70018,192"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="319" level_need="85" reset_level="1" needItem="70018,193"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="320" level_need="85" reset_level="1" needItem="70018,194"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="321" level_need="85" reset_level="1" needItem="70018,195;106436,20;2134,5000;38899,1"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="322" level_need="85" reset_level="1" needItem="70018,196"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="323" level_need="85" reset_level="1" needItem="70018,197"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="324" level_need="85" reset_level="1" needItem="70018,198"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="325" level_need="85" reset_level="1" needItem="70018,199"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="326" level_need="85" reset_level="1" needItem="70018,200"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="327" level_need="85" reset_level="1" needItem="70018,201"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="328" level_need="85" reset_level="1" needItem="70018,202"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="329" level_need="85" reset_level="1" needItem="70018,203"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="330" level_need="85" reset_level="1" needItem="70018,204"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="331" level_need="85" reset_level="1" needItem="70018,205;106472,1000;70007,20;46155,300"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="332" level_need="85" reset_level="1" needItem="70018,206"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="333" level_need="85" reset_level="1" needItem="70018,207"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="334" level_need="85" reset_level="1" needItem="70018,208"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="335" level_need="85" reset_level="1" needItem="70018,209"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="336" level_need="85" reset_level="1" needItem="70018,210"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="337" level_need="85" reset_level="1" needItem="70018,211"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="338" level_need="85" reset_level="1" needItem="70018,212"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="339" level_need="85" reset_level="1" needItem="70018,213"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="340" level_need="85" reset_level="1" needItem="70018,214"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="341" level_need="85" reset_level="1" needItem="70018,215;106424,2;106425,2;106426,2;106427,2"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="342" level_need="85" reset_level="1" needItem="70018,216"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="343" level_need="85" reset_level="1" needItem="70018,217"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="344" level_need="85" reset_level="1" needItem="70018,218"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="345" level_need="85" reset_level="1" needItem="70018,219"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="346" level_need="85" reset_level="1" needItem="70018,220"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="347" level_need="85" reset_level="1" needItem="70018,221"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="348" level_need="85" reset_level="1" needItem="70018,222"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="349" level_need="85" reset_level="1" needItem="70018,223"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="350" level_need="85" reset_level="1" needItem="70018,224"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="351" level_need="85" reset_level="1" needItem="70018,225;106428,2;106429,2;106430,2;106529,2"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="352" level_need="85" reset_level="1" needItem="70018,226"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="353" level_need="85" reset_level="1" needItem="70018,227"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="354" level_need="85" reset_level="1" needItem="70018,228"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="355" level_need="85" reset_level="1" needItem="70018,229"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="356" level_need="85" reset_level="1" needItem="70018,230"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="357" level_need="85" reset_level="1" needItem="70018,231"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="358" level_need="85" reset_level="1" needItem="70018,232"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="359" level_need="85" reset_level="1" needItem="70018,233"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="360" level_need="85" reset_level="1" needItem="70018,234"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="361" level_need="85" reset_level="1" needItem="70018,235;106482,3;106485,3;106488,3;106491,3"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="362" level_need="85" reset_level="1" needItem="70018,236"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="363" level_need="85" reset_level="1" needItem="70018,237"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="364" level_need="85" reset_level="1" needItem="70018,238"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="365" level_need="85" reset_level="1" needItem="70018,239"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="366" level_need="85" reset_level="1" needItem="70018,240"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="367" level_need="85" reset_level="1" needItem="70018,241"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="368" level_need="85" reset_level="1" needItem="70018,242"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="369" level_need="85" reset_level="1" needItem="70018,243"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="370" level_need="85" reset_level="1" needItem="70018,244"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="371" level_need="85" reset_level="1" needItem="70018,245;106483,3;106486,3;106489,3;106492,3"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="372" level_need="85" reset_level="1" needItem="70018,246"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="373" level_need="85" reset_level="1" needItem="70018,247"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="374" level_need="85" reset_level="1" needItem="70018,248"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="375" level_need="85" reset_level="1" needItem="70018,249"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="376" level_need="85" reset_level="1" needItem="70018,250"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="377" level_need="85" reset_level="1" needItem="70018,251"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="378" level_need="85" reset_level="1" needItem="70018,252"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="379" level_need="85" reset_level="1" needItem="70018,253"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="380" level_need="85" reset_level="1" needItem="70018,254"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="381" level_need="85" reset_level="1" needItem="70018,255;106484,3;106487,3;106490,3;106493,3"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="382" level_need="85" reset_level="1" needItem="70018,256"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="383" level_need="85" reset_level="1" needItem="70018,257"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="384" level_need="85" reset_level="1" needItem="70018,258"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="385" level_need="85" reset_level="1" needItem="70018,259"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="386" level_need="85" reset_level="1" needItem="70018,260"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="387" level_need="85" reset_level="1" needItem="70018,261"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="388" level_need="85" reset_level="1" needItem="70018,262"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="389" level_need="85" reset_level="1" needItem="70018,263"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="390" level_need="85" reset_level="1" needItem="70018,264"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="391" level_need="85" reset_level="1" needItem="70018,265;70061,20;70004,20000"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="392" level_need="85" reset_level="1" needItem="70018,266"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="393" level_need="85" reset_level="1" needItem="70018,267"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="394" level_need="85" reset_level="1" needItem="70018,268"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="395" level_need="85" reset_level="1" needItem="70018,269"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="396" level_need="85" reset_level="1" needItem="70018,270"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="397" level_need="85" reset_level="1" needItem="70018,271"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="398" level_need="85" reset_level="1" needItem="70018,272"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="399" level_need="85" reset_level="1" needItem="70018,273"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="400" level_need="85" reset_level="1" needItem="70018,274"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="401" level_need="85" reset_level="1" needItem="70018,275;70009,5000;70010,5000"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="402" level_need="85" reset_level="1" needItem="70018,276"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="403" level_need="85" reset_level="1" needItem="70018,277"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="404" level_need="85" reset_level="1" needItem="70018,278"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="405" level_need="85" reset_level="1" needItem="70018,279"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="406" level_need="85" reset_level="1" needItem="70018,280"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="407" level_need="85" reset_level="1" needItem="70018,281"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="408" level_need="85" reset_level="1" needItem="70018,282"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="409" level_need="85" reset_level="1" needItem="70018,283"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="410" level_need="85" reset_level="1" needItem="70018,284"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="411" level_need="85" reset_level="1" needItem="70018,285;70023,5000;70046,3000"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="412" level_need="85" reset_level="1" needItem="70018,286"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="413" level_need="85" reset_level="1" needItem="70018,287"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="414" level_need="85" reset_level="1" needItem="70018,288"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="415" level_need="85" reset_level="1" needItem="70018,289"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="416" level_need="85" reset_level="1" needItem="70018,290"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="417" level_need="85" reset_level="1" needItem="70018,291"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="418" level_need="85" reset_level="1" needItem="70018,292"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="419" level_need="85" reset_level="1" needItem="70018,293"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="420" level_need="85" reset_level="1" needItem="70018,294"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="421" level_need="85" reset_level="1" needItem="70018,295;17371,10000;19440,10000;106472,3000"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="422" level_need="85" reset_level="1" needItem="70018,296"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="423" level_need="85" reset_level="1" needItem="70018,297"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="424" level_need="85" reset_level="1" needItem="70018,298"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="425" level_need="85" reset_level="1" needItem="70018,299"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="426" level_need="85" reset_level="1" needItem="70018,300"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="427" level_need="85" reset_level="1" needItem="70018,301"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="428" level_need="85" reset_level="1" needItem="70018,302"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="429" level_need="85" reset_level="1" needItem="70018,303"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="430" level_need="85" reset_level="1" needItem="70018,304"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="431" level_need="85" reset_level="1" needItem="70018,305;47688,1;47689,1;47692,1"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="432" level_need="85" reset_level="1" needItem="70018,306"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="433" level_need="85" reset_level="1" needItem="70018,307"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="434" level_need="85" reset_level="1" needItem="70018,308"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="435" level_need="85" reset_level="1" needItem="70018,309"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="436" level_need="85" reset_level="1" needItem="70018,310"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="437" level_need="85" reset_level="1" needItem="70018,311"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="438" level_need="85" reset_level="1" needItem="70018,312"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="439" level_need="85" reset_level="1" needItem="70018,313"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="440" level_need="85" reset_level="1" needItem="70018,314"  reset_time="36"  giveReward="110383,1;106478,1"/>
+
+        <reborn id="441" level_need="85" reset_level="1" needItem="70018,315;28377,1;47691,1;47694,1"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="442" level_need="85" reset_level="1" needItem="70018,316"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="443" level_need="85" reset_level="1" needItem="70018,317"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="444" level_need="85" reset_level="1" needItem="70018,318"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="445" level_need="85" reset_level="1" needItem="70018,319"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="446" level_need="85" reset_level="1" needItem="70018,320"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="447" level_need="85" reset_level="1" needItem="70018,321"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="448" level_need="85" reset_level="1" needItem="70018,322"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="449" level_need="85" reset_level="1" needItem="70018,323"  reset_time="0"  giveReward="110383,1,0;106479,1,0"/>
+        <reborn id="450" level_need="85" reset_level="1" needItem="70018,324"  reset_time="0"  giveReward="110383,1;106478,1"/>-->
+    -->
+</list>

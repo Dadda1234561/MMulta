@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="20000" levels="1" name="Block Checker Search">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="effectPoint" value="1000"/>
+		<set name="icon" value="BranchSys2.icon.br_s_search_treasure1_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="affect_limit" value="6;12"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="20001" levels="1" name="Block Checker Hammer Punch">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="effectPoint" value="-1"/>
+		<set name="icon" value="BranchSys2.icon.br_s_hammerpunch_treasure1_i001"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1000"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="DOOR_TREASURE"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="20002" levels="1" name="Dragon Kick">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="effectPoint" value="-347"/>
+		<set name="icon" value="icon.skill_transform_s_attack"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="167"/>
+		<set name="castRange" value="20"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="55"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="20003" levels="1" name="Dragon Slash">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="effectPoint" value="-348"/>
+		<set name="icon" value="icon.skill_transform_s_attack"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="167"/>
+		<set name="castRange" value="20"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="55"/>
+		<set name="magicLevel" value="85"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="20004" levels="1" name="Dragon Dash">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="effectPoint" value="689"/>
+		<set name="icon" value="icon.skill_transform_buff"/>
+		<set name="reuseDelay" value="25000"/>
+		<set name="mp_consume" value="38"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="abnormal_time" value="5"/>
+		<set name="abnormal_level" value="2"/>
+		<set name="abnormal_type" value="speed_up_special"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="20005" levels="1" name="Dragon Aura">
+		<!--  Automatically generated from The High Five: Part 4.5 client files.
+		  Description: none
+		  Target is set to TARGET_NONE, skillType  to NOTDONE for server compatability.
+		  created 07-7-2011  19:19
+		-->
+		<set name="effectPoint" value="635"/>
+		<set name="icon" value="icon.skill_transform_buff"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="4000"/>
+		<set name="mp_consume" value="47"/>
+		<set name="abnormal_time" value="1200"/>
+		<set name="abnormal_level" value="3"/>
+		<set name="abnormal_type" value="improve_crt_rate_dmg_up"/>
+		<set name="magicLevel" value="70"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect name="p_block_buff_slot">
+				<def name="abnormal_types" value="critical_prob_up;critical_dmg_up"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="critical_prob_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+			<effect name="i_dispel_by_slot">
+				<def name="abnormal_type" value="critical_dmg_up"/>
+				<def name="max_abnormal_level" value="9"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="20006" levels="1" name="Soul Roar">
+		<set name="effectPoint" value="635"/>
+		<set name="icon" value="BranchSys2.icon.skill20006"/>
+		<set name="reuseDelay" value="600000"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<set name="hitTime" value="100"/>
+		<set name="mp_consume" value="58"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="abnormal_time" value="21600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="max_hp_up_k"/>
+		<set name="magicLevel" value="62"/>
+		<set name="hitCancelTime" value="350"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<for>
+			<effect>
+				<mul stat="maxHp" value="1.15"/>
+				<mul stat="maxCp" value="1.15"/>
+			</effect>
+			<effect instant="true" name="RestoreHP" value="15">
+				<def name="percent" value="true"/>
+			</effect>
+			<effect instant="true" name="RestoreCP" value="15">
+				<def name="percent" value="true"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="20007" levels="1" name="Blocked Invincibility">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill11560"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="120"/>
+		<set name="abnormal_level" value="9"/>
+		<set name="abnormal_type" value="invincibility"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="cancelable" value="false"/>
+		<for>
+			<effect>
+				<add stat="runSpd" value="5"/>
+				<add stat="regHp" value="10"/>
+				<add stat="regMp" value="10"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="20008" levels="1" name="Clan Advent - Event">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill19009"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="70174" levels="1" name="Song of Wind">
+		<table name="#magicLevel">46</table>
+		<set name="effectPoint" value="438"/>
+		<set name="icon" value="icon.skill0268"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="500"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="abnormal_time" value="21600"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="song_of_wind"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="magicType" value="MAGIC"/>
+		<set name="hitCancelTime" value="500"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<add stat="runSpd" value="20"/>
+			</effect>
+		</for>
+	</skill>
+</list>

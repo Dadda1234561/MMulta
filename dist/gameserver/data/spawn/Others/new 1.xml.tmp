@@ -1,0 +1,22 @@
+
+	<territory name="core_cube">
+		<add x="17066" y="108039" zmin="-6688" zmax="-6188"/>
+		<add x="18357" y="108039" zmin="-6688" zmax="-6188"/>
+		<add x="19223" y="108832" zmin="-6688" zmax="-6188"/>
+		<add x="19232" y="110389" zmin="-6688" zmax="-6188"/>
+		<add x="16203" y="110401" zmin="-6688" zmax="-6188"/>
+		<add x="16203" y="108861" zmin="-6688" zmax="-6188"/>
+	</territory>
+	<npcmaker territory="core_cube" initial_spawn="all" maximum_npc="30" period_of_day="none" group="">
+		<npc id="29006" count="1" respawn="5" respawn_random="0">	<!--Ядро-->
+			<pos x="17726" y="108915" z="-6472" h="0"/>
+			<ai_parameters>
+				<set name="" value=""/>
+			</ai_parameters>
+			<minions>
+				<minion npc_id="29011" count="9" respawn="5"/>	<!--Susceptor-->
+				<minion npc_id="29008" count="3" respawn="5"/>	<!--Doom Wraith-->
+				<minion npc_id="29007" count="10" respawn="5"/>	<!--Death Knight-->
+			</minions>
+		</npc>
+	</npcmaker>

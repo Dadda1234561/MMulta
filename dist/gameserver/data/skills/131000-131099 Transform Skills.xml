@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+    <skill id="131000" levels="1" name="Base Stats">
+        <set name="icon" value="BranchSys3.icon1.lv1_wind_dye_luc"/>
+        <set name="magicLevel" value="85"/>
+        <set name="operate_type" value="P"/>
+        <for>
+            <set stat="maxHp" value="1000" order="0x100"/>
+            <set stat="maxCp" value="1000" order="0x100"/>
+            <set stat="maxMp" value="1000" order="0x100"/>
+            <set stat="pAtk" value="100" order="0x100"/>
+            <set stat="mAtk" value="100" order="0x100"/>
+            <set stat="pDef" value="100" order="0x100"/>
+            <set stat="mDef" value="100" order="0x100"/>
+
+            <set stat="pAtkSpd" value="1000" order="0x100"/>
+            <set stat="mAtkSpd" value="1200" order="0x100"/>
+
+            <set stat="runSpd" value="300" order="0x100"/>
+
+            <set stat="regHp" value="1" order="0x100"/>
+            <set stat="regCp" value="1" order="0x100"/>
+            <set stat="regMp" value="1" order="0x100"/>
+        </for>
+    </skill>
+    <!-- Archer -->
+    <skill id="131001" levels="1" name="Кошачий Смертельный Выстрел: Умение Кота Лучника №1">
+        <set name="icon" value="icon.s_lethal_shot_hu"/>
+        <set name="power" value="200"/>
+        <set name="effectPoint" value="-100"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="coolTime" value="500"/>
+        <set name="castRange" value="900"/>
+        <set name="hitTime" value="1000"/>
+        <set name="mp_consume" value="1"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="magicLevel" value="85"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="ENEMY"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="static" value="true"/>
+        <set name="operate_type" value="A2"/>
+    </skill>
+    <skill id="131002" levels="1" name="Кошачий Импульсивный Выстрел: Умение Кота Лучника №2">
+        <table name="#activateRate">80</table>
+        <table name="#magicLevel">85</table>
+        <table name="#power">200</table>
+        <table name="#mp_consume">1</table>
+        <table name="#effectPoint">-100</table>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.s_spike_shot"/>
+        <set name="reuseDelay" value="10000"/>
+        <set name="coolTime" value="350"/>
+        <set name="castRange" value="800"/>
+        <set name="hitTime" value="2200"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="abnormal_effect" value="STUN"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_time" value="5"/>
+        <set name="abnormal_type" value="stun"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="analog_skills" value="509;101"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="nextAction" value="attack"/>
+        <set name="operate_type" value="A2"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="basic_property" value="physical_abnormal_resist"/>
+        <set name="target_type" value="ENEMY"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="trait" value="SHOCK"/>
+        <set name="static" value="true"/>
+        <for>
+            <effect name="Stun"/>
+        </for>
+    </skill>
+    <skill id="131003" levels="1" name="Кошачья Молниеносность: Умение Кота Лучника №3">
+        <table name="#magicLevel">85</table>
+        <table name="#mp_consume">1</table>
+        <table name="#castRange">900</table>
+        <set name="debuff" value="true"/>
+        <set name="effectPoint" value="2"/>
+        <set name="icon" value="icon.skill10857"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="coolTime" value="400"/>
+        <set name="castRange" value="#castRange"/>
+        <set name="hitTime" value="100"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <table name="#flyRadius">500</table>
+        <set name="fly_radius" value="#flyRadius"/>
+        <set name="fly_type" value="WARP_FORWARD"/>
+        <set name="fly_animation_speed" value="333"/>
+        <set name="operate_type" value="A2"/>
+        <set name="affect_range" value="#flyRadius"/>
+        <set name="skillType" value="BUFF"/>
+        <set name="target_type" value="SELF"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_SELF"/>
+    </skill>
+
+    <!-- Wizard -->
+    <skill id="131004" levels="1" name="Кошачий Шип Пламени: Умение Кота Мага №1">
+        <table name="#power">200</table>
+        <table name="#magicLevel">85</table>
+        <table name="#abnormal_type">SPECIAL01</table>
+        <table name="#abnormal_level">0</table>
+        <table name="#abnormal_time">0</table>
+        <table name="#mp_consume">1</table>
+        <table name="#effectPoint">-100</table>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill1451"/>
+        <set name="reuseDelay" value="1000"/>
+        <set name="castRange" value="900"/>
+        <set name="hitTime" value="1000"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_level" value="#abnormal_level"/>
+        <set name="abnormal_type" value="#abnormal_type"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="power" value="#power"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="ENEMY"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="operate_type" value="A2"/>
+        <set name="static" value="true"/>
+        <set name="autouse_type" value="ATTACK"/>
+    </skill>
+    <skill id="131005" levels="1" name="Свирепая Кошачья Атака: Умение Кота Мага №2">
+        <table name="#magicLevel">85</table>
+        <table name="#power">200</table>
+        <table name="#mp_consume">1</table>
+        <table name="#effectPoint">-100</table>
+        <set name="debuff" value="true"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.s_lightning_tempest"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="coolTime" value="1000"/>
+        <set name="castRange" value="900"/>
+        <set name="hitTime" value="2000"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="magicLevel" value="#magicLevel"/>
+        <set name="operate_type" value="A2"/>
+        <set name="overHit" value="true"/>
+        <set name="power" value="#power"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="target_type" value="ENEMY"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="abnormal_type" value="SPECIAL02"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="activateRate" value="80"/>
+        <set name="abnormal_time" value="10"/>
+        <set name="static" value="true"/>
+        <for>
+            <effect>
+                <mul stat="runSpd" value="0.5"/>
+            </effect>
+        </for>
+    </skill>
+    <skill id="131006" levels="1" name="Кошачье Проклятие Страха: Умение Кота Мага №3">
+        <table name="#activateRate">80</table>
+        <table name="#magicLevel">85</table>
+        <table name="#abnormal_time">2</table>
+        <table name="#mp_consume">50</table>
+        <table name="#effectPoint">-100</table>
+        <set name="debuff" value="true"/>
+        <set name="effectPoint" value="#effectPoint"/>
+        <set name="icon" value="icon.skill11261"/>
+        <set name="reuseDelay" value="3000"/>
+        <set name="castRange" value="600"/>
+        <set name="hitTime" value="4000"/>
+        <set name="mp_consume" value="#mp_consume"/>
+        <set name="abnormal_effect" value="TURN_FLEE"/>
+        <set name="abnormal_time" value="#abnormal_time"/>
+        <set name="abnormal_level" value="1"/>
+        <set name="abnormal_type" value="turn_flee"/>
+        <set name="magicType" value="MAGIC"/>
+        <set name="hitCancelTime" value="3000"/>
+        <set name="basic_property" value="magic_abnormal_resist"/>
+        <set name="target_type" value="ENEMY_ONLY"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="skillType" value="DEBUFF"/>
+        <set name="activateRate" value="#activateRate"/>
+        <set name="operate_type" value="A2"/>
+        <set name="trait" value="DERANGEMENT"/>
+        <for>
+            <effect name="Fear"/>
+        </for>
+    </skill>
+
+    <!-- Warrior -->
+    <skill id="131007" levels="1" name="Warrior Attack 1">
+        <set name="power" value="300"/>
+        <set name="effectPoint" value="-300"/>
+        <set name="icon" value="icon.skill0056"/>
+        <set name="reuseDelay" value="6000"/>
+        <set name="coolTime" value="800"/>
+        <set name="castRange" value="700"/>
+        <set name="hitTime" value="3200"/>
+        <set name="mp_consume" value="100"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="magicLevel" value="85"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="ENEMY"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="directHp" value="true"/>
+        <set name="static" value="true"/>
+        <set name="operate_type" value="A2"/>
+    </skill>
+    <skill id="131008" levels="1" name="Warrior Attack 2">
+        <set name="power" value="300"/>
+        <set name="effectPoint" value="-300"/>
+        <set name="icon" value="icon.skill0056"/>
+        <set name="reuseDelay" value="6000"/>
+        <set name="coolTime" value="800"/>
+        <set name="castRange" value="700"/>
+        <set name="hitTime" value="3200"/>
+        <set name="mp_consume" value="100"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="magicLevel" value="85"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="ENEMY"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="directHp" value="true"/>
+        <set name="static" value="true"/>
+        <set name="operate_type" value="A2"/>
+    </skill>
+    <skill id="131009" levels="1" name="Warrior Attack 3">
+        <set name="power" value="300"/>
+        <set name="effectPoint" value="-300"/>
+        <set name="icon" value="icon.skill0056"/>
+        <set name="reuseDelay" value="6000"/>
+        <set name="coolTime" value="800"/>
+        <set name="castRange" value="700"/>
+        <set name="hitTime" value="3200"/>
+        <set name="mp_consume" value="100"/>
+        <set name="ride_state" value="NONE"/>
+        <set name="magicLevel" value="85"/>
+        <set name="hitCancelTime" value="500"/>
+        <set name="target_type" value="ENEMY"/>
+        <set name="affect_scope" value="SINGLE"/>
+        <set name="affect_object" value="FRIEND"/>
+        <set name="target" value="TARGET_ONE"/>
+        <set name="skillType" value="PDAM"/>
+        <set name="directHp" value="true"/>
+        <set name="static" value="true"/>
+        <set name="operate_type" value="A2"/>
+    </skill>
+</list>

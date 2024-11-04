@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+    <config show_all="true" no_tax="true" keep_enchanted="false" />
+    <!-- Небесный Плащ -->
+    <item>
+        <production id="104200" count="1"/>
+        <ingredient id="104015" count="1"/>
+        <ingredient id="70034" count="500000"/>
+        <ingredient id="70039" count="100000"/>
+        <ingredient id="70031" count="150"/>
+        <ingredient id="70005" count="3000"/>
+        <ingredient id="70006" count="3000"/>
+        <ingredient id="70086" count="20000"/>
+        <ingredient id="70001" count="100"/>
+        <ingredient id="70069" count="30000"/>
+        <ingredient id="70018" count="5000"/>
+    </item>
+    <item>
+        <production id="104201" count="1"/>
+        <ingredient id="104200" count="1"/>
+        <ingredient id="70034" count="1000000"/>
+        <ingredient id="70039" count="200000"/>
+        <ingredient id="70031" count="300"/>
+        <ingredient id="70005" count="4000"/>
+        <ingredient id="70006" count="4000"/>
+        <ingredient id="70086" count="30000"/>
+        <ingredient id="70001" count="150"/>
+        <ingredient id="70069" count="60000"/>
+        <ingredient id="70018" count="10000"/>
+    </item>
+    <item>
+        <production id="104202" count="1"/>
+        <ingredient id="104201" count="1"/>
+        <ingredient id="70034" count="2000000"/>
+        <ingredient id="70039" count="300000"/>
+        <ingredient id="70031" count="400"/>
+        <ingredient id="70005" count="5000"/>
+        <ingredient id="70006" count="5000"/>
+        <ingredient id="70086" count="50000"/>
+        <ingredient id="70001" count="200"/>
+        <ingredient id="70069" count="90000"/>
+        <ingredient id="70018" count="30000"/>
+    </item>
+    <item>
+        <production id="104203" count="1"/>
+        <ingredient id="104202" count="1"/>
+        <ingredient id="70034" count="3500000"/>
+        <ingredient id="70039" count="400000"/>
+        <ingredient id="70031" count="500"/>
+        <ingredient id="70005" count="8000"/>
+        <ingredient id="70006" count="8000"/>
+        <ingredient id="70086" count="70000"/>
+        <ingredient id="70001" count="250"/>
+        <ingredient id="70069" count="125000"/>
+        <ingredient id="70018" count="50000"/>
+    </item>
+    <item>
+        <production id="104204" count="1"/>
+        <ingredient id="104203" count="1"/>
+        <ingredient id="70034" count="5000000"/>
+        <ingredient id="70039" count="500000"/>
+        <ingredient id="70031" count="600"/>
+        <ingredient id="70005" count="10000"/>
+        <ingredient id="70006" count="10000"/>
+        <ingredient id="70086" count="100000"/>
+        <ingredient id="70001" count="300"/>
+        <ingredient id="70069" count="150000"/>
+        <ingredient id="70018" count="100000"/>
+    </item>
+</list>

@@ -1,0 +1,1 @@
+RENAME TABLE `olympiad_nobles` TO `olympiad_participants`;

@@ -1,0 +1,1 @@
+DELETE FROM character_shortcuts WHERE type=3 AND shortcut_id=65;

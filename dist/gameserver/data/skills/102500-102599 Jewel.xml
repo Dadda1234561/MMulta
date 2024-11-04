@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<!-- 
+		R Jewel
+	-->
+	<skill id="102501" levels="1" name="R NECKLACE">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.17"/>
+			<mul stat="mAtk" value="1.2"/>
+			<p_critical_damage value="8" type="PER"/>
+			<p_magic_critical_dmg value="8" type="PER"/>
+		</for>
+	</skill>
+	<skill id="102502" levels="1" name="R LEFT_EAR">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.15"/>
+			<mul stat="maxHp" value="1.15"/>
+			<mul stat="maxMp" value="1.15"/>
+			<mul stat="pAtkSpd" value="1.15"/>
+			<add stat="CON" value="2"/>
+		</for>
+	</skill>
+	<skill id="102503" levels="1" name="R RIGHT_EAR">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.15"/>
+			<mul stat="maxHp" value="1.15"/>
+			<mul stat="maxMp" value="1.15"/>
+			<mul stat="mAtkSpd" value="1.15"/>
+			<add stat="MEN" value="2"/>
+		</for>
+	</skill>
+	<skill id="102504" levels="1" name="R RIGHT_FINGER">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.3"/>
+			<mul stat="pCritRate" order="0x30" value="1.1"/>
+			<add stat="DEX" value="2"/>
+		</for>
+	</skill>
+	<skill id="102505" levels="1" name="R RIGHT_FINGER">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.24"/>
+			<mul stat="mCritRate" order="0x30" value="1.08"/>
+			<add stat="WIT" value="2"/>
+		</for>
+	</skill>
+	<!-- 
+		R95 Jewel
+	-->
+	<skill id="102506" levels="1" name="R95 NECKLACE">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.2"/>
+			<mul stat="mAtk" value="1.25"/>
+			<p_critical_damage value="10" type="PER"/>
+			<p_magic_critical_dmg value="10" type="PER"/>
+			<add stat="STR" value="2"/>
+			<add stat="INT" value="2"/>
+		</for>
+	</skill>
+	<skill id="102507" levels="1" name="R95 LEFT_EAR">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.2"/>
+			<mul stat="maxHp" value="1.2"/>
+			<mul stat="maxMp" value="1.2"/>
+			<mul stat="pAtkSpd" value="1.2"/>
+			<add stat="CON" value="4"/>
+		</for>
+	</skill>
+	<skill id="102508" levels="1" name="R95 RIGHT_EAR">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.2"/>
+			<mul stat="maxHp" value="1.2"/>
+			<mul stat="maxMp" value="1.2"/>
+			<mul stat="mAtkSpd" value="1.2"/>
+			<add stat="MEN" value="4"/>
+		</for>
+	</skill>
+	<skill id="102509" levels="1" name="R95 RIGHT_FINGER">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.4"/>
+			<mul stat="pCritRate" order="0x30" value="1.12"/>
+			<add stat="DEX" value="3"/>
+		</for>
+	</skill>
+	<skill id="102510" levels="1" name="R95 RIGHT_FINGER">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.35"/>
+			<mul stat="mCritRate" order="0x30" value="1.1"/>
+			<add stat="WIT" value="3"/>
+		</for>
+	</skill>
+	<!-- 
+		R99 Jewel
+	-->
+	<skill id="102511" levels="1" name="R99 NECKLACE">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.25"/>
+			<mul stat="mAtk" value="1.3"/>
+			<p_critical_damage value="12" type="PER"/>
+			<p_magic_critical_dmg value="12" type="PER"/>
+			<add stat="STR" value="4"/>
+			<add stat="INT" value="4"/>
+			<add stat="attackFire" value="100"/>
+			<add stat="attackWater" value="100"/>
+			<add stat="attackWind" value="100"/>
+			<add stat="attackEarth" value="100"/>
+			<add stat="attackHoly" value="100"/>
+			<add stat="attackUnholy" value="100"/>
+		</for>
+	</skill>
+	<skill id="102512" levels="1" name="R99 LEFT_EAR">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.25"/>
+			<mul stat="maxHp" value="1.25"/>
+			<mul stat="maxMp" value="1.25"/>
+			<mul stat="pAtkSpd" value="1.2"/>
+			<add stat="defenceFire" value="40"/>
+			<add stat="defenceWater" value="40"/>
+			<add stat="defenceWind" value="40"/>
+			<add stat="defenceEarth" value="40"/>
+			<add stat="defenceHoly" value="40"/>
+			<add stat="defenceUnholy" value="40"/>
+			<add stat="CON" value="6"/>
+		</for>
+	</skill>
+	<skill id="102513" levels="1" name="R99 RIGHT_EAR">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.25"/>
+			<mul stat="maxHp" value="1.25"/>
+			<mul stat="maxMp" value="1.25"/>
+			<mul stat="mAtkSpd" value="1.2"/>
+			<add stat="defenceFire" value="40"/>
+			<add stat="defenceWater" value="40"/>
+			<add stat="defenceWind" value="40"/>
+			<add stat="defenceEarth" value="40"/>
+			<add stat="defenceHoly" value="40"/>
+			<add stat="defenceUnholy" value="40"/>
+			<add stat="MEN" value="6"/>
+		</for>
+	</skill>
+	<skill id="102514" levels="1" name="R99 RIGHT_FINGER">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.5"/>
+			<mul stat="pCritRate" order="0x30" value="1.15"/>
+			<add stat="DEX" value="5"/>
+		</for>
+	</skill>
+	<skill id="102515" levels="1" name="R99 RIGHT_FINGER">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.4"/>
+			<mul stat="mCritRate" order="0x30" value="1.13"/>
+			<add stat="WIT" value="5"/>
+		</for>
+	</skill>
+	<!-- 
+		R110 Jewel
+	-->
+	<skill id="102516" levels="1" name="R110 NECKLACE">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.3"/>
+			<mul stat="mAtk" value="1.35"/>
+			<p_critical_damage value="15" type="PER"/>
+			<p_magic_critical_dmg value="15" type="PER"/>
+			<add stat="STR" value="6"/>
+			<add stat="INT" value="6"/>
+			<add stat="attackFire" value="130"/>
+			<add stat="attackWater" value="130"/>
+			<add stat="attackWind" value="130"/>
+			<add stat="attackEarth" value="130"/>
+			<add stat="attackHoly" value="130"/>
+			<add stat="attackUnholy" value="130"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.1"/>
+			<mul stat="pvePhysDmgBonus" value="1.1"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="102517" levels="1" name="R110 LEFT_EAR">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.3"/>
+			<mul stat="maxHp" value="1.3"/>
+			<mul stat="maxMp" value="1.3"/>
+			<mul stat="pAtkSpd" value="1.25"/>
+			<add stat="defenceFire" value="50"/>
+			<add stat="defenceWater" value="50"/>
+			<add stat="defenceWind" value="50"/>
+			<add stat="defenceEarth" value="50"/>
+			<add stat="defenceHoly" value="50"/>
+			<add stat="defenceUnholy" value="50"/>
+			<add stat="CON" value="8"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.1"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.1"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="102518" levels="1" name="R110 RIGHT_EAR">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.3"/>
+			<mul stat="maxHp" value="1.3"/>
+			<mul stat="maxMp" value="1.3"/>
+			<mul stat="mAtkSpd" value="1.25"/>
+			<add stat="defenceFire" value="50"/>
+			<add stat="defenceWater" value="50"/>
+			<add stat="defenceWind" value="50"/>
+			<add stat="defenceEarth" value="50"/>
+			<add stat="defenceHoly" value="50"/>
+			<add stat="defenceUnholy" value="50"/>
+			<add stat="MEN" value="8"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.1"/>
+			<mul stat="pvpPhysDmgBonus" value="1.1"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.1"/>
+		</for>
+	</skill>
+	<skill id="102519" levels="1" name="R110 RIGHT_FINGER">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.6"/>
+			<mul stat="pCritRate" order="0x30" value="1.17"/>
+			<add stat="DEX" value="8"/>
+		</for>
+	</skill>
+	<skill id="102520" levels="1" name="R110 RIGHT_FINGER">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.5"/>
+			<mul stat="mCritRate" order="0x30" value="1.15"/>
+			<add stat="WIT" value="8"/>
+			<mul stat="mReuse" value="0.9"/>
+		</for>
+	</skill>
+	<!-- 
+		R110 Dragon Jewel
+	-->
+	<skill id="102521" levels="1" name="R110 Dragon NECKLACE">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pAtk" value="1.45"/>
+			<mul stat="mAtk" value="1.5"/>
+			<p_critical_damage value="25" type="PER"/>
+			<p_magic_critical_dmg value="25" type="PER"/>
+			<add stat="STR" value="10"/>
+			<add stat="INT" value="10"/>
+			<add stat="attackFire" value="150"/>
+			<add stat="attackWater" value="150"/>
+			<add stat="attackWind" value="150"/>
+			<add stat="attackEarth" value="150"/>
+			<add stat="attackHoly" value="150"/>
+			<add stat="attackUnholy" value="150"/>
+			<mul stat="pvePhysSkillDmgBonus" value="1.2"/>
+			<mul stat="pvePhysDmgBonus" value="1.2"/>
+			<mul stat="pveMagicSkillDmgBonus" value="1.2"/>
+		</for>
+	</skill>
+	<skill id="102522" levels="1" name="R110 Dragon LEFT_EAR">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.45"/>
+			<mul stat="maxHp" value="1.45"/>
+			<mul stat="maxMp" value="1.45"/>
+			<mul stat="pAtkSpd" value="1.3"/>
+			<add stat="defenceFire" value="60"/>
+			<add stat="defenceWater" value="60"/>
+			<add stat="defenceWind" value="60"/>
+			<add stat="defenceEarth" value="60"/>
+			<add stat="defenceHoly" value="60"/>
+			<add stat="defenceUnholy" value="60"/>
+			<add stat="CON" value="12"/>
+			<mul stat="pvpPhysDefenceBonus" value="1.25"/>
+			<mul stat="pvpPhysSkillDefenceBonus" value="1.25"/>
+			<mul stat="pvpMagicSkillDefenceBonus" value="1.25"/>
+		</for>
+	</skill>
+	<skill id="102523" levels="1" name="R110 Dragon RIGHT_EAR">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="maxCp" value="1.45"/>
+			<mul stat="maxHp" value="1.45"/>
+			<mul stat="maxMp" value="1.45"/>
+			<mul stat="mAtkSpd" value="1.3"/>
+			<add stat="defenceFire" value="60"/>
+			<add stat="defenceWater" value="60"/>
+			<add stat="defenceWind" value="60"/>
+			<add stat="defenceEarth" value="60"/>
+			<add stat="defenceHoly" value="60"/>
+			<add stat="defenceUnholy" value="60"/>
+			<add stat="MEN" value="12"/>
+			<mul stat="pvpPhysSkillDmgBonus" value="1.3"/>
+			<mul stat="pvpPhysDmgBonus" value="1.3"/>
+			<mul stat="pvpMagicSkillDmgBonus" value="1.3"/>
+		</for>
+	</skill>
+	<skill id="102524" levels="1" name="R110 Dragon RIGHT_FINGER">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pDef" value="1.7"/>
+			<mul stat="pCritRate" order="0x30" value="1.25"/>
+			<add stat="DEX" value="12"/>
+		</for>
+	</skill>
+	<skill id="102525" levels="1" name="R110 Dragon RIGHT_FINGER">
+		<set name="icon" value="icon.armor_t55_u_i00"/>
+		<set name="magicLevel" value="1"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="mDef" value="1.6"/>
+			<mul stat="mCritRate" order="0x30" value="1.23"/>
+			<add stat="WIT" value="12"/>
+			<mul stat="mReuse" value="0.8"/>
+		</for>
+	</skill>
+</list>

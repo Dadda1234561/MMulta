@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="39200" levels="1" name="Merlot's Gift">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39201" levels="7" name="Dragon's Relic">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39202" levels="3" name="+10 Bloody Armor - Heavy Armor Capsule">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39203" levels="1" name="Blessed Scroll: Enchant Dragon Shirt">
+		<set name="icon" value="icon.bm_blessed_scrl_of_ench_shirt"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39204" levels="2" name="Mysterious Weapon Enchant Scroll">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39205" levels="2" name="Glowing Dragon's Attribute Potion">
+		<!-- На 30 мин. атака стихией +70, сопротивление всем стихиям +70, бонус опыта и SP +30%. Эффект сохраняется в случае смерти. -->
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_dragon_posion_special"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="BR_EVENT_BUF2"/>
+		<set name="magicLevel" value="1"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="olympiad_use" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<for>
+			<effect>
+				<add stat="attackFire" value="70"/>
+				<add stat="attackWater" value="70"/>
+				<add stat="attackWind" value="70"/>
+				<add stat="attackEarth" value="70"/>
+				<add stat="attackHoly" value="70"/>
+				<add stat="attackUnholy" value="70"/>
+				<add stat="defenceWater" value="70"/>
+				<add stat="defenceFire" value="70"/>
+				<add stat="defenceWind" value="70"/>
+				<add stat="defenceEarth" value="70"/>
+				<add stat="defenceHoly" value="70"/>
+				<add stat="defenceUnholy" value="70"/>
+				<add stat="exp_rate_multiplier" value="0.3"/>
+				<add stat="sp_rate_multiplier" value="0.3"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="39206" levels="1" name="Royal Red Save Ticket Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39207" levels="2" name="Red Libra's Fortune Scroll">
+		<set name="icon" value="icon.etc_charm_of_luck_i00"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39208" levels="17" name="Red Libra's Adena Gift Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39209" levels="1" name="Fried Fish">
+		<set name="icon" value="icon.fishing_buff_p_dmg"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39210" levels="1" name="Steamed Fish">
+		<set name="icon" value="icon.fishing_buff_m_dmg"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39211" levels="1" name="Grilled Fish">
+		<set name="icon" value="icon.fishing_buff_pm_speed"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39212" levels="1" name="Braised Fish">
+		<set name="icon" value="icon.fishing_buff_hp_mp"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39213" levels="1" name="Royal Santiago’s Soup">
+		<set name="icon" value="icon.fish_stew_residence_luc"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39214" levels="2" name="Fried Fish">
+		<table name="#icon">icon.fishing_buff_p_dmg_1 icon.fishing_buff_p_dmg_2</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39215" levels="2" name="Steamed Fish">
+		<table name="#icon">icon.fishing_buff_m_dmg_1 icon.fishing_buff_m_dmg_2</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39216" levels="2" name="Grilled Fish">
+		<table name="#icon">icon.fishing_buff_pm_speed_1 icon.fishing_buff_pm_speed_2</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39217" levels="2" name="Braised Fish">
+		<table name="#icon">icon.fishing_buff_hp_mp_1 icon.fishing_buff_hp_mp_2</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39218" levels="2" name="Royal Fish Soup">
+		<table name="#icon">icon.fishing_buff_all_1 icon.fishing_buff_all_2</table>
+		<set name="icon" value="#icon"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39219" levels="1" name="Olympiad Class Winner's Rune">
+		<set name="icon" value="icon.rune_olympiad_legend_server"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39220" levels="1" name="Olympiad Class Runner-up's Rune">
+		<set name="icon" value="icon.rune_olympiad_legend_server"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39221" levels="1" name="Legend Celebration Rune">
+		<set name="icon" value="icon.rune_olympiad_legend_server"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39222" levels="1" name="Summon Agathion Masia's Guard">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39223" levels="11" name="Masia's Guard Unique Ability">
+		<set name="icon" value="icon.agathion_masia_guard_1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39224" levels="11" name="Masia's Guard Unique Ability">
+		<set name="icon" value="icon.agathion_masia_guard_1"/>
+		<table name="#PVEdef">1 1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10</table>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysDefenceBonus" value="#PVEdef">
+				<using armor="Heavy"/>
+			</mul>
+			<mul stat="pvePhysSkillDefenceBonus" value="#PVEdef">
+				<using armor="Heavy"/>
+			</mul>
+			<mul stat="pveMagicSkillDefenceBonus" value="#PVEdef">
+				<using armor="Heavy"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="39225" levels="4" name="Primary Skill: Agathion Masia's Guard">
+		<set name="icon" value="icon.agathion_masia_guard_1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39226" levels="1" name="Summon Paulina's Guard Agathion">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39227" levels="11" name="Paulina's Guard Unique Ability">
+		<set name="icon" value="icon.agathion_pollyne_guard_1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39228" levels="11" name="Paulina's Guard Unique Ability">
+		<set name="icon" value="icon.agathion_pollyne_guard_1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<table name="#pveDmg">1 1.01 1.02 1.03 1.04 1.05 1.06 1.07 1.08 1.09 1.10</table>
+		<set name="operate_type" value="P"/>
+		<for>
+			<mul stat="pvePhysSkillDmgBonus" value="#pveDmg">
+				<using armor="Light"/>
+			</mul>
+			<mul stat="pvePhysDmgBonus" value="#pveDmg">
+				<using armor="Light"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="39229" levels="4" name="Primary Skill: Agathion Paulina's Guard">
+		<set name="icon" value="icon.agathion_pollyne_guard_1"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39230" levels="3" name="Shining Fortune Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39231" levels="4" name="Master Fisherman's Blessing (1-hour)">
+		<set name="icon" value="icon.fishing_zone_ticket"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="coolTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39232" levels="4" name="Blue Potion - Fishing XP Bonus">
+		<set name="icon" value="BranchIcon.etc_sign_agathion_feed_blue_i00"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="coolTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39233" levels="1" name="Lucky Vitality Potion">
+		<set name="icon" value="BranchIcon.etc_sign_agathion_feed_yellow_i00"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39234" levels="1" name="Guard Agathion's Book of Growth">
+		<set name="icon" value="icon.star_scrl_of_ench_ag"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39235" levels="1" name="Ancient Guard Agathion's Book of Growth">
+		<set name="icon" value="icon.star_giantscrl_of_ench_ag"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39236" levels="1" name="Tipsy">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.bm_goblin_buff_herong"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39237" levels="3" name="Blackbird Clan Basic Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39238" levels="1" name="Episode Enchant Scroll">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39239" levels="1" name="Episode Special Enchant Scroll">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39240" levels="2" name="Goblin Cudgel">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39241" levels="13" name="Throne of Heroes 2nd Place Reward Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39242" levels="2" name="Rudolph's Red Potion">
+		<table name="#icon">BranchIcon.etc_sign_agathion_feed_red_i00 BranchIcon.etc_sign_agathion_feed_purple_i00</table>
+		<set name="icon" value="#icon"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39243" levels="1" name="Hero's Rune">
+		<set name="icon" value="icon.skill19226"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="39244" levels="2" name="Peeves' Gift Bundle">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39245" levels="2" name="Shining Nevit's Gold Hourglass">
+	<!-- На 30 мин. во время охоты бонус опыта и SP +100%. Не действует одновременно с эффектами Золотые Песочные Часы Невитт, Падение Дракона, Счастливый Мяч Данди. Время перезарядки: 5 мин. -->
+		<set name="icon" value="icon.bm_nebit_bonus_time_up"/>
+		<set name="reuseDelay" value="300000"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="1800"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="vote"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="isHandler" value="true"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="isSelfDispellable" value="false"/>
+		<set name="isPreservedOnDeath" value="true"/>
+		<for>
+			<effect>
+				<add stat="exp_rate_multiplier" value="1"/>
+				<add stat="sp_rate_multiplier" value="1"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="39246" levels="3" name="Dragon Weapon Box (Fragment)">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39247" levels="1" name="Scroll: Enchant Angel Accessory">
+		<set name="icon" value="icon.scrl_of_ench_acc"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="39248" levels="1" name="Windstorm Box">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

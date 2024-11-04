@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT list (mastery)*>
+
+	<!ELEMENT mastery (skill)*>
+	<!ATTLIST mastery
+		id CDATA #REQUIRED
+		clan_level CDATA #REQUIRED
+		clan_reputation CDATA #REQUIRED
+		previous_mastery CDATA #IMPLIED
+		previous_mastery_alt CDATA #IMPLIED>
+
+		<!ELEMENT skill (#PCDATA)>
+		<!ATTLIST skill
+			id CDATA #REQUIRED
+			level CDATA #REQUIRED>

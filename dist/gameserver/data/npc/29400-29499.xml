@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+    <npc id="29400" name="Босс свержения" title="№1">
+        <set name="rebirthToTakeDamage" value="20"/>
+        <set name="type" value="Boss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="64.5"/>
+        <set name="collision_radius" value="43.5"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="19884500.38976668326"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1743"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="basePAtk" value="132000.28566004965"/>
+		<set name="basePDef" value="10033.77477"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="691.285164307598"/>
+		<set name="baseMDef" value="7850.90333"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <client_skills>
+            <skill id="4045" level="1"/>	<!--Resist Full Magic Attack-->
+        </client_skills>
+		<skills>
+            <skill id="10094" level="5"/>
+            <skill id="11050" level="5"/>
+            <skill id="11777" level="5"/>
+            <skill id="11536" level="5"/>
+	        <skill id="10281" level="5"/>
+        </skills>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="110384" min="1" max="1" chance="100"/>
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="29401" name="Босс свержения" title="№2">
+        <set name="rebirthToTakeDamage" value="40"/>
+        <set name="type" value="Boss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="64.5"/>
+        <set name="collision_radius" value="43.5"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="54684500.38976668326"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1743"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="basePAtk" value="400000.28566004965"/>
+		<set name="basePDef" value="15033.77477"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="691.285164307598"/>
+		<set name="baseMDef" value="12050.90333"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <client_skills>
+            <skill id="4045" level="1"/>	<!--Resist Full Magic Attack-->
+        </client_skills>
+		<skills>
+            <skill id="10094" level="5"/>
+            <skill id="11050" level="5"/>
+            <skill id="11777" level="5"/>
+            <skill id="11536" level="5"/>
+	        <skill id="10281" level="5"/>
+        </skills>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="110385" min="1" max="1" chance="100"/>
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="29402" name="Босс свержения" title="№3">
+        <set name="rebirthToTakeDamage" value="60"/>
+        <set name="type" value="Boss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="64.5"/>
+        <set name="collision_radius" value="43.5"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="102684500.38976668326"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="8.5"/>
+		<set name="baseMpMax" value="1743"/>
+		<set name="baseMpReg" value="3"/>
+		<set name="baseSTR" value="40"/>
+		<set name="baseCON" value="43"/>
+		<set name="baseDEX" value="30"/>
+		<set name="baseINT" value="21"/>
+		<set name="baseMEN" value="20"/>
+		<set name="baseWIT" value="20"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="basePAtk" value="1210000.28566004965"/>
+		<set name="basePDef" value="15033.77477"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="691.285164307598"/>
+		<set name="baseMDef" value="12050.90333"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <client_skills>
+            <skill id="4045" level="1"/>	<!--Resist Full Magic Attack-->
+        </client_skills>
+		<skills>
+            <skill id="10094" level="5"/>
+            <skill id="11050" level="5"/>
+            <skill id="11777" level="5"/>
+            <skill id="11536" level="5"/>
+	        <skill id="10281" level="5"/>
+        </skills>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="110386" min="1" max="1" chance="100"/>
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="29403" name="Босс свержения" title="№4">
+        <set name="rebirthToTakeDamage" value="80"/>
+        <set name="type" value="Boss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="64.5"/>
+        <set name="collision_radius" value="43.5"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="150684500.38976668326"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1743"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="basePAtk" value="6710000.28566004965"/>
+        <set name="basePDef" value="15033.77477"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="691.285164307598"/>
+        <set name="baseMDef" value="12050.90333"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <client_skills>
+            <skill id="4045" level="1"/>	<!--Resist Full Magic Attack-->
+        </client_skills>
+        <skills>
+            <skill id="10094" level="5"/>
+            <skill id="11050" level="5"/>
+            <skill id="11777" level="5"/>
+            <skill id="11536" level="5"/>
+	        <skill id="10281" level="5"/>
+        </skills>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="110387" min="1" max="1" chance="100"/>
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="29404" name="Босс свержения" title="№5">
+        <set name="rebirthToTakeDamage" value="100"/>
+        <set name="type" value="Boss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="64.5"/>
+        <set name="collision_radius" value="43.5"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="400684500.38976668326"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1743"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="basePAtk" value="13000000.28566004965"/>
+        <set name="basePDef" value="90033.77477"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="691.285164307598"/>
+        <set name="baseMDef" value="72005.90333"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <client_skills>
+            <skill id="4045" level="1"/>	<!--Resist Full Magic Attack-->
+        </client_skills>
+        <skills>
+            <skill id="10094" level="5"/>
+            <skill id="11050" level="5"/>
+            <skill id="11777" level="5"/>
+            <skill id="11536" level="5"/>
+	        <skill id="10281" level="5"/>
+        </skills>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="110388" min="1" max="1" chance="100"/>
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="29405" name="Босс свержения" title="№6">
+        <set name="rebirthToTakeDamage" value="120"/>
+        <set name="type" value="Boss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="64.5"/>
+        <set name="collision_radius" value="43.5"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="600684500.38976668326"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1743"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="basePAtk" value="13000000.28566004965"/>
+        <set name="basePDef" value="135033.77477"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="691.285164307598"/>
+        <set name="baseMDef" value="108005.90333"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <client_skills>
+            <skill id="4045" level="1"/>	<!--Resist Full Magic Attack-->
+        </client_skills>
+		<skills>
+            <skill id="10094" level="5"/>
+            <skill id="11050" level="5"/>
+            <skill id="11777" level="5"/>
+            <skill id="11536" level="5"/>
+	        <skill id="10281" level="5"/>
+        </skills>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="110389" min="1" max="1" chance="100"/>
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="29406" name="Босс свержения" title="№7">
+        <set name="rebirthToTakeDamage" value="140"/>
+        <set name="type" value="Boss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="64.5"/>
+        <set name="collision_radius" value="43.5"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="600684500.38976668326"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1743"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="basePAtk" value="45000000.28566004965"/>
+        <set name="basePDef" value="410033.77477"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="691.285164307598"/>
+        <set name="baseMDef" value="290005.90333"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <client_skills>
+            <skill id="4045" level="1"/>	<!--Resist Full Magic Attack-->
+        </client_skills>
+		<skills>
+            <skill id="10094" level="5"/>
+            <skill id="11050" level="5"/>
+            <skill id="11777" level="5"/>
+            <skill id="11536" level="5"/>
+	        <skill id="10281" level="5"/>
+        </skills>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="110390" min="1" max="1" chance="100"/>
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="29407" name="Босс свержения" title="№8">
+        <set name="rebirthToTakeDamage" value="160"/>
+        <set name="type" value="Boss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="64.5"/>
+        <set name="collision_radius" value="43.5"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="600684500.38976668326"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1743"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="basePAtk" value="65000000.28566004965"/>
+        <set name="basePDef" value="615033.77477"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="691.285164307598"/>
+        <set name="baseMDef" value="435005.90333"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <client_skills>
+            <skill id="4045" level="1"/>	<!--Resist Full Magic Attack-->
+        </client_skills>
+		<skills>
+            <skill id="10094" level="5"/>
+            <skill id="11050" level="5"/>
+            <skill id="11777" level="5"/>
+            <skill id="11536" level="5"/>
+	        <skill id="10281" level="5"/>
+        </skills>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="110391" min="1" max="1" chance="100"/>
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="29408" name="Босс свержения" title="№9">
+        <set name="rebirthToTakeDamage" value="180"/>
+        <set name="type" value="Boss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="64.5"/>
+        <set name="collision_radius" value="43.5"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="600684500.38976668326"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1743"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="basePAtk" value="79000000.28566004965"/>
+        <set name="basePDef" value="920033.77477"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="691.285164307598"/>
+        <set name="baseMDef" value="650005.90333"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <client_skills>
+            <skill id="4045" level="1"/>	<!--Resist Full Magic Attack-->
+        </client_skills>
+		<skills>
+            <skill id="10094" level="5"/>
+            <skill id="11050" level="5"/>
+            <skill id="11777" level="5"/>
+            <skill id="11536" level="5"/>
+	        <skill id="10281" level="5"/>
+        </skills>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="110392" min="1" max="1" chance="100"/>
+            </group>
+        </rewardlist>
+    </npc>
+    <npc id="29409" name="Босс свержения" title="№10">
+        <set name="rebirthToTakeDamage" value="180"/>
+        <set name="type" value="Boss"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="collision_height" value="64.5"/>
+        <set name="collision_radius" value="43.5"/>
+        <set name="level" value="85"/>
+        <set name="rewardExp" value="0"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="0"/>
+        <set name="baseHpMax" value="600684500.38976668326"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseMpMax" value="1743"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="basePCritRate" value="40"/>
+        <set name="basePAtk" value="97000000.28566004965"/>
+        <set name="basePDef" value="1380033.77477"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="baseMAtk" value="691.285164307598"/>
+        <set name="baseMDef" value="975005.90333"/>
+        <set name="baseWalkSpd" value="50"/>
+        <set name="baseRunSpd" value="440"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseAtkRange" value="100"/>
+        <set name="baseRandDam" value="10"/>
+        <set name="baseAttackType" value="SWORD"/>
+        <set name="basePHitModify" value="5"/>
+        <set name="basePAvoidModify" value="0"/>
+        <set name="baseHitTimeFactor" value="0.6"/>
+        <set name="baseReuseDelay" value="0"/>
+        <set name="baseSafeHeight" value="100"/>
+        <set name="aggroRange" value="0"/>
+        <set name="shots" value="NONE"/>
+        <client_skills>
+            <skill id="4045" level="1"/>	<!--Resist Full Magic Attack-->
+        </client_skills>
+		<skills>
+            <skill id="10094" level="5"/>
+            <skill id="11050" level="5"/>
+            <skill id="11777" level="5"/>
+            <skill id="11536" level="5"/>
+	        <skill id="10281" level="5"/>
+        </skills>
+        <rewardlist type="NOT_RATED_GROUPED">
+            <group>
+                <reward item_id="110393" min="1" max="1" chance="100"/>
+            </group>
+        </rewardlist>
+    </npc>
+</list>

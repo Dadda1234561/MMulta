@@ -1,0 +1,1585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="15200" levels="1" name="Tauti Ultra Whirlwind">
+		<table name="#mp_consume2">134</table>
+		<table name="#magicLevel">99</table>
+		<!-- Reuse is managed by AI. -->
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-1"/>
+		<set name="icon" value="icon.skill3080"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="7000"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="fly_away"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="fly_type" value="PUSH_HORIZONTAL"/>
+		<set name="fly_radius" value="300"/>
+		<set name="mp_consume2" value="#mp_consume2"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2147483647"/>
+		<set name="affect_range" value="400"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="isIgnoreResists" value="true"/>
+		<set name="isIgnoreInvul" value="true"/>
+		<set name="activateRate" value="-1"/>
+		<for>
+			<effect name="Stun">
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+				<p_defence_trait name="airbind" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="15201" levels="1" name="Tauti Ultra Whirlwind">
+		<table name="#mp_consume2">134</table>
+		<table name="#magicLevel">99</table>
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-1"/>
+		<set name="icon" value="icon.skill3080"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="5000"/>
+		<set name="isSkillTimePermanent" value="true"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="fly_away"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="fly_type" value="PUSH_HORIZONTAL"/>
+		<set name="fly_radius" value="300"/>
+		<set name="mp_consume2" value="#mp_consume2"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2147483647"/>
+		<set name="affect_range" value="400"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="isIgnoreResists" value="true"/>
+		<set name="isIgnoreInvul" value="true"/>
+		<set name="activateRate" value="-1"/>
+		<for>
+			<effect name="Stun">
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+				<p_defence_trait name="airbind" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="15202" levels="1" name="Tauti Ultra Typhoon">
+		<!--
+			TODO: Same as Ultra Whirlwind but players far from Tauti gets damage instead.
+		-->
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-1"/>
+		<set name="icon" value="icon.skill3080"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="7000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="RING_RANGE"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="fan_range" value="0;0;600;0"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+				<p_defence_trait name="airbind" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="15203" levels="1" name="Tauti Ultra Typhoon">
+		<!--
+			TODO: Same as Ultra Whirlwind but players far from Tauti gets damage instead.
+		-->
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-1"/>
+		<set name="icon" value="icon.skill3080"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="5000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="RING_RANGE"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="fan_range" value="0;0;600;0"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+				<p_defence_trait name="airbind" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="15204" levels="1" name="Tauti Omega Whirlwind">
+		<table name="#pwr">99999999999999</table>
+		<table name="#mp_consume2">134</table>
+		<table name="#magicLevel">99</table>
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-1"/>
+		<set name="icon" value="icon.skill10266"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="abnormal_effect" value="KNOCKDOWN"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="knockdown"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="fly_type" value="PUSH_HORIZONTAL"/>
+		<set name="fly_radius" value="300"/>
+		<set name="mp_consume2" value="#mp_consume2"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="#pwr"/>
+		<set name="affect_range" value="800"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="KNOCKDOWN"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="affect_limit" value="10;10"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="isIgnoreResists" value="true"/>
+		<set name="isIgnoreInvul" value="true"/>
+		<set name="activateRate" value="3"/>
+		<for>
+			<effect name="Stun">
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="derangement" value="100"/>
+				<p_defence_trait name="changebody" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="15205" levels="1" name="Tauti Omega Whirlwind">
+		<table name="#pwr">99999999999999</table>
+		<table name="#mp_consume2">134</table>
+		<table name="#magicLevel">99</table>
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-1"/>
+		<set name="icon" value="icon.skill10266"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="abnormal_effect" value="KNOCKDOWN"/>
+		<set name="abnormal_time" value="3"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="knockdown"/>
+		<set name="magicLevel" value="#magicLevel"/>
+		<set name="fly_type" value="PUSH_HORIZONTAL"/>
+		<set name="fly_radius" value="300"/>
+		<set name="mp_consume2" value="#mp_consume2"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="#pwr"/>
+		<set name="affect_range" value="800"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="basic_property" value="physical_abnormal_resist"/>
+		<set name="trait" value="KNOCKDOWN"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="affect_limit" value="10;10"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="isIgnoreResists" value="true"/>
+		<set name="isIgnoreInvul" value="true"/>
+		<set name="activateRate" value="3"/>
+		<for>
+			<effect name="Stun">
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="derangement" value="100"/>
+				<p_defence_trait name="changebody" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="15206" levels="1" name="Explosion">
+		<set name="effectPoint" value="-574"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="affect_limit" value="10;10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15207" levels="1" name="Debuff Immunity">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="15208" levels="9" name="Weakened Chaos Shield">
+		<table name="#icon">icon.skill0035 icon.skill0035 icon.skill0035 icon.skill0035 icon.skill0035 icon.skill0035 icon.skill0035 icon.skill0035 icon.skill1418</table>
+		<table name="#mp_consume2">16 19 24 26 28 30 32 34 36</table>
+		<table name="#Def">1.2 1.4 1.6 1.8 2 2.3 2.5 2.8 3</table>
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="#icon"/>
+		<set name="irreplaceable_buff" value="true"/>
+		<set name="abnormal_time" value="86400"/>
+		<set name="mp_consume2" value="#mp_consume2"/>
+		<set name="operate_type" value="A2"/>
+		<set name="skillType" value="BUFF"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<for>
+			<effect>
+				<mul stat="pDef" value="#Def"/>
+				<mul stat="mDef" value="#Def"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="15209" levels="1" name="Pa'agrio's Gift 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="-1000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="hitTime" value="2700"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A1"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond msgId="2292">
+			<player agathion="-1"/>
+		</cond>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="34864" min_count="3" max_count="3"/>	<!--Малое Яйцо Драко-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="15210" levels="1" name="Pa'agrio's Gift 2">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="-1000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="hitTime" value="2700"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A1"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond msgId="2292">
+			<player agathion="-1"/>
+		</cond>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="34865" min_count="1" max_count="1"/>	<!--Большое Яйцо Драко-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="15211" levels="1" name="Pa'agrio's Gift 3">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="-1000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="hitTime" value="2700"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A1"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond msgId="2292">
+			<player agathion="-1"/>
+		</cond>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="34864" min_count="7" max_count="7"/>	<!--Малое Яйцо Драко-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="15212" levels="1" name="Pa'agrio's Gift 4">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="-1000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="hitTime" value="2700"/>
+		<set name="ride_state" value="NONE;STRIDER;WYVERN;WOLF"/>
+		<set name="magicLevel" value="85"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_SELF"/>
+		<set name="skillType" value="RESTORATION"/>
+		<set name="operate_type" value="A1"/>
+		<set name="isReuseDelayPermanent" value="true"/>
+		<cond msgId="2292">
+			<player agathion="-1"/>
+		</cond>
+		<restoration level="1">
+			<group chance="100.0">
+				<item id="34865" min_count="1" max_count="1"/>	<!--Большое Яйцо Драко-->
+			</group>
+		</restoration>
+	</skill>
+	<skill id="15213" levels="1" name="Guillotine's Advent">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-1"/>
+		<set name="icon" value="icon.skill4107"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="affect_limit" value="10;10"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15214" levels="1" name="Tauti">
+		<set name="icon" value="icon.skillboss"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="15215" levels="1" name="Raid Boss (Lv. 97)">
+		<set name="icon" value="icon.skillraid"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="15216" levels="1" name="Raid Boss (Lv. 97)">
+		<set name="icon" value="icon.skillraid"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="15217" levels="1" name="Raid Boss (Lv. 97)">
+		<set name="icon" value="icon.skillraid"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="15218" levels="1" name="Clear Target">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="250"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15219" levels="1" name="Double Strike">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0036"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="150"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="RANGE"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15220" levels="1" name="Detonate">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="subordination_abnormal" value="bleeding"/>
+		<set name="trait" value="BLEED"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15221" levels="4" name="Blood Spear">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0122"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="250"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15222" levels="4" name="Home Thrust">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15223" levels="1" name="Body Slice">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="FAN"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="fan_range" value="0;0;100;120"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15224" levels="1" name="Bloody Breath">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill11769"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="250"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="RANGE"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15225" levels="2" name="Sword Wave">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="250"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15226" levels="1" name="Sword Wave">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="250"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15227" levels="1" name="Heavy Hit">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="mp_consume" value="5"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15228" levels="1" name="Soul Wave">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="FAN_PB"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="fan_range" value="0;0;150;120"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15229" levels="1" name="Soul Wave">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="FAN_PB"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="fan_range" value="0;0;150;120"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15230" levels="1" name="Heavy Hit">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="mp_consume" value="5"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15231" levels="2" name="Quick Thrust">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill11508"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15232" levels="1" name="Speed Up">
+		<set name="icon" value="icon.skill1086"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15233" levels="2" name="Full Swing">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0036"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15234" levels="2" name="Dark Spheres">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="5000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="magicLevel" value="96"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="FAN"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="fan_range" value="0;0;200;120"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="120"/>
+		<set name="power" value="15000"/>
+		<for>
+			<mul stat="inflicts_p_damage_power" value="2">
+				<target hasBuffId="6267"/>
+			</mul>
+		</for>
+	</skill>
+	<skill id="15235" levels="2" name="Dark Wind">
+		<set name="effectPoint" value="-1"/>
+		<set name="icon" value="icon.skill4107"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="3000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="magicLevel" value="96"/>
+		<set name="abnormal_effect" value="KNOCKDOWN"/>
+		<set name="abnormal_time" value="1"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="knockdown"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="affect_limit" value="10;10"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="300"/>
+		<set name="fly_radius" value="200"/>
+		<set name="power" value="10000"/>
+		<set name="activateRate" value="180"/>
+		<for>
+			<effect name="KnockDown"/>
+		</for>
+	</skill>
+	<skill id="15236" levels="2" name="Dark Thrust">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="magicLevel" value="96"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_ONE"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="30000"/>
+	</skill>
+	<skill id="15237" levels="2" name="Dark Buster">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0036"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="magicLevel" value="96"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="RANGE"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+		<set name="skillType" value="PDAM"/>
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="200"/>
+		<set name="power" value="20000"/>
+	</skill>
+	<skill id="15238" levels="1" name="Dark Breath">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill11769"/>
+		<set name="castRange" value="250"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="magicType" value="SPECIAL"/>
+		<set name="magicLevel" value="96"/>
+		<set name="abnormal_time" value="15"/>
+		<set name="abnormal_level" value="1"/>
+		<set name="abnormal_type" value="mark_of_lumi"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="FAN"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="fan_range" value="0;0;200;180"/>
+		<set name="target" value="TARGET_AURA"/>
+		<set name="skillType" value="DEBUFF"/>
+		<set name="operate_type" value="A2"/>
+		<set name="affect_range" value="250"/>
+		<set name="activateRate" value="130"/>
+		<for>
+			<effect>
+				<mul stat="pDef" value="0.7"/>
+				<mul stat="mDef" value="0.7"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="15239" levels="1" name="Heavy Hit">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="mp_consume" value="5"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15240" levels="1" name="Toad Cannon Explosion">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0036"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15241" levels="1" name="">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="600"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15242" levels="1" name="Presentation - Summon Attack Robot">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15243" levels="1" name="Presentation - Summon Stone Gathering Robot">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15244" levels="1" name="Presentation - Destroy Dark Summon Circle">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15245" levels="1" name="Presentation - Summon Robot">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15246" levels="1" name="Nurka Blow">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0036"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="RANGE"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15247" levels="1" name="Nurka Strike">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-687"/>
+		<set name="icon" value="icon.skill10549"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="castRange" value="100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="trait" value="KNOCKDOWN"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+				<p_defence_trait name="airbind" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="15248" levels="1" name="Nurka Howl">
+		<set name="effectPoint" value="121"/>
+		<set name="icon" value="icon.skill1068"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15249" levels="1" name="Nurka Fireball">
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15250" levels="1" name="Nurka's Cold Shoulders">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-707"/>
+		<set name="icon" value="icon.skill1042"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="trait" value="AIRBIND"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+		<for>
+			<effect>
+				<p_defence_trait name="hold" value="100"/>
+				<p_defence_trait name="knockback" value="100"/>
+				<p_defence_trait name="airbind" value="100"/>
+				<p_defence_trait name="shock" value="100"/>
+				<p_defence_trait name="derangement" value="100"/>
+				<p_defence_trait name="knockdown" value="100"/>
+				<p_defence_trait name="changebody" value="100"/>
+				<p_defence_trait name="sleep" value="100"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="15251" levels="1" name="Invincible Nurka">
+		<set name="effectPoint" value="867"/>
+		<set name="icon" value="icon.skill11758"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="2000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15252" levels="1" name="With Nurka">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-2066"/>
+		<set name="icon" value="icon.skill10015"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="castRange" value="350"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="trait" value="PULL"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15253" levels="1" name="Earth-rumbling Nurka">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-687"/>
+		<set name="icon" value="icon.skill11509"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="300"/>
+		<set name="hitTime" value="3000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15254" levels="1" name="Nurka's Healing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="RANGE"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15255" levels="1" name="Defensive Nurka">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill11252"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15256" levels="1" name="Aggressive Nurka">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill10252"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15257" levels="1" name="Resistance Blaze">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-2"/>
+		<set name="icon" value="icon.skill0003"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15258" levels="1" name="Resistance Treatment">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="300"/>
+		<set name="hitTime" value="1500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="TARGET"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15259" levels="1" name="Fireworks">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15260" levels="1" name="Time Up">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15261" levels="1" name="Lindvior's Skill 1">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="17000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15262" levels="1" name="Lindvior's Skill 2">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="17000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15263" levels="1" name="Bombing">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-686"/>
+		<set name="icon" value="icon.skill1296"/>
+		<set name="castRange" value="1000"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15264" levels="1" name="Lindvior's Skill 4">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="17000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15265" levels="1" name="Lindvior's AoE 2">
+		<set name="effectPoint" value="-686"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="1000"/>
+		<set name="hitTime" value="4200"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15266" levels="1" name="Lindvior's Skill 6">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="17000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15267" levels="1" name="Cyclone">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-867"/>
+		<set name="icon" value="icon.skill10263"/>
+		<set name="hitTime" value="100"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15268" levels="1" name="Cyclone">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-867"/>
+		<set name="icon" value="icon.skill10263"/>
+		<set name="hitTime" value="100"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15269" levels="1" name="Lindvior's Wrath">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="8000"/>
+		<set name="hitTime" value="15000"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="29987"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15270" levels="1" name="Lindvior's Mass Yoke">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-707"/>
+		<set name="icon" value="icon.skill1042"/>
+		<set name="hitTime" value="2000"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15271" levels="1" name="Body Slam">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-574"/>
+		<set name="icon" value="icon.skill0100"/>
+		<set name="coolTime" value="1000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="2500"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15272" levels="1" name="Wind Breath">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-574"/>
+		<set name="icon" value="icon.skill10549"/>
+		<set name="coolTime" value="3000"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="2500"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15273" levels="1" name="Tail Swipe">
+		<set name="effectPoint" value="-574"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="coolTime" value="1500"/>
+		<set name="hitTime" value="2500"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15274" levels="1" name="Mighty Wind Strike">
+		<set name="effectPoint" value="-707"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="1800"/>
+		<set name="hitTime" value="2500"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15275" levels="1" name="Tornado">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-867"/>
+		<set name="icon" value="icon.skill10263"/>
+		<set name="coolTime" value="2000"/>
+		<set name="hitTime" value="7000"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15276" levels="1" name="Bleed">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-574"/>
+		<set name="icon" value="icon.skill0096"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1500"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15277" levels="1" name="Knock Back">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-574"/>
+		<set name="icon" value="icon.skill10549"/>
+		<set name="coolTime" value="100"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2000"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15278" levels="1" name="Hold">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-574"/>
+		<set name="icon" value="icon.skill1042"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="2000"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15279" levels="1" name="Soar">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="5000"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15280" levels="1" name="Lindvior's Berserk">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="700"/>
+		<set name="element" value="0"/>
+		<set name="elementPower" value="180"/>
+		<set name="magicLvl" value="99"/>
+		<set name="operate_type" value="A2"/>
+		<set name="power" value="2545"/>
+		<set name="affect_range" value="5000"/>
+		<set name="skillType" value="MDAM"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_AREA"/>
+	</skill>
+	<skill id="15281" levels="1" name="Lindvior's Skill 21">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="1100"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15282" levels="1" name="Lindvior's Skill 22">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="hitTime" value="17000"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15283" levels="1" name="Summon Jacquard">
+		<set name="icon" value="icon.skill15283"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15284" levels="1" name="Summon Brakel">
+		<set name="icon" value="icon.skill15284"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15285" levels="1" name="Summon Loken">
+		<set name="icon" value="icon.skill15285"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15286" levels="1" name="Blood Siphon Master">
+		<set name="effectPoint" value="-143"/>
+		<set name="icon" value="icon.skill1147"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15287" levels="1" name="Twister">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0100"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="200"/>
+		<set name="hitTime" value="2500"/>
+		<set name="mp_consume" value="10"/>
+		<set name="lv_bonus_rate" value="1"/>
+		<set name="trait" value="SHOCK"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="RANGE"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15288" levels="1" name="Increase Recovery Rate">
+		<set name="icon" value="icon.skill1044"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15289" levels="1" name="Decrease Atk. Spd.">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-687"/>
+		<set name="icon" value="icon.skill11509"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="300"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15290" levels="1" name="Decrease Casting Spd.">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-687"/>
+		<set name="icon" value="icon.skill11509"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="300"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="ENEMY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15291" levels="1" name="Bleed">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0096"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="lv_bonus_rate" value="2"/>
+		<set name="subordination_abnormal" value="bleeding"/>
+		<set name="trait" value="BLEED"/>
+		<set name="target_type" value="ENEMY_ONLY"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15292" levels="1" name="Logan's Revenge">
+		<set name="icon" value="icon.skill0168"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="15293" levels="1" name="Logan's Revenge">
+		<set name="effectPoint" value="867"/>
+		<set name="icon" value="icon.skill11758"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15294" levels="1" name="Logan's Revenge">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15295" levels="1" name="Logan's Revenge">
+		<set name="icon" value="icon.skill0168"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="15296" levels="1" name="Logan's Revenge">
+		<set name="effectPoint" value="867"/>
+		<set name="icon" value="icon.skill11758"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15297" levels="1" name="Logan's Mistake">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15298" levels="1" name="Logan's Token of Gratitude">
+		<set name="icon" value="icon.skill1044"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="POINT_BLANK"/>
+		<set name="affect_object" value="NOT_FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="15299" levels="1" name="Blood Siphon Energy">
+		<set name="effectPoint" value="285"/>
+		<set name="icon" value="icon.skill1268"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="hitTime" value="1000"/>
+		<set name="mp_consume" value="10"/>
+		<set name="target_type" value="SELF"/>
+		<set name="affect_scope" value="SINGLE"/>
+		<set name="affect_object" value="FRIEND"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTDONE"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>

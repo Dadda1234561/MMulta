@@ -1,0 +1,2652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "npc.dtd">
+<list>
+	<npc id="20403" name="Hunter Tarantula" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="25.5"/>
+		<set name="collision_radius" value="26"/>
+		<set name="level" value="16"/>
+		<set name="rewardExp" value="172"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="264.34345"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="157.6"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="32.16396"/>
+		<set name="basePDef" value="76.08628"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="21.96382"/>
+		<set name="baseMDef" value="55.67663"/>
+		<set name="baseWalkSpd" value="72"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.26"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="12" max="28" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bugs-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20410" name="Scavenger Spider" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="25.5"/>
+		<set name="collision_radius" value="26"/>
+		<set name="level" value="15"/>
+		<set name="rewardExp" value="164"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="246.95422"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="149.2"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="29.61691"/>
+		<set name="basePDef" value="73.55216"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="20.22451"/>
+		<set name="baseMDef" value="53.82228"/>
+		<set name="baseWalkSpd" value="72"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.26"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="12" max="27" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bugs-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20412" name="Susceptor" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="35.0;41.5"/>
+		<set name="collision_radius" value="20.0;25"/>
+		<set name="level" value="49"/>
+		<set name="rewardExp" value="3492"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="258"/>
+		<set name="baseHpMax" value="1372.18568"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="5.5"/>
+		<set name="baseMpMax" value="720"/>
+		<set name="baseMpReg" value="2.1"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="290.44588"/>
+		<set name="basePDef" value="195.66302"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="198.33688"/>
+		<set name="baseMDef" value="143.17771"/>
+		<set name="baseWalkSpd" value="27"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.43"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magical Creatures-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4001" level="4" use_type="DDMagic"/>	<!--Gust-->
+		</skills>
+	</npc>
+	<npc id="20422" name="Akaste Skeleton Prefect" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="25.0;31"/>
+		<set name="collision_radius" value="11.0;13"/>
+		<set name="level" value="17"/>
+		<set name="rewardExp" value="920"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="282.57403"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="166.08"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="34.8979"/>
+		<set name="basePDef" value="78.68469"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="23.83074"/>
+		<set name="baseMDef" value="57.57804"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="39.342345"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.3"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="skeleton_clan" range="300"/>
+		<equip>
+			<rhand item_id="2"/>	<!--Long Sword-->
+			<lhand item_id="18"/>	<!--Leather Shield-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4075" level="1" use_type="PhysicalSpecial"/>	<!--Stun-->
+		</skills>
+	</npc>
+	<npc id="20423" name="Akaste Skeleton Archer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="27"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="14"/>
+		<set name="rewardExp" value="643"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="230.38548"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="140.88"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="27.24646"/>
+		<set name="basePDef" value="71.08179"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="18.6058"/>
+		<set name="baseMDef" value="52.01457"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.8"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="skeleton_clan" range="300"/>
+		<equip>
+			<rhand item_id="275"/>	<!--Longbow-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="9"/>	<!--Bow-->
+		</skills>
+	</npc>
+	<npc id="20425" name="Akaste Skeleton Warrior" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="25.0;31"/>
+		<set name="collision_radius" value="11.0;13"/>
+		<set name="level" value="12"/>
+		<set name="rewardExp" value="546"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="199.62322"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="124.48"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="22.99606"/>
+		<set name="basePDef" value="66.32989"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="15.70333"/>
+		<set name="baseMDef" value="48.53733"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.3"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="skeleton_clan" range="300"/>
+		<equip>
+			<rhand item_id="946"/>	<!--Skeleton Dagger-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Dagger-->
+		</skills>
+	</npc>
+	<npc id="20426" name="Eye of Seer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="43"/>
+		<set name="collision_radius" value="21"/>
+		<set name="level" value="10"/>
+		<set name="rewardExp" value="356"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="12"/>
+		<set name="baseHpMax" value="163.28607"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseMpMax" value="108.4"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="19.33758"/>
+		<set name="basePDef" value="61.82527"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="13.20506"/>
+		<set name="baseMDef" value="45.24105"/>
+		<set name="baseWalkSpd" value="90"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.3"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magical Creatures-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4276" level="1"/>	<!--Bow/ Crossbow Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4151" level="1" use_type="W_LongRangeDDMagic"/>	<!--Wind Strike-->
+			<skill id="4160" level="1" use_type="W_ShortRangeDDMagic"/>	<!--Aura Burn-->
+		</skills>
+	</npc>
+	<npc id="20428" name="Evil Eye Patrol" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="43"/>
+		<set name="collision_radius" value="21"/>
+		<set name="level" value="14"/>
+		<set name="rewardExp" value="498"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="19"/>
+		<set name="baseHpMax" value="230.38548"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="140.88"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="27.24646"/>
+		<set name="basePDef" value="71.08179"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="18.6058"/>
+		<set name="baseMDef" value="52.01457"/>
+		<set name="baseWalkSpd" value="90"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.3"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magical Creatures-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4276" level="1"/>	<!--Bow/ Crossbow Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4151" level="1" use_type="W_LongRangeDDMagic"/>	<!--Wind Strike-->
+			<skill id="4160" level="1" use_type="W_ShortRangeDDMagic"/>	<!--Aura Burn-->
+		</skills>
+	</npc>
+	<npc id="20435" name="Opal Beast" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="14.5;18"/>
+		<set name="collision_radius" value="14.0;17"/>
+		<set name="level" value="15"/>
+		<set name="rewardExp" value="675"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="246.95422"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="149.2"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="29.61691"/>
+		<set name="basePDef" value="73.55216"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="20.22451"/>
+		<set name="baseMDef" value="53.82228"/>
+		<set name="baseWalkSpd" value="30"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.24"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="3"/>	<!--Beasts-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20436" name="Ol Mahum Supplier" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="29.2"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="23"/>
+		<set name="rewardExp" value="1054"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="50"/>
+		<set name="baseHpMax" value="410.70422"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="3.5"/>
+		<set name="baseMpMax" value="231.96"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="55.84125"/>
+		<set name="basePDef" value="95.64976"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="38.13234"/>
+		<set name="baseMDef" value="69.99234"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="47.82488"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.46"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="ol_mahum_clan" range="300"/>
+		<equip>
+			<rhand item_id="2"/>	<!--Long Sword-->
+			<lhand item_id="19"/>	<!--Small Shield-->
+		</equip>
+
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="10"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20437" name="Ol Mahum Recruit" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="25"/>
+		<set name="collision_radius" value="13.5"/>
+		<set name="level" value="21"/>
+		<set name="rewardExp" value="917"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="42"/>
+		<set name="baseHpMax" value="364.30351"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="3.5"/>
+		<set name="baseMpMax" value="205.2"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="47.91924"/>
+		<set name="basePDef" value="89.73059"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="32.72263"/>
+		<set name="baseMDef" value="65.66095"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="44.865295"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.46"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="ol_mahum_clan" range="300"/>
+		<equip>
+			<rhand item_id="68"/>	<!--Falchion-->
+			<lhand item_id="19"/>	<!--Small Shield-->
+		</equip>
+
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="10"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20438" name="Ol Mahum General" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="OlMahumGeneral"/>
+		<set name="collision_height" value="27.0;32"/>
+		<set name="collision_radius" value="14.0;16"/>
+		<set name="level" value="26"/>
+		<set name="rewardExp" value="1293"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="65"/>
+		<set name="baseHpMax" value="487.5704"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="3.5"/>
+		<set name="baseMpMax" value="273"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="69.75926"/>
+		<set name="basePDef" value="105.02818"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="47.63653"/>
+		<set name="baseMDef" value="76.85506"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="52.51409"/>
+		<set name="baseShldRate" value="20"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.63"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="ol_mahum_clan" range="300"/>
+		<equip>
+			<rhand item_id="67"/>	<!--Orcish Sword-->
+			<lhand item_id="102"/>	<!--Round Shield-->
+		</equip>
+
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="10"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20439" name="Ol Mahum Sergeant" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="25"/>
+		<set name="collision_radius" value="13.5"/>
+		<set name="level" value="24"/>
+		<set name="rewardExp" value="1122"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="55"/>
+		<set name="baseHpMax" value="435.34437"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="3.5"/>
+		<set name="baseMpMax" value="245.52"/>
+		<set name="baseMpReg" value="1.5"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="60.19687"/>
+		<set name="basePDef" value="98.70919"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="41.10666"/>
+		<set name="baseMDef" value="72.2311"/>
+		<set name="baseWalkSpd" value="50"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.46"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="ol_mahum_clan" range="300"/>
+		<equip>
+			<rhand item_id="66"/>	<!--Gladius-->
+		</equip>
+
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="10"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20446" name="Utuku Orc" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="21"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="6"/>
+		<set name="rewardExp" value="321"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="93.54158"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseMpMax" value="77.2"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="10"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="13.52471"/>
+		<set name="basePDef" value="53.53373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="9.23562"/>
+		<set name="baseMDef" value="39.17366"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="20"/>
+		<set name="baseAttackType" value="BLUNT"/>
+		<set name="basePHitModify" value="9"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="156"/>	<!--Hand Axe-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="4" max="9" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="5"/>	<!--Blunt Weapon-->
+		</skills>
+	</npc>
+	<npc id="20447" name="Utuku Orc Archer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="25"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="8"/>
+		<set name="rewardExp" value="88"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="124.92828"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseMpMax" value="92.64"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="16.20165"/>
+		<set name="basePDef" value="57.56203"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="11.06363"/>
+		<set name="baseMDef" value="42.1214"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.8"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="14"/>	<!--Bow-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="6" max="15" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="9"/>	<!--Bow-->
+		</skills>
+	</npc>
+	<npc id="20448" name="Utuku Orc Soldier" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="21"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="7"/>
+		<set name="rewardExp" value="375"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="108.42254"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseMpMax" value="84.88"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="14.80956"/>
+		<set name="basePDef" value="55.51894"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="10.11301"/>
+		<set name="baseMDef" value="40.62635"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="3"/>	<!--Broadsword-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="5" max="11" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20449" name="Will-O-Wisp" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="13"/>
+		<set name="level" value="15"/>
+		<set name="rewardExp" value="800"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="246.95422"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="149.2"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="29.61691"/>
+		<set name="basePDef" value="73.55216"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="20.22451"/>
+		<set name="baseMDef" value="53.82228"/>
+		<set name="baseWalkSpd" value="25"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.1"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magical Creatures-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4033" level="1" use_type="SelfRangeDDMagic"/>	<!--Aura Burn-->
+		</skills>
+	</npc>
+	<npc id="20460" name="Crimson Spider" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="25.5"/>
+		<set name="collision_radius" value="26"/>
+		<set name="level" value="15"/>
+		<set name="rewardExp" value="164"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="246.95422"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="149.2"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="29.61691"/>
+		<set name="basePDef" value="73.55216"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="20.22451"/>
+		<set name="baseMDef" value="53.82228"/>
+		<set name="baseWalkSpd" value="72"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.26"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="12" max="27" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bugs-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20463" name="Dungeon Skeleton Archer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="27"/>
+		<set name="collision_radius" value="11"/>
+		<set name="level" value="13"/>
+		<set name="rewardExp" value="596"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="214.61578"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="132.64"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="25.04271"/>
+		<set name="basePDef" value="68.67458"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="17.10092"/>
+		<set name="baseMDef" value="50.25308"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.8"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="skeleton_clan" range="300"/>
+		<equip>
+			<rhand item_id="275"/>	<!--Longbow-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="9"/>	<!--Bow-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="11" max="25" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="20464" name="Dungeon Skeleton Soldier" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="25.0;31"/>
+		<set name="collision_radius" value="11.0;13"/>
+		<set name="level" value="12"/>
+		<set name="rewardExp" value="546"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="199.62322"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="124.48"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="22.99606"/>
+		<set name="basePDef" value="66.32989"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="15.70333"/>
+		<set name="baseMDef" value="48.53733"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.3"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="skeleton_clan" range="300"/>
+		<equip>
+			<rhand item_id="946"/>	<!--Skeleton Dagger-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="1"/>	<!--Undead-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4274" level="1"/>	<!--Blunt Weapon Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Dagger-->
+		</skills>
+		<database_rewardlist>
+			<reward item_id="57" min="11" max="25" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+	</npc>
+	<npc id="20466" name="Pincer Spider" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="25.5"/>
+		<set name="collision_radius" value="26"/>
+		<set name="level" value="17"/>
+		<set name="rewardExp" value="186"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="282.57403"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="166.08"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="34.8979"/>
+		<set name="basePDef" value="78.68469"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="23.83074"/>
+		<set name="baseMDef" value="57.57804"/>
+		<set name="baseWalkSpd" value="72"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.26"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="12" max="29" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bugs-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20469" name="Kaboo Orc Archer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Ranger"/>
+		<set name="collision_height" value="25"/>
+		<set name="collision_radius" value="14"/>
+		<set name="level" value="8"/>
+		<set name="rewardExp" value="88"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="124.92828"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseMpMax" value="92.64"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="16.20165"/>
+		<set name="basePDef" value="57.56203"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="11.06363"/>
+		<set name="baseMDef" value="42.1214"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.8"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="14"/>	<!--Bow-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="6" max="15" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="9"/>	<!--Bow-->
+		</skills>
+	</npc>
+	<npc id="20470" name="Kaboo Orc Soldier" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="21"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="7"/>
+		<set name="rewardExp" value="75"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="108.42254"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseMpMax" value="84.88"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="14.80956"/>
+		<set name="basePDef" value="55.51894"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="10.11301"/>
+		<set name="baseMDef" value="40.62635"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="3"/>	<!--Broadsword-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="5" max="11" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20471" name="Kaboo Orc Warrior" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22.0;26.4"/>
+		<set name="collision_radius" value="12.0;14"/>
+		<set name="level" value="10"/>
+		<set name="rewardExp" value="110"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="163.28607"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseMpMax" value="108.4"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="19.33758"/>
+		<set name="basePDef" value="61.82527"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="13.20506"/>
+		<set name="baseMDef" value="45.24105"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.46"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="2"/>	<!--Long Sword-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="9" max="21" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20472" name="Kaboo Orc Warrior Captain " title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22.0;26.4"/>
+		<set name="collision_radius" value="12.0;14"/>
+		<set name="level" value="12"/>
+		<set name="rewardExp" value="131"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="199.62322"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="124.48"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="22.99606"/>
+		<set name="basePDef" value="66.32989"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="15.70333"/>
+		<set name="baseMDef" value="48.53733"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.46"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="2"/>	<!--Long Sword-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="11" max="25" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20473" name="Kaboo Orc Warrior Lieutenant" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="22.0;26.4"/>
+		<set name="collision_radius" value="12.0;14"/>
+		<set name="level" value="11"/>
+		<set name="rewardExp" value="118"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="185.38552"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="116.4"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="21.0973"/>
+		<set name="basePDef" value="64.04702"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="14.40672"/>
+		<set name="baseMDef" value="46.86683"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.46"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="2"/>	<!--Long Sword-->
+		</equip>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="10" max="24" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20474" name="Kasha Spider" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="25.5"/>
+		<set name="collision_radius" value="26"/>
+		<set name="level" value="15"/>
+		<set name="rewardExp" value="534"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="22"/>
+		<set name="baseHpMax" value="246.95422"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="149.2"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="29.61691"/>
+		<set name="basePDef" value="73.55216"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="20.22451"/>
+		<set name="baseMDef" value="53.82228"/>
+		<set name="baseWalkSpd" value="72"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.26"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bugs-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20475" name="Kasha Wolf" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="9"/>
+		<set name="collision_radius" value="13"/>
+		<set name="level" value="4"/>
+		<set name="rewardExp" value="141"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="4"/>
+		<set name="baseHpMax" value="68.20985"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseMpMax" value="62.08"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="11.24892"/>
+		<set name="basePDef" value="49.73343"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="7.68155"/>
+		<set name="baseMDef" value="36.39277"/>
+		<set name="baseWalkSpd" value="24"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.39"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+
+		<client_skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20476" name="Kasha Fang Spider" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="25.5"/>
+		<set name="collision_radius" value="26"/>
+		<set name="level" value="16"/>
+		<set name="rewardExp" value="570"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="23"/>
+		<set name="baseHpMax" value="264.34345"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="157.6"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="32.16396"/>
+		<set name="basePDef" value="76.08628"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="21.96382"/>
+		<set name="baseMDef" value="55.67663"/>
+		<set name="baseWalkSpd" value="72"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.26"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bugs-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20477" name="Kasha Forest Wolf" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="10.8"/>
+		<set name="collision_radius" value="13"/>
+		<set name="level" value="6"/>
+		<set name="rewardExp" value="211"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="6"/>
+		<set name="baseHpMax" value="93.54158"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseMpMax" value="77.2"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="13.52471"/>
+		<set name="basePDef" value="53.53373"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="9.23562"/>
+		<set name="baseMDef" value="39.17366"/>
+		<set name="baseWalkSpd" value="24"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.39"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+
+		<client_skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4410" level="11"/>	<!--Average P. Atk.-->
+			<skill id="4411" level="11"/>	<!--Average M. Atk.-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20478" name="Kasha Blade Spider" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="25.5"/>
+		<set name="collision_radius" value="26"/>
+		<set name="level" value="17"/>
+		<set name="rewardExp" value="666"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="28"/>
+		<set name="baseHpMax" value="282.57403"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="166.08"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="34.8979"/>
+		<set name="basePDef" value="78.68469"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="23.83074"/>
+		<set name="baseMDef" value="57.57804"/>
+		<set name="baseWalkSpd" value="72"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.26"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+
+		<client_skills>
+			<skill id="4416" level="12"/>	<!--Bugs-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4035" level="1" use_type="DeBuff"/>	<!--Poison-->
+		</skills>
+	</npc>
+	<npc id="20479" name="Kasha Bear" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="50"/>
+		<set name="collision_radius" value="21"/>
+		<set name="level" value="15"/>
+		<set name="rewardExp" value="539"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="22"/>
+		<set name="baseHpMax" value="246.95422"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="149.2"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="29.61691"/>
+		<set name="basePDef" value="73.55216"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="20.22451"/>
+		<set name="baseMDef" value="53.82228"/>
+		<set name="baseWalkSpd" value="40"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.34"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+
+		<client_skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20480" name="Blade Bat" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="33.5"/>
+		<set name="collision_radius" value="10"/>
+		<set name="level" value="10"/>
+		<set name="rewardExp" value="107"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="163.28607"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2"/>
+		<set name="baseMpMax" value="108.4"/>
+		<set name="baseMpReg" value="0.9"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="19.33758"/>
+		<set name="basePDef" value="61.82527"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="13.20506"/>
+		<set name="baseMDef" value="45.24105"/>
+		<set name="baseWalkSpd" value="60"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.5"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<database_rewardlist>
+			<reward item_id="57" min="9" max="21" chance="70"/>	<!--Adena (Адена)-->
+		</database_rewardlist>
+
+		<client_skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+			<skill id="4410" level="12"/>	<!--Slightly Strong P. Atk.-->
+			<skill id="4411" level="12"/>	<!--Slightly Strong M. Atk.-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+			<skill id="4276" level="1"/>	<!--Bow/ Crossbow Vulnerability-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20483" name="Deadman’s Lamp" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Mystic"/>
+		<set name="collision_height" value="22"/>
+		<set name="collision_radius" value="13"/>
+		<set name="level" value="17"/>
+		<set name="rewardExp" value="907"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="1"/>
+		<set name="baseHpMax" value="282.57403"/>
+		<set name="baseHpRate" value="1"/>
+		<set name="baseHpReg" value="2.5"/>
+		<set name="baseMpMax" value="166.08"/>
+		<set name="baseMpReg" value="1.2"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="34.8979"/>
+		<set name="basePDef" value="78.68469"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="23.83074"/>
+		<set name="baseMDef" value="57.57804"/>
+		<set name="baseWalkSpd" value="25"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.1"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="-1" range="300"/>
+		<ai_params>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="2"/>	<!--Magical Creatures-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="1"/>	<!--HP Increase (1x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4033" level="1" use_type="SelfRangeDDMagic"/>	<!--Aura Burn-->
+		</skills>
+	</npc>
+	<npc id="20494" name="Turek War Hound" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="18.5"/>
+		<set name="collision_radius" value="19.5"/>
+		<set name="level" value="31"/>
+		<set name="rewardExp" value="1045"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="635.76437"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="4.5"/>
+		<set name="baseMpMax" value="343.8"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="121.20802"/>
+		<set name="basePDef" value="132.9486"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="82.76936"/>
+		<set name="baseMDef" value="97.28601"/>
+		<set name="baseWalkSpd" value="24"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.39"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="4"/>	<!--Animals-->
+			<skill id="4412" level="10"/>	<!--Slightly Weak P. Def.-->
+			<skill id="4413" level="10"/>	<!--Slightly Weak M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="10"/>	<!--HP Increase (2x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+	</npc>
+	<npc id="20495" name="Turek Orc Prefect" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="35.0;27.6"/>
+		<set name="collision_radius" value="17.0;12"/>
+		<set name="level" value="39"/>
+		<set name="rewardExp" value="1692"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="925.85879"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="4.5"/>
+		<set name="baseMpMax" value="463.32"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="166.06476"/>
+		<set name="basePDef" value="152.46752"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="113.4007"/>
+		<set name="baseMDef" value="111.56912"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.76"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="127"/>	<!--Crimson Sword-->
+		</equip>
+
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="9"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="9"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="10"/>	<!--HP Increase (2x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+			<skill id="4318" level="1" use_type="SpecialSkill"/>	<!--Ultimate Buff-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<reward item_id="57" min="476" max="952" chance="100"/>	<!--Adena-->
+			</group>
+			<group chance="0.5268">
+				<reward item_id="69" min="1" max="1" chance="2.8343"/>	<!--Bastard Sword-->
+				<reward item_id="125" min="1" max="1" chance="2.8343"/>	<!--Spinebone Sword-->
+				<reward item_id="2021" min="1" max="1" chance="88.6626"/>	<!--Spinebone Sword Blade-->
+				<reward item_id="126" min="1" max="1" chance="2.8343"/>	<!--Artisan's Sword-->
+				<reward item_id="128" min="1" max="1" chance="2.8345"/>	<!--Knight's Sword-->
+			</group>
+			<group chance="23.7456">
+				<reward item_id="1875" min="1" max="1" chance="5.7699"/>	<!--Stone of Purity-->
+				<reward item_id="1879" min="1" max="1" chance="14.4247"/>	<!--Cokes-->
+				<reward item_id="1885" min="1" max="1" chance="7.2123"/>	<!--High-Grade Suede-->
+				<reward item_id="5550" min="1" max="1" chance="1.154"/>	<!--Durable Metal Plate-->
+				<reward item_id="5549" min="1" max="1" chance="8.6548"/>	<!--Metallic Thread-->
+				<reward item_id="955" min="1" max="1" chance="0.3462"/>	<!--Scroll: Enchant Weapon (D-Grade)-->
+				<reward item_id="2274" min="1" max="1" chance="0.6182"/>	<!--Recipe: Skull Breaker-->
+				<reward item_id="2975" min="1" max="1" chance="7.7275"/>	<!--Recipe: Brigandine Helmet-->
+				<reward item_id="1884" min="1" max="1" chance="54.0924"/>	<!--Cord-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="2267" min="1" max="1" chance="3.5004"/>	<!--Recipe: Gastraphetes-->
+			<reward item_id="1936" min="1" max="1" chance="27.6984"/>	<!--White Tunic Pattern-->
+			<reward item_id="1900" min="1" max="1" chance="37.0323"/>	<!--Enchanted Necklace Chain-->
+		</rewardlist>
+	</npc>
+	<npc id="20496" name="Turek Orc Archer" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="40"/>
+		<set name="collision_radius" value="16"/>
+		<set name="level" value="36"/>
+		<set name="rewardExp" value="1378"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="809.52639"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="4.5"/>
+		<set name="baseMpMax" value="417.6"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="137.86467"/>
+		<set name="basePDef" value="140.57278"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="94.1437"/>
+		<set name="baseMDef" value="102.86506"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="1100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="BOW"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.8"/>
+		<set name="baseReuseDelay" value="1500"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="400"/>
+		<equip>
+			<rhand item_id="14"/>	<!--Bow-->
+		</equip>
+		<ai_params>
+			<set name="LongRangeGuardRate" value="5"/>
+			<set name="unsowing" value="false"/>
+		</ai_params>
+
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="3"/>	<!--Extremely Weak P. Atk.-->
+			<skill id="4411" level="3"/>	<!--Extremely Weak M. Atk.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="10"/>	<!--HP Increase (2x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="9"/>	<!--Bow-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<reward item_id="57" min="386" max="743" chance="100"/>	<!--Adena-->
+			</group>
+			<group chance="0.0954">
+				<reward item_id="274" min="1" max="1" chance="100"/>	<!--Reinforced Bow-->
+			</group>
+			<group chance="36.7539">
+				<reward item_id="1876" min="1" max="1" chance="11.6885"/>	<!--Mithril Ore-->
+				<reward item_id="1880" min="1" max="1" chance="5.8443"/>	<!--Steel-->
+				<reward item_id="1877" min="1" max="1" chance="2.3377"/>	<!--Adamantite Nugget-->
+				<reward item_id="1881" min="1" max="1" chance="7.7923"/>	<!--Coarse Bone Powder-->
+				<reward item_id="1882" min="1" max="1" chance="12.9872"/>	<!--Leather-->
+				<reward item_id="2260" min="1" max="1" chance="0.9075"/>	<!--Recipe: Mace of Judgment-->
+				<reward item_id="1870" min="1" max="1" chance="58.4425"/>	<!--Coal-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1885" min="1" max="1" chance="22.326"/>	<!--High-Grade Suede-->
+			<reward item_id="465" min="1" max="1" chance="1.7802"/>	<!--Cursed Stockings-->
+			<reward item_id="2152" min="1" max="1" chance="47.1672"/>	<!--Recipe: Enchanted Necklace-->
+		</rewardlist>
+	</npc>
+	<npc id="20497" name="Turek Orc Skirmisher" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="33.0;26.4"/>
+		<set name="collision_radius" value="15.0;14"/>
+		<set name="level" value="37"/>
+		<set name="rewardExp" value="1405"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="847.31754"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="4.5"/>
+		<set name="baseMpMax" value="432.72"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="146.82587"/>
+		<set name="basePDef" value="144.47758"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="100.26304"/>
+		<set name="baseMDef" value="105.72243"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.46"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="450"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="121"/>	<!--Sword of Watershadow-->
+		</equip>
+
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="9"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="9"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="10"/>	<!--HP Increase (2x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<reward item_id="57" min="395" max="773" chance="100"/>	<!--Adena-->
+			</group>
+			<group chance="0.8364">
+				<reward item_id="391" min="1" max="1" chance="38.4419"/>	<!--Puma Skin Shirt-->
+				<reward item_id="413" min="1" max="1" chance="61.5581"/>	<!--Puma Skin Gaiters-->
+			</group>
+			<group chance="31.1058">
+				<reward item_id="1874" min="1" max="1" chance="5.536"/>	<!--Oriharukon Ore-->
+				<reward item_id="1878" min="1" max="1" chance="33.2158"/>	<!--Braided Hemp-->
+				<reward item_id="1884" min="1" max="1" chance="51.1012"/>	<!--Cord-->
+				<reward item_id="1889" min="1" max="1" chance="5.536"/>	<!--Compound Braid-->
+				<reward item_id="5220" min="1" max="1" chance="3.3216"/>	<!--Metal Hardener-->
+				<reward item_id="2261" min="1" max="1" chance="1.2894"/>	<!--Recipe: Conjuror's Staff-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="2259" min="1" max="1" chance="4.2879"/>	<!--Recipe: Spinebone Sword-->
+			<reward item_id="2018" min="1" max="1" chance="3.6696"/>	<!--Assassin Knife Edge-->
+			<reward item_id="1899" min="1" max="1" chance="43.1475"/>	<!--Necklace of Devotion Chain-->
+		</rewardlist>
+	</npc>
+	<npc id="20498" name="Turek Orc Supplier" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="33.0;26.4"/>
+		<set name="collision_radius" value="15.0;14"/>
+		<set name="level" value="34"/>
+		<set name="rewardExp" value="1182"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="736.96177"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="4.5"/>
+		<set name="baseMpMax" value="387.72"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="80"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="137.86467"/>
+		<set name="basePDef" value="140.57278"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="94.1437"/>
+		<set name="baseMDef" value="102.86506"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="5"/>
+		<set name="baseAttackType" value="DAGGER"/>
+		<set name="basePHitModify" value="0"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.46"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="11"/>	<!--Bone Dagger-->
+		</equip>
+
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="9"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="9"/>	<!--Slightly Weak M. Atk.-->
+			<skill id="4412" level="12"/>	<!--Slightly Strong P. Def.-->
+			<skill id="4413" level="12"/>	<!--Slightly Strong M. Def.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="10"/>	<!--HP Increase (2x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="7"/>	<!--Dagger-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<reward item_id="57" min="371" max="714" chance="100"/>	<!--Adena-->
+			</group>
+			<group chance="8.6181">
+				<reward item_id="626" min="1" max="1" chance="6.6164"/>	<!--Bronze Shield-->
+				<reward item_id="45" min="1" max="1" chance="4.6397"/>	<!--Bone Helmet-->
+				<reward item_id="1932" min="1" max="1" chance="88.7439"/>	<!--Bone Helmet Design-->
+			</group>
+			<group chance="10.7334">
+				<reward item_id="1875" min="1" max="1" chance="14.9635"/>	<!--Stone of Purity-->
+				<reward item_id="1879" min="1" max="1" chance="37.4088"/>	<!--Cokes-->
+				<reward item_id="1885" min="1" max="1" chance="18.7044"/>	<!--High-Grade Suede-->
+				<reward item_id="5550" min="1" max="1" chance="2.9927"/>	<!--Durable Metal Plate-->
+				<reward item_id="5549" min="1" max="1" chance="22.4453"/>	<!--Metallic Thread-->
+				<reward item_id="2261" min="1" max="1" chance="3.4853"/>	<!--Recipe: Conjuror's Staff-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="2262" min="1" max="1" chance="3.9993"/>	<!--Recipe: Elven Bow-->
+			<reward item_id="3953" min="1" max="1" chance="10.3023"/>	<!--Recipe: Blessed Spiritshot D-->
+			<reward item_id="1885" min="1" max="1" chance="21.4632"/>	<!--High-Grade Suede-->
+		</rewardlist>
+	</npc>
+	<npc id="20499" name="Turek Orc Footman" title="">
+		<set name="type" value="Monster"/>
+		<set name="ai_type" value="Fighter"/>
+		<set name="collision_height" value="33"/>
+		<set name="collision_radius" value="15"/>
+		<set name="level" value="32"/>
+		<set name="rewardExp" value="1072"/>
+		<set name="rewardRp" value="0"/>
+		<set name="rewardSp" value="0"/>
+		<set name="baseHpMax" value="668.47132"/>
+		<set name="baseHpRate" value="2"/>
+		<set name="baseHpReg" value="4.5"/>
+		<set name="baseMpMax" value="358.32"/>
+		<set name="baseMpReg" value="1.8"/>
+		<set name="baseSTR" value="79"/>
+		<set name="baseCON" value="75"/>
+		<set name="baseDEX" value="42"/>
+		<set name="baseINT" value="34"/>
+		<set name="baseMEN" value="12"/>
+		<set name="baseWIT" value="66"/>
+		<set name="basePCritRate" value="40"/>
+		<set name="baseMCritRate" value="50"/>
+		<set name="basePAtk" value="129.32896"/>
+		<set name="basePDef" value="136.72948"/>
+		<set name="basePAtkSpd" value="253"/>
+		<set name="baseMAtk" value="88.31491"/>
+		<set name="baseMDef" value="100.0527"/>
+		<set name="baseWalkSpd" value="45"/>
+		<set name="baseRunSpd" value="440"/>
+		<set name="baseShldDef" value="0"/>
+		<set name="baseShldRate" value="0"/>
+		<set name="baseAtkRange" value="100"/>
+		<set name="baseRandDam" value="10"/>
+		<set name="baseAttackType" value="SWORD"/>
+		<set name="basePHitModify" value="5"/>
+		<set name="basePAvoidModify" value="0"/>
+		<set name="baseHitTimeFactor" value="0.48"/>
+		<set name="baseReuseDelay" value="0"/>
+		<set name="baseSafeHeight" value="100"/>
+		<set name="aggroRange" value="0"/>
+		<set name="shots" value="NONE"/>
+		<faction names="orc_clan" range="300"/>
+		<equip>
+			<rhand item_id="2"/>	<!--Long Sword-->
+		</equip>
+
+		<ai_params>
+			<set name="unsowing" value="false"/>
+			<set name="LongRangeGuardRate" value="5"/>
+		</ai_params>
+		<client_skills>
+			<skill id="4416" level="6"/>	<!--Humanoids-->
+			<skill id="4410" level="10"/>	<!--Slightly Weak P. Atk.-->
+			<skill id="4411" level="10"/>	<!--Slightly Weak M. Atk.-->
+		</client_skills>
+		<skills>
+			<skill id="4408" level="10"/>	<!--HP Increase (2x)-->
+			<skill id="4409" level="1"/>	<!--MP Increase (1x)-->
+			<skill id="4412" level="11"/>	<!--Average P. Def.-->
+			<skill id="4413" level="11"/>	<!--Average M. Def.-->
+			<skill id="4414" level="2"/>	<!--Standard Type-->
+			<skill id="4415" level="3"/>	<!--One-handed Sword-->
+		</skills>
+		<rewardlist type="RATED_GROUPED">
+			<group chance="70">
+				<reward item_id="57" min="357" max="682" chance="100"/>	<!--Adena-->
+			</group>
+			<group chance="9.9084">
+				<reward item_id="40" min="1" max="1" chance="4.3392"/>	<!--Leather Boots-->
+				<reward item_id="1931" min="1" max="1" chance="45.6608"/>	<!--Leather Boots Lining-->
+				<reward item_id="604" min="1" max="1" chance="4.3392"/>	<!--Crafted Leather Gloves-->
+				<reward item_id="1934" min="1" max="1" chance="45.6608"/>	<!--Crafted Leather Gloves Lining-->
+			</group>
+			<group chance="18.819">
+				<reward item_id="1876" min="1" max="1" chance="24.5217"/>	<!--Mithril Ore-->
+				<reward item_id="1880" min="1" max="1" chance="12.2609"/>	<!--Steel-->
+				<reward item_id="1877" min="1" max="1" chance="4.9043"/>	<!--Adamantite Nugget-->
+				<reward item_id="1881" min="1" max="1" chance="16.3478"/>	<!--Coarse Bone Powder-->
+				<reward item_id="1882" min="1" max="1" chance="27.2464"/>	<!--Leather-->
+				<reward item_id="2182" min="1" max="1" chance="14.7189"/>	<!--Recipe: Scale Gaiters-->
+			</group>
+		</rewardlist>
+		<rewardlist type="SWEEP">
+			<reward item_id="1870" min="2" max="2" chance="98.6813"/>	<!--Coal-->
+			<reward item_id="2017" min="1" max="1" chance="3.2781"/>	<!--Saber Blade-->
+			<reward item_id="1880" min="1" max="1" chance="24.6678"/>	<!--Steel-->
+		</rewardlist>
+	</npc>
+</list>

@@ -1,0 +1,535 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE list SYSTEM "armor_sets.dtd">
+<!--
+@pchayka
+id - порядковый номер сета (хранение, соответствует скриптам)
+Все прочие параметры могут быть указаны как массив строк, разделенных ";" - legs="2402;11378". 
+Уровень и ид скила разделяется "-"
+Если у сета нет части или умения, параметр указывать не нужно
+3006 скилл сета добавляется сервером, вносить сюда его не нужно
+ -->
+<list>
+	<!--NORMAL SETS-->
+	<!--No GRADE-->
+	<set chests="23;29358;70096" legs="2386;29364;70097" head="43;29446;70095">	<!--Wooden Breastplate Set (Light)-->
+		<set_skills parts="3" skills="3500-1"/>
+	</set>
+	<set chests="1101;29379;70099" legs="1104;29386;70100" head="44;29447;70098">	<!--Devotion Robe Set (Robe)-->
+		<set_skills parts="3" skills="3501-1"/>
+	</set>
+	<set chests="90308" legs="90309">	<!--Medium Set (Robe)-->
+		<set_skills parts="2" skills="6940-1"/>
+	</set>
+	<set chests="90306" legs="90307">	<!--Warrior Set (Light)-->
+		<set_skills parts="2" skills="6941-1"/>
+	</set>
+	<!--D GRADE-->
+	<set chests="58;29344" legs="59;29352" head="47;29450" shield="628" shield_skills="3543-1" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Mithril Breastplate Set(Heavy)-->
+		<set_skills parts="2" skills="3502-1"/>
+		<set_skills parts="3" skills="3502-2"/>
+	</set>
+	<set chests="352;29342" legs="2378;29348" head="2411;29449" shield="2493" shield_skills="3544-1" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Brigandine Armor Set(Heavy)-->
+		<set_skills parts="2" skills="3506-1"/>
+		<set_skills parts="3" skills="3506-2"/>
+	</set>
+	<set chests="353;29343" legs="380;29347" head="2412;29448" shield="2494" shield_skills="3543-1" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Half Plate Armor Set(Heavy)-->
+		<set_skills parts="2" skills="6938-1"/>
+		<set_skills parts="3" skills="6938-2"/>
+	</set>
+	<set chests="7851" feet="7853" head="7850" gloves="7852" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Moon Armor Set(Heavy)-->
+		<set_skills parts="4" skills="3605-1"/>
+	</set>
+	<set chests="394;29371" legs="416;29376" feet="2422;29439" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Reinforced leather Set (Light)-->
+		<set_skills parts="2" skills="3503-1"/>
+		<set_skills parts="3" skills="3503-2"/>
+	</set>
+	<set chests="396" gloves="607;29412" feet="2427" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Salamander Skin Mail (Light)-->
+		<set_skills parts="2" skills="6936-1"/>
+		<set_skills parts="3" skills="6936-2"/>
+	</set>
+	<set chests="395;29372" legs="417;29377" feet="2424;29434" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Manticore skin Set (Light)-->
+		<set_skills parts="2" skills="3505-1"/>
+		<set_skills parts="3" skills="3505-2"/>
+	</set>
+	<set chests="7854" feet="7856" head="7850" gloves="7855" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Moon Set (Light)-->
+		<set_skills parts="4" skills="3606-1"/>
+	</set>
+	<set chests="436;29396" legs="469;29403" gloves="2447;29419" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Tunic of knowledge Set (Robe)-->
+		<set_skills parts="2" skills="3504-1"/>
+		<set_skills parts="3" skills="3504-2"/>
+	</set>
+	<set chests="437;29397" legs="470;29404" gloves="2450;29414" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Mithril Tunic Set (Robe)-->
+		<set_skills parts="2" skills="6937-1"/>
+		<set_skills parts="3" skills="6937-2"/>
+	</set>
+	<set chests="2396;29391" legs="2401;29398" gloves="606;29417" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Mithril Magic Tunic Set (Robe)-->
+		<set_skills parts="2" skills="3507-1"/>
+		<set_skills parts="3" skills="3507-2"/>
+	</set>
+	<set chests="7857" head="7850" feet="7859" gloves="7858" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Moon Tunic Set (Robe)-->
+		<set_skills parts="4" skills="3607-1"/>
+	</set>
+	<!--C GRADE-->
+	<set chests="354" legs="381" head="2413" shield="2495" shield_skills="3545-1" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Chain Mail Shirt Set(Heavy)-->
+		<set_skills parts="2" skills="3509-1"/>
+		<set_skills parts="3" skills="3509-2"/>
+	</set>
+	<set chests="60" head="517" shield="107" shield_skills="3546-1" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Composite Armor Set(Heavy)-->
+		<set_skills parts="2" skills="3512-1"/>
+	</set>
+	<set chests="356" head="2414" shield="2497" shield_skills="3547-1" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Full Plate Armor Set(Heavy)-->
+		<set_skills parts="2" skills="3516-1"/>
+	</set>
+	<set chests="397" legs="2387" feet="62" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">		<!--Mithrill Shirt Set (Light)-->
+		<set_skills parts="2" skills="3508-1"/>
+		<set_skills parts="3" skills="3508-2"/>
+	</set>
+	<set chests="398" legs="418" feet="2431" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Plated Leather Set (Light)-->
+		<set_skills parts="2" skills="3511-1"/>
+		<set_skills parts="3" skills="3511-2"/>
+	</set>
+	<set chests="400" legs="420" feet="2436" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Theca Leather Set (Light)-->
+		<set_skills parts="2" skills="3514-1"/>
+		<set_skills parts="3" skills="3514-2"/>
+	</set>
+	<set chests="401" feet="2437" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Drake Leather Set (Light)-->
+		<set_skills parts="2" skills="3515-1"/>
+	</set>
+	<set chests="439" legs="471" gloves="2454" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Karmian Robe Set (Robe)-->
+		<set_skills parts="2" skills="3510-1"/>
+		<set_skills parts="3" skills="3510-2"/>
+	</set>
+	<set chests="441" legs="472" gloves="2459" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Demon Robe Set (Robe)-->
+		<set_skills parts="2" skills="3513-1"/>
+		<set_skills parts="3" skills="3513-2"/>
+	</set>
+	<set chests="442" legs="473" gloves="2463" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Divine Robe Set (Robe)-->
+		<set_skills parts="2" skills="3517-1"/>
+		<set_skills parts="3" skills="3517-2"/>
+	</set>
+	<!--B GRADE-->
+	<set chests="357" legs="383" head="90458" gloves="5710" feet="5726" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Zubei's Breastplate Set(Heavy)-->
+		<set_skills parts="2" skills="3518-1"/>
+		<set_skills parts="3" skills="3518-2"/>
+		<set_skills parts="4" skills="3518-3"/>
+		<set_skills parts="5" skills="3518-4"/>
+	</set>
+	<set chests="2376" legs="2379;11375" head="90455" gloves="5714;11365" feet="5730;11370" shield="673;11374;30945" shield_skills="3548-1" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Avadon Heavy Set(Heavy)-->
+		<set_skills parts="2" skills="3519-1"/>
+		<set_skills parts="3" skills="3519-2"/>
+		<set_skills parts="4" skills="3519-3"/>
+		<set_skills parts="5" skills="3519-4"/>
+	</set>
+	<set chests="358" legs="2380" head="90461" gloves="5718" feet="5734" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Blue Wolf's Breastplate Set(Heavy)-->
+		<set_skills parts="2" skills="3524-1"/>
+		<set_skills parts="3" skills="3524-2"/>
+		<set_skills parts="4" skills="3524-3"/>
+		<set_skills parts="5" skills="3524-4"/>
+	</set>
+	<set chests="2381" head="90464" gloves="5722;11379" feet="5738;11382" shield="110;11385;31426" shield_skills="3549-1" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Doom Plate Heavy Set(Heavy)-->
+		<set_skills parts="2" skills="3525-1"/>
+		<set_skills parts="3" skills="3525-2"/>
+		<set_skills parts="4" skills="3525-3"/>
+	</set>
+	<set chests="2384" legs="2388;11353" head="90459" gloves="5711;11357" feet="5727" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Zubei's Leather Set (Light)-->
+		<set_skills parts="2" skills="3520-1"/>
+		<set_skills parts="3" skills="3520-2"/>
+		<set_skills parts="4" skills="3520-3"/>
+		<set_skills parts="5" skills="3520-4"/>
+	</set>
+	<set chests="2390" head="90456" gloves="5715;11366" feet="5731;11371" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Avadon Leather Set (Light)-->
+		<set_skills parts="2" skills="3521-1"/>
+		<set_skills parts="3" skills="3521-2"/>
+		<set_skills parts="4" skills="3521-3"/>
+	</set>
+	<set chests="2391" head="90462" gloves="5719;11400" feet="5735;11397" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Blue Wolf Leather Set (Light)-->
+		<set_skills parts="2" skills="3526-1"/>
+		<set_skills parts="3" skills="3526-2"/>
+		<set_skills parts="4" skills="3526-3"/>
+	</set>
+	<set chests="2392" head="90465" gloves="5723;11380" feet="5739;11383" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Doom Leather Set (Light)-->
+		<set_skills parts="2" skills="3527-1"/>
+		<set_skills parts="3" skills="3527-2"/>
+		<set_skills parts="4" skills="3527-3"/>
+	</set>
+	<set chests="2397" legs="2402;11378" head="90460" gloves="5712;11358" feet="5728;11361" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Zubei Robe Set (Robe)-->
+		<set_skills parts="2" skills="3522-1"/>
+		<set_skills parts="3" skills="3522-2"/>
+		<set_skills parts="4" skills="3522-3"/>
+		<set_skills parts="5" skills="3522-4"/>
+	</set>
+	<set chests="2406" head="90457" gloves="5716;11367" feet="5732;11372" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Avadon Robe Set (Robe)-->
+		<set_skills parts="2" skills="3523-1"/>
+		<set_skills parts="3" skills="3523-2"/>
+		<set_skills parts="4" skills="3523-3"/>
+	</set>
+	<set chests="2398" legs="2403;11404" head="90463" gloves="5720;11401" feet="5736;11398" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Blue Wolf Robe Set (Robe)-->
+		<set_skills parts="2" skills="3528-1"/>
+		<set_skills parts="3" skills="3528-2"/>
+		<set_skills parts="4" skills="3528-3"/>
+		<set_skills parts="5" skills="3528-4"/>
+	</set>
+	<set chests="2399" legs="2404" head="90466" gloves="5724" feet="5740" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Doom Robe Set (Robe)-->
+		<set_skills parts="2" skills="3529-1"/>
+		<set_skills parts="3" skills="3529-2"/>
+		<set_skills parts="4" skills="3529-3"/>
+		<set_skills parts="5" skills="3529-4"/>
+	</set>
+	<!--A GRADE-->
+	<set chests="365" legs="388" head="90470" gloves="5765" feet="5777" shield="641" shield_skills="3550-1" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Dark Crystal Breastplate Set(Heavy)-->
+		<set_skills parts="2" skills="3530-1"/>
+		<set_skills parts="3" skills="3530-2"/>
+		<set_skills parts="4" skills="3530-3"/>
+		<set_skills parts="5" skills="3530-4"/>
+	</set>
+	<set chests="2382" head="90467" gloves="5768" feet="5780" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Tallum Plate Heavy Set(Heavy)-->
+		<set_skills parts="2" skills="3531-1"/>
+		<set_skills parts="3" skills="3531-2"/>
+		<set_skills parts="4" skills="3531-3"/>
+	</set>
+	<set chests="374" head="90473" gloves="5771" feet="5783" shield="2498" shield_skills="3549-1" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Nightmare Heavy Set(Heavy)-->
+		<set_skills parts="2" skills="3536-1"/>
+		<set_skills parts="3" skills="3536-2"/>
+		<set_skills parts="4" skills="3536-3"/>
+	</set>
+	<set chests="2383" head="90476" gloves="5774" feet="5786" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Majestic Plate Heavy Set(Heavy)-->
+		<set_skills parts="2" skills="3537-1"/>
+		<set_skills parts="3" skills="3537-2"/>
+		<set_skills parts="4" skills="3537-3"/>
+	</set>
+	<set chests="2385" legs="2389" head="90471" gloves="5766" feet="5778" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Dark Crystal Leather Set (Light)-->
+		<set_skills parts="2" skills="3532-1"/>
+		<set_skills parts="3" skills="3532-2"/>
+		<set_skills parts="4" skills="3532-3"/>
+		<set_skills parts="5" skills="3532-4"/>
+	</set>
+	<set chests="2393" head="90468" gloves="5769" feet="5781" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Tallum Leather Set (Light)-->
+		<set_skills parts="2" skills="3533-1"/>
+		<set_skills parts="3" skills="3533-2"/>
+		<set_skills parts="4" skills="3533-3"/>
+	</set>
+	<set chests="2394" head="90474" gloves="5772" feet="5784" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Nightmare Leather Set (Light)-->
+		<set_skills parts="2" skills="3538-1"/>
+		<set_skills parts="3" skills="3538-2"/>
+		<set_skills parts="4" skills="3538-3"/>
+	</set>
+	<set chests="2395" head="90477" gloves="5775" feet="5787" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Majestic Leather Set (Light)-->
+		<set_skills parts="2" skills="3539-1"/>
+		<set_skills parts="3" skills="3539-2"/>
+		<set_skills parts="4" skills="3539-3"/>
+	</set>
+	<set chests="2407" head="90472" gloves="5767" feet="5779" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Dark Crystal Robe Set (Robe)-->
+		<set_skills parts="2" skills="3535-1"/>
+		<set_skills parts="3" skills="3535-2"/>
+		<set_skills parts="4" skills="3535-3"/>
+	</set>
+	<set chests="2400" legs="2405" head="90469" gloves="5770" feet="5782" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Tallum Robe Set (Robe)-->
+		<set_skills parts="2" skills="3534-1"/>
+		<set_skills parts="3" skills="3534-2"/>
+		<set_skills parts="4" skills="3534-3"/>
+		<set_skills parts="5" skills="3534-4"/>
+	</set>
+	<set chests="2408" head="90475" gloves="5773" feet="5785" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Robe of Nightmare Set (Robe)-->
+		<set_skills parts="2" skills="3540-1"/>
+		<set_skills parts="3" skills="3540-2"/>
+		<set_skills parts="4" skills="3540-3"/>
+	</set>
+	<set chests="2409" head="90478" gloves="5776" feet="5788" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Majestic Robe Set (Robe)-->
+		<set_skills parts="2" skills="3541-1"/>
+		<set_skills parts="3" skills="3541-2"/>
+		<set_skills parts="4" skills="3541-3"/>
+	</set>
+	<!--S GRADE-->
+	<set chests="6373" legs="6374" head="6378" gloves="6375" feet="6376" shield="6377" shield_skills="3554-1" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">	<!--Imperial Crusader Set (Heavy)-->
+		<set_skills parts="2" skills="3553-1"/>
+		<set_skills parts="3" skills="3553-2"/>
+		<set_skills parts="4" skills="3553-3"/>
+		<set_skills parts="5" skills="3553-4"/>
+	</set>
+	<set chests="6379" head="6382" gloves="6380" feet="6381" enchant6skills="13340-1" enchant7skills="13340-2" enchant8skills="13340-3" enchant9skills="13340-4" enchant10skills="13340-5">	<!--Draconic Leather Set (Light)-->
+		<set_skills parts="2" skills="3555-1"/>
+		<set_skills parts="3" skills="3555-2"/>
+		<set_skills parts="4" skills="3555-3"/>
+	</set>
+	<set chests="6383" head="6386" gloves="6384" feet="6385" enchant6skills="13341-1" enchant7skills="13341-2" enchant8skills="13341-3" enchant9skills="13341-4" enchant10skills="13341-5">	<!--Major Arcana Robe Set (Robe)-->
+		<set_skills parts="2" skills="3556-1"/>
+		<set_skills parts="3" skills="3556-2"/>
+		<set_skills parts="4" skills="3556-3"/>
+	</set>
+	<!--
+	
+		MultImperia
+		
+	-->
+	<!-- Light Set Grade - NG -->
+	<set head="102001" chests="102004" legs="102007" >
+		<set_skills parts="3" skills="102001-1"/>
+	</set>
+	<set head="102002" chests="102005" legs="102008" >
+		<set_skills parts="3" skills="102001-2"/>
+	</set>
+	<set head="102003" chests="102006" legs="102009" >
+		<set_skills parts="3" skills="102001-3"/>
+	</set>
+	<!-- Robe Set Grade - NG -->
+	<set head="102010" chests="102013" legs="102016" >
+		<set_skills parts="3" skills="102002-1"/>
+	</set>
+	<set head="102011" chests="102014" legs="102017" >
+		<set_skills parts="3" skills="102002-2"/>
+	</set>
+	<set head="102012" chests="102015" legs="102018" >
+		<set_skills parts="3" skills="102002-3"/>
+	</set>
+	<!-- Heavy Set Grade - D -->
+	<set head="102019" chests="102022" legs="102025" >
+		<set_skills parts="3" skills="102003-1"/>
+	</set>
+	<set head="102020" chests="102023" legs="102026" >
+		<set_skills parts="3" skills="102003-2"/>
+	</set>
+	<set head="102021" chests="102024" legs="102027" >
+		<set_skills parts="3" skills="102003-3"/>
+	</set>
+	<!-- Light Set Grade - D -->
+	<set chests="102028" legs="102031" feet="102034">
+		<set_skills parts="3" skills="102004-1"/>
+	</set>
+	<set chests="102029" legs="102032" feet="102035" >
+		<set_skills parts="3" skills="102004-2"/>
+	</set>
+	<set chests="102030" legs="102033" feet="102036" >
+		<set_skills parts="3" skills="102004-3"/>
+	</set>
+	<!-- Robe Set Grade - D -->
+	<set chests="102037" legs="102040" gloves="102043">
+		<set_skills parts="3" skills="102005-1"/>
+	</set>
+	<set chests="102038" legs="102041" gloves="102044" >
+		<set_skills parts="3" skills="102005-2"/>
+	</set>
+	<set chests="102039" legs="102042" gloves="102045" >
+		<set_skills parts="3" skills="102005-3"/>
+	</set>
+	<!-- Heavy Set Grade - С -->
+	<set head="102046" chests="102049" >
+		<set_skills parts="2" skills="102006-1"/>
+	</set>
+	<set head="102047" chests="102050" >
+		<set_skills parts="2" skills="102006-2"/>
+	</set>
+	<set head="102048" chests="102051" >
+		<set_skills parts="2" skills="102006-3"/>
+	</set>
+	<!-- Light Set Grade - С -->
+	<set chests="102052" legs="102055" feet="102058">
+		<set_skills parts="3" skills="102007-1"/>
+	</set>
+	<set chests="102053" legs="102056" feet="102059" >
+		<set_skills parts="3" skills="102007-2"/>
+	</set>
+	<set chests="102054" legs="102057" feet="102060" >
+		<set_skills parts="3" skills="102007-3"/>
+	</set>
+	<!-- Robe Set Grade - С -->
+	<set chests="102061" legs="102064" gloves="102067">
+		<set_skills parts="3" skills="102008-1"/>
+	</set>
+	<set chests="102062" legs="102065" gloves="102068" >
+		<set_skills parts="3" skills="102008-2"/>
+	</set>
+	<set chests="102063" legs="102066" gloves="102069" >
+		<set_skills parts="3" skills="102008-3"/>
+	</set>
+	<!-- Robe 2 Set Grade - C -->
+	<set chests="102070" legs="102073" gloves="102076">
+		<set_skills parts="3" skills="102009-1"/>
+	</set>
+	<set chests="102071" legs="102074" gloves="102077" >
+		<set_skills parts="3" skills="102009-2"/>
+	</set>
+	<set chests="102072" legs="102075" gloves="102078" >
+		<set_skills parts="3" skills="102009-3"/>
+	</set>
+	
+	<!-- Heavy Set Grade - B -->
+	<set head="102079" chests="102082" gloves="102085" feet="102088">
+		<set_skills parts="4" skills="102010-1"/>
+	</set>
+	<set head="102080" chests="102083" gloves="102086" feet="102089">
+		<set_skills parts="4" skills="102010-2"/>
+	</set>
+	<set head="102081" chests="102084" gloves="102087" feet="102090">
+		<set_skills parts="4" skills="102010-3"/>
+	</set>
+	<!-- Light Set Grade - B -->
+	<set head="102091" chests="102094" gloves="102097" feet="102100">
+		<set_skills parts="4" skills="102011-1"/>
+	</set>
+	<set head="102092" chests="102095" gloves="102098" feet="102101">
+		<set_skills parts="4" skills="102011-2"/>
+	</set>
+	<set head="102093" chests="102096" gloves="102099" feet="102102">
+		<set_skills parts="4" skills="102011-3"/>
+	</set>
+	<!-- Robe Set Grade - B -->
+	<set head="102103" chests="102106" gloves="102109" feet="102112">
+		<set_skills parts="4" skills="102012-1"/>
+	</set>
+	<set head="102104" chests="102107" gloves="102110" feet="102113">
+		<set_skills parts="4" skills="102012-2"/>
+	</set>
+	<set head="102105" chests="102108" gloves="102111" feet="102114">
+		<set_skills parts="4" skills="102012-3"/>
+	</set>
+	<!-- Robe 2 Set Grade - B -->
+	<set head="102115" chests="102118" legs="102121" gloves="102124" feet="102127">
+		<set_skills parts="5" skills="102013-1"/>
+	</set>
+	<set head="102116" chests="102119" legs="102122" gloves="102125" feet="102128">
+		<set_skills parts="5" skills="102013-2"/>
+	</set>
+	<set head="102117" chests="102120" legs="102123" gloves="102126" feet="102129">
+		<set_skills parts="5" skills="102013-3"/>
+	</set>
+	
+	
+	
+	<!-- Heavy Set Grade - A -->
+	<set head="102130" chests="102133" gloves="102136" feet="102139">
+		<set_skills parts="4" skills="102014-1"/>
+	</set>
+	<set head="102131" chests="102134" gloves="102137" feet="102140">
+		<set_skills parts="4" skills="102014-2"/>
+	</set>
+	<set head="102132" chests="102135" gloves="102138" feet="102141">
+		<set_skills parts="4" skills="102014-3"/>
+	</set>
+	<!-- Light Set Grade - A -->
+	<set head="102142" chests="102145" gloves="102148" feet="102151">
+		<set_skills parts="4" skills="102015-1"/>
+	</set>
+	<set head="102143" chests="102146" gloves="102149" feet="102152">
+		<set_skills parts="4" skills="102015-2"/>
+	</set>
+	<set head="102144" chests="102147" gloves="102150" feet="102153">
+		<set_skills parts="4" skills="102015-3"/>
+	</set>
+	<!-- Robe Set Grade - A -->
+	<set head="102154" chests="102157" gloves="102160" feet="102163">
+		<set_skills parts="4" skills="102016-1"/>
+	</set>
+	<set head="102155" chests="102158" gloves="102161" feet="102164">
+		<set_skills parts="4" skills="102016-2"/>
+	</set>
+	<set head="102156" chests="102159" gloves="102162" feet="102165">
+		<set_skills parts="4" skills="102016-3"/>
+	</set>
+	
+	
+	
+	<!-- Heavy Set Grade - S -->
+	<set head="102166" chests="102169" legs="102172" gloves="102175" feet="102178">
+		<set_skills parts="5" skills="102017-1"/>
+	</set>
+	<set head="102167" chests="102170" legs="102173" gloves="102176" feet="102179">
+		<set_skills parts="5" skills="102017-2"/>
+	</set>
+	<set head="102168" chests="102171" legs="102174" gloves="102177" feet="102180">
+		<set_skills parts="5" skills="102017-3"/>
+	</set>
+	<!-- Light Set Grade - S -->
+	<set head="102181" chests="102184" gloves="102187" feet="102190">
+		<set_skills parts="4" skills="102018-1"/>
+	</set>
+	<set head="102182" chests="102185" gloves="102188" feet="102191">
+		<set_skills parts="4" skills="102018-2"/>
+	</set>
+	<set head="102183" chests="102186" gloves="102189" feet="102192">
+		<set_skills parts="4" skills="102018-3"/>
+	</set>
+	<!-- Robe Set Grade - S -->
+	<set head="102193" chests="102196" gloves="102199" feet="102202">
+		<set_skills parts="4" skills="102019-1"/>
+	</set>
+	<set head="102194" chests="102197" gloves="102200" feet="102203">
+		<set_skills parts="4" skills="102019-2"/>
+	</set>
+	<set head="102195" chests="102198" gloves="102201" feet="102204">
+		<set_skills parts="4" skills="102019-3"/>
+	</set>
+	
+	
+	
+	<!-- Heavy Set Grade - R -->
+	<set head="102205" chests="102206" legs="102207" gloves="102208" feet="102209" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102020-1"/>
+	</set>
+	<!-- Light Set Grade - R -->
+	<set head="102210" chests="102211" legs="102212" gloves="102213" feet="102214" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102021-1"/>
+	</set>
+	<!-- Robe Set Grade - R -->
+	<set head="102215" chests="102216" legs="102217" gloves="102218" feet="102219" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102022-1"/>
+	</set>
+	
+	
+	
+	<!-- Heavy Set Grade - R95 -->
+	<set head="102220" chests="102221" legs="102222" gloves="102223" feet="102224" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102023-1"/>
+	</set>
+	<!-- Light Set Grade - R95 -->
+	<set head="102225" chests="102226" legs="102227" gloves="102228" feet="102229" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102024-1"/>
+	</set>
+	<!-- Robe Set Grade - R95 -->
+	<set head="102230" chests="102231" legs="102232" gloves="102233" feet="102234" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102025-1"/>
+	</set>
+	
+	
+	
+	<!-- Heavy Set Grade - R99 -->
+	<set head="102235" chests="102236" legs="102237" gloves="102238" feet="102239" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102026-1"/>
+	</set>
+	<!-- Light Set Grade - R99 -->
+	<set head="102240" chests="102241" legs="102242" gloves="102243" feet="102244" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102027-1"/>
+	</set>
+	<!-- Robe Set Grade - R99 -->
+	<set head="102245" chests="102246" legs="102247" gloves="102248" feet="102249" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102028-1"/>
+	</set>
+	
+	
+	
+	<!-- Heavy Set Grade - R110 -->
+	<set head="102250" chests="102251" legs="102252" gloves="102253" feet="102254" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102029-1"/>
+	</set>
+	<!-- Light Set Grade - R110 -->
+	<set head="102255" chests="102256" legs="102257" gloves="102258" feet="102259" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102030-1"/>
+	</set>
+	<!-- Robe Set Grade - R110 -->
+	<set head="102260" chests="102261" legs="102262" gloves="102263" feet="102264" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102031-1"/>
+	</set>
+	
+	
+	<!-- Heavy Set Grade - R110 -->
+	<set head="102265" chests="102266" legs="102267" gloves="102268" feet="102269" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5" enchant12skills="13339-5" enchant16skills="13339-5" enchant20skills="13339-5">
+		<set_skills parts="5" skills="102032-1"/>
+	</set>
+	<!-- Light Set Grade - R110 -->
+	<set head="102270" chests="102271" legs="102272" gloves="102273" feet="102274" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102033-1"/>
+	</set>
+	<!-- Robe Set Grade - R110 -->
+	<set head="102275" chests="102276" legs="102277" gloves="102278" feet="102279" enchant6skills="13339-1" enchant7skills="13339-2" enchant8skills="13339-3" enchant9skills="13339-4" enchant10skills="13339-5">
+		<set_skills parts="5" skills="102034-1"/>
+	</set>
+</list>

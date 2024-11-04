@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="GameServer" type="Application" factoryName="Application" nameIsGenerated="true">
+    <classpathModifications>
+      <entry path="D:\IdeaProjects\Multiproff388Scripts\dist\gameserver\config" />
+    </classpathModifications>
+    <option name="MAIN_CLASS_NAME" value="l2s.gameserver.GameServer" />
+    <module name="gameserver1" />
+    <option name="VM_PARAMETERS" value="-server -Dfile.encoding=UTF-8 -Xms2g -Xmx5g" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dist/gameserver" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

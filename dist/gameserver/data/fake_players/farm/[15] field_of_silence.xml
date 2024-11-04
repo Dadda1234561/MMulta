@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE farm SYSTEM "fake_player.dtd">
+<!--AUTHOR: Bonux-->
+<farm name="Field of Silence" min_level="78" max_level="88">
+	<zones>
+		<zone>
+			<polygon>
+				<coords loc="83624 162968 -5000 -2000"/>
+				<coords loc="83624 162968 -5000 -2000"/>
+				<coords loc="105368 209768 -5000 -2000"/>
+				<coords loc="94120 162264 -5000 -2000"/>
+			</polygon>
+		</zone>
+		<spawn_points>
+			<coords loc="87656 163768 -3536"/>
+		</spawn_points>
+	</zones>
+	<on_obtain_max_level>
+		<wait min_delay="1000" max_delay="3000"/>
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</on_obtain_max_level>
+	<go_to_town min_farm_time="1800" max_farm_time="3600">
+		<random_action>
+			<use_item id="10650"/>	<!--Используем SoE-->
+			<teleport_to_closest_town/> <!--Просто улетаем в ближайший город-->
+		</random_action>
+	</go_to_town>
+</farm>

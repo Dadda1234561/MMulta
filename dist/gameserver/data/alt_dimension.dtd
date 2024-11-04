@@ -1,0 +1,15 @@
+<!ELEMENT list (location)*>
+    <!ELEMENT location (description|coordinates)*>
+    <!ATTLIST location
+            id CDATA #REQUIRED
+            name CDATA #REQUIRED
+            rebirths CDATA #REQUIRED
+            need4Prof CDATA #REQUIRED>
+    <!ELEMENT description (desc)*>
+    <!ELEMENT desc (#PCDATA)>
+    <!ELEMENT coordinates (loc)*>
+    <!ELEMENT loc (#PCDATA)>
+    <!ATTLIST loc
+            x CDATA #REQUIRED
+            y CDATA #REQUIRED
+            z CDATA #REQUIRED>

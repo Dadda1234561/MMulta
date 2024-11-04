@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "multisell.dtd">
+<list>
+    <config no_tax="true" type="CHANCED"/>
+
+    <!-- Брошка -->
+
+    <item>
+        <production id="104051" count="1" chance="100000000" /> <!-- Брошка 1 ур -->
+
+        <ingredient id="105544" count="1"/>
+
+        <ingredient id="70004" count="10000"/>
+        <ingredient id="70019" count="30"/>
+        <ingredient id="106414" count="4000"/>
+        <ingredient id="70000" count="20"/>
+        <ingredient id="70010" count="5000"/>
+        <ingredient id="17371" count="2000"/>
+        <ingredient id="28359" count="3000"/>
+		<ingredient id="70018" count="100"/>
+    </item>
+    <item>
+        <production id="104052" count="1" chance="100000000" /> <!-- Брошка 2 ур -->
+
+        <ingredient id="104051" count="1"/>
+
+        <ingredient id="70004" count="15000"/>
+        <ingredient id="70019" count="40"/>
+        <ingredient id="106414" count="8000"/>
+        <ingredient id="70000" count="35"/>
+        <ingredient id="70010" count="10000"/>
+        <ingredient id="17371" count="5000"/>
+        <ingredient id="28359" count="5000"/>
+		<ingredient id="70018" count="200"/>
+    </item>
+    <item>
+        <production id="104053" count="1" chance="100000000" /> <!-- Брошка 3 ур -->
+
+        <ingredient id="104052" count="1"/>
+
+        <ingredient id="70046" count="10000"/>
+        <ingredient id="70004" count="20000"/>
+        <ingredient id="70019" count="50"/>
+        <ingredient id="106414" count="12000"/>
+        <ingredient id="70000" count="40"/>
+        <ingredient id="70010" count="20000"/>
+        <ingredient id="17371" count="10000"/>
+        <ingredient id="28359" count="10000"/>
+		<ingredient id="70018" count="300"/>
+    </item>
+    <item>
+        <production id="104054" count="1" chance="100000000" /> <!-- Брошка 4 ур -->
+
+        <ingredient id="104053" count="1"/>
+
+        <ingredient id="70046" count="12500"/>
+        <ingredient id="70004" count="25000"/>
+        <ingredient id="70019" count="60"/>
+        <ingredient id="106414" count="16000"/>
+        <ingredient id="70000" count="50"/>
+        <ingredient id="70010" count="30000"/>
+        <ingredient id="17371" count="20000"/>
+        <ingredient id="26475" count="150"/>
+		<ingredient id="70018" count="500"/>
+    </item>
+    <item>
+        <production id="104055" count="1" chance="100000000" /> <!-- Брошка 5 ур -->
+
+        <ingredient id="104054" count="1"/>
+
+        <ingredient id="70046" count="15000"/>
+        <ingredient id="70004" count="30000"/>
+        <ingredient id="70019" count="70"/>
+        <ingredient id="106414" count="20000"/>
+        <ingredient id="70000" count="60"/>
+        <ingredient id="70010" count="50000"/>
+        <ingredient id="17371" count="30000"/>
+        <ingredient id="26475" count="300"/>
+		<ingredient id="70018" count="750"/>
+    </item>
+</list>

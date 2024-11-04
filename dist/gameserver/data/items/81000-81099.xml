@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "item.dtd">
+<list>
+	<armor id="81000" name="PA - Dragon Skin Shirt" add_name="4-hour">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_dragon_shirt"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="130"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="NONE"/>
+		</equip>
+		<for>
+			<add stat="pDef" order="0x10" value="46"/>
+			<add stat="mDef" order="0x10" value="23"/>
+		</for>
+	</armor>
+	<armor id="81001" name="PA - Emerald Lv. 5" add_name="4-hour">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_jewel_emerald_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="240"/>
+		<set name="temporal" value="true"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="JEWEL"/>
+		</equip>
+		<skills>
+			<skill id="17825" level="5"/>	<!-- Изумруд Ур. 5 -->
+		</skills>
+	</armor>
+	<armor id="81002" name="PA - Diamond Lv. 5" add_name="4-hour">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_jewel_diamond_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="240"/>
+		<set name="temporal" value="true"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="JEWEL"/>
+		</equip>
+		<skills>
+			<skill id="17708" level="5"/>	<!-- Бриллиант Ур. 5 -->
+		</skills>
+	</armor>
+	<armor id="81003" name="PA - Opal Lv. 5" add_name="4-hour">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_jewel_opal_i00"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="240"/>
+		<set name="temporal" value="true"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="JEWEL"/>
+		</equip>
+		<skills>
+			<skill id="17705" level="5"/>	<!--Opal-->
+		</skills>
+	</armor>
+	<armor id="81004" name="PA - Vital Stone Lv. 5" add_name="4-hour">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_jewel_vital"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="240"/>
+		<set name="temporal" value="true"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="JEWEL"/>
+		</equip>
+		<skills>
+			<skill id="18568" level="5"/>
+			<skill id="27439" level="4"/>
+		</skills>
+	</armor>
+	<armor id="81005" name="PA - Red Cat's Eye Lv. 5" add_name="4-hour">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.bm_jewel_red_catseye"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="240"/>
+		<set name="temporal" value="true"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="JEWEL"/>
+		</equip>
+		<skills>
+			<skill id="18713" level="5"/>
+		</skills>
+	</armor>
+	<armor id="81006" name="PA - Blue Cat's Eye Lv. 5" add_name="4-hour">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="Icon.bm_jewel_blue_catseye"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="5"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="durability" value="240"/>
+		<set name="temporal" value="true"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="JEWEL"/>
+		</equip>
+		<skills>
+			<skill id="18714" level="5"/>
+		</skills>
+	</armor>
+	<armor id="81007" name="PA - La Vie En Rose's Brooch" add_name="4-hour">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.etc_bm_brooch_lavianrose_i03"/>
+		<set name="type" value="NONE"/>
+		<set name="weight" value="10"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="GLOVES"/>
+		</equip>
+		<for>
+			<add stat="mDef" order="0x10" value="101"/>
+		</for>
+	</armor>
+	<etcitem id="81008" name="Helios Dual Swords Crafting Pack">
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81009" name="Helios Dual Daggers Crafting Pack">
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81010" name="Helios Dual Blunt Weapon Crafting Pack">
+		<set name="icon" value="icon.event_hero_treasure_box_i00"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81011" name="Honey Dark Beer" add_name="Event">
+	<!-- При использовании на 30 мин. все базовые характеристики +3, бонус энергии +30%.\n\nЭффект сохраняется после смерти. Время перезарядки: 5 мин.\nНельзя использовать на Олимпиаде. -->
+		<set name="icon" value="icon.bm_royal_black_beer"/>
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="type" value="POTION"/>
+		<set name="stackable" value="true"/>
+		<set name="reuse_delay" value="300000"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="autouse_type" value="BUFF"/>
+		<skills>
+			<skill id="39570" level="1"/> <!-- Honey Dark Beer -->
+		</skills>
+	</etcitem>
+	<etcitem id="81012" name="Emperor's Special Cocktail" add_name="Event">
+	<!-- На 60 мин. дает эффекты 5-го уровня Поэмы Рога, Поэмы Гитары, Поэмы Органа и Поэмы Барабана, эффект Гармонии Фантазии 2-го уровня, эффекты Барабанный Бой Битвы, Барабанный Бой Движения, Барабанный Бой Расслабления, Мелодия Фантазии, Сопротивление Стихиям, Сопротивление Злым Чарам, Сопротивление Психическим Атакам.\n\nВнимание!\nЭффект сохраняется после смерти. Время перезарядки: 5 мин. Нельзя использовать на Олимпиаде.\n\nСнять эффект можно нажатием Alt + левая кнопка мыши. -->
+		<set name="icon" value="icon.cocktail_heaven_i00"/>
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="300000"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="autouse_type" value="BUFF"/>
+		<skills>
+			<skill id="39520" level="1"/>
+		</skills>
+	</etcitem>
+	<etcitem id="81013" name="Shining Nevit's Gold Hourglass" add_name="Event">
+	<!-- На 30 мин. во время охоты бонус опыта и SP +100%. Не действует одновременно с эффектами Падение Дракона, Счастливый Мяч Данди. Время перезарядки: 5 мин. -->
+		<set name="icon" value="icon.bm_dragon_breath"/>
+		<set name="stackable" value="true"/>
+		<set name="type" value="POTION"/>
+		<set name="reuse_delay" value="300000"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="autouse_type" value="BUFF"/>
+		<skills>
+			<skill id="39571" level="1"/> <!-- Shining Nevit's Gold Hourglass -->
+		</skills>
+	</etcitem>
+	<etcitem id="81014" name="PA Event Appearance Potion - Bear">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81015" name="Potion of Appearance for PA Event - Red Wizard">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81016" name="Pink's Style Potion - Red Archer">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81017" name="Pink's Style Potion - Green Archer">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81018" name="PA Event Potion of Appearance - Samurai">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81019" name="Potion of Appearance for PA Event - Plush Cat">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81020" name="Potion of Appearance for PA Event - Dark Assassin Suit">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81021" name="Potion of Appearance for PA Event - White Assassin Suit">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81022" name="Pink's Style Potion - Metal Suit">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81023" name="Pink's Style Potion - Red Noblesse">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81024" name="Potion of Appearance for PA Event - White Noblesse">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81025" name="Pink's Style Potion - Blue Musketeer">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81026" name="Pink's Style Potion - Red Musketeer">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81027" name="Pink's Style Potion - Pirate Captain">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81028" name="Pink's Style Potion - Pirate">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81029" name="Pink's Style Potion - Purple Cowboy">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81030" name="PA Event Potion of Appearance - Healer">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81031" name="Pink's Style Potion - Chevalier">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81032" name="Pink's Style Potion - Cat">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81033" name="Pink's Style Potion - Barbarian Wolf">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81034" name="Pink's Style Potion - Valkyrie">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81035" name="PA Event Potion of Appearance - Steward">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81036" name="PA Event Potion of Appearance - Alice">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81037" name="PA Event Appearance Potion - Steampunk">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81038" name="Potion of Appearance for PA Event - Lovely Hanbok">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81039" name="PA Event Potion of Appearance - Jester">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81040" name="Pink's Style Potion - Elite Knight">
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81041" name="Potion of Appearance for PA Event - Red Dragon Knight">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81042" name="PA Event Potion of Appearance - Assassin">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<etcitem id="81043" name="Potion of Appearance for PA Event - Yellow Nymph">
+		<set name="sellable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="tradeable" value="false"/>
+		<set name="icon" value="icon.dragon_dye_i01"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="commissionable" value="false"/>
+	</etcitem>
+	<armor id="81044" name="Steward Outfit">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_new_clothes_01"/>
+		<set name="type" value="HEAVY"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="81045" name="Alice's Costume">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_new_clothes_02"/>
+		<set name="type" value="HEAVY"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="81046" name="Steampunk Outfit">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.king_black_i00"/>
+		<set name="type" value="HEAVY"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="81047" name="Lovely Hanbok">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_kr_traditional_dress2"/>
+		<set name="type" value="HEAVY"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="81048" name="Jester Outfit">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.ev_new_clothes_05"/>
+		<set name="type" value="HEAVY"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="81049" name="Elite Knight Outfit">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.king_black_i00"/>
+		<set name="type" value="HEAVY"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="81050" name="Red Dragon Knight Outfit">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.king_black_i00"/>
+		<set name="type" value="HEAVY"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="81051" name="Assassin Suit">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.new_assassin_suit_i01"/>
+		<set name="type" value="HEAVY"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<armor id="81052" name="Yellow Nymph Costume">
+		<set name="crystal_type" value="NONE"/>
+		<set name="icon" value="icon.king_black_i00"/>
+		<set name="type" value="HEAVY"/>
+		<set name="commissionable" value="false"/>
+		<equip>
+			<slot id="FORMAL_WEAR"/>
+		</equip>
+	</armor>
+	<etcitem id="81053" name="Vitality">
+		<set name="icon" value="icon.bm_freya_potion"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="type" value="POTION"/>
+		<set name="handler" value="SkillsReduce"/>
+		<cond>
+			<player maximum_vitality_points="131250"/>
+		</cond>
+		<skills>
+			<skill id="39577" level="1"/> <!-- Vitality -->
+		</skills>
+	</etcitem>
+	<etcitem id="81054" name="Freya's Scroll of Storm" add_name="Event">
+		<!-- На 10 мин. во время охоты расход энергии +150%, бонус опыта и SP +150%. Эффект сохраняется после смерти. Время перезарядки: 9 мин. Можно использовать только при наличии 1 и более деления энергии. Нельзя использовать на Олимпиаде.\n\nНе действует одновременно с эффектами предметов Свиток Ветра Фреи, Свиток Ветра Мафр, Свиток Призыва Данди, Свиток Роста Императора, Свиток Жаркой Страсти, Ветер Энергии, Ветер Барда. -->
+		<set name="icon" value="icon.bm_freya_storm_scroll"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="tradeable" value="false"/>
+		<set name="dropable" value="false"/>
+		<set name="is_olympiad_can_use" value="false"/>
+		<set name="privatestoreable" value="false"/>
+		<set name="sellable" value="false"/>
+		<set name="commissionable" value="false"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="handler" value="SkillsReduce"/>
+		<cond>
+			<player minimum_vitality_points="35000"/>
+		</cond>
+		<skills>
+			<skill id="39610" level="1"/> <!-- Freya's Scroll of Storm -->
+		</skills>
+	</etcitem>
+	<etcitem id="81055" name="Legendary Dye Lv. 1 (P. Atk.)" add_name="STR +3, DEX +3">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_defence"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81056" name="Legendary Dye Lv. 2 (P. Atk.)" add_name="STR +3, DEX +3, CHA +1">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_defence"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81057" name="Legendary Dye Lv. 3 (P. Atk.)" add_name="STR +4, DEX +4, CHA +2">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_defence"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81058" name="Legendary Dye Lv. 4 (P. Atk.)" add_name="STR +4, DEX +5, CHA +3">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_defence"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81059" name="Legendary Dye Lv. 5 (P. Atk.)" add_name="STR +5, DEX +5, CHA +4">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_defence"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81060" name="Legendary Dye Lv. 6 (P. Atk.)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_defence"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81061" name="Legendary Dye Lv. 7 (P. Atk.)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_defence"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81062" name="Legendary Dye Lv. 8 (P. Atk.)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_defence"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81063" name="Legendary Dye Lv. 9 (P. Atk.)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_defence"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81064" name="Legendary Dye Lv. 10 (P. Atk.)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_defence"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81065" name="Legendary Dye Lv. 1 (Standard Attack Critical Damage)" add_name="STR +3, DEX +3">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_slaughter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81066" name="Legendary Dye Lv. 2 (Standard Attack Critical Damage)" add_name="STR +3, DEX +3, CHA +1">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_slaughter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81067" name="Legendary Dye Lv. 3 (Standard Attack Critical Damage)" add_name="STR +4, DEX +4, CHA +2">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_slaughter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81068" name="Legendary Dye Lv. 4 (Standard Attack Critical Damage)" add_name="STR +4, DEX +5, CHA +3">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_slaughter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81069" name="Legendary Dye Lv. 5 (Standard Attack Critical Damage)" add_name="STR +5, DEX +5, CHA +4">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_slaughter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81070" name="Legendary Dye Lv. 6 (Standard Attack Critical Damage)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_slaughter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81071" name="Legendary Dye Lv. 7 (Standard Attack Critical Damage)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_slaughter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81072" name="Legendary Dye Lv. 8 (Standard Attack Critical Damage)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_slaughter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81073" name="Legendary Dye Lv. 9 (Standard Attack Critical Damage)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_slaughter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81074" name="Legendary Dye Lv. 10 (Standard Attack Critical Damage)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_etc_slaughter"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81075" name="Legendary Dye Lv. 1 (P. Skill Critical Damage)" add_name="STR +3, DEX +3">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81076" name="Legendary Dye Lv. 2 (P. Skill Critical Damage)" add_name="STR +3, DEX +3, CHA +1">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81077" name="Legendary Dye Lv. 3 (P. Skill Critical Damage)" add_name="STR +4, DEX +4, CHA +2">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81078" name="Legendary Dye Lv. 4 (P. Skill Critical Damage)" add_name="STR +4, DEX +5, CHA +3">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81079" name="Legendary Dye Lv. 5 (P. Skill Critical Damage)" add_name="STR +5, DEX +5, CHA +4">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81080" name="Legendary Dye Lv. 6 (P. Skill Critical Damage)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81081" name="Legendary Dye Lv. 7 (P. Skill Critical Damage)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81082" name="Legendary Dye Lv. 8 (P. Skill Critical Damage)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81083" name="Legendary Dye Lv. 9 (P. Skill Critical Damage)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81084" name="Legendary Dye Lv. 10 (P. Skill Critical Damage)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_unholy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81085" name="Legendary Dye Lv. 1 (P. Skill Power)" add_name="STR +3, DEX +3">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_holy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81086" name="Legendary Dye Lv. 2 (P. Skill Power)" add_name="STR +3, DEX +3, CHA +1">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_holy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81087" name="Legendary Dye Lv. 3 (P. Skill Power)" add_name="STR +4, DEX +4, CHA +2">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_holy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81088" name="Legendary Dye Lv. 4 (P. Skill Power)" add_name="STR +4, DEX +5, CHA +3">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_holy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81089" name="Legendary Dye Lv. 5 (P. Skill Power)" add_name="STR +5, DEX +5, CHA +4">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_holy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81090" name="Legendary Dye Lv. 6 (P. Skill Power)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_holy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81091" name="Legendary Dye Lv. 7 (P. Skill Power)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_holy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81092" name="Legendary Dye Lv. 8 (P. Skill Power)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_holy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81093" name="Legendary Dye Lv. 9 (P. Skill Power)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_holy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81094" name="Legendary Dye Lv. 10 (P. Skill Power)" add_name="STR +5, DEX +5, CHA +5">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_holy"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81095" name="Legendary Dye Lv. 1 (M. Atk.)" add_name="INT +3, WIT +3">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_fire"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81096" name="Legendary Dye Lv. 2 (M. Atk.)" add_name="INT +3, WIT +3, CHA +1">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_fire"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81097" name="Legendary Dye Lv. 3 (M. Atk.)" add_name="INT +4, WIT +4, CHA +2">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_fire"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81098" name="Legendary Dye Lv. 4 (M. Atk.)" add_name="INT +4, WIT +5, CHA +3">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_fire"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+	<etcitem id="81099" name="Legendary Dye Lv. 5 (M. Atk.)" add_name="INT +5, WIT +5, CHA +4">
+		<set name="icon" value="BranchSys3.icon1.g_premium_dye_attribute_fire"/>
+		<set name="stackable" value="true"/>
+		<set name="crystal_type" value="NONE"/>
+		<set name="sellable" value="false"/>
+	</etcitem>
+</list>

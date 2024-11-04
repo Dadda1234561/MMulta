@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE list SYSTEM "skill.dtd">
+<list>
+	<skill id="32100" levels="1" name="Dance of Sword's Flower">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill32100"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="5000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32101" levels="2" name="Art of Merciless Seduction">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill32101"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32102" levels="1" name="Liberation">
+		<set name="icon" value="icon.skill32102"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32103" levels="1" name="Vertical Slash">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.dual_t_atkup"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32104" levels="1" name="Aggression">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0028"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32105" levels="1" name="Shock Wave">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32106" levels="1" name="War Cry">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0078"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32107" levels="1" name="Multi-Shot">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32108" levels="1" name="Fast Loading Arrow">
+		<set name="icon" value="icon.skill0099"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32109" levels="1" name="Unholy Spike">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32110" levels="1" name="Great Heal">
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32111" levels="1" name="Fire Double Guns">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill32111"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32112" levels="1" name="Drain Energy">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32113" levels="1" name="Savior's Blessing">
+		<set name="icon" value="BranchSys2.icon.the_fall_of_dragon"/>
+		<set name="castRange" value="1200"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32114" levels="1" name="No Resurrection Magic">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill_resurrection"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32115" levels="1" name="Cyclone of Chaos">
+		<set name="icon" value="icon.skill32028"/>
+		<set name="castRange" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32116" levels="1" name="End of Darkness">
+		<set name="icon" value="icon.skill32030"/>
+		<set name="castRange" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32117" levels="1" name="Knight of Splendor">
+		<set name="icon" value="icon.skill32115"/>
+		<table name="#stat">2</table>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<effect>
+				<add stat="INT" value="#stat"/>
+				<add stat="STR" value="#stat"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="32118" levels="1" name="Knight of Light">
+		<set name="icon" value="icon.skill32116"/>
+		<table name="#stat">2</table>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<effect>
+				<add stat="CON" value="#stat"/>
+				<add stat="MEN" value="#stat"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="32119" levels="1" name="Protection of Light">
+		<set name="icon" value="icon.skill32117"/>
+		<table name="#PveDamage">1.05</table>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<effect>
+				<mul stat="pvePhysDmgBonus" value="#PveDamage"/>
+				<mul stat="pveMagicSkillDmgBonus" value="#PveDamage"/>
+				<mul stat="pvePhysSkillDmgBonus" value="#PveDamage"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="32120" levels="1" name="Knight of Darkness">
+		<set name="icon" value="icon.skill32118"/>
+		<table name="#powercrit">5</table>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<effect>
+				<p_critical_damage value="#powercrit" type="PER"/>
+				<p_magic_critical_dmg value="#powercrit" type="PER"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="32121" levels="1" name="Dark Knight">
+		<set name="icon" value="icon.skill32119"/>
+		<table name="#pmdef">1.05</table>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<effect>
+				<mul stat="pDef" value="#pmdef"/>
+				<mul stat="mDef" value="#pmdef"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="32122" levels="1" name="Protection of Darkness">
+		<set name="icon" value="icon.skill32120"/>
+		<table name="#PvpDamage">1.10</table>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+		<for>
+			<effect>
+				<mul stat="pvpPhysDmgBonus" value="#PvpDamage"/>
+				<mul stat="pvpMagicSkillDmgBonus" value="#PvpDamage"/>
+				<mul stat="pvpPhysSkillDmgBonus" value="#PvpDamage"/>
+			</effect>
+		</for>
+	</skill>
+	<skill id="32123" levels="1" name="Residence Guard">
+		<set name="icon" value="icon.skill32121"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="32124" levels="1" name="Residence Dominion">
+		<set name="icon" value="icon.skill32121"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="P"/>
+	</skill>
+	<skill id="32125" levels="1" name="Snow Spray">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill11136"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32126" levels="1" name="Group Dance">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill5008_psycho"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32127" levels="1" name="Power Hitter">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-1"/>
+		<set name="icon" value="icon.skill1432"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32128" levels="1" name="Double Lariat">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill10262"/>
+		<set name="reuseDelay" value="15000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32129" levels="5" name="Raid Shield">
+		<set name="icon" value="icon.skill0110"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32130" levels="1" name="Balthus Knights' Mark">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.balthus_buff"/>
+		<set name="coolTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32131" levels="2" name="Tarti Hydro Attack">
+		<set name="effectPoint" value="-692"/>
+		<set name="icon" value="icon.skill30001"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32132" levels="1" name="Tarti Air Rush">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-696"/>
+		<set name="icon" value="icon.skill30012"/>
+		<set name="reuseDelay" value="7000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32133" levels="1" name="Herphah Power Bomber">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-700"/>
+		<set name="icon" value="icon.skill10262"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32134" levels="1" name="Herphah Hurricane Storm">
+		<set name="effectPoint" value="-709"/>
+		<set name="icon" value="icon.skill10288"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32135" levels="1" name="Stig Chain Hydra">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-2093"/>
+		<set name="icon" value="icon.skill10016"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32136" levels="1" name="Stig Gust Blade">
+		<set name="effectPoint" value="-1378"/>
+		<set name="icon" value="icon.skill10013"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="370"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32137" levels="1" name="Balthus Superior Aggression Aura">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-10330"/>
+		<set name="icon" value="icon.skill10027"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32138" levels="1" name="Balthus King of Beasts">
+		<set name="effectPoint" value="-3541"/>
+		<set name="icon" value="icon.skill10023"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32139" levels="1" name="Balthus Sonic Star">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-700"/>
+		<set name="icon" value="icon.skill10281"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32140" levels="1" name="Balthus Furious Slasher">
+		<set name="effectPoint" value="673"/>
+		<set name="icon" value="icon.skill10334"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="coolTime" value="200"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32141" levels="1" name="Balthus Shadow Illusion">
+		<set name="effectPoint" value="-687"/>
+		<set name="icon" value="icon.skill10532"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="400"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32142" levels="1" name="Balthus Angel of Death">
+		<set name="effectPoint" value="700"/>
+		<set name="icon" value="icon.skill10531"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32143" levels="1" name="Balthus Multiple Arrow">
+		<set name="effectPoint" value="-689"/>
+		<set name="icon" value="icon.skill10771"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="350"/>
+		<set name="castRange" value="800"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32144" levels="1" name="Balthus Phoenix Arrow">
+		<set name="effectPoint" value="-706"/>
+		<set name="icon" value="icon.skill10781"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="800"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32145" levels="1" name="Balthus Arcane Rage">
+		<set name="effectPoint" value="-700"/>
+		<set name="icon" value="icon.skill11350"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32146" levels="1" name="Balthus Invoke">
+		<set name="effectPoint" value="-700"/>
+		<set name="icon" value="icon.skill11263"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32147" levels="1" name="Balthus Arcana's Call">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11387"/>
+		<set name="reuseDelay" value="500"/>
+		<set name="coolTime" value="200"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32148" levels="1" name="Balthus Chaos Symphony">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-707"/>
+		<set name="icon" value="icon.skill11533"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32149" levels="1" name="Balthus Ensemble Melody">
+		<set name="effectPoint" value="696"/>
+		<set name="icon" value="icon.skill19421"/>
+		<set name="reuseDelay" value="2000"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32150" levels="1" name="Balthus Brilliant Heal">
+		<set name="effectPoint" value="1734"/>
+		<set name="icon" value="icon.skill11757"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32151" levels="1" name="Balthus Brilliant Recharge">
+		<set name="effectPoint" value="1798"/>
+		<set name="icon" value="icon.skill11761"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32152" levels="2" name="Balthus Elemental Spike">
+		<table name="#hitTime">700 1500</table>
+		<set name="effectPoint" value="-687"/>
+		<set name="icon" value="icon.skill11011"/>
+		<set name="coolTime" value="300"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="#hitTime"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32153" levels="1" name="Balthus Updraft Destruction">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-687"/>
+		<set name="icon" value="icon.skill11017"/>
+		<set name="reuseDelay" value="6700"/>
+		<set name="coolTime" value="1000"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32154" levels="1" name="Balthus Quadruple Blaster">
+		<set name="effectPoint" value="-709"/>
+		<set name="icon" value="icon.skill11067"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="600"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32155" levels="1" name="Balthus Gravity Hit">
+		<set name="effectPoint" value="-700"/>
+		<set name="icon" value="icon.skill30504"/>
+		<set name="reuseDelay" value="9000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32156" levels="1" name="Balthus Steel Mind">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill30520"/>
+		<set name="reuseDelay" value="60000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32157" levels="1" name="Balthus Hydro Attack">
+		<set name="effectPoint" value="-692"/>
+		<set name="icon" value="icon.skill30001"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32158" levels="2" name="Balthus Sayha's Word">
+		<table name="#hitTime">2000 5500</table>
+		<table name="#reuseDelay">15000 0</table>
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-687"/>
+		<set name="icon" value="icon.skill30019"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="80"/>
+		<set name="hitTime" value="#hitTime"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32159" levels="2" name="Balthus Divine Storm">
+		<table name="#reuseDelay">10000 0</table>
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-707"/>
+		<set name="icon" value="icon.iconskill30007"/>
+		<set name="reuseDelay" value="#reuseDelay"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32160" levels="1" name="Antharas' Breath - Balthus Knights">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-418"/>
+		<set name="icon" value="icon.skill4683"/>
+		<set name="reuseDelay" value="30000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32161" levels="1" name="Blessed Scroll of Resurrection - Balthus Knight">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11826"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32162" levels="1" name="Antharas' Anger">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32163" levels="1" name="Curse of Antharas">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill4109"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32164" levels="1" name="Antharas Stun">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-700"/>
+		<set name="icon" value="icon.skill10281"/>
+		<set name="reuseDelay" value="10000"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32165" levels="1" name="Gemini Dragon Power Strike">
+		<set name="effectPoint" value="-96"/>
+		<set name="icon" value="icon.skill0006"/>
+		<set name="coolTime" value="400"/>
+		<set name="castRange" value="40"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32166" levels="1" name="Power Bomber">
+		<set name="effectPoint" value="-341"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32167" levels="1" name="Balthus Knight's Yoke">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="343"/>
+		<set name="icon" value="icon.skill1540"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32168" levels="1" name="Release Balthus Knight's Yoke">
+		<set name="effectPoint" value="566"/>
+		<set name="icon" value="icon.skill1018"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32169" levels="1" name="Noblesse Blessing - GM's Blessing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.skill19224"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="hitTime" value="500"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32170" levels="1" name="Emblem of Salvation - GM's Blessing">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11826"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32171" levels="1" name="Emblem of Salvation - GM's Blessing">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11826"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="hitTime" value="500"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32172" levels="1" name="Freya's Art of Seduction Barrier - GM's Blessing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32173" levels="1" name="Freya's Art of Seduction EXP - GM's Blessing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32174" levels="1" name="Pa'agrio's Blessing Might- GM's Blessing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32175" levels="1" name="Pa'agrio's Blessing EXP- GM's Blessing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="castRange" value="900"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32176" levels="1" name="Freya's Art of Seduction Barrier - GM's Blessing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="hitTime" value="500"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32177" levels="1" name="Freya's Art of Seduction EXP - GM's Blessing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.bm_freya_rose_red_i00"/>
+		<set name="hitTime" value="500"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32178" levels="1" name="Pa'agrio's Blessing Might- GM's Blessing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="hitTime" value="500"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32179" levels="1" name="Pa'agrio's Blessing EXP- GM's Blessing">
+		<set name="effectPoint" value="1"/>
+		<set name="icon" value="icon.nshop_bless_of_paagrio"/>
+		<set name="hitTime" value="500"/>
+		<set name="autouse_type" value="BUFF"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32180" levels="1" name="Balthus Feline Touch">
+		<set name="effectPoint" value="-687"/>
+		<set name="icon" value="icon.skill1234"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="2200"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32181" levels="1" name="Balthus Emblem of Salvation">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill11826"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="1500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32182" levels="1" name="Dark Horizon">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill10262"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="2000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32183" levels="1" name="Balthus Resurrection">
+		<set name="effectPoint" value="2"/>
+		<set name="icon" value="icon.skill11784"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1100"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32184" levels="1" name="Fatal Wound Recovery">
+		<set name="effectPoint" value="700"/>
+		<set name="icon" value="icon.skill19428"/>
+		<set name="reuseDelay" value="1000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3600000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32185" levels="7" name="Protection of Seven Seals">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32186" levels="7" name="Protection of Seven Seals">
+		<set name="icon" value="icon.karma"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32187" levels="1" name="Tarti's Eye of the Storm">
+		<set name="effectPoint" value="687"/>
+		<set name="icon" value="icon.skill30016"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="1000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32188" levels="1" name="Teleport to Timiniel's Embrace">
+		<set name="effectPoint" value="2"/>
+		<set name="icon" value="icon.noblessescape_scroll_i00"/>
+		<set name="reuseDelay" value="1800000"/>
+		<set name="hitTime" value="10000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32189" levels="1" name="Aggression Resistance">
+		<set name="icon" value="icon.skill0015"/>
+		<set name="hitTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32190" levels="1" name="Etina's Curse">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill1100"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32191" levels="1" name="Yoke of Scarlet">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill5016"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32192" levels="1" name="Scarlett's Rage">
+		<set name="effectPoint" value="100"/>
+		<set name="icon" value="icon.skill1062"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32193" levels="1" name="Frintezza Demon Energy Bomb">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill16856"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32194" levels="1" name="Frintezza Demon Energy Bomb">
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill16856"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="castRange" value="1200"/>
+		<set name="hitTime" value="3000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32195" levels="4" name="Frintezza Demon Field">
+		<table name="#hitTime">5000 6600 5000 6600</table>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="#hitTime"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32196" levels="2" name="Scarlet’s Breath (HP Drain)">
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0000"/>
+		<set name="reuseDelay" value="3000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="5000"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32197" levels="2" name="Requiem of Hatred">
+		<table name="#hitTime">2000 3000</table>
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0501"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="#hitTime"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32198" levels="1" name="Fugue of Rapture">
+		<set name="icon" value="icon.skill0094"/>
+		<set name="coolTime" value="500"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+	<skill id="32199" levels="2" name="Mournful Chorale Prelude">
+		<table name="#hitTime">2000 3000</table>
+		<set name="debuff" value="true"/>
+		<set name="effectPoint" value="-100"/>
+		<set name="icon" value="icon.skill0774"/>
+		<set name="reuseDelay" value="5000"/>
+		<set name="coolTime" value="500"/>
+		<set name="hitTime" value="#hitTime"/>
+		<set name="target" value="TARGET_NONE"/>
+		<set name="skillType" value="NOTUSED"/>
+		<set name="operate_type" value="A2"/>
+	</skill>
+</list>
