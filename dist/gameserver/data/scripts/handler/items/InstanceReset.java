@@ -52,6 +52,13 @@ public class InstanceReset extends SimpleItemHandler {
 //        }
 
         InstantZone instantZone = InstantZoneHolder.getInstance().getInstantZone(templateId);
+        if (InstantZoneHolder.getInstance().getInstantZone(75) == instantZone
+         || InstantZoneHolder.getInstance().getInstantZone(76) == instantZone
+         || InstantZoneHolder.getInstance().getInstantZone(77) == instantZone
+         || InstantZoneHolder.getInstance().getInstantZone(78) == instantZone) {
+            player.sendMessage(player.isLangRus() ? "Вы не можете сбрасывать эту зону." : "You cannot reset this instance.");
+            return;
+        }
         int resetCount = player.getVarInt("InstanceResetCount", 5);
         if(resetCount >= 1) {
             if (!reduceItem(player, itemByItemId)) {
