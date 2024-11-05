@@ -53,7 +53,7 @@ public class GearScoreParser extends StatParser<GearScoreHolder> {
                         }
                         template.setGearScore(GearScoreType.GS_BASE, 0, baseGearScore);
                         getHolder().addItemId(template.getItemId());
-                        info(String.format("[itemGroup] Setting GS(%s) for %s atlvl=%d value=%d", template, GearScoreType.GS_BASE.name(), 0, baseGearScore));
+                        //info(String.format("[itemGroup] Setting GS(%s) for %s atlvl=%d value=%d", template, GearScoreType.GS_BASE.name(), 0, baseGearScore));
                         parseModifiers(element, template);
                         for (Iterator<Element> childIterator = element.elementIterator(); childIterator.hasNext(); ) {
                             Element child = childIterator.next();
