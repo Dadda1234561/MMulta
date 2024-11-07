@@ -6,6 +6,7 @@ import l2s.gameserver.Announcements;
 import l2s.gameserver.Config;
 import l2s.gameserver.geometry.Location;
 import l2s.gameserver.listener.actor.player.OnAnswerListener;
+import l2s.gameserver.model.AggroList;
 import l2s.gameserver.model.Creature;
 import l2s.gameserver.model.GameObjectsStorage;
 import l2s.gameserver.model.Player;
@@ -109,7 +110,7 @@ public class EventRaidBossInstance extends RaidBossInstance {
         // Announce the boss spawn
         Announcements.getInstance().announceByCustomMessage("EventRaidBoss.spawn.announce", new String[] {getName()}, ChatType.BATTLEFIELD);
 
-        for (Player player : GameObjectsStorage.getAllPlayersForIterate()) {
+        /*for (Player player : GameObjectsStorage.getAllPlayersForIterate()) {
             // Check if player is offline
             if (isTeleportUnavailable(player)) {
                 continue;
@@ -129,7 +130,7 @@ public class EventRaidBossInstance extends RaidBossInstance {
 
                 }
             });
-        }
+        }*/
     }
 
     @Override
@@ -145,6 +146,14 @@ public class EventRaidBossInstance extends RaidBossInstance {
     @Override
     protected void onDeath(Creature killer) {
         super.onDeath(killer);
+
+        for(AggroList.HateInfo ai : getAggroList().getPlayableMap().values()) {
+            if(ai.attacker.getPlayer().getRebirthCount() >= 3){
+                dropItem(ai.attacker.getPlayer(), 70000, 1);
+                dropItem(ai.attacker.getPlayer(), 70027, 2);
+            }
+        }
+
         Player player = killer.getPlayer();
         if (player == null) {
             return;
@@ -152,8 +161,10 @@ public class EventRaidBossInstance extends RaidBossInstance {
         _isKilled.set(true);
         // Announce last hit
         Announcements.getInstance().announceByCustomMessage("EventRaidBoss.lasthit.announce", new String[] {player.getName(), getName()}, ChatType.BATTLEFIELD);
-        for(RewardList rewardList : getRewardLists())
+        /*for(RewardList rewardList : getRewardLists()){ зачем?
+            System.out.println("reward = " + rewardList.toString());
             rollRewards(rewardList, player);
+        }*/
     }
 
     public void rollRewards(RewardList list, Creature lastAttacker)
