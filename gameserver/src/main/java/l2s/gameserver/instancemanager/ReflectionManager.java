@@ -41,7 +41,7 @@ public class ReflectionManager
 	public static final Reflection FOG_INSTANCE = Reflection.createReflection(-1012);
 	public static final Reflection ADEN_SIEGE_INSTANCE = Reflection.createReflection(-1013);
 	//public static final Reflection COAL_MINE = Reflection.createReflection(-1014);
-	public static final Reflection FROZEN_CANYON = Reflection.createReflection(-1015);
+	//public static final Reflection FROZEN_CANYON = Reflection.createReflection(-1015);
 
 	private static final ReflectionManager _instance = new ReflectionManager();
 
@@ -81,7 +81,7 @@ public class ReflectionManager
 		add(FOG_INSTANCE);
 		add(ADEN_SIEGE_INSTANCE);
 		//add(COAL_MINE);
-		add(FROZEN_CANYON);
+		//add(FROZEN_CANYON);
 
 		// создаем в рефлекте все зоны, и все двери
 		MAIN.init(DoorHolder.getInstance().getDoors(), ZoneHolder.getInstance().getZones());
@@ -161,10 +161,10 @@ public class ReflectionManager
 		//COAL_MINE.setReturnLoc(field.getExitLoc());
 		//COAL_MINE.spawnByGroup("COAL_MINE");
 		//-----------------------------------------------
-		field = TimeRestrictFieldHolder.getInstance().getFields().get(25);
-		FROZEN_CANYON.setTeleportLoc(field.getEnterLoc());
-		FROZEN_CANYON.setReturnLoc(field.getExitLoc());
-		FROZEN_CANYON.spawnByGroup("FROZEN_CANYON");
+		//field = TimeRestrictFieldHolder.getInstance().getFields().get(25);
+		//FROZEN_CANYON.setTeleportLoc(field.getEnterLoc());
+		//FROZEN_CANYON.setReturnLoc(field.getExitLoc());
+		//FROZEN_CANYON.spawnByGroup("FROZEN_CANYON");
 
 		Map<String, ZoneTemplate> _dummy = new HashMap<String, ZoneTemplate>();
 

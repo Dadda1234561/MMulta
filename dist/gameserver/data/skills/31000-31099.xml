@@ -650,56 +650,57 @@
 
     <skill id="31113" levels="2" name="Божественное Воскрешение Оракула"> <!-- Сила Маг.Крит.Атк +10/20%. -->
         <set name="icon" value="icon.skill31110"/>
-        <table name="#value">100 200</table>
+        <table name="#value1">100 200</table>
+        <table name="#value2">50 100</table>
         <set name="operate_type" value="P"/>
         <for>
             <effect>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value2">
                     <using kind="Bow,Crossbow,Two Hand Crossbow"/>
                 </add>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value1">
                     <using kind="Dagger"/>
                 </add>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value1">
                     <using kind="Dual Dagger"/>
                 </add>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value1">
                     <using kind="Pole"/>
                 </add>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value1">
                     <using kind="Sword"/>
                 </add>
-                <add order="0x10" stat="mAtkRange" value="#value">
+                <add order="0x10" stat="mAtkRange" value="#value1">
                     <using kind="Sword"/>
                 </add>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value1">
                     <using kind="Big Sword"/>
                 </add>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value1">
                     <using kind="Dual Sword"/>
                 </add>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value1">
                     <using kind="Blunt"/>
                 </add>
-                <add order="0x10" stat="mAtkRange" value="#value">
+                <add order="0x10" stat="mAtkRange" value="#value1">
                     <using kind="Blunt"/>
                 </add>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value1">
                     <using kind="Big Blunt"/>
                 </add>
-                <add order="0x10" stat="mAtkRange" value="#value">
+                <add order="0x10" stat="mAtkRange" value="#value1">
                     <using kind="Big Blunt"/>
                 </add>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value1">
                     <using kind="Dual Blunt"/>
                 </add>
-                <add order="0x10" stat="mAtkRange" value="#value">
+                <add order="0x10" stat="mAtkRange" value="#value1">
                     <using kind="Dual Blunt"/>
                 </add>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value1">
                     <using kind="Fist"/>
                 </add>
-                <add order="0x10" stat="pAtkRange" value="#value">
+                <add order="0x10" stat="pAtkRange" value="#value1">
                     <using kind="Dual Fist"/>
                 </add>
             </effect>

@@ -104,6 +104,13 @@ public class InstanceReset extends SimpleItemHandler {
                     continue;
                 }
 
+                if (instantZone == InstantZoneHolder.getInstance().getInstantZone(75) ||
+                    instantZone == InstantZoneHolder.getInstance().getInstantZone(76) ||
+                    instantZone == InstantZoneHolder.getInstance().getInstantZone(77) ||
+                    instantZone == InstantZoneHolder.getInstance().getInstantZone(78)) {
+                    continue;
+                }
+
                 int nextEntrance = InstantZoneHolder.getInstance().getMinutesToNextEntrance(instanceId, player) * 60;
 
                 sb.append("<tr>" +

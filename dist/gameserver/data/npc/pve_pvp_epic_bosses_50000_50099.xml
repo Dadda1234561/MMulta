@@ -47,16 +47,15 @@
             <set name="flagAttacker" value="true" />
         </ai_params>
         <rewardlist type="EVENT_RATED_NOT_GROUPED">
-		<group>
-            <reward item_id="106415" min="100" max="100" chance="100"/>
-		</group>
+		    <group>
+                <reward item_id="106415" min="100" max="100" chance="100"/>
+		    </group>
         </rewardlist>
         <rewardlist type="NOT_RATED_GROUPED">
             <group>
                 <reward item_id="70018" min="10" max="10" chance="100"/>
             </group>
         </rewardlist>
-
     </npc>
     <npc id="50001" name="Королева Муравьев [PVE] / Queen Ant [PVE]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -281,6 +280,9 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+        </ai_params>
     </npc>
     <npc id="50006" name="Баюм [PVP] / Baium [PVP]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -323,6 +325,10 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+            <set name="flagAttacker" value="true" />
+        </ai_params>
     </npc>
     <npc id="50007" name="Баюм [PVE] / Baium [PVE]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -365,6 +371,9 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+        </ai_params>
     </npc>
     <npc id="50008" name="Антарас [PVP] / Antharas [PVP]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -456,6 +465,9 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+        </ai_params>
     </npc>
     <npc id="50010" name="Закен [PVP] / Zaken [PVP]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -497,6 +509,10 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="300"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+            <set name="flagAttacker" value="true" />
+        </ai_params>
     </npc>
     <npc id="50011" name="Закен [PVE] / Zaken [PVE]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -538,6 +554,9 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="300"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+        </ai_params>
     </npc>
     <npc id="50012" name="Фринтеза [PVP] / Frinteza [PVP]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -580,6 +599,10 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+            <set name="flagAttacker" value="true" />
+        </ai_params>
     </npc>
     <npc id="50013" name="Фринтеза [PVE] / Frinteza [PVE]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -622,6 +645,9 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+        </ai_params>
     </npc>
     <npc id="50014" name="Клакиес [PVP] / Klakiyess [PVP]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -663,6 +689,10 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+            <set name="flagAttacker" value="true" />
+        </ai_params>
     </npc>
     <npc id="50015" name="Клакиес [PVE] / Klakiyess [PVE]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -704,6 +734,9 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+        </ai_params>
     </npc>
     <npc id="50016" name="Чудовище [PVP] / Monster [PVP]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -745,6 +778,10 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+            <set name="flagAttacker" value="true" />
+        </ai_params>
     </npc>
     <npc id="50017" name="Чудовище [PVE] / Monster [PVE]" title="Страж MultImperia">
         <set name="type" value="EventRaidBoss"/>
@@ -786,5 +823,8 @@
         <set name="baseSafeHeight" value="100"/>
         <set name="aggroRange" value="0"/>
         <set name="shots" value="NONE"/>
+        <ai_params>
+            <set name="ParalizeOnAttack" value="1000" />
+        </ai_params>
     </npc>
 </list>
