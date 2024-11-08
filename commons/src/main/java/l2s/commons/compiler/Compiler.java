@@ -14,9 +14,8 @@ import javax.tools.DiagnosticListener;
 import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
+import javax.tools.ToolProvider;
 
-import org.eclipse.jdt.internal.compiler.tool.EclipseCompiler;
-import org.eclipse.jdt.internal.compiler.tool.EclipseFileManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,10 +29,10 @@ public class Compiler
 {
 	private static final Logger _log = LoggerFactory.getLogger(Compiler.class);
 
-	private static final JavaCompiler javac = new EclipseCompiler();
+	private static final JavaCompiler javac = ToolProvider.getSystemJavaCompiler();
 
 	private final DiagnosticListener<JavaFileObject> listener = new DefaultDiagnosticListener();
-	private final StandardJavaFileManager fileManager = new EclipseFileManager(Locale.getDefault(), Charset.defaultCharset());
+	private final StandardJavaFileManager fileManager = javac.getStandardFileManager(listener, Locale.getDefault(), Charset.defaultCharset());
 	private final MemoryClassLoader memClassLoader = new MemoryClassLoader();
 	private final MemoryJavaFileManager memFileManager = new MemoryJavaFileManager(fileManager, memClassLoader);
 
@@ -45,7 +44,7 @@ public class Compiler
 		options.add("-warn:none");
 		//options.add("-g:none");
 		options.add("-g");
-		options.add("-1.8");
+		options.add("-target 1.8");
 		//options.add("-deprecation");
 
 		Writer writer = new StringWriter();
