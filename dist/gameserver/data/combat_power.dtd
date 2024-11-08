@@ -3,6 +3,12 @@
         <!ATTLIST itemGroup
                 grade CDATA #REQUIRED
                 baseGearScore CDATA #REQUIRED>
+
+        <!ELEMENT item (enchantModifier|variationModifier|ensoulModifier|skillModifier)*>
+        <!ATTLIST item
+                id CDATA #REQUIRED
+                baseGearScore CDATA #REQUIRED>
+
         <!ELEMENT enchantModifier (enchant)*>
         <!ELEMENT enchant (#PCDATA)>
         <!ATTLIST enchant
@@ -13,6 +19,7 @@
                 isBlessed CDATA #IMPLIED
                 level CDATA #IMPLIED
                 toLevel CDATA #IMPLIED>
+
         <!ELEMENT variationModifier (variation)*>
         <!ELEMENT variation (#PCDATA)>
         <!ATTLIST variation
@@ -21,6 +28,7 @@
                 perScore CDATA #IMPLIED
                 mineralId CDATA #IMPLIED
                 optionId CDATA #IMPLIED>
+
         <!ELEMENT ensoulModifier (ensoul)*>
         <!ELEMENT ensoul (#PCDATA)>
         <!ATTLIST ensoul
@@ -28,16 +36,14 @@
                 value CDATA #IMPLIED
                 perScore CDATA #IMPLIED
                 optionId CDATA #REQUIRED>
+
         <!ELEMENT skillModifier (skill)*>
-        <!ELEMENT skill (#PCDATA)>
+        <!ELEMENT skill (skillModifier)*>
         <!ATTLIST skill
+                type CDATA #REQUIRED
+                id CDATA #REQUIRED
+                level CDATA #IMPLIED
                 value CDATA #IMPLIED
                 perScore CDATA #IMPLIED
-                level CDATA #IMPLIED
-                id CDATA #REQUIRED
                 fromLevel CDATA #IMPLIED
                 toLevel CDATA #IMPLIED>
-        <!ELEMENT item (enchantModifier|variationModifier|ensoulModifier|skillModifier)*>
-        <!ATTLIST item
-                id CDATA #REQUIRED
-                baseGearScore CDATA #REQUIRED>

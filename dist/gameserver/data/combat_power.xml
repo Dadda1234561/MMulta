@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE list SYSTEM "combat_power.dtd" >
+<!DOCTYPE list SYSTEM "combat_power.dtd">
 <list>
-    <!-- Grouped items by grade (Default options) -->
     <item id="106222" baseGearScore="10">
         <enchantModifier>
-            <enchant type="GS_NORMAL" level="1" value="5" />
-            <enchant type="GS_NORMAL" level="2" value="10" />
-            <enchant type="GS_NORMAL" level="3" value="15" />
-            <enchant type="GS_NORMAL" level="4" value="20" />
-            <enchant type="GS_NORMAL" fromLevel="6" toLevel="999" value="20" />
+            <enchant type="GS_NORMAL" fromLevel="1" toLevel="1" value="5" />
+            <enchant type="GS_NORMAL" fromLevel="2" toLevel="2" value="10"/>
+            <enchant type="GS_NORMAL" fromLevel="3" toLevel="3" value="350"/>
         </enchantModifier>
         <variationModifier>
             <variation type="GS_VARIATION_BY_MINERAL_ID" mineralId="33" value="5" />
-            <variation type="GS_VARIATION_BY_OPTION_ID" optionId="33" value="5" />
         </variationModifier>
         <ensoulModifier>
             <ensoul type="GS_ANY_ENSOUL_BY_OPTION_ID" optionId="22222" value="5" perScore="1.1" />
@@ -21,8 +17,11 @@
     <itemGroup grade="A" baseGearScore="100">
         <enchantModifier>
             <enchant type="GS_NORMAL" level="5" value="50" />
-            <enchant type="GS_NORMAL" fromLevel="6" toLevel="10" value="100" />
         </enchantModifier>
     </itemGroup>
-    <skill id="334" fromLevel="1" toLevel="10" value="10" />
+
+    <skill type="GS_HAS_SKILL" id="334" fromLevel="1" toLevel="1" value="10"  />
+    <skill type="GS_HAS_SKILL" id="3444" fromLevel="1" toLevel="10" value="10"  />
+
+
 </list>
